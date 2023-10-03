@@ -26,7 +26,7 @@ jobs:
           sudo apt install -y sox libsox-fmt-mp3 ffmpeg
           pip install requests sox b2sdk pillow google-api-python-client google-auth google-auth-oauthlib
           npm install puppeteer
-          mkdir json thumbnails frames
+          mkdir json thumbnails frames videos
       - name: Python preprocessing
         run: |
           python preprocess.py https://www.oyez.org/cases/2023/22-340
