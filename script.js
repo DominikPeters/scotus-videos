@@ -16,9 +16,9 @@ let currentOpinion = -1;
 
 function setUpCase(caseNumber) {
     Promise.all([
-        fetch(`http://[::]:8002/json/${caseNumber}.json`).then(response => response.json()),
-        fetch(`http://[::]:8002/json/${caseNumber}-audio.json`).then(response => response.json()),
-        fetch(`http://[::]:8002/json/${caseNumber}-interactions.json`).then(response => response.json())
+        fetch(`http://localhost:8002/json/${caseNumber}.json`).then(response => response.json()),
+        fetch(`http://localhost:8002/json/${caseNumber}-audio.json`).then(response => response.json()),
+        fetch(`http://localhost:8002/json/${caseNumber}-interactions.json`).then(response => response.json())
     ]).then((jsons) => {
         case_data = jsons[0];
         audio_data = jsons[1];
@@ -28,7 +28,7 @@ function setUpCase(caseNumber) {
         if (hasAnnouncements) {
             // for each announcement, load its json (filename: announcement["json"])
             Promise.all(interactions_data.announcements.map(announcement => 
-                fetch(`http://[::]:8002/${announcement.json}`).then(response => response.json()))).then(
+                fetch(`http://localhost:8002/${announcement.json}`).then(response => response.json()))).then(
                     (announcementsJsons) => { announcements = announcementsJsons; }
                 );
         }
