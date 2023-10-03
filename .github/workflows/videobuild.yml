@@ -20,7 +20,7 @@ jobs:
           node-version: '20'
       - name: Download YouTube credential
         run: |
-          curl --silent -o credentials.json ${{ secrets.CREDENTIAL_URL }}
+          curl -o credentials.json ${{ secrets.CREDENTIAL_URL }}
       - name: Install dependencies
         run: |
           sudo apt install -y sox libsox-fmt-mp3 ffmpeg
