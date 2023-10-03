@@ -40,4 +40,6 @@ jobs:
           python -m http.server 8002 &
           node screenshot.js 63561
       - name: Push file to server
-        run: curl --silent --upload-file thumbnails/63561.png --user f0146955:${{ secrets.ftp_password }} ftp://w008ef9a.kasserver.com
+        run: |
+          curl --silent --upload-file thumbnails/63561.png --user f0146955:${{ secrets.ftp_password }} ftp://w008ef9a.kasserver.com
+          curl --silent --upload-file frames/63561/frame-1.png --user f0146955:${{ secrets.ftp_password }} ftp://w008ef9a.kasserver.com
