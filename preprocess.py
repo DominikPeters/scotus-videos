@@ -58,14 +58,16 @@ advocates = {adv["advocate"]["name"]: (adv['advocate']['name'], adv['advocate'][
             for adv in case_metadata["advocates"]}
 all_advocates = set(advocates.keys())
 # check that for each advocate, file "advocates/<advocate_identifier>.jpg" exists, else show warning
+missing = False
 for advocate_name, advocate in advocates.items():
     if not os.path.exists(f"advocates/{advocate[1]}.jpg"):
+        missing = True
         print(f"Warning: Advocate {advocate[1]} has no image")
         # open browser to a google image search for advocate_name
-        subprocess.run(["open", f"http://localhost:8002/crop.html?filename={advocate[1]}.jpg&searchterm={advocate_name.replace(' ', '+')}&searchurl=https://www.google.com/search?q={advocate_name.replace(' ', '+')}%26tbm=isch"])
-        time.sleep(0.1)
-        # subprocess.run(["open", f"https://www.google.com/search?q={advocate_name.replace(' ', '+')}&tbm=isch"])
-        time.sleep(0.1)
+        print(f"Go to https://scotusstats.com/crop.html?filename={advocate[1]}.jpg&searchterm={advocate_name.replace(' ', '+')}&searchurl=https://www.google.com/search?q={advocate_name.replace(' ', '+')}%26tbm=isch")
+
+if missing:
+    raise Exception("Missing advocates")
 
 json_object = {"sections" : {}}
 
