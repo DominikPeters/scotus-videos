@@ -25,13 +25,13 @@ jobs:
           pip install sox
           npm install puppeteer
           mkdir json thumbnails frames mp3
-      - name: Download and Install Myriad Pro font
-        run: |
-          curl -L -o myriadpro.zip "${{ secrets.FONT_ZIP_URL }}"
-          unzip myriadpro.zip -d myriadpro
-          sudo mkdir -p /usr/local/share/fonts/myriadpro
-          sudo mv myriadpro/*.otf /usr/local/share/fonts/myriadpro/
-          sudo fc-cache -f -v
+      # - name: Download and Install Myriad Pro font
+      #   run: |
+      #     curl -L -o myriadpro.zip "${{ secrets.FONT_ZIP_URL }}"
+      #     unzip myriadpro.zip -d myriadpro
+      #     sudo mkdir -p /usr/local/share/fonts/myriadpro
+      #     sudo mv myriadpro/*.otf /usr/local/share/fonts/myriadpro/
+      #     sudo fc-cache -f -v
       - name: Python preprocessing
         run: |
           python preprocess.py https://www.oyez.org/cases/2023/22-340
