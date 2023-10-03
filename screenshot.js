@@ -113,13 +113,15 @@ function formatTime(seconds) {
 
     // conclusion screen
     console.log("Conclusion.");
-    await page.evaluate(() => {
+    const showingConclusion = await page.evaluate(() => {
         showConclusion();
     });
-    await page.screenshot({ path: `frames/${caseNumber}/frame-${i}.png` });
-    console.log(`  ${formatTime(totalTime)} frame-${i}.png. duration: 5`);
-    fs.writeSync(frameDurations, `file frame-${i}.png\nduration 5\n`);
-    i++;
+    if (showingConclusion) {
+        await page.screenshot({ path: `frames/${caseNumber}/frame-${i}.png` });
+        console.log(`  ${formatTime(totalTime)} frame-${i}.png. duration: 5`);
+        fs.writeSync(frameDurations, `file frame-${i}.png\nduration 5\n`);
+        i++;
+    }
 
     const interactions = JSON.parse(fs.readFileSync(`json/${caseNumber}-interactions.json`));
     if (interactions.announcements.length > 0) {

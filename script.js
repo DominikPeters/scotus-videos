@@ -232,6 +232,11 @@ function showSplash() {
 }
 
 function showConclusion() {
+    // check if case_data has conclusion
+    if (case_data.conclusion == null) {
+        // no conclusion
+        return false;
+    }
     for (let element of document.querySelectorAll('.active-speaker')) {
         element.classList.remove('active-speaker');
     }
@@ -262,6 +267,7 @@ function showConclusion() {
     conclusion.innerHTML = case_data.conclusion;
     caseInfo.appendChild(conclusion);
     adjustFontSize();
+    return true;
 }
 
 function announceOpinionAnnouncements() {
