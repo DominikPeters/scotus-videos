@@ -20,7 +20,7 @@ jobs:
           node-version: '20'
       - name: Install dependencies
         run: |
-          sudo apt install -y sox libsox-fmt-mp3
+          sudo apt install -y sox libsox-fmt-mp3 ffmpeg
           pip install requests
           pip install sox
           npm install puppeteer
@@ -39,3 +39,5 @@ jobs:
         run: |
           python -m http.server 8002 &
           node screenshot.js 63561
+      - name: Push file to server
+        run: curl --silent --upload-file thumbnails/63561.png --user f0146955:${{ secrets.ftp_password }} ftp://w008ef9a.kasserver.com
