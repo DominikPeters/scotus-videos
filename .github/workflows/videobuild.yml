@@ -22,22 +22,17 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20'
-      - name: Download YouTube credential
-        run: |
-          curl --retry 3 -o credentials.json ${{ secrets.CREDENTIAL_URL }}
-      - name: Install dependencies
-        run: |
-          sudo apt install -y sox libsox-fmt-mp3 ffmpeg
-          pip install requests sox b2sdk pillow google-api-python-client google-auth google-auth-oauthlib
-          npm install puppeteer
-          mkdir json thumbnails frames videos
       - name: Get Oyez link
         id: get_oyez_link
         uses: actions/github-script@v6
         with:
           result-encoding: string
           script: |
-            const issue = context.issue;
+            const issue = github.rest.issues.get({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo
+            });
             const repoOwner = context.repo.owner;
             const issueOwner = issue.user.login;
             const body = issue.body;
@@ -53,6 +48,12 @@ jobs:
             } else {
               throw new Error("The issue body does not contain a valid oyez link.");
             }
+      - name: Install dependencies
+        run: |
+          sudo apt install -y sox libsox-fmt-mp3 ffmpeg
+          pip install requests sox b2sdk pillow google-api-python-client google-auth google-auth-oauthlib
+          npm install puppeteer
+          mkdir json thumbnails frames videos
       - name: Fetch and preprocess Oyez data
         run: |
           python preprocess.py ${{ steps.get_oyez_link.outputs.result }}
@@ -69,6 +70,7 @@ jobs:
           B2_APP_KEY_ID: ${{ secrets.B2_APP_KEY_ID }}
           YT_DEV_KEY: ${{ secrets.YT_DEV_KEY }}
         run: |
+          curl --retry 3 -o credentials.json ${{ secrets.CREDENTIAL_URL }}
           python upload-video.py
         # run: |
         #   curl --silent --upload-file thumbnails/63561.png --user f0146955:${{ secrets.ftp_password }} ftp://w008ef9a.kasserver.com
@@ -79,13 +81,13 @@ jobs:
           script: |
             const fs = require('fs');
             const commentContent = fs.readFileSync('comment.txt', 'utf8');
-            await github.issues.createComment({
+            await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
               body: commentContent
             });
-            await github.issues.update({
+            await github.rest.issues.update({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
