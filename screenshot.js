@@ -76,10 +76,6 @@ function formatTime(seconds) {
             response.duration -= 5;
         }
 
-        if (i == 5) {
-            break;
-        }
-
         await page.screenshot({ path: `frames/${caseNumber}/frame-${i}.png` });
         // don't end log with newline
         process.stdout.write(`  ${formatTime(totalTime)} frame-${i}.png. duration: ${response.duration.toFixed(2)}`);

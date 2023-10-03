@@ -1,5 +1,9 @@
 name: Build video
-on: [push]
+on:
+  issues:
+    types:
+      - reopened
+      - opened
 jobs:
   build_video:
     runs-on: ubuntu-latest
@@ -20,16 +24,38 @@ jobs:
           node-version: '20'
       - name: Download YouTube credential
         run: |
-          curl -o credentials.json ${{ secrets.CREDENTIAL_URL }}
+          curl --retry 3 -o credentials.json ${{ secrets.CREDENTIAL_URL }}
       - name: Install dependencies
         run: |
           sudo apt install -y sox libsox-fmt-mp3 ffmpeg
           pip install requests sox b2sdk pillow google-api-python-client google-auth google-auth-oauthlib
           npm install puppeteer
           mkdir json thumbnails frames videos
-      - name: Python preprocessing
+      - name: Get Oyez link
+        id: get_oyez_link
+        uses: actions/github-script@v6
+        with:
+          result-encoding: string
+          script: |
+            const issue = context.issue;
+            const repoOwner = context.repo.owner;
+            const issueOwner = issue.user.login;
+            const body = issue.body;
+            const oyezLinkPattern = /https:\/\/www\.oyez\.org\/cases\/\d{4}\/[\w-]+/;
+
+            if(issueOwner !== repoOwner) {
+              throw new Error("Issue owner is not the repo owner.");
+            }
+
+            const linkMatch = body.match(oyezLinkPattern);
+            if(linkMatch) {
+              return linkMatch[0];
+            } else {
+              throw new Error("The issue body does not contain a valid oyez link.");
+            }
+      - name: Fetch and preprocess Oyez data
         run: |
-          python preprocess.py https://www.oyez.org/cases/2023/22-340
+          python preprocess.py ${{ steps.get_oyez_link.outputs.result }}
       - name: Node screenshots
         run: |
           python -m http.server 8002 &
@@ -47,3 +73,21 @@ jobs:
         # run: |
         #   curl --silent --upload-file thumbnails/63561.png --user f0146955:${{ secrets.ftp_password }} ftp://w008ef9a.kasserver.com
         #   curl --silent --upload-file frames/63561/frame-1.png --user f0146955:${{ secrets.ftp_password }} ftp://w008ef9a.kasserver.com
+      - name: Close issue with a comment from comment.txt
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const commentContent = fs.readFileSync('comment.txt', 'utf8');
+            await github.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: commentContent
+            });
+            await github.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              state: 'closed'
+            });

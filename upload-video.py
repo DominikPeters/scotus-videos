@@ -84,6 +84,9 @@ def main():
             response = request.execute()
             print(json.dumps(response, indent=4))
             print("")
+            with open("comment.txt", "w") as file:
+                file.write("Uploaded to YouTube\n\n")
+                file.write(f"https://www.youtube.com/watch?v={response['videoId']}")
     except Exception as e:
         print(e)
         print("Possible authentication error, uploading to B2")
@@ -96,6 +99,11 @@ def main():
         bucket.upload_local_file(local_file=f"videos/{case_number}.mp4", file_name=f"{case_number}.mp4")
         bucket.upload_local_file(local_file=f"thumbnails/{case_number}.jpg", file_name=f"{case_number}.jpg")
         bucket.upload_local_file(local_file=f"json/{case_number}-interactions.json", file_name=f"{case_number}-interactions.json")
+        with open("comment.txt", "w") as file:
+            file.write("Uploaded to B2 because upload to YouTube failed\n\n")
+            file.write(f"https://scotus-videos.s3.us-west-002.backblazeb2.com/{case_number}.mp4")
+            file.write(f"https://scotus-videos.s3.us-west-002.backblazeb2.com/{case_number}.jpg")
+            file.write(f"https://scotus-videos.s3.us-west-002.backblazeb2.com/{case_number}-interactions.json")
 
 
 
