@@ -33,14 +33,15 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo
             });
+            console.log(issue);
             const repoOwner = context.repo.owner;
-            const issueOwner = issue.user.login;
+            // const issueOwner = issue.user.login;
             const body = issue.body;
             const oyezLinkPattern = /https:\/\/www\.oyez\.org\/cases\/\d{4}\/[\w-]+/;
 
-            if(issueOwner !== repoOwner) {
-              throw new Error("Issue owner is not the repo owner.");
-            }
+            // if(issueOwner !== repoOwner) {
+            //   throw new Error("Issue owner is not the repo owner.");
+            // }
 
             const linkMatch = body.match(oyezLinkPattern);
             if(linkMatch) {
