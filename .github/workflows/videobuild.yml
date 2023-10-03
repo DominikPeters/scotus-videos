@@ -25,25 +25,19 @@ jobs:
       - name: Get Oyez link
         id: get_oyez_link
         uses: actions/github-script@v6
+        env:
+          ISSUE_OWNER: ${{ github.event.issue.user.login }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
         with:
           result-encoding: string
           script: |
-            const issue = github.rest.issues.get({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo
-            });
-            console.log(issue);
-            const repoOwner = context.repo.owner;
-            // const issueOwner = issue.user.login;
-            const body = issue.body;
             const oyezLinkPattern = /https:\/\/www\.oyez\.org\/cases\/\d{4}\/[\w-]+/;
 
-            // if(issueOwner !== repoOwner) {
-            //   throw new Error("Issue owner is not the repo owner.");
-            // }
+            if(process.env.ISSUE_OWNER !== context.repo.owner) {
+              throw new Error("Issue owner is not the repo owner.");
+            }
 
-            const linkMatch = body.match(oyezLinkPattern);
+            const linkMatch = process.env.ISSUE_BODY.match(oyezLinkPattern);
             if(linkMatch) {
               return linkMatch[0];
             } else {
