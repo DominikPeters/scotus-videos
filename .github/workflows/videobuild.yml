@@ -20,7 +20,7 @@ jobs:
           node-version: '20'
       - name: Install dependencies
         run: |
-          sudo apt install -y sox
+          sudo apt install -y sox libsox-fmt-mp3
           pip install requests
           pip install sox
           npm install puppeteer
