@@ -11,8 +11,8 @@ function formatTime(seconds) {
 
 (async () => {
 
-    // Get case number from command line
-    const caseNumber = process.argv[2];
+    // Get case number from case_number.txt
+    const caseNumber = fs.readFileSync('case_number.txt', 'utf8').trim();
 
     // ensure folder exists
     if (!fs.existsSync(`frames/${caseNumber}`)) {

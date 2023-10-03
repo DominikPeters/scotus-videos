@@ -293,3 +293,7 @@ with open(f"json/{case_number}-interactions.json", "w") as file:
 
 print("Case number:")
 print(case_number)
+
+# write case_number to case_number.txt
+with open("case_number.txt", "w") as file:
+    file.write(case_number)

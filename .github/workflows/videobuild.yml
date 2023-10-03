@@ -18,28 +18,32 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '20'
+      - name: Download YouTube credential
+        run: |
+          curl --silent -o credentials.json ${{ secrets.CREDENTIAL_URL }}
       - name: Install dependencies
         run: |
           sudo apt install -y sox libsox-fmt-mp3 ffmpeg
-          pip install requests
-          pip install sox
+          pip install requests sox b2sdk
           npm install puppeteer
           mkdir json thumbnails frames mp3
-      - name: Download and Install Myriad Pro font
-        run: |
-          curl -L -o myriadpro.zip "${{ secrets.FONT_ZIP_URL }}"
-          unzip myriadpro.zip -d myriadpro
-          sudo mkdir -p /usr/local/share/fonts/myriadpro
-          sudo mv myriadpro/*.otf /usr/local/share/fonts/myriadpro/
-          sudo fc-cache -f -v
       - name: Python preprocessing
         run: |
           python preprocess.py https://www.oyez.org/cases/2023/22-340
-      - name: Build video
+      - name: Node screenshots
         run: |
           python -m http.server 8002 &
-          node screenshot.js 63561
-      - name: Push file to server
+          node screenshot.js
+      - name: Encode video
         run: |
-          curl --silent --upload-file thumbnails/63561.png --user f0146955:${{ secrets.ftp_password }} ftp://w008ef9a.kasserver.com
-          curl --silent --upload-file frames/63561/frame-1.png --user f0146955:${{ secrets.ftp_password }} ftp://w008ef9a.kasserver.com
+          python build-video.py
+      - name: Upload video
+        env:
+          B2_APP_KEY: ${{ secrets.B2_APP_KEY }}
+          B2_APP_KEY_ID: ${{ secrets.B2_APP_KEY_ID }}
+          YT_DEV_KEY: ${{ secrets.YT_DEV_KEY }}
+        run: |
+          python upload-video.py
+        # run: |
+        #   curl --silent --upload-file thumbnails/63561.png --user f0146955:${{ secrets.ftp_password }} ftp://w008ef9a.kasserver.com
+        #   curl --silent --upload-file frames/63561/frame-1.png --user f0146955:${{ secrets.ftp_password }} ftp://w008ef9a.kasserver.com
