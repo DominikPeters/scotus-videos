@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SCOTUS oral argument</title>
+
+    <style>
+        body {
+            background-color: #eee;
+            font-family: "Myriad Pro";
+            font-size: 20px;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            visibility: hidden;
+        }
+
+        div.frame {
+            width: 1920px;
+            height: 1080px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+            /* transform: scale(0.75) translate(-14%, -14%); */
+            overflow: hidden;
+        }
+
+        div.header {
+            background-color: hsl(43, 45%, 94%);
+            z-index: -2;
+        }
+
+        div.title {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: top;
+            height: 100px;
+            padding: 20px;
+            padding-top: 10px;
+        }
+
+        div.title h1 {
+            font-size: 60px;
+            font-weight: 600;
+            margin: 0;
+            white-space: nowrap;
+        }
+
+        div.title p.subtitle {
+            font-size: 30px;
+            font-weight: 400;
+            margin: 0;
+            margin-top: 3px;
+        }
+
+        span.docket-number {
+            font-weight: 500;
+        }
+
+        div.bench {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div.bench figure {
+            display: flex;
+            flex-direction: column;
+            width: 248px;
+            margin: 0 -20px;
+            z-index: 1;
+        }
+
+        div.bench figcaption {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.9);
+            text-shadow: 0 0 6px rgba(0, 0, 0, 0.6), 0 0 4px rgba(0, 0, 0, 0.9), 0 0 2px rgba(0, 0, 0, 1), 0 0 1px rgba(0, 0, 0, 1);
+            margin-top: -23px;
+            font-size: 18px;
+        }
+
+        div.bench figure.active-speaker {
+            z-index: 0;
+        }
+
+        div.bench figure.active-speaker img {
+            background-color: rgb(137, 195, 246); 
+            box-shadow: inset 0 0 100px rgb(255, 255, 255);
+            border-top-left-radius: 250px;
+            border-top-right-radius: 250px;
+        }
+
+        div.main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: start;
+            position: relative;
+        }
+
+        div.conversation {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            padding-top: 20px;
+            padding-left: 20px;
+            gap: 20px;
+            width: 790px;
+        }
+
+        div.conversation div.advocate {
+            display: flex;
+            flex-direction: row;
+            align-items: end;
+            gap: 0px;
+        }
+
+        div.conversation div.advocate img {
+            box-sizing: border-box;
+            object-fit: cover;
+        }
+
+        div.conversation div.advocate.active-speaker img {
+            border: 3px solid hsl(208, 86%, 80%);
+            box-shadow: 0 0 12px hsl(208, 86%, 84%), 0 0 6px hsl(208, 86%, 84%), 0 0 3px rgb(24, 61, 93);
+        }
+
+        div.conversation div.advocate div.advocate-text {
+            width: 500px;
+        }
+
+        div.conversation div.advocate p.advocate-name {
+            margin: 0;
+        }
+
+        div.conversation div.advocate p.advocate-name > span {
+            font-size: 40px;
+            font-weight: 600;
+            border-radius: 6px;
+            padding: 6px;
+            padding-bottom: 1px;
+        }
+
+        div.conversation div.advocate.active-speaker p.advocate-name > span {
+            background-color: hsl(208, 86%, 84%); 
+            color: hsl(208, 86%, 10%); 
+            box-shadow: inset 0 0 12px rgb(223, 240, 255), inset 0 0 3px rgb(24, 61, 93);
+        }
+
+        div.conversation div.advocate p.advocate-description {
+            font-size: 28px;
+            font-weight: 500;
+            padding: 0 6px;
+            margin: 0;
+        }
+
+        div.conversation div.justice-speakers {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        div.conversation div.justice-speakers img {
+            width: 100px;
+            height: 140px;
+            background-color: #f0f0f0;
+            object-fit: cover;
+            filter: saturate(0.6) contrast(0.25) brightness(1.6);
+            box-sizing: border-box;
+        }
+
+        div.conversation div.justice-speakers.small img {
+            width: calc(100px * 0.85);
+            height: calc(140px * 0.85);
+        }
+
+        div.conversation div.justice-speakers.very-small img {
+            width: calc(100px * 0.66);
+            height: calc(140px * 0.66);
+        }
+
+        div.conversation div.justice-speakers img.active-speaker {
+            background-color: rgb(137, 195, 246); 
+            background-color: hsl(43, 75%, 74%);
+            box-shadow: inset 0 0 12px hsl(43, 80%, 96%), inset 0 0 3px hsl(43, 80%, 20%);
+            border: 2px solid hsl(43, 100%, 50%);
+            filter: saturate(1);
+        }
+
+        div.transcript {
+            width: 1160px;
+            height: 786px;
+            background-color: hsl(0, 0%, 98%);
+            border-left: 2px solid #ccc;
+            padding: 15px;
+            box-sizing: border-box;
+            overflow-y: scroll;
+        }
+
+        div.transcript div.turn {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            gap: 10px;
+            margin-bottom: 17px;
+        }
+
+        div.transcript div.turn div.turn-speaker {
+            width: 60px;
+        }
+
+        div.transcript div.turn div.turn-speaker img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        div.transcript div.turn div.text-blocks p {
+            margin-top: 0;
+            margin-bottom: 7px;
+            font-size: 28px;
+            background-color: hsl(0, 0%, 92%);
+            padding: 10px 15px;
+            padding-bottom: 7px;
+            border-radius: 25px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        div.transcript div.turn div.text-blocks p:first-child {
+            border-top-left-radius: 25px;
+        }
+        div.transcript div.turn div.text-blocks p:last-child {
+            border-bottom-left-radius: 25px;
+        }
+
+        div.transcript div.turn div.text-blocks.text-blocks-justice p {
+            background-color: hsl(43, 60%, 90%);
+        }
+
+        div.transcript div.turn div.text-blocks p.current-text {
+            background-color: hsl(208, 30%, 92%); 
+            border: 4px solid hsl(208, 86%, 70%);
+            padding: 6px 11px;
+            padding-bottom: 3px;
+        }
+
+        div.transcript div.turn div.text-blocks.text-blocks-justice p.current-text {
+            background-color: hsl(43, 36%, 90%); 
+        }
+
+        div.splash {
+            width: 1920px;
+            padding: 10px 120px;
+            height: 750px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        div.splash h2 {
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: -20px;
+            margin-top: 12px;
+        }
+
+        div.splash div.oyez-text {
+            font-size: 33px;
+            line-height: 1.3;
+        }
+
+        div.splash div.oyez-text a {
+            color: black;
+            text-decoration: none;
+        }
+
+        div.splash div.acknowledgement {
+            font-size: 25px;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="frame">
+        <div class="header">
+            <div class="title">
+                <div class="title-text">
+                    <h1><span class="docket-number" id="docket-number">[17-1104]</span> <span id="case-name">Air and Liquid Systems Corp. v. Devries</span></h1>
+                    <p class="subtitle" id="subtitle">Argued on Oct 10, 2018. Decided on Mar 19, 2019.</p>
+                </div>
+                <img src="seal.svg" height="130">
+            </div>
+            <div class="bench" id="bench">
+            </div>
+        </div>
+        <div class="main">
+            <div class="splash" id="splash">
+                <div id="case-info">
+                    <h2>Facts of the case</h2>
+                    <div class="oyez-text" id="facts-of-the-case"></div>
+                    <h2>Question</h2>
+                    <div class="oyez-text" id="question"></div>
+                </div>
+                <div class="acknowledgement">Case information and transcript taken from the Oyez project (oyez.org), provided under a CC-BY-NC license.</div>
+            </div>
+            <div class="conversation" id="conversation">
+                <div class="advocate" id="advocate">
+                    <img id="advocate-img" src="" height="245" width="245" style="margin-right: 10px;">
+                    <div class="advocate-text">
+                        <p class="advocate-name" id="advocate-name"></p>
+                        <p class="advocate-description" id="advocate-description"></p>
+                    </div>
+                </div>
+                <div class="justice-speakers" id="justice-interactions">
+                </div>
+            </div>
+            <div class="transcript" id="transcript">
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>
