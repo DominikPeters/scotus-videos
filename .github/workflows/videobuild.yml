@@ -20,8 +20,8 @@ jobs:
           node-version: '20'
       - name: Install dependencies
         run: |
-          apt update
-          apt install -y sox
+          sudo apt update
+          sudo apt install -y sox
           pip install requests
           pip install sox
           npm install puppeteer
