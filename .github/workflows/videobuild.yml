@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt install -y sox libsox-fmt-mp3 ffmpeg
-          pip install requests sox b2sdk
+          pip install requests sox b2sdk pillow google-api-python-client google-auth google-auth-oauthlib
           npm install puppeteer
           mkdir json thumbnails frames
       - name: Python preprocessing

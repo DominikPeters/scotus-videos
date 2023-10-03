@@ -286,7 +286,7 @@ if len(youtube_description) > 5000:
 json_object["youtube_title"] = youtube_title
 json_object["youtube_description"] = youtube_description
 
-print(youtube_description)
+# print(youtube_description)
 
 with open(f"json/{case_number}-interactions.json", "w") as file:
     json.dump(json_object, file, indent=4)
