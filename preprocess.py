@@ -296,4 +296,4 @@ print(case_number)
 
 # write case_number to case_number.txt
 with open("case_number.txt", "w") as file:
-    file.write(case_number)
+    file.write(str(case_number))
