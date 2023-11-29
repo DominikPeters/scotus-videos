@@ -68,6 +68,7 @@ def main():
             media_body=MediaFileUpload(f"videos/{case_number}.mp4", chunksize=-1, resumable=True)
         )
         response = request.execute()
+        video_id = response["id"]
         print(json.dumps(response, indent=4))
 
 
@@ -86,7 +87,7 @@ def main():
             print("")
             with open("comment.txt", "w") as file:
                 file.write("Uploaded to YouTube\n\n")
-                file.write(f"https://www.youtube.com/watch?v={response['videoId']}")
+                file.write(f"https://www.youtube.com/watch?v={video_id}")
     except Exception as e:
         print(e)
         print("Possible authentication error, uploading to B2")
