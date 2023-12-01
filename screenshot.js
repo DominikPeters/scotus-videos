@@ -52,13 +52,19 @@ function formatTime(seconds) {
     // splash screen
     await page.evaluate(() => { showSplash(); });
     let i = 0;
-    await page.screenshot({ path: `frames/${caseNumber}/frame-${i}.png` });
+    await takeScreenshot(i);
     console.log(`Splash screen.`);
     console.log(`  ${formatTime(totalTime)} frame-${i}.png. duration: 8`);
     fs.writeSync(frameDurations, `file frame-${i}.png\nduration 5\n`);
     totalTime += 5;
     i++;
 
+    async function takeScreenshot(frameNumber) {
+        const fileName = `frames/${caseNumber}/frame-${frameNumber}.png`;
+        if (!fs.existsSync(fileName)) {
+            await page.screenshot({ path: fileName });
+        }
+    }
 
     await page.evaluate(() => { goToNextSection(); });
     console.log("First section.");
@@ -76,7 +82,7 @@ function formatTime(seconds) {
             response.duration -= 5;
         }
 
-        await page.screenshot({ path: `frames/${caseNumber}/frame-${i}.png` });
+        await takeScreenshot(i);
         // don't end log with newline
         process.stdout.write(`  ${formatTime(totalTime)} frame-${i}.png. duration: ${response.duration.toFixed(2)}`);
         fs.writeSync(frameDurations, `file frame-${i}.png\nduration ${response.duration.toFixed(2)}\n`);
@@ -88,7 +94,7 @@ function formatTime(seconds) {
                 await page.evaluate((scrollAmount) => {
                     scrollTranscript(scrollAmount);
                 }, scrollAmount);
-                await page.screenshot({ path: `frames/${caseNumber}/frame-${i}.png` });
+                await takeScreenshot(i);
                 // console.log(`  frame-${i}.png. duration: ${duration.toFixed(2)}`);
                 process.stdout.write(` ${duration.toFixed(2)}`);
                 fs.writeSync(frameDurations, `file frame-${i}.png\nduration ${duration.toFixed(2)}\n`);
@@ -113,7 +119,7 @@ function formatTime(seconds) {
         showConclusion();
     });
     if (showingConclusion) {
-        await page.screenshot({ path: `frames/${caseNumber}/frame-${i}.png` });
+        await takeScreenshot(i);
         console.log(`  ${formatTime(totalTime)} frame-${i}.png. duration: 5`);
         fs.writeSync(frameDurations, `file frame-${i}.png\nduration 5\n`);
         i++;
@@ -126,7 +132,7 @@ function formatTime(seconds) {
         await page.evaluate(() => {
             announceOpinionAnnouncements();
         });
-        await page.screenshot({ path: `frames/${caseNumber}/frame-${i}.png` });
+        await takeScreenshot(i);
         console.log(`  ${formatTime(totalTime)} frame-${i}.png. duration: 3`);
         fs.writeSync(frameDurations, `file frame-${i}.png\nduration 3\n`);
         i++;
@@ -141,7 +147,7 @@ function formatTime(seconds) {
                     return nextTextBlock();
                 });
         
-                await page.screenshot({ path: `frames/${caseNumber}/frame-${i}.png` });
+                await takeScreenshot(i);
                 console.log(`  ${formatTime(totalTime)} frame-${i}.png. duration: ${response.duration.toFixed(2)}`);
                 fs.writeSync(frameDurations, `file frame-${i}.png\nduration ${response.duration.toFixed(2)}\n`);
                 totalTime += response.duration;
@@ -152,7 +158,7 @@ function formatTime(seconds) {
                         await page.evaluate((scrollAmount) => {
                             scrollTranscript(scrollAmount);
                         }, scrollAmount);
-                        await page.screenshot({ path: `frames/${caseNumber}/frame-${i}.png` });
+                        await takeScreenshot(i);
                         // console.log(`  frame-${i}.png. duration: ${duration.toFixed(2)}`);
                         fs.writeSync(frameDurations, `file frame-${i}.png\nduration ${duration.toFixed(2)}\n`);
                         totalTime += duration;
@@ -174,7 +180,7 @@ function formatTime(seconds) {
         await page.evaluate(() => {
             showConclusion();
         });
-        await page.screenshot({ path: `frames/${caseNumber}/frame-${i}.png` });
+        await takeScreenshot(i);
         console.log(`  ${formatTime(totalTime)} frame-${i}.png. duration: 5`);
         fs.writeSync(frameDurations, `file frame-${i}.png\nduration 5\n`);
         i++;
