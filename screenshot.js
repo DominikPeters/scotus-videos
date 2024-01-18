@@ -54,10 +54,7 @@ function formatTime(seconds) {
     let i = 0;
     await takeScreenshot(i);
     console.log(`Splash screen.`);
-    console.log(`  ${formatTime(totalTime)} frame-${i}.png. duration: 8`);
-    fs.writeSync(frameDurations, `file frame-${i}.png\nduration 5\n`);
-    totalTime += 5;
-    i++;
+    
 
     async function takeScreenshot(frameNumber) {
         const fileName = `frames/${caseNumber}/frame-${frameNumber}.png`;
@@ -74,12 +71,20 @@ function formatTime(seconds) {
             return nextTextBlock();
         });
 
-        if (i == 1) {
-            // subtract 5 seconds from the first frame (splash screen)
+        if (i == 0) {
+            // decide on length of splash screen (min(5 sec, duration of second frame))
             if (response.duration < 5) {
-                throw "First frame duration is less than 5 seconds.";
+                console.log(`  Warning: First frame duration is less than 5 seconds.`);
+                console.log(`  ${formatTime(totalTime)} frame-${i}.png. duration: ${response.duration.toFixed(2)}`);
+                fs.writeSync(frameDurations, `file frame-${i}.png\nduration ${response.duration.toFixed(2)}\n`);
+                totalTime += response.duration;
+                response.duration = 0;
+            } else {
+                console.log(`  ${formatTime(totalTime)} frame-${i}.png. duration: 5`);
+                fs.writeSync(frameDurations, `file frame-${i}.png\nduration 5\n`);
+                response.duration -= 5;
             }
-            response.duration -= 5;
+            i++;
         }
 
         await takeScreenshot(i);
