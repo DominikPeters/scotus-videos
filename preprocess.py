@@ -223,6 +223,8 @@ if case_metadata["second_party"]:
     parties_text += f"*{case_metadata['second_party_label']}:* {case_metadata['second_party']}"
 
 def de_html(text):
+    if text is None:
+        return ""
     text = text.replace("</p>", "\n")
     text = text.replace("<br>", "\n")
     text = re.sub("</.*?>", " ", text)
@@ -279,7 +281,7 @@ Not affiliated with oyez.org or the Supreme Court.
 {chapters_text}
 {facts}
 *Question*
-{de_html(case_metadata['question'])}
+{de_html(case_metadata['question']) if 'question' in case_metadata else ''}
 {conclusion_text}"""
 
 if len(youtube_description) > 5000:
