@@ -1,7 +1,6 @@
 import json
 
 import os
-import sys
 import time
 
 from b2sdk.v2 import *
@@ -9,12 +8,10 @@ from b2sdk.v2 import *
 from PIL import Image
 
 import googleapiclient.discovery
-
-from google_auth_oauthlib.flow import InstalledAppFlow
-
 import google.oauth2.credentials
-
 from googleapiclient.http import MediaFileUpload
+
+from add_timestamp_comment import add_timestamp_comment
 
 def main():
     # get case number from case_number.txt
@@ -79,11 +76,12 @@ def main():
             print("")
             print("Uploading thumbnail...")
             request = youtube.thumbnails().set(
-                videoId=response["id"],
+                videoId=video_id,
                 media_body=MediaFileUpload(f"thumbnails/{case_number}.jpg")
             )
             response = request.execute()
             print(json.dumps(response, indent=4))
+            add_timestamp_comment(youtube, video_id, interactions)
             print("")
             with open("comment.txt", "w") as file:
                 file.write("Uploaded to YouTube\n\n")

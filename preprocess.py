@@ -54,7 +54,12 @@ for justice in case_metadata["heard_by"][0]["members"]:
         file.write(thumbnail.content)
 
 # Extract advocate information
-advocates = {adv["advocate"]["name"]: (adv['advocate']['name'], adv['advocate']['identifier'], adv['advocate_description'].replace('For ', 'for ').strip())
+advocates = {adv["advocate"]["name"]: (
+                adv['advocate']['name'], 
+                adv['advocate']['identifier'], 
+                adv['advocate_description'].replace('For ', 'for ').strip(),
+                adv['advocate']['last_name']
+                )
             for adv in case_metadata["advocates"]}
 all_advocates = set(advocates.keys())
 # check that for each advocate, file "advocates/<advocate_identifier>.jpg" exists, else show warning
@@ -96,6 +101,7 @@ for section_counter, section in enumerate(sections):
 
     section_obj = {}
     json_object["sections"][section_counter] = section_obj
+    section_obj["sectionStartTime"] = section["start"]
     
     # Determine the headline (name of the first advocate or speaker if no advocate took a turn)
     for turn in turns:
@@ -104,6 +110,7 @@ for section_counter, section in enumerate(sections):
             section_obj["advocateName"] = advocates[speaker_name][0]
             section_obj["advocateIdentifier"] = advocates[speaker_name][1]
             section_obj["advocateDescription"] = advocates[speaker_name][2]
+            section_obj["advocateLastName"] = advocates[speaker_name][3]
             break
     else:
         raise Exception(f"No advocate found in section {section_counter}")
@@ -147,7 +154,9 @@ for section_counter, section in enumerate(sections):
         if current_speaker in justices and current_speaker != prev_justice:
             interactions.append({
                 "justice": justices[current_speaker]["identifier"], 
-                "start": i
+                "justiceLastName": justices[current_speaker]["last_name"],
+                "start": i,
+                "startTime": turn["start"],
                 })
             prev_justice = current_speaker
 
