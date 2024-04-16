@@ -28,6 +28,8 @@ else:
 def mp3_duration(filename):
     return sox.file_info.duration(filename)
 
+case_metadata["docket_number"] = case_metadata["docket_number"].strip()
+
 case_number = case_metadata["ID"]
 docket_number = case_metadata["docket_number"]
 
