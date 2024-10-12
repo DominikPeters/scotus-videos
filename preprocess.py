@@ -225,7 +225,7 @@ else:
 docket_text = ""
 try:
     if int(case_metadata["term"]) >= 2001:
-        docket_text = f"Docket: https://www.supremecourt.gov/search.aspx?filename=/docket/docketfiles/html/public/{docket_number}.htm\n"
+        docket_text = f"Docket: https://www.supremecourt.gov/docket/docketfiles/html/public/{docket_number}.html\n"
 except ValueError:
     pass
 
@@ -277,7 +277,7 @@ youtube_description = f"""Oral argument audio (including transcript) of case
 argued at the Supreme Court of the United States on {argued_date}.{announcement_text}
 
 *More information about the case:*
-{wikipedia_text}Justia: {case_metadata['justia_url']} (including opinion)
+{wikipedia_text}Justia: {case_metadata['justia_url']}
 {docket_text}Oyez.org: {case_metadata['href'].replace('api.','www.')}
 
 Video produced based on information and transcripts on oyez.org, licensed under a CC-BY-NC License (https://creativecommons.org/licenses/by-nc/4.0/).
