@@ -81,6 +81,22 @@ def main():
             )
             response = request.execute()
             print(json.dumps(response, indent=4))
+            playlists = json.load(open("playlist_ids.json", "r"))
+            playlist_id = playlists[interactions["term"]]
+            request = youtube.playlistItems().insert(
+                part="snippet",
+                body={
+                    "snippet": {
+                        "playlistId": playlist_id,
+                        "resourceId": {
+                            "kind": "youtube#video",
+                            "videoId": video_id
+                        }
+                    }
+                }
+            )
+            response = request.execute()
+            print(f"Added video {video['docket_number']} to playlist OT {video['term']}")
             add_timestamp_comment(youtube, video_id, interactions)
             print("")
             with open("comment.txt", "w") as file:

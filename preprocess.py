@@ -300,6 +300,7 @@ if len(youtube_description) > 5000:
 
 json_object["youtube_title"] = youtube_title
 json_object["youtube_description"] = youtube_description
+json_object["term"] = case_metadata["term"]
 
 # print(youtube_description)
 
