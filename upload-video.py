@@ -58,7 +58,7 @@ def main():
                 "title": interactions["youtube_title"]
             },
             "status": {
-                "privacyStatus": "private",
+                "privacyStatus": "unlisted", # unlisted allows adding comments
                 "selfDeclaredMadeForKids": False
             }
             },
@@ -96,7 +96,7 @@ def main():
                 }
             )
             response = request.execute()
-            print(f"Added video {video['docket_number']} to playlist OT {video['term']}")
+            print(f"Added video to playlist OT {playlist_id} ({interactions['term']})")
             add_timestamp_comment(youtube, video_id, interactions)
             print("")
             with open("comment.txt", "w") as file:

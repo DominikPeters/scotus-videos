@@ -71,7 +71,7 @@ for advocate_name, advocate in advocates.items():
         missing = True
         print(f"Warning: Advocate {advocate[1]} has no image")
         # open browser to a google image search for advocate_name
-        print(f"Go to https://scotusstats.com/crop.html?filename={advocate[1]}.jpg&searchterm={advocate_name.replace(' ', '+')}&searchurl=https://www.google.com/search?q={advocate_name.replace(' ', '+')}%26tbm=isch")
+        print(f"Go to \nhttps://scotusstats.com/crop.html?filename={advocate[1]}.jpg&searchterm={advocate_name.replace(' ', '+')}&searchurl=https://www.google.com/search?q={advocate_name.replace(' ', '+')}%26tbm=isch")
 
 if missing:
     raise Exception("Missing advocates")
