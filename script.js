@@ -49,6 +49,8 @@ function setUpCase(caseNumber) {
     });
 }
 
+const justiceFormalName = {};
+
 function buildBench(data) {
     let judgesBySeniority = data.heard_by[0].members;
     // put in bench order
@@ -77,8 +79,10 @@ function buildBench(data) {
         img.src = "justices/" + filename;
         figure.appendChild(img);
         let caption = document.createElement('figcaption');
+        justiceFormalName[judges[i].identifier] = "Justice " + judges[i].last_name;
         if (judges[i].roles[0].role_title == "Chief Justice of the United States") {
             caption.innerHTML = "&nbsp;&nbsp;Chief Justice " + judges[i].last_name;
+            justiceFormalName[judges[i].identifier] = "Chief Justice " + judges[i].last_name;
         } else if (judges[i].last_name == "Sotomayor") {
             caption.innerHTML = "&nbsp;&nbsp;&nbsp;Justice " + judges[i].last_name; // better centering
         } else {
@@ -335,6 +339,14 @@ function loadTranscript(section) {
         turnSpeaker.appendChild(speakerImg);
         turnDiv.appendChild(turnSpeaker);
         let textBlocks = document.createElement('div');
+        let speakerLabel = document.createElement('div');
+        if (justices.includes(turn.speaker.identifier)) {
+            speakerLabel.innerHTML = justiceFormalName[turn.speaker.identifier];
+        } else {
+            speakerLabel.innerHTML = turn.speaker.name;
+        }    
+        speakerLabel.className = "speaker-label";
+        textBlocks.appendChild(speakerLabel);
         textBlocks.className = "text-blocks";
         if (justices.includes(turn.speaker.identifier)) {
             textBlocks.classList.add("text-blocks-justice");
