@@ -17,6 +17,7 @@ if "oyez.org" in arg:
     # get file and save it
     case_metadata = requests.get(oyez_url).json()
     case_number = case_metadata["ID"]
+    case_metadata["docket_number"] = case_metadata["docket_number"].strip() # oyez sometimes has a space at the end
     json.dump(case_metadata, open(f"json/{case_number}.json", "w"), indent=4)
 else:
     # interpret as case number

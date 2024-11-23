@@ -483,7 +483,7 @@ function nextTextBlock() {
         interactionImg.classList.add('active-speaker');
     }
     textBlocks = document.querySelectorAll('.text-blocks')[currentTurn];
-    textBlock = textBlocks.children[currentTextBlock];
+    textBlock = textBlocks.children[currentTextBlock + 1]; // +1 because first child is speaker label
     textBlock.classList.add('current-text');
     let textBlockRect = textBlock.getBoundingClientRect();
     let transcript = document.getElementById('transcript');
