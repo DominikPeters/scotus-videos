@@ -1,9 +1,17 @@
 node_modules
+package-lock.json
+
 thumbnails
 videos
 json
 mp3
 frames
+
 credentials.json
+client_secret.json
+get-credential.py
+
 comment.txt
 case_number.txt
+
+playlist-management
