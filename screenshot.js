@@ -131,7 +131,7 @@ function formatTime(seconds) {
     }
 
     const interactions = JSON.parse(fs.readFileSync(`json/${caseNumber}-interactions.json`));
-    if (interactions.announcements.length > 0) {
+    if (interactions.announcements != undefined && interactions.announcements.length > 0) {
         // announcements
         console.log("Announcements.");
         await page.evaluate(() => {

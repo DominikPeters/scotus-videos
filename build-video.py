@@ -10,7 +10,7 @@ interactions = json.load(open(f"json/{case_number}-interactions.json", "r"))
 argument_mp3 = f"mp3/{case_number}.mp3"
 
 # get list of opinion mp3s
-opinion_mp3s = [a["mp3"] for a in interactions["announcements"]]
+opinion_mp3s = [a["mp3"] for a in interactions["announcements"]] if "announcements" in interactions else []
 
 # concat mp3s
 os.system(f"ffmpeg -i {argument_mp3} -i mp3/silence.mp3 " + " ".join([f"-i {mp3}" for mp3 in opinion_mp3s]) + f" -filter_complex \"[0:0][1:0]" + "".join([f"[{i+2}:0]" for i in range(len(opinion_mp3s))]) + f" concat=n={len(opinion_mp3s)+2}:v=0:a=1[out]\" -map \"[out]\" mp3/{case_number}-full.mp3")

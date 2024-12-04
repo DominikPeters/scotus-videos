@@ -24,7 +24,7 @@ function setUpCase(caseNumber) {
         audio_data = jsons[1];
         interactions_data = jsons[2];
         sectionsObject = audio_data.transcript.sections;
-        let hasAnnouncements = interactions_data.announcements.length > 0;
+        let hasAnnouncements = interactions_data.announcements && interactions_data.announcements.length > 0;
         if (hasAnnouncements) {
             // for each announcement, load its json (filename: announcement["json"])
             Promise.all(interactions_data.announcements.map(announcement => 
