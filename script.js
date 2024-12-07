@@ -409,6 +409,16 @@ function loadNextOpinionAnnouncement() {
     loadOpinionAnnouncement(currentOpinion);
 }
 
+function showSubscibeSuggestion() {
+    let subscribe = document.querySelector('.subscribe-suggestion');
+    subscribe.style.display = "block";
+}
+
+function hideSubscibeSuggestion() {
+    let subscribe = document.querySelector('.subscribe-suggestion');
+    subscribe.style.display = "none";
+}
+
 function setUpSection(sectionNumber) {
     // go to section view
     document.getElementById('transcript').style.display = "block";
@@ -431,6 +441,9 @@ function setUpSection(sectionNumber) {
     currentTextBlock = -1;
     currentInteraction = -1;
     reachedLastTextBlock = false;
+    if (sectionNumber >= 1) {
+        showSubscibeSuggestion();
+    }
     document.addEventListener('keydown', function (event) {
         if (event.key == "ArrowRight") {
             nextTextBlock();
@@ -441,6 +454,9 @@ function setUpSection(sectionNumber) {
 function nextTextBlock() {
     if (reachedLastTextBlock) {
         return;
+    }
+    if (currentTurn + currentTextBlock >= 2) {
+        hideSubscibeSuggestion();
     }
     let section = sectionsObject[currentSection];
     let turn = section.turns[currentTurn];
