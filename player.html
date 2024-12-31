@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCOTUS oral argument</title>
+
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css" />
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/audio.css" />
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #eee;
+            font-family: "Lato", "Myriad Pro", sans-serif;
+            /* font-size: 20px; */
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        div.frame {
+            /* width: 1920px;
+            height: 1080px; */
+            background-color: #fff;
+            box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+        }
+
+        div.header {
+            background-color: hsl(43, 45%, 94%);
+            z-index: -2;
+        }
+
+        div.title {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: top;
+            padding: 10px 20px;
+            padding-bottom: 2px;
+        }
+
+        div.title h1 {
+            /* font-size: 60px; */
+            font-weight: 600;
+            margin: 0;
+        }
+
+        div.title p.subtitle {
+            /* font-size: 30px; */
+            font-weight: 400;
+            margin: 0;
+            margin-top: 3px;
+        }
+
+        div.title img.seal {
+            height: 80px;
+        }
+
+        span.docket-number {
+            font-weight: 500;
+        }
+
+        div.bench {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            overflow-x: scroll;
+            overflow-y: hidden;
+        }
+
+        div.bench figure {
+            display: flex;
+            flex-direction: column;
+            width: 157px;
+            margin: 0 -20px;
+            z-index: 1;
+        }
+
+        div.bench figcaption {
+            text-align: center;
+            color: rgba(255, 255, 255, 0.9);
+            text-shadow: 0 0 6px rgba(0, 0, 0, 0.6), 0 0 4px rgba(0, 0, 0, 0.9), 0 0 2px rgba(0, 0, 0, 1), 0 0 1px rgba(0, 0, 0, 1);
+            margin-top: -16px;
+            font-size: 12px;
+        }
+
+        div.bench figure.active-speaker {
+            z-index: 0;
+        }
+
+        div.bench figure.active-speaker img {
+            background-color: rgb(137, 195, 246); 
+            box-shadow: inset 0 0 100px rgb(255, 255, 255);
+            border-top-left-radius: 250px;
+            border-top-right-radius: 250px;
+        }
+
+        div.section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: start;
+            position: relative;
+            border-bottom: 1px solid #eee;
+            box-shadow: 0 0 5px #eee;
+        }
+
+        div.section:last-of-type {
+            margin-bottom: 40px;
+        }
+
+        div.conversation {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            padding-top: 20px;
+            padding-left: 20px;
+            gap: 20px;
+            width: 400px;
+            position: sticky;
+            top: 0;
+            margin-bottom: 100px;
+        }
+
+        div.conversation div.advocate {
+            display: flex;
+            flex-direction: row;
+            align-items: end;
+            gap: 0px;
+        }
+
+        div.conversation div.advocate img {
+            box-sizing: border-box;
+            object-fit: cover;
+        }
+
+        div.conversation div.advocate img.advocate-img {
+            width: 150px;
+            height: 150px;
+            margin-right: 16px;
+        }
+
+        div.conversation div.advocate.active-speaker img {
+            border: 3px solid hsl(208, 86%, 80%);
+            box-shadow: 0 0 12px hsl(208, 86%, 84%), 0 0 6px hsl(208, 86%, 84%), 0 0 3px rgb(24, 61, 93);
+        }
+
+        div.conversation div.advocate p.advocate-name {
+            margin: 0;
+        }
+
+        div.conversation div.advocate p.advocate-name > span {
+            /* font-size: 40px; */
+            font-weight: 600;
+            border-radius: 6px;
+            padding-bottom: 1px;
+        }
+
+        div.conversation div.advocate.active-speaker p.advocate-name > span {
+            background-color: hsl(208, 86%, 84%); 
+            color: hsl(208, 86%, 10%); 
+            box-shadow: inset 0 0 12px rgb(223, 240, 255), inset 0 0 3px rgb(24, 61, 93);
+        }
+
+        div.conversation div.advocate p.advocate-description {
+            /* font-size: 28px; */
+            font-weight: 500;
+            padding: 0;
+            margin: 0;
+        }
+
+        div.conversation div.justice-speakers {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        div.conversation div.justice-speakers img {
+            width: 50px;
+            height: 70px;
+            background-color: #f0f0f0;
+            object-fit: cover;
+            filter: saturate(0.6) contrast(0.25) brightness(1.6);
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+
+        div.conversation div.justice-speakers.small img {
+            width: calc(100px * 0.85);
+            height: calc(140px * 0.85);
+        }
+
+        div.conversation div.justice-speakers.very-small img {
+            width: calc(100px * 0.66);
+            height: calc(140px * 0.66);
+        }
+
+        div.conversation div.justice-speakers img.active-speaker {
+            background-color: rgb(137, 195, 246); 
+            background-color: hsl(43, 75%, 74%);
+            box-shadow: inset 0 0 12px hsl(43, 80%, 96%), inset 0 0 3px hsl(43, 80%, 20%);
+            border: 2px solid hsl(43, 100%, 50%);
+            filter: saturate(1);
+        }
+
+        div.transcript {
+            background-color: hsl(0, 0%, 98%);
+            border-left: 2px solid #ccc;
+            padding: 15px;
+            box-sizing: border-box;
+            overflow-y: scroll;
+            flex: 1;
+        }
+
+        div.transcript div.turn {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            gap: 10px;
+            margin-bottom: 17px;
+        }
+
+        div.transcript div.turn div.turn-speaker {
+            width: 40px;
+            flex: 0;
+        }
+
+        div.transcript div.turn div.turn-speaker img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+            cursor: pointer;
+        }
+
+        div.transcript div.turn div.text-blocks div.speaker-label {
+            padding-left: 7px;
+            color: #444;
+            font-size: 88%;
+            margin-top: -8px;
+            margin-bottom: -1px;
+            cursor: pointer;
+        }
+
+        div.transcript div.turn:first-child div.text-blocks div.speaker-label {
+            margin-top: 0;
+        }
+
+        div.transcript div.turn div.text-blocks p {
+            margin-top: 0;
+            margin-bottom: 3px;
+            /* font-size: 28px; */
+            background-color: hsl(0, 0%, 92%);
+            padding: 5px 8px;
+            padding-bottom: 3px;
+            border-radius: 25px;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+            box-sizing: border-box;
+            scroll-margin: 100px;
+            cursor: pointer;
+        }
+
+        div.transcript div.turn div.text-blocks p:first-of-type {
+            border-top-left-radius: 15px;
+        }
+        div.transcript div.turn div.text-blocks p:last-child {
+            border-bottom-left-radius: 15px;
+        }
+
+        div.transcript div.turn div.text-blocks.text-blocks-justice p {
+            background-color: hsl(43, 60%, 90%);
+        }
+
+        div.transcript div.turn div.text-blocks p.current-text {
+            background-color: hsl(208, 30%, 92%); 
+            border: 2px solid hsl(208, 86%, 70%);
+            padding: 3px 6px;
+            padding-top: 3px;
+            padding-bottom: 1px;
+        }
+
+        div.transcript div.turn div.text-blocks.text-blocks-justice p.current-text {
+            background-color: hsl(43, 36%, 90%); 
+        }
+
+        div.splash {
+            width: 1920px;
+            padding: 10px 120px;
+            height: 750px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        div.splash h2 {
+            text-align: center;
+            /* font-size: 40px; */
+            margin-bottom: -20px;
+            margin-top: 12px;
+        }
+
+        div.splash div.oyez-text {
+            /* font-size: 33px; */
+            line-height: 1.3;
+        }
+
+        div.splash div.oyez-text a {
+            color: black;
+            text-decoration: none;
+        }
+
+        div.splash div.acknowledgement {
+            /* font-size: 25px; */
+            text-align: center;
+        }
+
+        #player {
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            border-top: 2px solid #ccc;
+            z-index: 100;
+        }
+
+        [data-media-player] * {
+            --media-slider-value-gap: 4px;
+        }
+
+        .vds-slider-chapter-title {
+            background: hsl(0, 0%, 98%);
+            padding: 3px;
+        }
+
+        :where(.vds-audio-layout .vds-seek-button) {
+            max-width: var(--audio-button-size, 36px);
+            visibility: visible;
+        }
+
+        :where(.vds-audio-layout .vds-time-slider) {
+            opacity: 1;
+            max-width: 100%;
+            transform: scaleX(1);
+            transition: opacity 150ms ease-in,transform 150ms ease-in;
+            transition-delay: 75ms;
+            visibility: visible;
+        }
+
+        :where(.vds-audio-layout .vds-title) {
+            opacity: 0;
+            margin: 0;
+            max-width: 0;
+            transition: none;
+            transition-delay: 0;
+        }
+
+        @media (max-width: 1024px) {
+            div.title h1 {
+                font-size: 30px;
+            }
+
+            div.bench figure {
+                width: 15vw;
+            }
+
+            div.bench figcaption {
+                display: none;
+            }
+
+            div.conversation {
+                width: 300px;
+                padding: 15px;
+            }
+
+            div.conversation div.advocate img.advocate-img {
+                width: 120px;
+                height: 120px;
+                margin-right: 10px;
+            }
+
+            div.conversation div.justice-speakers img {
+                width: 45px;
+                height: 63px;
+            }
+        }
+
+        @media (max-width: 768px) {
+
+            div.title {
+                padding: 10px;
+            }
+            
+            div.title img.seal {
+                height: 70px;
+            }
+
+            div.bench figure {
+                width: 16vw;
+            }
+
+            div.conversation {
+                width: 200px;
+                font-size: 90%;
+                padding: 10px;
+                gap: 10px;
+            }
+
+            div.conversation div.advocate img.advocate-img {
+                width: 100px;
+                height: 100px;
+                margin-right: 5px;
+            }
+
+            div.conversation div.justice-speakers img {
+                width: 45px;
+                height: 63px;
+            }
+
+            div.transcript {
+                padding: 10px;
+            }
+
+            div.transcript div.turn div.turn-speaker img {
+                width: 35px;
+                height: 35px;
+            }
+
+        }
+
+        @media (max-width: 480px) {
+            div.title {
+                padding: 10px;
+                padding-right: 5px;
+            }
+            
+            div.title img.seal {
+                height: 60px;
+            }
+
+            div.bench {
+                display: none;
+            }
+
+            div.conversation {
+                width: 100px;
+                font-size: 80%;
+                padding: 10px;
+                gap: 10px;
+            }
+
+            div.conversation div.advocate {
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            div.conversation div.advocate img.advocate-img {
+                width: 100%;
+                height: 100%;
+                margin-right: 0px;
+            }
+
+            div.conversation div.justice-speakers img {
+                width: 30px;
+                height: 45px;
+            }
+
+            div.transcript {
+                padding: 10px 5px;
+            }
+
+            div.transcript div.turn {
+                gap: 5px;
+            }
+
+            div.transcript div.turn div.turn-speaker img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        /* dark mode */
+        @media(prefers-color-scheme: dark) {
+            body {
+                background-color: #333;
+            }
+
+            div.header{
+                background-color: hsl(43, 45%, 14%);
+            }
+
+            div.title {
+                color: #fff;
+            }
+
+            div.title img.seal {
+                /* filter: invert(1); too much */
+                filter: brightness(0.9);
+            }
+
+            div.bench figcaption {
+                color: #fff;
+            }
+
+            div.bench figure.active-speaker img {
+                background-color: hsl(208, 86%, 80%);
+                box-shadow: inset 0 0 100px rgb(255, 255, 255);
+                border-top-left-radius: 250px;
+                border-top-right-radius: 250px;
+            }
+
+            div.section {
+                background-color: #333;
+                border-bottom: 1px solid #444;
+                box-shadow: 0 0 5px #444;
+            }
+
+            div.conversation {
+                background-color: #333;
+            }
+
+            div.conversation div.advocate {
+                background-color: #333;
+            }
+
+            div.conversation div.advocate img.advocate-img {
+                background-color: #333;
+            }
+
+            div.conversation div.advocate.active-speaker img {
+                border: 3px solid hsl(208, 86%, 40%);
+                box-shadow: 0 0 12px hsl(208, 86%, 40%), 0 0 6px hsl(208, 86%, 40%), 0 0 3px hsl(208, 59%, 63%);
+            }
+
+            div.conversation div.advocate p.advocate-name {
+                color: #fff;
+            }
+
+            div.conversation div.advocate.active-speaker p.advocate-name > span {
+                background-color: hsl(208, 86%, 20%);
+                color: hsl(208, 86%, 95%);
+                box-shadow: inset 0 0 12px hsl(208, 86%, 40%), inset 0 0 3px hsl(208, 59%, 63%);
+            }
+
+            div.conversation div.advocate p.advocate-description {
+                color: #fff;
+            }
+
+            div.conversation div.justice-speakers {
+                background-color: #333;
+            }
+
+            div.conversation div.justice-speakers img {
+                background-color: #333;
+                filter: saturate(0.6) contrast(0.3) brightness(0.9);
+            }
+
+            div.conversation div.justice-speakers img.active-speaker {
+                background-color: hsl(43, 75%, 54%);
+                box-shadow: inset 0 0 12px hsl(43, 80%, 90%), inset 0 0 3px hsl(43, 80%, 20%);
+                border: 2px solid hsl(43, 100%, 50%);
+            }
+
+            div.transcript {
+                background-color: #333;
+                border-left: 2px solid #444;
+            }
+
+            div.transcript div.turn {
+                background-color: #333;
+            }
+
+            div.transcript div.turn div.turn-speaker img {
+                background-color: #666;
+            }
+
+            div.transcript div.turn div.text-blocks p {
+                background-color: hsl(0, 0%, 28%);
+                color: #fff;
+            }
+
+            div.transcript div.turn div.text-blocks.text-blocks-justice p {
+                background-color: hsl(43, 60%, 20%);
+                color: #fff;
+            }
+
+            div.transcript div.turn div.text-blocks p.current-text {
+                background-color: hsl(208, 30%, 20%);
+                border: 2px solid hsl(208, 86%, 70%);
+            }
+
+            div.transcript div.turn div.text-blocks.text-blocks-justice p.current-text {
+                background-color: hsl(43, 36%, 20%);
+            }
+
+            div.transcript div.turn div.text-blocks div.speaker-label {
+                color: #ccc;
+            }
+
+            #player {
+                border-top: none;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="frame">
+        <div class="header">
+            <div class="title">
+                <div class="title-text">
+                    <h1><span class="docket-number" id="docket-number"></span> <span id="case-name"></span></h1>
+                    <p class="subtitle" id="subtitle"></p>
+                </div>
+                <img src="seal.svg" class="seal">
+            </div>
+            <div class="bench" id="bench">
+            </div>
+        </div>
+        <div class="main">
+            <!-- <div class="splash" id="splash">
+                <div id="case-info">
+                    <h2>Facts of the case</h2>
+                    <div class="oyez-text" id="facts-of-the-case"></div>
+                    <h2>Question</h2>
+                    <div class="oyez-text" id="question"></div>
+                </div>
+                <div class="acknowledgement">Case information and transcript taken from the Oyez project (oyez.org), provided under a CC-BY-NC license.</div>
+            </div> -->
+            <!-- <div class="conversation" id="conversation">
+                <div class="advocate" id="advocate">
+                    <img id="advocate-img" src="" height="150" width="150" style="margin-right: 10px;">
+                    <div class="advocate-text">
+                        <p class="advocate-name" id="advocate-name"></p>
+                        <p class="advocate-description" id="advocate-description"></p>
+                    </div>
+                </div>
+                <div class="justice-speakers" id="justice-interactions">
+                </div>
+            </div>
+            <div class="transcript" id="transcript">
+            </div> -->
+        </div>
+        <audio id="player" controls>
+        </audio>
+    </div>
+    <script type="module" src="player.js"></script>
+</body>
+
+</html>
