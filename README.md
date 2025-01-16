@@ -16,3 +16,5 @@ Then run
 ./produce.sh
 ```
 to build the video. Ensure that puppeteer is available. It will also attempt to upload to YouTube which will probably not work if you're not me.
+
+Starting in the 2024 term, I've also been using the [gentle](https://github.com/lowerquality/gentle) forced aligner to align the audio to the transcript for some cases. This way I don't have to wait for the transcript to be available on Oyez. I do this for a few "hot-button" cases that I want to upload as soon as possible.
