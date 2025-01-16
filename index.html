@@ -191,7 +191,25 @@
             gap: 5px;
         }
 
-        div.conversation div.justice-speakers img {
+        div.conversation div.justice-speakers div.interaction {
+            position: relative;
+        }
+
+        div.conversation div.justice-speakers div.interaction div.interaction-number {
+            position: absolute;
+            bottom: 4px;
+            left: 4px;
+            color: hsl(0, 0%, 100%);
+            text-shadow: 0 0 1px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 3px hsl(0, 0%, 0%), 0 0 5px hsl(0, 0%, 0%);
+            font-weight: 600;
+            width: 30px;
+            height: 20px;
+            border-radius: 20%;
+            text-align: center;
+        }
+
+        div.conversation div.justice-speakers div.interaction img {
+            display: block;
             width: 100px;
             height: 140px;
             background-color: #f0f0f0;
@@ -200,22 +218,36 @@
             box-sizing: border-box;
         }
 
-        div.conversation div.justice-speakers.small img {
+        div.conversation div.justice-speakers.small div.interaction img {
             width: calc(100px * 0.85);
             height: calc(140px * 0.85);
         }
 
-        div.conversation div.justice-speakers.very-small img {
+        div.conversation div.justice-speakers.very-small div.interaction img {
             width: calc(100px * 0.66);
             height: calc(140px * 0.66);
         }
 
-        div.conversation div.justice-speakers img.active-speaker {
+        div.conversation div.justice-speakers.very-small div.interaction div.interaction-number {
+            bottom: 3px;
+            left: 3px;
+            width: 20px;
+            height: 15px;
+            font-size: 72%;
+        }
+
+        div.conversation div.justice-speakers div.interaction.active-speaker img {
             background-color: rgb(137, 195, 246); 
             background-color: hsl(43, 75%, 74%);
             box-shadow: inset 0 0 12px hsl(43, 80%, 96%), inset 0 0 3px hsl(43, 80%, 20%);
             border: 2px solid hsl(43, 100%, 50%);
             filter: saturate(1);
+        }
+
+        div.conversation div.justice-speakers div.interaction.active-speaker div.interaction-number {
+            background-color: hsl(43, 100%, 50%);
+            color: hsl(43, 100%, 10%);
+            text-shadow: none;
         }
 
         div.transcript {
@@ -272,7 +304,7 @@
             box-sizing: border-box;
         }
 
-        div.transcript div.turn div.text-blocks p:first-child {
+        div.transcript div.turn div.text-blocks p:first-of-type {
             border-top-left-radius: 25px;
         }
         div.transcript div.turn div.text-blocks p:last-child {

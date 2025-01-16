@@ -376,10 +376,18 @@ function buildAdvocateProfile(sectionNumber) {
     container.innerHTML = "";
     let interactionNumber = 0;
     for (let interaction of sectionInfo.interactions) {
+        let div = document.createElement('div');
+        div.id = "interaction-" + interactionNumber;
+        div.className = "interaction";
+        console.log(interaction);
         let img = document.createElement('img');
         img.src = document.getElementById('justice-' + interaction.justice).firstChild.src;
-        img.id = "interaction-" + interactionNumber;
-        container.appendChild(img);
+        div.appendChild(img);
+        let numberDisplay = document.createElement('div');
+        numberDisplay.innerHTML = interactionNumber + 1;
+        numberDisplay.className = "interaction-number";
+        div.appendChild(numberDisplay);
+        container.appendChild(div);
         interactionNumber++;
     }
     if (sectionInfo.interactions.length > 21) {
@@ -455,7 +463,7 @@ function nextTextBlock() {
     if (reachedLastTextBlock) {
         return;
     }
-    if (currentTurn + currentTextBlock >= 2) {
+    if (currentTurn + currentTextBlock >= 1) {
         hideSubscibeSuggestion();
     }
     let section = sectionsObject[currentSection];
