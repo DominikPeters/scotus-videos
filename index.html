@@ -237,15 +237,16 @@
         }
 
         div.conversation div.justice-speakers div.interaction.active-speaker img {
-            background-color: rgb(137, 195, 246); 
+            --percent: 0%;
             background-color: hsl(43, 75%, 74%);
-            box-shadow: inset 0 0 12px hsl(43, 80%, 96%), inset 0 0 3px hsl(43, 80%, 20%);
+            background: linear-gradient(90deg, hsl(43, 75%, 72%) var(--percent), hsl(43, 75%, 94%) var(--percent));
+            box-shadow: inset 0 0 3px hsl(43, 75%, 30%);
             border: 2px solid hsl(43, 100%, 50%);
             filter: saturate(1);
         }
 
         div.conversation div.justice-speakers div.interaction.active-speaker div.interaction-number {
-            background-color: hsl(43, 100%, 50%);
+            background-color: hsl(43, 100%, 40%);
             color: hsl(43, 100%, 10%);
             text-shadow: none;
         }

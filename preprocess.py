@@ -72,7 +72,10 @@ for advocate_name, advocate in advocates.items():
         missing = True
         print(f"Warning: Advocate {advocate[1]} has no image")
         # open browser to a google image search for advocate_name
-        print(f"Go to \nhttps://scotusstats.com/crop.html?filename={advocate[1]}.jpg&searchterm={advocate_name.replace(' ', '+')}&searchurl=https://www.google.com/search?q={advocate_name.replace(' ', '+')}%26tbm=isch")
+        url = f"https://scotusstats.com/crop.html?filename={advocate[1]}.jpg&searchterm={advocate_name.replace(' ', '+')}&searchurl=https://www.google.com/search?q={advocate_name.replace(' ', '+')}%26tbm=isch"
+        print(f"Go to {url}\n")
+        os.system(f'open "{url}"')
+
 
 if missing:
     raise Exception("Missing advocates")
@@ -155,6 +158,8 @@ for section_counter, section in enumerate(sections):
 
         # Avoid consecutive repetitions and consider skip_next flag
         if current_speaker in justices and current_speaker != prev_justice:
+            if interactions:
+                interactions[-1]["endTime"] = turn["start"]
             interactions.append({
                 "justice": justices[current_speaker]["identifier"], 
                 "justiceLastName": justices[current_speaker]["last_name"],
@@ -162,6 +167,9 @@ for section_counter, section in enumerate(sections):
                 "startTime": turn["start"],
                 })
             prev_justice = current_speaker
+    
+    if interactions:
+        interactions[-1]["endTime"] = section["stop"]
 
 # Get opinion announcements
 if not "opinion_announcement" in case_metadata:

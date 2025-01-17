@@ -379,7 +379,6 @@ function buildAdvocateProfile(sectionNumber) {
         let div = document.createElement('div');
         div.id = "interaction-" + interactionNumber;
         div.className = "interaction";
-        console.log(interaction);
         let img = document.createElement('img');
         img.src = document.getElementById('justice-' + interaction.justice).firstChild.src;
         div.appendChild(img);
@@ -497,7 +496,8 @@ function nextTextBlock() {
     // update current speaker
     let speaker = turn.speaker;
     if (justices.includes(speaker.identifier)) {
-        document.getElementById('justice-' + speaker.identifier).classList.add('active-speaker');
+        const justiceBlock = document.getElementById('justice-' + speaker.identifier);
+        justiceBlock.classList.add('active-speaker');
     } else {
         document.getElementById('advocate').classList.add('active-speaker');
     }
@@ -505,6 +505,12 @@ function nextTextBlock() {
     if (!announcementMode && currentInteraction != -1) {
         let interactionImg = document.getElementById('interaction-' + currentInteraction);
         interactionImg.classList.add('active-speaker');
+        // compute percent of turn that has passed
+        let interaction = interactions_data.sections[currentSection].interactions[currentInteraction];
+        let interactionDuration = interaction.endTime - interaction.startTime;
+        let startDelta = turn.text_blocks[currentTextBlock].start - interaction.startTime;
+        let percent = startDelta / interactionDuration * 100;
+        interactionImg.children[0].style.setProperty('--percent', percent + "%");
     }
     textBlocks = document.querySelectorAll('.text-blocks')[currentTurn];
     textBlock = textBlocks.children[currentTextBlock + 1]; // +1 because first child is speaker label
