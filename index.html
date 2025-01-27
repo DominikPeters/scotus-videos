@@ -47,7 +47,7 @@
         div.frame {
             width: 1920px;
             height: 1080px;
-            background-color: #fff;
+            background-color: hsl(43, 45%, 99%);
             border: 1px solid #ccc;
             box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
             /* transform: scale(0.75) translate(-14%, -14%); */
@@ -137,6 +137,8 @@
             padding-left: 20px;
             gap: 20px;
             width: 790px;
+            background-color: hsl(43, 45%, 82%);
+            height: 100vh;
         }
 
         div.conversation div.advocate {
@@ -216,6 +218,7 @@
             object-fit: cover;
             filter: saturate(0.6) contrast(0.25) brightness(1.6);
             box-sizing: border-box;
+            border: 1px solid hsl(43, 45%, 40%);
         }
 
         div.conversation div.justice-speakers.small div.interaction img {
@@ -239,7 +242,7 @@
         div.conversation div.justice-speakers div.interaction.active-speaker img {
             --percent: 0%;
             background-color: hsl(43, 75%, 74%);
-            background: linear-gradient(90deg, hsl(43, 75%, 72%) var(--percent), hsl(43, 75%, 94%) var(--percent));
+            background: linear-gradient(90deg, hsl(43, 75%, 72%) var(--percent), hsl(43, 75%, 97%) var(--percent));
             box-shadow: inset 0 0 3px hsl(43, 75%, 30%);
             border: 2px solid hsl(43, 100%, 50%);
             filter: saturate(1);
@@ -254,7 +257,7 @@
         div.transcript {
             width: 1160px;
             height: 786px;
-            background-color: hsl(0, 0%, 98%);
+            background-color: hsl(43, 45%, 96%);
             border-left: 2px solid #ccc;
             padding: 15px;
             box-sizing: border-box;
@@ -278,6 +281,8 @@
             height: 60px;
             border-radius: 50%;
             object-fit: cover;
+            background: hsl(43, 60%, 80%);
+            background: radial-gradient(circle, hsl(43, 60%, 85%) 0%, hsl(43, 60%, 75%) 70%)
         }
 
         div.transcript div.turn div.text-blocks div.speaker-label {
@@ -296,7 +301,7 @@
             margin-top: 0;
             margin-bottom: 7px;
             font-size: 28px;
-            background-color: hsl(0, 0%, 92%);
+            background-color: hsl(0, 0%, 86%);
             padding: 10px 15px;
             padding-bottom: 7px;
             border-radius: 25px;
@@ -313,7 +318,7 @@
         }
 
         div.transcript div.turn div.text-blocks.text-blocks-justice p {
-            background-color: hsl(43, 60%, 90%);
+            background-color: hsl(43, 60%, 85%);
         }
 
         div.transcript div.turn div.text-blocks p.current-text {
@@ -324,7 +329,7 @@
         }
 
         div.transcript div.turn div.text-blocks.text-blocks-justice p.current-text {
-            background-color: hsl(43, 36%, 90%); 
+            background-color: hsl(43, 36%, 85%); 
         }
 
         div.splash {
