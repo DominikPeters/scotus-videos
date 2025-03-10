@@ -143,8 +143,12 @@ for section_counter, section in enumerate(sections):
         if len(text_blocks) == 1:
             if len(text_blocks[0]["text"].split()) <= 8:
                 continue
-            if current_speaker == "John G. Roberts, Jr." and len(text_blocks[0]["text"].split()) <= 15 and i == len(turns) - 1:
-                continue
+            if current_speaker == "John G. Roberts, Jr.":
+                words = [word for word in text_blocks[0]["text"].split() if word not in ["Thank", "council", "Justice"] and "?" not in word]
+                if len(words) <= 6:
+                    continue
+                if len(text_blocks[0]["text"].split()) <= 15 and i == len(turns) - 1:
+                    continue
 
         if sum([len(block["text"].split()) for block in text_blocks]) <= 8:
             continue
