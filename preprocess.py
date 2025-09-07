@@ -194,16 +194,19 @@ for i, announcement in enumerate(announcements):
     json_filename = f"json/{case_number}-opinion-{i}.json"
     mp3_url = None
     if not os.path.exists(json_filename):
+        print(f"Fetching opinion announcement metadata")
         json_content = requests.get(json_url).json()
         assert len(json_content["transcript"]["sections"]) == 1
         json.dump(json_content, open(json_filename, "w"), indent=4)
-        mp3_url = json_content["media_file"][0]["href"]
-    # COMMENTED OUT FOR ADVOCATE RETRIEVAL
-    # mp3_filename = f"mp3/{case_number}-opinion-{i}.mp3"
-    # if not os.path.exists(mp3_filename):
-    #     mp3 = requests.get(mp3_url)
-    #     with open(mp3_filename, "wb") as file:
-    #         file.write(mp3.content)
+    else:
+        json_content = json.load(open(json_filename))
+    mp3_url = json_content["media_file"][0]["href"]
+    mp3_filename = f"mp3/{case_number}-opinion-{i}.mp3"
+    if not os.path.exists(mp3_filename):
+        print(f"Fetching {mp3_url}")
+        mp3 = requests.get(mp3_url)
+        with open(mp3_filename, "wb") as file:
+            file.write(mp3.content)
     # get length of mp3 in seconds
     mp3_length = mp3_duration(mp3_filename)
     json_object["announcements"].append({"title": announcement["title"], "json": json_filename, "mp3": mp3_filename, "mp3_length": mp3_length})
