@@ -17,35 +17,62 @@ let currentOpinion = -1;
 function setUpCase(caseNumber) {
     Promise.all([
         fetch(`http://localhost:8002/json/${caseNumber}.json`).then(response => response.json()),
-        fetch(`http://localhost:8002/json/${caseNumber}-audio.json`).then(response => response.json()),
         fetch(`http://localhost:8002/json/${caseNumber}-interactions.json`).then(response => response.json())
     ]).then((jsons) => {
         case_data = jsons[0];
-        audio_data = jsons[1];
-        interactions_data = jsons[2];
-        sectionsObject = audio_data.transcript.sections;
-        let hasAnnouncements = interactions_data.announcements && interactions_data.announcements.length > 0;
-        if (hasAnnouncements) {
-            // for each announcement, load its json (filename: announcement["json"])
-            Promise.all(interactions_data.announcements.map(announcement => 
-                fetch(`http://localhost:8002/${announcement.json}`).then(response => response.json()))).then(
-                    (announcementsJsons) => { announcements = announcementsJsons; }
+        interactions_data = jsons[1];
+        
+        // Handle single vs multiple arguments
+        let hasMultipleArguments = interactions_data.arguments && interactions_data.arguments.length > 1;
+        
+        if (hasMultipleArguments) {
+            // Multiple arguments: load all argument JSONs and concatenate sections
+            Promise.all(interactions_data.arguments.map(argument => 
+                fetch(`http://localhost:8002/${argument.json}`).then(response => response.json()))).then(
+                    (argumentJsons) => { 
+                        // Concatenate all sections from all arguments
+                        sectionsObject = [];
+                        for (let argJson of argumentJsons) {
+                            sectionsObject = sectionsObject.concat(argJson.transcript.sections);
+                        }
+                        finishSetup();
+                    }
                 );
+        } else {
+            // Single argument: load normally for backward compatibility
+            fetch(`http://localhost:8002/json/${caseNumber}-audio.json`).then(response => response.json()).then(
+                (audioData) => {
+                    audio_data = audioData;
+                    sectionsObject = audio_data.transcript.sections;
+                    finishSetup();
+                }
+            );
         }
-        mp3length = parseInt(interactions_data["mp3_length"]);
-        // show title
-        document.getElementById('case-name').innerHTML = case_data.name;
-        document.getElementById('docket-number').innerHTML = "[" + case_data.docket_number + "]";
-        document.getElementById('subtitle').innerHTML = interactions_data.dates;
-        buildBench(case_data);
-        // setUpSection(0);
-        showThumbnail(hasAnnouncements);
-        // announceOpinionAnnouncements();
-        document.body.style.visibility = "visible";
-        // add an element with id "loading-finished" to the page
-        let loadingFinished = document.createElement('div');
-        loadingFinished.id = "loading-finished";
-        document.body.appendChild(loadingFinished);
+        
+        function finishSetup() {
+            let hasAnnouncements = interactions_data.announcements && interactions_data.announcements.length > 0;
+            if (hasAnnouncements) {
+                // for each announcement, load its json (filename: announcement["json"])
+                Promise.all(interactions_data.announcements.map(announcement => 
+                    fetch(`http://localhost:8002/${announcement.json}`).then(response => response.json()))).then(
+                        (announcementsJsons) => { announcements = announcementsJsons; }
+                    );
+            }
+            mp3length = parseInt(interactions_data["mp3_length"]);
+            // show title
+            document.getElementById('case-name').innerHTML = case_data.name;
+            document.getElementById('docket-number').innerHTML = "[" + case_data.docket_number + "]";
+            document.getElementById('subtitle').innerHTML = interactions_data.dates;
+            buildBench(case_data);
+            // setUpSection(0);
+            showThumbnail(hasAnnouncements);
+            // announceOpinionAnnouncements();
+            document.body.style.visibility = "visible";
+            // add an element with id "loading-finished" to the page
+            let loadingFinished = document.createElement('div');
+            loadingFinished.id = "loading-finished";
+            document.body.appendChild(loadingFinished);
+        }
     });
 }
 
@@ -292,6 +319,20 @@ function announceOpinionAnnouncements() {
     });
 }
 
+function announceNextArgument(argumentTitle) {
+    document.getElementById('conversation').style.display = "none";
+    document.getElementById('transcript').style.display = "none";
+    document.getElementById('splash').style.display = "flex";
+    let caseInfo = document.getElementById('case-info');
+    caseInfo.innerHTML = "";
+    let h2 = document.createElement('h2');
+    h2.innerHTML = argumentTitle;
+    h2.style.fontSize = "80px";
+    h2.style.marginTop = "250px";
+    h2.style.textAlign = "center";
+    caseInfo.appendChild(h2);
+}
+
 function adjustFontSize() {
     const splash = document.getElementById('splash');
     const texts = document.querySelectorAll('.oyez-text');
@@ -331,6 +372,9 @@ function loadTranscript(section) {
         let turnSpeaker = document.createElement('div');
         turnSpeaker.className = "turn-speaker";
         let speakerImg = document.createElement('img');
+        if (!turn.speaker) {
+            console.error(`Turn speaker is ${turn.speaker}`);
+        }
         if (justices.includes(turn.speaker.identifier)) {
             speakerImg.src = document.getElementById('justice-' + turn.speaker.identifier).firstChild.src;
         } else {
@@ -453,12 +497,12 @@ function setUpSection(sectionNumber) {
     }
     document.addEventListener('keydown', function (event) {
         if (event.key == "ArrowRight") {
-            nextTextBlock();
+            nextTextBlock(true); // true = manually triggered
         }
     });
 }
 
-function nextTextBlock() {
+function nextTextBlock(manuallyTriggered = false) {
     if (reachedLastTextBlock) {
         return;
     }
@@ -519,7 +563,7 @@ function nextTextBlock() {
     let transcript = document.getElementById('transcript');
     let transcriptRect = transcript.getBoundingClientRect();
     let amountToScroll = 0;
-    let scrollBuffer = announcementMode ? 350 : 150;
+    let scrollBuffer = announcementMode ? 350 : 450;
     if (textBlockRect.bottom > transcriptRect.bottom - scrollBuffer) {
         amountToScroll = textBlockRect.bottom - transcriptRect.bottom + scrollBuffer;
     }
@@ -536,7 +580,7 @@ function nextTextBlock() {
         // last turn in oyez is missing "stop"
         duration = mp3length - turn.text_blocks[currentTextBlock].start;
         transcript.scrollTop += amountToScroll;
-    } else if (duration < 0.6 || amountToScroll <= 30) {
+    } else if (duration < 0.6 || amountToScroll <= 30 || manuallyTriggered) {
         // scroll immediately
         transcript.scrollTop += amountToScroll;
     } else {
@@ -545,7 +589,7 @@ function nextTextBlock() {
         frameInfo = [[0.3 * amountToScroll, 0.05], [0.3 * amountToScroll / 3, 0.05], [0.2 * amountToScroll, 0.05], [0, duration - 0.2]];
         duration = 0.05;
     }
-    return { duration: duration, lastTurn: reachedLastTextBlock, goToNextSection: goToNextSection, frameInfo: frameInfo };
+    return { duration: duration, lastTurn: reachedLastTextBlock, goToNextSection: goToNextSection, frameInfo: frameInfo, currentSection: currentSection };
 }
 
 function goToNextSection() {

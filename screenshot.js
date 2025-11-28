@@ -11,26 +11,58 @@ function formatTime(seconds) {
 
 (async () => {
 
+    // Check if script was called with --vertical option
+    const verticalMode = process.argv.includes('--vertical');
+    if (verticalMode) {
+        console.log("Vertical mode enabled.");
+    }
+
+    const framesDir = verticalMode ? 'frames-vertical' : 'frames';
+
     // Get case number from case_number.txt
     const caseNumber = fs.readFileSync('case_number.txt', 'utf8').trim();
 
     // ensure folder exists
-    if (!fs.existsSync(`frames/${caseNumber}`)) {
-        fs.mkdirSync(`frames/${caseNumber}`, { recursive: true });
+    if (!fs.existsSync(`${framesDir}/${caseNumber}`)) {
+        fs.mkdirSync(`${framesDir}/${caseNumber}`, { recursive: true });
     }
 
     // open a text file with frame durations for ffmpeg
-    const frameDurations = fs.openSync(`frames/${caseNumber}/frame-durations.txt`, 'w');
+    const frameDurations = fs.openSync(`${framesDir}/${caseNumber}/frame-durations.txt`, 'w');
 
     const browser = await puppeteer.launch({ headless: "new", protocolTimeout: 240000 });
     // const browser = await puppeteer.launch();
     const page = await browser.newPage();
 
+    page.on('console', async (msg) => {
+        const values = await Promise.all(
+            msg.args().map((arg) => arg.jsonValue().catch(() => '[unserializable]'))
+        );
+        console.log(`[browser:${msg.type()}]`, ...values);
+    });
+
     // Set the viewport's width and height
-    await page.setViewport({ width: 1920, height: 1080, deviceScaleFactor: 2 });
+    if (!verticalMode) {
+        await page.setViewport({ width: 1920, height: 1080, deviceScaleFactor: 2 }); // 4K resolution
+    } else {
+        await page.setViewport({ width: 1080, height: 1920 });
+    }
 
     // check that files exist
-    const neededFiles = [`json/${caseNumber}.json`, `json/${caseNumber}-audio.json`, `json/${caseNumber}-interactions.json`];
+    const interactionsCheck = JSON.parse(fs.readFileSync(`json/${caseNumber}-interactions.json`));
+    let neededFiles = [`json/${caseNumber}.json`, `json/${caseNumber}-interactions.json`];
+    
+    // Check for audio files - handle both single and multiple arguments
+    if (interactionsCheck.arguments && interactionsCheck.arguments.length > 1) {
+        // Multiple arguments: check numbered audio files
+        for (let i = 0; i < interactionsCheck.arguments.length; i++) {
+            neededFiles.push(`json/${caseNumber}-audio-${i}.json`);
+        }
+    } else {
+        // Single argument: check standard audio file
+        neededFiles.push(`json/${caseNumber}-audio.json`);
+    }
+    
     for (let file of neededFiles) {
         if (!fs.existsSync(file)) {
             console.log(`File ${file} does not exist.`);
@@ -38,7 +70,11 @@ function formatTime(seconds) {
         }
     }
 
-    await page.goto(`http://localhost:8002/?case=${caseNumber}`);
+    if (!verticalMode) {
+        await page.goto(`http://localhost:8002/?case=${caseNumber}`);
+    } else {
+        await page.goto(`http://localhost:8002/vertical.html?case=${caseNumber}`);
+    }
 
     // wait for #loading-finished to appear
     await page.waitForSelector('#loading-finished');
@@ -46,8 +82,10 @@ function formatTime(seconds) {
     let totalTime = 0;
 
     // thumbnail
-    console.log(`Thumbnail.`);
-    await page.screenshot({ path: `thumbnails/${caseNumber}.png` });
+    if (!verticalMode) {
+        console.log(`Thumbnail.`);
+        await page.screenshot({ path: `thumbnails/${caseNumber}.png` });
+    }
 
     // splash screen
     await page.evaluate(() => { showSplash(); });
@@ -57,7 +95,7 @@ function formatTime(seconds) {
     
 
     async function takeScreenshot(frameNumber) {
-        const fileName = `frames/${caseNumber}/frame-${frameNumber}.png`;
+        const fileName = `${framesDir}/${caseNumber}/frame-${frameNumber}.png`;
         if (!fs.existsSync(fileName)) {
             await page.screenshot({ path: fileName });
         }
@@ -65,6 +103,8 @@ function formatTime(seconds) {
 
     await page.evaluate(() => { goToNextSection(); });
     console.log("First section.");
+    
+    let currentArgumentIndex = 0;
 
     while (true) {
         const response = await page.evaluate(() => {
@@ -109,6 +149,37 @@ function formatTime(seconds) {
         }
         process.stdout.write('\n');
         if (response.goToNextSection) {
+            // Check if we're transitioning to a new argument
+            const nextSectionInfo = await page.evaluate((currentSection) => {
+                const nextSection = currentSection + 1;
+                if (nextSection < sectionsObject.length) {
+                    const currentArgIndex = sectionsObject[currentSection].argument_index || 0;
+                    const nextArgIndex = sectionsObject[nextSection].argument_index || 0;
+                    return {
+                        isNewArgument: nextArgIndex > currentArgIndex,
+                        argumentTitle: sectionsObject[nextSection].argument_title,
+                        argumentIndex: nextArgIndex
+                    };
+                }
+                return { isNewArgument: false };
+            }, response.currentSection || 0);
+            
+            if (nextSectionInfo.isNewArgument) {
+                // Show argument transition screen
+                console.log(`Argument transition: ${nextSectionInfo.argumentTitle}`);
+                await page.evaluate((argumentTitle) => {
+                    announceNextArgument(argumentTitle);
+                }, nextSectionInfo.argumentTitle);
+                
+                await takeScreenshot(i);
+                console.log(`  ${formatTime(totalTime)} frame-${i}.png. duration: 3`);
+                fs.writeSync(frameDurations, `file frame-${i}.png\nduration 3\n`);
+                totalTime += 3;
+                i++;
+                
+                currentArgumentIndex = nextSectionInfo.argumentIndex;
+            }
+            
             await page.evaluate(() => {
                 goToNextSection();
             });
@@ -138,8 +209,8 @@ function formatTime(seconds) {
             announceOpinionAnnouncements();
         });
         await takeScreenshot(i);
-        console.log(`  ${formatTime(totalTime)} frame-${i}.png. duration: 3`);
-        fs.writeSync(frameDurations, `file frame-${i}.png\nduration 3\n`);
+        console.log(`  ${formatTime(totalTime)} frame-${i}.png. duration: 8`);
+        fs.writeSync(frameDurations, `file frame-${i}.png\nduration 8\n`);
         i++;
         for (let j = 0; j < interactions.announcements.length; j++) {
             await page.evaluate((i) => {

@@ -3,7 +3,7 @@ import json
 import os
 import time
 
-from b2sdk.v2 import *
+# from b2sdk.v2 import *
 
 from PIL import Image
 
@@ -82,21 +82,24 @@ def main():
             response = request.execute()
             print(json.dumps(response, indent=4))
             playlists = json.load(open("playlist_ids.json", "r"))
-            playlist_id = playlists[interactions["term"]]
-            request = youtube.playlistItems().insert(
-                part="snippet",
-                body={
-                    "snippet": {
-                        "playlistId": playlist_id,
-                        "resourceId": {
-                            "kind": "youtube#video",
-                            "videoId": video_id
+            if interactions["term"] not in playlists:
+                print(f"WARNING: No playlist found for term {interactions['term']}, skipping adding to playlist")
+            else:
+                playlist_id = playlists[interactions["term"]]
+                request = youtube.playlistItems().insert(
+                    part="snippet",
+                    body={
+                        "snippet": {
+                            "playlistId": playlist_id,
+                            "resourceId": {
+                                "kind": "youtube#video",
+                                "videoId": video_id
+                            }
                         }
                     }
-                }
-            )
-            response = request.execute()
-            print(f"Added video to playlist OT {playlist_id} ({interactions['term']})")
+                )
+                response = request.execute()
+                print(f"Added video to playlist OT {playlist_id} ({interactions['term']})")
             add_timestamp_comment(youtube, video_id, interactions)
             print("")
             with open("comment.txt", "w") as file:

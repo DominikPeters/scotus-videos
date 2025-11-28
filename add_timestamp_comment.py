@@ -19,11 +19,27 @@ def add_timestamp_comment(youtube, video_id, interactions):
     print(f"Adding timestamp comment to video {video_id}...")
 
     comment_pieces = ["Detailed timestamps:"]
+    
+    # Check if we have multiple arguments
+    has_multiple_arguments = "arguments" in interactions and len(interactions["arguments"]) > 1
+    current_argument_index = -1
+    
     for section_num in interactions["sections"]:
         section = interactions["sections"][section_num]
+        
+        # Add argument header if we're transitioning to a new argument
+        if has_multiple_arguments:
+            section_argument_index = section.get('argument_index', 0)
+            if section_argument_index != current_argument_index:
+                current_argument_index = section_argument_index
+                argument_title = section.get('argument_title', f"Argument {section_argument_index + 1}")
+                comment_pieces.append(f"")
+                comment_pieces.append(f"--- {argument_title} ---")
+        
         comment_pieces.append(f"{seconds_to_timestamp(section['sectionStartTime'])} {section['advocateName']} ({section['advocateDescription']})")
         for interaction in section["interactions"]:
             comment_pieces.append(f"{seconds_to_timestamp(interaction['startTime'])} {section['advocateLastName']} - {interaction['justiceLastName']}")
+    
     comment = "\n".join(comment_pieces)
     print(comment)
 
@@ -48,7 +64,7 @@ def add_timestamp_comment(youtube, video_id, interactions):
 
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        print("Usage: add-timestamp-comment.py <case_number> <video_id>")
+        print("Usage: add_timestamp_comment.py <case_number> <video_id>")
         sys.exit(1)
     
     case_number = sys.argv[1]

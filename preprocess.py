@@ -37,12 +37,30 @@ docket_number = case_metadata["docket_number"]
 # case_metadata = json.load(open(f"{case_number}.json"))
 print(f"Handling case {case_number} [Docket {docket_number}] ({case_metadata['name']})")
 
-# Load the oral argument transcript
-if len(case_metadata["oral_argument_audio"]) > 1:
-    print("Warning: More than one oral argument audio")
-oral_argument_url = case_metadata["oral_argument_audio"][0]["href"]
-oral_argument_transcript = requests.get(oral_argument_url).json()
-json.dump(oral_argument_transcript, open(f"json/{case_number}-audio.json", "w"), indent=4)
+# Load the oral argument transcripts
+oral_arguments = case_metadata["oral_argument_audio"]
+num_arguments = len(oral_arguments)
+
+# Handle single vs multiple arguments with smart filename logic
+if num_arguments == 1:
+    # Single argument: use existing filename pattern
+    oral_argument_url = oral_arguments[0]["href"]
+    oral_argument_transcript = requests.get(oral_argument_url).json()
+    json.dump(oral_argument_transcript, open(f"json/{case_number}-audio.json", "w"), indent=4)
+    oral_argument_transcripts = [oral_argument_transcript]
+    argument_filenames = [f"json/{case_number}-audio.json"]
+else:
+    # Multiple arguments: use numbered filename pattern
+    oral_argument_transcripts = []
+    argument_filenames = []
+    for i, oral_arg in enumerate(oral_arguments):
+        oral_argument_url = oral_arg["href"]
+        oral_argument_transcript = requests.get(oral_argument_url).json()
+        filename = f"json/{case_number}-audio-{i}.json"
+        # json.dump(oral_argument_transcript, open(filename, "w"), indent=4)
+        oral_argument_transcript = json.load(open(filename, "r")) if os.path.exists(filename) else oral_argument_transcript
+        oral_argument_transcripts.append(oral_argument_transcript)
+        argument_filenames.append(filename)
 
 # Check that we have justice images
 for justice in case_metadata["heard_by"][0]["members"]:
@@ -82,22 +100,93 @@ if missing:
 
 json_object = {"sections" : {}}
 
-# Get MP3
-mp3_url = oral_argument_transcript["media_file"][0]["href"]
-mp3_filename = f"mp3/{case_number}.mp3"
-if not os.path.exists(mp3_filename):
-    mp3 = requests.get(mp3_url)
-    with open(mp3_filename, "wb") as file:
-        file.write(mp3.content)
-# get length of mp3 in seconds
-mp3_length = mp3_duration(mp3_filename)
-json_object["mp3_length"] = mp3_length
+# Get MP3s for all arguments
+argument_mp3s = []
+total_mp3_length = 0
+silence_duration = 8  # seconds of silence between arguments
+
+for i, oral_argument_transcript in enumerate(oral_argument_transcripts):
+    mp3_url = oral_argument_transcript["media_file"][0]["href"]
+    
+    # Smart filename logic
+    if num_arguments == 1:
+        mp3_filename = f"mp3/{case_number}.mp3"
+    else:
+        mp3_filename = f"mp3/{case_number}-arg-{i}.mp3"
+    
+    if not os.path.exists(mp3_filename):
+        mp3 = requests.get(mp3_url)
+        with open(mp3_filename, "wb") as file:
+            file.write(mp3.content)
+    
+    # get length of mp3 in seconds
+    mp3_length = mp3_duration(mp3_filename)
+    argument_mp3s.append({
+        "title": oral_arguments[i]["title"],
+        "json": argument_filenames[i],
+        "mp3": mp3_filename,
+        "mp3_length": mp3_length
+    })
+    
+    total_mp3_length += mp3_length
+    if i > 0:  # Add silence between arguments (but not before first)
+        total_mp3_length += silence_duration
+
+json_object["mp3_length"] = total_mp3_length
+if num_arguments > 1:
+    json_object["arguments"] = argument_mp3s
 
 # Extract list of presiding justices
 justices = {member["name"] : member for member in case_metadata["heard_by"][0]["members"]}
 
-# Extract transcript sections
-sections = oral_argument_transcript["transcript"]["sections"]
+# Extract transcript sections from all arguments
+all_sections = []
+cumulative_time_offset = 0
+
+for arg_index, oral_argument_transcript in enumerate(oral_argument_transcripts):
+    sections = oral_argument_transcript["transcript"]["sections"]
+    current_arg_mp3_length = argument_mp3s[arg_index]["mp3_length"]
+    
+    # Fix the last text block's stop time if it's invalid (common Oyez issue)
+    last_section = sections[-1]
+    last_turn = last_section["turns"][-1]
+    last_text_block = last_turn["text_blocks"][-1]
+    if last_text_block["stop"] <= 0:
+        print(f"Fixing invalid stop time for last text block in argument {arg_index}")
+        last_text_block["stop"] = current_arg_mp3_length
+    
+    for section in sections:
+        # Check for other invalid stop times (but don't fix them automatically)
+        for turn in section["turns"]:
+            for text_block in turn["text_blocks"]:
+                if text_block["stop"] <= 0 and text_block != last_text_block:
+                    print(f"Warning: Invalid stop time in argument {arg_index}, section {sections.index(section)}: {text_block['start']} -> {text_block['stop']}")
+        
+        # Adjust timestamps for arguments after the first
+        if arg_index > 0:
+            section["start"] += cumulative_time_offset
+            section["stop"] += cumulative_time_offset
+            
+            # Adjust turn timestamps
+            for turn in section["turns"]:
+                turn["start"] += cumulative_time_offset
+                turn["stop"] += cumulative_time_offset
+                
+                # Adjust text block timestamps
+                for text_block in turn["text_blocks"]:
+                    text_block["start"] += cumulative_time_offset
+                    text_block["stop"] += cumulative_time_offset
+        
+        # Mark which argument this section belongs to
+        section["argument_index"] = arg_index
+        section["argument_title"] = oral_arguments[arg_index]["title"]
+        all_sections.append(section)
+    
+    # Update cumulative offset for next argument
+    if arg_index < len(oral_argument_transcripts) - 1:
+        cumulative_time_offset += argument_mp3s[arg_index]["mp3_length"] + silence_duration
+
+sections = all_sections
 
 chapters = []
 
@@ -108,9 +197,16 @@ for section_counter, section in enumerate(sections):
     section_obj = {}
     json_object["sections"][section_counter] = section_obj
     section_obj["sectionStartTime"] = section["start"]
+    section_obj["argument_index"] = section.get("argument_index")
+    section_obj["argument_title"] = section.get("argument_title")
     
     # Determine the headline (name of the first advocate or speaker if no advocate took a turn)
-    for turn in turns:
+    for turn_index, turn in enumerate(turns):
+        if turn["speaker"] is None:
+            print(f"Warning: Turn {turn_index} in section {section_counter} (argument {section.get('argument_index', 'unknown')}) has no speaker")
+            print(f"Turn data: {turn}")
+            continue
+            
         speaker_name = turn["speaker"]["name"]
         if speaker_name in all_advocates:
             section_obj["advocateName"] = advocates[speaker_name][0]
@@ -119,6 +215,11 @@ for section_counter, section in enumerate(sections):
             section_obj["advocateLastName"] = advocates[speaker_name][3]
             break
     else:
+        print(f"Error: No advocate found in section {section_counter}")
+        print(f"Section argument index: {section.get('argument_index', 'unknown')}")
+        print(f"Section argument title: {section.get('argument_title', 'unknown')}")
+        print(f"Available advocates: {list(all_advocates)}")
+        print(f"Speakers in this section: {[turn['speaker']['name'] if turn['speaker'] else 'None' for turn in turns]}")
         raise Exception(f"No advocate found in section {section_counter}")
 
     if section_counter == len(sections) - 1 and speaker_name == chapters[0]["title"]:
@@ -134,6 +235,10 @@ for section_counter, section in enumerate(sections):
     # List of justices who took turns
     prev_justice = None
     for i, turn in enumerate(turns):
+        if turn["speaker"] is None:
+            print(f"Warning: Skipping turn {i} in section {section_counter} - no speaker data")
+            continue
+            
         current_speaker = turn["speaker"]["name"]
 
         if current_speaker == "John G. Roberts, Jr." and i == 0:
@@ -186,8 +291,9 @@ if not "opinion_announcement" in case_metadata:
     case_metadata["opinion_announcement"] = []
 if case_metadata["opinion_announcement"] is None:
     case_metadata["opinion_announcement"] = []
-announcements = sorted(case_metadata["opinion_announcement"], key=lambda x: (x["title"], x["id"]))
-start = json_object["mp3_length"] + 6 # 8 seconds of silence between oral argument and opinion announcement; but begin the first chapter 2 seconds earlier
+# announcements = sorted(case_metadata["opinion_announcement"], key=lambda x: (x["title"], x["id"]))
+announcements = case_metadata["opinion_announcement"] # changed 2025-09-08, since the sorting did the wrong order
+start = json_object["mp3_length"] + 8  # 8 seconds of silence after oral argument
 json_object["announcements"] = []
 for i, announcement in enumerate(announcements):
     json_url = announcement["href"]
@@ -214,8 +320,6 @@ for i, announcement in enumerate(announcements):
         chapters.append({"title": f"Opinion Announcement {i+1}", "start": start})
     else:
         chapters.append({"title": "Opinion Announcement", "start": start})
-    if i == 0:
-        start += 2 # 2 seconds of silence included in the first announcement
     start += mp3_length
     
 # make podcast rss item
