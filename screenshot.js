@@ -78,6 +78,9 @@ function formatTime(seconds) {
 
     // wait for #loading-finished to appear
     await page.waitForSelector('#loading-finished');
+    // wait 100ms for all images to load
+    const sleep = ms => new Promise(res => setTimeout(res, ms));
+    await sleep(100);
 
     let totalTime = 0;
 
