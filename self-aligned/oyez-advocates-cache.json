@@ -1,0 +1,4758 @@
+{
+  "clement": [
+    {
+      "name": "Paul D. Clement",
+      "last_name": "Clement",
+      "identifier": "paul_d_clement",
+      "description": "for the petitioner"
+    }
+  ],
+  "gannon": [
+    {
+      "name": "Curtis E. Gannon",
+      "last_name": "Gannon",
+      "identifier": "curtis_e_gannon",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the United States as amicus curiae supporting the petitioner"
+    }
+  ],
+  "thierman": [
+    {
+      "name": "Mark R. Thierman",
+      "last_name": "Thierman",
+      "identifier": "mark_r_thierman",
+      "description": "for the respondent"
+    }
+  ],
+  "goldstein": [
+    {
+      "name": "Thomas C. Goldstein",
+      "last_name": "Goldstein",
+      "identifier": "thomas_c_goldstein",
+      "description": "for the petitioner"
+    }
+  ],
+  "saharsky": [
+    {
+      "name": "Nicole A. Saharsky",
+      "last_name": "Saharsky",
+      "identifier": "nicole_saharsky",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the respondent"
+    }
+  ],
+  "verrilli,": [
+    {
+      "name": "Donald B. Verrilli, Jr.",
+      "last_name": "Verrilli,",
+      "identifier": "donald_b_verrilli_jr",
+      "description": "Solicitor General, Department of Justice, for the United States as amicus curiae, for the respondent"
+    }
+  ],
+  "keller": [
+    {
+      "name": "Scott A. Keller",
+      "last_name": "Keller",
+      "identifier": "scott_a_keller",
+      "description": "on behalf of the petitioner"
+    },
+    {
+      "name": "Ashley C. Keller",
+      "last_name": "Keller",
+      "identifier": "ashley_c_keller",
+      "description": "for the Petitioner "
+    }
+  ],
+  "daniel": [
+    {
+      "name": "Michael M Daniel",
+      "last_name": "Daniel",
+      "identifier": "michael_m_daniel",
+      "description": "on behalf of the respondent"
+    }
+  ],
+  "melnik": [
+    {
+      "name": "Roman Melnik",
+      "last_name": "Melnik",
+      "identifier": "roman_melnik",
+      "description": "for the petitioners"
+    }
+  ],
+  "saunders": [
+    {
+      "name": "Thomas G. Saunders",
+      "last_name": "Saunders",
+      "identifier": "thomas_g_saunders",
+      "description": "for the respondent"
+    }
+  ],
+  "stewart": [
+    {
+      "name": "Malcolm L. Stewart",
+      "last_name": "Stewart",
+      "identifier": "malcolm_l_stewart",
+      "description": "for the respondent"
+    },
+    {
+      "name": "Damien G. Stewart",
+      "last_name": "Stewart",
+      "identifier": "damien_g_stewart",
+      "description": "for respondent"
+    },
+    {
+      "name": "Scott G. Stewart",
+      "last_name": "Stewart",
+      "identifier": "scott_g_stewart",
+      "description": "For the Petitioners"
+    }
+  ],
+  "schnapper": [
+    {
+      "name": "Eric Schnapper",
+      "last_name": "Schnapper",
+      "identifier": "eric_schnapper",
+      "description": "for the respondent"
+    }
+  ],
+  "martinez": [
+    {
+      "name": "Roman Martinez",
+      "last_name": "Martinez",
+      "identifier": "roman_martinez",
+      "description": "on behalf of the petitioner"
+    }
+  ],
+  "prelogar": [
+    {
+      "name": "Elizabeth B. Prelogar",
+      "last_name": "Prelogar",
+      "identifier": "elizabeth_b_prelogar",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the petitioner, United States v. June"
+    }
+  ],
+  "rosenkranz": [
+    {
+      "name": "E. Joshua Rosenkranz",
+      "last_name": "Rosenkranz",
+      "identifier": "e_joshua_rosenkranz",
+      "description": "for the respondent, United States v. June"
+    }
+  ],
+  "feldman": [
+    {
+      "name": "Leonard Feldman",
+      "last_name": "Feldman",
+      "identifier": "leonard_feldman",
+      "description": "for the respondent"
+    },
+    {
+      "name": "James A. Feldman",
+      "last_name": "Feldman",
+      "identifier": "james_a_feldman",
+      "description": "for the petitioner"
+    }
+  ],
+  "van aken": [
+    {
+      "name": "Christine Van Aken",
+      "last_name": "Van Aken",
+      "identifier": "christine_van_aken",
+      "description": "for the petitioners"
+    }
+  ],
+  "gershengorn": [
+    {
+      "name": "Ian H. Gershengorn",
+      "last_name": "Gershengorn",
+      "identifier": "ian_h_gershengorn",
+      "description": "for the petitioners"
+    }
+  ],
+  "elwood": [
+    {
+      "name": "John P. Elwood",
+      "last_name": "Elwood",
+      "identifier": "john_p_elwood",
+      "description": "for the petitioner"
+    }
+  ],
+  "dreeben": [
+    {
+      "name": "Michael R. Dreeben",
+      "last_name": "Dreeben",
+      "identifier": "michael_r_dreeben",
+      "description": "Deputy Solicitor General, Department of Justice, for the respondent"
+    }
+  ],
+  "fisher": [
+    {
+      "name": "Jeffrey L. Fisher",
+      "last_name": "Fisher",
+      "identifier": "jeffrey_l_fisher",
+      "description": "for the petitioner"
+    },
+    {
+      "name": "Thomas M. Fisher",
+      "last_name": "Fisher",
+      "identifier": "thomas_m_fisher",
+      "description": "for the Respondent"
+    }
+  ],
+  "montgomery": [
+    {
+      "name": "Robert C. Montgomery",
+      "last_name": "Montgomery",
+      "identifier": "robert_c_montgomery",
+      "description": "for the respondent"
+    }
+  ],
+  "kovner": [
+    {
+      "name": "Rachel P. Kovner",
+      "last_name": "Kovner",
+      "identifier": "rachel_p_kovner",
+      "description": "on behalf of the united states as amicus curiae, supporting respondent"
+    }
+  ],
+  "ward": [
+    {
+      "name": "Wendy M. Ward",
+      "last_name": "Ward",
+      "identifier": "wendy_m_ward",
+      "description": "for the petitioner"
+    }
+  ],
+  "bash": [
+    {
+      "name": "John F. Bash",
+      "last_name": "Bash",
+      "identifier": "john_f_bash",
+      "description": "Assistant to the Solicitor General, Department of Justice"
+    }
+  ],
+  "schaffer": [
+    {
+      "name": "Randolph L. Schaffer",
+      "last_name": "Schaffer",
+      "identifier": "randolph_l_schaffer",
+      "description": "for the petitioner"
+    }
+  ],
+  "oldham": [
+    {
+      "name": "Andrew S. Oldham",
+      "last_name": "Oldham",
+      "identifier": "andrew_s_oldham",
+      "description": "Deputy Solicitor General of Texas, for the respondent"
+    },
+    {
+      "name": "Jeffrey L. Oldham",
+      "last_name": "Oldham",
+      "identifier": "jeffrey_oldham",
+      "description": "for the respondent"
+    }
+  ],
+  "shanmugam": [
+    {
+      "name": "Kannon K. Shanmugam",
+      "last_name": "Shanmugam",
+      "identifier": "kannon_k_shanmugam",
+      "description": "for the petitioner"
+    }
+  ],
+  "birnbaum": [
+    {
+      "name": "Sheila L. Birnbaum",
+      "last_name": "Birnbaum",
+      "identifier": "sheila_l_birnbaum",
+      "description": "for the respondent"
+    }
+  ],
+  "harrington": [
+    {
+      "name": "Sarah E. Harrington",
+      "last_name": "Harrington",
+      "identifier": "sarah_e_harrington",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the United States as amicus curiae supporting the respondent"
+    }
+  ],
+  "konrad": [
+    {
+      "name": "Robin C. Konrad",
+      "last_name": "Konrad",
+      "identifier": "robin_c_konrad",
+      "description": "for the petitioners"
+    }
+  ],
+  "wyrick": [
+    {
+      "name": "Patrick R. Wyrick",
+      "last_name": "Wyrick",
+      "identifier": "patrick_r_wyrick",
+      "description": "for the respondents"
+    }
+  ],
+  "urbanski": [
+    {
+      "name": "Robin Urbanski",
+      "last_name": "Urbanski",
+      "identifier": "robin_urbanski",
+      "description": "for the petitioner"
+    }
+  ],
+  "dain": [
+    {
+      "name": "Anthony J. Dain",
+      "last_name": "Dain",
+      "identifier": "anthony_j_dain",
+      "description": "for the respondent"
+    }
+  ],
+  "lewin": [
+    {
+      "name": "Alyza D. Lewin",
+      "last_name": "Lewin",
+      "identifier": "alyza_d_lewin",
+      "description": "for the petitioner"
+    }
+  ],
+  "ortiz": [
+    {
+      "name": "Daniel R. Ortiz",
+      "last_name": "Ortiz",
+      "identifier": "daniel_r_ortiz",
+      "description": "for the petitioner"
+    }
+  ],
+  "adams": [
+    {
+      "name": "Ann O'Connell Adams",
+      "last_name": "Adams",
+      "identifier": "ann_oconnell",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the respondent"
+    },
+    {
+      "name": "Matthew H. Adams",
+      "last_name": "Adams",
+      "identifier": "matthew_h_adams",
+      "description": "for the Respondent"
+    }
+  ],
+  "kneedler": [
+    {
+      "name": "Edwin S. Kneedler",
+      "last_name": "Kneedler",
+      "identifier": "edwin_s_kneedler",
+      "description": "Deputy Solicitor General, Department of Justice, for the United States as amicus curiae, for the petitioners"
+    }
+  ],
+  "withroe": [
+    {
+      "name": "Carl J Withroe",
+      "last_name": "Withroe",
+      "identifier": "carl_j_withroe",
+      "description": "on behalf of the petitioners"
+    }
+  ],
+  "piotrowski": [
+    {
+      "name": "James M Piotrowski",
+      "last_name": "Piotrowski",
+      "identifier": "james_m_piotrowski",
+      "description": "on behalf of the respondents"
+    }
+  ],
+  "dupree": [
+    {
+      "name": "Thomas H. Dupree Jr.",
+      "last_name": "Dupree",
+      "identifier": "thomas_h_dupree_jr",
+      "description": "for the respondent"
+    }
+  ],
+  "tripp": [
+    {
+      "name": "Zachary D. Tripp",
+      "last_name": "Tripp",
+      "identifier": "zachary_d_tripp",
+      "description": "for the petitioner"
+    }
+  ],
+  "hallward-driemeier": [
+    {
+      "name": "Douglas Hallward-Driemeier",
+      "last_name": "Hallward-Driemeier",
+      "identifier": "douglas_hallward_driemeier",
+      "description": "for the respondent"
+    }
+  ],
+  "laramore": [
+    {
+      "name": "Jon Laramore",
+      "last_name": "Laramore",
+      "identifier": "jon_laramore",
+      "description": "for the petitioner"
+    }
+  ],
+  "desanctis": [
+    {
+      "name": "Michael B. DeSanctis",
+      "last_name": "DeSanctis",
+      "identifier": "michael_b_desanctis",
+      "description": "for the petitioner"
+    }
+  ],
+  "burns": [
+    {
+      "name": "Premila Burns",
+      "last_name": "Burns",
+      "identifier": "premila_burns",
+      "description": "for the respondent"
+    }
+  ],
+  "stone": [
+    {
+      "name": "David S Stone",
+      "last_name": "Stone",
+      "identifier": "david_s_stone",
+      "description": "on behalf of respondent"
+    },
+    {
+      "name": "Judd E. Stone, II",
+      "last_name": "Stone",
+      "identifier": "judd_e_stone_ii",
+      "description": "for the Respondent"
+    }
+  ],
+  "dvoretzky": [
+    {
+      "name": "Shay Dvoretzky",
+      "last_name": "Dvoretzky",
+      "identifier": "shay_dvoretzky",
+      "description": "for the respondent"
+    }
+  ],
+  "haddad": [
+    {
+      "name": "Mark E. Haddad",
+      "last_name": "Haddad",
+      "identifier": "mark_e_haddad",
+      "description": "on behalf of the respondent"
+    }
+  ],
+  "fleming": [
+    {
+      "name": "Mark C. Fleming",
+      "last_name": "Fleming",
+      "identifier": "mark_c_fleming",
+      "description": "for the petitioner"
+    }
+  ],
+  "yang": [
+    {
+      "name": "Anthony A. Yang",
+      "last_name": "Yang",
+      "identifier": "anthony_a_yang",
+      "description": "for the respondent in support of reversal and remand"
+    }
+  ],
+  "peterson": [
+    {
+      "name": "William R. Peterson",
+      "last_name": "Peterson",
+      "identifier": "william_r_peterson",
+      "description": "for amicus curiae in support of judgment below"
+    }
+  ],
+  "hacker": [
+    {
+      "name": "Jonathan Hacker",
+      "last_name": "Hacker",
+      "identifier": "jonathan_hacker",
+      "description": "for the respondent"
+    },
+    {
+      "name": "Jonathan D. Hacker",
+      "last_name": "Hacker",
+      "identifier": "jonathan_d_hacker",
+      "description": "for the petitioners"
+    }
+  ],
+  "frederick": [
+    {
+      "name": "David C. Frederick",
+      "last_name": "Frederick",
+      "identifier": "david_c_frederick",
+      "description": "on behalf of the petitioners"
+    }
+  ],
+  "jay": [
+    {
+      "name": "William M. Jay",
+      "last_name": "Jay",
+      "identifier": "william_m_jay",
+      "description": "for the petitioner"
+    }
+  ],
+  "anders": [
+    {
+      "name": "Ginger D. Anders",
+      "last_name": "Anders",
+      "identifier": "ginger_d_anders",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the United States as amicus curiae"
+    }
+  ],
+  "phillips": [
+    {
+      "name": "Carter G. Phillips",
+      "last_name": "Phillips",
+      "identifier": "carter_g_phillips",
+      "description": "for the respondent"
+    }
+  ],
+  "mcconnell": [
+    {
+      "name": "Michael W. McConnell",
+      "last_name": "McConnell",
+      "identifier": "michael_w_mcconnell",
+      "description": "for the petitioners"
+    }
+  ],
+  "isaacson": [
+    {
+      "name": "George S. Isaacson",
+      "last_name": "Isaacson",
+      "identifier": "george_s_isaacson",
+      "description": "for the petitioner"
+    }
+  ],
+  "domenico": [
+    {
+      "name": "Daniel D. Domenico",
+      "last_name": "Domenico",
+      "identifier": "daniel_d_domenico",
+      "description": "Solicitor General, Colorado, for the respondent"
+    }
+  ],
+  "laycock": [
+    {
+      "name": "Douglas Laycock",
+      "last_name": "Laycock",
+      "identifier": "douglas_laycock",
+      "description": "for the petitioner"
+    }
+  ],
+  "curran": [
+    {
+      "name": "David A. Curran",
+      "last_name": "Curran",
+      "identifier": "david_curran",
+      "description": "for the respondent"
+    },
+    {
+      "name": "Christopher M. Curran",
+      "last_name": "Curran",
+      "identifier": "christopher_m_curran",
+      "description": "for petitioner"
+    }
+  ],
+  "badalamenti": [
+    {
+      "name": "John L. Badalamenti",
+      "last_name": "Badalamenti",
+      "identifier": "john_l_badalamenti",
+      "description": "on behalf of the petitioner"
+    }
+  ],
+  "werbner": [
+    {
+      "name": "Mark S. Werbner",
+      "last_name": "Werbner",
+      "identifier": "mark_s_werbner",
+      "description": "for the petitioner"
+    }
+  ],
+  "waxman": [
+    {
+      "name": "Seth P. Waxman",
+      "last_name": "Waxman",
+      "identifier": "seth_p_waxman",
+      "description": "for the respondent"
+    }
+  ],
+  "bonauto": [
+    {
+      "name": "Mary L. Bonauto",
+      "last_name": "Bonauto",
+      "identifier": "mary_l_bonauto",
+      "description": "for the petitioners on Question 1"
+    }
+  ],
+  "bursch": [
+    {
+      "name": "John J. Bursch",
+      "last_name": "Bursch",
+      "identifier": "john_j_bursch",
+      "description": "for the respondents on Question 1"
+    }
+  ],
+  "whalen": [
+    {
+      "name": "Joseph F. Whalen",
+      "last_name": "Whalen",
+      "identifier": "joseph_f_whalen",
+      "description": "for the respondents on Question 2"
+    }
+  ],
+  "feigin": [
+    {
+      "name": "Eric J. Feigin",
+      "last_name": "Feigin",
+      "identifier": "eric_j_feigin",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the United States as amicus curiae, for the appellees"
+    }
+  ],
+  "george": [
+    {
+      "name": "Roger James George, Jr.",
+      "last_name": "George",
+      "identifier": "roger_james_george_jr",
+      "description": "for the respondents"
+    }
+  ],
+  "pildes": [
+    {
+      "name": "Richard Pildes",
+      "last_name": "Pildes",
+      "identifier": "richard_pildes",
+      "description": "for the petitioners in 13-1138"
+    }
+  ],
+  "brasher": [
+    {
+      "name": "Andrew L. Brasher",
+      "last_name": "Brasher",
+      "identifier": "andrew_l_brasher",
+      "description": "for the respondents, Solicitor General, Alabama"
+    }
+  ],
+  "o'connor": [
+    {
+      "name": "Shannon P. O'Connor",
+      "last_name": "O'Connor",
+      "identifier": "shannon_p_oconnor",
+      "description": "for the petitioner"
+    },
+    {
+      "name": "Thomas J. O'Connor",
+      "last_name": "O'Connor",
+      "identifier": "thomas_j_o_connor",
+      "description": "for the respondent"
+    }
+  ],
+  "carpenter": [
+    {
+      "name": "Joshua B. Carpenter",
+      "last_name": "Carpenter",
+      "identifier": "joshua_b_carpenter",
+      "description": "for the petitioner"
+    }
+  ],
+  "fletcher": [
+    {
+      "name": "Brian H. Fletcher",
+      "last_name": "Fletcher",
+      "identifier": "brian_h_fletcher",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the respondent"
+    }
+  ],
+  "pincus": [
+    {
+      "name": "Andrew J. Pincus",
+      "last_name": "Pincus",
+      "identifier": "andrew_j_pincus",
+      "description": "for the petitioner"
+    }
+  ],
+  "richard": [
+    {
+      "name": "Barry Richard",
+      "last_name": "Richard",
+      "identifier": "barry_richard",
+      "description": "on behalf of the respondent"
+    }
+  ],
+  "spinelli": [
+    {
+      "name": "Danielle Spinelli",
+      "last_name": "Spinelli",
+      "identifier": "danielle_spinelli",
+      "description": "for the petitioner"
+    }
+  ],
+  "bibas": [
+    {
+      "name": "Stephanos Bibas",
+      "last_name": "Bibas",
+      "identifier": "stephanos_bibas",
+      "description": "for the respondents"
+    }
+  ],
+  "katyal": [
+    {
+      "name": "Neal Kumar Katyal",
+      "last_name": "Katyal",
+      "identifier": "neal_kumar_katyal",
+      "description": "for the petitioners"
+    }
+  ],
+  "mcallister": [
+    {
+      "name": "Stephen R. McAllister",
+      "last_name": "McAllister",
+      "identifier": "stephen_r_mcallister",
+      "description": "for Kansas, et al., as amici curiae, for the respondents"
+    }
+  ],
+  "ho": [
+    {
+      "name": "Allyson N. Ho",
+      "last_name": "Ho",
+      "identifier": "allyson_n_ho",
+      "description": "for the petitioner"
+    },
+    {
+      "name": "Dale E. Ho",
+      "last_name": "Ho",
+      "identifier": "dale_e_ho",
+      "description": "on behalf of Respondents, New York Immigration Coalition, et al."
+    }
+  ],
+  "clark": [
+    {
+      "name": "Julia P. Clark",
+      "last_name": "Clark",
+      "identifier": "julia_p_clark",
+      "description": "for the respondent"
+    }
+  ],
+  "hughes": [
+    {
+      "name": "Paul W. Hughes",
+      "last_name": "Hughes",
+      "identifier": "paul_w_hughes",
+      "description": "for the petitioner"
+    }
+  ],
+  "van den bosch": [
+    {
+      "name": "Carlo F. Van den Bosch",
+      "last_name": "Van Den Bosch",
+      "identifier": "carlo_f_van_den_bosch",
+      "description": "for the respondent"
+    }
+  ],
+  "goldenberg": [
+    {
+      "name": "Elaine J. Goldenberg",
+      "last_name": "Goldenberg",
+      "identifier": "elaine_j_goldenberg",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the United States as amicus curiae supporting the petitioner"
+    }
+  ],
+  "lindstrom": [
+    {
+      "name": "Aaron D. Lindstrom",
+      "last_name": "Lindstrom",
+      "identifier": "aaron_d_lindstrom",
+      "description": "for the state petitioners"
+    }
+  ],
+  "smith": [
+    {
+      "name": "Paul M. Smith",
+      "last_name": "Smith",
+      "identifier": "paul_m_smith",
+      "description": "for the industry respondents"
+    },
+    {
+      "name": "James D. Smith",
+      "last_name": "Smith",
+      "identifier": "james_d_smith",
+      "description": "for the petitioners"
+    }
+  ],
+  "brownell": [
+    {
+      "name": "F. William Brownell",
+      "last_name": "Brownell",
+      "identifier": "f_william_brownell",
+      "description": "for the industry petitioners and respondents in support"
+    }
+  ],
+  "cookson": [
+    {
+      "name": "David D. Cookson",
+      "last_name": "Cookson",
+      "identifier": "david_d_cookson",
+      "description": "Chief Deputy Attorney General of Nebraska, for the respondent"
+    }
+  ],
+  "menendez": [
+    {
+      "name": "Katherine M. Menendez",
+      "last_name": "Menendez",
+      "identifier": "katherine_m_menendez",
+      "description": "for the petitioner"
+    }
+  ],
+  "steege": [
+    {
+      "name": "Catherine Steege",
+      "last_name": "Steege",
+      "identifier": "catherine_steege",
+      "description": "for the petitioners"
+    }
+  ],
+  "madden": [
+    {
+      "name": "Matthew M. Madden",
+      "last_name": "Madden",
+      "identifier": "matthew_m_madden",
+      "description": "for the petitioner"
+    }
+  ],
+  "goldblatt": [
+    {
+      "name": "Craig Goldblatt",
+      "last_name": "Goldblatt",
+      "identifier": "craig_goldblatt",
+      "description": "for the respondent"
+    }
+  ],
+  "bagenstos": [
+    {
+      "name": "Samuel R. Bagenstos",
+      "last_name": "Bagenstos",
+      "identifier": "samuel_r_bagenstos",
+      "description": "for the petitioner"
+    }
+  ],
+  "halligan": [
+    {
+      "name": "Caitlin J. Halligan",
+      "last_name": "Halligan",
+      "identifier": "caitlin_j_halligan",
+      "description": "for the respondent"
+    }
+  ],
+  "brockman": [
+    {
+      "name": "William F. Brockman",
+      "last_name": "Brockman",
+      "identifier": "william_f_brockman",
+      "description": "Acting Solicitor General, Maryland, for the petitioner"
+    }
+  ],
+  "perella": [
+    {
+      "name": "Dominic F. Perella",
+      "last_name": "Perella",
+      "identifier": "dominic_f_perella",
+      "description": "for the respondent"
+    }
+  ],
+  "streett": [
+    {
+      "name": "Aaron M. Streett",
+      "last_name": "Streett",
+      "identifier": "aaron_m_streett",
+      "description": "for the petitioner"
+    }
+  ],
+  "russell": [
+    {
+      "name": "Kevin K. Russell",
+      "last_name": "Russell",
+      "identifier": "kevin_k_russell",
+      "description": "for the petitioner"
+    }
+  ],
+  "carvin": [
+    {
+      "name": "Michael A. Carvin",
+      "last_name": "Carvin",
+      "identifier": "michael_a_carvin",
+      "description": "for the petitioners"
+    }
+  ],
+  "meyer": [
+    {
+      "name": "Matthew Meyer",
+      "last_name": "Meyer",
+      "identifier": "matthew_meyer",
+      "description": "for the petitioner"
+    }
+  ],
+  "eisenstein": [
+    {
+      "name": "Ilana Eisenstein",
+      "last_name": "Eisenstein",
+      "identifier": "ilana_eisenstein",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the United States as amicus curiae, for the petitioner"
+    }
+  ],
+  "savrin": [
+    {
+      "name": "Philip W. Savrin",
+      "last_name": "Savrin",
+      "identifier": "philip_w_savrin",
+      "description": "for the respondents"
+    }
+  ],
+  "cortman": [
+    {
+      "name": "David A Cortman",
+      "last_name": "Cortman",
+      "identifier": "david_a_cortman",
+      "description": "on behalf of petitioners"
+    }
+  ],
+  "berreth": [
+    {
+      "name": "Nowell D. Berreth",
+      "last_name": "Berreth",
+      "identifier": "nowell_d_berreth",
+      "description": "for the petitioner"
+    }
+  ],
+  "sharp": [
+    {
+      "name": "Rex A. Sharp",
+      "last_name": "Sharp",
+      "identifier": "rex_sharp",
+      "description": "for the respondent"
+    }
+  ],
+  "kedem": [
+    {
+      "name": "Allon Kedem",
+      "last_name": "Kedem",
+      "identifier": "allon_kedem",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the United States as amicus curiae supporting the respondent"
+    }
+  ],
+  "mooppan": [
+    {
+      "name": "Hashim M. Mooppan",
+      "last_name": "Mooppan",
+      "identifier": "hashim_m_mooppan",
+      "description": "for the petitioner"
+    }
+  ],
+  "carothers": [
+    {
+      "name": "Richard A. Carothers",
+      "last_name": "Carothers",
+      "identifier": "richard_carothers",
+      "description": "for the respondent"
+    }
+  ],
+  "davis": [
+    {
+      "name": "Ethan P. Davis",
+      "last_name": "Davis",
+      "identifier": "ethan_p_davis",
+      "description": "for the petitioner"
+    },
+    {
+      "name": "Jason Davis",
+      "last_name": "Davis",
+      "identifier": "jason_davis",
+      "description": "for the respondent"
+    },
+    {
+      "name": "Joshua P. Davis",
+      "last_name": "Davis",
+      "identifier": "joshua_p_davis",
+      "description": "for the Petitioner"
+    }
+  ],
+  "saenz": [
+    {
+      "name": "Thomas A. Saenz",
+      "last_name": "Saenz",
+      "identifier": "thomas_a_saenz",
+      "description": "for the intervenor-respondents"
+    }
+  ],
+  "murphy": [
+    {
+      "name": "Erin E. Murphy",
+      "last_name": "Murphy",
+      "identifier": "erin_e_murphy",
+      "description": "for the respondents, for the United States House of Representatives, as amicus curiae"
+    },
+    {
+      "name": "Eric E. Murphy",
+      "last_name": "Murphy",
+      "identifier": "eric_e_murphy",
+      "description": "for the petitioners"
+    }
+  ],
+  "lamken": [
+    {
+      "name": "Jeffrey A. Lamken",
+      "last_name": "Lamken",
+      "identifier": "jeffrey_a_lamken",
+      "description": "for the petitioner"
+    }
+  ],
+  "olson": [
+    {
+      "name": "Theodore B. Olson",
+      "last_name": "Olson",
+      "identifier": "theodore_b_olson",
+      "description": "for the respondents"
+    },
+    {
+      "name": "Eric R. Olson",
+      "last_name": "Olson",
+      "identifier": "eric_r_olson",
+      "description": "for the Respondents"
+    }
+  ],
+  "hearne": [
+    {
+      "name": "Mark F. Hearne, II",
+      "last_name": "Hearne",
+      "identifier": "mark_f_hearne_ii",
+      "description": "for the appellants"
+    }
+  ],
+  "brnovich": [
+    {
+      "name": "Mark Brnovich",
+      "last_name": "Brnovich",
+      "identifier": "mark_brnovich",
+      "description": "for the appellee"
+    }
+  ],
+  "findley": [
+    {
+      "name": "Matthew T. Findley",
+      "last_name": "Findley",
+      "identifier": "matthew_t_findley",
+      "description": "for the petitioner"
+    }
+  ],
+  "botstein": [
+    {
+      "name": "Ruth Botstein",
+      "last_name": "Botstein",
+      "identifier": "ruth_botstein",
+      "description": "for Alaska, as amicus curiae for the petitioner"
+    }
+  ],
+  "hopper": [
+    {
+      "name": "M. Reed Hopper",
+      "last_name": "Hopper",
+      "identifier": "m_reed_hopper",
+      "description": "for the respondents"
+    }
+  ],
+  "strommer": [
+    {
+      "name": "Geoffrey D. Strommer",
+      "last_name": "Strommer",
+      "identifier": "geoffrey_d_strommer",
+      "description": "for the petitioner"
+    }
+  ],
+  "strauss": [
+    {
+      "name": "Scott H. Strauss",
+      "last_name": "Strauss",
+      "identifier": "scott_h_strauss",
+      "description": "for the petitioners in 14-614"
+    },
+    {
+      "name": "David A. Strauss",
+      "last_name": "Strauss",
+      "identifier": "david_a_strauss",
+      "description": "for respondents"
+    }
+  ],
+  "elgarten": [
+    {
+      "name": "Clifton S. Elgarten",
+      "last_name": "Elgarten",
+      "identifier": "clifton_s_elgarten",
+      "description": "for the petitioner in 14-623"
+    }
+  ],
+  "pospisil": [
+    {
+      "name": "Michael D. Pospisil",
+      "last_name": "Pospisil",
+      "identifier": "michael_d_pospisil",
+      "description": "for the petitioner"
+    }
+  ],
+  "duggan": [
+    {
+      "name": "John M. Duggan",
+      "last_name": "Duggan",
+      "identifier": "john_m_duggan",
+      "description": "for the respondents"
+    }
+  ],
+  "landau": [
+    {
+      "name": "Christopher Landau",
+      "last_name": "Landau",
+      "identifier": "christopher_landau",
+      "description": "for the petitioner"
+    }
+  ],
+  "francisco": [
+    {
+      "name": "Noel J. Francisco",
+      "last_name": "Francisco",
+      "identifier": "noel_j_francisco",
+      "description": "for the petitioners"
+    }
+  ],
+  "mcgill": [
+    {
+      "name": "Matthew D. McGill",
+      "last_name": "McGill",
+      "identifier": "matthew_d_mcgill",
+      "description": "for the respondents"
+    }
+  ],
+  "englert,": [
+    {
+      "name": "Roy T. Englert, Jr.",
+      "last_name": "Englert,",
+      "identifier": "roy_t_englert",
+      "description": "for the petitioner"
+    }
+  ],
+  "lev": [
+    {
+      "name": "Stuart B. Lev",
+      "last_name": "Lev",
+      "identifier": "stuart_b_lev",
+      "description": "for the petitioner"
+    }
+  ],
+  "eisenberg": [
+    {
+      "name": "Ronald Eisenberg",
+      "last_name": "Eisenberg",
+      "identifier": "ronald_eisenberg",
+      "description": "for the respondent"
+    }
+  ],
+  "srebnick": [
+    {
+      "name": "Howard Srebnick",
+      "last_name": "Srebnick",
+      "identifier": "howard_srebnick",
+      "description": "for the petitioner"
+    }
+  ],
+  "bernstein": [
+    {
+      "name": "Richard D. Bernstein",
+      "last_name": "Bernstein",
+      "identifier": "richard_d_bernstein",
+      "description": "for the Court-appointed amicus curiae"
+    }
+  ],
+  "plaisance": [
+    {
+      "name": "Mark D. Plaisance",
+      "last_name": "Plaisance",
+      "identifier": "mark_d_plaisance",
+      "description": "for the petitioner"
+    }
+  ],
+  "duncan": [
+    {
+      "name": "S. Kyle Duncan",
+      "last_name": "Duncan",
+      "identifier": "s_kyle_duncan",
+      "description": "for the respondent"
+    }
+  ],
+  "wolfman": [
+    {
+      "name": "Brian Wolfman",
+      "last_name": "Wolfman",
+      "identifier": "brian_wolfman",
+      "description": "for the petitioner"
+    }
+  ],
+  "carroll": [
+    {
+      "name": "Catherine M.A. Carroll",
+      "last_name": "Carroll",
+      "identifier": "catherine_ma_carroll",
+      "description": "for Court-appointed amicux curiae"
+    }
+  ],
+  "guadagno": [
+    {
+      "name": "Matthew L. Guadagno",
+      "last_name": "Guadagno",
+      "identifier": "matthew_l_guadagno",
+      "description": "for the petitioner"
+    }
+  ],
+  "rothfeld": [
+    {
+      "name": "Charles A. Rothfeld",
+      "last_name": "Rothfeld",
+      "identifier": "charles_a_rothfeld",
+      "description": "for the petitioners"
+    }
+  ],
+  "mccarthy": [
+    {
+      "name": "Thomas R. McCarthy",
+      "last_name": "McCarthy",
+      "identifier": "thomas_r_mccarthy",
+      "description": "for the respondents in 14-468 & 14-1507"
+    }
+  ],
+  "keena": [
+    {
+      "name": "Kathryn Keena",
+      "last_name": "Keena",
+      "identifier": "kathryn_keena",
+      "description": "for the respondent in 14-1470"
+    }
+  ],
+  "schmidt": [
+    {
+      "name": "Derek Schmidt",
+      "last_name": "Schmidt",
+      "identifier": "derek_l_schmidt",
+      "description": "for the petitioner in 14-452"
+    }
+  ],
+  "green": [
+    {
+      "name": "Jeffrey T. Green",
+      "last_name": "Green",
+      "identifier": "jeffrey_t_green",
+      "description": "for the respondent in 14-449"
+    },
+    {
+      "name": "Tyler R. Green",
+      "last_name": "Green",
+      "identifier": "tyler_r_green",
+      "description": "for the petitioner"
+    }
+  ],
+  "liu": [
+    {
+      "name": "Frederick Liu",
+      "last_name": "Liu",
+      "identifier": "frederick_liu",
+      "description": "for the respondent in 14-450"
+    }
+  ],
+  "toti": [
+    {
+      "name": "Stephanie Toti",
+      "last_name": "Toti",
+      "identifier": "stephanie_toti",
+      "description": "for the petitioners"
+    }
+  ],
+  "winsor": [
+    {
+      "name": "Allen Winsor",
+      "last_name": "Winsor",
+      "identifier": "allen_winsor",
+      "description": "Solicitor General of Florida, for the respondent"
+    }
+  ],
+  "shelley": [
+    {
+      "name": "Anthony F. Shelley",
+      "last_name": "Shelley",
+      "identifier": "anthony_f_shelley",
+      "description": "for the petitioner"
+    }
+  ],
+  "shapiro": [
+    {
+      "name": "Carolyn E. Shapiro",
+      "last_name": "Shapiro",
+      "identifier": "carolyn_e_shapiro",
+      "description": "for the petitioner"
+    },
+    {
+      "name": "Alexandra A. E. Shapiro",
+      "last_name": "Shapiro",
+      "identifier": "alexandra_a_e_shapiro",
+      "description": "for petitioner"
+    },
+    {
+      "name": "David M. Shapiro",
+      "last_name": "Shapiro",
+      "identifier": "david_m_shapiro",
+      "description": "for the petitioner"
+    }
+  ],
+  "levenstam": [
+    {
+      "name": "Barry Levenstam",
+      "last_name": "Levenstam",
+      "identifier": "barry_levenstam",
+      "description": "for the respondent"
+    }
+  ],
+  "frost": [
+    {
+      "name": "Mark Frost",
+      "last_name": "Frost",
+      "identifier": "mark_frost",
+      "description": "for the petitioner"
+    }
+  ],
+  "consovoy": [
+    {
+      "name": "William S. Consovoy",
+      "last_name": "Consovoy",
+      "identifier": "william_s_consovoy",
+      "description": "for the appellants"
+    }
+  ],
+  "stris": [
+    {
+      "name": "Peter K. Stris",
+      "last_name": "Stris",
+      "identifier": "peter_k_stris",
+      "description": "for the respondents"
+    }
+  ],
+  "vergonis": [
+    {
+      "name": "Christian Vergonis",
+      "last_name": "Vergonis",
+      "identifier": "christian_vergonis",
+      "description": "for the respondent"
+    }
+  ],
+  "unikowsky": [
+    {
+      "name": "Adam G. Unikowsky",
+      "last_name": "Unikowsky",
+      "identifier": "adam_g_unikowsky",
+      "description": "for the respondents"
+    }
+  ],
+  "watt": [
+    {
+      "name": "Joan C. Watt",
+      "last_name": "Watt",
+      "identifier": "joan_c_watt",
+      "description": "for the respondent"
+    }
+  ],
+  "basombrio": [
+    {
+      "name": "Juan C. Basombrio",
+      "last_name": "Basombrio",
+      "identifier": "juan_c_basombrio",
+      "description": "for the petitioner"
+    }
+  ],
+  "beeney": [
+    {
+      "name": "Garrard R. Beeney",
+      "last_name": "Beeney",
+      "identifier": "garrard_r_beeney",
+      "description": "for the petitioner"
+    }
+  ],
+  "dumont": [
+    {
+      "name": "Edward C. DuMont",
+      "last_name": "DuMont",
+      "identifier": "edward_c_dumont",
+      "description": "for the state respondent"
+    }
+  ],
+  "bright": [
+    {
+      "name": "Stephen B. Bright",
+      "last_name": "Bright",
+      "identifier": "stephen_b_bright",
+      "description": "for the petitioner"
+    }
+  ],
+  "burton": [
+    {
+      "name": "Beth A. Burton",
+      "last_name": "Burton",
+      "identifier": "beth_a_burton",
+      "description": "for the respondent"
+    }
+  ],
+  "jaffe": [
+    {
+      "name": "Erik S. Jaffe",
+      "last_name": "Jaffe",
+      "identifier": "erik_s_jaffe",
+      "description": "for the petitioner"
+    }
+  ],
+  "rein": [
+    {
+      "name": "Bert W. Rein",
+      "last_name": "Rein",
+      "identifier": "bert_w_rein",
+      "description": "for the petitioner"
+    }
+  ],
+  "garre": [
+    {
+      "name": "Gregory G. Garre",
+      "last_name": "Garre",
+      "identifier": "gregory_g_garre",
+      "description": "for the respondents"
+    }
+  ],
+  "farr": [
+    {
+      "name": "H. Bartow Farr",
+      "last_name": "Farr",
+      "identifier": "h_bartow_farr",
+      "description": "for the respondent"
+    }
+  ],
+  "babcock": [
+    {
+      "name": "Steven C. Babcock",
+      "last_name": "Babcock",
+      "identifier": "steven_c_babcock",
+      "description": "for the respondent"
+    }
+  ],
+  "crooks": [
+    {
+      "name": "Timothy Crooks",
+      "last_name": "Crooks",
+      "identifier": "timothy_crooks",
+      "description": "for the petitioner"
+    }
+  ],
+  "meisler": [
+    {
+      "name": "Scott A.C. Meisler",
+      "last_name": "Meisler",
+      "identifier": "scott_a_c_meisler",
+      "description": "for the respondent"
+    }
+  ],
+  "zas": [
+    {
+      "name": "Edward Scott Zas",
+      "last_name": "Zas",
+      "identifier": "edward_scott_zas",
+      "description": "for the petitioner"
+    }
+  ],
+  "villa": [
+    {
+      "name": "Virginia G. Villa",
+      "last_name": "Villa",
+      "identifier": "virginia_g_villa",
+      "description": "for the petitioners"
+    }
+  ],
+  "kimberly": [
+    {
+      "name": "Michael B. Kimberly",
+      "last_name": "Kimberly",
+      "identifier": "michael_b_kimberly",
+      "description": "for the petitioners"
+    }
+  ],
+  "sullivan": [
+    {
+      "name": "Steven M. Sullivan",
+      "last_name": "Sullivan",
+      "identifier": "steven_m_sullivan",
+      "description": "for the respondents"
+    },
+    {
+      "name": "Kathleen M. Sullivan",
+      "last_name": "Sullivan",
+      "identifier": "kathleen_m_sullivan",
+      "description": "for petitioners"
+    },
+    {
+      "name": "Edwin Sullivan",
+      "last_name": "Sullivan",
+      "identifier": "edwin_sullivan",
+      "description": "for the Respondent "
+    }
+  ],
+  "asay": [
+    {
+      "name": "Bridget C. Asay",
+      "last_name": "Asay",
+      "identifier": "bridget_c_asay",
+      "description": "for the petitioner"
+    }
+  ],
+  "wall": [
+    {
+      "name": "Jeffrey B. Wall",
+      "last_name": "Wall",
+      "identifier": "jeffrey_b_wall",
+      "description": "for the petitioners"
+    },
+    {
+      "name": "Daniel M. Wall",
+      "last_name": "Wall",
+      "identifier": "daniel_m_wall",
+      "description": "for the Petitioner"
+    }
+  ],
+  "mitchell": [
+    {
+      "name": "Jonathan F. Mitchell",
+      "last_name": "Mitchell",
+      "identifier": "jonathan_f_mitchell",
+      "description": "for the respondent"
+    }
+  ],
+  "bernhardt": [
+    {
+      "name": "Julia Doyle Bernhardt",
+      "last_name": "Bernhardt",
+      "identifier": "julia_doyle_bernhardt",
+      "description": "for the petitioner"
+    }
+  ],
+  "raphael": [
+    {
+      "name": "Stuart A. Raphael",
+      "last_name": "Raphael",
+      "identifier": "stuart_a_raphael",
+      "description": "for the state appellees"
+    }
+  ],
+  "elias": [
+    {
+      "name": "Marc E. Elias",
+      "last_name": "Elias",
+      "identifier": "marc_e_elias",
+      "description": "for the private appellees"
+    }
+  ],
+  "rowley": [
+    {
+      "name": "Fred A. Rowley, Jr.",
+      "last_name": "Rowley",
+      "identifier": "fred_a_rowley_jr",
+      "description": "for the petitioner"
+    }
+  ],
+  "schowengerdt": [
+    {
+      "name": "Dale Schowengerdt",
+      "last_name": "Schowengerdt",
+      "identifier": "dale_schowengerdt",
+      "description": "for the respondent"
+    }
+  ],
+  "ali": [
+    {
+      "name": "Amir H. Ali",
+      "last_name": "Ali",
+      "identifier": "amir_h_ali",
+      "description": "for the petitioner"
+    }
+  ],
+  "walker": [
+    {
+      "name": "Helgi C. Walker",
+      "last_name": "Walker",
+      "identifier": "helgi_c_walker",
+      "description": "for Court-appointed amicus curiae in support of the judgment below"
+    },
+    {
+      "name": "Lucas M. Walker",
+      "last_name": "Walker",
+      "identifier": "lucas_m_walker",
+      "description": "for the Petitioners"
+    }
+  ],
+  "katsas": [
+    {
+      "name": "Gregory G. Katsas",
+      "last_name": "Katsas",
+      "identifier": "gregory_g_katsas",
+      "description": "for the petitioners"
+    }
+  ],
+  "hansmeier": [
+    {
+      "name": "Daniel T. Hansmeier",
+      "last_name": "Hansmeier",
+      "identifier": "daniel_t_hansmeier",
+      "description": "for the petitioner"
+    }
+  ],
+  "jones": [
+    {
+      "name": "Dennis E. Jones",
+      "last_name": "Jones",
+      "identifier": "dennis_e_jones",
+      "description": "for the petitioner"
+    }
+  ],
+  "eisenhammer": [
+    {
+      "name": "Stanley B. Eisenhammer",
+      "last_name": "Eisenhammer",
+      "identifier": "stanley_b_eisenhammer",
+      "description": "for petitioner"
+    }
+  ],
+  "scodro": [
+    {
+      "name": "Michael A. Scodro",
+      "last_name": "Scodro",
+      "identifier": "michael_a_scodro",
+      "description": "for respondents"
+    }
+  ],
+  "ravitz": [
+    {
+      "name": "Randall E. Ravitz",
+      "last_name": "Ravitz",
+      "identifier": "rndall_e_ravitz",
+      "description": "for respondent"
+    }
+  ],
+  "estrada": [
+    {
+      "name": "Miguel A. Estrada",
+      "last_name": "Estrada",
+      "identifier": "miguel_a_estrada",
+      "description": "for petitioner"
+    }
+  ],
+  "wessler": [
+    {
+      "name": "Matthew W.H. Wessler",
+      "last_name": "Wessler",
+      "identifier": "matthew_wh_wessler",
+      "description": "for respondent"
+    },
+    {
+      "name": "Nathan Freed Wessler",
+      "last_name": "Wessler",
+      "identifier": "nathan_freed_wessler",
+      "description": "for petitioner"
+    }
+  ],
+  "parker": [
+    {
+      "name": "Robert A. Parker",
+      "last_name": "Parker",
+      "identifier": "robert_a_parker",
+      "description": "for respondent"
+    }
+  ],
+  "geyser": [
+    {
+      "name": "Daniel L. Geyser",
+      "last_name": "Geyser",
+      "identifier": "daniel_l_geyser",
+      "description": "for the respondent"
+    }
+  ],
+  "trela": [
+    {
+      "name": "Constantine L. Trela, Jr.",
+      "last_name": "Trela",
+      "identifier": "constantine_l_trela_jr_",
+      "description": "for respondent"
+    }
+  ],
+  "gornstein": [
+    {
+      "name": "Irving L. Gornstein",
+      "last_name": "Gornstein",
+      "identifier": "irving_l_gornstein",
+      "description": "for United States as amicus curiae"
+    }
+  ],
+  "salyer": [
+    {
+      "name": "Robert E. Salyer",
+      "last_name": "Salyer",
+      "identifier": "robert_e_salyer",
+      "description": "on behalf of respondents"
+    }
+  ],
+  "maynard": [
+    {
+      "name": "Deanne E. Maynard",
+      "last_name": "Maynard",
+      "identifier": "deanne_e_maynard",
+      "description": "for petitioner"
+    }
+  ],
+  "stetson": [
+    {
+      "name": "Catherine E. Stetson",
+      "last_name": "Stetson",
+      "identifier": "catherine_e_stetson",
+      "description": "for petitioners"
+    }
+  ],
+  "black": [
+    {
+      "name": "Martin J. Black",
+      "last_name": "Black",
+      "identifier": "martin_j_black",
+      "description": "for petitioners"
+    }
+  ],
+  "miller": [
+    {
+      "name": "Eric D. Miller",
+      "last_name": "Miller",
+      "identifier": "eric_d_miller",
+      "description": "for the petitioners"
+    },
+    {
+      "name": "Monica L. Miller",
+      "last_name": "Miller",
+      "identifier": "monica_l_miller",
+      "description": "for the respondents"
+    },
+    {
+      "name": "Lloyd B. Miller",
+      "last_name": "Miller",
+      "identifier": "lloyd_b_miller",
+      "description": "for the Respondent in 23-250"
+    }
+  ],
+  "rashkind": [
+    {
+      "name": "Paul M. Rashkind",
+      "last_name": "Rashkind",
+      "identifier": "paul_m_rashkind",
+      "description": "for petitioner"
+    }
+  ],
+  "peck": [
+    {
+      "name": "Robert S. Peck",
+      "last_name": "Peck",
+      "identifier": "robert_s_peck",
+      "description": "for respondents"
+    }
+  ],
+  "brooks": [
+    {
+      "name": "Brian P. Brooks",
+      "last_name": "Brooks",
+      "identifier": "brian_p_brooks",
+      "description": "for respondents"
+    }
+  ],
+  "groen": [
+    {
+      "name": "John M. Groen",
+      "last_name": "Groen",
+      "identifier": "john_m_groen",
+      "description": "for petitioner"
+    }
+  ],
+  "tseytlin": [
+    {
+      "name": "Misha Tseytlin",
+      "last_name": "Tseytlin",
+      "identifier": "misha_tseytlin",
+      "description": "for respondent Wisconsin"
+    }
+  ],
+  "lazarus": [
+    {
+      "name": "Richard J. Lazarus",
+      "last_name": "Lazarus",
+      "identifier": "richard_j_lazarus",
+      "description": "for respondent St. Coix County"
+    }
+  ],
+  "kinnaird": [
+    {
+      "name": "Stephen B. Kinnaird",
+      "last_name": "Kinnaird",
+      "identifier": "stephen_b_kinnaird",
+      "description": "on behalf of Court-appointed amicus curiae"
+    }
+  ],
+  "kretzer": [
+    {
+      "name": "Seth Kretzer",
+      "last_name": "Kretzer",
+      "identifier": "seth_kretzer",
+      "description": "for petitioner"
+    }
+  ],
+  "swarns": [
+    {
+      "name": "Christina A. Swarns",
+      "last_name": "Swarns",
+      "identifier": "christina_a_swarns",
+      "description": "for petitioner"
+    }
+  ],
+  "goldberg": [
+    {
+      "name": "David T. Goldberg",
+      "last_name": "Goldberg",
+      "identifier": "david_t_goldberg",
+      "description": "for petitioner"
+    }
+  ],
+  "bell": [
+    {
+      "name": "Koren L. Bell",
+      "last_name": "Bell",
+      "identifier": "koren_l_bell",
+      "description": "for petitioner"
+    }
+  ],
+  "layton": [
+    {
+      "name": "James R. Layton",
+      "last_name": "Layton",
+      "identifier": "james_r_layton",
+      "description": "for respondent"
+    }
+  ],
+  "blatt": [
+    {
+      "name": "Lisa S. Blatt",
+      "last_name": "Blatt",
+      "identifier": "lisa_s_blatt",
+      "description": "for petitioners"
+    }
+  ],
+  "meeropol": [
+    {
+      "name": "Rachel Meeropol",
+      "last_name": "Meeropol",
+      "identifier": "rachel_meeropol",
+      "description": "for respondents"
+    }
+  ],
+  "bergmann": [
+    {
+      "name": "Janice L. Bergmann",
+      "last_name": "Bergmann",
+      "identifier": "janice_l_bergmann",
+      "description": "for petitioner"
+    }
+  ],
+  "mortara": [
+    {
+      "name": "Adam K. Mortara",
+      "last_name": "Mortara",
+      "identifier": "adam_k_mortara",
+      "description": "for Court-appointed amicus curiae"
+    }
+  ],
+  "sloan": [
+    {
+      "name": "Clifford M. Sloan",
+      "last_name": "Sloan",
+      "identifier": "clifford_m_sloan",
+      "description": "for petitioner"
+    }
+  ],
+  "connell": [
+    {
+      "name": "John C. Connell",
+      "last_name": "Connell",
+      "identifier": "john_c_connell",
+      "description": "for the respondent"
+    }
+  ],
+  "benza": [
+    {
+      "name": "Michael J. Benza",
+      "last_name": "Benza",
+      "identifier": "michael_j_benza",
+      "description": "for respondent"
+    }
+  ],
+  "dabney": [
+    {
+      "name": "James W. Dabney",
+      "last_name": "Dabney",
+      "identifier": "james_w_dabney",
+      "description": "for petitioner"
+    }
+  ],
+  "wirken": [
+    {
+      "name": "Charles W. Wirken",
+      "last_name": "Wirken",
+      "identifier": "charles_w_wirken",
+      "description": "for respondent"
+    }
+  ],
+  "yarger": [
+    {
+      "name": "Frederick R. Yarger",
+      "last_name": "Yarger",
+      "identifier": "frederick_r_yarger",
+      "description": "for respondent"
+    }
+  ],
+  "gaston": [
+    {
+      "name": "Jeremy Gaston",
+      "last_name": "Gaston",
+      "identifier": "jeremy_gaston",
+      "description": "for petitioner"
+    }
+  ],
+  "hootman": [
+    {
+      "name": "Timothy A. Hootman",
+      "last_name": "Hootman",
+      "identifier": "timothy_a_hootman",
+      "description": "for respondent"
+    }
+  ],
+  "banner": [
+    {
+      "name": "Stuart Banner",
+      "last_name": "Banner",
+      "identifier": "stuart_banner",
+      "description": "for the petitioners"
+    }
+  ],
+  "williams": [
+    {
+      "name": "John S. Williams",
+      "last_name": "Williams",
+      "identifier": "john_s_williams",
+      "description": "for petitioner in 15-1503"
+    }
+  ],
+  "rice": [
+    {
+      "name": "Deanna M. Rice",
+      "last_name": "Rice",
+      "identifier": "deanna_m_rice",
+      "description": "for petitioner in 15-1504"
+    },
+    {
+      "name": "Amanda K. Rice",
+      "last_name": "Rice",
+      "identifier": "amanda_k_rice",
+      "description": "Court-appointed amicus curiae, supporting the judgment below"
+    }
+  ],
+  "tulumello": [
+    {
+      "name": "Andrew S. Tulumello",
+      "last_name": "Tulumello",
+      "identifier": "andrew_s_tulumello",
+      "description": "for petitioner"
+    }
+  ],
+  "murray": [
+    {
+      "name": "Julie A. Murray",
+      "last_name": "Murray",
+      "identifier": "julie_a_murray",
+      "description": "for respondents"
+    },
+    {
+      "name": "Jason C. Murray",
+      "last_name": "Murray",
+      "identifier": "jason_c_murray",
+      "description": "for Respondents Anderson, et al."
+    }
+  ],
+  "gupta": [
+    {
+      "name": "Deepak Gupta",
+      "last_name": "Gupta",
+      "identifier": "deepak_gupta",
+      "description": "for the petitioners"
+    }
+  ],
+  "wu": [
+    {
+      "name": "Steven C. Wu",
+      "last_name": "Wu",
+      "identifier": "steven_c_wu",
+      "description": "Deputy Solicitor General of New York, for the respondents"
+    }
+  ],
+  "singh": [
+    {
+      "name": "Tejinder Singh",
+      "last_name": "Singh",
+      "identifier": "tejinder_singh",
+      "description": "for respondents"
+    }
+  ],
+  "bergeron": [
+    {
+      "name": "Pierre H. Bergeron",
+      "last_name": "Bergeron",
+      "identifier": "pierre_h_bergeron",
+      "description": "for the petitioner"
+    }
+  ],
+  "egbert": [
+    {
+      "name": "John J. Egbert",
+      "last_name": "Egbert",
+      "identifier": "john_j_egbert",
+      "description": "for the respondents"
+    }
+  ],
+  "hilliard": [
+    {
+      "name": "Robert C. Hilliard",
+      "last_name": "Hilliard",
+      "identifier": "robert_c_hilliard",
+      "description": "on behalf of petitioners"
+    }
+  ],
+  "ortega": [
+    {
+      "name": "Randolph J. Ortega",
+      "last_name": "Ortega",
+      "identifier": "randolph_j_ortega",
+      "description": "on behalf of respondent"
+    }
+  ],
+  "stoler": [
+    {
+      "name": "Alan G. Stoler",
+      "last_name": "Stoler",
+      "identifier": "alan_g_stoler",
+      "description": "for petitioner"
+    }
+  ],
+  "broome": [
+    {
+      "name": "Stephen A. Broome",
+      "last_name": "Broome",
+      "identifier": "stephen_a_broome",
+      "description": "for respondent"
+    }
+  ],
+  "hawkins": [
+    {
+      "name": "David S. Hawkins",
+      "last_name": "Hawkins",
+      "identifier": "david_s_hawkins",
+      "description": "for petitioner"
+    },
+    {
+      "name": "Kyle D. Hawkins",
+      "last_name": "Hawkins",
+      "identifier": "kyle_d_hawkins",
+      "description": "Texas Solicitor General, for Texas et al. as amicus curiae, in support of affirmance"
+    }
+  ],
+  "huston": [
+    {
+      "name": "Michael R. Huston",
+      "last_name": "Huston",
+      "identifier": "michael_r_huston",
+      "description": "Assistant to the Solicitor General, Department of Justice, for respondent"
+    }
+  ],
+  "bishop": [
+    {
+      "name": "Timothy S. Bishop",
+      "last_name": "Bishop",
+      "identifier": "timothy_s_bishop",
+      "description": "for the petitioner"
+    }
+  ],
+  "michel": [
+    {
+      "name": "Christopher G. Michel",
+      "last_name": "Michel",
+      "identifier": "christopher_g_michel",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the United States, as amicus curiae"
+    }
+  ],
+  "messenger": [
+    {
+      "name": "William L. Messenger",
+      "last_name": "Messenger",
+      "identifier": "william_l_messenger",
+      "description": "for petitioner"
+    }
+  ],
+  "franklin": [
+    {
+      "name": "David L. Franklin",
+      "last_name": "Franklin",
+      "identifier": "david_l_franklin",
+      "description": "for state respondents"
+    }
+  ],
+  "mcguire": [
+    {
+      "name": "Matthew R. McGuire",
+      "last_name": "McGuire",
+      "identifier": "matthew_r_mcguire",
+      "description": "for the respondent"
+    }
+  ],
+  "ross": [
+    {
+      "name": "Erica L. Ross",
+      "last_name": "Ross",
+      "identifier": "erica_l_ross",
+      "description": "Assistant to the Solicitor General, Department of Justice, for United States, as amicus curiae"
+    },
+    {
+      "name": "Deuel Ross",
+      "last_name": "Ross",
+      "identifier": "deuel_ross",
+      "description": "for the Appellees"
+    }
+  ],
+  "perlin": [
+    {
+      "name": "Asher Perlin",
+      "last_name": "Perlin",
+      "identifier": "asher_perlin",
+      "description": "for petitioners"
+    }
+  ],
+  "gottlieb": [
+    {
+      "name": "Michael J. Gottlieb",
+      "last_name": "Gottlieb",
+      "identifier": "michael_j_gottlieb",
+      "description": "for petitioners"
+    }
+  ],
+  "jacobson": [
+    {
+      "name": "Jonathan Jacobson",
+      "last_name": "Jacobson",
+      "identifier": "jonathan_jacobson",
+      "description": "for respondents"
+    }
+  ],
+  "davidson": [
+    {
+      "name": "Kristin L. Davidson",
+      "last_name": "Davidson",
+      "identifier": "kristin_l_davidson",
+      "description": "for petitioner"
+    }
+  ],
+  "ellis": [
+    {
+      "name": "Jonathan Y. Ellis",
+      "last_name": "Ellis",
+      "identifier": "jonathan_ellis",
+      "description": "Assistant to the Solicitor General, Department of Justice, for respondent"
+    }
+  ],
+  "coberly": [
+    {
+      "name": "Todd A. Coberly",
+      "last_name": "Coberly",
+      "identifier": "todd_a_coberly",
+      "description": "appointed by the Court for petitioner"
+    },
+    {
+      "name": "Linda T. Coberly",
+      "last_name": "Coberly",
+      "identifier": "linda_t_coberly",
+      "description": "for the Petitioners"
+    }
+  ],
+  "rosenstein": [
+    {
+      "name": "Rod J. Rosenstein",
+      "last_name": "Rosenstein",
+      "identifier": "rod_j_rosenstein",
+      "description": "Deputy Solicitor General, Department of Justice, for respondent"
+    }
+  ],
+  "cahn": [
+    {
+      "name": "Reuben C. Cahn",
+      "last_name": "Cahn",
+      "identifier": "reuben_c_cahn",
+      "description": "for respondent"
+    }
+  ],
+  "olive": [
+    {
+      "name": "Mark E. Olive",
+      "last_name": "Olive",
+      "identifier": "mark_e_olive",
+      "description": "for petitioner"
+    }
+  ],
+  "warren": [
+    {
+      "name": "Sarah Hawkins Warren",
+      "last_name": "Warren",
+      "identifier": "sarah_hawkins_warren",
+      "description": "Solicitor General of Georgia, for respondent"
+    }
+  ],
+  "vladeck": [
+    {
+      "name": "Stephen C. Vladeck",
+      "last_name": "Vladeck",
+      "identifier": "stephen_c_vladeck",
+      "description": "for petitioners"
+    },
+    {
+      "name": "Stephen I. Vladeck",
+      "last_name": "Vladeck",
+      "identifier": "stephen_i_vladeck",
+      "description": "for petitioners"
+    }
+  ],
+  "bamzai": [
+    {
+      "name": "Aditya Bamzai",
+      "last_name": "Bamzai",
+      "identifier": "aditya_bamzai",
+      "description": "as amicus curiae, in support of neither party"
+    }
+  ],
+  "hellman": [
+    {
+      "name": "Matthew S. Hellman",
+      "last_name": "Hellman",
+      "identifier": "matthew_s_hellman",
+      "description": "for petitioner"
+    }
+  ],
+  "legner": [
+    {
+      "name": "Brett E. Legner",
+      "last_name": "Legner",
+      "identifier": "brett_e_legner",
+      "description": "for the respondents"
+    }
+  ],
+  "alikhan": [
+    {
+      "name": "Loren L. AliKhan",
+      "last_name": "AliKhan",
+      "identifier": "loren_l_alikhan",
+      "description": "Deputy Solicitor General, Washington, DC, for respondent"
+    }
+  ],
+  "shumsky": [
+    {
+      "name": "Eric A. Shumsky",
+      "last_name": "Shumsky",
+      "identifier": "eric_a_shumsky",
+      "description": "for petitioner"
+    }
+  ],
+  "griffin": [
+    {
+      "name": "Richard F. Griffin",
+      "last_name": "Griffin",
+      "identifier": "richard_f_griffin",
+      "description": "for petitioner in 16-307"
+    }
+  ],
+  "kise": [
+    {
+      "name": "Christopher M. Kise",
+      "last_name": "Kise",
+      "identifier": "christopher_m_kise",
+      "description": "for respondent"
+    }
+  ],
+  "heytens": [
+    {
+      "name": "Toby J. Heytens",
+      "last_name": "Heytens",
+      "identifier": "toby_j_heytens",
+      "description": "for petitioner"
+    }
+  ],
+  "corkran": [
+    {
+      "name": "Kelsi B. Corkran",
+      "last_name": "Corkran",
+      "identifier": "kelsi_b_corkran",
+      "description": "for respondent"
+    }
+  ],
+  "castanias": [
+    {
+      "name": "Gregory A.  Castanias",
+      "last_name": "Castanias",
+      "identifier": "gregory_a__castanias",
+      "description": "for petitioner"
+    }
+  ],
+  "bond": [
+    {
+      "name": "Jonathan C. Bond",
+      "last_name": "Bond",
+      "identifier": "jonathan_c_bond",
+      "description": "for respondent"
+    }
+  ],
+  "riggs": [
+    {
+      "name": "Allison J. Riggs",
+      "last_name": "Riggs",
+      "identifier": "allison_j_riggs",
+      "description": "for appellees in No. 17-626"
+    }
+  ],
+  "hicks": [
+    {
+      "name": "Max Renea Hicks",
+      "last_name": "Hicks",
+      "identifier": "max_renea_hicks",
+      "description": "for appellees in No. 17-586"
+    },
+    {
+      "name": "George W. Hicks, Jr.",
+      "last_name": "Hicks",
+      "identifier": "george_w_hicks_jr_",
+      "description": "for the petitioner"
+    }
+  ],
+  "ahilan t. arulanantham": [
+    {
+      "name": "Ahilan T. Arulanantham",
+      "last_name": "Ahilan T. Arulanantham",
+      "identifier": "ahilan_t_arulanantham",
+      "description": "for respondents"
+    }
+  ],
+  "jackley": [
+    {
+      "name": "Marty J. Jackley",
+      "last_name": "Jackley",
+      "identifier": "marty_j_jackley",
+      "description": "for petitioner"
+    }
+  ],
+  "kovarsky": [
+    {
+      "name": "Lee B. Kovarsky",
+      "last_name": "Kovarsky",
+      "identifier": "lee_b_kovarsky",
+      "description": "for the petitioner"
+    }
+  ],
+  "fitzgerald": [
+    {
+      "name": "Matthew A. Fitzgerald",
+      "last_name": "Fitzgerald",
+      "identifier": "matthew_a_fitzgerald",
+      "description": "for petitioner"
+    }
+  ],
+  "cox": [
+    {
+      "name": "Trevor S. Cox",
+      "last_name": "Cox",
+      "identifier": "trevor_s_cox",
+      "description": "Acting Solicitor General of Virginia, for respondent"
+    }
+  ],
+  "rael": [
+    {
+      "name": "Marcus J. Rael, Jr.",
+      "last_name": "Rael",
+      "identifier": "marcus_j_rael_jr_",
+      "description": "for defendant New Mexico"
+    }
+  ],
+  "gant": [
+    {
+      "name": "Scott E. Gant",
+      "last_name": "Gant",
+      "identifier": "scott_e_gant",
+      "description": "for petitioner"
+    }
+  ],
+  "shah": [
+    {
+      "name": "Pratik A. Shah",
+      "last_name": "Shah",
+      "identifier": "pratik_shah",
+      "description": "for the Match-E-Be-Nash-She-Wish Band of Pottawatomi Indians respondent"
+    }
+  ],
+  "breemer": [
+    {
+      "name": "J. David Breemer",
+      "last_name": "Breemer",
+      "identifier": "j_david_breemer",
+      "description": "for petitioners"
+    }
+  ],
+  "rogan": [
+    {
+      "name": "Daniel Rogan",
+      "last_name": "Rogan",
+      "identifier": "daniel_rogan",
+      "description": "for respondents"
+    }
+  ],
+  "cross": [
+    {
+      "name": "Gregory A. Cross",
+      "last_name": "Cross",
+      "identifier": "gregory_a_cross",
+      "description": "for the petitioners"
+    }
+  ],
+  "goodspeed": [
+    {
+      "name": "Morgan Goodspeed",
+      "last_name": "Goodspeed",
+      "identifier": "morgan_goodspeed",
+      "description": "Assistant to the Solicitor General, US Department of Justice, for the United States as amicus curiae supporting respondents"
+    }
+  ],
+  "chesler": [
+    {
+      "name": "Evan R. Chesler",
+      "last_name": "Chesler",
+      "identifier": "evan_r_chesler",
+      "description": "for the respondents"
+    }
+  ],
+  "walsh": [
+    {
+      "name": "Brian C. Walsh",
+      "last_name": "Walsh",
+      "identifier": "brian_c_walsh",
+      "description": "for petitioner"
+    }
+  ],
+  "karlan": [
+    {
+      "name": "Pamela S. Karlan",
+      "last_name": "Karlan",
+      "identifier": "pamela_s_karlan",
+      "description": "for petitioner"
+    }
+  ],
+  "farris": [
+    {
+      "name": "Michael P. Farris",
+      "last_name": "Farris",
+      "identifier": "michael_p_farris",
+      "description": "for petitioners"
+    }
+  ],
+  "klein": [
+    {
+      "name": "Joshua A. Klein",
+      "last_name": "Klein",
+      "identifier": "joshua_a_klein",
+      "description": "for respondents"
+    },
+    {
+      "name": "David F. Klein",
+      "last_name": "Klein",
+      "identifier": "david_f_klein",
+      "description": "For the Respondents"
+    }
+  ],
+  "purcell": [
+    {
+      "name": "Noah Purcell",
+      "last_name": "Purcell",
+      "identifier": "noah_purcell",
+      "description": "for petitioner"
+    }
+  ],
+  "zimmer": [
+    {
+      "name": "David J. Zimmer",
+      "last_name": "Zimmer",
+      "identifier": "david_j_zimmer",
+      "description": "for petitioner"
+    }
+  ],
+  "herstoff": [
+    {
+      "name": "Jonathan A. Herstoff",
+      "last_name": "Herstoff",
+      "identifier": "jonathan_a_herstoff",
+      "description": "for petitioner"
+    }
+  ],
+  "primis": [
+    {
+      "name": "Craig S. Primis",
+      "last_name": "Primis",
+      "identifier": "craig_s_primis",
+      "description": "for the respondent"
+    }
+  ],
+  "sandberg": [
+    {
+      "name": "Jeffrey E. Sandberg",
+      "last_name": "Sandberg",
+      "identifier": "jeffrey_e_sandberg",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the United States as amicus curiae in support of respondent"
+    }
+  ],
+  "kim": [
+    {
+      "name": "Todd S. Kim",
+      "last_name": "Kim",
+      "identifier": "todd_s_kim",
+      "description": "for the petitioners"
+    }
+  ],
+  "garrett": [
+    {
+      "name": "Nathaniel P. Garrett",
+      "last_name": "Garrett",
+      "identifier": "nathaniel_p_garrett",
+      "description": "for the respondents"
+    }
+  ],
+  "perry": [
+    {
+      "name": "Mark A. Perry",
+      "last_name": "Perry",
+      "identifier": "mark_a_perry",
+      "description": "for petitioners"
+    }
+  ],
+  "metlitsky": [
+    {
+      "name": "Anton Metlitsky",
+      "last_name": "Metlitsky",
+      "identifier": "anton_metlitsky",
+      "description": "for the Court-appointed amicus curiae, in support of the judgment below"
+    }
+  ],
+  "loeb": [
+    {
+      "name": "Robert M. Loeb",
+      "last_name": "Loeb",
+      "identifier": "robert_m_loeb",
+      "description": "for petitioner"
+    }
+  ],
+  "amunson": [
+    {
+      "name": "Jessica R. Amunson",
+      "last_name": "Amunson",
+      "identifier": "jessica_r_amunson",
+      "description": "for petitioner"
+    }
+  ],
+  "murrill": [
+    {
+      "name": "Elizabeth Murrill",
+      "last_name": "Murrill",
+      "identifier": "elizabeth_murrill",
+      "description": "for respondent"
+    }
+  ],
+  "aronson": [
+    {
+      "name": "Seth A. Aronson",
+      "last_name": "Aronson",
+      "identifier": "seth_a_aronson",
+      "description": "for petitioner"
+    }
+  ],
+  "simpson": [
+    {
+      "name": "Andrew C. Simpson",
+      "last_name": "Simpson",
+      "identifier": "andrew_c_simpson",
+      "description": "for petitioner"
+    },
+    {
+      "name": "Richard A. Simpson",
+      "last_name": "Simpson",
+      "identifier": "richard_a_simpson",
+      "description": "for the Petitioner"
+    }
+  ],
+  "waggoner": [
+    {
+      "name": "Kristen Kellie Waggoner",
+      "last_name": "Waggoner",
+      "identifier": "kristen_kellie_waggoner",
+      "description": "for petitioners"
+    }
+  ],
+  "cole": [
+    {
+      "name": "David D. Cole",
+      "last_name": "Cole",
+      "identifier": "david_d_cole",
+      "description": "for private respondents"
+    }
+  ],
+  "jorgensen": [
+    {
+      "name": "Kenneth K. Jorgensen",
+      "last_name": "Jorgensen",
+      "identifier": "kenneth_k_jorgensen",
+      "description": "for respondent"
+    }
+  ],
+  "sachs": [
+    {
+      "name": "Teresa Ficken Sachs",
+      "last_name": "Sachs",
+      "identifier": "teresa_ficken_sachs",
+      "description": "for respondents"
+    }
+  ],
+  "ratner": [
+    {
+      "name": "Morgan L. Ratner",
+      "last_name": "Ratner",
+      "identifier": "morgan_l_ratner",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the United States, as amicus curiae, in support of neither party"
+    }
+  ],
+  "hinkel": [
+    {
+      "name": "Andrew R. Hinkel",
+      "last_name": "Hinkel",
+      "identifier": "andrew_r_hinkel",
+      "description": "for the Petitioner"
+    }
+  ],
+  "jurss": [
+    {
+      "name": "Hannah S. Jurss",
+      "last_name": "Jurss",
+      "identifier": "hannah_s_jurss",
+      "description": "for the Respondent"
+    }
+  ],
+  "hara": [
+    {
+      "name": "Glenn L. Hara",
+      "last_name": "Hara",
+      "identifier": "glenn_l_hara",
+      "description": "for the respondent"
+    }
+  ],
+  "johnson": [
+    {
+      "name": "Sheri Lynn Johnson",
+      "last_name": "Johnson",
+      "identifier": "sheri_lynn_johnson",
+      "description": "for the petitioner"
+    },
+    {
+      "name": "Joshua S. Johnson",
+      "last_name": "Johnson",
+      "identifier": "joshua_s_johnson",
+      "description": "for the petitioners"
+    }
+  ],
+  "borghesan": [
+    {
+      "name": "Dario Borghesan",
+      "last_name": "Borghesan",
+      "identifier": "dario_borghesan",
+      "description": "for the Petitioners"
+    }
+  ],
+  "wilson": [
+    {
+      "name": "Zane D. Wilson",
+      "last_name": "Wilson",
+      "identifier": "zane_d_wilson",
+      "description": "for the Respondent"
+    }
+  ],
+  "chaiten": [
+    {
+      "name": "Louis A. Chaiten",
+      "last_name": "Chaiten",
+      "identifier": "louis_a_chaiten",
+      "description": "for the petitioner"
+    }
+  ],
+  "marwell": [
+    {
+      "name": "Jeremy C. Marwell",
+      "last_name": "Marwell",
+      "identifier": "jeremy_c_marwell",
+      "description": "for the petitioner"
+    }
+  ],
+  "weil": [
+    {
+      "name": "Amy L. Weil",
+      "last_name": "Weil",
+      "identifier": "amy_l_weil",
+      "description": "Court-appointed amicus curiae, in support of the judgment below"
+    }
+  ],
+  "underwood": [
+    {
+      "name": "Barbara D. Underwood",
+      "last_name": "Underwood",
+      "identifier": "barbara_d_underwood",
+      "description": "on behalf of Respondents, New York, et al."
+    }
+  ],
+  "letter": [
+    {
+      "name": "Douglas N. Letter",
+      "last_name": "Letter",
+      "identifier": "douglas_n_letter",
+      "description": "on behalf of the United States House of Representatives, as amicus curiae, in support of the Respondents"
+    }
+  ],
+  "de leeuw": [
+    {
+      "name": "Michael B. de Leeuw",
+      "last_name": "de Leeuw",
+      "identifier": "michael_b_de_leeuw",
+      "description": "for the petitioners"
+    }
+  ],
+  "hueston": [
+    {
+      "name": "John Hueston",
+      "last_name": "Hueston",
+      "identifier": "john_hueston",
+      "description": "for the Petitioner"
+    }
+  ],
+  "baumgartel": [
+    {
+      "name": "Sarah Baumgartel",
+      "last_name": "Baumgartel",
+      "identifier": "sarah_baumgartel",
+      "description": "for petitioner"
+    }
+  ],
+  "rouse": [
+    {
+      "name": "Franklin Taylor Rouse",
+      "last_name": "Rouse",
+      "identifier": "franklin_taylor_rouse",
+      "description": "for the petitioners"
+    }
+  ],
+  "chemerinsky": [
+    {
+      "name": "Erwin Chemerinsky",
+      "last_name": "Chemerinsky",
+      "identifier": "erwin_chemerinsky",
+      "description": "for the respondent"
+    }
+  ],
+  "young": [
+    {
+      "name": "Evan A. Young",
+      "last_name": "Young",
+      "identifier": "evan_young",
+      "description": "for the Petitioner"
+    }
+  ],
+  "heim": [
+    {
+      "name": "Robert Heim",
+      "last_name": "Heim",
+      "identifier": "robert_heim",
+      "description": "for the petitioner"
+    }
+  ],
+  "barnette": [
+    {
+      "name": "William P. Barnette",
+      "last_name": "Barnette",
+      "identifier": "william_p_barnette",
+      "description": "for the petitioner"
+    }
+  ],
+  "bland,": [
+    {
+      "name": "F. Paul Bland, Jr.",
+      "last_name": "Bland,",
+      "identifier": "f_paul_bland_jr",
+      "description": "for the respondent"
+    }
+  ],
+  "knepper": [
+    {
+      "name": "John G. Knepper",
+      "last_name": "Knepper",
+      "identifier": "john_g_knepper",
+      "description": "for the respondent"
+    }
+  ],
+  "wang": [
+    {
+      "name": "Cecillia D. Wang",
+      "last_name": "Wang",
+      "identifier": "cecillia_d_wang",
+      "description": "for repondents"
+    }
+  ],
+  "bondurant,": [
+    {
+      "name": "Emmet J. Bondurant, II",
+      "last_name": "Bondurant,",
+      "identifier": "emmet_j_bondurant_ii",
+      "description": "for the appellees, Common Cause, et al."
+    }
+  ],
+  "bhabha": [
+    {
+      "name": "Ishan Bhabha",
+      "last_name": "Bhabha",
+      "identifier": "ishan_bhabha",
+      "description": "for the petitioner"
+    }
+  ],
+  "bryn": [
+    {
+      "name": "Brenda G. Bryn",
+      "last_name": "Bryn",
+      "identifier": "brenda_g_bryn",
+      "description": "for petitioner"
+    }
+  ],
+  "roh sinzdak": [
+    {
+      "name": "Colleen E. Roh Sinzdak",
+      "last_name": "Roh Sinzdak",
+      "identifier": "colleen_e_roh_sinzdak",
+      "description": "for the Petitioner"
+    }
+  ],
+  "melkonian": [
+    {
+      "name": "Raffi Melkonian",
+      "last_name": "Melkonian",
+      "identifier": "raffi_melkonian",
+      "description": "for the Respondent"
+    }
+  ],
+  "rosenberg": [
+    {
+      "name": "Lawrence D. Rosenberg",
+      "last_name": "Rosenberg",
+      "identifier": "lawrence_d_rosenberg",
+      "description": "for the petitioners"
+    }
+  ],
+  "see": [
+    {
+      "name": "Lindsay S. See",
+      "last_name": "See",
+      "identifier": "lindsay_s_see",
+      "description": "for the respondent"
+    }
+  ],
+  "malone": [
+    {
+      "name": "Vanessa F. Malone",
+      "last_name": "Malone",
+      "identifier": "vanessa_f_malone",
+      "description": "for the petitioner"
+    }
+  ],
+  "ellickson": [
+    {
+      "name": "Jenny Ellickson",
+      "last_name": "Ellickson",
+      "identifier": "jenny_ellickson",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the respondent"
+    }
+  ],
+  "boutrous": [
+    {
+      "name": "Theodore J. Boutrous Jr.",
+      "last_name": "Boutrous",
+      "identifier": "theodore_j_boutrous_jr",
+      "description": "for petitioner"
+    }
+  ],
+  "bennett": [
+    {
+      "name": "Jennifer D. Bennett",
+      "last_name": "Bennett",
+      "identifier": "jennifer_d_bennett",
+      "description": "for respondent"
+    }
+  ],
+  "hochman": [
+    {
+      "name": "Robert N. Hochman",
+      "last_name": "Hochman",
+      "identifier": "robert_n_hochman",
+      "description": "for petitioner"
+    }
+  ],
+  "sauer": [
+    {
+      "name": "D. John Sauer",
+      "last_name": "Sauer",
+      "identifier": "d_john_sauer",
+      "description": "for respondents"
+    }
+  ],
+  "mayfield": [
+    {
+      "name": "Earl N. Mayfield III",
+      "last_name": "Mayfield",
+      "identifier": "earl_n_mayfield_iii",
+      "description": "for the respondent"
+    }
+  ],
+  "guarnieri": [
+    {
+      "name": "Matthew Guarnieri",
+      "last_name": "Guarnieri",
+      "identifier": "matthew_guarnieri",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the United States, as amicus curiae, in support of the respondent"
+    }
+  ],
+  "sommer": [
+    {
+      "name": "John R. Sommer",
+      "last_name": "Sommer",
+      "identifier": "john_r_sommer",
+      "description": "for the respondent"
+    }
+  ],
+  "lunn": [
+    {
+      "name": "William D. Lunn",
+      "last_name": "Lunn",
+      "identifier": "william_d_lunn",
+      "description": "for the respondent"
+    }
+  ],
+  "sawchak": [
+    {
+      "name": "Matthew W. Sawchak",
+      "last_name": "Sawchak",
+      "identifier": "matthew_w_sawchak",
+      "description": "for the petitioner"
+    }
+  ],
+  "o'neil": [
+    {
+      "name": "David A. O'Neil",
+      "last_name": "O'Neil",
+      "identifier": "david_a_o_neil",
+      "description": "for the respondent"
+    }
+  ],
+  "cakmis": [
+    {
+      "name": "Rosemary T. Cakmis",
+      "last_name": "Cakmis",
+      "identifier": "rosemary_t_cakmis",
+      "description": "for the petitioner"
+    }
+  ],
+  "kanji": [
+    {
+      "name": "Riyaz A. Kanji",
+      "last_name": "Kanji",
+      "identifier": "riyaz_a_kanji",
+      "description": "as amicus curiae, supporting the Respondent"
+    }
+  ],
+  "vercoski": [
+    {
+      "name": "Michele M. Vercoski",
+      "last_name": "Vercoski",
+      "identifier": "michele_m_vercoski",
+      "description": "for respondent"
+    }
+  ],
+  "panner": [
+    {
+      "name": "Aaron M. Panner",
+      "last_name": "Panner",
+      "identifier": "aaron_m_panner",
+      "description": "for the petitioner"
+    }
+  ],
+  "brinkmann": [
+    {
+      "name": "Beth S. Brinkmann",
+      "last_name": "Brinkmann",
+      "identifier": "beth_s_brinkmann",
+      "description": "for the petitioner"
+    }
+  ],
+  "stevenson": [
+    {
+      "name": "Bryan A. Stevenson",
+      "last_name": "Stevenson",
+      "identifier": "bryan_a_stevenson",
+      "description": "for petitioner"
+    },
+    {
+      "name": "Shannon W. Stevenson",
+      "last_name": "Stevenson",
+      "identifier": "shannon_w_stevenson",
+      "description": "for Respondent Griswold"
+    }
+  ],
+  "govan": [
+    {
+      "name": "Thomas R. Govan, Jr.",
+      "last_name": "Govan",
+      "identifier": "thomas_r_govan_jr_",
+      "description": "for respondent"
+    }
+  ],
+  "beck": [
+    {
+      "name": "Brandon E. Beck",
+      "last_name": "Beck",
+      "identifier": "brandon_e_beck",
+      "description": "for the respondent"
+    }
+  ],
+  "joshi": [
+    {
+      "name": "Sopan Joshi",
+      "last_name": "Joshi",
+      "identifier": "sopan_joshi",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the United States, as amicus curiae, in support of neither party"
+    },
+    {
+      "name": "Nandan M. Joshi",
+      "last_name": "Joshi",
+      "identifier": "nandan_m_joshi",
+      "description": "for the Respondent"
+    }
+  ],
+  "cooper": [
+    {
+      "name": "Charles J. Cooper",
+      "last_name": "Cooper",
+      "identifier": "charles_j_cooper",
+      "description": "for petitioners"
+    },
+    {
+      "name": "Bennett E. Cooper",
+      "last_name": "Cooper",
+      "identifier": "bennett_e_cooper",
+      "description": "for the Respondent"
+    }
+  ],
+  "hottot": [
+    {
+      "name": "Wesley P. Hottot",
+      "last_name": "Hottot",
+      "identifier": "wesley_p_hottot",
+      "description": "for the Petitioner"
+    }
+  ],
+  "frank": [
+    {
+      "name": "Theodore H. Frank",
+      "last_name": "Frank",
+      "identifier": "theodore_h_frank",
+      "description": "for petitioners"
+    }
+  ],
+  "roth": [
+    {
+      "name": "Jacob M. Roth",
+      "last_name": "Roth",
+      "identifier": "jacob_m_roth",
+      "description": "for the petitioner"
+    }
+  ],
+  "levy": [
+    {
+      "name": "Michael Levy",
+      "last_name": "Levy",
+      "identifier": "michael_levy",
+      "description": "for respondent William Baroni, supporting the petitioner"
+    },
+    {
+      "name": "Vincent Levy",
+      "last_name": "Levy",
+      "identifier": "vincent_levy",
+      "description": "for the Petitioners"
+    }
+  ],
+  "crouse": [
+    {
+      "name": "Toby Crouse",
+      "last_name": "Crouse",
+      "identifier": "toby_crouse",
+      "description": "for the petitioner"
+    }
+  ],
+  "rapawy": [
+    {
+      "name": "Gregory G. Rapawy",
+      "last_name": "Rapawy",
+      "identifier": "gregory_g_rapawy",
+      "description": "for the Petitioner"
+    }
+  ],
+  "palmore": [
+    {
+      "name": "Joseph R. Palmore",
+      "last_name": "Palmore",
+      "identifier": "joseph_r_palmore",
+      "description": "for the respondents"
+    }
+  ],
+  "citron": [
+    {
+      "name": "Eric F. Citron",
+      "last_name": "Citron",
+      "identifier": "eric_f_citron",
+      "description": "for the respondent"
+    }
+  ],
+  "lessig": [
+    {
+      "name": "Lawrence Lessig",
+      "last_name": "Lessig",
+      "identifier": "lawrence_lessig",
+      "description": "for the petitioners"
+    }
+  ],
+  "dearing": [
+    {
+      "name": "Richard P. Dearing",
+      "last_name": "Dearing",
+      "identifier": "richard_p_dearing",
+      "description": "for the respondents"
+    }
+  ],
+  "schrup": [
+    {
+      "name": "Sarah Schrup",
+      "last_name": "Schrup",
+      "identifier": "sarah_schrup",
+      "description": "for the petitioner"
+    }
+  ],
+  "charnes": [
+    {
+      "name": "Adam H. Charnes",
+      "last_name": "Charnes",
+      "identifier": "adam_h_charnes",
+      "description": "for the petitioner"
+    }
+  ],
+  "mansinghani": [
+    {
+      "name": "Mithun Mansinghani",
+      "last_name": "Mansinghani",
+      "identifier": "mithun_mansinghani",
+      "description": "for the respondent"
+    }
+  ],
+  "gelernt": [
+    {
+      "name": "Lee Gelernt",
+      "last_name": "Gelernt",
+      "identifier": "lee_gelernt",
+      "description": "for the Respondent"
+    }
+  ],
+  "bowker": [
+    {
+      "name": "David W. Bowker",
+      "last_name": "Bowker",
+      "identifier": "david_w_bowker",
+      "description": "for the respondents"
+    }
+  ],
+  "cendali": [
+    {
+      "name": "Dale M. Cendali",
+      "last_name": "Cendali",
+      "identifier": "dale_m_cendali",
+      "description": "for the petitioners"
+    }
+  ],
+  "turner": [
+    {
+      "name": "Kendall Turner",
+      "last_name": "Turner",
+      "identifier": "kendall_turner",
+      "description": "for the petitioner"
+    },
+    {
+      "name": "Joshua N. Turner",
+      "last_name": "Turner",
+      "identifier": "joshua_n_turner",
+      "description": "for the Petitioners"
+    }
+  ],
+  "allen": [
+    {
+      "name": "K. Winn Allen",
+      "last_name": "Allen",
+      "identifier": "k_winn_allen",
+      "description": "for the court-appointed amicus curiae in support of the judgment below"
+    }
+  ],
+  "sekulow": [
+    {
+      "name": "Jay Alan Sekulow",
+      "last_name": "Sekulow",
+      "identifier": "jay_alan_sekulow",
+      "description": "for the petitioner"
+    }
+  ],
+  "dunne": [
+    {
+      "name": "Carey R. Dunne",
+      "last_name": "Dunne",
+      "identifier": "carey_r_dunne",
+      "description": "for the respondents"
+    }
+  ],
+  "kellogg": [
+    {
+      "name": "Michael K. Kellogg",
+      "last_name": "Kellogg",
+      "identifier": "michael_k_kellogg",
+      "description": "for the Respondents"
+    }
+  ],
+  "komer": [
+    {
+      "name": "Richard D. Komer",
+      "last_name": "Komer",
+      "identifier": "richard_d_komer",
+      "description": "for the petitioners"
+    }
+  ],
+  "burgess": [
+    {
+      "name": "Brian T. Burgess",
+      "last_name": "Burgess",
+      "identifier": "brian_t_burgess",
+      "description": "for the petitioner"
+    }
+  ],
+  "snyder": [
+    {
+      "name": "Benjamin W. Snyder",
+      "last_name": "Snyder",
+      "identifier": "benjamin_w_snyder",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the United States, as amicus curiae, supporting the respondent"
+    }
+  ],
+  "reich": [
+    {
+      "name": "Mitchell P. Reich",
+      "last_name": "Reich",
+      "identifier": "mitchell_p_reich",
+      "description": "for the petitioner"
+    }
+  ],
+  "chu": [
+    {
+      "name": "Morgan Chu",
+      "last_name": "Chu",
+      "identifier": "morgan_chu",
+      "description": "for the respondent"
+    }
+  ],
+  "mongan": [
+    {
+      "name": "Michael J. Mongan",
+      "last_name": "Mongan",
+      "identifier": "michael_j_mongan",
+      "description": "for the state respondents"
+    }
+  ],
+  "rikelman": [
+    {
+      "name": "Julie Rikelman",
+      "last_name": "Rikelman",
+      "identifier": "julie_rikelman",
+      "description": "for June Medical Services LLC"
+    }
+  ],
+  "mendez-colberg": [
+    {
+      "name": "Jessica E. Mendez-Colberg",
+      "last_name": "Mendez-Colberg",
+      "identifier": "jessica_e_mendez_colberg",
+      "description": "On behalf of UTIER"
+    }
+  ],
+  "shaffer": [
+    {
+      "name": "Derek L. Shaffer",
+      "last_name": "Shaffer",
+      "identifier": "derek_l_shaffer",
+      "description": "for the petitioners"
+    }
+  ],
+  "park": [
+    {
+      "name": "Ryan Park",
+      "last_name": "Park",
+      "identifier": "ryan_park",
+      "description": "for the respondents"
+    },
+    {
+      "name": "Ryan Y. Park",
+      "last_name": "Park",
+      "identifier": "ryan_y_park",
+      "description": "for the University Respondents"
+    }
+  ],
+  "rassbach": [
+    {
+      "name": "Eric C. Rassbach",
+      "last_name": "Rassbach",
+      "identifier": "eric_c_rassbach",
+      "description": "for the petitioners"
+    }
+  ],
+  "bonderoff": [
+    {
+      "name": "Samuel Bonderoff",
+      "last_name": "Bonderoff",
+      "identifier": "samuel_bonderoff",
+      "description": "for the respondents"
+    }
+  ],
+  "harris": [
+    {
+      "name": "Jeffrey M. Harris",
+      "last_name": "Harris",
+      "identifier": "jeffrey_m_harris",
+      "description": "for the respondent in 17-1618 and the petitioner in 17-1623"
+    },
+    {
+      "name": "Sarah M. Harris",
+      "last_name": "Harris",
+      "identifier": "sarah_m_harris",
+      "description": "for the Petitioners"
+    },
+    {
+      "name": "Mark D. Harris",
+      "last_name": "Harris",
+      "identifier": "mark_d_harris",
+      "description": "for the Petitioner "
+    },
+    {
+      "name": "David J. Harris",
+      "last_name": "Harris",
+      "identifier": "david_j_harris",
+      "description": "for the Respondents"
+    }
+  ],
+  "lin": [
+    {
+      "name": "Elbert Lin",
+      "last_name": "Lin",
+      "identifier": "elbert_lin",
+      "description": "for the petitioner"
+    }
+  ],
+  "henkin": [
+    {
+      "name": "David L. Henkin",
+      "last_name": "Henkin",
+      "identifier": "david_l_henkin",
+      "description": "for the respondents"
+    }
+  ],
+  "fischer": [
+    {
+      "name": "Michael J. Fischer",
+      "last_name": "Fischer",
+      "identifier": "michael_j_fischer",
+      "description": "for the respondents"
+    }
+  ],
+  "tayrani": [
+    {
+      "name": "Amir C. Tayrani",
+      "last_name": "Tayrani",
+      "identifier": "amir_c_tayrani",
+      "description": "for the petitioner"
+    }
+  ],
+  "weiser": [
+    {
+      "name": "Philip J. Weiser",
+      "last_name": "Weiser",
+      "identifier": "philip_j_weiser",
+      "description": "for the petitioner"
+    }
+  ],
+  "harrow": [
+    {
+      "name": "Jason Harrow",
+      "last_name": "Harrow",
+      "identifier": "jason_harrow",
+      "description": "for the respondents"
+    }
+  ],
+  "rosen": [
+    {
+      "name": "Jeffrey A. Rosen",
+      "last_name": "Rosen",
+      "identifier": "jeffrey_a_rosen",
+      "description": "for the United States, as amicus curiae, supporting the Respondents"
+    }
+  ],
+  "summa": [
+    {
+      "name": "Richard M. Summa",
+      "last_name": "Summa",
+      "identifier": "richard_m_summa",
+      "description": "for the petitioner"
+    }
+  ],
+  "skinner": [
+    {
+      "name": "Oramel H. Skinner",
+      "last_name": "Skinner",
+      "identifier": "oramel_h_skinner",
+      "description": "for the respondent"
+    }
+  ],
+  "lehman": [
+    {
+      "name": "James K. Lehman",
+      "last_name": "Lehman",
+      "identifier": "james_k_lehman",
+      "description": "for the petitioner"
+    }
+  ],
+  "dunham": [
+    {
+      "name": "Griffin S. Dunham",
+      "last_name": "Dunham",
+      "identifier": "griffin_s_dunham",
+      "description": "for the respondent"
+    }
+  ],
+  "suri": [
+    {
+      "name": "Vivek Suri",
+      "last_name": "Suri",
+      "identifier": "vivek_suri",
+      "description": "Assistant to the Solicitor General, Department of Justice, for the United States, as amicus curiae, supporting the respondent"
+    }
+  ],
+  "strawbridge": [
+    {
+      "name": "Patrick Strawbridge",
+      "last_name": "Strawbridge",
+      "identifier": "patrick_strawbridge",
+      "description": "for the petitioners"
+    }
+  ],
+  "raynor": [
+    {
+      "name": "Austin L. Raynor",
+      "last_name": "Raynor",
+      "identifier": "austin_raynor",
+      "description": "for the Respondent"
+    }
+  ],
+  "bronni": [
+    {
+      "name": "Nicholas J. Bronni",
+      "last_name": "Bronni",
+      "identifier": "nicholas_j_bronni",
+      "description": "for the petitioner"
+    }
+  ],
+  "desisto": [
+    {
+      "name": "Marc Desisto",
+      "last_name": "Desisto",
+      "identifier": "marc_desisto",
+      "description": "for the Respondent"
+    }
+  ],
+  "nobile": [
+    {
+      "name": "Krissy C. Nobile",
+      "last_name": "Nobile",
+      "identifier": "krissy_c_nobile",
+      "description": "for the respondent"
+    }
+  ],
+  "henkel": [
+    {
+      "name": "Eric R. Henkel",
+      "last_name": "Henkel",
+      "identifier": "eric_r_henkel",
+      "description": "for the Respondent"
+    }
+  ],
+  "freiman": [
+    {
+      "name": "Jonathan M. Freiman",
+      "last_name": "Freiman",
+      "identifier": "jonathan_m_freiman",
+      "description": "for the petitioners"
+    }
+  ],
+  "o'donnell": [
+    {
+      "name": "Nicholas M. O'Donnell",
+      "last_name": "O'Donnell",
+      "identifier": "nicholas_m_o_donnell",
+      "description": "for the respondents"
+    }
+  ],
+  "kassem": [
+    {
+      "name": "Ramzi Kassem",
+      "last_name": "Kassem",
+      "identifier": "ramzi_kassem",
+      "description": "for the respondents"
+    }
+  ],
+  "belanger": [
+    {
+      "name": "Andre Belanger",
+      "last_name": "Belanger",
+      "identifier": "andre_belanger",
+      "description": "for the petitioner"
+    }
+  ],
+  "jaicomo": [
+    {
+      "name": "Patrick M. Jaicomo",
+      "last_name": "Jaicomo",
+      "identifier": "patrick_m_jaicomo",
+      "description": "for the respondent"
+    }
+  ],
+  "garner": [
+    {
+      "name": "Bryan A. Garner",
+      "last_name": "Garner",
+      "identifier": "bryan_a_garner",
+      "description": "for the respondents"
+    }
+  ],
+  "thompson": [
+    {
+      "name": "Joshua P. Thompson",
+      "last_name": "Thompson",
+      "identifier": "joshua_p_thompson",
+      "description": "for the Petitioners"
+    },
+    {
+      "name": "David H. Thompson",
+      "last_name": "Thompson",
+      "identifier": "david_h_thompson",
+      "description": "on behalf of the petitioners in 19-422 and the respondents in 19-563"
+    }
+  ],
+  "feigenbaum": [
+    {
+      "name": "Jeremy M. Feigenbaum",
+      "last_name": "Feigenbaum",
+      "identifier": "jeremy_m_feigenbaum",
+      "description": "for the Respondents"
+    }
+  ],
+  "adler": [
+    {
+      "name": "Andrew L. Adler",
+      "last_name": "Adler",
+      "identifier": "andrew_l_adler",
+      "description": "for the Petitioner"
+    }
+  ],
+  "narayan": [
+    {
+      "name": "Sanjay Narayan",
+      "last_name": "Narayan",
+      "identifier": "sanjay_narayan",
+      "description": "for the respondent"
+    }
+  ],
+  "reaves": [
+    {
+      "name": "Nicole F. Reaves",
+      "last_name": "Reaves",
+      "identifier": "nicole_f_reaves",
+      "description": "for the United States, as amicus curiae, supporting neither party"
+    }
+  ],
+  "issacharoff": [
+    {
+      "name": "Samuel Issacharoff",
+      "last_name": "Issacharoff",
+      "identifier": "samuel_issacharoff",
+      "description": "for the Respondent"
+    }
+  ],
+  "goldman": [
+    {
+      "name": "Brian P. Goldman",
+      "last_name": "Goldman",
+      "identifier": "brian_p_goldman",
+      "description": "For the Petitioner"
+    }
+  ],
+  "wedoff": [
+    {
+      "name": "Eugene R. Wedoff",
+      "last_name": "Wedoff",
+      "identifier": "eugene_r_wedoff",
+      "description": "for the respondents"
+    }
+  ],
+  "lucas": [
+    {
+      "name": "Brinton Lucas",
+      "last_name": "Lucas",
+      "identifier": "brinton_lucas",
+      "description": "for the United States, as amicus curiae, supporting the Petitioners"
+    }
+  ],
+  "sher": [
+    {
+      "name": "Victor M. Sher",
+      "last_name": "Sher",
+      "identifier": "victor_m_sher",
+      "description": "for the Respondents"
+    }
+  ],
+  "harbourt": [
+    {
+      "name": "Samuel T. Harbourt",
+      "last_name": "Harbourt",
+      "identifier": "samuel_t_harbourt",
+      "description": "for the Respondent, supporting vacatur"
+    }
+  ],
+  "wechsler": [
+    {
+      "name": "Jeffrey J. Wechsler",
+      "last_name": "Wechsler",
+      "identifier": "jeffrey_j_wechsler",
+      "description": "for the State of New Mexico"
+    }
+  ],
+  "hansford": [
+    {
+      "name": "Masha G. Hansford",
+      "last_name": "Hansford",
+      "identifier": "masha_g_hansford",
+      "description": "for the United States, as amicus curiae, supporting New Mexico"
+    }
+  ],
+  "keisler": [
+    {
+      "name": "Peter D. Keisler",
+      "last_name": "Keisler",
+      "identifier": "peter_d_keisler",
+      "description": "for the Petitioners"
+    }
+  ],
+  "morrison": [
+    {
+      "name": "Matthew W. Morrison",
+      "last_name": "Morrison",
+      "identifier": "matthew_w_morrison",
+      "description": "for the private Respondents"
+    }
+  ],
+  "norris": [
+    {
+      "name": "Cameron T. Norris",
+      "last_name": "Norris",
+      "identifier": "cameron_t_norris",
+      "description": "for the petitioner"
+    }
+  ],
+  "nielson": [
+    {
+      "name": "Aaron L. Nielson",
+      "last_name": "Nielson",
+      "identifier": "aaron_l_nielson",
+      "description": "Court-appointed amicus curiae"
+    }
+  ],
+  "rasmussen": [
+    {
+      "name": "Jeffrey S. Rasmussen",
+      "last_name": "Rasmussen",
+      "identifier": "jeffrey_s_rasmussen",
+      "description": "For the Respondents"
+    }
+  ],
+  "pinson": [
+    {
+      "name": "Andrew A. Pinson",
+      "last_name": "Pinson",
+      "identifier": "andrew_a_pinson",
+      "description": "on behalf of the Respondents"
+    }
+  ],
+  "feinberg": [
+    {
+      "name": "Aimee A. Feinberg",
+      "last_name": "Feinberg",
+      "identifier": "aimee_a_feinberg",
+      "description": "for the Respondent"
+    }
+  ],
+  "taibleson": [
+    {
+      "name": "Rebecca Taibleson",
+      "last_name": "Taibleson",
+      "identifier": "rebecca_taibleson",
+      "description": "for the United States, as amicus curiae, supporting vacatur and remand"
+    }
+  ],
+  "standridge": [
+    {
+      "name": "Mark D. Standridge",
+      "last_name": "Standridge",
+      "identifier": "mark_d_standridge",
+      "description": "For the Respondent"
+    }
+  ],
+  "hoffman": [
+    {
+      "name": "Paul L. Hoffman",
+      "last_name": "Hoffman",
+      "identifier": "paul_l_hoffman",
+      "description": "for the respondents"
+    }
+  ],
+  "spiva": [
+    {
+      "name": "Bruce V. Spiva",
+      "last_name": "Spiva",
+      "identifier": "bruce_v_spiva",
+      "description": "for Respondents Democratic National Committee, et al."
+    }
+  ],
+  "windham": [
+    {
+      "name": "Lori H. Windham",
+      "last_name": "Windham",
+      "identifier": "lori_h_windham",
+      "description": "for the petitioners"
+    }
+  ],
+  "pattillo": [
+    {
+      "name": "Michael Pattillo",
+      "last_name": "Pattillo",
+      "identifier": "michael_pattillo",
+      "description": "on behalf of the Petitioners"
+    }
+  ],
+  "marcus": [
+    {
+      "name": "Joel R. Marcus",
+      "last_name": "Marcus",
+      "identifier": "joel_r_marcus",
+      "description": "on behalf of the Respondent"
+    }
+  ],
+  "kessler": [
+    {
+      "name": "Jeffrey L. Kessler",
+      "last_name": "Kessler",
+      "identifier": "jeffrey_l_kessler",
+      "description": "for the Respondents"
+    }
+  ],
+  "marotta": [
+    {
+      "name": "Sean Marotta",
+      "last_name": "Marotta",
+      "identifier": "sean_marotta",
+      "description": "for the petitioner"
+    }
+  ],
+  "salmons": [
+    {
+      "name": "David B. Salmons",
+      "last_name": "Salmons",
+      "identifier": "david_b_salmons",
+      "description": "For the Respondents"
+    }
+  ],
+  "deutsch": [
+    {
+      "name": "Ruthanne M. Deutsch",
+      "last_name": "Deutsch",
+      "identifier": "ruthanne_m_deutsch",
+      "description": "for the Respondents"
+    }
+  ],
+  "finger": [
+    {
+      "name": "David L. Finger",
+      "last_name": "Finger",
+      "identifier": "david_l_finger",
+      "description": "for the respondent"
+    }
+  ],
+  "garcia": [
+    {
+      "name": "Bradley N. Garcia",
+      "last_name": "Garcia",
+      "identifier": "bradley_n_garcia",
+      "description": "for the Respondent"
+    }
+  ],
+  "silbert": [
+    {
+      "name": "Gregory Silbert",
+      "last_name": "Silbert",
+      "identifier": "gregory_silbert",
+      "description": "for the petitioners"
+    }
+  ],
+  "saharia": [
+    {
+      "name": "Amy M. Saharia",
+      "last_name": "Saharia",
+      "identifier": "amy_m_saharia",
+      "description": "For the Petitioners"
+    }
+  ],
+  "wolf": [
+    {
+      "name": "Matthew M. Wolf",
+      "last_name": "Wolf",
+      "identifier": "matthew_m_wolf",
+      "description": "For the Respondents"
+    }
+  ],
+  "guagliardo": [
+    {
+      "name": "M. Allison Guagliardo",
+      "last_name": "Guagliardo",
+      "identifier": "m_allison_guagliardo",
+      "description": "For the Petitioner"
+    }
+  ],
+  "tutt": [
+    {
+      "name": "Andrew T. Tutt",
+      "last_name": "Tutt",
+      "identifier": "andrew_t_tutt",
+      "description": "for the Petitioner "
+    }
+  ],
+  "hearron": [
+    {
+      "name": "Marc A. Hearron",
+      "last_name": "Hearron",
+      "identifier": "marc_a_hearron",
+      "description": "for the Petitioners"
+    }
+  ],
+  "king": [
+    {
+      "name": "Karen R. King",
+      "last_name": "King",
+      "identifier": "karen_r_king",
+      "description": "for the Petitioner"
+    }
+  ],
+  "min": [
+    {
+      "name": "Richard Min",
+      "last_name": "Min",
+      "identifier": "richard_min",
+      "description": "for the Respondent"
+    }
+  ],
+  "sherry": [
+    {
+      "name": "Melissa Arbus Sherry",
+      "last_name": "Sherry",
+      "identifier": "melissa_arbus_sherry",
+      "description": "On behalf of the Petitioner"
+    }
+  ],
+  "katskee": [
+    {
+      "name": "Richard B. Katskee",
+      "last_name": "Katskee",
+      "identifier": "richard_b_katskee",
+      "description": "for the Respondent"
+    }
+  ],
+  "gowdy": [
+    {
+      "name": "Bryan S. Gowdy",
+      "last_name": "Gowdy",
+      "identifier": "bryan_s_gowdy",
+      "description": "for the Petitioner"
+    }
+  ],
+  "whitaker": [
+    {
+      "name": "Henry C. Whitaker",
+      "last_name": "Whitaker",
+      "identifier": "henry_c_whitaker",
+      "description": "for the Respondent"
+    }
+  ],
+  "flowers": [
+    {
+      "name": "Benjamin M. Flowers",
+      "last_name": "Flowers",
+      "identifier": "benjamin_m_flowers",
+      "description": "On behalf of the Applicants in No. 21A247"
+    }
+  ],
+  "theodore": [
+    {
+      "name": "Elisabeth S. Theodore",
+      "last_name": "Theodore",
+      "identifier": "elisabeth_s_theodore",
+      "description": "for the NAACP Respondents"
+    }
+  ],
+  "boyce": [
+    {
+      "name": "Sarah Boyce",
+      "last_name": "Boyce",
+      "identifier": "sarah_boyce",
+      "description": "for the State Respondents"
+    }
+  ],
+  "moore": [
+    {
+      "name": "John D. Moore",
+      "last_name": "Moore",
+      "identifier": "john_d_moore",
+      "description": "for the Respondents"
+    }
+  ],
+  "petrany": [
+    {
+      "name": "Stephen J. Petrany",
+      "last_name": "Petrany",
+      "identifier": "stephen_j_petrany",
+      "description": "for the Respondents"
+    }
+  ],
+  "boies": [
+    {
+      "name": "David Boies",
+      "last_name": "Boies",
+      "identifier": "david_boies",
+      "description": "for the Petitioners"
+    }
+  ],
+  "stauber": [
+    {
+      "name": "Thaddeus J. Stauber",
+      "last_name": "Stauber",
+      "identifier": "thaddeus_j_stauber",
+      "description": "for the Respondent"
+    }
+  ],
+  "bostwick": [
+    {
+      "name": "Melanie L. Bostwick",
+      "last_name": "Bostwick",
+      "identifier": "melanie_l_bostwick",
+      "description": "for the Petitioner"
+    }
+  ],
+  "heintz": [
+    {
+      "name": "Tera M. Heintz",
+      "last_name": "Heintz",
+      "identifier": "tera_m_heintz",
+      "description": "for the Respondents"
+    }
+  ],
+  "morris": [
+    {
+      "name": "Richard A. Morris",
+      "last_name": "Morris",
+      "identifier": "richard_a_morris",
+      "description": "for the Petitioner"
+    }
+  ],
+  "ellsworth": [
+    {
+      "name": "Felicia H. Ellsworth",
+      "last_name": "Ellsworth",
+      "identifier": "felicia_h_ellsworth",
+      "description": "for the Respondent"
+    },
+    {
+      "name": "Jessica L. Ellsworth",
+      "last_name": "Ellsworth",
+      "identifier": "jessica_l_ellsworth",
+      "description": "for Petitioner Danco Laboratories, L.L.C"
+    }
+  ],
+  "schauf": [
+    {
+      "name": "Zachary C. Schauf",
+      "last_name": "Schauf",
+      "identifier": "zachary_c_schauf",
+      "description": "for the Respondent"
+    }
+  ],
+  "roysden": [
+    {
+      "name": "Brunn W. Roysden III",
+      "last_name": "Roysden",
+      "identifier": "brunn_w_roysden_iii",
+      "description": "for the Petitioner"
+    }
+  ],
+  "rozynski": [
+    {
+      "name": "Andrew Rozynski",
+      "last_name": "Rozynski",
+      "identifier": "andrew_rozynski",
+      "description": "for the Petitioner"
+    }
+  ],
+  "bindas": [
+    {
+      "name": "Michael Bindas",
+      "last_name": "Bindas",
+      "identifier": "michael_bindas",
+      "description": "for the Petitioner"
+    }
+  ],
+  "taub": [
+    {
+      "name": "Christopher C. Taub",
+      "last_name": "Taub",
+      "identifier": "christopher_c_taub",
+      "description": "for the Respondent"
+    }
+  ],
+  "hammoud": [
+    {
+      "name": "Fadwa A. Hammoud",
+      "last_name": "Hammoud",
+      "identifier": "fadwa_a_hammoud",
+      "description": "For the Petitioner"
+    }
+  ],
+  "bahal": [
+    {
+      "name": "Tasha Bahal",
+      "last_name": "Bahal",
+      "identifier": "tasha_bahal",
+      "description": "For the Respondent"
+    }
+  ],
+  "gilbride": [
+    {
+      "name": "Karla A. Gilbride",
+      "last_name": "Gilbride",
+      "identifier": "karla_a_gilbride",
+      "description": "for the Petitioner"
+    }
+  ],
+  "kulewicz": [
+    {
+      "name": "John J. Kulewicz",
+      "last_name": "Kulewicz",
+      "identifier": "john_j_kulewicz",
+      "description": "for the Petitioners"
+    }
+  ],
+  "meehan": [
+    {
+      "name": "Taylor A.R. Meehan",
+      "last_name": "Meehan",
+      "identifier": "taylor_a_r_meehan",
+      "description": "for the judgment below"
+    }
+  ],
+  "martin": [
+    {
+      "name": "Brant C. Martin",
+      "last_name": "Martin",
+      "identifier": "brant_c_martin",
+      "description": "for the Petitioners"
+    },
+    {
+      "name": "Christina M. Martin",
+      "last_name": "Martin",
+      "identifier": "christina_m_martin",
+      "description": "for the Petitioner"
+    }
+  ],
+  "pettit": [
+    {
+      "name": "Lanora C. Pettit",
+      "last_name": "Pettit",
+      "identifier": "lanora_c_pettit",
+      "description": "for the Respondent"
+    }
+  ],
+  "patterson": [
+    {
+      "name": "Melissa N. Patterson",
+      "last_name": "Patterson",
+      "identifier": "melissa_n_patterson",
+      "description": "for the United States, as amicus curiae, supporting the Petitioner"
+    }
+  ],
+  "staver": [
+    {
+      "name": "Mathew D. Staver",
+      "last_name": "Staver",
+      "identifier": "mathew_d_staver",
+      "description": "for the Petitioners"
+    }
+  ],
+  "ballenger": [
+    {
+      "name": "J. Scott Ballenger",
+      "last_name": "Ballenger",
+      "identifier": "j_scott_ballenger",
+      "description": "for the Respondent"
+    }
+  ],
+  "nelson": [
+    {
+      "name": "Scott L. Nelson",
+      "last_name": "Nelson",
+      "identifier": "scott_l_nelson",
+      "description": "for the Respondent"
+    }
+  ],
+  "osete": [
+    {
+      "name": "Jesus A. Osete",
+      "last_name": "Osete",
+      "identifier": "jesus_a_osete",
+      "description": "On behalf of the Respondents in No. 21A240"
+    }
+  ],
+  "kuhn": [
+    {
+      "name": "Matthew F. Kuhn",
+      "last_name": "Kuhn",
+      "identifier": "matthew_f_kuhn",
+      "description": "for the Petitioner"
+    }
+  ],
+  "kolbi-molinas": [
+    {
+      "name": "Alexa Kolbi-Molinas",
+      "last_name": "Kolbi-Molinas",
+      "identifier": "alexa_kolbi_molinas",
+      "description": "for the Respondents"
+    }
+  ],
+  "mignola": [
+    {
+      "name": "Gina Mignola",
+      "last_name": "Mignola",
+      "identifier": "gina_mignola",
+      "description": "For the Respondent"
+    }
+  ],
+  "hong": [
+    {
+      "name": "Helen H. Hong",
+      "last_name": "Hong",
+      "identifier": "helen_h_hong",
+      "description": "for the state Respondents"
+    }
+  ],
+  "hettich": [
+    {
+      "name": "Daniel J. Hettich",
+      "last_name": "Hettich",
+      "identifier": "daniel_j_hettich",
+      "description": "for the Respondent"
+    }
+  ],
+  "mccloud": [
+    {
+      "name": "Charles L. McCloud",
+      "last_name": "McCloud",
+      "identifier": "charles_l_mccloud",
+      "description": "for the Petitioner"
+    }
+  ],
+  "ferr\u00e9": [
+    {
+      "name": "Hermann Ferr\u00e9",
+      "last_name": "Ferr\u00e9",
+      "identifier": "hermann_ferre",
+      "description": "for the Respondent"
+    }
+  ],
+  "baio": [
+    {
+      "name": "Joseph T. Baio",
+      "last_name": "Baio",
+      "identifier": "joseph_t_baio",
+      "description": "for the Petitioners in 21-518"
+    }
+  ],
+  "davies": [
+    {
+      "name": "Andrew R. Davies",
+      "last_name": "Davies",
+      "identifier": "andrew_r_davies",
+      "description": "for the Respondent in 21-401"
+    }
+  ],
+  "yanos": [
+    {
+      "name": "Alexander A. Yanos",
+      "last_name": "Yanos",
+      "identifier": "alexander_a_yanos",
+      "description": "for the Respondent in 21-518"
+    }
+  ],
+  "coghlan": [
+    {
+      "name": "John V. Coghlan",
+      "last_name": "Coghlan",
+      "identifier": "john_v_coghlan",
+      "description": "On Behalf of the Plaintiff"
+    }
+  ],
+  "robbins": [
+    {
+      "name": "Lawrence S. Robbins",
+      "last_name": "Robbins",
+      "identifier": "lawrence_s_robbins",
+      "description": "for the Petitioner in 20-1410"
+    }
+  ],
+  "brindley": [
+    {
+      "name": "Beau B. Brindley",
+      "last_name": "Brindley",
+      "identifier": "beau_b_brindley",
+      "description": "for the Petitioner in 21-5261"
+    }
+  ],
+  "hinojosa": [
+    {
+      "name": "David G. Hinojosa",
+      "last_name": "Hinojosa",
+      "identifier": "david_g_hinojosa",
+      "description": "for the Student Respondents"
+    }
+  ],
+  "connolly": [
+    {
+      "name": "J. Michael Connolly",
+      "last_name": "Connolly",
+      "identifier": "j_michael_connolly",
+      "description": "for the Respondents"
+    }
+  ],
+  "brown": [
+    {
+      "name": "Aimee W. Brown",
+      "last_name": "Brown",
+      "identifier": "aimee_w_brown",
+      "description": "for the United States, as amicus curiae, supporting vacatur"
+    }
+  ],
+  "lacour": [
+    {
+      "name": "Edmund G. Lacour, Jr.",
+      "last_name": "Lacour",
+      "identifier": "edmund_g_lacour_jr_",
+      "description": "for the Appellants/Petitioners"
+    }
+  ],
+  "khanna": [
+    {
+      "name": "Abha Khanna",
+      "last_name": "Khanna",
+      "identifier": "abha_khanna",
+      "description": "for the Respondents"
+    }
+  ],
+  "grajales": [
+    {
+      "name": "Andres M. Grajales",
+      "last_name": "Grajales",
+      "identifier": "andres_m_grajales",
+      "description": "for the union Respondent"
+    }
+  ],
+  "zavareei": [
+    {
+      "name": "Hassan A. Zavareei",
+      "last_name": "Zavareei",
+      "identifier": "hassan_a_zavareei",
+      "description": "for the Respondent"
+    }
+  ],
+  "mosier": [
+    {
+      "name": "Mark W. Mosier",
+      "last_name": "Mosier",
+      "identifier": "mark_w_mosier",
+      "description": "for Respondent Executive Health Resources, Inc."
+    }
+  ],
+  "hutton": [
+    {
+      "name": "Martha Hutton",
+      "last_name": "Hutton",
+      "identifier": "martha_hutton",
+      "description": "for the Petitioner in 22-23 (Pugin)"
+    }
+  ],
+  "hungar": [
+    {
+      "name": "Thomas G. Hungar",
+      "last_name": "Hungar",
+      "identifier": "thomas_g_hungar",
+      "description": "for the Petitioners"
+    }
+  ],
+  "rider-longmaid": [
+    {
+      "name": "Parker Rider-Longmaid",
+      "last_name": "Rider-Longmaid",
+      "identifier": "parker_rider_longmaid",
+      "description": "for the Petitioner "
+    }
+  ],
+  "schiff": [
+    {
+      "name": "Damien M. Schiff",
+      "last_name": "Schiff",
+      "identifier": "damien_m_schiff",
+      "description": "for the Petitioners"
+    }
+  ],
+  "flynn": [
+    {
+      "name": "Caroline A. Flynn",
+      "last_name": "Flynn",
+      "identifier": "caroline_a_flynn",
+      "description": "for the Respondent"
+    }
+  ],
+  "bhandari": [
+    {
+      "name": "Esha Bhandari",
+      "last_name": "Bhandari",
+      "identifier": "esha_bhandari",
+      "description": "for the Respondent"
+    }
+  ],
+  "barney": [
+    {
+      "name": "James R. Barney",
+      "last_name": "Barney",
+      "identifier": "james_r_barney",
+      "description": "for the Petitioner"
+    }
+  ],
+  "kennedy": [
+    {
+      "name": "Nicholas O. Kennedy",
+      "last_name": "Kennedy",
+      "identifier": "nicholas_o_kennedy",
+      "description": "for the Respondents"
+    }
+  ],
+  "mcdowell": [
+    {
+      "name": "Ephraim McDowell",
+      "last_name": "McDowell",
+      "identifier": "ephraim_mcdowell",
+      "description": "for the Respondent"
+    }
+  ],
+  "dubin": [
+    {
+      "name": "Yaira Dubin",
+      "last_name": "Dubin",
+      "identifier": "yaira_dubin",
+      "description": "for the United States, as amicus curiae, supporting the Respondents"
+    }
+  ],
+  "deger-sen": [
+    {
+      "name": "Samir Deger-Sen",
+      "last_name": "Deger-Sen",
+      "identifier": "samir_deger_sen",
+      "description": "for the Petitioner"
+    }
+  ],
+  "dalmat": [
+    {
+      "name": "Darin M. Dalmat",
+      "last_name": "Dalmat",
+      "identifier": "darin_m_dalmat",
+      "description": "for the Respondent"
+    }
+  ],
+  "mccoy": [
+    {
+      "name": "Jeffrey W. McCoy",
+      "last_name": "McCoy",
+      "identifier": "jeffrey_w_mccoy",
+      "description": "for the Petitioners"
+    }
+  ],
+  "kanefield": [
+    {
+      "name": "Joseph A. Kanefield",
+      "last_name": "Kanefield",
+      "identifier": "joseph_a_kanefield",
+      "description": "for the Respondent"
+    }
+  ],
+  "maguire": [
+    {
+      "name": "Rita P. Maguire",
+      "last_name": "Maguire",
+      "identifier": "rita_p_maguire",
+      "description": "On behalf of the State parties"
+    }
+  ],
+  "vale": [
+    {
+      "name": "Judith N. Vale",
+      "last_name": "Vale",
+      "identifier": "judith_n_vale",
+      "description": "for New York"
+    }
+  ],
+  "campbell": [
+    {
+      "name": "James A. Campbell",
+      "last_name": "Campbell",
+      "identifier": "james_a_campbell",
+      "description": "for the Respondents"
+    }
+  ],
+  "brunstad,": [
+    {
+      "name": "G. Eric Brunstad, Jr.",
+      "last_name": "Brunstad,",
+      "identifier": "g_eric_brunstad_jr",
+      "description": "for the Respondents"
+    }
+  ],
+  "levin": [
+    {
+      "name": "Daniel B. Levin",
+      "last_name": "Levin",
+      "identifier": "daniel_b_levin",
+      "description": "for the Petitioner"
+    }
+  ],
+  "wright": [
+    {
+      "name": "J. Matthew Wright",
+      "last_name": "Wright",
+      "identifier": "j_matthew_wright",
+      "description": "for the Respondent"
+    }
+  ],
+  "gore": [
+    {
+      "name": "John M. Gore",
+      "last_name": "Gore",
+      "identifier": "john_m_gore",
+      "description": "for the Appellants"
+    }
+  ],
+  "aden": [
+    {
+      "name": "Leah C. Aden",
+      "last_name": "Aden",
+      "identifier": "leah_c_aden",
+      "description": "for the Appellees"
+    }
+  ],
+  "aguinaga": [
+    {
+      "name": "J. Benjamin Aguinaga",
+      "last_name": "Aguinaga",
+      "identifier": "j_benjamin_aguinaga",
+      "description": "for the Respondents"
+    }
+  ],
+  "sridharan": [
+    {
+      "name": "Mathura J. Sridharan",
+      "last_name": "Sridharan",
+      "identifier": "mathura_j_sridharan",
+      "description": "for the State Applicants"
+    }
+  ],
+  "abbas": [
+    {
+      "name": "Gadeir Abbas",
+      "last_name": "Abbas",
+      "identifier": "gadeir_abbas",
+      "description": "for the Respondent"
+    }
+  ],
+  "hawley": [
+    {
+      "name": "Erin M. Hawley",
+      "last_name": "Hawley",
+      "identifier": "erin_m_hawley",
+      "description": "for the Respondents"
+    }
+  ],
+  "santos": [
+    {
+      "name": "Jaime A. Santos",
+      "last_name": "Santos",
+      "identifier": "jaime_a_santos",
+      "description": "for the Petitioner"
+    }
+  ],
+  "taylor": [
+    {
+      "name": "Jonathan E. Taylor",
+      "last_name": "Taylor",
+      "identifier": "jonathan_e_taylor",
+      "description": "for the Petitioners"
+    }
+  ],
+  "mcnamara": [
+    {
+      "name": "Robert J. McNamara",
+      "last_name": "McNamara",
+      "identifier": "robert_j_mcnamara",
+      "description": "for the Petitioners"
+    }
+  ],
+  "santhanam": [
+    {
+      "name": "Hari Santhanam",
+      "last_name": "Santhanam",
+      "identifier": "hari_santhanam",
+      "description": "for the Petitioner"
+    }
+  ],
+  "samuels": [
+    {
+      "name": "Alexander W. Samuels",
+      "last_name": "Samuels",
+      "identifier": "alexander_w_samuels",
+      "description": "for the Respondent"
+    }
+  ],
+  "evangelis": [
+    {
+      "name": "Theane D. Evangelis",
+      "last_name": "Evangelis",
+      "identifier": "theane_d_evangelis",
+      "description": "for the Petitioner"
+    }
+  ],
+  "lee": [
+    {
+      "name": "Eric T. Lee",
+      "last_name": "Lee",
+      "identifier": "eric_t_lee",
+      "description": "for the Respondents"
+    }
+  ],
+  "anand": [
+    {
+      "name": "Easha Anand",
+      "last_name": "Anand",
+      "identifier": "easha_anand",
+      "description": "for the Petitioner"
+    }
+  ],
+  "scalia": [
+    {
+      "name": "Eugene Scalia",
+      "last_name": "Scalia",
+      "identifier": "eugene_scalia",
+      "description": "for the Respondents"
+    }
+  ],
+  "grossman": [
+    {
+      "name": "Andrew M. Grossman",
+      "last_name": "Grossman",
+      "identifier": "andrew_m_grossman",
+      "description": "for the Petitioners"
+    }
+  ],
+  "marshall": [
+    {
+      "name": "C. Kevin Marshall",
+      "last_name": "Marshall",
+      "identifier": "c_kevin_marshall",
+      "description": "for the debtor respondents"
+    }
+  ],
+  "wold": [
+    {
+      "name": "Megan M. Wold",
+      "last_name": "Wold",
+      "identifier": "megan_m_wold",
+      "description": "for the Respondents"
+    }
+  ],
+  "beard": [
+    {
+      "name": "Paul J. Beard II",
+      "last_name": "Beard",
+      "identifier": "paul_j_beard_ii",
+      "description": "for the Petitioner"
+    }
+  ],
+  "mcgrath": [
+    {
+      "name": "Aileen M. McGrath",
+      "last_name": "McGrath",
+      "identifier": "aileen_m_mcgrath",
+      "description": "for the Respondent"
+    }
+  ],
+  "lovitt": [
+    {
+      "name": "Traci L. Lovitt",
+      "last_name": "Lovitt",
+      "identifier": "traci_l_lovitt",
+      "description": "for the Respondents"
+    }
+  ],
+  "mccolloch": [
+    {
+      "name": "S. Michael McColloch",
+      "last_name": "McColloch",
+      "identifier": "s_michael_mccolloch",
+      "description": "for the Respondents"
+    }
+  ],
+  "earnhardt": [
+    {
+      "name": "Joe Wesley Earnhardt",
+      "last_name": "Earnhardt",
+      "identifier": "joe_wesley_earnhardt",
+      "description": "for the Respondents"
+    }
+  ],
+  "weir": [
+    {
+      "name": "Bryan K. Weir",
+      "last_name": "Weir",
+      "identifier": "bryan_k_weir",
+      "description": "for the Petitioner"
+    }
+  ],
+  "harper": [
+    {
+      "name": "D. Nick Harper",
+      "last_name": "Harper",
+      "identifier": "d_nick_harper",
+      "description": "Court-appointed amicus curiae in support of the judgment below"
+    }
+  ],
+  "yurowitz": [
+    {
+      "name": "Steven Y. Yurowitz",
+      "last_name": "Yurowitz",
+      "identifier": "steven_y_yurowitz",
+      "description": "for the Petitioner"
+    }
+  ],
+  "lewis": [
+    {
+      "name": "Jason D. Lewis",
+      "last_name": "Lewis",
+      "identifier": "jason_d_lewis",
+      "description": "for the Petitioner"
+    }
+  ],
+  "andre": [
+    {
+      "name": "Jean-Claude Andre",
+      "last_name": "Andre",
+      "identifier": "jean_claude_andre",
+      "description": "for the Respondent"
+    }
+  ],
+  "bashman": [
+    {
+      "name": "Howard J. Bashman",
+      "last_name": "Bashman",
+      "identifier": "howard_j_bashman",
+      "description": "for the Respondent"
+    }
+  ],
+  "bidwell": [
+    {
+      "name": "Anya A. Bidwell",
+      "last_name": "Bidwell",
+      "identifier": "anya_a_bidwell",
+      "description": "for the Petitioner"
+    }
+  ]
+}

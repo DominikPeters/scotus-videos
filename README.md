@@ -19,4 +19,6 @@ Then run
 ```
 to build the video. Ensure that puppeteer is available. It will also attempt to upload to YouTube which will probably not work if you're not me.
 
-Starting in the 2024 term, I've also been using the [gentle](https://github.com/lowerquality/gentle) forced aligner to align the audio to the transcript for some cases. This way I don't have to wait for the transcript to be available on Oyez. I do this for a few "hot-button" cases that I want to upload as soon as possible.
+## Manual transcript alignment
+
+Starting in the 2024 term, I've also been using the [gentle](https://github.com/lowerquality/gentle) forced aligner to align the audio to the transcript for some cases. This way I don't have to wait for the transcript to be available on Oyez. I do this for a few "hot-button" cases that I want to upload as soon as possible. The code I use for this is in the folder `self-aligned`. This is written specifically for my local machine (in particular using Acrobat Reader to get the plain text from the PDF transcript, which is done with AppleScript, and I'm using the mac binary of gentle since I couldn't get it to work any other way), so it may not be very useful for others, but you can take a look if you're interested. The entry point is `python scotus-tool.py` which leads the user through the different steps (downloading PDF and MP3 from supremecourt.gov, extracting plain text, running gentle, and post-processing the gentle output to get the final transcript format that I use for the videos which I then feed into `self-aligned-preprocess.py`).
