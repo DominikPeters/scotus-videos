@@ -1,0 +1,28 @@
+{
+  "identity_verified": true,
+  "name": "Jeffrey W. Chen",
+  "docket": "25-735",
+  "source_url": "https://bmelaw.com/our-team/jeffrey_w_chen/",
+  "identity_source_url": "https://bmelaw.com/our-team/jeffrey_w_chen/",
+  "kind": "photo",
+  "approval": "owner dashboard approval",
+  "recording": "2026-10-05-25-735-argument-1",
+  "source_sha256": "726374f0eea0a81a1dae170fb03d5a1288440c04c65355093e7a2e4eb1e55017",
+  "crop": {
+    "x": 77,
+    "y": 0,
+    "size": 624,
+    "source_width": 764,
+    "source_height": 1024,
+    "method": "codex-vision",
+    "model": "gpt-6.1-sol",
+    "preview_box": {
+      "x": 48,
+      "y": 0,
+      "size": 390
+    },
+    "preview_width": 477,
+    "preview_height": 640
+  },
+  "sha256": "3ed8ad1218c095e493c88272de42c0729190566ba29c83273581abf182b54670"
+}
