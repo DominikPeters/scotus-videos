@@ -1,0 +1,20 @@
+{
+  "identity_verified": true,
+  "name": "Kevin Joel Page",
+  "docket": "25-5343",
+  "kind": "logo",
+  "employer": "Office of the Federal Public Defender, Northern District of Texas",
+  "source_url": "https://txn.fd.org/sites/txn/files/logo.png",
+  "identity_source_url": "https://txn.fd.org/Offices/dallas-office",
+  "hearing_list_url": "https://www.supremecourt.gov/oral_arguments/hearinglists/HearingList-October2026.pdf",
+  "approval": "owner chat approval, 2026-10-13",
+  "sha256": "f9b97ef688dc396e4424658865169a45ee52b062906e4e05eca89b86af5ed434",
+  "crop": {
+    "x": 13,
+    "y": 0,
+    "size": 120,
+    "source_width": 500,
+    "source_height": 120,
+    "method": "verified agency seal; white square padding"
+  }
+}
