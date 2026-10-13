@@ -1,0 +1,28 @@
+{
+  "identity_verified": true,
+  "name": "Aimee Brown",
+  "docket": "25-498",
+  "source_url": "https://www.linkedin.com/in/aimee-brown-4564b316",
+  "identity_source_url": "https://www.linkedin.com/in/aimee-brown-4564b316",
+  "kind": "photo",
+  "approval": "owner dashboard approval",
+  "recording": "2026-10-06-25-498-argument-1",
+  "source_sha256": "dfddea61f166ddf5b23a2bd784f98401b91966cf7e60d7e673f0b9c92dc91a2f",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "size": 800,
+    "source_width": 800,
+    "source_height": 800,
+    "method": "codex-vision",
+    "model": "gpt-6.1-sol",
+    "preview_box": {
+      "x": 0,
+      "y": 0,
+      "size": 640
+    },
+    "preview_width": 640,
+    "preview_height": 640
+  },
+  "sha256": "788f427236900788913ccd6d9f2228f6a973c87dce9074350278b031d78bdeab"
+}
