@@ -1,0 +1,28 @@
+{
+  "identity_verified": true,
+  "name": "Joshua I. Hammack",
+  "docket": "25-459",
+  "source_url": "https://www.baileyglasser.com/lawyers-joshua-i-hammack",
+  "identity_source_url": "https://www.baileyglasser.com/lawyers-joshua-i-hammack",
+  "kind": "photo",
+  "approval": "owner dashboard approval",
+  "recording": "2026-10-14-25-459-argument-1",
+  "source_sha256": "b3740dd7d1d3f3f69c47eb980778dd8a0aa20c0aff76503096f73458d65e3c8b",
+  "crop": {
+    "x": 242,
+    "y": 19,
+    "size": 516,
+    "source_width": 1000,
+    "source_height": 666,
+    "method": "codex-vision",
+    "model": "gpt-6.1-sol",
+    "preview_box": {
+      "x": 155,
+      "y": 12,
+      "size": 330
+    },
+    "preview_width": 640,
+    "preview_height": 426
+  },
+  "sha256": "610655b58701f83af64d339c665fd3515823c9b3ea8a8a939d903200ab072272"
+}
