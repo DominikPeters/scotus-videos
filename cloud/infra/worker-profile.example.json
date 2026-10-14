@@ -1,0 +1,17 @@
+{
+  "project": "possible-cycle-237715",
+  "region": "us-central1",
+  "bucket": "possible-cycle-237715-scotus-video-media",
+  "dashboard_url": "https://scotusstats.com/youtube/",
+  "youtube_secret": "scotus-video-youtube",
+  "chunk_seconds": 300,
+  "parallelism": 16,
+  "images": {
+    "prepare": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/worker:PINNED_DIGEST",
+    "align": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/align:PINNED_DIGEST",
+    "plan": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/worker:PINNED_DIGEST",
+    "render": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/render:PINNED_DIGEST",
+    "assemble": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/worker:PINNED_DIGEST",
+    "upload": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/worker:PINNED_DIGEST"
+  }
+}

@@ -1,0 +1,27 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.env.*
+!*.example
+work/
+dashboard/private/config.php
+dashboard/private/state.json
+dashboard/private/credentials.json
+dashboard/private/vendor/
+dashboard/private/composer.lock
+dashboard/public/private-path.php
+infra/deployment.json
+*.mp4
+*.wav
+*.flac
+auth.json
+credentials.json
+client_secret*.json
+*setup-link*
+
+# Generated probes and private deployment profiles
+/test-results/
+/infra/worker-profile.json
+/infra/control-config.json
+/infra/control-state.json

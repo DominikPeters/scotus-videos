@@ -1,0 +1,6 @@
+google-auth[requests]==2.58.1
+gunicorn==23.0.0
+cryptography==46.0.2
+Pillow==11.3.0
+jsonschema==4.23.0
+pypdf==6.1.1

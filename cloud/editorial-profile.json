@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "case_research_model": "gpt-6-luna",
+  "case_description_model": "gpt-6.1-sol",
+  "shorten_long_oyez": true,
+  "word_limits": {
+    "facts_of_the_case": 120,
+    "question": 60,
+    "combined": 160
+  },
+  "research_timeout_seconds": 420,
+  "writer_timeout_seconds": 180,
+  "max_writer_attempts": 2
+}

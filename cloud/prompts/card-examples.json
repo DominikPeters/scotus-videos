@@ -1,0 +1,202 @@
+{
+  "examples": [
+    {
+      "kind": "Statute",
+      "heading": "12 U.S.C. \u00a7 242 \u2014 terms of office of Board members",
+      "text": "\u2026 and thereafter each member shall hold office for a term of fourteen years from the expiration of the term of his predecessor, <mark>unless sooner removed for cause by the President</mark>. \u2026",
+      "source": "United States Code, 2024 edition (govinfo.gov)",
+      "date": "",
+      "highlight": [
+        "removable for cause by the President"
+      ]
+    },
+    {
+      "kind": "Excerpt",
+      "heading": "The President\u2019s letter removing Governor Cook",
+      "before": "The American people must be able to have full confidence in the honesty of the members entrusted with setting policy and overseeing the Federal Reserve. In light of your deceitful and potentially criminal conduct in a financial matter, they cannot and I do not have such confidence in your integrity.",
+      "quote": "At a minimum, the conduct at issue exhibits the sort of gross negligence in financial transactions that calls into question your competence and trustworthiness as a financial regulator.",
+      "after": "",
+      "source": "As quoted by the district court, Appendix to Application, p. 29a",
+      "date": "Sep 18, 2025",
+      "highlight": [
+        "removal order",
+        "gross negligence"
+      ],
+      "label": "Removal letter"
+    },
+    {
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>Dakota Central Telephone Co.</i> v. <i>South Dakota ex rel. Payne</i>",
+        "details": "1919"
+      },
+      "text": "The Court held that whether the President\u2019s wartime takeover of telephone lines was justified by existing conditions or proper motives involved executive discretion beyond judicial review.",
+      "source": "Summary based on the official syllabus (U.S. Reports)",
+      "date": "",
+      "highlight": [
+        "Payne"
+      ],
+      "block": "s0t10b2",
+      "evidence": "beyond Payne and so forth",
+      "speaker": "D. John Sauer",
+      "confidence": 0.96
+    },
+    {
+      "kind": "Timeline",
+      "heading": "Governor Cook\u2019s removal and this case",
+      "timeline": {
+        "current": 2,
+        "events": [
+          {
+            "date": "Aug 15, 2025",
+            "label": "FHFA director\u2019s criminal referral"
+          },
+          {
+            "date": "Aug 20",
+            "label": "Referral made public; \u201cCook must resign\u201d"
+          },
+          {
+            "date": "Aug 25",
+            "label": "Removal letter posted"
+          },
+          {
+            "date": "Aug 28",
+            "label": "Cook sues"
+          },
+          {
+            "date": "Sep 9",
+            "label": "Preliminary injunction"
+          },
+          {
+            "date": "Sep 15",
+            "label": "D.C. Cir. denies stay, 2\u20131"
+          },
+          {
+            "date": "Sep 18",
+            "label": "Stay application filed"
+          },
+          {
+            "date": "Jan 21, 2026",
+            "label": "Oral argument",
+            "gap": true
+          }
+        ]
+      },
+      "source": "Dates from the application, the response and the D.C. Circuit order",
+      "date": "",
+      "highlight": [
+        "removal order",
+        "Truth Social post",
+        "August 25th letter"
+      ]
+    },
+    {
+      "kind": "Comparison",
+      "heading": "Removal clauses enacted in 1935",
+      "compare": [
+        {
+          "title": "Federal Reserve Act",
+          "cite": "12 U.S.C. \u00a7 242 \u00b7 Aug 1935",
+          "text": "\u2026 each member shall hold office for a term of fourteen years \u2026, unless sooner removed <mark>for cause</mark> by the President."
+        },
+        {
+          "title": "National Labor Relations Act",
+          "cite": "29 U.S.C. \u00a7 153(a) \u00b7 July 1935",
+          "text": "Any member of the Board may be removed by the President, <mark>upon notice and hearing</mark>, for neglect of duty or malfeasance in office, but for no other cause."
+        }
+      ],
+      "source": "United States Code, 2024 edition (govinfo.gov)",
+      "date": "",
+      "highlight": [
+        "NLRA"
+      ],
+      "label": "Statutes compared"
+    },
+    {
+      "kind": "Glossary",
+      "heading": "",
+      "glossary": {
+        "term": "INM",
+        "expansion": "inefficiency, neglect of duty, or malfeasance in office"
+      },
+      "text": "A standard list of grounds for removing an officer, e.g. for members of the Federal Trade Commission (15 U.S.C. \u00a7 41). The Federal Reserve Act says only \u201cfor cause\u201d.",
+      "source": "",
+      "date": "",
+      "highlight": [
+        "INM"
+      ]
+    },
+    {
+      "kind": "Question presented",
+      "heading": "granted June 24, 2024",
+      "text": "Under the Americans with Disabilities Act, does a former employee\u2014who was qualified to perform her job and who earned post-employment benefits while employed\u2014lose her right to sue over discrimination with respect to those benefits solely because she no longer holds her job?",
+      "source": "Petition for certiorari, p. i",
+      "date": "",
+      "highlight": [
+        "question presented"
+      ]
+    },
+    {
+      "kind": "Record",
+      "heading": "Eleventh Circuit opinion below, Pet. App. 17a",
+      "image": "cards/assets/0000000000000000000000000000000000000000000000000000000000000000.jpg",
+      "source": "Appendix to the petition for certiorari, p. 17a \u00b7 filed Mar 8, 2024",
+      "date": "",
+      "highlight": [
+        "page 17A"
+      ]
+    },
+    {
+      "kind": "Circuit split",
+      "heading": "Can former employees sue under Title I of the ADA?",
+      "map": {
+        "below": "11",
+        "groups": [
+          {
+            "label": "Yes",
+            "color": "hsl(208, 55%, 62%)",
+            "circuits": [
+              "2",
+              "3"
+            ]
+          },
+          {
+            "label": "No",
+            "color": "hsl(14, 58%, 62%)",
+            "circuits": [
+              "6",
+              "7",
+              "9",
+              "11"
+            ]
+          }
+        ],
+        "labelOffsets": {}
+      },
+      "source": "Petition for certiorari, pp. 15\u201320 \u00b7 map: U.S. Courts",
+      "date": "",
+      "highlight": [
+        "circuit split",
+        "Sixth Circuit",
+        "Ninth Circuit"
+      ]
+    },
+    {
+      "kind": "Rule",
+      "heading": "Rule identifier and issue",
+      "text": "[One relevant sentence from the official rule text, with <mark>the consequential words</mark> emphasized.]",
+      "source": "[Official rule source and version]",
+      "highlight": [
+        "[spoken phrase]"
+      ]
+    }
+  ],
+  "skip_examples": [
+    "named cases in an undiscussed list",
+    "irrelevant glossary trivia",
+    "a circuit map without a split discussion",
+    "a full page with tiny text"
+  ]
+}

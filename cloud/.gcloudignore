@@ -1,0 +1,11 @@
+**
+!Dockerfile*
+!requirements-*.txt
+!fetch_model.py
+!model-files.json
+!speaker-catalog.json
+!scotus_cloud/
+!scotus_cloud/**
+!render/
+!render/**
+scotus_cloud/**/__pycache__/**

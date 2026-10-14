@@ -1,0 +1,30 @@
+{
+  "seal.svg": {
+    "uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/seal.svg",
+    "sha256": "d63fb8961287ed30c2089ba81ebb4a6d7232c49972b93fe5aa1b661bcae76b4b"
+  },
+  "subscribe.png": {
+    "uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/subscribe.png",
+    "sha256": "243fcb6881b79b2fff5bf1e61a3e57a82f8691d29054a5b1a48656f92b50c3f4"
+  },
+  "myriadpro/MyriadPro-Light.otf": {
+    "uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/myriadpro/MyriadPro-Light.otf",
+    "sha256": "3baac57c715df47fb3e202482ee7de1fdf6bf179e655ebc9a7837c579c4e6ecd"
+  },
+  "myriadpro/MYRIADPRO-SEMIBOLD.OTF": {
+    "uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/myriadpro/MYRIADPRO-SEMIBOLD.OTF",
+    "sha256": "16f5e9896bb8a9b8a6e1b6de4207d27112b3d8083618ed6982cfb88a5d864c9c"
+  },
+  "myriadpro/Myriad Pro Italic.ttf": {
+    "uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/myriadpro/Myriad%20Pro%20Italic.ttf",
+    "sha256": "2248391aa1d7abecf37acb3a2a1c709612d449eb9024ece3b67561caadbb241b"
+  },
+  "myriadpro/MYRIADPRO-REGULAR.OTF": {
+    "uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/myriadpro/MYRIADPRO-REGULAR.OTF",
+    "sha256": "d8f1b80682c8fc7f594791983ad8a217f17a8abd6062c7430d42c50f63711039"
+  },
+  "myriadpro/MYRIADPRO-BOLD.OTF": {
+    "uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/myriadpro/MYRIADPRO-BOLD.OTF",
+    "sha256": "0c2ba3c35316ae8e6730758bfdf60e1f90d0db8a1044b122d03b6b75b55942a8"
+  }
+}

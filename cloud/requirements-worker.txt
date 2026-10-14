@@ -1,0 +1,4 @@
+google-auth[requests]==2.58.1
+jsonschema==4.23.0
+Pillow==11.3.0
+cryptography==46.0.2

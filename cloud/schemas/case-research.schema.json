@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 16,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "title": {"type": "string", "minLength": 1},
+          "url": {"type": ["string", "null"], "minLength": 1},
+          "kind": {"type": "string", "enum": ["court_question", "docket", "lower_court_opinion", "petition", "petitioner_brief", "respondent_brief", "other_primary", "oyez"]},
+          "document_date": {"type": ["string", "null"]},
+          "locator": {"type": "string", "minLength": 1},
+          "relevant_passage": {"type": "string", "minLength": 1, "maxLength": 2000}
+        },
+        "required": ["id", "title", "url", "kind", "document_date", "locator", "relevant_passage"]
+      }
+    },
+    "background": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "statement": {"type": "string", "minLength": 1, "maxLength": 800},
+          "status": {"type": "string", "enum": ["background", "procedural_history", "allegation", "party_position"]},
+          "source_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+        },
+        "required": ["statement", "status", "source_ids"]
+      }
+    },
+    "issues": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "neutral_issue": {"type": "string", "minLength": 1, "maxLength": 800},
+          "petitioner_position": {"type": "string", "maxLength": 800},
+          "respondent_position": {"type": "string", "maxLength": 800},
+          "essential_limitations": {"type": "array", "maxItems": 8, "items": {"type": "string", "maxLength": 500}},
+          "private_framing_notes": {"type": "string", "maxLength": 1200},
+          "source_ids": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+        },
+        "required": ["neutral_issue", "petitioner_position", "respondent_position", "essential_limitations", "private_framing_notes", "source_ids"]
+      }
+    },
+    "private_caveats": {"type": "array", "items": {"type": "string"}}
+  },
+  "required": ["sources", "background", "issues", "private_caveats"]
+}

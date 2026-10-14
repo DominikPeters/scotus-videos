@@ -1,0 +1,17 @@
+[
+  {
+    "source": "self-aligned/scotus_pdf.py",
+    "destination": "cloud/scotus_cloud/vendor/pdf.py",
+    "sha256": "e690a6c80881f7333f3d33b1d22778615058ca21d84c1260cefb3a50bce86448"
+  },
+  {
+    "source": "self-aligned/scotus-parser.py",
+    "destination": "cloud/scotus_cloud/vendor/parser.py",
+    "sha256": "66503110e6890c5f232ece6c1c74626b2cfcc170becaf0ba32a9bb9901731983"
+  },
+  {
+    "source": "Retained production speech-span utility from the deleted October 2026 alignment benchmark",
+    "destination": "cloud/scotus_cloud/vendor/speech_spans.py",
+    "sha256": "2a02e73c642bda8e7768e8bc60349eafa6b9866a26319abfe8a7523b1cf623e3"
+  }
+]

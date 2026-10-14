@@ -19,3 +19,12 @@ playlist-management
 /.claude
 /scotus
 self-aligned/*/
+# Generated development output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+/preprocess_output.log
+/artifacts/output/
+/mockup-quotes/clips/
+/videos-vertical/*.mp4

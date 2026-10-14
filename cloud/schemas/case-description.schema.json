@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "facts_of_the_case": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "text": {"type": ["string", "null"], "maxLength": 1800},
+        "source_ids": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      },
+      "required": ["text", "source_ids"]
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "text": {"type": ["string", "null"], "maxLength": 1000},
+        "source_ids": {"type": "array", "items": {"type": "string", "minLength": 1}}
+      },
+      "required": ["text", "source_ids"]
+    },
+    "additional_sources": {
+      "type": "array",
+      "maxItems": 6,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "title": {"type": "string", "minLength": 1},
+          "url": {"type": ["string", "null"], "minLength": 1},
+          "kind": {"type": "string", "enum": ["court_question", "docket", "lower_court_opinion", "petition", "petitioner_brief", "respondent_brief", "other_primary", "oyez"]},
+          "document_date": {"type": ["string", "null"]},
+          "locator": {"type": "string", "minLength": 1},
+          "relevant_passage": {"type": "string", "minLength": 1, "maxLength": 2000}
+        },
+        "required": ["id", "title", "url", "kind", "document_date", "locator", "relevant_passage"]
+      }
+    },
+    "private_editorial_notes": {"type": "array", "items": {"type": "string"}},
+    "private_caveats": {"type": "array", "items": {"type": "string"}}
+  },
+  "required": ["facts_of_the_case", "question", "additional_sources", "private_editorial_notes", "private_caveats"]
+}

@@ -1,0 +1,14 @@
+FROM python:3.11-slim-bookworm
+ENV PYTHONUNBUFFERED=1 OMP_NUM_THREADS=4 HF_HUB_DISABLE_TELEMETRY=1
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg poppler-utils git g++ \
+    && rm -rf /var/lib/apt/lists/*
+COPY requirements-worker.txt /app/
+RUN pip install --no-cache-dir torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu \
+    && pip install --no-cache-dir transformers==4.57.6 torchcodec==0.7.0 pybind11 setuptools -r requirements-worker.txt \
+    && pip install --no-cache-dir --no-build-isolation git+https://github.com/MahmoudAshraf97/ctc-forced-aligner.git@64293cc6d711e57666c4a8b098e9fd93b381fd88
+COPY fetch_model.py model-files.json /app/
+RUN SCOTUS_ALLOW_MODEL_DOWNLOAD=1 python fetch_model.py
+COPY scotus_cloud /app/scotus_cloud
+ENV HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
+ENTRYPOINT ["python", "-m", "scotus_cloud.worker"]

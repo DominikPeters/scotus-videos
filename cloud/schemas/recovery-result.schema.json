@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "status": {
+      "type": "string",
+      "enum": [
+        "repaired",
+        "needs_input",
+        "waiting_for_resource",
+        "waiting_for_stage",
+        "waiting_for_tests",
+        "unresolved"
+      ]
+    },
+    "private_summary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "workflow_patch_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "operator_messages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "note",
+              "question"
+            ]
+          },
+          "message": {
+            "type": "string",
+            "minLength": 1
+          },
+          "question_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "options": {
+            "type": "array",
+            "maxItems": 5,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "label": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "private_effect": {
+                  "type": "string"
+                },
+                "actor": {
+                  "type": "string",
+                  "enum": [
+                    "worker",
+                    "operator"
+                  ]
+                }
+              },
+              "required": [
+                "id",
+                "label",
+                "private_effect",
+                "actor"
+              ]
+            }
+          }
+        },
+        "required": [
+          "kind",
+          "message",
+          "question_id",
+          "options"
+        ]
+      }
+    }
+  },
+  "required": [
+    "status",
+    "private_summary",
+    "checks",
+    "workflow_patch_refs",
+    "operator_messages"
+  ]
+}

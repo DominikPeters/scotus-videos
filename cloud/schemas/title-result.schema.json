@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "recommended": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "topic": {
+          "type": "string",
+          "minLength": 1
+        },
+        "short_case_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "private_reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "title",
+        "topic",
+        "short_case_name",
+        "private_reason",
+        "evidence_refs"
+      ]
+    },
+    "alternatives": {
+      "type": "array",
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "topic": {
+            "type": "string",
+            "minLength": 1
+          },
+          "short_case_name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "private_reason": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          }
+        },
+        "required": [
+          "title",
+          "topic",
+          "short_case_name",
+          "private_reason",
+          "evidence_refs"
+        ]
+      }
+    },
+    "uncertain": {
+      "type": "boolean"
+    },
+    "private_caveats": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "recommended",
+    "alternatives",
+    "uncertain",
+    "private_caveats"
+  ]
+}

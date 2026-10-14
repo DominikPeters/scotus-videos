@@ -1,0 +1,7 @@
+DirectoryIndex index.php
+Options -Indexes
+RewriteEngine On
+RewriteRule ^status\.json$ api.php?action=state [L,QSA]
+<FilesMatch "^(private-path\.php|composer\.(json|lock))$">
+  Require all denied
+</FilesMatch>

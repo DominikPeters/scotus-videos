@@ -1,0 +1,11 @@
+FROM python:3.11-slim-bookworm
+ENV PYTHONUNBUFFERED=1 PUPPETEER_SKIP_DOWNLOAD=true PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg poppler-utils chromium nodejs npm fonts-lato \
+    && rm -rf /var/lib/apt/lists/*
+COPY requirements-worker.txt /app/
+RUN pip install --no-cache-dir -r requirements-worker.txt
+RUN npm install --omit=dev --ignore-scripts puppeteer@22.15.0
+COPY scotus_cloud /app/scotus_cloud
+COPY render /app/render
+ENTRYPOINT ["python", "-m", "scotus_cloud.worker"]

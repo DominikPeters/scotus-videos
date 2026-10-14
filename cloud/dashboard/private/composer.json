@@ -1,0 +1,4 @@
+{
+  "require": {"php": ">=8.2", "lbuchs/webauthn": "2.2.0"},
+  "config": {"allow-plugins": false, "sort-packages": true}
+}

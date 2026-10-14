@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "kind": {
+      "type": "string",
+      "enum": [
+        "note",
+        "question"
+      ]
+    },
+    "message": {
+      "type": "string",
+      "minLength": 1
+    },
+    "question_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "options": {
+      "type": "array",
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "private_effect": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "label",
+          "private_effect"
+        ]
+      }
+    }
+  },
+  "required": [
+    "kind",
+    "message",
+    "question_id",
+    "options"
+  ]
+}

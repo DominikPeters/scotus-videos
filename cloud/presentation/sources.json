@@ -1,0 +1,30 @@
+{
+  "renderer/index.html": {
+    "sha256": "771f6015d4029575619926b4d974b96fa790b1a7ba3047c7bd997d09988a3c11",
+    "source": "mockup-quotes/index.html (approved production adaptation)"
+  },
+  "renderer/script.js": {
+    "sha256": "9df955bcefcc86822371d1dcb8c629cf739334ccc4b06bff0fd6cb9603d3a5ba",
+    "source": "mockup-quotes/script.js (approved production adaptation)"
+  },
+  "reference/preprocess.py": {
+    "sha256": "0fe6ecc546b3830008c6a684d47c6b9409c794c3caf7832eaa30a5ae5af7b997",
+    "source": "preprocess.py"
+  },
+  "formatters/argument.py": {
+    "sha256": "b80c30b6004b027a33a5c3e9f579c63bdbc4ac09f1f5ae1c0886440ddc810c5d",
+    "source": "self-aligned-preprocess.py"
+  },
+  "reference/build-video.py": {
+    "sha256": "e005dbc8983eca70dbbc417b87588b50a5988ab816e3c1496cf6d31851c08922",
+    "source": "build-video.py"
+  },
+  "reference/upload-video.py": {
+    "sha256": "f8e7caf84a760cb47953a5aa669edc40ecb61c54b70b888a384553a82ad7a202",
+    "source": "upload-video.py"
+  },
+  "formatters/chapters_comment.py": {
+    "sha256": "935a30368ec464e0f9c7b708403afe4c332a86f20f2979f34d793f5c8d78b1bd",
+    "source": "add_timestamp_comment.py"
+  }
+}

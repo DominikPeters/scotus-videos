@@ -1,0 +1,97 @@
+{
+  "john_g_roberts_jr": {
+    "name": "John G. Roberts, Jr.",
+    "last_name": "Roberts",
+    "identifier": "john_g_roberts_jr",
+    "role": "Chief Justice",
+    "portrait_uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/justices/john_g_roberts_jr.thumb.png",
+    "seniority": 0,
+    "portrait_source": "https://api.oyez.org/sites/default/files/images/people/john_g_roberts_jr/john_g_roberts_jr.thumb.png"
+  },
+  "clarence_thomas": {
+    "name": "Clarence Thomas",
+    "last_name": "Thomas",
+    "identifier": "clarence_thomas",
+    "role": "Justice",
+    "portrait_uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/justices/clarence_thomas.thumb.png",
+    "seniority": 1,
+    "portrait_source": "https://api.oyez.org/sites/default/files/images/people/clarence_thomas/clarence_thomas.thumb.png"
+  },
+  "samuel_a_alito_jr": {
+    "name": "Samuel A. Alito, Jr.",
+    "last_name": "Alito",
+    "identifier": "samuel_a_alito_jr",
+    "role": "Justice",
+    "portrait_uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/justices/samuel_alito_jr.thumb.png",
+    "seniority": 2,
+    "portrait_source": "https://api.oyez.org/sites/default/files/images/people/samuel_alito_jr/samuel_alito_jr.thumb.png"
+  },
+  "sonia_sotomayor": {
+    "name": "Sonia Sotomayor",
+    "last_name": "Sotomayor",
+    "identifier": "sonia_sotomayor",
+    "role": "Justice",
+    "portrait_uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/justices/sonia_sotomayor.thumb.png",
+    "seniority": 3,
+    "portrait_source": "https://api.oyez.org/sites/default/files/images/people/sonia_sotomayor/sonia_sotomayor.thumb.png"
+  },
+  "elena_kagan": {
+    "name": "Elena Kagan",
+    "last_name": "Kagan",
+    "identifier": "elena_kagan",
+    "role": "Justice",
+    "portrait_uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/justices/elena_kagan.thumb.png",
+    "seniority": 4,
+    "portrait_source": "https://api.oyez.org/sites/default/files/images/people/elena_kagan/elena_kagan.thumb.png"
+  },
+  "neil_gorsuch": {
+    "name": "Neil Gorsuch",
+    "last_name": "Gorsuch",
+    "identifier": "neil_gorsuch",
+    "role": "Justice",
+    "portrait_uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/justices/neil_gorsuch.thumb__0.png",
+    "seniority": 5,
+    "portrait_source": "https://api.oyez.org/sites/default/files/filefield_paths/neil_gorsuch.thumb__0.png"
+  },
+  "brett_m_kavanaugh": {
+    "name": "Brett M. Kavanaugh",
+    "last_name": "Kavanaugh",
+    "identifier": "brett_m_kavanaugh",
+    "role": "Justice",
+    "portrait_uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/justices/Kavanaugh-thumb.png",
+    "seniority": 6,
+    "portrait_source": "https://api.oyez.org/sites/default/files/filefield_paths/Kavanaugh-thumb.png"
+  },
+  "amy_coney_barrett": {
+    "name": "Amy Coney Barrett",
+    "last_name": "Barrett",
+    "identifier": "amy_coney_barrett",
+    "role": "Justice",
+    "portrait_uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/justices/barret-thumb.png",
+    "seniority": 7,
+    "portrait_source": "https://api.oyez.org/sites/default/files/filefield_paths/barret-thumb.png"
+  },
+  "ketanji_brown_jackson": {
+    "name": "Ketanji Brown Jackson",
+    "last_name": "Jackson",
+    "identifier": "ketanji_brown_jackson",
+    "role": "Justice",
+    "portrait_uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/justices/thumbnail_ketanji_brown_jackson.png",
+    "seniority": 8,
+    "portrait_source": "https://api.oyez.org/sites/default/files/filefield_paths/thumbnail_ketanji_brown_jackson.png"
+  },
+  "curtis_e_gannon": {
+    "portrait_uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/advocates/curtis_e_gannon.jpg",
+    "role": "Advocate",
+    "dockets": [
+      "23-1038"
+    ]
+  },
+  "eric_n_heyer": {
+    "portrait_uri": "https://raw.githubusercontent.com/DominikPeters/scotus-videos/f0733f21b55acb19a5b98fdd24f928435d2c1220/advocates/eric_n_heyer.jpg",
+    "role": "Advocate",
+    "dockets": [
+      "23-1038"
+    ]
+  }
+}
