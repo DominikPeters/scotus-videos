@@ -9,4 +9,7 @@ return [
     'control_url' => '',
     'control_key' => '',
     'worker_keys' => [],
+    // VAPID public key from infra/setup_web_push.py; empty disables Web Push.
+    'push_public_key' => '',
+    // The matching private key belongs only in the control Secret Manager config.
 ];

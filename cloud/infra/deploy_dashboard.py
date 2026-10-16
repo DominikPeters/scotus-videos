@@ -13,9 +13,12 @@ def main():
     cli.add_argument('--ui-only',action='store_true',help='Replace only frontend files, preserving the deployed backend')
     args = cli.parse_args()
     source = Path(__file__).resolve().parents[1] / 'dashboard'
-    files = ['private/kick.php','private/photos.php','private/podcast.php','private/cleanup.php','private/spotify.php', 'private/state.php', 'private/recovery.php', 'private/reviews.php', 'private/connections.php', 'public/index.php', 'public/api.php',
-             'public/oauth-callback.php', 'public/dashboard.js', 'public/dashboard.css', 'public/.htaccess']
-    if args.ui_only: files=['public/index.php','public/dashboard.js','public/dashboard.css']
+    ui = ['public/index.php', 'public/privacy.html', 'public/app.css', 'public/main.js', 'public/api.js', 'public/dom.js', 'public/model.js', 'public/ui.js',
+          'public/push.js', 'public/view-list.js', 'public/view-clips.js', 'public/view-case.js', 'public/view-settings.js', 'public/sw.js',
+          'public/brand-icons.svg', 'public/bootstrap-icons-LICENSE.txt', 'public/manifest.webmanifest', 'public/icon-180.png', 'public/icon-192.png', 'public/icon-512.png']
+    files = ['private/kick.php','private/photos.php','private/podcast.php','private/cleanup.php','private/spotify.php','private/clips.php', 'private/state.php', 'private/recovery.php', 'private/reviews.php', 'private/connections.php', 'private/push.php',
+             'private/statistics.php', 'public/api.php', 'public/oauth-callback.php', 'public/instagram-callback.php', 'public/.htaccess', *ui]
+    if args.ui_only: files = ui
     buffer = io.BytesIO()
     with tarfile.open(fileobj=buffer, mode='w:gz') as archive:
         for name in files: archive.add(source / name, arcname=name)
@@ -40,6 +43,8 @@ for name in %s:
     os.replace(tmp,path)
 after={name:hashlib.sha256((private/name).read_bytes()).hexdigest() for name in protected}
 if before!=after: raise RuntimeError('Protected files changed')
+for name in ('dashboard.js','dashboard.css'):
+    (public/name).unlink(missing_ok=True)  # Replaced by the module app.
 print(json.dumps({'source_files':len(allowed),'passkeys_preserved':True,'configuration_preserved':True}))
 ''' % (repr(files), repr(files))
     result = subprocess.run(['ssh', args.ssh, 'python3 -c ' + shlex.quote(remote)], input=payload,

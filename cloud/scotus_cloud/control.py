@@ -17,7 +17,8 @@ from .google import Google
 from .model import STAGES,alignment_cpus
 from .remote import Dashboard, signature
 from .connections import (validate_web_client, youtube_authorize, youtube_exchange,
-                          github_exchange, github_install, GITHUB_REPOSITORY)
+                          github_exchange, github_install, GITHUB_REPOSITORY,
+                          validate_instagram_client, instagram_authorize, instagram_exchange, InstagramConnectionError)
 
 
 def validate_secret(name, value):
@@ -73,7 +74,16 @@ def dispatch_video_action(dashboard,google,settings,job):
     return {'job':job,'stage':'video_action','operation':operation}
 
 
-def dispatch(dashboard, google, settings):
+def dispatch(dashboard,google,settings):
+    # Source discovery and worker launches take priority over notification services.
+    result=_dispatch_work(dashboard,google,settings)
+    from .notifications import drain_notifications
+    try:drain_notifications(dashboard,settings)
+    except Exception:pass
+    return result
+
+
+def _dispatch_work(dashboard, google, settings):
     # A container can exit before claiming a lease. Heartbeats cannot detect that.
     snapshot=dashboard.call('snapshot')
     for job in (snapshot.get('jobs') or {}).values():
@@ -85,9 +95,6 @@ def dispatch(dashboard, google, settings):
             except Exception:continue # Retain the pointer and retry at the next tick.
             if status['done']:
                 dashboard.call('execution_closed',job=job['id'],stage=stage,operation=operation)
-    from .notifications import drain_notifications
-    try:drain_notifications(dashboard,settings)
-    except Exception:pass
     from .recovery_control import dispatch_recoveries
     recovery=dispatch_recoveries(dashboard,google,settings)
     if not settings.get('workers_enabled'):
@@ -98,12 +105,16 @@ def dispatch(dashboard, google, settings):
     snapshot = dashboard.call('snapshot')
     launched = list(recovery)
     jobs=snapshot.get('jobs') or {}
-    spotify=settings.get('spotify',{})
+    spotify=settings.get('spotify') or {}
     if spotify.get('enabled'):
         # Only owner-requested transfers are polled, even while video work is paused.
-        for job in [j for j in jobs.values() if j.get('spotify',{}).get('manual') and j['spotify'].get('status') in ('queued','waiting_episode','publish_queued','publishing') and j['spotify'].get('retry_after',0)<=time.time()][:2]:
+        for job in [j for j in jobs.values() if (j.get('spotify') or {}).get('manual') and j['spotify'].get('status') in ('queued','waiting_episode','publish_queued','publishing') and j['spotify'].get('retry_after',0)<=time.time()][:2]:
             try:google.invoke_action_service(spotify['service'],{'job':job['id']})
             except Exception:pass
+    if settings.get('statistics_job'):
+        from .statistics_control import dispatch_statistics
+        try:dispatch_statistics(dashboard,google,settings)
+        except Exception as error:print(json.dumps({'statistics_dispatch_error':str(error)[:200]}),flush=True)
     from .podcast import publish_alignments
     try:publish_alignments(dashboard,google,settings,jobs)
     except Exception as error:print(json.dumps({'podcast_export_error':type(error).__name__}),flush=True)
@@ -116,6 +127,13 @@ def dispatch(dashboard, google, settings):
     if not snapshot['paused'] and not candidates and not repairing:
         queued=[job for job in eligible if job['status']=='queued']
         if queued:candidates.add(sorted(queued,key=lambda job:job['created_at'])[0]['id'])
+    if settings.get('clip_job'):
+        from .clip_control import dispatch_clip
+        for clip_job in (snapshot.get('jobs') or {}).values():
+            for clip in (clip_job.get('clips') or {}).values():
+                if clip['status'] in ('render_queued','upload_queued','tiktok_draft_queued','tiktok_publish_queued','starting','rendering','uploading'):
+                    try:dispatch_clip(dashboard,google,settings,clip_job['id'],clip['id'])
+                    except Exception:pass
     for job in eligible:
         if job['status']!='cancelled' and settings.get('photo_job'):
             for request in (job.get('photo_requests') or {}).values():
@@ -228,10 +246,11 @@ def make_app(settings, google_factory=Google):
                 from .recovery_control import broker
                 value=broker(dashboard,google,settings,request)
             elif op == 'secret_status':
-                names = [name for name in ('youtube', 'codex', 'github', 'spotify') if name in settings['secrets']]
+                names = [name for name in ('youtube', 'codex', 'github', 'spotify', 'instagram') if name in settings['secrets']]
                 value = {'workers_enabled': settings.get('workers_enabled', False), 'credentials': {
                     name: google.secret_status(settings['secrets'][name]) for name in names}}
                 value['youtube_client_configured'] = google.secret_status(settings['secrets']['youtube_client'])['configured']
+                value['instagram_client_configured'] = bool(settings['secrets'].get('instagram_client')) and google.secret_status(settings['secrets']['instagram_client'])['configured']
                 value['codex_login_enabled'] = bool(settings.get('codex_auth_job'))
                 value['github_repository'] = GITHUB_REPOSITORY
                 if value['credentials'].get('github', {}).get('configured'):
@@ -256,6 +275,27 @@ def make_app(settings, google_factory=Google):
                 value = {'saved': True}
             elif op == 'youtube_authorize':
                 value = youtube_authorize(data, settings, google)
+            elif op == 'instagram_client_replace':
+                google.add_secret_version(settings['secrets']['instagram_client'], validate_instagram_client(data.get('value')))
+                value = {'saved': True}
+            elif op == 'instagram_authorize':
+                value = instagram_authorize(data, settings, google)
+            elif op == 'instagram_exchange':
+                token = dashboard.call('auth_claim', name='instagram')
+                if not token: raise ValueError('Credential is in use')
+                try:
+                    credential = instagram_exchange(data, settings, google)
+                    dashboard.call('auth_check', name='instagram', token=token)
+                    google.add_secret_version(settings['secrets']['instagram'], json.dumps(credential).encode())
+                except InstagramConnectionError as error:
+                    print(json.dumps({'instagram_connection_error': str(error)}), flush=True)
+                    raise
+                except Exception as error:
+                    print(json.dumps({'instagram_connection_error_type': type(error).__name__}), flush=True)
+                    raise
+                finally:
+                    dashboard.call('auth_release', name='instagram', token=token)
+                value = {'saved': True}
             elif op == 'youtube_exchange':
                 token = dashboard.call('auth_claim', name='youtube')
                 if not token:
@@ -303,6 +343,9 @@ def make_app(settings, google_factory=Google):
                 value=cleanup_completed_chunks(dashboard,google,settings,dashboard.call('snapshot')['jobs'])
             elif op == 'dispatch':
                 value = dispatch(dashboard, google, settings)
+            elif op in ('clip_dispatch','clip_download'):
+                from .clip_control import dispatch_clip,download_url
+                value=(dispatch_clip if op=='clip_dispatch' else download_url)(dashboard,google,settings,data['job'],data['clip'])
             elif op == 'video_action':
                 value=dispatch_video_action(dashboard,google,settings,data['job'])
             elif op == 'video_action_probe':
@@ -310,9 +353,14 @@ def make_app(settings, google_factory=Google):
             elif op in ('spotify_dispatch','spotify_probe'):
                 if not settings.get('spotify',{}).get('enabled'):raise ValueError('Spotify is not configured')
                 value=google.invoke_action_service(settings['spotify']['service'],{'probe':True} if op=='spotify_probe' else {'job':data['job']})
+            elif op=='notifications':
+                from .notifications import drain_notifications
+                value=drain_notifications(dashboard,settings)
             elif op=='notification_test':
-                from .notifications import send_notice
-                send_notice(settings,'test');value={'sent':True}
+                from .notifications import drain_notifications
+                if not re.fullmatch('[a-f0-9]{64}',str(data.get('notice_id',''))):raise ValueError('Invalid test notice')
+                results=drain_notifications(dashboard,settings,notice_id=data['notice_id'])
+                value=results[0] if results else {'delivered':0}
             elif op=='photo_add':
                 import tempfile
                 from .enrichment import store_photo

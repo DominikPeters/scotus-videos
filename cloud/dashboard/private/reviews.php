@@ -1,25 +1,40 @@
 <?php
 declare(strict_types=1);
 
-function notify_event(array &$state,string $key,string $kind,string $target): void {
+function notify_event(array &$state,string $key,string $kind,string $target,string $job=''): void {
     $id=hash('sha256',$key);$state['notifications'] ??= [];
     if(isset($state['notifications'][$id]))return;
-    $state['notifications'][$id]=['id'=>$id,'kind'=>$kind,'target'=>$target,'status'=>'pending','attempts'=>0,'created_at'=>gmdate('c')];
+    $state['notifications'][$id]=['id'=>$id,'kind'=>$kind,'target'=>$target,'job'=>$job,'status'=>'pending','attempts'=>0,'created_at'=>gmdate('c')];
+    schedule_push_delivery();
 }
 
 function review_operation(array &$state,array $input,string $role): mixed {
     $op=$input['op'];
     if($role==='dispatcher'&&$op==='notification_claim'){
+        notification_prune($state);
         foreach($state['notifications'] ?? [] as $id=>$item){
-            if($item['status']==='sent'||($item['expires'] ?? 0)>time()||$item['attempts']>=3)continue;
+            if(!empty($input['notice_id'])&&($id!==$input['notice_id']||$item['kind']!=='test'))continue;
+            if(in_array($item['status'],['sent','skipped'],true)||($item['expires'] ?? 0)>time()||$item['attempts']>=3)continue;
+            // Built at send time, so a review handled in the meantime sends nothing.
+            $payload=notification_payload($state,$item);
+            if(!$payload){$state['notifications'][$id]['status']='skipped';continue;}
             $item['token']=bin2hex(random_bytes(24));$item['expires']=time()+90;$item['attempts']++;
-            $state['notifications'][$id]=$item;return $item;
+            $state['notifications'][$id]=$item;
+            $subscriptions=array_filter($state['push_subscriptions'] ?? [],fn($s)=>empty($item['delivered'][$s['id']]));
+            return $item+['payload'=>$payload,'subscriptions'=>array_values(array_map(fn($s)=>array_intersect_key($s,array_flip(['id','endpoint','p256dh','auth'])),$subscriptions))];
         }return null;
     }
     if($role==='dispatcher'&&$op==='notification_finish'){
         $item=&$state['notifications'][$input['id']];
         if(!$item||!hash_equals($item['token'] ?? '',(string)$input['token']))throw new RuntimeException('Stale notification');
-        $item['status']=!empty($input['sent'])?'sent':'pending';unset($item['token']);$item['expires']=time()+300;return true;
+        $delivered=(array)($input['delivered'] ?? []);$gone=(array)($input['gone'] ?? []);
+        push_delivery($state,$delivered,$gone);
+        foreach($delivered as $device)$item['delivered'][$device]=gmdate('c');
+        $devices=$state['push_subscriptions'] ?? [];
+        $complete=!empty($input['sent'])||(!empty($input['web_push'])&&$devices&&!array_filter($devices,fn($s)=>empty($item['delivered'][$s['id']])));
+        $item['status']=$complete?'sent':($devices?'pending':'waiting_for_device');
+        if(!$devices)$item['attempts']=0;
+        unset($item['token']);$item['expires']=time()+300;return true;
     }
     $id=(string)($input['job'] ?? '');if(!isset($state['jobs'][$id]))throw new InvalidArgumentException('Unknown recording');
     $job=&$state['jobs'][$id];
@@ -33,10 +48,23 @@ function review_operation(array &$state,array $input,string $role): mixed {
         $item['status']='running';$item['lease']=bin2hex(random_bytes(24));$item['expires']=time()+180;
         return ['job'=>$job,'lease'=>$item['lease']];
     }
+    if($op==='asset_portrait_export'&&$role==='assets'){
+        $item=$job['asset_publication']??[];
+        if(($item['status']??'')!=='running'||($item['expires']??0)<=time()||!hash_equals($item['lease']??'',(string)($input['lease']??'')))throw new RuntimeException('Stale portrait publisher');
+        $person=(string)($input['person']??'');$approved=$job['approved_photos'][$person]??null;
+        if(!preg_match('/^[a-z][a-z0-9_]{1,100}$/D',$person)||!$approved)throw new RuntimeException('Portrait not approved');
+        $bytes=base64_decode((string)($input['image_base64']??''),true);
+        if($bytes===false||strlen($bytes)>4194304||!hash_equals($approved['sha256'],hash('sha256',$bytes))||!str_starts_with($bytes,"\xff\xd8\xff"))throw new RuntimeException('Approved JPEG differs');
+        global $privateDir,$statisticsPublicDir;
+        $root=$statisticsPublicDir??dirname($privateDir).'/scotusstats/data';$folder=dirname($root).'/img/advocates';
+        if(!is_dir($folder)&&!mkdir($folder,0755,true))throw new RuntimeException('Portrait folder unavailable');
+        podcast_write($folder.'/'.$person.'.jpg',$bytes);
+        return ['url'=>'/img/advocates/'.$person.'.jpg'];
+    }
     if($op==='asset_publish_finish'&&$role==='assets'){
         $item=&$job['asset_publication'];if(!$item||($item['expires'] ?? 0)<=time()||!hash_equals($item['lease'] ?? '',(string)$input['lease']))throw new RuntimeException('Stale portrait publisher');
         $item['status']=!empty($input['success'])?'complete':'failed';$item['results']=$input['results'];unset($item['lease'],$item['dispatch_token']);
-        event($state,$id,!empty($input['success'])?'Approved portraits saved to GitHub':'Portrait commit needs review');return true;
+        event($state,$id,!empty($input['success'])?(!empty($input['results'])?'Approved portraits published and saved to GitHub':'Approved portraits published'):'Portrait publication needs review');return true;
     }
     if($op==='card_context'&&$role==='enrich')return $job;
     if($op==='review_context'&&$role==='dispatcher')return $job;
@@ -61,7 +89,10 @@ function review_operation(array &$state,array $input,string $role): mixed {
         $missing=false;
         foreach($review['photos'] ?? [] as $person=>$item){
             if(empty($job['approved_photos'][$person])){
-                if(!empty($item['approved_existing']))$job['approved_photos'][$person]=$item['approved_existing'];
+                if(!empty($item['approved_existing'])){
+                    $job['approved_photos'][$person]=$item['approved_existing'];
+                    if(!in_array($job['asset_publication']['status']??'',['starting','running'],true))$job['asset_publication']=['status'=>'queued'];
+                }
                 else $missing=true;
             }
         }
@@ -90,6 +121,7 @@ function review_operation(array &$state,array $input,string $role): mixed {
         if(!empty($input['success'])){
             if($action['kind']==='publish')$job['privacy']='public';
             if($action['kind']==='title')$job['title']=$action['title'];
+            try{podcast_youtube_link($job);}catch(Throwable $e){event($state,$id,'Podcast video link export failed; YouTube action succeeded');}
             event($state,$id,$action['kind']==='publish'?'Video published':'YouTube title updated');
         }return true;
     }
@@ -113,6 +145,12 @@ function reconcile_reviews(array &$state): void {
         if(($job['stages']['enrich']['status'] ?? '')!=='needs_review'||empty($job['review']))continue;
         $pending=array_filter(array_keys($job['review']['photos'] ?? []),fn($key)=>empty($job['approved_photos'][$key]));
         if($pending||cards_pending($job))continue;
+        if(!empty($job['annotation_revision_only'])){
+            $job['stages']['enrich']['status']='complete';$job['stages']['enrich']['progress']=1;$job['stages']['enrich']['finished_at']=gmdate('c');$job['status']='complete';
+            event($state,$id,'Revised card selections saved; existing video retained. A new render is a separate action.');
+            reconcile_recoveries($state);
+            continue;
+        }
         $job['stages']['enrich']['status']='pending';
         if($job['status']==='needs_review')$job['status']=count(array_filter($job['stages'],fn($s)=>in_array($s['status'],['starting','running'],true)))?'running':'queued';
         event($state,$id,'Case review approved; metadata finalization queued');
@@ -130,7 +168,7 @@ function review_command(array &$state,array $input): array {
         $request['status']='queued';unset($request['error'],$request['lease'],$request['dispatch_token']);return $request;
     }
     if($action==='cards'){
-        if($job['stages']['plan']['status']!=='pending')throw new RuntimeException('Rendering inputs are frozen');
+        if($job['stages']['plan']['status']!=='pending'&&empty($job['annotation_revision_only']))throw new RuntimeException('Rendering inputs are frozen');
         $choices=$input['selections'] ?? null;$ids=array_column($job['review']['cards'] ?? [],'id');
         if(!is_array($choices)||count($choices)!==count($ids)||array_diff(array_keys($choices),$ids)||array_diff($ids,array_keys($choices)))throw new RuntimeException('Select show or hide for every card');
         foreach($choices as $value)if(!is_bool($value))throw new RuntimeException('Invalid card selection');
@@ -149,7 +187,7 @@ function review_command(array &$state,array $input): array {
         foreach($job['photo_requests'] ?? [] as $r)if($r['person']===$person&&in_array($r['status'],['queued','starting','running'],true))throw new RuntimeException('Wait for the photo revision');
         if($job['stages']['plan']['status']!=='pending')throw new RuntimeException('Rendering inputs are frozen');
         $job['approved_photos'][$person]=$choice;
-        if(($choice['origin'] ?? '')!=='curated_cache')$job['asset_publication']=['status'=>'queued'];
+        $job['asset_publication']=['status'=>'queued'];
         event($state,$id,'Photo approved for '.$photo['name']);
         $pending=array_filter(array_keys($job['review']['photos']),fn($key)=>empty($job['approved_photos'][$key]));
         if(!$pending&&!cards_pending($job)&&$job['stages']['enrich']['status']==='needs_review'){

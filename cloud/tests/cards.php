@@ -7,4 +7,7 @@ review_command($s,['job'=>$id,'revision'=>str_repeat('a',64),'command'=>'photo',
 review_command($s,['job'=>$id,'revision'=>str_repeat('a',64),'command'=>'cards','selections'=>['show'=>false,'hide'=>true]]);check($j['stages']['enrich']['status']==='pending','Combined approvals did not release enrichment');check($j['card_selections']===['show'=>false,'hide'=>true],'Owner choices lost');
 $j['review']['revision']=str_repeat('c',64);check(!cards_pending($j),'Photo revision discarded card signoff');$j['review']['card_revision']=str_repeat('d',64);check(cards_pending($j),'Changed cards kept approval');
 $j['stages']['plan']['status']='complete';try{review_command($s,['job'=>$id,'revision'=>str_repeat('c',64),'command'=>'cards','selections'=>['show'=>true,'hide'=>true]]);throw new Exception('Frozen cards changed');}catch(RuntimeException $e){}
+$j['annotation_revision_only']=true;$j['stages']['enrich']['status']='needs_review';$j['status']='needs_review';$j['stages']['upload']=['status'=>'complete','result'=>['video_id'=>'existing']];
+review_command($s,['job'=>$id,'revision'=>str_repeat('c',64),'command'=>'cards','selections'=>['show'=>true,'hide'=>false]]);
+check($j['status']==='complete'&&$j['stages']['plan']['status']==='complete'&&$j['stages']['upload']['result']['video_id']==='existing','Proposal review changed completed media');
 echo "Card review checks passed: combined gate, owner presets, revision isolation and frozen inputs.\n";

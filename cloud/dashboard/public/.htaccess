@@ -5,3 +5,10 @@ RewriteRule ^status\.json$ api.php?action=state [L,QSA]
 <FilesMatch "^(private-path\.php|composer\.(json|lock))$">
   Require all denied
 </FilesMatch>
+AddType application/manifest+json .webmanifest
+<IfModule mod_headers.c>
+  # Revalidate app files on every load so a deployment is picked up at once.
+  <FilesMatch "\.(js|css|webmanifest)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>

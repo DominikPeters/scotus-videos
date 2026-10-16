@@ -168,6 +168,10 @@ def build_description_task(stage, case, oyez, materials, actions, profile, *, re
     if not isinstance(materials, list) or any(not isinstance(item, dict) for item in materials):
         raise ValueError('Description materials must be a list of source records')
     request = {'field_actions': actions, 'word_limits': profile['word_limits']}
+    checking=bool(case.get('_check_participation'))
+    if stage=='case-research' and checking:
+        request.update(check_participation=True,participation_only='missing' not in actions.values())
+        if request['participation_only']:materials=[m for m in materials if m.get('id')=='docket']
     policy = (ROOT / 'prompts/public-output-policy.md').read_text()
     prompt = policy + '\n\n' + (ROOT / 'prompts' / (stage + '.md')).read_text()
     inputs = {'POLICY.md': policy, 'input/case.json': json.dumps(case, ensure_ascii=False),
@@ -178,11 +182,20 @@ def build_description_task(stage, case, oyez, materials, actions, profile, *, re
     if revision is not None: inputs['input/revision.json'] = json.dumps(revision, ensure_ascii=False)
     _validated_inputs(inputs)
     schema = _schema(stage)
+    if stage=='case-research' and checking:
+        from .participation import SCHEMA
+        schema['properties']['participation']=SCHEMA;schema['required'].append('participation')
+        if request['participation_only']:
+            schema['properties']['background']['maxItems']=0
+            schema['properties']['issues'].update(minItems=0,maxItems=0)
+        catalog=json.loads((ROOT/'speaker-catalog.json').read_text())
+        inputs['input/justice-identifiers.json']=json.dumps({k:v.get('name',v.get('last_name',k)) for k,v in catalog.items()})
     return DescriptionTask(prompt, schema, inputs, digest_json({'prompt': prompt, 'schema': schema, 'inputs': inputs}))
 
 
-def validate_case_research(research, case, oyez):
-    _check_schema(research, 'case-research')
+def validate_case_research(research, case, oyez, *, schema=None):
+    if schema is None:_check_schema(research, 'case-research')
+    else:Draft202012Validator(schema).validate(research)
     supplied = _oyez_sources(oyez)
     sources = _source_index(research['sources'], _validate_case(case), supplied_ids=[s['id'] for s in supplied])
     for item in research['background'] + research['issues']:
@@ -234,7 +247,8 @@ def public_case_fields(bundle):
     return {field: bundle['fields'][field] for field in FIELDS}
 
 
-def generate_case_description(dashboard, cloud, secret_name, case, *, oyez=None, materials=None, profile=None):
+def generate_case_description(dashboard, cloud, secret_name, case, *, oyez=None, materials=None, profile=None, check_participation=False):
+    case={**case,'_check_participation':True} if check_participation else case
     settings = description_profile(profile)
     argued = _validate_case(case)
     oyez = {} if oyez is None else oyez
@@ -247,12 +261,15 @@ def generate_case_description(dashboard, cloud, secret_name, case, *, oyez=None,
     base_sources = _oyez_sources(oyez)
     known = _source_index(base_sources, argued, supplied_ids=[s['id'] for s in base_sources])
     research, result, tasks = None, None, []
-    if 'missing' in actions.values():
+    if 'missing' in actions.values() or check_participation:
         task = build_description_task('case-research', case, oyez, materials, actions, settings, sources=known)
         research = run_codex(dashboard, cloud, secret_name, task.prompt, task.schema,
                              model=settings['case_research_model'], inputs=task.inputs,
                              timeout_seconds=settings['research_timeout_seconds'])
-        validate_case_research(research, case, oyez)
+        validate_case_research(research, case, oyez, schema=task.schema)
+        if check_participation:
+            from .participation import validate_participation
+            validate_participation(research['participation'],case,oyez)
         tasks.append(task.input_revision)
         for key, source in _source_index(research['sources'], argued, supplied_ids=known).items():
             if key in known and (source['kind'], source['url']) != (known[key]['kind'], known[key]['url']):
@@ -296,4 +313,5 @@ def generate_case_description(dashboard, cloud, secret_name, case, *, oyez=None,
                                           'profile': settings, 'task_revisions': tasks}),
             'models_used': {'research': settings['case_research_model'] if research else None,
                             'writer': settings['case_description_model'] if result else None},
+            'participation':research.get('participation') if research else None,
             'private_research': research, 'private_editorial_notes': notes, 'private_caveats': caveats}

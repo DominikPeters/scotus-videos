@@ -1,0 +1,10 @@
+FROM python:3.12-slim-bookworm
+ENV PYTHONUNBUFFERED=1 PUPPETEER_SKIP_DOWNLOAD=true PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg chromium nodejs npm ca-certificates && rm -rf /var/lib/apt/lists/*
+RUN pip install --no-cache-dir "google-auth[requests]==2.58.1" cryptography==46.0.2 && npm install --omit=dev --ignore-scripts --no-audit --no-fund puppeteer@22.15.0
+COPY scotus_cloud /app/scotus_cloud
+COPY render /app/render
+COPY vertical.html /app/vertical.html
+RUN python -c "import scotus_cloud.clip_worker" && node --check render/vertical.js
+ENTRYPOINT ["python", "-m", "scotus_cloud.clip_worker"]

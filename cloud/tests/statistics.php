@@ -1,0 +1,13 @@
+<?php
+require __DIR__.'/../dashboard/private/state.php';
+$privateDir=sys_get_temp_dir().'/scotus-stats-test-'.bin2hex(random_bytes(5));mkdir($privateDir,0700);$statisticsPublicDir=$privateDir.'/public';
+$s=initial_state();$s['statistics']['count']=1;
+$claim=statistics_operation($s,['op'=>'stats_dispatch','index_revision'=>'a'],'dispatcher');
+if(!$claim||statistics_operation($s,['op'=>'stats_dispatch','index_revision'=>'a'],'dispatcher')!==null)throw new RuntimeException('Duplicate statistics worker');
+statistics_operation($s,['op'=>'stats_start','token'=>$claim['token']],'stats');
+$raw=json_encode([['objectID'=>'2026/25-1','term'=>'2026','name'=>'Example']]);
+statistics_operation($s,['op'=>'stats_update','token'=>$claim['token'],'message'=>'Updated','publish'=>['gzip_base64'=>base64_encode(gzencode($raw)),'sha256'=>hash('sha256',$raw),'count'=>1],'data_uri'=>'gs://private/stats.gz','index_revision'=>'a','questions'=>[],'pending'=>0,'finish'=>true],'stats');
+if(file_get_contents($statisticsPublicDir.'/flattened_records.json')!==$raw)throw new RuntimeException('Published content differs');
+$public=public_state($s);if(isset($public['statistics']['token'])||isset($public['statistics']['data_uri']))throw new RuntimeException('Private fields leaked');
+if(statistics_operation($s,['op'=>'stats_dispatch','index_revision'=>'a'],'dispatcher')!==null)throw new RuntimeException('Unnecessary repeat run');
+echo "Statistics lease, atomic publication and private-field checks passed\n";

@@ -20,6 +20,9 @@ function recovery_failure(array &$state, string $jobId, string $stageName, strin
     $previous=$stage['recovery_id'] ?? '';
     if (isset($state['recoveries'][$previous]) && $state['recoveries'][$previous]['input_revision']===$revision &&
         !in_array($state['recoveries'][$previous]['status'],['cancelled','repaired'],true)) $id=$previous;
+    // A later run can fail in exactly the same way after a successful repair.
+    // Keep that completed recovery as history and open a fresh incident.
+    if(isset($state['recoveries'][$id])&&in_array($state['recoveries'][$id]['status'],['cancelled','repaired'],true))$id=bin2hex(random_bytes(16));
     if (!isset($state['recoveries'][$id])) {
         $state['recoveries'][$id] = ['id'=>$id,'job'=>$jobId,'stage'=>$stageName,'input_revision'=>$revision,
             'fingerprint'=>$fingerprint,'status'=>'queued','turns'=>0,'authorized_turn_limit'=>6,'failures'=>0,'created_at'=>gmdate('c'),
@@ -40,7 +43,8 @@ function reconcile_recoveries(array &$state): void {
     $state['recoveries'] ??= [];
     foreach ($state['jobs'] as $jobId=>$job) {
         if ($job['status'] !== 'failed') continue;
-        foreach ($job['stages'] as $name=>$stage) if ($stage['status'] === 'failed' && !isset($stage['recovery_id'])) {
+        foreach ($job['stages'] as $name=>$stage) if ($stage['status'] === 'failed' &&
+            (!isset($stage['recovery_id'])||in_array($state['recoveries'][$stage['recovery_id']]['status'] ?? '',['repaired','cancelled'],true))) {
             recovery_failure($state,$jobId,$name,(string)($stage['error'] ?? 'worker_failed'));
         }
     }
@@ -84,6 +88,16 @@ function reconcile_recoveries(array &$state): void {
         if ($job['status'] === 'cancelled' && $rec['status']!=='repaired') {
             $rec['status']='cancelled'; unset($rec['lease'],$rec['dispatch_token']);
         }
+    }
+    recovery_attention_notifications($state);
+}
+
+function recovery_attention_notifications(array &$state): void {
+    foreach($state['recoveries'] ?? [] as $id=>$rec){
+        if(!in_array($rec['status'],['unresolved','waiting_for_resource'],true))continue;
+        $job=$state['jobs'][$rec['job']];
+        if($job['status']==='cancelled'||($job['stages'][$rec['stage']]['recovery_id'] ?? '')!==$id||$job['stages'][$rec['stage']]['status']==='complete')continue;
+        notify_event($state,$id.'-attention-'.$rec['status'].'-'.($rec['turns'] ?? 0),'failure',$id,$rec['job']);
     }
 }
 
@@ -157,11 +171,11 @@ function recovery_operation(array &$state, array $input, string $role): mixed {
         reconcile_recoveries($state); $rec =& $state['recoveries'][$id];
         if (!$rec || $rec['status']!=='queued' || !work_enabled($state,$state['jobs'][$rec['job']])) return null;
         if ($rec['turns']>=min(8,$rec['authorized_turn_limit'] ?? 2)) {
-            $rec['status']='unresolved'; return null;
+            $rec['status']='unresolved';recovery_attention_notifications($state); return null;
         }
         $key=$id.'-turn-'.($rec['turns']+1);
         if (!recovery_budget($state,$key,(float)$input['reserve_usd'],(int)$input['seconds'])) {
-            $rec['status']='waiting_for_resource'; recovery_log($state,$id,'system','The $1 daily repair reservation limit has been reached.'); return null;
+            $rec['status']='waiting_for_resource';recovery_attention_notifications($state); recovery_log($state,$id,'system','The $1 daily repair reservation limit has been reached.'); return null;
         }
         $rec['status']='starting'; $rec['dispatch_token']=bin2hex(random_bytes(24)); $rec['expires']=time()+900; $rec['turns']++;
         return $rec;

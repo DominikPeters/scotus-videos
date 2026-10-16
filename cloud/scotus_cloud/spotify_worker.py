@@ -1,4 +1,4 @@
-"""Stream a saved MP4 from GCS into Spotify unchanged; never publish here."""
+"""Stream a saved MP4 from GCS into Spotify unchanged and publish within the same authorized transfer."""
 import http.client
 import json
 import os
@@ -11,7 +11,7 @@ import uuid
 
 from .google import Google,split_gs
 from .remote import Dashboard
-from .spotify import Spotify,SpotifyAuthRequired,SpotifyError
+from .spotify import Spotify,SpotifyAuthRequired,SpotifyError,transfer_thumbnail
 
 
 def transfer(context,client,google,checkpoint,heartbeat):
@@ -71,14 +71,22 @@ def main():
     identity={'job':os.environ['SCOTUS_JOB_ID'],'generation':os.environ['SCOTUS_SPOTIFY_GENERATION']}
     claim=dashboard.call('spotify_claim',**identity,dispatch_token=os.environ['SCOTUS_SPOTIFY_TOKEN'],claim_id=uuid.uuid4().hex)
     if not claim:return
-    lease=claim['lease']
-    def update(status,**fields):return dashboard.call('spotify_update',**identity,lease=lease,expected_status='uploading',status=status,**fields)
+    lease=claim['lease'];expected='uploading'
+    def update(status,**fields):return dashboard.call('spotify_update',**identity,lease=lease,expected_status=expected,status=status,**fields)
     try:
         context=dashboard.call('spotify_context',job=identity['job'])
         client=Spotify(google,dashboard,settings['spotify_secret'],settings['show_id'])
         upload=transfer(context,client,google,lambda value:update('uploading',upload_id=value),
                         lambda progress:dashboard.call('spotify_heartbeat',**identity,lease=lease,progress=progress))
-        update('uploaded',upload_id=upload,note='Original video uploaded unchanged; ready to publish')
+        if context['spotify'].get('publish_authorized'):
+            thumbnail=transfer_thumbnail(context,client,google)
+            if not update('publishing',upload_id=upload,retry_after=int(time.time())+60,note='Video uploaded; publishing on Spotify'):
+                raise SpotifyError('Spotify transfer state changed before publication')
+            expected='publishing'
+            if thumbnail:update('publishing',**thumbnail)
+            client.publish(context['spotify']['episode_id'],upload)
+        else:
+            update('uploaded',upload_id=upload,note='Original video uploaded; legacy transfer needs publication authorization')
         print('Spotify transfer complete',flush=True)
     except Exception as error:
         try:update('needs_auth' if isinstance(error,SpotifyAuthRequired) else 'failed',error=str(error)[:300] if isinstance(error,SpotifyError) or isinstance(error,SpotifyAuthRequired) else 'Transfer interrupted. Retry checks the saved upload before resuming.')

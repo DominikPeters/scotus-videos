@@ -90,3 +90,15 @@ $other=add_job($fixture,['docket'=>'25-171','argument_date'=>'2026-10-05','pdf_u
 $claim=worker_update($fixture,['op'=>'dispatch','job'=>$other['id'],'stage'=>'prepare','baseline_sha256'=>str_repeat('c',64)],'dispatcher');check($claim['workflow_release']===null,'Default crossed immutable source versions');
 echo "Passed failure deduplication, role/lease fencing, private explanatory logs, async answers, replay rejection and daily reservations.\n";
 echo "Passed completed-phase recovery closure, waiting-state normalization, obsolete questions, preserved reservations, supersession and active checkpoint fencing.\n";
+
+// The same failure on a later run must not inherit a terminal recovery.
+$repeated=initial_state();$fixture=add_job($repeated,['docket'=>'25-170','argument_date'=>'2026-10-05','pdf_url'=>'https://www.supremecourt.gov/test.pdf','audio_url'=>'https://www.supremecourt.gov/test.mp3']);$jid2=$fixture['id'];
+$first=recovery_failure($repeated,$jid2,'render','worker_failed');$repeated['recoveries'][$first]['status']='repaired';
+$second=recovery_failure($repeated,$jid2,'render','worker_failed');
+check($second!==$first&&$repeated['recoveries'][$second]['status']==='queued','Later failure reused completed recovery');
+check(recovery_failure($repeated,$jid2,'render','worker_failed')===$second,'Active repeated incident was not deduplicated');
+check($repeated['recoveries'][$first]['status']==='repaired','Historical recovery changed');
+$repeated['recoveries'][$second]['status']='repaired';$repeated['jobs'][$jid2]['status']='failed';$repeated['jobs'][$jid2]['stages']['render']['status']='failed';
+reconcile_recoveries($repeated);
+check($repeated['jobs'][$jid2]['stages']['render']['recovery_id']!==$second,'Reconciliation ignored new failure with stale recovery');
+echo "Repeated recovery checks passed\n";

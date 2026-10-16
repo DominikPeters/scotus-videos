@@ -37,3 +37,42 @@ Validation includes source integrity and preview binding tests, PHP review-gate
 checks, desktop/mobile dashboard checks, actual production template previews and
 independent replay checks for card pixels. A small cloud check confirms native
 subagents inherit the host research tools.
+
+Research is saved inside the private media bucket under `card-research/`, keyed
+by recording and prepared-transcript digest. Each source index, PDF and exhibit
+is stored once; append-only checkpoints retain the opportunity scan, source
+references, rendered drafts, previews, decisions and bounded redacted session
+records. A new worker resumes the latest checkpoint. `research_history_uri` in
+the final annotation result locates its record. Public cards never include these
+private logs. One Sol coordinator still owns the task and delegates bulk reading
+to Luna; saved scan/source/design phases do not introduce separate model jobs.
+
+The editorial prompt searches for useful coverage of the entire argument,
+prioritizing splits, a Justice's unfamiliar-term question, consequential
+statutory definitions/comparisons and an early question presented. Roughly one
+useful card per 5–10 minutes is a search guide, not a minimum or uniform schedule.
+Display windows target 20–45 seconds and cannot exceed 60 seconds. Type labels
+are fixed or empty, structured templates have required fields, and transcript
+phrases repeated more than twice in the marking window are rejected. The
+comparison renderer tolerates a missing citation in older inputs without printing
+`undefined`; newly proposed comparisons require citations.
+
+Private card previews deliberately exclude earlier annotation selections: owner
+sign-off applies to the final bundle, never to generating review images. Saved
+sourced drafts marked pending block successful completion until previewed or
+explicitly omitted for editorial reasons. Renderer failures return bounded
+diagnostics to the coordinator, whose turn stays within the 900-second auth
+contract. Quote comparisons normalize PDF quotation typography and emphasis
+markup without accepting changes to the actual words.
+
+Transcript anchors are actively selected and inspected, with optional
+`highlight_from` narrowing the lookback to avoid repeated earlier mentions.
+Quote matching treats internal and PDF line-break hyphens consistently on both
+sides; displayed quotations retain normal spelling. Private notes summarize
+research instead of embedding checkpoint JSON. Preview identities include the
+renderer checksums, so stylesheet changes require fresh visual inspection.
+
+
+Selection and source checks follow [the Suncor comparison lessons](../../docs/annotation-cards-lessons.md): concrete references first, neutral background rather than adjudicating a live disagreement, exact cited passages, descriptive headings, and timelines with at most five events. Excerpt/Record labels may identify the source type. The PDF exhibit tool accepts a separate highlight phrase and crops tightly around its selected passage. Displayed statutory/excerpt text is checked against the cited physical page; JSON sources are decoded before indexing.
+
+An operator may import revised proposals for a completed video with `annotation_revision_only`. The dashboard permits card signoff in that mode while retaining every completed media/upload checkpoint. Approval records selections without starting a new render or creating another upload. Normal recording reviews still require signoff before planning.

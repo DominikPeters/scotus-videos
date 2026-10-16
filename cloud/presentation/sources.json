@@ -1,10 +1,10 @@
 {
   "renderer/index.html": {
-    "sha256": "771f6015d4029575619926b4d974b96fa790b1a7ba3047c7bd997d09988a3c11",
+    "sha256": "342074695d7c8ed8138d08bc9657aaebb2f1680099658badb6c66ee3eafd5c23",
     "source": "mockup-quotes/index.html (approved production adaptation)"
   },
   "renderer/script.js": {
-    "sha256": "9df955bcefcc86822371d1dcb8c629cf739334ccc4b06bff0fd6cb9603d3a5ba",
+    "sha256": "09afb6c49ccbc97297568ae7008d202141daadfe7f575e2780978198b8061074",
     "source": "mockup-quotes/script.js (approved production adaptation)"
   },
   "reference/preprocess.py": {

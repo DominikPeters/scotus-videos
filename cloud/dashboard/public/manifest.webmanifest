@@ -1,0 +1,15 @@
+{
+  "name": "Scotus videos",
+  "short_name": "Scotus videos",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f2f4",
+  "theme_color": "#f2f2f4",
+  "icons": [
+    {"src": "icon-192.png?v=2", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png?v=2", "sizes": "512x512", "type": "image/png"},
+    {"src": "icon-512.png?v=2", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

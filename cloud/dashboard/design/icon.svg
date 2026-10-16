@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Homepage hero palette: sky blue, navy chart bars, warm stone. -->
+  <rect width="512" height="512" fill="#5799df"/>
+  <g fill="#294f77">
+    <path d="M122 164h46v174h-46zM178 120h46v218h-46zM234 80h46v258h-46zM290 108h46v230h-46zM346 156h46v182h-46z"/>
+  </g>
+  <g fill="#eeece5">
+    <path d="M112 205 256 138 400 205z"/>
+    <path d="M122 215h268v21H122zM122 246h24v92h-24zM183 246h24v92h-24zM244 246h24v92h-24zM305 246h24v92h-24zM366 246h24v92h-24zM112 348h288v16H112zM97 374h318v16H97z"/>
+  </g>
+</svg>

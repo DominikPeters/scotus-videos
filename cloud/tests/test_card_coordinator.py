@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from unittest.mock import AsyncMock, Mock, patch
 
-from scotus_cloud.annotation_cards import CardTools
+from scotus_cloud.annotation_cards import CardTools,preview_fingerprint
 from scotus_cloud.codex_tools import run_with_tools
 from scotus_cloud.model import digest_json
 
@@ -22,7 +22,7 @@ class PreviewValidationTests(unittest.TestCase):
             result = {'cards': [card], 'private_notes': []}
             with self.assertRaisesRegex(ValueError, 'Card one'):
                 tools.validate_result(result)
-            key = digest_json({k: v for k, v in card.items() if k not in ('preview_id', 'visual_checked')})
+            key = preview_fingerprint(card)
             tools.previews[key] = {'start': 0, 'end': 10, 'cue': {'kind': 'Excerpt'}}
             card.update(preview_id=key, visual_checked=True)
             self.assertEqual(len(tools.validate_result(result)), 1)

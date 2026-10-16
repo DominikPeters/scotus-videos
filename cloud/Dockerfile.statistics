@@ -1,0 +1,9 @@
+FROM python:3.12-slim-bookworm
+ENV PYTHONUNBUFFERED=1
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends poppler-utils nodejs npm git ca-certificates && rm -rf /var/lib/apt/lists/*
+COPY requirements-control.txt /app/
+RUN pip install --no-cache-dir -r requirements-control.txt && npm install --global --no-audit --no-fund @openai/codex@0.162.1
+COPY . /app/
+RUN python -m unittest test_stats_core test_statistics_worker -v
+ENTRYPOINT ["python", "-m", "scotus_cloud.statistics_worker"]

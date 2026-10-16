@@ -123,6 +123,10 @@ function buildBench(data) {
         } else {
             caption.innerHTML = "Justice " + judges[i].last_name;
         }
+        if (judges[i].recused === true) {
+            figure.classList.add('recused');
+            caption.textContent = judges[i].last_name + ' recused';
+        }
         figure.appendChild(caption);
         bench.appendChild(figure);
     }
@@ -942,8 +946,8 @@ function fillQuoteCard(cue) {
     document.getElementById('quote-card-under')?.remove();
     document.getElementById('quote-card').dataset.showing = cue.id;
     document.getElementById('quote-kind').innerHTML = cue.label ?? cue.kind; // case cards have no label
-    document.getElementById('quote-heading').innerHTML = cue.heading;
-    document.getElementById('quote-source').innerHTML = cue.source + (cue.date ? " &middot; filed " + cue.date : "");
+    document.getElementById('quote-heading').innerHTML = cue.heading ?? "";
+    document.getElementById('quote-source').innerHTML = (cue.source ?? "") + (cue.date ? " &middot; filed " + cue.date : "");
     let conversation = document.getElementById('conversation');
     let card = document.getElementById('quote-card');
     // measure the free space with the sidebar fully squeezed
@@ -1025,7 +1029,7 @@ function cardBodyHtml(cue, withBefore, withAfter) {
     if (cue.compare) {
         return `<div class="compare">` + cue.compare.map(column =>
             `<div class="compare-column"><div class="compare-title">${column.title}</div>` +
-            `<div class="compare-cite">${column.cite}</div><div class="compare-text">${column.text}</div></div>`).join("") + `</div>`;
+            `<div class="compare-cite">${column.cite ?? ""}</div><div class="compare-text">${column.text}</div></div>`).join("") + `</div>`;
     }
     if (cue.timeline) {
         return `<div class="timeline">` + cue.timeline.events.map((event, i) =>

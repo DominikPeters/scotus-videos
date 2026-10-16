@@ -9,16 +9,34 @@ function serverFor(root){return http.createServer((req,res)=>{
  const target=path.resolve(root,'.'+pathname);if(!target.startsWith(root+path.sep)||!fs.statSync(target).isFile())throw Error();
  res.writeHead(200,{'Content-Type':({'.html':'text/html','.js':'text/javascript','.json':'application/json','.svg':'image/svg+xml','.jpg':'image/jpeg','.png':'image/png','.otf':'font/otf','.ttf':'font/ttf'})[path.extname(target).toLowerCase()]||'application/octet-stream'});fs.createReadStream(target).pipe(res);
  }catch{res.writeHead(404);res.end();}});}
-async function open(root,id){
+async function open(root,id,vertical=false){
  const server=serverFor(root);await new Promise(resolve=>server.listen(8002,'127.0.0.1',resolve));
  const browser=await puppeteer.launch({headless:'new',executablePath:process.env.PUPPETEER_EXECUTABLE_PATH||undefined,args:process.env.CLOUD_RUN_JOB?['--no-sandbox','--disable-dev-shm-usage']:[]});
- const page=await browser.newPage();const errors=[];page.on('pageerror',error=>errors.push(error.message));await page.setRequestInterception(true);page.on('request',request=>{const url=request.url();if(url.startsWith('http://localhost:8002/')||url.startsWith('data:'))request.continue();else request.abort();});await page.setViewport({width:1920,height:1080,deviceScaleFactor:2});
- await page.goto(`http://localhost:8002/?case=${id}`);await page.waitForSelector('#loading-finished');
+ const page=await browser.newPage();const errors=[];page.on('pageerror',error=>errors.push(error.message));await page.setRequestInterception(true);page.on('request',request=>{const url=request.url();if(url.startsWith('http://localhost:8002/')||url.startsWith('data:'))request.continue();else request.abort();});await page.setViewport(vertical?{width:1080,height:1920,deviceScaleFactor:1}:{width:1920,height:1080,deviceScaleFactor:2});
+ await page.goto(`http://localhost:8002/${vertical?'vertical.html':''}?case=${id}`);await page.waitForSelector('#loading-finished');
  await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].map(img=>img.decode().catch(()=>{})));});
  if(errors.length)throw Error('Original presentation initialization failed: '+errors[0]);
  return {page,browser,server};
 }
 async function action(page,op){return page.evaluate(async op=>{
+ if(op.name==='fitVertical'){
+  const title=document.querySelector('div.title h1'),seal=document.querySelector('div.title > img');
+  const width=1080-40-(seal?.getBoundingClientRect().width||130)-20;
+  let size=60;title.style.fontSize=size+'px';
+  while(title.scrollWidth>width&&size>40){size-=.5;title.style.fontSize=size+'px';}
+  if(title.scrollWidth>width){
+   // Too long for one readable line: two balanced lines rather than shrinking further.
+   const ratio=title.getBoundingClientRect().height/size,lines=()=>Math.round(title.getBoundingClientRect().height/(ratio*size));
+   Object.assign(title.style,{whiteSpace:'normal',textWrap:'balance',maxWidth:width+'px'});
+   document.querySelector('div.title-text').style.minWidth='0';document.querySelector('div.title').style.height='auto';
+   size=50;title.style.fontSize=size+'px';
+   while((lines()>2||title.scrollWidth>width)&&size>18){size-=.5;title.style.fontSize=size+'px';}
+  }
+  document.querySelector('.subtitle').style.visibility='visible';
+  document.querySelector('div.title-text').style.minWidth='0';
+  document.getElementById('transcript').style.height=(1920-document.querySelector('div.header').getBoundingClientRect().height)+'px';
+  return;
+ }
  if(op.name==='setInteractionProgress'){
   const [section,index,percent]=op.args;
   if(!Number.isFinite(percent))throw Error('Invalid interaction progress');
@@ -76,14 +94,14 @@ async function plan(root,id,out){const {page,browser,server}=await open(root,id)
  const total=Math.round(cursor*20),size=6000,chunks=[];for(let first=0;first<total;first+=size)chunks.push({index:chunks.length,first_frame:first,end_frame:Math.min(total,first+size)});
  fs.writeFileSync(out,JSON.stringify({schema_version:2,renderer:'original',case_id:id,fps:20,total_frames:total,events,chunks}));
  }finally{await browser.close();server.close();}}
-async function chunk(root,planPath,index,out){const data=JSON.parse(fs.readFileSync(planPath)),part=data.chunks[index],{page,browser,server}=await open(root,data.case_id);const folder=out+'.frames';fs.mkdirSync(folder,{recursive:true});try{
+async function chunk(root,planPath,index,out){const data=JSON.parse(fs.readFileSync(planPath)),part=data.chunks[index],{page,browser,server}=await open(root,data.case_id,data.layout==='vertical');const folder=out+'.frames';fs.mkdirSync(folder,{recursive:true});try{
  await setupCredit(page,JSON.parse(fs.readFileSync(path.join(root,'credit.json'))));const rows=[];let image=0;
  for(const event of data.events){for(const op of event.ops)await action(page,op);const first=Math.max(part.first_frame,event.first_frame),end=Math.min(part.end_frame,event.end_frame);if(end<=first)continue;
   const file=`frame-${String(image++).padStart(6,'0')}.png`;await page.screenshot({...screenshotOptions,path:path.join(folder,file)});rows.push(`file '${file}'\noption framerate 20\nduration ${(end-first)/20}`);if(image===1)fs.copyFileSync(path.join(folder,file),out.replace(/\.mp4$/,'-preview.png'));console.log(JSON.stringify({progress:(end-part.first_frame)/(part.end_frame-part.first_frame)}));if(event.end_frame>=part.end_frame)break;
  }
  if(!rows.length)throw Error('Empty original render range');rows.push(rows.at(-1).split('\n')[0]+'\noption framerate 20');const list=path.join(folder,'frames.txt');fs.writeFileSync(list,rows.join('\n')+'\n');
  const result=spawnSync('ffmpeg',['-nostdin','-y','-hide_banner','-loglevel','error','-f','concat','-safe','0','-i',list,'-vf','fps=20','-frames:v',String(part.end_frame-part.first_frame),'-an','-c:v','libx264','-preset','veryfast','-crf','23','-pix_fmt','yuv420p',out],{stdio:'inherit'});if(result.status)throw Error('Encoding failed');
- const probe=spawnSync('ffprobe',['-v','error','-select_streams','v:0','-show_entries','stream=nb_frames,codec_name,width,height,r_frame_rate,time_base,profile','-of','json',out],{encoding:'utf8'});if(probe.status)throw Error('Encoded chunk probe failed');const stream=JSON.parse(probe.stdout).streams[0];if(Number(stream.nb_frames)!==part.end_frame-part.first_frame||stream.width!==3840||stream.height!==2160||stream.r_frame_rate!=='20/1')throw Error('Encoded frame metadata or geometry differs');delete stream.nb_frames;
+ const probe=spawnSync('ffprobe',['-v','error','-select_streams','v:0','-show_entries','stream=nb_frames,codec_name,width,height,r_frame_rate,time_base,profile','-of','json',out],{encoding:'utf8'});if(probe.status)throw Error('Encoded chunk probe failed');const stream=JSON.parse(probe.stdout).streams[0];if(Number(stream.nb_frames)!==part.end_frame-part.first_frame||stream.width!==(data.width||3840)||stream.height!==(data.height||2160)||stream.r_frame_rate!=='20/1')throw Error('Encoded frame metadata or geometry differs');delete stream.nb_frames;
  fs.writeFileSync(out+'.receipt.json',JSON.stringify({frames:part.end_frame-part.first_frame,first_frame:part.first_frame,end_frame:part.end_frame,stream,renderer:'original'}));
  }finally{await browser.close();server.close();fs.rmSync(folder,{recursive:true,force:true});}}
 async function cardPreview(root,id,block,out){const {page,browser,server}=await open(root,id);try{

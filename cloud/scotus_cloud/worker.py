@@ -143,9 +143,11 @@ def stage_run(stage, job, settings, cloud, lease, folder, task, local_video=None
             if (folder/'thumbnail.jpg').stat().st_size<=2097152:break
         else:raise ValueError('Thumbnail too large')
         image.resize((960,540)).convert('RGB').save(folder/'thumbnail-preview.jpg',quality=65,optimize=True)
+        run_command(['node','/app/render/podcast.js',str(bundle),job['id'],str(folder/'podcast-artwork.jpg')])
         return {'bundle_uri':output('bundle.tar.gz'),'plan_uri':output('plan.json',plan),'chunks':len(plan['chunks']),
                 'manifest_sha256':digest_json(plan),'frames':plan['total_frames'],
                 'thumbnail_uri':output('thumbnail.jpg'),'thumbnail_preview_uri':output('thumbnail-preview.jpg'),
+                'podcast_artwork_uri':output('podcast-artwork.jpg'),'podcast_artwork_sha256':sha256(folder/'podcast-artwork.jpg'),
                 'interactions_uri':output('interactions.json',interactions),'audio_uri':transcript['audio']['uri'],'audio_sha256':transcript['audio']['sha256']}
     if stage == 'render':
         source = job['stages']['plan']['result']

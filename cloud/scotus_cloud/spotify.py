@@ -6,12 +6,20 @@ import json
 import re
 import secrets
 import time
+from urllib.parse import urlparse
 
 import requests
 
 CLIENT_ID = '05a1371ee5194c27860b3ff3ff3979d2'
 BASE = 'https://generic.wg.spotify.com/podcasters/v0'
 MEDIA = 'https://media-importer.spotify.com'
+GRAPH = 'https://creators-graph.spotify.com/v2/graph-pq'
+# Persisted operations from Spotify's nonhosted creator application.
+THUMBNAIL_OPERATIONS = {
+    'getEpisodeThumbnail': 'bf061fbd2cb87cdbb448e5509efa5e091cd6e2b50ffec8a374a37cee521a6be9',
+    'getThumbnailSignedUrl': '3621c97566c4cfdffc7ce3fbba1d886441498ac96ca27b4b594546a83d9bf876',
+    'uploadThumbnailComplete': 'c43a47136fa24af04869aad730b412789edbfeced6c9aef949a94cb2ca383082',
+}
 
 
 class SpotifyAuthRequired(RuntimeError): pass
@@ -132,3 +140,48 @@ class Spotify:
         metadata=self.metadata(episode)
         return self.request('POST','/episodes/'+episode+'/publish',json={'uploadId':upload_id,
             'isExplicit':bool(metadata.get('isExplicit',False)),'isEighteenPlus':bool(metadata.get('isEighteenPlus',False))})
+
+    def thumbnail_operation(self, name, variables):
+        response=self.session.post(GRAPH,headers=self.headers(),json={
+            'operationName':name,'variables':variables,'extensions':{'persistedQuery':{
+                'version':1,'sha256Hash':THUMBNAIL_OPERATIONS[name]}}},timeout=15,allow_redirects=False)
+        if response.status_code==401:raise SpotifyAuthRequired('Reconnect Spotify in the dashboard')
+        if not response.ok:raise SpotifyError('Spotify thumbnail API HTTP '+str(response.status_code))
+        result=response.json()
+        if result.get('errors'):raise SpotifyError('Spotify thumbnail operation rejected')
+        return result.get('data') or {}
+
+    def upload_thumbnail(self, episode, image):
+        self.metadata(episode) # Enforce show ownership before reserving an upload.
+        uri='spotify:episode:'+episode
+        result=self.thumbnail_operation('getThumbnailSignedUrl',{
+            'contentType':'image/jpeg','episodeUriV2':uri,'fileName':'thumbnail.jpg',
+            'platformType':'S4C_NONHOSTED','thumbnailType':'USER_UPLOADED_THUMBNAIL'})
+        upload=result.get('createThumbnailSignedUrl') or {}
+        parsed=urlparse(upload.get('signedUrl',''))
+        if parsed.scheme!='https' or parsed.hostname!='storage.googleapis.com' or parsed.username or parsed.password:
+            raise SpotifyError('Unexpected thumbnail upload destination')
+        if not upload.get('thumbnailUuid'):raise SpotifyError('Missing thumbnail upload identity')
+        # A separate request prevents forwarding Spotify or Google authorization.
+        response=requests.put(upload['signedUrl'],data=image,headers={'Content-Type':'image/jpeg'},timeout=30,allow_redirects=False)
+        if response.status_code!=200:raise SpotifyError('Spotify thumbnail storage HTTP '+str(response.status_code))
+        result=self.thumbnail_operation('uploadThumbnailComplete',{'episodeUri':uri,'thumbnailUuid':upload['thumbnailUuid']})
+        if not result.get('completeThumbnailUpload',{}).get('success'):raise SpotifyError('Spotify thumbnail completion rejected')
+
+
+def transfer_thumbnail(context, client, google):
+    """Reuse the YouTube thumbnail; thumbnail trouble must not strand a video."""
+    if context['spotify'].get('thumbnail_status')=='complete':return {}
+    uri=context.get('thumbnail_uri')
+    if not uri:return {'thumbnail_status':'skipped','thumbnail_note':'No saved thumbnail available'}
+    try:
+        from .google import split_gs
+        bucket,key=split_gs(uri)
+        if bucket!=google.project+'-scotus-video-media' or not key.startswith('scratch/'+context['id']+'/plan/') or not key.endswith('/thumbnail.jpg'):
+            raise ValueError('Invalid thumbnail artifact')
+        image=google.storage_bytes(uri,max_bytes=2097152)
+        if not image.startswith(b'\xff\xd8'):raise ValueError('Invalid JPEG thumbnail')
+        client.upload_thumbnail(context['spotify']['episode_id'],image)
+        return {'thumbnail_status':'complete','thumbnail_note':'YouTube thumbnail uploaded to Spotify'}
+    except Exception:
+        return {'thumbnail_status':'failed','thumbnail_note':'Thumbnail transfer failed; video publication continues. Retry the thumbnail from Spotify’s episode page.'}

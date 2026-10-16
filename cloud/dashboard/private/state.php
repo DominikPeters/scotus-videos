@@ -2,10 +2,13 @@
 declare(strict_types=1);
 require_once __DIR__ . '/recovery.php';
 require_once __DIR__ . '/reviews.php';
+require_once __DIR__ . '/clips.php';
 require_once __DIR__ . '/photos.php';
 require_once __DIR__ . '/podcast.php';
+require_once __DIR__ . '/statistics.php';
 require_once __DIR__ . '/cleanup.php';
 require_once __DIR__ . '/spotify.php';
+require_once __DIR__ . '/push.php';
 
 /** All worker updates merge under this lock, then replace the JSON atomically. */
 function transaction(string $name, callable $change): mixed {
@@ -41,9 +44,15 @@ function public_state(array $state): array {
     $state = json_decode(json_encode($state, JSON_THROW_ON_ERROR), true, 512, JSON_THROW_ON_ERROR);
     unset($state['nonces'], $state['auth_leases'], $state['credential_logins'], $state['login_starts']);
     unset($state['notifications']);
+    unset($state['statistics']['token'],$state['statistics']['data_uri']);
+    // Endpoints and keys stay private; the page sees which devices are registered.
+    $state['push']=['badge'=>attention_count($state),'public_key'=>(string)($config['push_public_key'] ?? ''),'devices'=>array_values(array_map(
+        fn($s)=>array_intersect_key($s,array_flip(['id','label','created_at','last_sent_at'])),$state['push_subscriptions'] ?? []))];
+    unset($state['push_subscriptions']);
     $state['spotify_enabled']=!empty($config['spotify_enabled']);
     foreach($state['jobs'] as &$item)if(isset($item['spotify']))unset($item['spotify']['lease'],$item['spotify']['dispatch_token'],$item['spotify']['claim_id'],$item['spotify']['expires']);
     foreach($state['jobs'] as &$item)if(isset($item['asset_publication']))unset($item['asset_publication']['lease'],$item['asset_publication']['dispatch_token']);
+    foreach($state['jobs'] as &$item)if(isset($item['clips']))foreach($item['clips'] as &$clip){unset($clip['lease'],$clip['dispatch_token'],$clip['upload'],$clip['tiktok_checkpoint'],$clip['source_plan'],$clip['audio_uri']);}
     foreach($state['jobs'] as &$item)if(isset($item['video_actions']))foreach($item['video_actions'] as &$action)unset($action['lease'],$action['dispatch_token']);
     foreach($state['jobs'] as &$item)if(isset($item['photo_requests']))foreach($item['photo_requests'] as &$request)unset($request['lease'],$request['dispatch_token']);
     if (isset($state['recoveries'])) foreach ($state['recoveries'] as &$rec) {
@@ -60,6 +69,10 @@ function public_state(array $state): array {
 }
 
 function reconcile_expired(array &$state): void {
+    foreach($state['jobs'] as &$clipJob)foreach($clipJob['clips']??[] as $clipKey=>$clipValue)if(in_array($clipValue['status'],['starting','rendering','uploading'],true)&&($clipValue['expires']??0)<time()){
+        $clipJob['clips'][$clipKey]['status']='failed';$clipJob['clips'][$clipKey]['error']='The clip worker expired. Retry preserves any saved YouTube upload identity.';unset($clipJob['clips'][$clipKey]['lease'],$clipJob['clips'][$clipKey]['dispatch_token']);
+    }
+
     foreach($state['source_watches'] ?? [] as $id=>$watch)if(!in_array($watch['status'],['found','expired'],true)&&time()>=strtotime($watch['ends_at']))$state['source_watches'][$id]['status']='expired';
     reconcile_reviews($state);
     photo_reconcile($state);
@@ -136,6 +149,12 @@ function work_enabled(array $state, array $job): bool {
 
 function command(array &$state, array $input): array {
     $action = $input['command'] ?? '';
+    if($action==='stats_check'){$state['statistics']['requested']=true;unset($state['statistics']['retry_after']);return ['status'=>'queued'];}
+    if($action==='stats_answer'){
+        $key=(string)$input['case'];$answer=trim((string)$input['answer']);
+        if(!isset($state['statistics']['questions'][$key])||$answer===''||mb_strlen($answer)>4000)throw new InvalidArgumentException('Invalid statistics answer');
+        $state['statistics']['answers'][$key]=$answer;unset($state['statistics']['questions'][$key]);$state['statistics']['requested']=true;return ['status'=>'queued'];
+    }
     if (in_array($action, ['pause', 'resume'], true)) {
         $state['paused'] = $action === 'pause';
         event($state, '', $state['paused'] ? 'New work paused' : 'New work resumed');
@@ -176,8 +195,9 @@ function command(array &$state, array $input): array {
 
 function worker_update(array &$state, array $input, string $role): mixed {
     $op = $input['op'] ?? '';
+    if(in_array($op,['stats_dispatch','stats_start','stats_update','stats_dispatched','stats_dispatch_failed','stats_execution_closed'],true))return statistics_operation($state,$input,$role);
     if(in_array($op,['chunk_cleanup_claim','chunk_cleanup_result'],true))return chunk_cleanup_operation($state,$input,$role);
-    if(in_array($op,['podcast_export','podcast_export_status'],true))return podcast_operation($state,$input,$role);
+    if(in_array($op,['podcast_export','podcast_export_status','transcript_export','podcast_artwork'],true))return podcast_operation($state,$input,$role);
     if($role==='dispatcher'&&$op==='source_watch_claim'){
         $id=(string)($input['watch'] ?? '');$watch=&$state['source_watches'][$id];
         if(!$watch || in_array($watch['status'],['found','expired'],true))return false;
@@ -201,9 +221,10 @@ function worker_update(array &$state, array $input, string $role): mixed {
         event($state,$job['id'],'Scheduled source watch found audio and transcript; automatic start requested');
         return ['found'=>true,'job'=>$job['id']];
     }
+    if(str_starts_with($op,'clip_'))return clip_operation($state,$input,$role);
     if(str_starts_with($op,'spotify_'))return spotify_operation($state,$input,$role);
     if(str_starts_with($op,'photo_'))return photo_operation($state,$input,$role);
-    if(in_array($op,['notification_claim','notification_finish','asset_publish_dispatch','asset_publish_claim','asset_publish_finish','review_context','card_context','review_candidate_add','enrichment_review','video_action_claim','video_action_finish','video_action_dispatch'],true))return review_operation($state,$input,$role);
+    if(in_array($op,['notification_claim','notification_finish','asset_publish_dispatch','asset_publish_claim','asset_publish_finish','asset_portrait_export','review_context','card_context','review_candidate_add','enrichment_review','video_action_claim','video_action_finish','video_action_dispatch'],true))return review_operation($state,$input,$role);
     if ($op==='recoveries' || str_starts_with($op,'recovery_')) return recovery_operation($state,$input,$role);
     if($role==='enrich'&&$op==='editorial_library'){
         $photos=[];$titles=[];
@@ -264,8 +285,8 @@ function worker_update(array &$state, array $input, string $role): mixed {
     }
     if (in_array($op, ['auth_claim', 'auth_check', 'auth_release'], true)) {
         $name = $input['name'] ?? '';
-        if (!in_array($name, ['youtube', 'codex', 'github','spotify'], true) ||
-            !($role === 'dispatcher' || ($role==='spotify'&&$name==='spotify') || ($role === 'upload' && $name === 'youtube') || ($role==='assets'&&$name==='github') || (in_array($role,['codex','recovery','enrich'],true) && $name === 'codex'))) throw new RuntimeException('Credential access denied');
+        if (!in_array($name, ['youtube', 'codex', 'github','spotify','instagram','tiktok'], true) ||
+            !($role === 'dispatcher' || ($role==='spotify'&&$name==='spotify') || ($role === 'upload' && in_array($name,['youtube','tiktok'],true)) || ($role==='assets'&&$name==='github') || (in_array($role,['codex','recovery','enrich','stats'],true) && $name === 'codex'))) throw new RuntimeException('Credential access denied');
         $state['auth_leases'] ??= [];
         $saved = $state['auth_leases'][$name] ?? null;
         if ($op === 'auth_claim') {
@@ -397,7 +418,7 @@ function worker_update(array &$state, array $input, string $role): mixed {
             if ($stageName === 'upload') {
                 if(empty($target['result']['postprocessing_complete']))throw new RuntimeException('Upload post-processing incomplete');
                 $job['title']=$target['result']['title'] ?? $job['selected_title'] ?? $job['stages']['enrich']['result']['title'] ?? $job['title'];
-                $job['status'] = 'complete';notify_event($state,$id.'-ready-'.($target['result']['video_id'] ?? ''),'ready',$job['review']['id'] ?? '');
+                $job['status'] = 'complete';notify_event($state,$id.'-ready-'.($target['result']['video_id'] ?? ''),'ready',$job['review']['id'] ?? '',$id);
             }
             event($state, $id, $stageName . ' complete');
             reconcile_recoveries($state);

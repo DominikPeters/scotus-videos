@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SCOTUS oral argument</title>
+
+    <style>
+        @font-face {
+            font-family: "myriad-pro";
+            src: url("myriadpro/MYRIADPRO-REGULAR.OTF") format("opentype");
+            font-weight: 400;
+        }
+        @font-face {
+            font-family: "myriad-pro";
+            src: url("myriadpro/MYRIADPRO-SEMIBOLD.OTF") format("opentype");
+            font-weight: 600;
+        }
+        @font-face {
+            font-family: "myriad-pro";
+            src: url("myriadpro/MYRIADPRO-BOLD.OTF") format("opentype");
+            font-weight: 700;
+        }
+        @font-face {
+            font-family: "myriad-pro";
+            src: url("myriadpro/MyriadPro-Light.otf") format("opentype");
+            font-weight: 300;
+        }
+        @font-face {
+            font-family: "myriad-pro";
+            src: url("myriadpro/Myriad Pro Italic.ttf") format("truetype");
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        body {
+            background-color: #eee;
+            font-family: myriad-pro, "Myriad Pro", sans-serif;
+            font-size: 20px;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            visibility: hidden;
+        }
+
+        div.frame {
+            height: 1920px;
+            width: 1080px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+            /* transform: scale(0.75) translate(-14%, -14%); */
+            overflow: hidden;
+        }
+
+        div.header {
+            background-color: hsl(43, 45%, 94%);
+            z-index: -2;
+        }
+
+        div.title {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: top;
+            height: 100px;
+            padding: 20px;
+            padding-top: 10px;
+        }
+
+        div.title h1 {
+            font-size: 60px;
+            font-weight: 600;
+            margin: 0;
+            white-space: nowrap;
+        }
+
+        div.title p.subtitle {
+            font-size: 30px;
+            font-weight: 400;
+            margin: 0;
+            margin-top: 3px;
+        }
+
+        span.docket-number {
+            font-weight: 500;
+        }
+
+        div.bench {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        div.bench figure {
+            display: flex;
+            flex-direction: column;
+            width: 158px;
+            margin: 0 -20px;
+            z-index: 1;
+        }
+
+        div.bench figcaption {
+            display: none;
+            text-align: center;
+            color: rgba(255, 255, 255, 0.9);
+            text-shadow: 0 0 6px rgba(0, 0, 0, 0.6), 0 0 4px rgba(0, 0, 0, 0.9), 0 0 2px rgba(0, 0, 0, 1), 0 0 1px rgba(0, 0, 0, 1);
+            margin-top: -23px;
+            font-size: 18px;
+        }
+
+        div.bench figure.active-speaker {
+            z-index: 0;
+        }
+
+        div.bench figure.active-speaker img {
+            background-color: rgb(137, 195, 246);
+            box-shadow: inset 0 0 100px rgb(255, 255, 255);
+            border-top-left-radius: 250px;
+            border-top-right-radius: 250px;
+        }
+
+        div.main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: start;
+            position: relative;
+        }
+
+        div.conversation {
+            display: none !important;
+            /* display: flex; */
+            flex-direction: column;
+            align-items: start;
+            padding-top: 20px;
+            padding-left: 20px;
+            gap: 20px;
+            width: 790px;
+        }
+
+        div.conversation div.advocate {
+            display: flex;
+            flex-direction: row;
+            align-items: end;
+            gap: 0px;
+        }
+
+        div.conversation div.advocate img {
+            box-sizing: border-box;
+            object-fit: cover;
+        }
+
+        div.conversation div.advocate.active-speaker img {
+            border: 3px solid hsl(208, 86%, 80%);
+            box-shadow: 0 0 12px hsl(208, 86%, 84%), 0 0 6px hsl(208, 86%, 84%), 0 0 3px rgb(24, 61, 93);
+        }
+
+        div.conversation div.advocate div.advocate-text {
+            width: 500px;
+        }
+
+        div.conversation div.advocate p.advocate-name {
+            margin: 0;
+        }
+
+        div.conversation div.advocate p.advocate-name > span {
+            font-size: 40px;
+            font-weight: 600;
+            border-radius: 6px;
+            padding: 6px;
+            padding-bottom: 1px;
+        }
+
+        div.conversation div.advocate.active-speaker p.advocate-name > span {
+            background-color: hsl(208, 86%, 84%);
+            color: hsl(208, 86%, 10%);
+            box-shadow: inset 0 0 12px rgb(223, 240, 255), inset 0 0 3px rgb(24, 61, 93);
+        }
+
+        div.conversation div.advocate p.advocate-description {
+            font-size: 28px;
+            font-weight: 500;
+            padding: 0 6px;
+            margin: 0;
+        }
+
+        div.conversation div.justice-speakers {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        div.conversation div.justice-speakers div.interaction {
+            position: relative;
+        }
+
+        div.conversation div.justice-speakers div.interaction div.interaction-number {
+            position: absolute;
+            bottom: 4px;
+            left: 4px;
+            color: hsl(0, 0%, 100%);
+            text-shadow: 0 0 1px hsl(0, 0%, 0%), 0 0 2px hsl(0, 0%, 0%), 0 0 3px hsl(0, 0%, 0%), 0 0 5px hsl(0, 0%, 0%);
+            font-weight: 600;
+            width: 30px;
+            height: 20px;
+            border-radius: 20%;
+            text-align: center;
+        }
+
+        div.conversation div.justice-speakers div.interaction img {
+            display: block;
+            width: 100px;
+            height: 140px;
+            background-color: #f0f0f0;
+            object-fit: cover;
+            filter: saturate(0.6) contrast(0.25) brightness(1.6);
+            box-sizing: border-box;
+        }
+
+        div.conversation div.justice-speakers.small div.interaction img {
+            width: calc(100px * 0.85);
+            height: calc(140px * 0.85);
+        }
+
+        div.conversation div.justice-speakers.very-small div.interaction img {
+            width: calc(100px * 0.66);
+            height: calc(140px * 0.66);
+        }
+
+        div.conversation div.justice-speakers.very-small div.interaction div.interaction-number {
+            bottom: 3px;
+            left: 3px;
+            width: 20px;
+            height: 15px;
+            font-size: 72%;
+        }
+
+        div.conversation div.justice-speakers div.interaction.active-speaker img {
+            --percent: 0%;
+            background-color: hsl(43, 75%, 74%);
+            background: linear-gradient(90deg, hsl(43, 75%, 72%) var(--percent), hsl(43, 75%, 94%) var(--percent));
+            box-shadow: inset 0 0 3px hsl(43, 75%, 30%);
+            border: 2px solid hsl(43, 100%, 50%);
+            filter: saturate(1);
+        }
+
+        div.conversation div.justice-speakers div.interaction.active-speaker div.interaction-number {
+            background-color: hsl(43, 100%, 40%);
+            color: hsl(43, 100%, 10%);
+            text-shadow: none;
+        }
+
+        div.transcript {
+            width: 100%;
+            height: 1660px;
+            background-color: hsl(0, 0%, 98%);
+            border-left: 2px solid #ccc;
+            padding: 15px;
+            box-sizing: border-box;
+            overflow-y: scroll;
+        }
+
+        div.transcript div.turn {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            gap: 10px;
+            margin-bottom: 17px;
+        }
+
+        div.transcript div.turn div.turn-speaker {
+            width: 110px;
+        }
+
+        div.transcript div.turn div.turn-speaker img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        div.transcript div.turn div.text-blocks div.speaker-label {
+            padding-left: 10px;
+            color: #444;
+            font-size: 37px;
+            margin-top: -8px;
+            margin-bottom: -1px;
+        }
+
+        div.transcript div.turn:first-child div.text-blocks div.speaker-label {
+            margin-top: 0;
+        }
+
+        div.transcript div.turn div.text-blocks p {
+            margin-top: 0;
+            margin-bottom: 7px;
+            font-size: 44px;
+            background-color: hsl(0, 0%, 92%);
+            padding: 10px 15px;
+            padding-bottom: 7px;
+            border-radius: 25px;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            box-sizing: border-box;
+        }
+
+        div.transcript div.turn div.text-blocks p:first-of-type {
+            border-top-left-radius: 25px;
+        }
+        div.transcript div.turn div.text-blocks p:last-child {
+            border-bottom-left-radius: 25px;
+        }
+
+        div.transcript div.turn div.text-blocks.text-blocks-justice p {
+            background-color: hsl(43, 60%, 90%);
+        }
+
+        div.transcript div.turn div.text-blocks p.current-text {
+            background-color: hsl(208, 30%, 92%);
+            border: 4px solid hsl(208, 86%, 70%);
+            padding: 6px 11px;
+            padding-bottom: 3px;
+        }
+
+        div.transcript div.turn div.text-blocks.text-blocks-justice p.current-text {
+            background-color: hsl(43, 36%, 90%);
+        }
+
+        div.splash {
+            width: 1920px;
+            padding: 10px 120px;
+            height: 750px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        div.splash h2 {
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: -20px;
+            margin-top: 12px;
+        }
+
+        div.splash div.oyez-text {
+            font-size: 33px;
+            line-height: 1.3;
+        }
+
+        div.splash div.oyez-text a {
+            color: black;
+            text-decoration: none;
+        }
+
+        div.splash div.acknowledgement {
+            font-size: 25px;
+            text-align: center;
+        }
+
+        div.subscribe-suggestion {
+            position: absolute;
+            bottom: 40px;
+            left: 140px;
+            background: #ffffff;
+            font-size: 25px;
+            padding: 13px 10px 0 10px;
+            border: 3px solid hsl(346, 100%, 30%),;
+            box-shadow: 0.5px 0.5px 5px hsl(346, 20%, 40%);
+            border-radius: 10px;
+            text-align: center;
+            display: none;
+        }
+    /* Same recusal treatment as the approved landscape bench. */
+        div.bench figure.recused img {filter:grayscale(1);opacity:.5;}
+        div.bench figure.recused figcaption {color:#393630;text-shadow:none;background:rgba(247,243,233,.95);position:relative;}
+        /* A clip starts directly with the transcript; no subscribe overlay. */
+        div.subscribe-suggestion {display:none !important;}
+
+        /* Annotation cards: a band under the bench that slides down over the transcript.
+           Card content and styling follow the landscape sidebar card, scaled for 1080px width. */
+        div.header {
+            position: relative;
+            z-index: 3; /* the card slides in from behind the bench */
+        }
+
+        div.quote-card {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 2;
+            height: var(--card-height, 600px);
+            box-sizing: border-box;
+            flex-direction: column;
+            padding: 14px 20px 16px 20px;
+            background-color: hsl(43, 45%, 82%);
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+        }
+
+        div.quote-card.visible {
+            display: flex;
+        }
+
+        /* previous card, underneath the incoming one during a swap */
+        div.quote-card#quote-card-under {
+            z-index: 1;
+            transform-origin: 50% 100%;
+        }
+
+        div.quote-card div.quote-label:has(span.quote-kind:empty):has(span.quote-heading:empty) {
+            display: none;
+        }
+
+        div.quote-card div.quote-label {
+            padding-left: 12px;
+            margin-bottom: 6px;
+            color: #333;
+            font-size: 30px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        div.quote-card span.quote-kind {
+            color: #555;
+        }
+
+        div.quote-card span.quote-kind::after {
+            content: " \00b7";
+        }
+
+        div.quote-card span.quote-kind:has(+ span.quote-heading:empty)::after {
+            content: "";
+        }
+
+        div.quote-card span.quote-heading {
+            font-weight: 600;
+        }
+
+        div.quote-card div.quote-body {
+            flex: 1;
+            overflow: hidden;
+            padding: 16px 24px 14px 24px;
+            background-color: hsl(43, 45%, 96%);
+            border-radius: 30px;
+            font-size: 34px;
+            line-height: 1.3;
+            color: #222;
+        }
+
+        div.quote-card div.quote-body span.context {
+            color: #777;
+        }
+
+        div.quote-card div.quote-body mark {
+            background-color: hsl(43, 75%, 78%);
+            color: #111;
+            border-radius: 4px;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+        }
+
+        div.quote-card div.quote-body.quote-only > mark {
+            background-color: transparent;
+        }
+
+        div.quote-card div.quote-body b {
+            font-weight: 600;
+        }
+
+        div.quote-card div.quote-body div.case-name {
+            font-size: 110%;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+
+        div.quote-card div.quote-body div.case-details {
+            font-size: 85%;
+            color: #666;
+            margin: 2px 0 8px 0;
+        }
+
+        div.quote-card div.glossary-term {
+            font-size: 110%;
+            margin-bottom: 6px;
+        }
+
+        div.quote-card div.glossary-term b {
+            font-weight: 600;
+        }
+
+        div.quote-card span.glossary-expansion {
+            color: #444;
+        }
+
+        div.quote-card div.compare {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        div.quote-card div.compare-column + div.compare-column {
+            border-left: 1px solid hsl(43, 30%, 82%);
+            padding-left: 24px;
+        }
+
+        div.quote-card div.compare-title {
+            font-weight: 600;
+        }
+
+        div.quote-card div.compare-cite {
+            font-size: 80%;
+            color: #666;
+            margin-bottom: 8px;
+        }
+
+        div.quote-card div.compare-text {
+            font-size: 95%;
+        }
+
+        div.quote-card div.timeline {
+            display: flex;
+            position: relative;
+            padding-top: 4px;
+        }
+
+        div.quote-card div.timeline-event {
+            flex: 1;
+            text-align: center;
+            position: relative;
+        }
+
+        div.quote-card div.timeline-date,
+        div.quote-card div.timeline-label {
+            padding: 0 4px;
+        }
+
+        div.quote-card div.timeline-track {
+            position: relative;
+            height: 24px;
+            margin: 8px 0;
+        }
+
+        div.quote-card div.timeline-track::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: calc(50% - 1.5px);
+            border-top: 3px solid hsl(43, 30%, 70%);
+        }
+
+        div.quote-card div.timeline-event:first-child div.timeline-track::before {
+            left: 50%;
+        }
+
+        div.quote-card div.timeline-event:last-child div.timeline-track::before {
+            right: 50%;
+        }
+
+        div.quote-card div.timeline-event.after-gap div.timeline-track::before {
+            border-top-style: dashed;
+        }
+
+        div.quote-card div.timeline-date {
+            font-size: 72%;
+            font-weight: 600;
+            color: #555;
+            white-space: nowrap;
+            height: 1.25em;
+        }
+
+        div.quote-card div.timeline-dot {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: hsl(43, 30%, 62%);
+        }
+
+        div.quote-card div.timeline-label {
+            font-size: 68%;
+            line-height: 1.2;
+            color: #444;
+        }
+
+        div.quote-card div.timeline-event.current div.timeline-dot {
+            width: 24px;
+            height: 24px;
+            background: hsl(43, 90%, 55%);
+            box-shadow: 0 0 0 3px hsl(43, 75%, 30%);
+        }
+
+        div.quote-card div.timeline-event.current div.timeline-label,
+        div.quote-card div.timeline-event.current div.timeline-date {
+            color: #111;
+            font-weight: 600;
+        }
+
+        div.quote-card img.exhibit {
+            display: block;
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            border: 1px solid #d8d4c8;
+            border-radius: 4px;
+        }
+
+        div.quote-card div.map-wrap {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+        }
+
+        div.quote-card div.map-svg {
+            flex: 0 0 58%;
+        }
+
+        div.quote-card div.map-svg svg {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        div.quote-card div.map-legend {
+            font-size: 72%;
+            line-height: 1.25;
+        }
+
+        div.quote-card div.map-legend-item {
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
+        div.quote-card div.map-legend-item b {
+            font-weight: 600;
+        }
+
+        div.quote-card span.swatch {
+            flex: 0 0 22px;
+            height: 22px;
+            border-radius: 4px;
+            margin-top: 3px;
+        }
+
+        div.quote-card span.swatch.below {
+            border: 3px solid #222;
+            box-sizing: border-box;
+        }
+
+        div.quote-card div.quote-body p.footnote {
+            font-size: 85%;
+            margin: 10px 0 0 0;
+            color: #777;
+        }
+
+        div.quote-card div.quote-source {
+            padding: 10px 12px 0 12px;
+            font-size: 24px;
+            color: #444;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* phrases a card refers to; --reference-new / --reference-old fade the marks with the card */
+        div.transcript {
+            --reference-new: 0;
+            --reference-old: 0;
+        }
+
+        div.transcript span.card-reference.new {
+            --a: var(--reference-new);
+        }
+
+        div.transcript span.card-reference.old {
+            --a: var(--reference-old);
+        }
+
+        div.transcript span.card-reference {
+            text-decoration: underline dotted;
+            text-decoration-thickness: 4px;
+            text-underline-offset: 7px;
+            text-decoration-color: hsl(43 80% 38% / var(--a));
+            background-color: rgb(255 255 255 / calc(0.6 * var(--a)));
+            border-radius: 5px;
+            padding: 0 4px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="frame">
+        <div class="header">
+            <div class="title">
+                <div class="title-text">
+                    <h1><span class="docket-number" id="docket-number">[17-1104]</span> <span id="case-name">Air and Liquid Systems Corp. v. Devries</span></h1>
+                    <p class="subtitle" id="subtitle">Argued on Oct 10, 2018. Decided on Mar 19, 2019.</p>
+                </div>
+                <img src="seal.svg" height="130">
+            </div>
+            <div class="bench" id="bench">
+            </div>
+        </div>
+        <div class="main">
+            <div class="splash" id="splash">
+                <div id="case-info">
+                    <h2>Facts of the case</h2>
+                    <div class="oyez-text" id="facts-of-the-case"></div>
+                    <h2>Question</h2>
+                    <div class="oyez-text" id="question"></div>
+                </div>
+                <div class="acknowledgement">Case information and transcript taken from the Oyez project (oyez.org), provided under a CC-BY-NC license.</div>
+            </div>
+            <div class="conversation" id="conversation">
+                <div class="advocate" id="advocate">
+                    <img id="advocate-img" src="" height="245" width="245" style="margin-right: 10px;">
+                    <div class="advocate-text">
+                        <p class="advocate-name" id="advocate-name"></p>
+                        <p class="advocate-description" id="advocate-description"></p>
+                    </div>
+                </div>
+                <div class="justice-speakers" id="justice-interactions">
+                </div>
+            </div>
+            <div class="transcript" id="transcript">
+            </div>
+            <div class="subscribe-suggestion">
+                To support this channel, you can:<br>
+                <img src="subscribe.png" width="500" style="margin-top: 4px;">
+            </div>
+            <div class="quote-card" id="quote-card">
+                <div class="quote-label"><span class="quote-kind" id="quote-kind"></span> <span class="quote-heading" id="quote-heading"></span></div>
+                <div class="quote-body" id="quote-body"></div>
+                <div class="quote-source" id="quote-source"></div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+<script>
+// Vertical card placement. script.js (shared with the landscape video, unchanged) decides when
+// cards appear and builds their content; these replacements only change where they sit: a band
+// under the bench instead of the sidebar. The transcript gains matching top padding and scrolls by
+// the same amount, so text on screen stays put while the card covers it. At the start of a section,
+// where it cannot scroll, the transcript moves down instead of disappearing under the card.
+const VERTICAL_CARD_MAX = 640; // px, label and source rows included
+const VERTICAL_CARD_GAP = 24; // px between the card and the transcript text it pushes down
+let verticalCardOffset = 0;
+
+function verticalCardHeight() {
+    return parseFloat(document.getElementById('quote-card').style.getPropertyValue('--card-height')) || 0;
+}
+
+function setTranscriptOffset(offset) {
+    let transcript = document.getElementById('transcript');
+    let delta = offset - verticalCardOffset;
+    verticalCardOffset = offset;
+    transcript.style.paddingTop = (15 + offset) + "px";
+    transcript.scrollTop += delta;
+}
+
+function cardSnapshot(id) {
+    return { id: id, html: document.getElementById('quote-card').innerHTML, height: verticalCardHeight(), squeeze: 1 };
+}
+
+function showCardSnapshot(snapshot) {
+    let card = document.getElementById('quote-card');
+    if (card.dataset.showing != snapshot.id) {
+        card.innerHTML = snapshot.html;
+        card.dataset.showing = snapshot.id;
+    }
+    card.style.setProperty('--card-height', snapshot.height + "px");
+}
+
+function setQuoteProgress(p) {
+    if (p && typeof p == 'object') {
+        setSwapProgress(p.swap);
+        return;
+    }
+    let card = document.getElementById('quote-card');
+    let q = easeInOut(p);
+    // marks of the shown card follow the card in; marks of a leaving card follow it out
+    setReferenceOpacity(activeQuoteCue ? 0 : q, activeQuoteCue ? q : 0);
+    card.classList.toggle('visible', p > 0);
+    let height = verticalCardHeight();
+    card.style.transform = `translateY(${-(1 - q) * (height + 30)}px)`;
+    setTranscriptOffset(p > 0 ? q * (height + VERTICAL_CARD_GAP) : 0);
+}
+
+// t: linear progress of a swap. The new card slides down over the old one, whose contents fade
+// while its band (kept opaque, since transcript text lies beneath) eases to the new card's height.
+function setSwapProgress(t) {
+    let card = document.getElementById('quote-card');
+    let { from, to } = quoteSwap;
+    let e = easeInOut(t);
+    setReferenceOpacity(1 - e, e);
+    card.classList.add('visible');
+    let under = document.getElementById('quote-card-under');
+    if (t < 1 && !under) {
+        under = document.createElement('div');
+        under.id = 'quote-card-under';
+        under.className = card.className;
+        under.innerHTML = from.html.replace(/ id="[^"]*"/g, "");
+        under.style.height = from.height + "px";
+        card.parentNode.insertBefore(under, card);
+    }
+    showCardSnapshot(to);
+    card.style.transform = `translateY(${-(1 - e) * (to.height + 30)}px)`;
+    let height = lerp(from.height, to.height, e);
+    setTranscriptOffset(height + VERTICAL_CARD_GAP);
+    if (under) {
+        if (t >= 1) {
+            under.remove();
+            return;
+        }
+        under.style.clipPath = `inset(0 0 ${Math.max(0, from.height - height)}px 0)`;
+        for (let child of under.children) {
+            child.style.opacity = String(1 - 0.8 * e);
+        }
+    }
+}
+
+function fillQuoteCard(cue) {
+    document.getElementById('quote-card-under')?.remove();
+    let card = document.getElementById('quote-card');
+    card.dataset.showing = cue.id;
+    document.getElementById('quote-kind').innerHTML = cue.label ?? cue.kind; // case cards have no label
+    document.getElementById('quote-heading').innerHTML = cue.heading ?? "";
+    document.getElementById('quote-source').innerHTML = (cue.source ?? "") + (cue.date ? " &middot; filed " + cue.date : "");
+    let wasVisible = card.classList.contains('visible');
+    card.classList.add('visible');
+    let cardHeight = VERTICAL_CARD_MAX;
+    card.style.setProperty('--card-height', cardHeight + "px");
+    shrinkToFitWidth(card.querySelector('div.quote-label'), 30, 22);
+    shrinkToFitWidth(document.getElementById('quote-source'), 24, 18);
+    // fit text: shrink font, then drop context (prefer a larger quote over more context)
+    let body = document.getElementById('quote-body');
+    let variants = cue.text ? [[true, true, 26]] : [[true, true, 30], [true, false, 30], [false, false, 26]];
+    for (let [withBefore, withAfter, minimumSize] of variants) {
+        body.innerHTML = cardBodyHtml(cue, withBefore, withAfter);
+        if (cue.map) {
+            decorateMap(body, cue);
+        }
+        let exhibit = body.querySelector('img.exhibit');
+        if (exhibit) {
+            // a record image is scaled to the space, not cropped (it may still be loading: use its known size)
+            let style = getComputedStyle(body);
+            let [w, h] = cue.imageSize || [4, 3];
+            let width = body.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
+            let height = body.clientHeight - parseFloat(style.paddingTop) - parseFloat(style.paddingBottom);
+            exhibit.style.width = Math.min(width, height * w / h) + "px";
+        }
+        body.classList.toggle('quote-only', !cue.text && !(withBefore && cue.before) && !(withAfter && cue.after));
+        let fontSize = 34;
+        body.style.fontSize = fontSize + "px";
+        while (body.scrollHeight > body.clientHeight && fontSize > minimumSize) {
+            fontSize -= 0.5;
+            body.style.fontSize = fontSize + "px";
+        }
+        if (body.scrollHeight <= body.clientHeight) {
+            break;
+        }
+    }
+    // short texts: shrink the card to its content
+    let range = document.createRange();
+    range.selectNodeContents(body);
+    let spare = body.getBoundingClientRect().bottom - range.getBoundingClientRect().bottom - parseFloat(getComputedStyle(body).paddingBottom);
+    if (spare > 0) {
+        cardHeight = Math.ceil(cardHeight - spare);
+        card.style.setProperty('--card-height', cardHeight + "px");
+        // Range bounds omit the final line box's descent. Keep that space too.
+        let overflow = body.scrollHeight - body.clientHeight;
+        if (overflow > 0) {
+            cardHeight = Math.min(VERTICAL_CARD_MAX, cardHeight + overflow + 1);
+            card.style.setProperty('--card-height', cardHeight + "px");
+        }
+    }
+    card.classList.toggle('visible', wasVisible);
+}
+</script>
+</body>
+
+</html>

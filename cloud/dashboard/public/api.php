@@ -60,21 +60,28 @@ try {
             $state['nonces'][$nonce] = time();
             return worker_update($state, $input, $role);
         });
-        if((($input['op'] ?? '')==='claim'&&in_array($role,['enrich','align'],true))||in_array($input['op'] ?? '',['finish','fail','enrichment_review','recovery_finish','video_action_finish','photo_finish','photo_fail','review_candidate_add'],true))kick_controller();
+        if((($input['op'] ?? '')==='stats_update'&&!empty($input['finish'])&&empty($input['failed']))||(($input['op'] ?? '')==='claim'&&in_array($role,['enrich','align'],true))||in_array($input['op'] ?? '',['finish','fail','enrichment_review','recovery_finish','video_action_finish','photo_finish','photo_fail','review_candidate_add'],true))kick_controller();
         reply($result);
     }
 
     $secure = str_starts_with($config['origin'], 'https://');
     if (!$secure && !in_array($config['rp_id'], ['localhost', '127.0.0.1'], true)) reply('HTTPS is required', 500);
     ini_set('session.use_strict_mode', '1');
+    $sessionLifetime = 28 * 24 * 60 * 60;
+    ini_set('session.gc_maxlifetime', (string)$sessionLifetime);
     session_name('scotus_video_session');
     session_save_path($privateDir . '/sessions');
-    session_set_cookie_params(['lifetime' => 0, 'path' => $config['cookie_path'],
+    session_set_cookie_params(['lifetime' => $sessionLifetime, 'path' => $config['cookie_path'],
                               'secure' => $secure, 'httponly' => true, 'samesite' => 'Strict']);
     session_start();
     $_SESSION['csrf'] ??= bin2hex(random_bytes(24));
-    if (!empty($_SESSION['signed_in']) && time() - ($_SESSION['last_active'] ?? 0) > 3600) unset($_SESSION['signed_in']);
-    if (!empty($_SESSION['signed_in'])) $_SESSION['last_active'] = time();
+    if (!empty($_SESSION['signed_in']) && time() - ($_SESSION['last_active'] ?? 0) > $sessionLifetime) unset($_SESSION['signed_in']);
+    if (!empty($_SESSION['signed_in'])) {
+        $_SESSION['last_active'] = time();
+        // Refresh the browser expiry along with the server's inactivity timer.
+        setcookie(session_name(), session_id(), ['expires' => time() + $sessionLifetime,
+            'path' => $config['cookie_path'], 'secure' => $secure, 'httponly' => true, 'samesite' => 'Strict']);
+    }
     $credentials = is_file($privateDir . '/credentials.json') ? json_decode(file_get_contents($privateDir . '/credentials.json'), true, 512, JSON_THROW_ON_ERROR) : [];
 
     if ($action === 'session' && $method === 'GET') reply(['signed_in' => !empty($_SESSION['signed_in']),
@@ -161,7 +168,7 @@ try {
             if(($input['command'] ?? '')==='retry')command($state,['command'=>'start','job'=>$input['job']]);
             return $result;
         });
-        if(in_array($input['command'] ?? '',['resume','retry','start'],true))try{cloud_request($config,'dispatch');}catch(Throwable $error){}
+        if(in_array($input['command'] ?? '',['resume','retry','start','stats_check','stats_answer'],true))try{cloud_request($config,'dispatch');}catch(Throwable $error){}
         reply($result);
     }
     if($action==='review'){
@@ -170,12 +177,24 @@ try {
         else kick_controller();
         reply($result);
     }
+    if($action==='clip'){
+        $result=transaction('state',fn(&$state)=>clip_command($state,$input));
+        try{cloud_request($config,'clip_dispatch',['job'=>$input['job'],'clip'=>$result['id']]);}catch(Throwable $error){}
+        reply($result);
+    }
+    if($action==='clip_download')reply(cloud_request($config,'clip_download',['job'=>$input['job'],'clip'=>$input['clip']]));
     if($action==='spotify'){
         $result=transaction('state',fn(&$state)=>spotify_command($state,$input));
         try{cloud_request($config,'spotify_dispatch',['job'=>$input['job']]);}catch(Throwable $error){}
         reply($result);
     }
-    if($action==='notification_test')reply(cloud_request($config,'notification_test'));
+    if($action==='notification_test'){
+        // Goes through the outbox so it reaches every registered device, like real notices.
+        $notice=transaction('state',function(&$state){$key='test-'.bin2hex(random_bytes(8));notify_event($state,$key,'test','');return hash('sha256',$key);});
+        reply(cloud_request($config,'notification_test',['notice_id'=>$notice]));
+    }
+    if($action==='push_subscribe'){$result=transaction('state',fn(&$state)=>push_subscribe($state,$input));kick_controller();reply($result);}
+    if($action==='push_unsubscribe')reply(transaction('state',fn(&$state)=>push_unsubscribe($state,$input)));
     if($action==='photo_add')reply(cloud_request($config,'photo_add',$input));
     if($action==='asset_data') {
         $uri=transaction('state',function(&$state)use($input){
@@ -221,7 +240,7 @@ try {
             return login_status($state, $owner, $action === 'connect_cancel');
         }));
     }
-    if (in_array($action, ['dispatch', 'secret_status', 'secret_replace', 'youtube_client_replace', 'github_install','spotify_probe'], true)) {
+    if (in_array($action, ['dispatch', 'secret_status', 'secret_replace', 'youtube_client_replace', 'instagram_client_replace', 'github_install','spotify_probe'], true)) {
         // Only expose the human-facing operations, never arbitrary controller commands.
         reply(cloud_request($config, $action, $action === 'github_install' ? [] : $input));
     }

@@ -28,7 +28,7 @@ async def run_with_tools(workspace,env,prompt,schema,model,tools,handler,seconds
             if hasattr(owner,'record_event'):
                 params=message.get('params',{});item=params.get('item',{})
                 if message.get('method') in ('item/completed','item/tool/call'):
-                    owner.record_event({'root_id':thread['thread']['id'],'thread_id':params.get('threadId'),'item_type':item.get('type') or message.get('method'),'tool':item.get('tool'),'model':item.get('model'),'status':item.get('status')})
+                    owner.record_event({'root_id':thread['thread']['id'],'thread_id':params.get('threadId'),'item_type':item.get('type') or message.get('method'),'tool':params.get('tool') or item.get('tool'),'model':item.get('model'),'status':item.get('status'),'text':item.get('text','')[:20000],'tool_arguments':params.get('arguments') if message.get('method')=='item/tool/call' else None})
             if message.get('method')=='item/tool/call':
                 p=message['params']
                 try:
@@ -52,7 +52,7 @@ async def run_with_tools(workspace,env,prompt,schema,model,tools,handler,seconds
                         if corrections>=2:raise
                         corrections+=1;final=None
                         await rpc.request('turn/start',{'threadId':thread['thread']['id'],
-                            'input':[{'type':'text','text':'Final proposal failed workflow validation: '+str(error)[:1000]+' Correct the proposal using the supplied tools and return the complete result. Inspect any new previews yourself. You may omit a discretionary card with a private note. Do not weaken validation.'}],
+                            'input':[{'type':'text','text':'Final proposal failed workflow validation: '+str(error)[:1000]+' Correct the proposal using the supplied tools and return the complete result. Inspect any new previews yourself. Preserve promising research and repair its presentation. Explain any omitted opportunity in the saved decisions. Do not weaken validation.'}],
                             'outputSchema':schema})
                         continue
                 return result

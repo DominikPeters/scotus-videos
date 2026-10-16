@@ -12,6 +12,100 @@ import requests
 
 YOUTUBE_SCOPES = ['https://www.googleapis.com/auth/youtube.force-ssl']
 GITHUB_REPOSITORY = 'DominikPeters/scotus-videos'
+INSTAGRAM_SCOPES = ['instagram_business_basic', 'instagram_business_content_publish']
+
+
+class InstagramConnectionError(ValueError):
+    """Only fixed step names and numeric provider error codes; safe to log."""
+
+
+def instagram_request(step, method, url, **kwargs):
+    response = requests.request(method, url, timeout=20, allow_redirects=False, **kwargs)
+    if len(response.content) > 262144:
+        raise InstagramConnectionError(step + ': response too large')
+    try: value = response.json()
+    except ValueError: raise InstagramConnectionError(step + ': invalid JSON') from None
+    if not 200 <= response.status_code < 300:
+        error = value.get('error', {})
+        code = error.get('code') if isinstance(error, dict) else None
+        detail = ': code ' + str(code) if isinstance(code, int) else ''
+        message = str(error.get('message', '')) if isinstance(error, dict) else ''
+        for group in ('params', 'data'):
+            for key in ('access_token', 'client_secret', 'code'):
+                private = kwargs.get(group, {}).get(key)
+                if isinstance(private, str) and private: message = message.replace(private, '[redacted]')
+        message = re.sub(r'[A-Za-z0-9_-]{24,}', '[redacted]', message)[:300]
+        if message: detail += ': ' + message
+        raise InstagramConnectionError(step + ': HTTP ' + str(response.status_code) + detail)
+    print(json.dumps({'instagram_connection_step': step, 'status': 'complete',
+                     'expires_in': value.get('expires_in') if isinstance(value.get('expires_in'), int) else None}), flush=True)
+    return value
+
+
+def validate_instagram_client(value):
+    if not isinstance(value, dict) or not re.fullmatch(r'[0-9]{5,30}', str(value.get('client_id', ''))) or not re.fullmatch(r'[a-fA-F0-9]{32}', value.get('client_secret', '')):
+        raise ValueError('Use the Instagram app ID and Instagram app secret')
+    return json.dumps({'client_id': str(value['client_id']), 'client_secret': value['client_secret']}).encode()
+
+
+def instagram_authorize(data, settings, google):
+    if not re.fullmatch('[a-f0-9]{32}', data.get('state', '')):
+        raise ValueError('Invalid OAuth state')
+    client = json.loads(google.secret(settings['secrets']['instagram_client']))
+    return {'url': 'https://www.instagram.com/oauth/authorize?' + urlencode({
+        'client_id': client['client_id'], 'redirect_uri': callback(settings, 'instagram'),
+        'response_type': 'code', 'scope': ','.join(INSTAGRAM_SCOPES), 'state': data['state'],
+        'enable_fb_login': '0', 'force_authentication': '1'})}
+
+
+def instagram_exchange(data, settings, google):
+    code = data.get('code', '')
+    if not isinstance(code, str) or not 5 <= len(code) <= 4096:
+        raise ValueError('Invalid authorization code')
+    client = json.loads(google.secret(settings['secrets']['instagram_client']))
+    short = instagram_request('code exchange', 'POST', 'https://api.instagram.com/oauth/access_token', data={
+        'client_id': client['client_id'], 'client_secret': client['client_secret'],
+        'grant_type': 'authorization_code', 'redirect_uri': callback(settings, 'instagram'), 'code': code})
+    # Instagram Login returns the grant inside data; accept the older flat form too.
+    if isinstance(short.get('data'), list) and len(short['data']) == 1:
+        short = short['data'][0]
+    if not short.get('access_token'):
+        raise ValueError('Instagram did not return an access token')
+    permissions = short.get('permissions')
+    if isinstance(permissions, str): permissions = permissions.split(',')
+    if permissions is not None and not set(INSTAGRAM_SCOPES) <= set(permissions):
+        raise ValueError('Instagram publishing permission was not granted')
+    if settings['secrets'].get('instagram_pending'):
+        google.add_secret_version(settings['secrets']['instagram_pending'], json.dumps({
+            'access_token': short['access_token'], 'permissions': permissions,
+            'expires_at': int(time.time()) + int(short.get('expires_in', 3600))}).encode())
+    if int(short.get('expires_in', 0)) >= 172800:
+        long = short
+    else:
+        parameters = {'grant_type': 'ig_exchange_token', 'client_secret': client['client_secret'], 'access_token': short['access_token']}
+        try:
+            long = instagram_request('long-lived token', 'GET', 'https://graph.instagram.com/access_token', params=parameters)
+        except InstagramConnectionError as error:
+            # Meta's live endpoint can reject the documented GET method. Retry
+            # only this explicit method rejection, never other token errors.
+            if 'Unsupported request - method type: get' not in str(error): raise
+            long = instagram_request('long-lived token', 'POST', 'https://graph.instagram.com/access_token', data=parameters)
+    token = long.get('access_token')
+    if not isinstance(token, str) or not token or int(long.get('expires_in', 0)) <= 0:
+        raise ValueError('Instagram did not return a long-lived token')
+    account = instagram_request('account identity', 'GET', 'https://graph.instagram.com/v25.0/me',
+        params={'fields': 'user_id,username'}, headers={'Authorization': 'Bearer ' + token})
+    if account.get('username', '').lower() != settings.get('instagram_username', 'scotus.oral.arguments').lower():
+        raise ValueError('Choose the scotus.oral.arguments Instagram account')
+    user_id = str(account.get('user_id', ''))
+    if not user_id.isdigit(): raise ValueError('Instagram did not return the professional account ID')
+    if permissions is None:
+        grants = instagram_request('permission check', 'GET', 'https://graph.instagram.com/v25.0/me/permissions', headers={'Authorization': 'Bearer ' + token})
+        permissions = [item['permission'] for item in grants.get('data', []) if item.get('status') == 'granted']
+        if not set(INSTAGRAM_SCOPES) <= set(permissions):
+            raise ValueError('Instagram publishing permission was not granted')
+    return {'access_token': token, 'user_id': user_id, 'username': account['username'],
+            'scopes': INSTAGRAM_SCOPES, 'expires_at': int(time.time()) + int(long['expires_in'])}
 
 
 def provider_request(method, url, **kwargs):
@@ -23,6 +117,8 @@ def provider_request(method, url, **kwargs):
 
 
 def callback(settings, provider):
+    if provider == 'instagram':
+        return settings['dashboard_url'].rstrip('/') + '/instagram-callback.php'
     return settings['dashboard_url'].rstrip('/') + '/oauth-callback.php?provider=' + provider
 
 

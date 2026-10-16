@@ -1,6 +1,8 @@
 """Export only validated public recording data; podcast publication stays in Actions."""
 from datetime import datetime,timezone
-import hashlib,json,math,re,time
+import base64,hashlib,json,math,re,time
+from pathlib import Path
+import tempfile
 from .connections import github_token,github_headers
 
 
@@ -42,19 +44,32 @@ def dispatch_podcast(google,settings,recording,revision):
 
 def publish_alignments(dashboard,google,settings,jobs):
     if not settings.get('podcast_enabled'):return
-    ordered=sorted(jobs.values(),key=lambda j:j.get('podcast_alignment',{}).get('source_uri')==j['stages']['align'].get('result',{}).get('transcript_uri'))
+    ordered=sorted(jobs.values(),key=lambda j:j.get('podcast_alignment',{}).get('source_uri')==j['stages'].get('align',{}).get('result',{}).get('transcript_uri'))
     for job in ordered:
-        if job['status']=='cancelled' or job['stages']['align']['status']!='complete':continue
-        uri=job['stages']['align'].get('result',{}).get('transcript_uri')
+        align=job['stages'].get('align',{})
+        if job['status']=='cancelled' or align.get('status')!='complete':continue
+        uri=align.get('result',{}).get('transcript_uri')
         if not uri:continue
         saved=job.get('podcast_alignment',{})
         if saved.get('error_source_uri')==uri and saved.get('retry_after',0)>time.time():continue
-        if saved.get('source_uri')==uri and saved.get('dispatched'):continue
+        plan=job['stages'].get('plan',{})
+        artwork=plan.get('result',{}) if plan.get('status')=='complete' else {}
+        art_uri=artwork.get('podcast_artwork_uri')
+        if saved.get('source_uri')==uri and saved.get('dispatched') and (not art_uri or saved.get('artwork_source_uri')==art_uri):continue
         try:
             if saved.get('source_uri')!=uri:
-                payload=json.dumps(recording_export(job,google.storage_json(uri,max_bytes=2097152)),ensure_ascii=False,separators=(',',':'))
+                recording=recording_export(job,google.storage_json(uri,max_bytes=2097152))
+                recording['alignment_revision']=hashlib.sha256(json.dumps(recording,ensure_ascii=False,separators=(',',':')).encode()).hexdigest()
+                payload=json.dumps(recording,ensure_ascii=False,separators=(',',':'))
                 revision=hashlib.sha256(payload.encode()).hexdigest()
-                saved=dashboard.call('podcast_export',job=job['id'],source_uri=uri,payload=payload,revision=revision)
+                saved=dashboard.call('transcript_export',job=job['id'],source_uri=uri,payload=payload,revision=revision)
+            if art_uri and saved.get('artwork_source_uri')!=art_uri:
+                with tempfile.TemporaryDirectory() as folder:
+                    image=Path(folder)/'artwork.jpg'
+                    google.storage_download(art_uri,image,expected_sha256=artwork['podcast_artwork_sha256'])
+                    data=image.read_bytes()
+                if len(data)>350000:raise ValueError('Podcast artwork too large')
+                saved=dashboard.call('podcast_artwork',job=job['id'],source_uri=art_uri,revision=saved['revision'],artwork_base64=base64.b64encode(data).decode())
             dispatch_podcast(google,settings,job['id'],saved['revision'])
             dashboard.call('podcast_export_status',job=job['id'],revision=saved['revision'],dispatched=True)
         except Exception as error:

@@ -110,6 +110,13 @@
             font-size: 18px;
         }
 
+        div.bench figure.recused img { filter: grayscale(1); opacity: 0.5; }
+        div.bench figure.recused figcaption {
+            position: relative; align-self: center; color: #393630; text-shadow: none;
+            background: rgba(247, 243, 233, .95); border-radius: 2px; padding: 1px 7px;
+            font-weight: 400; line-height: 21px; margin-top: -23px;
+        }
+
         div.bench figure.active-speaker {
             z-index: 1;
         }
@@ -762,7 +769,7 @@
             box-sizing: border-box;
         }
 
-        div.quote-card div.quote-body.quote-only mark {
+        div.quote-card div.quote-body.quote-only > mark {
             background-color: transparent;
         }
 

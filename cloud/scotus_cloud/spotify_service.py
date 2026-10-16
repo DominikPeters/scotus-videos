@@ -6,7 +6,7 @@ import requests
 
 from .google import Google
 from .remote import Dashboard
-from .spotify import Spotify, SpotifyAuthRequired, SpotifyError
+from .spotify import Spotify, SpotifyAuthRequired, SpotifyError, transfer_thumbnail
 
 
 def reconcile(job_id, settings, google, dashboard, client):
@@ -33,7 +33,9 @@ def reconcile(job_id, settings, google, dashboard, client):
                 if remote.get('status') in ('UPLOADED','PUBLISHING','PUBLISHED'):
                     # PHP fences this transition and requires saved owner approval
                     # before any later publish operation.
-                    update('uploaded',episode_id=episode['id'],note='Existing upload recovered; no media retransmitted')
+                    if not update('uploaded',episode_id=episode['id'],note='Existing upload recovered; no media retransmitted'):return {'status':'changed'}
+                    if item.get('publish_authorized'):
+                        return reconcile(job_id,settings,google,dashboard,client)
                     return {'status':'uploaded'}
             reserved=dashboard.call('spotify_reserve',job=job_id,generation=generation,episode_id=episode['id'])
             if not reserved:return {'status':'changed'}
@@ -53,9 +55,17 @@ def reconcile(job_id, settings, google, dashboard, client):
             metadata=client.metadata(item['episode_id'])
             if metadata.get('hasVideo') and metadata.get('mediaUploadId')==item['upload_id']:
                 update('published',note='Spotify finished processing the video');return {'status':'published'}
+        if status=='uploaded' and item.get('publish_authorized'):
+            if not update('publish_queued',retry_after=0):return {'status':'changed'}
+            status='publish_queued'
         if status=='publish_queued':
             if not item.get('publish_authorized'):raise SpotifyError('Publication needs your approval')
+            if remote.get('status') in ('PUBLISHING','PUBLISHED'):
+                update('publishing',retry_after=int(time.time())+60,note='Existing publication is processing')
+                return {'status':'publishing'}
+            thumbnail=transfer_thumbnail(context,client,google)
             if update('publishing',retry_after=int(time.time())+60,note='Spotify publication requested'):
+                if thumbnail:dashboard.call('spotify_update',job=job_id,generation=generation,expected_status='publishing',status='publishing',**thumbnail)
                 try:client.publish(item['episode_id'],item['upload_id'])
                 except SpotifyAuthRequired:
                     dashboard.call('spotify_update',job=job_id,generation=generation,expected_status='publishing',status='needs_auth',error='Reconnect Spotify, then retry publication')
@@ -65,7 +75,7 @@ def reconcile(job_id, settings, google, dashboard, client):
                     pass # Reconcile this saved upload on the next tick; never reupload.
             return {'status':'publishing'}
         if status=='publishing' and remote.get('status')=='UPLOADED':
-            update('failed',error='Spotify has not started publication. Retry reconciles the saved upload, then use Publish on Spotify again.');return {'status':'failed'}
+            update('failed',error='Spotify has not started publication. Retry reconciles the saved upload, then resumes publication automatically.');return {'status':'failed'}
         update(status,retry_after=int(time.time())+60)
         return {'status':status}
     except SpotifyAuthRequired as error:

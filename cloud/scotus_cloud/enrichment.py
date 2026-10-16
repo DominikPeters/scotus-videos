@@ -86,11 +86,12 @@ def enrich(job,transcript,settings,cloud,lease,folder):
         entries={item['video_id']:item for item in history['titles']}
         entries.update({item['video_id']:item for item in library['titles']});history['titles']=list(entries.values());history['count']=len(entries)
         if editorial:
-            description=editorial['description'];titles=editorial['titles'];title_notes=[n for n in editorial.get('private_notes',[]) if n not in description.get('private_caveats',[])+description.get('private_editorial_notes',[])]
+            description=editorial['description']
+            titles=editorial['titles'];title_notes=[n for n in editorial.get('private_notes',[]) if n not in description.get('private_caveats',[])+description.get('private_editorial_notes',[])]
             lease.call('note',message='Reusing case editorial content and checking the refreshed advocate list.');lease.update(.65)
         else:
             lease.call('note',message='Researching or shortening the case description.');
-            description=generate_case_description(lease.dashboard,cloud,settings['codex_secret'],case,oyez=oyez,materials=materials)
+            description=generate_case_description(lease.dashboard,cloud,settings['codex_secret'],case,oyez=oyez,materials=materials,check_participation=True)
             lease.update(.35);lease.call('note',message='Choosing a title using the full channel title history.');
             case.update(description['fields'])
             title=generate_title(lease.dashboard,cloud,settings['codex_secret'],case,history,question_presented=case['question'],transcript=transcript['text'],model='gpt-6.1-sol')
@@ -132,15 +133,31 @@ def enrich(job,transcript,settings,cloud,lease,folder):
                          'private_notes':photo_notes,
                          'approved_existing':candidates[0] if (cached or approved) and candidates else None}
         result={'case_metadata':oyez,'description':description,'titles':titles,'photos':photos,
+                'participation':description.get('participation'),
                 'oyez_content_used':bool(oyez),'private_notes':description['private_caveats']+description['private_editorial_notes']+title_notes}
-    if settings.get('annotation_cards_enabled',False) and 'annotations' not in result:
+    participation=result.get('participation')
+    if not participation or participation.get('docket')!=job['docket'] or participation.get('argument_date')!=job['argument_date']:
+        # Older resumable/editorial caches still need the new participation check.
+        case={'docket':job['docket'],'case_name':job['case_name'],'argument_date':job['argument_date']}
+        docket_url=f'https://www.supremecourt.gov/docket/docketfiles/html/public/{job["docket"]}.html'
+        if prior:
+            try:docket=fetch(f'https://www.supremecourt.gov/RSS/Cases/JSON/{job["docket"]}.json').decode()
+            except Exception:docket=fetch(docket_url).decode()
+        checked=generate_case_description(lease.dashboard,cloud,settings['codex_secret'],case,
+            oyez=result['description']['fields'],materials=[{'id':'docket','title':'Official Court docket','url':docket_url,'text':docket}],
+            profile={'shorten_long_oyez':False},check_participation=True)
+        result['participation']=checked['participation']
+    from .annotation_cards import CARD_WORKFLOW_VERSION
+    if settings.get('annotation_cards_enabled',False) and result.get('annotations',{}).get('workflow_version')!=CARD_WORKFLOW_VERSION:
         from .annotation_cards import generate_cards
         lease.call('note',message='Sol is selecting annotation cards, delegating research to Luna and inspecting production previews.')
         result['annotations']=generate_cards(job,transcript,result,settings,cloud,lease,folder)
     annotations=result.get('annotations',{'cards':[],'assets':{},'private_notes':[]})
+    participation=result.get('participation') or {}
+    participation_notes=participation.get('private_notes',[])+[p['explanation'] for p in participation.get('justices',[]) if p['status'] in ('recused','uncertain')]
     review={'id':hashlib.sha256(job['id'].encode()).hexdigest()[:32],'revision':digest_json(result),
             'titles':result['titles'],'description':result['description']['fields'],'photos':result['photos'],
-            'private_notes':result['private_notes']+annotations['private_notes'],'provenance':result['description']['provenance'],
+            'private_notes':result['private_notes']+annotations['private_notes']+participation_notes,'provenance':result['description']['provenance'],
             'cards':annotations['cards'],'card_revision':digest_json(annotations['cards'])}
     path=folder/'enrichment.json';path.write_text(json.dumps(result))
     uri=f'gs://{settings["bucket"]}/enrichment/{job["id"]}/{uuid.uuid4().hex}.json';cloud.storage_upload(path,uri,'application/json')

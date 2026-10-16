@@ -1,4 +1,10 @@
-# Podcast alignment integration plan
+# Podcast integration
+
+The shared transcript handoff runs as soon as alignment completes, independently of photo/card review. It reuses `/podcast/alignment/index.json` and versioned JSON files for the podcast, web player and future statistics consumer. Word timings remain private cloud artifacts. Artwork is attached to the index later, without duplicating or rewriting transcript JSON. Plans produce a 1500×1500 JPEG from the approved square design: current Court bench, Court seal, case name and approved advocate crops, with a two-by-two grid for four advocates. The fixed bench includes the approved real robe extensions and Jackson’s synthetic extension. YouTube thumbnails and video presentation are unchanged.
+
+Artwork is published at an immutable, hash-named URL on the webhost and referenced by each RSS item’s `itunes:image`. It is not embedded in MP3s. Alignment has its own revision, so artwork-only updates do not download, retag or upload audio. The existing repository dispatch event name is retained for compatibility. Previously exported alignments remain available; old completed plans without artwork still publish transcripts. They need replanning only to produce new artwork.
+
+The bench asset represents the current nine-member Court. Other Court compositions need a matching artwork template before being planned with podcast artwork enabled. The cloud verifies the Court identifiers rather than silently showing the wrong justices.
 
 Status: implemented and enabled October 13, 2026. GitHub dry-run checks passed on Johnson, Anderson and Suncor; the first live dispatch published their chapters and VTTs to both existing feeds. Official audio stays unchanged except for ID3 tags, episode identities remain stable, and Oyez metadata remains independent. Source commit: f3b3dffc8eab34038b598c7e3ff6b76a283143a5.
 
@@ -21,7 +27,7 @@ flowchart LR
   D --> E[R2 audio and existing RSS feeds]
 ```
 
-Export as soon as alignment passes its normal checks. Do not wait for portrait approval, video planning, rendering, upload or publication. Podcast readiness is independent of those phases.
+Export after a successful plan, when advocate portraits and cards have been approved. The plan generates square episode artwork alongside the unchanged YouTube thumbnail. Export original-audio alignment data and the artwork together, then dispatch the existing podcast Action; rendering, video upload and publication need not finish. Plain audio discovery remains independent and can publish earlier.
 
 Move the nonvisual speaker/section consistency checks used by video planning into the preparation/export path. In particular, an appearance whose speaking turn was missed by parsing must not produce incorrectly attributed chapters while waiting for a later video-planning check. These checks require neither images nor rendering.
 
@@ -76,3 +82,15 @@ First implement a read-only importer and compare generated chapters/VTT for John
 Next add versioned exports and consume them from the hourly Action. Only then add the immediate dispatch trigger, keeping the hourly fallback. Verify both RSS variants, stable GUIDs, correct enclosure byte lengths and a repeated run that performs no unnecessary upload or commit.
 
 One decision remains for future cases with multiple hearings or reargument: the export should distinguish recordings by date/recording ID, while the current feed stores one episode per term/docket. Preserve the current episode model initially; choose how to combine or separate multiple recordings before importing such a case, rather than silently replacing one argument with another.
+
+## Public video links (implemented)
+
+After a successful dashboard YouTube publication, `podcast_youtube_link` merges the recording into the private `podcast-youtube-index.json` registry and atomically exports `/podcast/youtube/index.json`. Unlisted uploads do not enter this index. An existing public link remains available while a replacement video is being reviewed.
+
+The podcast build reads this small index after its other providers, matches term, docket and argument date, and saves `youtube_url` on matching episodes. Both feed descriptions add a YouTube link in the existing information links paragraph. This does not change episode GUIDs, audio tags or enclosures. New links appear on the next podcast workflow run; a YouTube publication does not itself launch a podcast build. The initial backfill includes 263 matches verified against public YouTube video metadata. Videos published outside the dashboard require an index refresh.
+
+## Shared player consumer
+
+`player-data.js` adapts the shared sections/turns to the existing `player.js` renderer. The player verifies the transcript checksum and recording identity, uses the official audio URL, and can run without Oyez case metadata. Oyez remains the transcript fallback where no shared alignment exists. Explicit recording IDs never silently fall back to a different hearing. `scotusstats/website/src/web/index.html` merges the same index into its historical search catalog, so new arguments need no catalog rebuild.
+
+The PHP dispatcher operations are `transcript_export` after alignment and `podcast_artwork` after planning. The legacy `podcast_export` operation remains supported during rollout. Shared exports currently use the existing `podcast_enabled` controller setting.

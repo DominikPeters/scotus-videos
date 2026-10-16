@@ -1,5 +1,5 @@
 """Publish owner-approved portraits separately from private Codex research."""
-import hashlib,json,os
+import base64,hashlib,json,os
 from pathlib import Path
 from .google import Google
 from .remote import Dashboard
@@ -12,7 +12,17 @@ def main():
     dashboard=Dashboard(settings['dashboard_url'],settings['worker_key'],'assets');cloud=Google(settings['project'])
     context=dashboard.call('asset_publish_claim',job=os.environ['SCOTUS_JOB_ID'],dispatch_token=os.environ['SCOTUS_ASSET_TOKEN'])
     if not context:return
-    job=context['job'];token=dashboard.call('auth_claim',name='github')
+    job=context['job']
+    # Publish every approved portrait, including curated-cache hits, under its exact
+    # case-scoped speaker ID. Never guess identity by stripping a docket prefix.
+    for person,candidate in job.get('approved_photos',{}).items():
+        image=cloud.storage_bytes(candidate['portrait_uri'],max_bytes=4194304)
+        if hashlib.sha256(image).hexdigest()!=candidate['sha256']:raise ValueError('Approved image changed')
+        dashboard.call('asset_portrait_export',job=job['id'],lease=context['lease'],person=person,image_base64=base64.b64encode(image).decode())
+    if all(c.get('origin')=='curated_cache' for c in job.get('approved_photos',{}).values()):
+        dashboard.call('asset_publish_finish',job=job['id'],lease=context['lease'],success=True,results=[])
+        return
+    token=dashboard.call('auth_claim',name='github')
     if not token:raise RuntimeError('GitHub credentials are in use')
     results=[];success=False
     try:

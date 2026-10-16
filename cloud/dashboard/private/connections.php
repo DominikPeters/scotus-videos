@@ -7,7 +7,7 @@ function control_body(string $operation, array $data = []): string {
     return json_encode(['op' => $operation, 'data' => (object)$data], JSON_THROW_ON_ERROR);
 }
 
-function cloud_request(array $config, string $operation, array $data = []): mixed {
+function cloud_request(array $config, string $operation, array $data = [], int $timeout = 50): mixed {
     $url = rtrim($config['control_url'], '/') . '/v1/request';
     $parts = parse_url($url);
     if (($parts['scheme'] ?? '') !== 'https' || !str_ends_with($parts['host'] ?? '', '.run.app') || isset($parts['user']) || isset($parts['port'])) {
@@ -18,7 +18,7 @@ function cloud_request(array $config, string $operation, array $data = []): mixe
     $signed = implode("\n", [$timestamp, $nonce, 'POST', $parts['path'], hash('sha256', $body)]);
     $curl = curl_init($url);
     curl_setopt_array($curl, [CURLOPT_POST => true, CURLOPT_POSTFIELDS => $body, CURLOPT_RETURNTRANSFER => true,
-        CURLOPT_TIMEOUT => 50, CURLOPT_FOLLOWLOCATION => false, CURLOPT_PROTOCOLS => CURLPROTO_HTTPS,
+        CURLOPT_TIMEOUT => $timeout, CURLOPT_FOLLOWLOCATION => false, CURLOPT_PROTOCOLS => CURLPROTO_HTTPS,
         CURLOPT_HTTPHEADER => ['Content-Type: application/json', 'X-Scotus-Time: ' . $timestamp,
             'X-Scotus-Nonce: ' . $nonce, 'X-Scotus-Signature: ' . hash_hmac('sha256', $signed, $config['control_key'])]]);
     $response = curl_exec($curl); $status = curl_getinfo($curl, CURLINFO_RESPONSE_CODE); curl_close($curl);
@@ -29,26 +29,46 @@ function cloud_request(array $config, string $operation, array $data = []): mixe
 }
 
 function kick_controller(): void {
-    // Worker replies must not wait on a controller that calls this host back.
-    // All-Inkl provides this CLI binary; the timer is the fallback if disabled.
-    if(function_exists('exec')){
-        exec('/usr/bin/php '.escapeshellarg(__DIR__.'/kick.php').' >/dev/null 2>&1 &');
-    }
+    global $privateDir,$config;
+    if(empty($config['control_url']))return;
+    // Coalesce simultaneous chunk completions, and dispatch after committed replies.
+    $pending=$privateDir.'/work-wakeup.pending';touch($pending);chmod($pending,0600);
+    static $scheduled=false;
+    if($scheduled)return;
+    $scheduled=true;
+    register_shutdown_function(function()use($pending){
+        global $config,$privateDir;
+        if(session_status()===PHP_SESSION_ACTIVE)session_write_close();
+        if(function_exists('fastcgi_finish_request'))fastcgi_finish_request();
+        $lock=fopen($privateDir.'/work-wakeup.lock','c');
+        if(!$lock)return;
+        if(!flock($lock,LOCK_EX|LOCK_NB)){fclose($lock);return;}
+        try{
+            for($pass=0;$pass<3;$pass++){
+                clearstatcache(true,$pending);
+                if(!is_file($pending))break;
+                unlink($pending);
+                try{cloud_request($config,'dispatch');}
+                catch(Throwable $error){touch($pending);error_log('Scotus work wake-up failed; queued work retained for timer retry.');break;}
+            }
+        }finally{flock($lock,LOCK_UN);fclose($lock);}
+    });
 }
 
 function callback_url(array $config, string $provider): string {
+    if ($provider === 'instagram') return $config['origin'] . $config['cookie_path'] . 'instagram-callback.php';
     return $config['origin'] . $config['cookie_path'] . 'oauth-callback.php?provider=' . $provider;
 }
 
 function flow_cookie(string $provider, string $value, int $expires, array $config): void {
     setcookie('scotus_connect_' . $provider, $value, ['expires' => $expires,
-        'path' => $config['cookie_path'] . 'oauth-callback.php', 'secure' => str_starts_with($config['origin'], 'https://'),
+        'path' => $config['cookie_path'] . ($provider === 'instagram' ? 'instagram-callback.php' : 'oauth-callback.php'), 'secure' => str_starts_with($config['origin'], 'https://'),
         'httponly' => true, 'samesite' => 'Lax']);
 }
 
 /** OAuth callbacks have their own short-lived, SameSite=Lax cookie. The dashboard session stays Strict. */
 function begin_connection(array $config, string $provider, string $owner): array {
-    if (!in_array($provider, ['youtube', 'github'], true)) throw new InvalidArgumentException('Unknown provider');
+    if (!in_array($provider, ['youtube', 'github', 'instagram'], true)) throw new InvalidArgumentException('Unknown provider');
     $id = bin2hex(random_bytes(16)); $cookie = bin2hex(random_bytes(24));
     $verifier = rtrim(strtr(base64_encode(random_bytes(48)), '+/', '-_'), '=');
     $flow = ['id' => $id, 'provider' => $provider, 'owner' => $owner, 'expires' => time() + 3600,
@@ -59,6 +79,9 @@ function begin_connection(array $config, string $provider, string $owner): array
         $saved[$id] = $flow;
     });
     flow_cookie($provider, $cookie, $flow['expires'], $config);
+    if ($provider === 'instagram') {
+        return cloud_request($config, 'instagram_authorize', ['state' => $id]);
+    }
     if ($provider === 'youtube') {
         $result = cloud_request($config, 'youtube_authorize', ['state' => $id,
             'code_challenge' => rtrim(strtr(base64_encode(hash('sha256', $verifier, true)), '+/', '-_'), '=')]);

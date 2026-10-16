@@ -69,6 +69,8 @@ def case_metadata(job,transcript,enrichment):
             members.append({**person,'thumbnail':{'href':person['portrait_uri']},
                 'roles':[{'role_title':'Chief Justice of the United States' if person['seniority']==0 else 'Associate Justice'}]})
         data['heard_by']=[{'members':members}]
+    from .participation import apply_participation
+    apply_participation(data,enrichment.get('participation'),catalog)
     data['advocates']=[{'advocate':{**p,'description':p.get('role','')}} for p in transcript['speakers'].values() if p['kind']=='advocate']
     return data
 
