@@ -1,0 +1,28 @@
+{
+  "identity_verified": true,
+  "name": "Jeremy Schepers",
+  "docket": "25-1003",
+  "source_url": "https://www.instagram.com/p/DF_ZlW1M-mF/",
+  "identity_source_url": "https://www.supremecourt.gov/oral_arguments/hearinglists/HearingList-November2026.pdf",
+  "kind": "photo",
+  "approval": "owner dashboard approval",
+  "recording": "2026-11-04-25-1003-argument-1",
+  "source_sha256": "54149684a1fef4c96ea5b15b90c4914daa52f21f5d4fdf4886c029d1f5eb4b05",
+  "crop": {
+    "x": 396,
+    "y": 746,
+    "size": 274,
+    "source_width": 1350,
+    "source_height": 1688,
+    "method": "codex-vision",
+    "model": "gpt-6.1-sol",
+    "preview_box": {
+      "x": 150,
+      "y": 283,
+      "size": 104
+    },
+    "preview_width": 512,
+    "preview_height": 640
+  },
+  "sha256": "d0a667dd35144ccb861146ba737a5ce12512247484115f519db661a443e8c01b"
+}
