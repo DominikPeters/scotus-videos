@@ -16,11 +16,16 @@ def main():
     job=context['job']
     # Publish every approved portrait, including curated-cache hits, under its exact
     # case-scoped speaker ID. Never guess identity by stripping a docket prefix.
+    images={}
     for person,candidate in job.get('approved_photos',{}).items():
         image=cloud.storage_bytes(candidate['portrait_uri'],max_bytes=4194304)
         if hashlib.sha256(image).hexdigest()!=candidate['sha256']:raise ValueError('Approved image changed')
-        dashboard.call('asset_portrait_export',job=job['id'],lease=context['lease'],person=person,image_base64=base64.b64encode(image).decode())
+        images[person]=image
+    def export():
+        for person,image in images.items():
+            dashboard.call('asset_portrait_export',job=job['id'],lease=context['lease'],person=person,image_base64=base64.b64encode(image).decode())
     if all(c.get('origin')=='curated_cache' for c in job.get('approved_photos',{}).values()):
+        export()
         dashboard.call('asset_publish_finish',job=job['id'],lease=context['lease'],success=True,results=[])
         return
     token=dashboard.call('auth_claim',name='github')
@@ -30,8 +35,7 @@ def main():
         credential=json.loads(cloud.secret(settings['github_secret']))
         for person,candidate in job.get('approved_photos',{}).items():
             if candidate.get('origin')=='curated_cache':continue
-            image=cloud.storage_bytes(candidate['portrait_uri'],max_bytes=4194304)
-            if hashlib.sha256(image).hexdigest()!=candidate['sha256']:raise ValueError('Approved image changed')
+            image=images[person]
             if not candidate.get('source_url') and candidate.get('kind')!='initials':continue
             name=job['review']['photos'][person]['name']
             provenance={'identity_verified':True,'name':name,'docket':job['docket'],'source_url':candidate.get('source_url',''),
@@ -42,7 +46,8 @@ def main():
             extension='jpg' if image.startswith(b'\xff\xd8') else 'png'
             result=commit_portrait(credential,person,extension,image,provenance,approved_replacement=True)
             results.append({'person':person,**result})
-        success=True
+        # A failed archive write must not publish a website-only replacement.
+        export();success=True
     finally:
         dashboard.call('auth_release',name='github',token=token)
         dashboard.call('asset_publish_finish',job=job['id'],lease=context['lease'],success=success,results=results)

@@ -14,6 +14,11 @@ class AssetPublisherTests(unittest.TestCase):
             asset_publisher.main()
         self.assertTrue(commit.call_args.kwargs['approved_replacement'])
         self.assertEqual(commit.call_args.args[1],person)
+        dashboard.reset_mock()
+        with patch.object(asset_publisher,'runtime_settings',return_value=cfg),patch.object(asset_publisher,'Google',return_value=cloud),patch.object(asset_publisher,'Dashboard',return_value=dashboard),patch.object(asset_publisher,'commit_portrait',side_effect=RuntimeError('Concurrent GitHub update')),patch.dict('os.environ',{'CLOUD_RUN_JOB':'assets','SCOTUS_JOB_ID':'case','SCOTUS_ASSET_TOKEN':'dispatch'}):
+            with self.assertRaisesRegex(RuntimeError,'Concurrent'):asset_publisher.main()
+        self.assertFalse(any(call.args[0]=='asset_portrait_export' for call in dashboard.call.call_args_list))
+        dashboard.call.assert_any_call('asset_publish_finish',job='case',lease='lease',success=False,results=[])
     def test_curated_portrait_is_exported_without_github_credentials(self):
         image=b'\xff\xd8\xffapproved';person='advocate_25_459_paul_d_clement'
         job={'id':'case','approved_photos':{person:{'origin':'curated_cache','portrait_uri':'gs://private/portrait.jpg','sha256':hashlib.sha256(image).hexdigest()}}}
