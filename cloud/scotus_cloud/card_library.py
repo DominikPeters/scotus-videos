@@ -5,7 +5,6 @@ credentials and tool logs stay in their existing private locations.
 """
 import hashlib
 import json
-import os
 from pathlib import Path
 import re
 import shutil
@@ -75,10 +74,11 @@ class CardLibrary:
         for key, source in sources.items():
             if not re.fullmatch(r'[a-zA-Z0-9_-]{1,80}', key): raise ValueError('Invalid cached source ID')
             folder = self.root / 'sources' / key
-            signature = tuple((p['page'], hashlib.sha256(p['text'].encode()).hexdigest()) for p in source['pages'])
+            signature = hashlib.sha256(json.dumps({k: v for k, v in source.items() if k not in ('pdf', 'pdf_uri')}, sort_keys=True).encode()).hexdigest()
             pdf = source.get('pdf')
             is_pdf = bool(pdf or source.get('pdf_uri'))
             if self.signatures.get(key) != signature:
+                if folder.exists(): shutil.rmtree(folder)
                 for page in source['pages']:
                     write_reference(folder / 'pages' / (str(page['page']).zfill(5) + '.txt'), page['text'])
                 text = '\n\n'.join('=== PHYSICAL PAGE ' + str(p['page']) + ' ===\n' + p['text'] for p in source['pages'])
@@ -88,19 +88,17 @@ class CardLibrary:
                                        'text_file': 'pages/' + str(p['page']).zfill(5) + '.txt', 'ocr': bool(p.get('ocr'))} for p in source['pages']],
                             'original_pdf': 'original.pdf' if is_pdf else None}
                 write_reference(folder / 'source.json', json.dumps(metadata, ensure_ascii=False, indent=2))
-                self.signatures[key] = signature
             original = folder / 'original.pdf'
             if is_pdf and not original.exists():
                 temporary = folder / ('.pdf-' + uuid.uuid4().hex)
                 try:
-                    if pdf:
-                        try: os.link(pdf, temporary)
-                        except OSError: shutil.copyfile(pdf, temporary)
+                    if pdf: shutil.copyfile(pdf, temporary)
                     else: self.cloud.storage_download(source['pdf_uri'], temporary)
                     if hashlib.sha256(temporary.read_bytes()).hexdigest() != source['sha256']:
                         raise ValueError('Cached original PDF differs from its source provenance')
                     temporary.chmod(0o444); temporary.replace(original)
                 finally: temporary.unlink(missing_ok=True)
+            self.signatures[key] = signature
             index.append({'source_id': key, 'url': source['url'], 'page_count': len(source['pages']),
                           'directory': 'reference/sources/' + key})
         write_reference(self.root / 'sources/index.json', json.dumps(index, ensure_ascii=False, indent=2))

@@ -15,6 +15,15 @@ class Cloud:
 class Tools:
  def __init__(self):self.sources={};self.previews={};self.proposals={};self.assets={}
 class HistoryTests(unittest.TestCase):
+ def test_official_source_refresh_revalidates_research_even_when_words_are_unchanged(self):
+  with tempfile.TemporaryDirectory() as folder:
+   cloud=Cloud();settings={'bucket':'private'};transcript={'paragraphs':[]}
+   tools=Tools();tools.sources={'s':{'url':'https://court.example','pages':[]}}
+   CardHistory({'id':'case','source_version':1},transcript,settings,cloud,folder,store=cloud).save(tools)
+   same=CardHistory({'id':'case','source_version':1},transcript,settings,cloud,folder,store=cloud);same.load(Tools())
+   self.assertFalse(same.refresh_sources)
+   refreshed=CardHistory({'id':'case','source_version':2},transcript,settings,cloud,folder,store=cloud);refreshed.load(Tools())
+   self.assertTrue(refreshed.refresh_sources)
  def test_metadata_changes_keep_case_research_and_one_current_checkpoint(self):
   with tempfile.TemporaryDirectory() as folder:
    cloud=Cloud();job={'id':'case'};settings={'bucket':'private-bucket'};tools=Tools()

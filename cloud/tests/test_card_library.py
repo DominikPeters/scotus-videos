@@ -59,6 +59,21 @@ class LibraryTests(unittest.TestCase):
         self.assertFalse((library.root / 'sources/opinion/original.pdf').exists())
         with self.assertRaisesRegex(ValueError, 'source ID'): library.sync({'../private-checkpoint': self.source()})
 
+    def test_replaced_pdf_with_identical_text_updates_bytes_and_page_metadata(self):
+        library = CardLibrary(self.folder, 'example', self.cloud)
+        pdf = self.folder / 'source.pdf'; pdf.write_bytes(b'%PDF fixture')
+        source = self.source(pdf=pdf); library.sync({'opinion': source})
+        pdf.write_bytes(b'%PDF replacement')
+        source['sha256'] = hashlib.sha256(pdf.read_bytes()).hexdigest()
+        source['pages'][0].update(printed_page='18a', ocr=True)
+        library.sync({'opinion': source})
+        directory = library.root / 'sources/opinion'
+        self.assertEqual((directory / 'original.pdf').read_bytes(), b'%PDF replacement')
+        metadata = json.loads((directory / 'source.json').read_text())
+        self.assertEqual(metadata['sha256'], source['sha256'])
+        self.assertEqual(metadata['pages'][0]['printed_page'], '18a')
+        self.assertTrue(metadata['pages'][0]['ocr'])
+
     def test_regenerated_library_does_not_retain_an_excluded_case_from_previous_export(self):
         CardLibrary(self.folder, 'example', self.cloud)
         self.assertTrue((self.folder / 'reference/archive/25-352').exists())

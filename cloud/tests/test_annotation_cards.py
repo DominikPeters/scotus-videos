@@ -5,6 +5,31 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from scotus_cloud.annotation_cards import clean,cue_for,CardTools,normalized,preview_fingerprint
 from scotus_cloud.model import digest_json
 class CardTests(unittest.TestCase):
+ def test_resumed_research_revalidates_sources_and_rechecks_changed_evidence(self):
+  import hashlib
+  with tempfile.TemporaryDirectory() as folder:
+   tools=CardTools({'id':'job'}, {},{}, {},Mock(),Mock(),folder)
+   url='https://court.example/source';key=hashlib.sha256(url.encode()).hexdigest()
+   tools.sources[key]={'url':url,'sha256':hashlib.sha256(b'Old text').hexdigest(),'pages':[{'page':1,'text':'Old text'}]}
+   tools.proposals={'one':dict(self.card(),id='one')};tools.previews={'old':{}};tools.assets={'old.jpg':b'old'}
+   tools.history=Mock();tools.history.plan={'phase':'design','decisions':[],'hybrid':{'editor_final':{}}};tools.history.pdf_refs={key:'old-pdf'}
+   with patch('scotus_cloud.enrichment.fetch',return_value=b'New text') as fetch:tools.refresh_sources()
+   fetch.assert_called_once_with(url,12582912)
+   self.assertEqual(tools.sources[key]['pages'][0]['text'],'New text')
+   self.assertEqual(tools.history.plan['phase'],'sources');self.assertNotIn('hybrid',tools.history.plan)
+   self.assertFalse(tools.proposals);self.assertFalse(tools.previews);self.assertFalse(tools.assets)
+   self.assertEqual(tools.history.plan['decisions'][0]['status'],'pending');self.assertFalse(tools.history.pdf_refs)
+ def test_identical_source_bytes_preserve_cached_ocr_and_designs(self):
+  import hashlib
+  with tempfile.TemporaryDirectory() as folder:
+   tools=CardTools({'id':'job'}, {},{}, {},Mock(),Mock(),folder)
+   url='https://court.example/source';key=hashlib.sha256(url.encode()).hexdigest()
+   tools.sources[key]={'url':url,'sha256':hashlib.sha256(b'Original bytes').hexdigest(),'pages':[{'page':1,'text':'Corrected OCR','ocr':True}]}
+   tools.proposals={'one':self.card()}
+   with patch('scotus_cloud.enrichment.fetch',return_value=b'Original bytes'):tools.refresh_sources()
+   self.assertEqual(tools.sources[key]['pages'][0]['text'],'Corrected OCR');self.assertIn('one',tools.proposals)
+   with patch('scotus_cloud.enrichment.fetch',side_effect=TimeoutError()):
+    with self.assertRaises(TimeoutError):tools.refresh_sources()
  def test_finishing_again_reuses_an_exhibit_uploaded_before_a_lost_checkpoint(self):
   with tempfile.TemporaryDirectory() as folder:
    objects={};cloud=Mock()

@@ -11,6 +11,7 @@ class CardHistory:
   self.blocks=[[p.get('speaker'),' '.join(p.get('text','').split())] for p in transcript.get('paragraphs',[])]
   self.legacy_digest=digest_json(transcript);self.source_hashes={};self.asset_hashes={}
   self.alignment_uri=job.get('stages',{}).get('align',{}).get('result',{}).get('transcript_uri')
+  self.source_version=job.get('source_version',0);self.refresh_sources=False
   self.version=0;self.last_uri=None;self.source_refs={};self.pdf_refs={};self.asset_refs={};self.events=[];self.hashes={}
   self.plan={'phase':'scan','opportunities':[],'decisions':[]}
  def upload(self,value,name,content_type='application/json'):
@@ -50,6 +51,7 @@ class CardHistory:
   self.plan=saved['plan'];self.events=saved['events'][-100:];self.source_refs=saved['sources'];self.pdf_refs=saved['pdfs'];self.asset_refs=saved['assets']
   tools.previews=saved['previews'];tools.proposals=saved['proposals']
   changed=saved.get('blocks') is not None and saved['blocks']!=self.blocks
+  self.refresh_sources=changed or saved.get('source_version')!=self.source_version
   if changed:
    old=[json.dumps(b,ensure_ascii=False) for b in saved['blocks']];new=[json.dumps(b,ensure_ascii=False) for b in self.blocks]
    mapping={b.a+i:b.b+i for b in difflib.SequenceMatcher(None,old,new,autojunk=False).get_matching_blocks() for i in range(b.size)}
@@ -87,7 +89,7 @@ class CardHistory:
   for path,data in tools.assets.items():
    fingerprint=hashlib.sha256(data).hexdigest()
    if self.asset_hashes.get(path)!=fingerprint:self.asset_refs[path]=self.upload(data,'exhibits','image/jpeg');self.asset_hashes[path]=fingerprint
-  state={'plan':self.plan,'events':self.events,'sources':self.source_refs,'pdfs':self.pdf_refs,'assets':self.asset_refs,'previews':tools.previews,'proposals':tools.proposals,'alignment_uri':self.alignment_uri,'blocks':self.blocks}
+  state={'plan':self.plan,'events':self.events,'sources':self.source_refs,'pdfs':self.pdf_refs,'assets':self.asset_refs,'previews':tools.previews,'proposals':tools.proposals,'alignment_uri':self.alignment_uri,'blocks':self.blocks,'source_version':self.source_version}
   result=self.store.call('research_save',version=self.version,operation_id=uuid.uuid4().hex,checkpoint=state)
   self.version=result['version'];self.last_uri=f'research:{self.job["id"]}:{self.version}';return self.last_uri
  def resume(self,tools):
