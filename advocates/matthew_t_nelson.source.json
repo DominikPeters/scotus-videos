@@ -1,0 +1,27 @@
+{
+  "identity_verified": true,
+  "name": "Matthew T. Nelson",
+  "docket": "25-95",
+  "kind": "photo",
+  "source_url": "https://www.wnj.com/people/matthew-t-nelson/",
+  "identity_source_url": "https://www.wnj.com/people/matthew-t-nelson/",
+  "approval": "Owner approved remaining images",
+  "approved_at": "2026-10-15T15:56:33.539951+00:00",
+  "source_sha256": "3be9784952b5fbb9f0ac6ef521b6115a866cf2a282fb9c2fb87150e787b35146",
+  "crop": {
+    "source_file": "originals/matthew_t_nelson.jpg",
+    "source_sha256": "3be9784952b5fbb9f0ac6ef521b6115a866cf2a282fb9c2fb87150e787b35146",
+    "box": [
+      0,
+      0,
+      819,
+      819
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/matthew_t_nelson.jpg",
+    "width": 819,
+    "height": 819,
+    "sha256": "594b7abc6489b7f832e3a81933cf1f071f2eec99db6b567f703fcff44b32a313"
+  },
+  "sha256": "594b7abc6489b7f832e3a81933cf1f071f2eec99db6b567f703fcff44b32a313"
+}

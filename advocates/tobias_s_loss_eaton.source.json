@@ -1,0 +1,27 @@
+{
+  "identity_verified": true,
+  "name": "Tobias S. Loss-Eaton",
+  "docket": "25-5146",
+  "kind": "photo",
+  "source_url": "https://www.sidley.com/en/people/l/losseaton-tobias-s",
+  "identity_source_url": "https://www.sidley.com/en/people/l/losseaton-tobias-s",
+  "approval": "Owner approved remaining images",
+  "approved_at": "2026-10-15T15:56:33.539951+00:00",
+  "source_sha256": "60a2ccc5b56bf85fdc1cd9e42100de9f4f431bf34075e9ec3d3bea958bb067d8",
+  "crop": {
+    "source_file": "originals/tobias_s_loss_eaton.jpg",
+    "source_sha256": "60a2ccc5b56bf85fdc1cd9e42100de9f4f431bf34075e9ec3d3bea958bb067d8",
+    "box": [
+      0,
+      0,
+      375,
+      375
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/tobias_s_loss_eaton.jpg",
+    "width": 375,
+    "height": 375,
+    "sha256": "37d89a671d435c7aff0443d911b10ac4d72c859ab3d98d399f571fcf1532ce02"
+  },
+  "sha256": "37d89a671d435c7aff0443d911b10ac4d72c859ab3d98d399f571fcf1532ce02"
+}

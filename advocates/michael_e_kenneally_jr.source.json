@@ -1,0 +1,27 @@
+{
+  "identity_verified": true,
+  "name": "Michael E. Kenneally, Jr.",
+  "docket": "23-1209",
+  "kind": "photo",
+  "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQFyHltdIr7C-w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1695952461704?e=1793836800&v=beta&t=2N4rX71j-SR-jqbcyUox1u6cs0OyW1dphVgy8mBpAp8",
+  "identity_source_url": "https://www.supremecourt.gov/docket/docketfiles/html/public/23-1209.html",
+  "approval": "Owner supplied replacement",
+  "approved_at": "2026-10-15T15:56:33.539951+00:00",
+  "source_sha256": "22de195b56d39a2053925f0b346cc4b57a6011a5c33ef316b5e64b647349b592",
+  "crop": {
+    "source_file": "replacements/michael_e_kenneally_jr.jpg",
+    "source_sha256": "22de195b56d39a2053925f0b346cc4b57a6011a5c33ef316b5e64b647349b592",
+    "box": [
+      0,
+      0,
+      560,
+      560
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/michael_e_kenneally_jr.jpg",
+    "width": 560,
+    "height": 560,
+    "sha256": "0a73d2423489a7736a1986106fd8e8586a3e6ec41f84a5fa018857fe9c5cea1b"
+  },
+  "sha256": "0a73d2423489a7736a1986106fd8e8586a3e6ec41f84a5fa018857fe9c5cea1b"
+}

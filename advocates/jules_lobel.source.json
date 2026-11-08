@@ -1,0 +1,27 @@
+{
+  "identity_verified": true,
+  "name": "Jules L. Lobel",
+  "docket": "24-699",
+  "kind": "photo",
+  "source_url": "https://www.law.pitt.edu/people/jules-lobel",
+  "identity_source_url": "https://www.law.pitt.edu/people/jules-lobel",
+  "approval": "Owner approved remaining images",
+  "approved_at": "2026-10-15T15:56:33.539951+00:00",
+  "source_sha256": "9ac6dbfce3b776f39168f9ccefdfdcb909e7f2071d29e16e5371bd31087f6aa5",
+  "crop": {
+    "source_file": "originals/jules_lobel.jpg",
+    "source_sha256": "9ac6dbfce3b776f39168f9ccefdfdcb909e7f2071d29e16e5371bd31087f6aa5",
+    "box": [
+      537,
+      0,
+      3173,
+      2636
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/jules_lobel.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "4a12c515f6f7f6cc8b8f898bce7541ee6ec0dd462ed44782360b94b92845c8f1"
+  },
+  "sha256": "4a12c515f6f7f6cc8b8f898bce7541ee6ec0dd462ed44782360b94b92845c8f1"
+}

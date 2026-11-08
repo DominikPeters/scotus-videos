@@ -1,0 +1,27 @@
+{
+  "identity_verified": true,
+  "name": "Michael Zuckerman",
+  "docket": "24-1021",
+  "kind": "photo",
+  "source_url": "https://www.njoag.gov/about/leadership/michael-zuckerman-bio/",
+  "identity_source_url": "https://www.njoag.gov/about/leadership/michael-zuckerman-bio/",
+  "approval": "Owner approved remaining images",
+  "approved_at": "2026-10-15T15:56:33.539951+00:00",
+  "source_sha256": "bb9a1b41b39e5ad9dcc0db094143e6ee953fc762fabb7dd2cb4c319753d00544",
+  "crop": {
+    "source_file": "originals/michael_zuckerman.jpg",
+    "source_sha256": "bb9a1b41b39e5ad9dcc0db094143e6ee953fc762fabb7dd2cb4c319753d00544",
+    "box": [
+      0,
+      0,
+      2048,
+      2048
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/michael_zuckerman.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "fe50e65ea4c68bbf6e521ca931fa3ca0d5294cc4d1480b288820f25be9520fa7"
+  },
+  "sha256": "fe50e65ea4c68bbf6e521ca931fa3ca0d5294cc4d1480b288820f25be9520fa7"
+}

@@ -1,0 +1,27 @@
+{
+  "identity_verified": true,
+  "name": "Philip L. Ellison",
+  "docket": "25-95",
+  "kind": "photo",
+  "source_url": "https://michigansupremecourtattorney.com/meet-attorney-ellison",
+  "identity_source_url": "https://michigansupremecourtattorney.com/meet-attorney-ellison",
+  "approval": "Owner approved remaining images",
+  "approved_at": "2026-10-15T15:56:33.539951+00:00",
+  "source_sha256": "32cb894b0e6b1e952c9b1cde017c0c2035616d3d1b23bd144bbb878a2bb5a826",
+  "crop": {
+    "source_file": "originals/philip_l_ellison.jpg",
+    "source_sha256": "32cb894b0e6b1e952c9b1cde017c0c2035616d3d1b23bd144bbb878a2bb5a826",
+    "box": [
+      0,
+      35,
+      686,
+      721
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/philip_l_ellison.jpg",
+    "width": 686,
+    "height": 686,
+    "sha256": "bc5e5d6e17d253e277eed74e97a2ee6b0a031a1db3520bcbe1991ba4cde41459"
+  },
+  "sha256": "bc5e5d6e17d253e277eed74e97a2ee6b0a031a1db3520bcbe1991ba4cde41459"
+}

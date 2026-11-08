@@ -1,0 +1,27 @@
+{
+  "identity_verified": true,
+  "name": "Erin E. Murphy",
+  "docket": "24-1234",
+  "kind": "photo",
+  "source_url": "https://www.clementmurphy.com/who-we-are/erin-murphy/",
+  "identity_source_url": "https://www.clementmurphy.com/who-we-are/erin-murphy/",
+  "approval": "Owner approved remaining images",
+  "approved_at": "2026-10-15T15:56:33.539951+00:00",
+  "source_sha256": "d3ae87241366255f1912d2850ddf4c8e310cafb95229f41aaa032ed497c2ebe0",
+  "crop": {
+    "source_file": "originals/erin_e_murphy.jpg",
+    "source_sha256": "d3ae87241366255f1912d2850ddf4c8e310cafb95229f41aaa032ed497c2ebe0",
+    "box": [
+      0,
+      0,
+      400,
+      400
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/erin_e_murphy.jpg",
+    "width": 400,
+    "height": 400,
+    "sha256": "d8c1a9894a543a6ece3362c7ac095f399b936481a3e4a18f12f3dbf92221e90f"
+  },
+  "sha256": "d8c1a9894a543a6ece3362c7ac095f399b936481a3e4a18f12f3dbf92221e90f"
+}

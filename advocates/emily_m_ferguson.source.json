@@ -1,0 +1,27 @@
+{
+  "identity_verified": true,
+  "name": "Emily M. Ferguson",
+  "docket": "24-7351",
+  "kind": "photo",
+  "source_url": "https://media.licdn.com/dms/image/v2/C4E03AQFbBZYO4pM6pA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1553559662666?e=1793836800&v=beta&t=FvziTNUc5zlKMsyL9x-xOQOMDh7RAA_HflNLu1NPbJI",
+  "identity_source_url": "https://www.supremecourt.gov/docket/docketfiles/html/public/24-7351.html",
+  "approval": "Owner supplied replacement",
+  "approved_at": "2026-10-15T15:56:33.539951+00:00",
+  "source_sha256": "a206ab1d059d898c725798970e5c42e24516fc90ae1fbd04df6b3dfb08cbd8af",
+  "crop": {
+    "source_file": "replacements/emily_m_ferguson.jpg",
+    "source_sha256": "a206ab1d059d898c725798970e5c42e24516fc90ae1fbd04df6b3dfb08cbd8af",
+    "box": [
+      0,
+      0,
+      800,
+      800
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/emily_m_ferguson.jpg",
+    "width": 800,
+    "height": 800,
+    "sha256": "623fd59b7fd4ddb19d6157d83e62adeb0ff72aa98ad4c37539f8e64d8da0b98e"
+  },
+  "sha256": "623fd59b7fd4ddb19d6157d83e62adeb0ff72aa98ad4c37539f8e64d8da0b98e"
+}
