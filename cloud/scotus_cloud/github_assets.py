@@ -57,16 +57,20 @@ def commit_portrait(credential, person_id, extension, image, provenance, branch=
     existing = {item['path']: item['sha'] for item in tree['tree']}
     blob_hash = lambda data: hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
     changed = {path: data for path, data in files.items() if existing.get(path) != blob_hash(data)}
-    if not changed:
+    alternatives = [f'advocates/{person_id}.{ext}' for ext in ('jpg','jpeg','png','webp')
+                    if ext != extension and f'advocates/{person_id}.{ext}' in existing]
+    if not changed and not alternatives:
         return {'commit': head, 'already_saved': True}
-    if not approved_replacement and any(path in existing for path in files):
+    if not approved_replacement and (alternatives or any(path in existing for path in files)):
         raise ValueError('A portrait or provenance already exists; preserve it for review')
     entries = []
+    for path in alternatives:
+        entries.append({'path': path, 'mode': '100644', 'type': 'blob', 'sha': None})
     for path, data in changed.items():
         blob = request('POST', '/git/blobs', json={'content': base64.b64encode(data).decode(), 'encoding': 'base64'})
         entries.append({'path': path, 'mode': '100644', 'type': 'blob', 'sha': blob['sha']})
     result = request('POST', '/git/trees', json={'base_tree': commit['tree']['sha'], 'tree': entries})
-    action = 'Update' if any(path in existing for path in files) else 'Add'
+    action = 'Update' if alternatives or any(path in existing for path in files) else 'Add'
     created = request('POST', '/git/commits', json={'message': action + ' advocate portrait: ' + person_id,
                       'tree': result['sha'], 'parents': [head]})
     # A concurrent update rejects this non-fast-forward update; never force-push.

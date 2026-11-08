@@ -115,7 +115,6 @@ class ConnectionTests(unittest.TestCase):
     @patch('scotus_cloud.github_assets.provider_request')
     def test_approved_portrait_update_preserves_history_and_updates_only_changed_files(self, request, token):
         import hashlib
-        files=portrait_files('test_counsel','jpg',self.image,self.provenance)
         image_sha=hashlib.sha1(b'blob '+str(len(self.image)).encode()+b'\0'+self.image).hexdigest()
         request.side_effect=[{'object':{'sha':'current-head'}},{'tree':{'sha':'current-tree'}},
             {'tree':[{'path':'advocates/test_counsel.jpg','sha':image_sha},
@@ -132,6 +131,21 @@ class ConnectionTests(unittest.TestCase):
         self.assertEqual(created['parents'],['current-head'])
         self.assertTrue(created['message'].startswith('Update'))
         self.assertEqual(request.call_args.kwargs['json'],{'sha':'new-commit','force':False})
+
+    @patch('scotus_cloud.github_assets.github_token', return_value='private-token')
+    @patch('scotus_cloud.github_assets.provider_request')
+    def test_approved_photo_replaces_a_placeholder_in_another_format(self, request, token):
+        request.side_effect=[{'object':{'sha':'head'}},{'tree':{'sha':'tree'}},
+            {'tree':[{'path':'advocates/test_counsel.png','sha':'old-placeholder'},
+                     {'path':'advocates/test_counsel.source.json','sha':'old-metadata'}]},
+            {'sha':'photo'},{'sha':'metadata'},{'sha':'new-tree'},{'sha':'new-commit'},{}]
+        commit_portrait({'repository':GITHUB_REPOSITORY},'test_counsel','jpg',self.image,self.provenance,
+                        branch='main',approved_replacement=True)
+        tree=next(c.kwargs['json'] for c in request.call_args_list if c.args[0]=='POST' and c.args[1].endswith('/git/trees'))
+        entries={e['path']:e['sha'] for e in tree['tree']}
+        self.assertIsNone(entries['advocates/test_counsel.png'])
+        self.assertEqual(entries['advocates/test_counsel.jpg'],'photo')
+        self.assertEqual(set(entries),{'advocates/test_counsel.png','advocates/test_counsel.jpg','advocates/test_counsel.source.json'})
 
     @patch('scotus_cloud.control.Dashboard.call', return_value='lease-token')
     @patch('scotus_cloud.control.youtube_exchange', return_value={'client_id': 'c', 'client_secret': 'private-secret', 'refresh_token': 'refresh-secret'})
