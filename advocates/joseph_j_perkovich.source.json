@@ -1,0 +1,27 @@
+{
+  "identity_verified": true,
+  "name": "Joseph J. Perkovich",
+  "docket": "24-7351",
+  "kind": "photo",
+  "source_url": "https://law.washu.edu/directory/profile/joseph-perkovich/",
+  "identity_source_url": "https://www.supremecourt.gov/docket/docketfiles/html/public/24-7351.html",
+  "approval": "Owner approved remaining images",
+  "approved_at": "2026-10-15T15:56:33.539951+00:00",
+  "source_sha256": "92cfec4621a8c03beae23adf03d58b1aedafcb0b1f6f768ef75e02c0bd978647",
+  "crop": {
+    "source_file": "originals/joseph-j-perkovich.png",
+    "source_sha256": "92cfec4621a8c03beae23adf03d58b1aedafcb0b1f6f768ef75e02c0bd978647",
+    "box": [
+      0,
+      0,
+      480,
+      480
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/joseph_j_perkovich.jpg",
+    "width": 480,
+    "height": 480,
+    "sha256": "7a2cd3fbd7bd02ab6675631895669027bbc7f03f531f68d9e7ce333f73b99062"
+  },
+  "sha256": "7a2cd3fbd7bd02ab6675631895669027bbc7f03f531f68d9e7ce333f73b99062"
+}

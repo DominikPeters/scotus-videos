@@ -1,0 +1,27 @@
+{
+  "identity_verified": true,
+  "name": "Richard D. Klingler",
+  "docket": "24-983",
+  "kind": "photo",
+  "source_url": "https://georgellp.com/attorneys/richard-klingler/",
+  "identity_source_url": "https://georgellp.com/attorneys/richard-klingler/",
+  "approval": "Owner approved remaining images",
+  "approved_at": "2026-10-15T15:56:33.539951+00:00",
+  "source_sha256": "71aa990868ef84e1c0d459ead754e8bcc6c5653315692e6f161632c35770648a",
+  "crop": {
+    "source_file": "originals/richard_d_klingler.jpg",
+    "source_sha256": "71aa990868ef84e1c0d459ead754e8bcc6c5653315692e6f161632c35770648a",
+    "box": [
+      0,
+      0,
+      700,
+      700
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/richard_d_klingler.jpg",
+    "width": 700,
+    "height": 700,
+    "sha256": "b2c34a1d10215dde34e91eb0debf4e128afd438153237906daf7e54f1e9b8fb6"
+  },
+  "sha256": "b2c34a1d10215dde34e91eb0debf4e128afd438153237906daf7e54f1e9b8fb6"
+}

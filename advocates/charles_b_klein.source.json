@@ -1,0 +1,27 @@
+{
+  "identity_verified": true,
+  "name": "Charles B. Klein",
+  "docket": "24-889",
+  "kind": "photo",
+  "source_url": "https://www.winstontaylor.com/people/charles-b-klein",
+  "identity_source_url": "https://www.winstontaylor.com/people/charles-b-klein",
+  "approval": "Owner approved remaining images",
+  "approved_at": "2026-10-15T15:56:33.539951+00:00",
+  "source_sha256": "7993c7193da05b8e2e52a95bd67848ea7d871668123851f544a010e1ce122b38",
+  "crop": {
+    "source_file": "originals/charles_b_klein.jpg",
+    "source_sha256": "7993c7193da05b8e2e52a95bd67848ea7d871668123851f544a010e1ce122b38",
+    "box": [
+      200,
+      70,
+      1400,
+      1270
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/charles_b_klein.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "4bb738e0048ae187be39eb358f092be9168bfde1eddb1008189728d801e7b388"
+  },
+  "sha256": "4bb738e0048ae187be39eb358f092be9168bfde1eddb1008189728d801e7b388"
+}

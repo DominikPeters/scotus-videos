@@ -1,0 +1,28 @@
+{
+  "identity_verified": true,
+  "name": "Brian W. Barnes",
+  "docket": "25-5930",
+  "source_url": "https://www.cooperkirk.com/lawyers/brian-w-barnes/",
+  "identity_source_url": "https://www.cooperkirk.com/lawyers/brian-w-barnes/",
+  "kind": "photo",
+  "approval": "owner dashboard approval",
+  "recording": "2026-11-02-25-5930-argument-1",
+  "source_sha256": "a250a459b576b4d5315d0dd12e1e253a81a818b1aa191b080d81315092851610",
+  "crop": {
+    "x": 48,
+    "y": 24,
+    "size": 394,
+    "source_width": 520,
+    "source_height": 764,
+    "method": "codex-vision",
+    "model": "gpt-6.1-sol",
+    "preview_box": {
+      "x": 40,
+      "y": 20,
+      "size": 330
+    },
+    "preview_width": 436,
+    "preview_height": 640
+  },
+  "sha256": "53005cd9af5cd4e001b7a6de2432a0f4a0c88ba9c31e6167449e4d523c791536"
+}

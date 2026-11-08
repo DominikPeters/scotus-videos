@@ -1,0 +1,28 @@
+{
+  "identity_verified": true,
+  "name": "Anthony J. Dick",
+  "docket": "25-5343",
+  "source_url": "https://www.jonesday.com/en/lawyers/d/anthony-dick?tab=overview",
+  "identity_source_url": "https://www.jonesday.com/en/lawyers/d/anthony-dick?tab=overview",
+  "kind": "photo",
+  "approval": "owner dashboard approval",
+  "recording": "2026-10-13-25-5343-argument-1",
+  "source_sha256": "959a58217a5e4bbc32674417f67642996989354314615b8923e73af3cab18b78",
+  "crop": {
+    "x": 184,
+    "y": 0,
+    "size": 728,
+    "source_width": 1068,
+    "source_height": 728,
+    "method": "codex-vision",
+    "model": "gpt-6.1-sol",
+    "preview_box": {
+      "x": 110,
+      "y": 0,
+      "size": 436
+    },
+    "preview_width": 640,
+    "preview_height": 436
+  },
+  "sha256": "b4f797dda0bfa6a25641fa2f3d16b174d8bc0cad8cdba4e9e8fba92190069656"
+}

@@ -1,0 +1,27 @@
+{
+  "identity_verified": true,
+  "name": "Geoffrey M. Pipoly",
+  "docket": "25-1083",
+  "kind": "photo",
+  "source_url": "https://www.bclplaw.com/en-US/people/geoffrey-m-pipoly.html",
+  "identity_source_url": "https://www.bclplaw.com/en-US/people/geoffrey-m-pipoly.html",
+  "approval": "Owner approved remaining images",
+  "approved_at": "2026-10-15T15:56:33.539951+00:00",
+  "source_sha256": "cc3b755f76eabc6e8548067479eb2f0688cba6bf6dc2fddeea3ca875dd05504b",
+  "crop": {
+    "source_file": "originals/geoffrey_m_pipoly.jpg",
+    "source_sha256": "cc3b755f76eabc6e8548067479eb2f0688cba6bf6dc2fddeea3ca875dd05504b",
+    "box": [
+      1240,
+      0,
+      2090,
+      850
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/geoffrey_m_pipoly.jpg",
+    "width": 850,
+    "height": 850,
+    "sha256": "c7196c1b18969d2b2fbb56c72f04ef10cc691d8298ca3987a1f4a430b41dc5a5"
+  },
+  "sha256": "c7196c1b18969d2b2fbb56c72f04ef10cc691d8298ca3987a1f4a430b41dc5a5"
+}

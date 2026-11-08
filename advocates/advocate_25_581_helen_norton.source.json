@@ -1,0 +1,28 @@
+{
+  "identity_verified": true,
+  "name": "Helen Norton",
+  "docket": "25-581",
+  "source_url": "https://www.colorado.edu/law/about/contact-us/directories/resident-faculty-directory/helen-norton",
+  "identity_source_url": "https://www.colorado.edu/law/about/contact-us/directories/resident-faculty-directory/helen-norton",
+  "kind": "photo",
+  "approval": "owner dashboard approval",
+  "recording": "2026-11-03-25-581-argument-1",
+  "source_sha256": "c9b96dd8117f6b146f273c6376791400e3d172668d9f8e55b5d91c9fed0153b3",
+  "crop": {
+    "x": 562,
+    "y": 19,
+    "size": 750,
+    "source_width": 1500,
+    "source_height": 1500,
+    "method": "codex-vision",
+    "model": "gpt-6.1-sol",
+    "preview_box": {
+      "x": 240,
+      "y": 8,
+      "size": 320
+    },
+    "preview_width": 640,
+    "preview_height": 640
+  },
+  "sha256": "2b8548fe027b03aa9819b37fab82f9353a0aa5c7e2bfaf34a4e4dfc5c0eb57a8"
+}

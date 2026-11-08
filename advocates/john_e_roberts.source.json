@@ -1,0 +1,27 @@
+{
+  "identity_verified": true,
+  "name": "John E. Roberts",
+  "docket": "23-1209",
+  "kind": "photo",
+  "source_url": "https://www.proskauer.com/professionals/john-roberts",
+  "identity_source_url": "https://www.supremecourt.gov/docket/docketfiles/html/public/23-1209.html",
+  "approval": "Owner approved remaining images",
+  "approved_at": "2026-10-15T15:56:33.539951+00:00",
+  "source_sha256": "93cd81afb917a7a6c2055d61df78800db86332fe60a1cbf1fa11ed1333b38fdc",
+  "crop": {
+    "source_file": "originals/john-e-roberts.jpg",
+    "source_sha256": "93cd81afb917a7a6c2055d61df78800db86332fe60a1cbf1fa11ed1333b38fdc",
+    "box": [
+      61,
+      0,
+      585,
+      524
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/john_e_roberts.jpg",
+    "width": 524,
+    "height": 524,
+    "sha256": "8720389b710994c980fd252e3816d039941e39c399ba684a91a2c1933dbb510f"
+  },
+  "sha256": "8720389b710994c980fd252e3816d039941e39c399ba684a91a2c1933dbb510f"
+}

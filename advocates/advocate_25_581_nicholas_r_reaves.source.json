@@ -1,0 +1,28 @@
+{
+  "identity_verified": true,
+  "name": "Nicholas R. Reaves",
+  "docket": "25-581",
+  "source_url": "https://becketnewsite.s3.amazonaws.com/Nick_Reaves-1.jpg",
+  "identity_source_url": "https://www.supremecourt.gov/docket/docketfiles/html/public/25-581.html",
+  "kind": "photo",
+  "approval": "owner dashboard approval",
+  "recording": "2026-11-03-25-581-argument-1",
+  "source_sha256": "09bacaf781ed4f7a97fa9d909749d8a3c606ff5180d3dea3190193ae05836528",
+  "crop": {
+    "x": 448,
+    "y": 0,
+    "size": 2731,
+    "source_width": 4096,
+    "source_height": 2731,
+    "method": "codex-vision",
+    "model": "gpt-6.1-sol",
+    "preview_box": {
+      "x": 70,
+      "y": 0,
+      "size": 427
+    },
+    "preview_width": 640,
+    "preview_height": 427
+  },
+  "sha256": "475fafa0a07b38142a278e99c6ce66c75e434dd0e2e5881027bf7fd005aa4bce"
+}
