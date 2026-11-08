@@ -5,6 +5,18 @@ sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from scotus_cloud.annotation_cards import clean,cue_for,CardTools,normalized,preview_fingerprint
 from scotus_cloud.model import digest_json
 class CardTests(unittest.TestCase):
+ def test_finishing_again_reuses_an_exhibit_uploaded_before_a_lost_checkpoint(self):
+  with tempfile.TemporaryDirectory() as folder:
+   objects={};cloud=Mock()
+   def upload(path,uri,kind):
+    if uri in objects:raise RuntimeError('Object upload could not start: HTTP 412')
+    objects[uri]=Path(path).read_bytes()
+   cloud.storage_upload.side_effect=upload;cloud.storage_bytes.side_effect=lambda uri,**kw:objects[uri]
+   tools=CardTools({'id':'job'}, {},{}, {},cloud,Mock(),folder);tools.settings={'bucket':'private'}
+   path='cards/assets/exhibit.jpg';tools.assets[path]=b'saved exhibit'
+   tools.validate_result=Mock(return_value=[{'cue':{'image':path},'sources':[]}])
+   first=tools.finish({'cards':[],'private_notes':[]});second=tools.finish({'cards':[],'private_notes':[]})
+   self.assertEqual(first['assets'],second['assets']);self.assertEqual(len(objects),1)
  def card(self):return {'id':'case-one','start_block':1,'end_block':2,'cue_json':json.dumps({'kind':'Excerpt','quote':'A source passage','heading':'Source passage','source':'Official source','highlight':['source passage']}),'evidence':[{'source_id':'source','page':1,'quote':'A source passage','claim':'Supports this text'}],'recommended':False,'reason':'Optional context','preview_id':'','visual_checked':False}
  def test_block_timing_and_markup(self):
   transcript={'paragraphs':[{'start':0,'text':''},{'start':12,'text':'source passage'},{'start':21,'text':''}],'audio':{'duration_seconds':30}}

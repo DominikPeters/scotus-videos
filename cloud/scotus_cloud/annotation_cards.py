@@ -421,7 +421,8 @@ class CardTools:
   for card in cards:
    path=card['cue'].get('image')
    if path and path not in assets:
-    data=self.assets[path];file=self.folder/Path(path).name;file.write_bytes(data);uri=f'gs://{self.settings["bucket"]}/reviews/{self.job["id"]}/cards/assets/{file.name}';self.cloud.storage_upload(file,uri,'image/jpeg');assets[path]={'uri':uri,'sha256':hashlib.sha256(data).hexdigest()}
+    data=self.assets[path];file=self.folder/Path(path).name;file.write_bytes(data);uri=f'gs://{self.settings["bucket"]}/reviews/{self.job["id"]}/cards/assets/{file.name}'
+    uri=self.upload_preview(file,uri,data);assets[path]={'uri':uri,'sha256':hashlib.sha256(data).hexdigest()}
   for card in result['cards']:self.proposals[card['id']]=card
   if self.history:self.history.save(self)
   notes=list(result['private_notes'])
