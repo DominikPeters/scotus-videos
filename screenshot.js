@@ -99,7 +99,7 @@ function formatTime(seconds) {
 
     async function takeScreenshot(frameNumber) {
         const fileName = `${framesDir}/${caseNumber}/frame-${frameNumber}.png`;
-        if (!fs.existsSync(fileName)) {
+        if (!fs.existsSync(fileName) && frameNumber > 980) {
             await page.screenshot({ path: fileName });
         }
     }
