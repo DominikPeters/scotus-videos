@@ -40,7 +40,7 @@ def main():
             provenance.update({key:candidate[key] for key in ('source_sha256','crop') if key in candidate})
             if candidate['kind']=='initials':provenance['synthetic']={'type':'initials','text':candidate['initials'],'renderer':'deterministic typography'}
             extension='jpg' if image.startswith(b'\xff\xd8') else 'png'
-            result=commit_portrait(credential,person,extension,image,provenance)
+            result=commit_portrait(credential,person,extension,image,provenance,approved_replacement=True)
             results.append({'person':person,**result})
         success=True
     finally:

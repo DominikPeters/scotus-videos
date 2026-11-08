@@ -37,7 +37,8 @@ def portrait_files(person_id, extension, image, provenance):
     return {f'advocates/{person_id}.{extension}': image, f'advocates/{person_id}.source.json': metadata}
 
 
-def commit_portrait(credential, person_id, extension, image, provenance, branch=None):
+def commit_portrait(credential, person_id, extension, image, provenance, branch=None, *, approved_replacement=False):
+    """Save a portrait; replacement authority comes from an owner-approved candidate."""
     files = portrait_files(person_id, extension, image, provenance)
     if credential.get('repository') != GITHUB_REPOSITORY:
         raise ValueError('Unsupported repository or branch')
@@ -55,16 +56,18 @@ def commit_portrait(credential, person_id, extension, image, provenance, branch=
         raise ValueError('Repository tree is incomplete')
     existing = {item['path']: item['sha'] for item in tree['tree']}
     blob_hash = lambda data: hashlib.sha1(b'blob ' + str(len(data)).encode() + b'\0' + data).hexdigest()
-    if all(existing.get(path) == blob_hash(data) for path, data in files.items()):
+    changed = {path: data for path, data in files.items() if existing.get(path) != blob_hash(data)}
+    if not changed:
         return {'commit': head, 'already_saved': True}
-    if any(path in existing for path in files):
+    if not approved_replacement and any(path in existing for path in files):
         raise ValueError('A portrait or provenance already exists; preserve it for review')
     entries = []
-    for path, data in files.items():
+    for path, data in changed.items():
         blob = request('POST', '/git/blobs', json={'content': base64.b64encode(data).decode(), 'encoding': 'base64'})
         entries.append({'path': path, 'mode': '100644', 'type': 'blob', 'sha': blob['sha']})
     result = request('POST', '/git/trees', json={'base_tree': commit['tree']['sha'], 'tree': entries})
-    created = request('POST', '/git/commits', json={'message': 'Add advocate portrait: ' + person_id,
+    action = 'Update' if any(path in existing for path in files) else 'Add'
+    created = request('POST', '/git/commits', json={'message': action + ' advocate portrait: ' + person_id,
                       'tree': result['sha'], 'parents': [head]})
     # A concurrent update rejects this non-fast-forward update; never force-push.
     request('PATCH', '/git/refs/heads/' + quote(branch, safe=''), json={'sha': created['sha'], 'force': False})
