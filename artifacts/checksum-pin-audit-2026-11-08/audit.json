@@ -4,7 +4,7 @@
     {
       "id": "F1",
       "priority": "P2",
-      "status": "reproduced",
+      "status": "fixed_and_deployed",
       "title": "Research caches pin URLs across resumed work without checking current content",
       "file": "cloud/scotus_cloud/annotation_cards.py",
       "line": 166,
@@ -17,12 +17,15 @@
       "trigger": "A public evidence document is corrected at the same URL, and research resumes or transcript blocks are refreshed.",
       "behavior": "URL SHA remains the cache identity. Existing sources bypass fetch; CardHistory retains those sources while rebinding changed transcript blocks.",
       "impact": "New cards can continue using stale evidence despite a fresh official transcript.",
-      "recommendation": "Retain immutable snapshots for a finished research run, but revalidate URL-backed sources on explicit source refresh and record a new content revision. Preserve old versions as evidence for old cards."
+      "recommendation": "Retain immutable snapshots for a finished research run, but revalidate URL-backed sources on explicit source refresh and record a new content revision. Preserve old versions as evidence for old cards.",
+      "fix_commit": "61a631b",
+      "resolution": "Source refreshes and changed transcript blocks revalidate cached URL bytes before research resumes. Identical bytes retain OCR and designs; changed bytes return designs and decisions to review.",
+      "deployment_release": "worker-20261108-cfa9c9cc"
     },
     {
       "id": "F2",
       "priority": "P2",
-      "status": "reproduced",
+      "status": "fixed_and_deployed",
       "title": "Portrait publisher rejects legitimate replacements and even metadata-only updates",
       "file": "cloud/scotus_cloud/github_assets.py",
       "line": 58,
@@ -35,12 +38,15 @@
       "trigger": "Owner approves a replacement for an advocate ID already published, or provenance changes while image bytes stay identical.",
       "behavior": "Idempotency requires both Git blobs to match exactly; any existing differing file produces a hard error. Website export precedes the GitHub step.",
       "impact": "Archive remains stale; website can contain the new image while GitHub publication fails.",
-      "recommendation": "Allow explicitly approved revisions using normal Git commits and expected-current-content conflict checks. Treat identical images with updated provenance as metadata updates."
+      "recommendation": "Allow explicitly approved revisions using normal Git commits and expected-current-content conflict checks. Treat identical images with updated provenance as metadata updates.",
+      "fix_commit": "e935a57",
+      "resolution": "Owner-approved replacements update only changed Git blobs with a normal non-force commit. Alternate image formats for the same advocate are removed in that commit. Website export follows successful archive writes.",
+      "deployment_release": "worker-20261108-cfa9c9cc"
     },
     {
       "id": "F3",
       "priority": "P2",
-      "status": "reproduced",
+      "status": "fixed_and_deployed",
       "title": "Content-addressed card exhibits cannot be safely uploaded again",
       "file": "cloud/scotus_cloud/annotation_cards.py",
       "line": 424,
@@ -53,24 +59,30 @@
       "trigger": "A worker uploaded an exhibit and then lost its checkpoint, or enrichment runs again with the same exhibit.",
       "behavior": "finish uploads to the same content-addressed path using a create-only storage API and does not handle an existing identical object.",
       "impact": "An ordinary replay fails with HTTP 412.",
-      "recommendation": "Reuse identical existing bytes, as upload_preview and CardHistory already do. Preserve create-only conflict handling for different content."
+      "recommendation": "Reuse identical existing bytes, as upload_preview and CardHistory already do. Preserve create-only conflict handling for different content.",
+      "fix_commit": "c26f2a4",
+      "resolution": "Exhibit finish uses the existing retry-safe upload helper and reuses identical saved objects.",
+      "deployment_release": "worker-20261108-cfa9c9cc"
     },
     {
       "id": "F4",
       "priority": "P2",
-      "status": "reproduced",
+      "status": "fixed_and_deployed",
       "title": "Source freshness check misses replacement audio at an unchanged URL",
       "file": "cloud/scotus_cloud/maintenance.py",
       "line": 39,
       "trigger": "The Court replaces audio bytes at the same MP3 URL while the transcript PDF stays unchanged.",
       "behavior": "PDF is compared by content; audio is compared only by URL. The stored audio hash is not consulted against the official recording.",
       "impact": "Source refresh reports current and retries alignment with stale prepared audio.",
-      "recommendation": "Revalidate official audio on explicit refresh or a source-related alignment failure, using content or trustworthy change metadata; avoid repeatedly downloading it during routine polling."
+      "recommendation": "Revalidate official audio on explicit refresh or a source-related alignment failure, using content or trustworthy change metadata; avoid repeatedly downloading it during routine polling.",
+      "fix_commit": "671e214",
+      "resolution": "Claimed source refreshes stream the current official audio and compare its digest with prepared audio. Same-URL replacements regenerate preparation and downstream stages; ordinary healthy-case polling does not fetch audio.",
+      "deployment_release": "worker-20261108-cfa9c9cc"
     },
     {
       "id": "F5",
       "priority": "P2",
-      "status": "reproduced at reference-library interface; no production occurrence asserted",
+      "status": "fixed_and_deployed",
       "title": "Reference-library signatures omit source revisions and can leave old originals behind",
       "file": "cloud/scotus_cloud/card_library.py",
       "line": 78,
@@ -83,7 +95,10 @@
       "trigger": "A source PDF or its page metadata changes without changing extracted page text.",
       "behavior": "The update signature covers only page number/text. source.json is not refreshed; an existing original.pdf is never replaced. Even when text changes, the old original can survive alongside new metadata.",
       "impact": "Readers can see inconsistent source metadata and original PDF bytes.",
-      "recommendation": "Include source content revision and relevant page metadata in the signature, and replace the exported PDF when that source revision changes."
+      "recommendation": "Include source content revision and relevant page metadata in the signature, and replace the exported PDF when that source revision changes.",
+      "fix_commit": "61a631b",
+      "resolution": "Reference exports include source bytes and page metadata in freshness checks, replace PDFs and removed page files together, and copy rather than hard-link mutable downloads.",
+      "deployment_release": "worker-20261108-cfa9c9cc"
     },
     {
       "id": "R1",

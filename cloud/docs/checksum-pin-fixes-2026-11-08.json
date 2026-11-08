@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-08",
+  "scope": "First checksum/pin audit fixes and the necessary reference-export companion fix. Checkpoint cleanup merged to master, including removal of the screenshot frame cutoff.",
+  "release": "worker-20261108-cfa9c9cc",
+  "fixes": {
+    "F1": "61a631b",
+    "F2": [
+      "0da96c6",
+      "7568239",
+      "e935a57"
+    ],
+    "F3": "c26f2a4",
+    "F4": "671e214",
+    "F5": "61a631b"
+  },
+  "validation": {
+    "local_cloud_suite": {
+      "tests": 377,
+      "skipped": 11,
+      "passed": true
+    },
+    "pipeline_image_suite": {
+      "tests": 376,
+      "skipped": 5,
+      "passed": true
+    },
+    "control_image_source_refresh_tests": {
+      "tests": 6,
+      "passed": true
+    },
+    "asset_image_publication_tests": {
+      "tests": 6,
+      "passed": true
+    },
+    "source_overlay": "Each changed runtime file matched the deployed pipeline preimage at checkpoint e9c1c15. Images reuse deployed dependencies and overlay the reviewed files only."
+  },
+  "builds": {
+    "control": {
+      "build_id": "775674d5-7c4d-429d-9163-acd5414f7aa7",
+      "status": "SUCCESS",
+      "image": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/control@sha256:7e5b0510ef844f7466bb87401a3328bd0167bf18d6dc3aa0d331c9535b5bef1a"
+    },
+    "pipeline": {
+      "build_id": "9c680e80-3e60-4b30-b085-657d9db53e6d",
+      "status": "SUCCESS",
+      "image": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/pipeline@sha256:8e3c3b723fb9ce3493919bf2ef0647a6ef1a7f91296adcee85e45ead637fa7a2"
+    },
+    "assets": {
+      "build_id": "5289126d-343d-4b99-90d2-05fa79a97b62",
+      "status": "SUCCESS",
+      "image": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/assets@sha256:1ea12c47cb62b936b11f819f25b3ce22dedecea41a6fc30d64550eac1f8bcb7b"
+    },
+    "superseded": {
+      "pipeline": "1b921353-2b89-41b6-a5a9-7a20d07d3d04",
+      "assets": "05d1c80a-dff3-4bd5-a100-d8e33704c6bc"
+    }
+  },
+  "billing_check": {
+    "machine_override": null,
+    "report_period": "2026-10-25 through 2026-11-08",
+    "observed_sku": "A464-9020-6404: Build time e2-standard-2",
+    "posted_minutes": 42.67,
+    "posted_cost_gbp": 0.0,
+    "batch_cost_not_separately_identifiable": true
+  },
+  "deployment": {
+    "status": "deployed",
+    "pipeline_jobs_updated": [
+      "scotus-video-align",
+      "scotus-video-align-long",
+      "scotus-video-assemble",
+      "scotus-video-deliver",
+      "scotus-video-enrich",
+      "scotus-video-photos",
+      "scotus-video-plan",
+      "scotus-video-prepare",
+      "scotus-video-recovery",
+      "scotus-video-recovery-test",
+      "scotus-video-render",
+      "scotus-video-research",
+      "scotus-video-upload"
+    ],
+    "control_image": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/control@sha256:7e5b0510ef844f7466bb87401a3328bd0167bf18d6dc3aa0d331c9535b5bef1a",
+    "pipeline_image": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/pipeline@sha256:8e3c3b723fb9ce3493919bf2ef0647a6ef1a7f91296adcee85e45ead637fa7a2",
+    "assets": {
+      "job": "scotus-video-assets",
+      "image": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/assets@sha256:1ea12c47cb62b936b11f819f25b3ce22dedecea41a6fc30d64550eac1f8bcb7b",
+      "updated": true
+    },
+    "isolated_checks_passed": {
+      "check": true
+    },
+    "repair_compatibility": {
+      "updated_references": 0,
+      "superseded_references": 0
+    },
+    "processing_hold_released": true
+  },
+  "remaining_separate_batch": [
+    "R1: generate renderer manifest during builds instead of hand-maintaining hashes",
+    "R2: package matching fonts, logos and seal assets instead of fetching a fixed old Git revision at runtime"
+  ]
+}
