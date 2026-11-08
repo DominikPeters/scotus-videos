@@ -1,0 +1,1050 @@
+{
+  "CaseNumber": "24-935 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "06/29/2026",
+  "sJsonTerm": "2024",
+  "sJsonCaseNumber": "00935",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Flowers Foods, Inc., et al., Petitioners",
+  "RespondentTitle": "Angelo Brock",
+  "DocketedDate": "February 28, 2025",
+  "Links": "Linked with 25A789",
+  "LowerCourt": "United States Court of Appeals for the Tenth Circuit",
+  "LowerCourtCaseNumbers": "(23-1182)",
+  "LowerCourtDecision": "November 12, 2024",
+  "LowerCourtRehearingDenied": "December 9, 2024",
+  "QPLink": "../qp/24-00935qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Feb 14 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due March 31, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "Brock - Cert Petition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/342888/20250219160940575_Brock%20-%20Cert%20Petition.pdf"
+        },
+        {
+          "Description": "Appendix",
+          "File": "Brock - Cert Petition Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/342888/20250214161920501_Brock%20-%20Cert%20Petition%20Appendix.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Brock Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/342888/20250214162150976_Brock%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Brock Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/342888/20250214162201891_Brock%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 13 2025",
+      "Text": "Waiver of right of respondent Angelo Brock to respond filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "20250324-152047-95764058-00001994.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/352841/20250324152144580_20250324-152047-95764058-00001994.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 26 2025",
+      "Text": "DISTRIBUTED for Conference of 4/17/2025."
+    },
+    {
+      "Date": "Mar 28 2025",
+      "Text": "Response Requested. (Due April 28, 2025)"
+    },
+    {
+      "Date": "Mar 31 2025",
+      "Text": "Brief amici curiae of DRI Center for Law and Public Policy, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-935 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/354440/20250331145219984_No.%2024-935%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-935 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/354440/20250331145231137_No.%2024-935%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-935 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/354440/20250331145239762_No.%2024-935%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 17 2025",
+      "Text": "Motion to extend the time to file a response from April 28, 2025 to May 28, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Flower Foods BIO extension.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/355955/20250417190331156_Flower%20Foods%20BIO%20extension.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 21 2025",
+      "Text": "Motion to extend the time to file a response is granted in part and the time is extended to and including May 27, 2025."
+    },
+    {
+      "Date": "May 19 2025",
+      "Text": "Motion to extend the time to file a response from May 27, 2025 to June 26, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025.5.19 Flower Foods BIO extension.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/359114/20250519143620017_2025.5.19%20Flower%20Foods%20BIO%20extension.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 20 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is further extended to and including June 26, 2025."
+    },
+    {
+      "Date": "Jun 26 2025",
+      "Text": "Brief of respondent Angelo Brock in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Brock BIO.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/364001/20250626171020593_Brock%20BIO.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-935 Gupta Wessler  COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/364001/20250626171039772_No.%2024-935%20Gupta%20Wessler%20%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-935 Gupta Wessler  COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/364001/20250626171028560_No.%2024-935%20Gupta%20Wessler%20%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 16 2025",
+      "Text": "DISTRIBUTED for Conference of 9/29/2025."
+    },
+    {
+      "Date": "Jul 16 2025",
+      "Text": "Reply of petitioners Flower Foods, Inc., et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-935_cert rb.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/365331/20250716130622412_24-935_cert%20rb.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-935_cert rb COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/365331/20250716130633199_24-935_cert%20rb%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-935_cert rb COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/365331/20250716130638787_24-935_cert%20rb%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 06 2025",
+      "Text": "DISTRIBUTED for Conference of 10/10/2025."
+    },
+    {
+      "Date": "Oct 14 2025",
+      "Text": "DISTRIBUTED for Conference of 10/17/2025."
+    },
+    {
+      "Date": "Oct 20 2025",
+      "Text": "Petition GRANTED."
+    },
+    {
+      "Date": "Dec 04 2025",
+      "Text": "Brief of petitioners Flower Foods, Inc., et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-935 ts.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/386465/20251204160956834_24-935%20ts.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-935_ts COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/386465/20251204161002524_24-935_ts%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-935_ts COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/386465/20251204161007264_24-935_ts%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 04 2025",
+      "Text": "Joint appendix filed.  (Statement of costs filed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-935_Joint Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/386466/20251204161158402_24-935_Joint%20Appendix.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-935_ts COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/386466/20251204161208459_24-935_ts%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 05 2025",
+      "Text": "Motion for an extension of time to file respondent's brief on the merits filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "response brief extension.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/386620/20251205192524883_response%20brief%20extension.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 10 2025",
+      "Text": "Brief amicus curiae of Pioneer New England Legal Foundation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-935 amicus brief of Pioneer New England Legal Foundation.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/386965/20251210125359867_No.%2024-935%20amicus%20brief%20of%20Pioneer%20New%20England%20Legal%20Foundation.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/386965/20251210125434618_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Word Count Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/386965/20251210125511051_Word%20Count%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 11 2025",
+      "Text": "Motion to extend the time to file respondent's brief on the merits granted and the time is extended to and including January 12, 2026."
+    },
+    {
+      "Date": "Dec 11 2025",
+      "Text": "Brief amicus curiae of Coalition for Workforce Innovation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-935_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387049/20251211104137586_24-935_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-935_Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387049/20251211104156988_24-935_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-935_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387049/20251211104202444_24-935_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 11 2025",
+      "Text": "Brief amici curiae of Missouri, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Flower Foods Inc. No. 24-935 Amicus Brief FOR FILING 004.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387131/20251211155557767_Flower%20Foods%20Inc.%20No.%2024-935%20Amicus%20Brief%20FOR%20FILING%20004.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-935 Office of Attorney General Missouri COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387131/20251211155619769_No.%2024-935%20Office%20of%20Attorney%20General%20Missouri%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-935 Office of Attorney General Missouri COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387131/20251211155640621_No.%2024-935%20Office%20of%20Attorney%20General%20Missouri%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 11 2025",
+      "Text": "Brief amici curiae of Chamber of Commerce of the United States of America, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Flowers Foods - Chamber et al Merits-Stage Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387120/20251211153203711_Flowers%20Foods%20-%20Chamber%20et%20al%20Merits-Stage%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Flowers Foods amicus - Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387120/20251211153215820_Flowers%20Foods%20amicus%20-%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Flowers Foods amicus - Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387120/20251211153227271_Flowers%20Foods%20amicus%20-%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 11 2025",
+      "Text": "Brief amicus curiae of Menzies Aviation, Inc. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-935 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387145/20251211171747036_24-935%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-935 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387145/20251211171752800_24-935%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-935 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387145/20251211171758527_24-935%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 11 2025",
+      "Text": "Brief amici curiae of DRI Center for Law, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-935 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387105/20251211144840255_24-935%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-935 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387105/20251211144857743_24-935%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-935 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387105/20251211144905945_24-935%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 11 2025",
+      "Text": "Brief amicus curiae of Washington Legal Foundation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "WLF Amicus Brief - Flower Foods v Brock 11dec2025.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387086/20251211134441984_WLF%20Amicus%20Brief%20-%20Flower%20Foods%20v%20Brock%2011dec2025.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-935 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387086/20251211134502677_24-935%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-935 Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387086/20251211134517000_24-935%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 11 2025",
+      "Text": "Brief amici curiae of Independent Bakers Association, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "IBA Amicus Brief Final - Brock.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387079/20251211131310654_IBA%20Amicus%20Brief%20Final%20-%20Brock.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Flowers Foods Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387079/20251211131328582_Flowers%20Foods%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Flowers Foods Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387079/20251211131357423_Flowers%20Foods%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 11 2025",
+      "Text": "Brief amicus curiae of Amazon.com, Inc. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387104/20251211143831600_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-935 Morgan Lewis Bockius LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387104/20251211143845697_No.%2024-935%20Morgan%20Lewis%20Bockius%20LLP%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-935 Morgan Lewis Bockius LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387104/20251211143852119_No.%2024-935%20Morgan%20Lewis%20Bockius%20LLP%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 11 2025",
+      "Text": "Brief amicus curiae of California Employment Law Council filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-935 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387142/20251211165836513_24-935%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-935 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387142/20251211165844654_24-935%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-935 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/387142/20251211165853439_24-935%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 02 2026",
+      "Text": "Motion of Angelo Brock for an extension of time not accepted for filing. (January 06, 2026)"
+    },
+    {
+      "Date": "Jan 06 2026",
+      "Text": "Motion for an extension of time to file respondent's brief on the merits filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Flowers.Amended Extension Request.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/390949/20260106160254558_Flowers.Amended%20Extension%20Request.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 07 2026",
+      "Text": "Application (25A789) to extend the time to file the reply brief on the merits, submitted to Justice Gorsuch.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-935 Reply Extension Application.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/391017/20260107122347331_24-935%20Reply%20Extension%20Application.pdf"
+        },
+        {
+          "Description": "Other",
+          "File": "24-935 Extension Corporate Disclosure Statement.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/391017/20260107122400754_24-935%20Extension%20Corporate%20Disclosure%20Statement.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-935 Extension COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/391017/20260107122414257_24-935%20Extension%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Application (25A789) denied by Justice Gorsuch."
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Motion to extend the time to file respondent's brief on the merits granted in part and the time is extended to and including January 15, 2026."
+    },
+    {
+      "Date": "Jan 15 2026",
+      "Text": "Brief of respondent Angelo Brock filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Brock.Respondent Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/391896/20260115211204412_Brock.Respondent%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-935 Gupta Wessler COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/391896/20260115211217790_No.%2024-935%20Gupta%20Wessler%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-935 Gupta Wessler COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/391896/20260115211225469_No.%2024-935%20Gupta%20Wessler%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 20 2026",
+      "Text": "Brief amici curiae of Public Justice, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026.01.20 Flowers Foods v. Brock PJ AAJ Amicus Br.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392134/20260120132633692_2026.01.20%20Flowers%20Foods%20v.%20Brock%20PJ%20AAJ%20Amicus%20Br.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2026.01.20 Flowers v. Brock PJ Cert of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392134/20260120132939616_2026.01.20%20Flowers%20v.%20Brock%20PJ%20Cert%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2026.01.20 Flowers v. Brock PJ Cert of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392134/20260120132946927_2026.01.20%20Flowers%20v.%20Brock%20PJ%20Cert%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amicus curiae of American Federation of Labor and Congress of Industrial Organizations filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026 01 21 Flowers Br AFL FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392250/20260121092950078_2026%2001%2021%20Flowers%20Br%20AFL%20FINAL.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2026 01 21 Flowers Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392250/20260121093052066_2026%2001%2021%20Flowers%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2026 01 21 Flowers COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392250/20260121093133483_2026%2001%2021%20Flowers%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 22 2026",
+      "Text": "Brief amicus curiae of National Employment Law Project filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-935 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392535/20260122180547959_24-935%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-935 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392535/20260122180559668_24-935%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-935 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392535/20260122180611336_24-935%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 22 2026",
+      "Text": "Brief amici curiae of Professors, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-935acProfessorsAndScholarsOfLinguisticsAndLaw.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392454/20260122125303674_24-935acProfessorsAndScholarsOfLinguisticsAndLaw.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-935 Peter Romer-Friedman Law PLLC COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392454/20260122125311312_24-935%20Peter%20Romer-Friedman%20Law%20PLLC%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-935 Peter Romer-Friedman Law PLLC COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392454/20260122125339633_24-935%20Peter%20Romer-Friedman%20Law%20PLLC%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 22 2026",
+      "Text": "Brief amici curiae of Illinois, et al. filed.",
+      "Links": [
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Flowers Foods Certificate of Compliance PDFA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392489/20260122140733527_Flowers%20Foods%20Certificate%20of%20Compliance%20PDFA.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "120850_afd_brf.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392489/20260122140752823_120850_afd_brf.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "Flowers Foods Multistate Amicus Brief Final PDFA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392489/20260122140806716_Flowers%20Foods%20Multistate%20Amicus%20Brief%20Final%20PDFA.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 22 2026",
+      "Text": "Brief amicus curiae of Constitutional Accountability Center filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Flowers Foods CAC Amicus Brief FINAL FOR FILING.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392453/20260122125110305_Flowers%20Foods%20CAC%20Amicus%20Brief%20FINAL%20FOR%20FILING.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Flowers Foods Certificate of Compliance FINAL FOR FILING.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392453/20260122125149113_Flowers%20Foods%20Certificate%20of%20Compliance%20FINAL%20FOR%20FILING.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Flowers Foods Certificate of Service FINAL FOR FILING.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392453/20260122125155706_Flowers%20Foods%20Certificate%20of%20Service%20FINAL%20FOR%20FILING.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 22 2026",
+      "Text": "Brief amicus curiae of National Academy of Arbitrators filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392417/20260122095320627_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392417/20260122095329147_Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392417/20260122095335411_Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 22 2026",
+      "Text": "Brief amici curiae of AARP, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-935 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392537/20260122181345616_24-935%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-935 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392537/20260122181421436_24-935%20Service%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-935 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/392537/20260122181358367_24-935%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 30 2026",
+      "Text": "SET FOR ARGUMENT on Wednesday, March 25, 2026."
+    },
+    {
+      "Date": "Feb 04 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Tenth Circuit."
+    },
+    {
+      "Date": "Feb 11 2026",
+      "Text": "Record received from the United States Court of Appeals for the Tenth Circuit. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Reply of petitioners Flower Foods, Inc., et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-935 merits rb.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/396516/20260217171109644_24-935%20merits%20rb.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-935 merits rb COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/396516/20260217171118187_24-935%20merits%20rb%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-935 merits rb COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/396516/20260217171124254_24-935%20merits%20rb%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Record received from the United States District Court for the District of Colorado. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Mar 25 2026",
+      "Text": "Argued. For petitioners: Traci L. Lovitt, New York, N. Y.  For respondent: Jennifer D. Bennett, San Francisco, Cal."
+    },
+    {
+      "Date": "May 28 2026",
+      "Text": "Adjudged to be AFFIRMED.  Gorsuch, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/24-935_k53m.pdf'>opinion</a> for a unanimous Court."
+    },
+    {
+      "Date": "Jun 29 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 24-935 Aff 10th Cir. 6.29.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-935/415245/20260629125709961_EFILING%2024-935%20Aff%2010th%20Cir.%206.29.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioners",
+  "Petitioner": [
+    {
+      "Attorney": "Traci L. Lovitt",
+      "IsCounselofRecord": true,
+      "Title": "Jones Day",
+      "PrisonerId": null,
+      "Phone": "(212) 326-3939",
+      "Address": "250 Vesey Street",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10281-1047",
+      "Email": "tlovitt@jonesday.com",
+      "PartyName": "Flower Foods, Inc., et al."
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondent",
+  "Respondent": [
+    {
+      "Attorney": "Jennifer Dale Bennett",
+      "IsCounselofRecord": true,
+      "Title": "Gupta Wessler LLP",
+      "PrisonerId": null,
+      "Phone": "(415) 573-0336",
+      "Address": "235 Montgomery Street\r\nSuite 629",
+      "City": "San Francisco",
+      "State": "CA",
+      "Zip": "94104",
+      "Email": "JENNIFER@GUPTAWESSLER.COM",
+      "PartyName": "Angelo Brock"
+    },
+    {
+      "Attorney": "Shaun Markley",
+      "IsCounselofRecord": false,
+      "Title": null,
+      "PrisonerId": null,
+      "Phone": "619-325-0492",
+      "Address": "225 Broadway, 19th Floor",
+      "City": "San Diego",
+      "State": "CA",
+      "Zip": "92101",
+      "Email": "smarkley@nicholaslaw.org",
+      "PartyName": "Angelo Brock"
+    },
+    {
+      "Attorney": "Craig M. Nicholas",
+      "IsCounselofRecord": false,
+      "Title": "Nicholas & Tomasevic, LLP",
+      "PrisonerId": null,
+      "Phone": "6193250492",
+      "Address": "225 Broadway\r\n19th Floor",
+      "City": "San Diego",
+      "State": "CA",
+      "Zip": "92101",
+      "Email": "cnicholas@nicholaslaw.org",
+      "PartyName": "Angelo Brock"
+    },
+    {
+      "Attorney": "Alex Tomasevic",
+      "IsCounselofRecord": false,
+      "Title": "Nicholas & Tomasevic, LLP",
+      "PrisonerId": null,
+      "Phone": "6193250492",
+      "Address": "225 Broadway\r\n19th Floor",
+      "City": "San Deigo",
+      "State": "CA",
+      "Zip": "92101",
+      "Email": "atomasevic@nicholaslaw.org",
+      "PartyName": "Angelo Brock"
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Louis Joseph Capozzi III",
+      "IsCounselofRecord": true,
+      "Title": "Missouri Attorney General",
+      "PrisonerId": null,
+      "Phone": "(573) 645-9662",
+      "Address": "207 West High St.",
+      "City": "Jefferson City",
+      "State": "MO",
+      "Zip": "65101",
+      "Email": "Louis.Capozzi@ago.mo.gov",
+      "PartyName": "States of Missouri, Arkansas, Texas, Montana and Alaska"
+    },
+    {
+      "Attorney": "Darin Matthew Dalmat",
+      "IsCounselofRecord": true,
+      "Title": "AFL-CIO",
+      "PrisonerId": null,
+      "Phone": "202-637-5021",
+      "Address": "815 16th Street NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "ddalmat@aflcio.org",
+      "PartyName": "AFL-CIO"
+    },
+    {
+      "Attorney": "Brianne Jenna Gorod",
+      "IsCounselofRecord": true,
+      "Title": "Constitutional Accountability Center",
+      "PrisonerId": null,
+      "Phone": "202 296 6889",
+      "Address": "1730 Rhode Island Ave. NW\r\nSuite 1200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "BRIANNE@THEUSCONSTITUTION.ORG",
+      "PartyName": "Constitutional Accountability Center"
+    },
+    {
+      "Attorney": "Thomas G. Hungar",
+      "IsCounselofRecord": true,
+      "Title": "Gibson, Dunn & Crutcher LLP",
+      "PrisonerId": null,
+      "Phone": "2029558500",
+      "Address": "1700 M Street, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "THUNGAR@GIBSONDUNN.COM",
+      "PartyName": "Independent Bakers Association and American Bakers Association"
+    },
+    {
+      "Attorney": "Chris Ashod Jalian",
+      "IsCounselofRecord": true,
+      "Title": "Paul Hastings LLP",
+      "PrisonerId": null,
+      "Phone": "2136836000",
+      "Address": "515 South Flower Street, 25th Floor",
+      "City": "Los Angeles",
+      "State": "CA",
+      "Zip": "90071",
+      "Email": "chrisjalian@paulhastings.com",
+      "PartyName": "The California Employment Law Council"
+    },
+    {
+      "Attorney": "Michael Edward Kenneally Jr.",
+      "IsCounselofRecord": true,
+      "Title": "Morgan, Lewis & Bockius LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 739-3000",
+      "Address": "1111 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "michael.kenneally@morganlewis.com",
+      "PartyName": "Amazon.com, Inc."
+    },
+    {
+      "Attorney": "Shelby Hannah Leighton",
+      "IsCounselofRecord": false,
+      "Title": "Public Justice",
+      "PrisonerId": null,
+      "Phone": "2077510009",
+      "Address": "1620 L St. NW, Suite 630",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "sleighton@publicjustice.net",
+      "PartyName": "Public Justice and American Association for Justice"
+    },
+    {
+      "Attorney": "Louis Lopez",
+      "IsCounselofRecord": true,
+      "Title": "AARP Foundation",
+      "PrisonerId": null,
+      "Phone": "2023224180",
+      "Address": "601 E Street, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20049",
+      "Email": "llopez@aarp.org",
+      "PartyName": "AARP and AARP Foundation"
+    },
+    {
+      "Attorney": "Alexander Thomas MacDonald",
+      "IsCounselofRecord": true,
+      "Title": "Littler Mendelson. PC",
+      "PrisonerId": null,
+      "Phone": "(202) 772-2505",
+      "Address": "815 Connecticut Avenue, NW Suite 400",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "amacdonald@littler.com",
+      "PartyName": "Coalition for Workforce Innovation"
+    },
+    {
+      "Attorney": "Zac Morgan",
+      "IsCounselofRecord": true,
+      "Title": "Washington Legal Foundation",
+      "PrisonerId": null,
+      "Phone": "202-588-0302",
+      "Address": "2009 Massachusetts Avenue, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "zmorgan@wlf.org",
+      "PartyName": "Washington Legal Foundation"
+    },
+    {
+      "Attorney": "Leah Marie Nicholls",
+      "IsCounselofRecord": true,
+      "Title": "Public Justice",
+      "PrisonerId": null,
+      "Phone": "2027978600",
+      "Address": "1620 L Street, N.W.\r\nSuite 630",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "sleighton@publicjustice.net",
+      "PartyName": "Public Justice and American Association for Justice"
+    },
+    {
+      "Attorney": "Jane Elinor Notz",
+      "IsCounselofRecord": true,
+      "Title": "Office of the Attorney General, State of Illinois",
+      "PrisonerId": null,
+      "Phone": "312-814-5376",
+      "Address": "115 South LaSalle Street\r\n23rd Floor",
+      "City": "Chicago",
+      "State": "IL",
+      "Zip": "60603",
+      "Email": "JANE.NOTZ@ILAG.GOV",
+      "PartyName": "Illinois, et al."
+    },
+    {
+      "Attorney": "Archis Ashok Parasharami",
+      "IsCounselofRecord": true,
+      "Title": "Mayer Brown LLP",
+      "PrisonerId": null,
+      "Phone": "202-263-3000",
+      "Address": "1999 K Street NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "aparasharami@mayerbrown.com",
+      "PartyName": "The Chamber of Commerce of the United States of America, Retail Litigation Center, National Retail Federation, National Association of Wholesaler-Distributors, National Association of Manufacturers, and National Federation of Independent Business Small Business Legal Center, Inc."
+    },
+    {
+      "Attorney": "Benjamin G. Robbins",
+      "IsCounselofRecord": true,
+      "Title": "Pioneer New England Legal Foundation",
+      "PrisonerId": null,
+      "Phone": "6178756211",
+      "Address": "185 Devonshire Street\r\n11th floor",
+      "City": "Boston",
+      "State": "MA",
+      "Zip": "02110",
+      "Email": "ben.robbins@pioneerlegal.org",
+      "PartyName": "Pioneer New England Legal Foundation"
+    },
+    {
+      "Attorney": "Peter Romer-Friedman",
+      "IsCounselofRecord": true,
+      "Title": "Peter Romer-Friedman Law",
+      "PrisonerId": null,
+      "Phone": "(202) 355-6364",
+      "Address": "1629 K Street, NW, Suite 300",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "peter@prf-law.com",
+      "PartyName": "Professors and Scholars of Linguistics and Law"
+    },
+    {
+      "Attorney": "Catherine Kiley Ruckelshaus",
+      "IsCounselofRecord": true,
+      "Title": "Nat'l Employment Law Project",
+      "PrisonerId": null,
+      "Phone": "6466938221",
+      "Address": "90 Broad Street, Suite 1100",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10004",
+      "Email": "cruckelshaus@nelp.org",
+      "PartyName": "National Employment Law Project"
+    },
+    {
+      "Attorney": "Sarah Elizabeth Spencer",
+      "IsCounselofRecord": true,
+      "Title": "Spencer Willson PLLC",
+      "PrisonerId": null,
+      "Phone": "8013468120",
+      "Address": "66 E. Exchange Place\r\nSuite 208",
+      "City": "Salt Lake City",
+      "State": "UT",
+      "Zip": "84111",
+      "Email": "sarah@spencerwillsonpllc.com",
+      "PartyName": "The DRI Center for Law and Public Policy and Atlantic Legal Foundation"
+    },
+    {
+      "Attorney": "Christopher Gary Ward",
+      "IsCounselofRecord": true,
+      "Title": "Foley & Lardner LLP",
+      "PrisonerId": null,
+      "Phone": "(213) 972-4500",
+      "Address": "555 South Flower Street, Suite 3300",
+      "City": "Los Angeles",
+      "State": "CA",
+      "Zip": "90071",
+      "Email": "cward@foley.com",
+      "PartyName": "Menzies Aviation, Inc."
+    },
+    {
+      "Attorney": "Barry Marc Winograd",
+      "IsCounselofRecord": true,
+      "Title": "Arbitrator & Mediator",
+      "PrisonerId": null,
+      "Phone": "5102738755",
+      "Address": "875-A Island Dr., No. 144",
+      "City": "Alameda",
+      "State": "CA",
+      "Zip": "94502",
+      "Email": "winmedarb@aol.com",
+      "PartyName": "National Academy of Arbitrators"
+    }
+  ]
+}

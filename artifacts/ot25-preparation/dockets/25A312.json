@@ -1,0 +1,955 @@
+{
+  "CaseNumber": "25A312 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "06/29/2026",
+  "sJsonTerm": "2025",
+  "sJsonCaseNumber": "00312",
+  "sJsonCaseType": "Application",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Donald J. Trump, President of the United States, Applicant",
+  "RespondentTitle": "Lisa D. Cook, Member of the Board of Governors of the Federal Reserve System, et al.",
+  "DocketedDate": "September 18, 2025",
+  "LowerCourt": "United States Court of Appeals for the District of Columbia Circuit",
+  "LowerCourtCaseNumbers": "(25-5326)",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Sep 18 2025",
+      "Text": "Application (25A312) for a stay, submitted to The Chief Justice.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Trump v Cook app.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/374989/20250918113300065_Trump%20v%20Cook%20app.pdf"
+        },
+        {
+          "Description": "Lower Court Orders/Opinions",
+          "File": "Trump v Cook Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/374989/20250918113320383_Trump%20v%20Cook%20Appendix.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate 25A Trump v. Cook.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/374989/20250918113334487_certificate%2025A%20Trump%20v.%20Cook.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 18 2025",
+      "Text": "Opposition to Request for Immediate Administrative Stay filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Trump v. Cook et al. 25A312.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/375049/20250918150026516_Trump%20v.%20Cook%20et%20al.%2025A312.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "SCOTUS Cook_Certificate of service REVISED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/375049/20250918150040796_SCOTUS%20Cook_Certificate%20of%20service%20REVISED.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Response to application (25A312) requested by The Chief Justice, due by 4 p.m. (EDT), on September 25, 2025."
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of Separation of Powers Clinic filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "SCOTUS Cook.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/375091/20250918162100972_SCOTUS%20Cook.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/375091/20250918162116606_COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 25 2025",
+      "Text": "Response to application from respondent Lisa D. Cook, et al. filed.",
+      "Links": [
+        {
+          "Description": "Proof of Service",
+          "File": "SCOTUS Cook Opp Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/377893/20250925150916884_SCOTUS%20Cook%20Opp%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "20250925 Cook SCOTUS Stay Opposition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/377893/20250925151427957_20250925%20Cook%20SCOTUS%20Stay%20Opposition.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 25 2025",
+      "Text": "Brief amici curiae of Experts on Law, Finance and Economics filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25A312 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/377898/20250925151126333_25A312%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25A312 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/377898/20250925151139725_25A312%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 25 2025",
+      "Text": "Brief amici curiae of Former Treasury Secretaries, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25A312 - Amicus Br. in Opposition to Application.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/376844/20250925093950081_25A312%20-%20Amicus%20Br.%20in%20Opposition%20to%20Application.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25A312 - COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/376844/20250925093959864_25A312%20-%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 25 2025",
+      "Text": "Brief amici curiae of Patrick J. Borchers, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25A312 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/377900/20250925151825596_25A312%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25A312 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/377900/20250925151835486_25A312%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 25 2025",
+      "Text": "Brief amici curiae of Florida, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "COOK - SCOTUS - amic brf stay - FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/377963/20250925201705240_COOK%20-%20SCOTUS%20-%20amic%20brf%20stay%20-%20FINAL.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "COOK - SCOTUS - amic brf stay - COC - 01.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/377963/20250925201720639_COOK%20-%20SCOTUS%20-%20amic%20brf%20stay%20-%20COC%20-%2001.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "COOK - SCOTUS - amic brf stay - COS - 01.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/377963/20250925201733409_COOK%20-%20SCOTUS%20-%20amic%20brf%20stay%20-%20COS%20-%2001.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 26 2025",
+      "Text": "Reply of applicant Donald J. Trump filed.",
+      "Links": [
+        {
+          "Description": "Reply",
+          "File": "25A312 Cook Reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/378025/20250926150333128_25A312%20Cook%20Reply.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25A312 Trump v. Cook REPLY.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/378025/20250926150404987_25A312%20Trump%20v.%20Cook%20REPLY.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 26 2025",
+      "Text": "Brief amici curiae of Former Government Officials and Advisors filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Cook Amicus - FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/377926/20250925165350228_Cook%20Amicus%20-%20FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Cook Amicus Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/377926/20250925165400751_Cook%20Amicus%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 27 2025",
+      "Text": "Brief amicus curiae of Jed Shugerman filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Shugerman Amicus Brief in Opposition to Appl for Stay of PI.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/377924/20250925163919624_Shugerman%20Amicus%20Brief%20in%20Opposition%20to%20Appl%20for%20Stay%20of%20PI.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Cook - CoS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/377924/20250925163932287_Cook%20-%20CoS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 30 2025",
+      "Text": "Brief amici curiae of Azoria Capital, Inc., et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25A312_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/378332/20250930162759399_25A312_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25A312_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/378332/20250930162806264_25A312_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 01 2025",
+      "Text": "The application for stay presented to The Chief Justice and by him referred to the Court is deferred pending oral argument in January 2026.  The Clerk is directed to establish a briefing schedule for <i>amici curiae</i> and any supplemental briefs responding to <i>amici</i>."
+    },
+    {
+      "Date": "Oct 09 2025",
+      "Text": "Any brief for an <i>amicus curiae</i> under Rule 37.4 must be filed on or before Wednesday, October 29, 2025.  The parties may file supplemental briefs responding to the <i>amici</i>, limited to 8,000 words and in booklet format, on or before Wednesday, November 19, 2025."
+    },
+    {
+      "Date": "Oct 28 2025",
+      "Text": "Brief amicus curiae of America First Legal Foundation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "SCOTUS Cook FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/380774/20251028102305122_SCOTUS%20Cook%20FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/380774/20251028102316304_COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 29 2025",
+      "Text": "Brief amicus curiae of Chamber of Commerce of the United States in support of neither party filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25A312 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/381026/20251029155239502_25A312%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25A312 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/381026/20251029155252822_25A312%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 29 2025",
+      "Text": "Brief amicus curiae of Professor Aaron L. Nielson in support of neither party filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25A312 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/380927/20251029111632061_25A312%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25A312 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/380927/20251029111642677_25A312%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 29 2025",
+      "Text": "Brief amicus curiae of New Civil Liberties Alliance filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "NCLA Trump v. Cook Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/380955/20251029130436608_NCLA%20Trump%20v.%20Cook%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No.25A312 New Civil Liberties Alliance COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/380955/20251029130456640_No.25A312%20New%20Civil%20Liberties%20Alliance%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No.25A312 New Civil Liberties Alliance COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/380955/20251029130508379_No.25A312%20New%20Civil%20Liberties%20Alliance%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 29 2025",
+      "Text": "Brief amicus curiae of America First Policy Institute filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25A312 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/381015/20251029153524812_25A312%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25A312 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/381015/20251029153536439_25A312%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 29 2025",
+      "Text": "Brief amici curiae of Former Members of the Board of Governors of the Federal Reserve System filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025-10-29 Amici Curiae Brief of Former Federal Reserve Governors.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/380952/20251029125843121_2025-10-29%20Amici%20Curiae%20Brief%20of%20Former%20Federal%20Reserve%20Governors.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 25A312 Zuckerman Spaeder COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/380952/20251029125854055_No.%2025A312%20Zuckerman%20Spaeder%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 25A312 Zuckerman Spaeder COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/380952/20251029125859175_No.%2025A312%20Zuckerman%20Spaeder%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 29 2025",
+      "Text": "Brief amici curiae of American Civil Liberties Union, et al. in support of neither party filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "ACLU Amicus Brief Trump v. Cook.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/380995/20251029145727650_ACLU%20Amicus%20Brief%20Trump%20v.%20Cook.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "ACLU Amicus Brief Trump v Cook Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/380995/20251029145748956_ACLU%20Amicus%20Brief%20Trump%20v%20Cook%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "ACLU Amicus Brief Trump v Cook Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/380995/20251029145907881_ACLU%20Amicus%20Brief%20Trump%20v%20Cook%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 29 2025",
+      "Text": "Brief amicus curiae of Professor Jane Manners filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25A312 Manners Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/381039/20251029161823762_25A312%20Manners%20Amicus.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25A312 COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/381039/20251029161837806_25A312%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 29 2025",
+      "Text": "Brief amici curiae of Economics Professors filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "FINAL - No. 25A312 - Amicus Brief of Econ Professors.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/381057/20251029172828918_FINAL%20-%20No.%2025A312%20-%20Amicus%20Brief%20of%20Econ%20Professors.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "FINAL - No. 25A312 - Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/381057/20251029172845967_FINAL%20-%20No.%2025A312%20-%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "FINAL - No. 25A312 - Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/381057/20251029172905316_FINAL%20-%20No.%2025A312%20-%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 29 2025",
+      "Text": "Brief amici curiae of Colorado, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025.10.29 Trump v. Cook 25A312 Colorado and 22 States Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/380999/20251029145752993_2025.10.29%20Trump%20v.%20Cook%2025A312%20Colorado%20and%2022%20States%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2025.10.29 Trump v. Cook 25A312 Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/380999/20251029145841730_2025.10.29%20Trump%20v.%20Cook%2025A312%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 29 2025",
+      "Text": "Motion for leave to file amicus curiae brief of Florida, et al. not accepted for filing. (November 14, 2025)"
+    },
+    {
+      "Date": "Oct 29 2025",
+      "Text": "Amicus brief of Florida, et al. not accepted for filing. (November 14, 2025)"
+    },
+    {
+      "Date": "Oct 29 2025",
+      "Text": "Amended amicus brief of Patrick J. Borchers, et al. not accepted for filing. (November 14, 2025)"
+    },
+    {
+      "Date": "Oct 30 2025",
+      "Text": "Motion for leave to file amended amicus curiae brief of Patrick J. Borchers, et al. not accepted for filing. (November 14, 2025)"
+    },
+    {
+      "Date": "Nov 12 2025",
+      "Text": "SET FOR ARGUMENT on Wednesday, January 21, 2026."
+    },
+    {
+      "Date": "Nov 18 2025",
+      "Text": "Record requested from the United States Court of Appeals for the District of Columbia Circuit."
+    },
+    {
+      "Date": "Nov 19 2025",
+      "Text": "Supplemental brief of applicant Donald J. Trump filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25A312 -- Trump v. Cook - Supp. Br..pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/385182/20251119160740717_25A312%20--%20Trump%20v.%20Cook%20-%20Supp.%20Br..pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate - 25A312 - Trump v. Cook.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/385182/20251119160807334_Certificate%20-%2025A312%20-%20Trump%20v.%20Cook.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 19 2025",
+      "Text": "Supplemental brief of respondents Lisa D. Cook, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Cook Supplemental Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/385180/20251119155936464_Cook%20Supplemental%20Brief.pdf"
+        },
+        {
+          "Description": "Other",
+          "File": "No.25A312 Cook COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/385180/20251119160541731_No.25A312%20Cook%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No.25A312 Cook COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25A312/385180/20251119160605070_No.25A312%20Cook%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 20 2025",
+      "Text": "Record received from the United States Court of Appeals for the District of Columbia Circuit. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Nov 20 2025",
+      "Text": "Record received from the United States District Court for the District of Columbia. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Dec 01 2025",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Argued.  For applicants: D. John Sauer, Solicitor General, Department of Justice, Washington, D. C. For respondent: Paul D. Clement, Alexandria, Va."
+    },
+    {
+      "Date": "Jun 29 2026",
+      "Text": "Application (25A312) denied by the Court.  Roberts, C. J., delivered the opinion of the Court, in which Sotomayor, Kagan, Kavanaugh, and Jackson, JJ., joined. Kavanaugh and Jackson, JJ., filed concurring opinions. Thomas, J., filed a dissenting opinion. Alito, J., filed a dissenting opinion, in which Gorsuch, J., joined. Barrett, J., filed a dissenting opinion."
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioner",
+  "Petitioner": [
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": true,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "Donald J. Trump"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondents",
+  "Respondent": [
+    {
+      "Attorney": "Paul D. Clement",
+      "IsCounselofRecord": false,
+      "Title": "Clement & Murphy, PLLC",
+      "PrisonerId": null,
+      "Phone": "(202) 742-8900",
+      "Address": "706 Duke Street",
+      "City": "Alexandria",
+      "State": "VA",
+      "Zip": "22314",
+      "Email": "PAUL.CLEMENT@CLEMENTMURPHY.COM",
+      "PartyName": "Lisa D. Cook, et al."
+    },
+    {
+      "Attorney": "Abbe David Lowell",
+      "IsCounselofRecord": true,
+      "Title": "Lowell & Associates, PLLC",
+      "PrisonerId": null,
+      "Phone": "202-964-6110",
+      "Address": "1250 H Street NW\r\nSuite 250",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20005",
+      "Email": "alowellpublicoutreach@lowellandassociates.com",
+      "PartyName": "Lisa D. Cook, et al."
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Jeffrey Paul DeSousa",
+      "IsCounselofRecord": true,
+      "Title": "Florida Office of the Attorney General",
+      "PrisonerId": null,
+      "Phone": "5088018425",
+      "Address": "107 W. Gaines Street",
+      "City": "Tallahassee",
+      "State": "FL",
+      "Zip": "32399",
+      "Email": "jeffrey.desousa@myfloridalegal.com",
+      "PartyName": "State of Florida, 21 other States and the Arizona Legislature"
+    },
+    {
+      "Attorney": "Steven Andrew Engel",
+      "IsCounselofRecord": true,
+      "Title": "Dechert LLP",
+      "PrisonerId": null,
+      "Phone": "2022613369",
+      "Address": "1900 K Street, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "STEVEN.ENGEL@DECHERT.COM",
+      "PartyName": "The Chamber of Commerce of the United States"
+    },
+    {
+      "Attorney": "Sarah Elaine Harrington",
+      "IsCounselofRecord": true,
+      "Title": "Covington & Burling LLP",
+      "PrisonerId": null,
+      "Phone": "202-662-5569",
+      "Address": "One CityCenter, 850 Tenth St. NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "sharrington@cov.com",
+      "PartyName": "Former Treasury Secretaries, Federal Reserve Board Chairs and Governors, Council of Economic Advisers Chairs, and Economists"
+    },
+    {
+      "Attorney": "Jacob H. Huebert",
+      "IsCounselofRecord": true,
+      "Title": "New Civil Liberties Alliance",
+      "PrisonerId": null,
+      "Phone": "202-967-2502",
+      "Address": "4250 N. Fairfax Drive\r\nSuite 300",
+      "City": "Arlington",
+      "State": "VA",
+      "Zip": "22203",
+      "Email": "jacob.huebert@ncla.legal",
+      "PartyName": "New Civil Liberties Alliance"
+    },
+    {
+      "Attorney": "Jessica Furst Johnson",
+      "IsCounselofRecord": true,
+      "Title": "Lex Politica PLLC",
+      "PrisonerId": null,
+      "Phone": "(512) 354-1785",
+      "Address": "#129 7415 SW Parkway\r\nBuilding 6, Suite 500",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": "78735",
+      "Email": "jessica@lexpolitica.com",
+      "PartyName": "Azoria Capital, Inc. and James T. Fishback"
+    },
+    {
+      "Attorney": "Russell Dorian Johnson",
+      "IsCounselofRecord": true,
+      "Title": "Colorado Department of Law",
+      "PrisonerId": null,
+      "Phone": "(720) 508-6351",
+      "Address": "1300 Broadway, 10th Floor",
+      "City": "Denver",
+      "State": "CO",
+      "Zip": "80203",
+      "Email": "russell.johnson@coag.gov",
+      "PartyName": "State of Colorado and 22 other States"
+    },
+    {
+      "Attorney": "Brian Kirk Kelsey",
+      "IsCounselofRecord": true,
+      "Title": "America First Policy Institute",
+      "PrisonerId": null,
+      "Phone": "202-503-4305",
+      "Address": "1455 Pennsylvania Ave., NW\r\nSuite 225",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "bkelsey@americafirstpolicy.com",
+      "PartyName": "America First Policy Institute"
+    },
+    {
+      "Attorney": "Ayesha N. Khan",
+      "IsCounselofRecord": true,
+      "Title": "Democracy Forward Foundation",
+      "PrisonerId": null,
+      "Phone": "2024489090",
+      "Address": "P.O. Box 34553",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20002",
+      "Email": "khanayeshan@gmail.com",
+      "PartyName": "Jed Shugerman"
+    },
+    {
+      "Attorney": "R. Trent McCotter",
+      "IsCounselofRecord": true,
+      "Title": "Separation of Powers Clinic,Columbus School of Law",
+      "PrisonerId": null,
+      "Phone": "202-706-5488",
+      "Address": "The Catholic University of America\r\n3600 John McCormack Rd.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20064",
+      "Email": "mccotter@cua.edu",
+      "PartyName": "Separation of Powers Clinic"
+    },
+    {
+      "Attorney": "R. Trent McCotter",
+      "IsCounselofRecord": true,
+      "Title": "Separation of Powers Clinic,Columbus School of Law",
+      "PrisonerId": null,
+      "Phone": "202-706-5488",
+      "Address": "3600 John McCormack Rd. NE",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20064",
+      "Email": "mccotter@cua.edu",
+      "PartyName": "America First Legal Foundation"
+    },
+    {
+      "Attorney": "Aaron Lloyd Nielson",
+      "IsCounselofRecord": true,
+      "Title": "University of Texas School of Law",
+      "PrisonerId": null,
+      "Phone": "512-475-5151",
+      "Address": "727 East Dean Keeton Street",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": "787705",
+      "Email": "aaron.nielson@law.utexas.edu",
+      "PartyName": "Aaron L. Nielson"
+    },
+    {
+      "Attorney": "Joshua Aryeh Perry",
+      "IsCounselofRecord": true,
+      "Title": "Perry Law, LLC",
+      "PrisonerId": null,
+      "Phone": "504-444-3015",
+      "Address": "445 Park Avenue\r\nSeventh Floor",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10022",
+      "Email": "jperry@danyaperrylaw.com",
+      "PartyName": "Former Government Officials and Advisors"
+    },
+    {
+      "Attorney": "Joseph Marc Sellers",
+      "IsCounselofRecord": true,
+      "Title": "Cohen Milstein Sellers & Toll PLLC",
+      "PrisonerId": null,
+      "Phone": "202-408-4600",
+      "Address": "1100 New York Ave NW, Suite 800",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20005",
+      "Email": "jsellers@cohenmilstein.com",
+      "PartyName": "Patrick J. Borchers, Michael C. Dorf, Kellen Funk, Aziz Huq, Riley T. Keenan, James Pfander, and Jonathan D. Shaub"
+    },
+    {
+      "Attorney": "Aditi Dinesh Shah",
+      "IsCounselofRecord": true,
+      "Title": "American Civil Liberties Union of D.C.",
+      "PrisonerId": null,
+      "Phone": "205-457-0800",
+      "Address": "529 14th Street NW, Suite 722",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20045",
+      "Email": "ashah@acludc.org",
+      "PartyName": "American Civil Liberties Union, American Civil Liberties Union of D.C., The Rutherford Institute"
+    },
+    {
+      "Attorney": "William Woodruff Taylor III",
+      "IsCounselofRecord": true,
+      "Title": "Zuckerman Spaeder LLP",
+      "PrisonerId": null,
+      "Phone": "202-778-1800",
+      "Address": "2100 L St., NW\r\nSte. 400",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20037",
+      "Email": "wtaylor@zuckerman.com",
+      "PartyName": "Former Members of the Board of Governors of the Federal Reserve System"
+    },
+    {
+      "Attorney": "Donald B. Verrilli Jr.",
+      "IsCounselofRecord": true,
+      "Title": "Munger, Tolles & Olson LLP",
+      "PrisonerId": null,
+      "Phone": "202-220-1100",
+      "Address": "601 Massachusetts Avenue, NW\r\nSuite 500E",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001-5369",
+      "Email": "DONALD.VERRILLI@MTO.COM",
+      "PartyName": "Professor Jane Manners"
+    },
+    {
+      "Attorney": "Seth P. Waxman",
+      "IsCounselofRecord": true,
+      "Title": "Wilmer Cutler Pickering Hale and Dorr LLP",
+      "PrisonerId": null,
+      "Phone": "202-663-6000",
+      "Address": "2100 Pennsylvania Ave, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20037",
+      "Email": "SETH.WAXMAN@WILMERHALE.COM",
+      "PartyName": "Economics Professors"
+    },
+    {
+      "Attorney": "David Jacob Zimmer",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "6176769421",
+      "Address": "130 Bishop Allen Dr.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02139",
+      "Email": "david@zimmercitronclarke.com",
+      "PartyName": "Judith Chevalier"
+    },
+    {
+      "Attorney": "David Jacob Zimmer",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "6176769421",
+      "Address": "130 Bishop Allen Dr.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02139",
+      "Email": "david@zimmercitronclarke.com",
+      "PartyName": "John C. Coates"
+    },
+    {
+      "Attorney": "David Jacob Zimmer",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "6176769421",
+      "Address": "130 Bishop Allen Dr.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02139",
+      "Email": "david@zimmercitronclarke.com",
+      "PartyName": "Darrell Duffie"
+    },
+    {
+      "Attorney": "David Jacob Zimmer",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "6176769421",
+      "Address": "130 Bishop Allen Dr.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02139",
+      "Email": "david@zimmercitronclarke.com",
+      "PartyName": "Claudia Goldin"
+    },
+    {
+      "Attorney": "David Jacob Zimmer",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "6176769421",
+      "Address": "130 Bishop Allen Dr.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02139",
+      "Email": "david@zimmercitronclarke.com",
+      "PartyName": "Jeffrey N. Gordon"
+    },
+    {
+      "Attorney": "David Jacob Zimmer",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "6176769421",
+      "Address": "130 Bishop Allen Dr.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02139",
+      "Email": "david@zimmercitronclarke.com",
+      "PartyName": "Oliver Hart"
+    },
+    {
+      "Attorney": "David Jacob Zimmer",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "6176769421",
+      "Address": "130 Bishop Allen Dr.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02139",
+      "Email": "david@zimmercitronclarke.com",
+      "PartyName": "Simon Johnson"
+    },
+    {
+      "Attorney": "David Jacob Zimmer",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "6176769421",
+      "Address": "130 Bishop Allen Dr.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02139",
+      "Email": "david@zimmercitronclarke.com",
+      "PartyName": "Kathryn Judge"
+    },
+    {
+      "Attorney": "David Jacob Zimmer",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "6176769421",
+      "Address": "130 Bishop Allen Dr.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02139",
+      "Email": "david@zimmercitronclarke.com",
+      "PartyName": "Paul Krugman"
+    },
+    {
+      "Attorney": "David Jacob Zimmer",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "6176769421",
+      "Address": "130 Bishop Allen Dr.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02139",
+      "Email": "david@zimmercitronclarke.com",
+      "PartyName": "Lev Menand"
+    },
+    {
+      "Attorney": "David Jacob Zimmer",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "6176769421",
+      "Address": "130 Bishop Allen Dr.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02139",
+      "Email": "david@zimmercitronclarke.com",
+      "PartyName": "Barry Nalebuff"
+    },
+    {
+      "Attorney": "David Jacob Zimmer",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "6176769421",
+      "Address": "130 Bishop Allen Dr.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02139",
+      "Email": "david@zimmercitronclarke.com",
+      "PartyName": "Jeremy Stein"
+    },
+    {
+      "Attorney": "David Jacob Zimmer",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "6176769421",
+      "Address": "130 Bishop Allen Dr.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02139",
+      "Email": "david@zimmercitronclarke.com",
+      "PartyName": "Michael R. Strain"
+    },
+    {
+      "Attorney": "David Jacob Zimmer",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "6176769421",
+      "Address": "130 Bishop Allen Dr.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02139",
+      "Email": "david@zimmercitronclarke.com",
+      "PartyName": "Michael Woodford"
+    },
+    {
+      "Attorney": "David Jacob Zimmer",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "6176769421",
+      "Address": "130 Bishop Allen Dr.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02139",
+      "Email": "david@zimmercitronclarke.com",
+      "PartyName": "Experts on Law, Finance and Economics"
+    }
+  ]
+}

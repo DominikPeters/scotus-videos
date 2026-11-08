@@ -1,0 +1,682 @@
+[0] 0:00 John G. Roberts, Jr.: We'll hear argument first this term in Case 25-170, Suncor Energy versus County Commissioners of Boulder County.
+[1] 0:08 John G. Roberts, Jr.: Mr. Shanmugam.
+[2] 0:09 Kannon K. Shanmugam: Thank you, Mr. Chief Justice, and may it please the Court:
+[3] 0:12 Kannon K. Shanmugam: This case involves an unprecedented effort to use state law to regulate global conduct. Boulder is suing Petitioners under Colorado law on the theory that their global conduct increased the global use of fossil fuels, which led to an increase in global greenhouse-gas emissions, which contributed to global climate change, which resulted in global harms.
+[4] 0:35 Kannon K. Shanmugam: Our constitutional system does not permit state law to be used in that manner. The Constitution bars the application of state law to certain inherently federal areas. When the states entered the Union, the plan of the Convention required them to surrender certain preexisting powers in order to ensure each state's equal sovereignty.
+[5] 0:56 Kannon K. Shanmugam: Because of the ambient nature of air and water and the conflicting rights of states, this Court has held for over a century that federal law governs interstate pollution claims. That principle applies with even greater force to claims involving global climate change.
+[6] 1:12 Kannon K. Shanmugam: In addition, the Constitution's prohibition on extraterritorial regulation precludes a state from extending its law beyond its borders to regulate global conduct with global effects. A state does not have the power to regulate out-of-state conduct based solely on attenuated effects on the state.
+[7] 1:32 Kannon K. Shanmugam: What is more, the use of state law to regulate global climate change would substantially interfere with the nation's foreign policy. And far from authorizing the application of state law, the Clean Air Act independently preempts any effort by one state to impose its law on emissions originating in others.
+[8] 1:51 Kannon K. Shanmugam: If Boulder's claims are allowed to go forward, some 90,000 municipalities across the country will have the ability to make national and international energy policy by asking juries to impose catastrophic damages on selected fossil-fuel producers.
+[9] 2:07 Kannon K. Shanmugam: Put simply, that is not the constitutional scheme that the Founders adopted. The Colorado Supreme Court's judgment should accordingly be reversed.
+[10] 2:15 Kannon K. Shanmugam: I welcome the Court's questions.
+[11] 2:16 Clarence Thomas: Mr. Shanmugam, before we get to the merits, would you spend some time and explain why we have jurisdiction?
+[12] 2:26 Kannon K. Shanmugam: Sure, Justice Thomas. Our view is that the Court has both statutory and constitutional jurisdiction. I'll address those in turn.
+[13] 2:33 Kannon K. Shanmugam: On statutory jurisdiction, our view is that Atlantic Richfield is directly on point. It could not be clearer as a matter of Colorado law that the proceeding below was a self-contained original proceeding, which gives rise to jurisdiction in this Court under Section 1257.
+[14] 2:50 Kannon K. Shanmugam: Boulder's argument to the contrary is that because this case did not involve a formal writ proceeding directed at the lower court, that it falls outside the scope of Atlantic Richfield. But, in Atlantic Richfield itself, this Court attached no weight to the form of the underlying proceeding. Instead, the Court relied on the fact that it was a self-contained proceeding.
+[15] 3:13 Kannon K. Shanmugam: In fact, this proceeding contained many of the hallmarks of a writ proceeding. The Colorado Supreme Court ordered the trial court to respond to its order to show cause and then discharged the order to show cause at the end of the proceeding.
+[16] 3:26 Kannon K. Shanmugam: And the Colorado Supreme Court's move away from formal writs is not unusual. As the brief of the state -- former state supreme court justices points out, many states have made that move toward a more informal label for their proceedings.
+[17] 3:42 Kannon K. Shanmugam: The key point is that in Colorado, as elsewhere, these original proceedings are distinct from ordinary appellate proceedings, even interlocutory appellate proceedings. In Colorado, there are separate rules, Rule 21 and Rule 4.2, that govern each.
+[18] 3:58 Kannon K. Shanmugam: As to constitutional jurisdiction, I think our submission here is a straightforward one. Because this case is coming from a state court, you look to the injuries suffered by the Petitioners, who were the defendants in the lower court proceeding. The decision below definitively adjudicated our legal rights, and it did so in a way that was binding not just in this case but in other cases in Colorado as well.
+[19] 4:25 Kannon K. Shanmugam: So not only are my clients exposed to a greater risk of liability as a result of the fact that one of our central defenses has been knocked out, but, in a very real sense, we have lost the right to be free from state regulation, which was how this Court characterized the loss of a preemption defense in NCAA versus Murphy, and as a result, we will suffer an injury. So that personal stake, in our view, is sufficient for Article III purposes.
+[20] 4:52 Sonia Sotomayor: Counsel --
+[21] 4:53 John G. Roberts, Jr.: Counsel, you would concede that there are some situations in which an individual who engages in conduct in State B, causes harm to somebody in State A, can be sued under the law of State A, right?
+[22] 5:07 Kannon K. Shanmugam: Mr. Chief Justice, we would concede that. And so the principle of no extraterritorial regulation that I articulated in my opening does admit of exceptions. There are cases in which the Court has permitted that, where a defendant can be said to be constructively present in the state by virtue of their conduct.
+[23] 5:27 John G. Roberts, Jr.: Well --
+[24] 5:27 Kannon K. Shanmugam: In this case --
+[25] 5:28 John G. Roberts, Jr.: -- well, constructively present in the state, presumably, that is because of whatever injury they've inflicted upon the person in State A, right?
+[26] 5:37 Kannon K. Shanmugam: Yes, and in the mine run of --
+[27] 5:38 John G. Roberts, Jr.: Well, yeah, if you throw a rock over the border and hit him, that person can be --
+[28] 5:40 Kannon K. Shanmugam: Correct. And we have no truck with those cases. Our point is that this goes further than any of those cases, and I would submit that that's really for three reasons.
+[29] 5:50 Kannon K. Shanmugam: First, none of the conduct that is at issue here can really be said to have been directed at Colorado.
+[30] 5:57 Kannon K. Shanmugam: Second, the harm at issue here is a harm that is diffuse nationwide and, indeed, worldwide.
+[31] 6:05 Kannon K. Shanmugam: And, third, any causal nexus here is severely attenuated.
+[32] 6:09 John G. Roberts, Jr.: Well, just --
+[33] 6:09 Kannon K. Shanmugam: And I'd just --
+[34] 6:10 John G. Roberts, Jr.: -- before you -- if you don't mind because I'll lose track of the three of them otherwise.
+[35] 6:15 John G. Roberts, Jr.: Wasn't directed at State A. But, if you're in B and you're aiming at C, but you hit somebody in A, that doesn't make a difference, does it?
+[36] 6:24 Kannon K. Shanmugam: Well, it -- it certainly is true that if you are, say, across a state border and you direct your conduct across the state border, many of the cases on which my friend relies fall into that paradigm.
+[37] 6:39 Kannon K. Shanmugam: I think what makes this case different is that, in this case, not only do you not have any sort of direction of the conduct towards Colorado, but, again, the causal chain here is severely attenuated. And there is no case on which my friend relies where, in the face of such an attenuated chain of causation, this Court has said that the exception to the venerable prohibition against extraterritorial regulation applies. And I would submit that if you accept Respondents' theory, the exception would swallow the rule.
+[38] 7:10 Kannon K. Shanmugam: Now, just to be clear, as I indicated at the outset, we are relying on two strands of federalist principle here. The second is extraterritoriality.
+[39] 7:21 Kannon K. Shanmugam: The first is the principle of equal sovereignty, the notion that in an area like this, there are uniquely federal interests that dictate the application of federal law.
+[40] 7:33 Kannon K. Shanmugam: Now I think the virtue of that approach is that it underlies the entire line of cases from this Court involving interstate pollution going all the way back --
+[41] 7:43 Elena Kagan: Could I just keep you -- before you leave the extraterritoriality question?
+[42] 7:47 Kannon K. Shanmugam: Sure.
+[43] 7:48 Elena Kagan: I mean, usually, we think of extraterritoriality as questions of choice of law. In other words, a state can't apply its own law extraterritorially.
+[44] 7:59 Elena Kagan: We -- you know, here, the choice-of-law question has not been really dealt with by the lower court, so what -- what are you arguing?
+[45] 8:09 Elena Kagan: Are you arguing, like, oh, everybody knows this is a case where the plaintiffs are going to want to apply Colorado law and that's how we should treat it, and you're saying that choice of law is impermissible? Or are you saying something broader than that, which is, regardless of the choice of law chosen, there's something impermissible about this lawsuit because of its extraterritorial nature?
+[46] 8:36 Kannon K. Shanmugam: Sure. So, Justice Kagan, I'll give you our bottom line and then the explanation.
+[47] 8:41 Kannon K. Shanmugam: Our bottom line is that, in fact, no state's law can apply here and that before you get to the question of choice of law, you've got to determine which state's laws potentially could apply here.
+[48] 8:54 Kannon K. Shanmugam: Our view is that under either the equal sovereignty principle or the closely related extraterritoriality principle, there is no justification for Colorado's law applying, the law of the affected state to apply.
+[49] 9:07 Neil Gorsuch: So just to interject here, let's say your defendant is in -- from Texas. You'd object to Colorado applying Texas law?
+[50] 9:15 Kannon K. Shanmugam: We would object to Colorado applying Texas law as well, but I think the answer to that is a little more complicated.
+[51] 9:23 Kannon K. Shanmugam: We acknowledge under our equal sovereignty principle that Congress can authorize state law to apply. Congress has done that in a limited way in the Clean Air Act by, in the saving clause, authorizing the law of the source state to apply.
+[52] 9:40 Neil Gorsuch: So -- so just -- so just to put a pin on it, if I understand it, because it is complicated to me, you would say that if the Clean Air Act -- it's the Clean Air Act that forbids Colorado from applying Texas law?
+[53] 9:53 Kannon K. Shanmugam: It is the --
+[54] 9:54 Neil Gorsuch: It's not any -- anything else? It's just the Clean Air Act?
+[55] 9:56 Kannon K. Shanmugam: It is the constitutional principle that dictates --
+[56] 9:59 Neil Gorsuch: That's what I'm wondering. I'm trying to disaggregate those two.
+[57] 10:02 Kannon K. Shanmugam: Yes.
+[58] 10:02 Neil Gorsuch: Is there something in the Constitution that prohibits the application of Texas law to a Texas defendant --
+[59] 10:06 Kannon K. Shanmugam: As a matter of --
+[60] 10:07 Neil Gorsuch: -- or is it the Clean Air Act? Which is it?
+[61] 10:08 Kannon K. Shanmugam: As a matter of constitutional structure, federal law and only federal law can apply. We point to this Court's cases starting with Missouri versus Illinois --
+[62] 10:18 Neil Gorsuch: Could a Texas court apply Texas law --
+[63] 10:21 Kannon K. Shanmugam: A Texas court can apply Texas law --
+[64] 10:23 Neil Gorsuch: -- to a Texas defendant?
+[65] 10:24 Kannon K. Shanmugam: -- to ordinary interstate pollution claims by virtue of the Clean Air Act.
+[66] 10:29 Kannon K. Shanmugam: So our view as to how this is supposed to work, Justice Gorsuch -- and I recognize that there are --
+[67] 10:33 Neil Gorsuch: It's a little complicated.
+[68] 10:35 Kannon K. Shanmugam: This case is certainly a little bit complicated.
+[69] 10:37 Amy Coney Barrett: Can I just ask you to point out, you're talking about a source in Texas?
+[70] 10:40 Neil Gorsuch: Yeah. Yeah, yeah.
+[71] 10:41 Kannon K. Shanmugam: Yes. So --
+[72] 10:41 Neil Gorsuch: Yeah. A Texas defendant who's -- who's a source, of applying Texas law --
+[73] 10:45 Kannon K. Shanmugam: Yeah, there's one --
+[74] 10:46 Neil Gorsuch: -- that would --
+[75] 10:46 Kannon K. Shanmugam: -- there's one caveat that --
+[76] 10:47 Neil Gorsuch: -- that wouldn't work either?
+[77] 10:48 Kannon K. Shanmugam: -- in our view, prevents Texas law from applying, but it's an important one. Here's how the analysis, in our view, should work.
+[78] 10:53 Kannon K. Shanmugam: Step one, as a matter of constitutional law, as this Court's cases involving interstate pollution say, this is within the field of the uniquely federal interest. We'd go all the way back, again, to Justice Holmes and Missouri versus Illinois and his explanation as to why, as a matter of constitutional structure, that is so.
+[79] 11:10 Kannon K. Shanmugam: Second, under our approach, it is for Congress to authorize state law to apply if it wishes to do so. Our --
+[80] 11:18 Elena Kagan: I -- I think one reason -- I'm sorry.
+[81] 11:20 Neil Gorsuch: No, please. I -- I was just trying to supplement you. Go ahead.
+[82] 11:23 Elena Kagan: As you did.
+[83] 11:24 Kannon K. Shanmugam: I do want to get to point three, but --
+[84] 11:25 Elena Kagan: But I think one reason why this is becoming a little bit more complicated is because you keep switching back and forth between your two theories.
+[85] 11:32 Elena Kagan: You know, one theory is a theory, really, about air and water regulation and who gets to do that. And another theory is not about that and really goes much further and sets out broad principles of, you know, who can do what extraterritorially with respect to any subject. And as you're pressed on the extraterritorial aspect, you go back to your environmental theory.
+[86] 11:59 Elena Kagan: So is it really that your extraterritorial theory cannot stand alone?
+[87] 12:05 Kannon K. Shanmugam: Like my children, I love both of our theories equally, Justice Kagan.
+[88] 12:08 Elena Kagan: Well, but if that's --
+[89] 12:09 Kannon K. Shanmugam: But let me explain --
+[90] 12:09 Elena Kagan: -- if that's true, then you can't answer questions about the extraterritorial theory by referring to the nature of air and water regulation.
+[91] 12:19 Kannon K. Shanmugam: They both get you to the same result in this case, and let me explain why.
+[92] 12:24 Kannon K. Shanmugam: As I was saying to Justice Gorsuch, under our equal sovereignty theory, Congress has the authority to authorize state law to apply. There's nothing anomalous about that. That is just Congress saying that in this uniquely federal area, we can prescribe as the federal rule of decision that state law applies. It's no different from a court applying federal common law borrowing state law.
+[93] 12:48 Kannon K. Shanmugam: Now my caveat, which I think is an important one, is that in the context of these sorts of climate change claims, it really doesn't make a lot of sense to talk about the source state law.
+[94] 12:59 Kannon K. Shanmugam: Remember that my clients are not emitters, as was the case in American Electric Power. My clients are producers of fossil fuels. And these sorts of claims -- I said at the outset that these claims -- that the application of federal law follows a fortiori from the interstate pollution cases.
+[95] 13:18 Kannon K. Shanmugam: Unlike in the traditional interstate pollution cases like Ouellette, where you have two states, the source state and the affected state, here, because the claim runs through global climate change, the claims here necessarily depend on the emissions of anyone who uses fossil fuels worldwide.
+[96] 13:38 Kannon K. Shanmugam: All 50 states and --
+[97] 13:38 Sonia Sotomayor: Counsel, can I bring you back -- can I bring you back --
+[98] 13:40 Kannon K. Shanmugam: -- foreign countries have an interest.
+[99] 13:41 Sonia Sotomayor: -- to the point?
+[100] 13:44 Sonia Sotomayor: I have a starting problem, which is I don't see anywhere below where you argue the extraterritoriality principle at all.
+[101] 13:55 Sonia Sotomayor: And in this case, you raised it only on reply. And yet you come here and start arguing it as your first argument.
+[102] 14:05 Sonia Sotomayor: Haven't you forfeited? It's a defense like any other. If you didn't raise it below -- I didn't see anywhere in your briefs this argument. But putting that aside, I'm trying to disentangle them.
+[103] 14:19 Sonia Sotomayor: You are really staying away from the word that seemed to control the briefing below and even here, which is preemption, all right?
+[104] 14:31 Sonia Sotomayor: Are you claim -- you -- you don't win unless you get us to say that federal law preempts state law in this area, period, correct?
+[105] 14:44 Kannon K. Shanmugam: That is correct, which is to say this is --
+[106] 14:46 Sonia Sotomayor: But you can't say that for the reasons that just the Chief Justice pointed out, which is there are nuisance suits that we have permitted under state law in both the -- in the Clean Water Act, and I don't see why we wouldn't permit it under the Clean Air Act either.
+[107] 15:07 Kannon K. Shanmugam: Yeah. Let me answer that question. And I do want to finish off my answer to Justice Kagan. But let me address your question first, Justice Sotomayor.
+[108] 15:16 Kannon K. Shanmugam: I respectfully disagree with your suggestion that this issue was not fully preserved. And I would note that we made all these arguments in our petition for certiorari. There was never any suggestion by Respondent that these arguments were not made below.
+[109] 15:30 Kannon K. Shanmugam: Now I will acknowledge that I think that the two strands of our argument are closely related, and the reason that they are closely related is that the constitutional source for our arguments is essentially the same. Our constitutional source is that when the states went into the constitutional system, the states sacrificed certain rights that they would have had as independent sovereigns, and they went into the Union on an equal footing.
+[110] 15:59 Kannon K. Shanmugam: That is really the source for the extraterritoriality principle, which goes all the way back to Justice Marshall and Justice Story.
+[111] 16:06 Kannon K. Shanmugam: I would point this Court to the various amicus briefs, including the amicus brief of Professor Prakash, as well as the amicus brief of Tennessee, which set out the originalist history for these principles in some detail.
+[112] 16:19 Kannon K. Shanmugam: Now, to answer, Justice Sotomayor, the last part of your question, yes, it is true in both Ouellette and in American Electric Power that the Court recognized that there is some room for state law to operate at least in the context of a bilateral interstate pollution dispute. But that is because the Clean Water Act and the Clean Air Act contain these saving clauses, which this Court --
+[113] 16:44 Sonia Sotomayor: What do you do with Watson? What do you do with Watson that didn't -- it wasn't a bilateral situation?
+[114] 16:52 Kannon K. Shanmugam: With -- with, sorry?
+[115] 16:53 Sonia Sotomayor: Watson. Watson versus Employer Liability. That was a multi-state case.
+[116] 17:01 Kannon K. Shanmugam: Oh, I'm not sure I'm remembering which case you're --
+[117] 17:04 Sonia Sotomayor: Well, that was a constructive presence case.
+[118] 17:08 Kannon K. Shanmugam: Oh. Well, look, I think what I would say as to the constructive presence cases more generally, not just Watson but any other constructive presence case, is that there is no case comparable to this one. I actually think that the closest case on which my friend relies is State versus Lord, which was not a case from this Court. But, even in that case, what you were dealing with was the diversion of water into the affected state.
+[119] 17:32 Kannon K. Shanmugam: It was much easier to say in that context that the nuisance existed in the affected state than here. And, again, I would just say that in Ouellette, in AEP, the Court was plainly construing and definitively construing the scope of the savings clauses to apply only to source state law.
+[120] 17:51 Kannon K. Shanmugam: And the last thing -- can I say one last thing to Justice Kagan? And I'll be very brief.
+[121] 17:55 John G. Roberts, Jr.: Sure.
+[122] 17:55 Kannon K. Shanmugam: Justice Kagan, on the extraterritoriality principle, I think what I would say is that if you accept our view that this goes too far under the extraterritoriality principle, I think your analysis is at an end.
+[123] 18:11 Kannon K. Shanmugam: I suppose that one could make an additional argument that even as to the extraterritoriality principle, a state could -- Congress could authorize the application of state law. But it would still get you to the same result. So, yes, these are separate strands, but I think, ultimately, the conclusion under each is the same.
+[124] 18:28 John G. Roberts, Jr.: Thank you, counsel.
+[125] 18:29 John G. Roberts, Jr.: Justice Thomas, anything further?
+[126] 18:32 John G. Roberts, Jr.: Justice Sotomayor?
+[127] 18:34 Sonia Sotomayor: I want to go back to jurisdiction. I don't want to leave it.
+[128] 18:38 Sonia Sotomayor: As I look at Article 21 of the Colorado system, which is very different than the one that we looked at in Atlantic Richfield, it has two strands. And our amicus tell us that very directly. They tell us that the first strand is like Atlantic Richfield, has to do with writs of prohibition or some sort of writ of that sort, but that it also encompasses appellate jurisdiction. And we don't have a right to take certiorari over appellate jurisdiction cases.
+[129] 19:13 Sonia Sotomayor: How do we know, since the court below didn't tell us, that this was an original writ or just an interlocutory appeal?
+[130] 19:22 Kannon K. Shanmugam: Sure. So I don't think, with respect, that that characterization of Rule 21 is correct. I think it is true that Rule 21, which is labeled Original Jurisdiction Under the Constitution, sweeps in two constitutional provisions in Colorado: Article VI, Section 2, which grants the supreme court superintending control, and Article VI, Section 3, which grants the supreme court power to issue certain writs.
+[131] 19:54 Kannon K. Shanmugam: But I think that the key fact here is that whichever strand of the Constitution you're proceeding under, the rule itself is talking about original jurisdiction in the Colorado Supreme Court, and it could not be clearer --
+[132] 20:09 Sonia Sotomayor: If we're unsure --
+[133] 20:10 Kannon K. Shanmugam: -- that the rule provides for self-contained proceedings. I'm sorry.
+[134] 20:12 Sonia Sotomayor: -- if we're unsure of your characterization, because there's certainly a number of amici brief who disagree with that characterization, shouldn't we be certifying this question to the Colorado court instead of us deciding it? We have to be sure of our jurisdiction before we take it.
+[135] 20:29 Kannon K. Shanmugam: You do, Justice Sotomayor, but we cite numerous decisions from the Colorado Supreme Court that characterize the proceeding in exactly this fashion. And if you have --
+[136] 20:39 Sonia Sotomayor: And the other side gives us numerous statements completely to the contrary that describe it just as an appellate process.
+[137] 20:47 Kannon K. Shanmugam: That is -- with respect, I don't think that that is accurate. I think the best thing that my friend on the other side has pointed to is the fact that the decretal language in this case remanded.
+[138] 21:00 Kannon K. Shanmugam: But I think the problem with that argument is that in Atlantic Richfield itself, the Montana Supreme Court's decision not only remanded but affirmed the lower court, and yet the court said this is the exercise of original jurisdiction. And can -- if I could add --
+[139] 21:13 Sonia Sotomayor: With respect to the Cox stand of your -- the Cox strand of your statutory argument, you still have federal defenses below that are available, aren't there?
+[140] 21:25 Kannon K. Shanmugam: We do. But we cite --
+[141] 21:26 Sonia Sotomayor: You still have personal jurisdiction. That's usually how we protect against extraterritoriality, correct?
+[142] 21:34 Kannon K. Shanmugam: But that provides very limited protection in a context like this, as evidenced by the fact that the trial court rejected that defense and then used --
+[143] 21:42 Sonia Sotomayor: I mean, you still have an appeal of that.
+[144] 21:44 Kannon K. Shanmugam: -- and then used personal jurisdiction to bootstrap jurisdiction worldwide.
+[145] 21:47 Sonia Sotomayor: You also have causation arguments to raise. The indirectness of this could be a defense to any of the public nuisance arguments.
+[146] 21:57 Kannon K. Shanmugam: But the very point of the fourth exception under Cox is that it provides for review in circumstances where the party seeking review might still prevail on non-federal grounds. And we point to Fort Wayne Books for the proposition that the --
+[147] 22:13 Sonia Sotomayor: Well, that one, we took great pains to say that it was because there was a second constitutional principle at issue, which was a First Amendment right, where the injury was immediate.
+[148] 22:24 Sonia Sotomayor: Here, the injury is not immediate to you. You still have appellate rights below that can protect any federal claims you have.
+[149] 22:32 Kannon K. Shanmugam: We would submit that the injury to us is immediate for the reasons that I said earlier in response to Justice Thomas.
+[150] 22:37 Sonia Sotomayor: Because you're spending money that -- in litigation. But I don't know that we've ever talked of spending money on litigation as a constitutional injury.
+[151] 22:46 Kannon K. Shanmugam: But we are doing so involuntarily as a result of the adverse ruling on a question of federal law. The Court need only get to Cox if it disagrees with the application of Atlantic Richfield, a unanimous decision that is on all fours here.
+[152] 23:02 Kannon K. Shanmugam: And the last thing I would say, to the extent that there is any doubt, and there really shouldn't be, about Colorado procedure, is, again, that in Colorado, the best evidence that this is in the self-contained original proceeding category is that Colorado provides for two avenues in a circumstance like this.
+[153] 23:21 Kannon K. Shanmugam: You can take an interlocutory appeal under Colorado Appellate Rule 4.2. That rule looks a lot like Section 1292 in the federal context. And that goes to the Colorado court of appeals first, as you would expect.
+[154] 23:35 Kannon K. Shanmugam: Or you can go directly to the Colorado Supreme Court. The standard is quite high. You've got to show that you have an extraordinary question. But, if you do, the proceeding begins and ends in the Colorado Supreme Court. And the rules distinguish explicitly between the original proceeding in the Colorado Supreme Court on the one hand and the underlying proceeding in the trial court on the other.
+[155] 23:55 John G. Roberts, Jr.: Justice Kagan, anything further?
+[156] 23:57 Elena Kagan: Mr. Shanmugam, in -- in multiple respects, this suit appears to be based on the old 1990s tobacco suits that were brought by states and local governments basically saying that big tobacco had made representations, misrepresentations, which had caused people to use the product in -- to overuse the product, causing harm to those governments. I suppose the opioid litigation more recently follows the same model.
+[157] 24:23 Elena Kagan: This is chapter 3. So, if this is chapter 3, were chapters 1 and 2 also preempted?
+[158] 24:31 Kannon K. Shanmugam: I don't think so. I would submit that this is, in fact, a very different book, and that is for the simple reason --
+[159] 24:37 Elena Kagan: A very different?
+[160] 24:38 Kannon K. Shanmugam: Book, not the same -- not a chapter in the same book, and that is because, in the tobacco litigation, as your question illustrates, that feels a lot more like a traditional misrepresentation claim where you have representations that are being made about a product, you have consumers relying on those representations and, as a result, suffering injury quite directly if you accept the claims. And in that case, the remedies are --
+[161] 25:07 Elena Kagan: I'm waiting to see the distinction, because this complaint talks a lot about misrepresentations that are made by the -- the defendants.
+[162] 25:16 Kannon K. Shanmugam: Well, I -- I think, in an effort to avoid what would obviously be the preemptive force of our constitutional arguments and, indeed, also our Clean Air Act arguments, Respondent has attempted to back up one step to the misrepresentation.
+[163] 25:32 Kannon K. Shanmugam: But I want to make clear what is different here. What is different here is that the injury is not suffered by the Colorado consumer in the traditional sense. The claim here, if you look at the misrepresentation strand of the claims -- and it's not very clearly defined in the complaint, but take a look, for instance, at paragraph 411 of the complaint at page 105. It's not really like any sort of misrepresentation claim that you would be familiar with. It's a claim that --
+[164] 26:04 Elena Kagan: So they might have a bad claim on the merits, a more attenuated claim on the merits. But this is the same kind of lawsuit against the same kind of actors for the same kind of harm.
+[165] 26:16 Kannon K. Shanmugam: I -- I --
+[166] 26:16 Elena Kagan: And I guess I'm not understanding how it is that the one would be preempted and the other is not. Now you could say to me: Look, it's because, really, in the end, my claim is about air and water. But that's not what you seem to be saying to me.
+[167] 26:31 Kannon K. Shanmugam: That is basically what we're saying. And we rely on this Court's decision in Kurns for the proposition, when you're engaging in this type of analysis, you've got to look at the gravamen of the claim.
+[168] 26:42 Kannon K. Shanmugam: And our core submission for this Court is that whatever state law label you attach to the claims -- and, again, I would direct you to the paragraphs that talk about misrepresentation. The gravamen of the claim here is that some marginal increase in greenhouse-gas emissions attributable to my clients' conduct caused the harm.
+[169] 27:03 Elena Kagan: Well, you sound like you have a very good causation argument. But, again, I'm not sure what the difference in preemption is. But let me ask it another way.
+[170] 27:09 Kannon K. Shanmugam: Kurns -- Kurns makes clear that that is relevant to damages.
+[171] 27:10 Elena Kagan: Sorry, Mr. Shanmugam, let me ask it another way. Where does this principle come from, the -- the sort of states can't regulate in the air and water space?
+[172] 27:22 Elena Kagan: If I understand you correctly, it's kind of the plan of the Convention, no state would have entered into the Convention except with the understanding that they couldn't regulate in this sphere.
+[173] 27:35 Elena Kagan: It -- we have used that argument on occasion. We've never combined it with this notion that you combine it with, which is, like, well, actually, what we've -- what -- the -- the states wouldn't have entered in -- state regulation is forbidden unless Congress says otherwise. So it's really just a default rule.
+[174] 27:59 Elena Kagan: So there's a default rule that was part of the plan of the Convention. And I suppose it's like: Wow, like, where is the text for that? Where's the support for that? Where's the precedent for that? Where's the anything for that?
+[175] 28:13 Kannon K. Shanmugam: Sure. We talked about this Court's cases on interstate pollution, but let me provide, I think, a very concrete grounding for each of the constitutional principles we've been discussing.
+[176] 28:25 Kannon K. Shanmugam: For the equal sovereignty principle, I would point to Justice Thomas's opinion for the Court in Franchise Tax Board versus Hyatt, which I think established three very important premises for the argument.
+[177] 28:37 Kannon K. Shanmugam: There, the Court stated that the equal sovereignty of each state imposed -- implied certain limitations on the sovereignty of other states.
+[178] 28:48 Kannon K. Shanmugam: Second, that there were certain areas involving conflicting rights where states could not supply the applicable rule of decision. The Court cited borders, water rights, and interstate compacts.
+[179] 28:59 Elena Kagan: Mr. Shanmugam, my clock is ticking, so I want to know the answer to my question.
+[180] 29:05 Elena Kagan: My question is: What's the support for what -- for the no state -- for the -- the -- the default rule about air and water regulation?
+[181] 29:15 Kannon K. Shanmugam: So I think that Hyatt establishes the premise for this mode of constitutional interpretation, and the cases that applied federal common law before the enactment of the Clean Air Act apply that principle in the context of interstate pollution.
+[182] 29:34 Kannon K. Shanmugam: And if I could point you to any cases from this Court, the two I would select are Missouri versus Illinois and Georgia versus Tennessee Copper, two decisions written by Justice Holmes within two years of each other that talk about the fact that states no longer have the right to abate forcible nuisances.
+[183] 29:51 Kannon K. Shanmugam: And on the extraterritoriality principle, but I -- which I know we were discussing earlier, I can actually do no better than this Court's decision in National Pork Producers, which recognized that there are certain territorial limitations on state power as a matter of constitutional structure that are embodied to some extent in the Due Process Clause and the Full Faith and Credit Clause but that exist more broadly beyond those specific applications.
+[184] 30:14 Elena Kagan: Thank you.
+[185] 30:15 John G. Roberts, Jr.: Justice Gorsuch?
+[186] 30:16 John G. Roberts, Jr.: Justice Kavanaugh?
+[187] 30:18 Brett M. Kavanaugh: On the tobacco and opioid question that Justice Kagan asked, and she alluded to this, I thought the answer was that this Court has consistently said that air and water pollution are different in our federal enclaves.
+[188] 30:35 Kannon K. Shanmugam: That is undoubtedly true with regard to the --
+[189] 30:38 Brett M. Kavanaugh: What -- why are you resisting that? I just thought --
+[190] 30:40 Kannon K. Shanmugam: I -- I'm not resisting that. I took --
+[191] 30:41 Brett M. Kavanaugh: I mean, there's a lot of constitutional theory being tossed around, but we have four precedents on point. Let me finish.
+[192] 30:48 Kannon K. Shanmugam: Well --
+[193] 30:48 Brett M. Kavanaugh: Let me finish. Milwaukee I, Milwaukee II, Ouellette, and AEP, which, as I read them together, make crystal-clear that interstate air and water pollution are matters for federal law unless Congress specifically preserves state law.
+[194] 31:09 Brett M. Kavanaugh: That is through and through those four cases. So I -- maybe there's a flaw in that. And, actually, there is one wrinkle I'm going to raise, but you tell me why you're just resisting that.
+[195] 31:18 Kannon K. Shanmugam: Sure. There's no flaw in that with regard to our equal sovereignty principle because the equal --
+[196] 31:23 Brett M. Kavanaugh: Well, isn't that -- I mean --
+[197] 31:24 Kannon K. Shanmugam: And -- and that is dispositive in our view.
+[198] 31:26 Brett M. Kavanaugh: Exactly.
+[199] 31:27 Kannon K. Shanmugam: So what we would say is that when you're dealing with air and water and their ambient aspects, that is what implicates the conflicting rights of states. And, boy, in the context of climate change, do you ever have conflicting rights because states have wildly divergent views on the correct approach.
+[200] 31:44 Brett M. Kavanaugh: So why -- we don't have to reinvent the wheel because we've said this multiple times, and Congress presumably, when doing the Clean Air Act and doing the Clean Air Act amendments, has relied on this Court's precedents establishing that this kind of pollution is a federal law matter unless Congress speaks otherwise.
+[201] 32:02 Kannon K. Shanmugam: Correct. And --
+[202] 32:03 Brett M. Kavanaugh: Okay. Now the wrinkle -- and this is -- I think, goes back to the Chief's question -- the one wrinkle, it's a little -- and Justice Gorsuch's -- a little bit of a problem for you -- is that Ouellette did allow the Vermont affected party to sue the New York polluter under New York State law.
+[203] 32:22 Brett M. Kavanaugh: What do we do with that? Give me the explanation you would provide for how we deal with that if your side is to prevail and not to go back on choice of law.
+[204] 32:32 Kannon K. Shanmugam: So the easiest answer to that, Justice Kavanaugh, is that it is clear that my friend, Mr. Russell, is relying on Colorado law, the law of the affected state. So, if you --
+[205] 32:44 Brett M. Kavanaugh: Okay. That resolves this case. If he weren't, what's your answer?
+[206] 32:47 Kannon K. Shanmugam: Yes. And that's very important for us given the fact that there are dozens of these cases out there.
+[207] 32:52 Kannon K. Shanmugam: So I think what I would say is that if, say, a plaintiff in the next town over tried to bring a claim against Exxon Mobil under, say, Texas law, what we would say is that it still is not a claim that really involves the source state in any meaningful sense because we're not talking about --
+[208] 33:12 Brett M. Kavanaugh: How about if it was against an emitter, a Texas emitter under Texas law by a Texas affected party for --
+[209] 33:18 Kannon K. Shanmugam: That is --
+[210] 33:19 Brett M. Kavanaugh: -- for greenhouse-gas emissions?
+[211] 33:20 Kannon K. Shanmugam: -- that is the very question that the Court left open in AEP. It suggested that as to emitters, you might be able to bring a claim under the source state law. The Court didn't definitively resolve that. It just left it open in the way that this Court often does.
+[212] 33:34 Kannon K. Shanmugam: But we would say that in this context of climate change, when you're suing producers, you cannot do that. And I would say that the most telling thing is that neither Respondent nor any of their 28 amici suggest that the saving clause in the Clean Air Act affirmatively authorize claims in this context.
+[213] 33:55 Brett M. Kavanaugh: Under Colorado law?
+[214] 33:57 Kannon K. Shanmugam: At least under Colorado law. But I didn't see an argument anywhere as to why this -- it makes sense to say that there is a source state for claims of this variety.
+[215] 34:06 Brett M. Kavanaugh: Okay. A different point now.
+[216] 34:08 Brett M. Kavanaugh: The Clean Air Act is very significant in terms of the responsibilities it puts on states. We've had the cross-state air pollution rule. I had that multiple times on the D.C. Circuit. It came up here. EME Homer sets forth the good neighbor provision, tells the states what they can do.
+[217] 34:29 Brett M. Kavanaugh: Explain as clearly as you can the conflicts or the inconsistencies or the -- or the like that would result if states could do tort suits and were no longer constrained by the good neighbor provision in the way that the Clean Air Act constrains them.
+[218] 34:46 Kannon K. Shanmugam: Yeah. So, certainly, as this Court has recognized, we believe that the Clean Air Act establishes a comprehensive scheme for the regulation of air quality in the United States.
+[219] 34:55 Brett M. Kavanaugh: Right. I got that.
+[220] 34:56 Kannon K. Shanmugam: But I don't want to --
+[221] 34:56 Brett M. Kavanaugh: Just very precisely, what are the states' responsibilities that would be in tension with allowing tort suits? If you could answer that specifically.
+[222] 35:04 Kannon K. Shanmugam: I think the best place to look is to Section 7411, which is Section 111 of the Clean Air Act, which makes the EPA the primary regulator of stationary sources and gives secondary authority to source states because the states submit plans that specify emissions reductions for point sources within their jurisdiction.
+[223] 35:29 Kannon K. Shanmugam: You alluded to the good neighbor provision, which is in the previous section, which, for certain pollutants, requires states to take into account the effects on neighboring states in submitting plans.
+[224] 35:44 Kannon K. Shanmugam: This regime that Boulder is positing, this liability regime runs directly contrary to that because it is a scheme that gives EPA primary authority and source states secondary authority.
+[225] 35:57 Kannon K. Shanmugam: And, again, when we're talking about source states, under the Clean Air Act, the Clean Air Act reflects the judgment that it is the emitters who are going to be regulated and not the producers.
+[226] 36:08 Kannon K. Shanmugam: And so I think all of these arguments dovetail with each other. The only other thing I would say, just to close the loop on where you started, Justice Kavanaugh, is that when I was answering Justice Kagan's question, I was really answering it with regard to the extraterritoriality principle because I think that's where it's clearest that the effects here are much more attenuated --
+[227] 36:26 Brett M. Kavanaugh: No, I would just answer it with respect to our precedent.
+[228] 36:28 Kannon K. Shanmugam: Yes.
+[229] 36:29 Brett M. Kavanaugh: Our precedent says air and water pollution are different. But there is a wrinkle there on choice of law. And that's the -- that's the tension I see.
+[230] 36:36 Kannon K. Shanmugam: Well, the wrinkle is --
+[231] 36:38 Brett M. Kavanaugh: I guess the wrinkle's resolved under your extraterritoriality.
+[232] 36:41 Kannon K. Shanmugam: And the wrinkle is that it isn't so much choice of law as that Congress has authorized state law to apply in a very specific context.
+[233] 36:51 Kannon K. Shanmugam: That having been said -- and, again, we think that both of these principles point to the same result. But the virtue of the Court potentially relying on the equal sovereignty principle is that it is certainly not writing on a blank slate. It wouldn't be doing that even with extraterritoriality.
+[234] 37:08 Kannon K. Shanmugam: We have this line of cases culminating in the Court's unanimous decision in AEP rejecting claims against the actual emitters. This case just represents an effort to back up one step, and that's on the --
+[235] 37:21 Brett M. Kavanaugh: Last question. Real succinctly, do you think that our precedents that I mentioned before come from the equal sovereignty principle or the extraterritoriality principle? I would have thought the former.
+[236] 37:33 Kannon K. Shanmugam: I think the former.
+[237] 37:34 Brett M. Kavanaugh: Okay. That's all I need.
+[238] 37:35 Kannon K. Shanmugam: And --
+[239] 37:36 Brett M. Kavanaugh: Thank you.
+[240] 37:36 Kannon K. Shanmugam: Yes. And the cases that the Court relies on -- the principles the Court relies are on the Hyatt principles.
+[241] 37:42 John G. Roberts, Jr.: Justice Barrett?
+[242] 37:42 Amy Coney Barrett: So I -- I want to pick up on some of the questions Justice Kavanaugh was asking you. As I read those four precedents, the Milwaukee and Ouellette and AEP, they do say, drawing on other older precedents, that this is a field, interstate pollution, air and water, is a field that's an enclave of federal common law because it is not suited to the law of any one state, bracketing for one moment source state, state law, you know, suits in the -- under the state law of the source state. Right?
+[243] 38:15 Kannon K. Shanmugam: Yes.
+[244] 38:15 Amy Coney Barrett: Okay. So then, when you get to AEP -- so tell me if -- if I'm going wrong in any spot here -- when you get to AEP, what the Court says is, yes, before, this was an area of law which needed nationally uniform federal rules, and in the absence of congressional speak -- a statute, federal common law is what governed.
+[245] 38:37 Amy Coney Barrett: But now we have the Clean Air Act, and Massachusetts versus EPA interpreted 7411 to say that the EPA is the one that has the authority to regulate greenhouse-gas emissions. So, to the extent there is a national rule, Congress has given it to the EPA to set it.
+[246] 38:54 Amy Coney Barrett: Now I think where I would quibble with you is about where the state law comes in. I do not read either Ouellette or AEP to say that they are authorizing states to apply state common law rules or apply their own law otherwise. What I read it to be saying is, if you think of a Venn diagram, there was this center where it always had to be an enclave of federal common law, where federal courts were developing the rules for interstate air and water pollution, but even under that old pre-Clean Air Act system, there was this outer ring where states had authority.
+[247] 39:25 Amy Coney Barrett: So maybe in some of these cases that we're talking about where you had the source state and you were suing for, you know, emissions and you were suing in Texas for emissions from a Texas source or maybe some of these cross-border suits where there was a tight connection, I understand what the Court said in AEP to simply say: Congress preserved some state authority. It -- it displaced -- to the extent we need national rules, federal courts, you're out of the business.
+[248] 39:52 Amy Coney Barrett: But it did not disturb some of that state authority. And then the Court just didn't decide how much of that state authority it might have preempted or not because it wasn't before it. But it's not that it said Congress authorized states in any way. It just left alone some of that preexisting authority, maybe some of which might be affected by the Clean Air Act.
+[249] 40:11 Amy Coney Barrett: Do you quibble with any of that?
+[250] 40:13 Kannon K. Shanmugam: I -- I do slightly quibble with that, Justice Barrett, in that, although the Court may not have used the specific term "authorize," I do think it's the implication of the Court's reasoning.
+[251] 40:24 Kannon K. Shanmugam: Remember that in Ouellette, the Court cited not just Congress's pervasive regulation under the Clean Water Act but also, "the fact that control of interstate pollution is primarily a matter of federal law." And then the Court went on to construe the saving clause of the Clean Water Act.
+[252] 40:44 Kannon K. Shanmugam: And I think the implication of recognizing the constitutional principle is that what the Court was effectively saying, again, even though it didn't use the word "authorize," was that Congress has -- has authorized state law to operate where it otherwise would not have been able to authorize -- to -- to apply.
+[253] 41:03 Amy Coney Barrett: Well, I --
+[254] 41:03 Kannon K. Shanmugam: I --
+[255] 41:04 Amy Coney Barrett: -- mean, it doesn't say "authorize." It says "preserve." And a saving clause suggests that you're saving something that already exists.
+[256] 41:11 Kannon K. Shanmugam: But I think that the problem with that is that I think one of two things would have to be true for that characterization to be correct. One of them would be that state law previously would have operated for a claim of this variety. In other words --
+[257] 41:29 Amy Coney Barrett: I'm not saying for a claim of this variety. I'm saying for a claim like I posited before that there was some room for some state law nuisance claims for pollution, but it was just much more circumscribed.
+[258] 41:39 Kannon K. Shanmugam: Well, it was incredibly circumscribed because, if you look at the cases that Boulder cites on page 36 of their brief, I think that the best they can do is the case that I alluded to earlier involving water diversion, where it's much easier to say the nuisance is physically present in the state.
+[259] 41:58 Kannon K. Shanmugam: But the alternative -- and I think that this is the real upshot of the argument that Boulder is making -- is to say that when Congress enacted the Clean Water Act and the Clean Air Act, that state law somehow sprung into effect.
+[260] 42:12 Amy Coney Barrett: Yeah, yeah, yeah.
+[261] 42:12 Kannon K. Shanmugam: And --
+[262] 42:13 Amy Coney Barrett: I agree with you there.
+[263] 42:13 Kannon K. Shanmugam: -- and that can't possibly be --
+[264] 42:15 Amy Coney Barrett: I don't even --
+[265] 42:15 Kannon K. Shanmugam: -- correct.
+[266] 42:16 Amy Coney Barrett: I -- I -- I agree with you.
+[267] 42:17 Kannon K. Shanmugam: And -- and -- and the last thing I would say on this line is that when it comes to the federal common law, I think at least in its brief -- we'll see what my friend says at oral argument -- Boulder suggests that the -- that the way to think about this is to think about whether or not there would have been a federal common law cause of action.
+[268] 42:35 Kannon K. Shanmugam: But I think this Court, both in the context of interstate pollution cases and beyond, has made clear that a federal court can decide for any number of reasons not to recognize a federal common law claim, even in an area where uniquely federal interests are implicated.
+[269] 42:53 Kannon K. Shanmugam: So the mere fact that this Court limited federal common law to cases where states were bringing claims either against other states or even against private parties doesn't really tell you anything about the field that is covered by the constitutional --
+[270] 43:05 Amy Coney Barrett: So are you --
+[271] 43:05 Kannon K. Shanmugam: -- principle.
+[272] 43:05 Amy Coney Barrett: -- saying that if -- so the federal government has now said that 70 -- it's interpreted 7521 in the EPA to not give EPA the authority to regulate greenhouse-gases from motor vehicles. So, potentially, then the Court -- a court might say that the EPA does not displace federal common law-making authority as to that.
+[273] 43:26 Amy Coney Barrett: You are saying that even if someone invoked a federal common law nuisance cause of action, that as a matter of federal common law, a district court or, frankly, a state court, if asked to apply federal common law, could say, as a matter of federal common law, such a suit isn't recognized?
+[274] 43:42 Kannon K. Shanmugam: So I think what we would say as to that is that any decision that EPA makes as to whether and how to regulate greenhouse-gas emissions -- and that's obviously subject to ongoing litigation -- but any decision that EPA makes has no bearing on our argument concerning constitutional structure. Our arguments concerning constitutional structure apply with full force regardless of what EPA says --
+[275] 44:08 Amy Coney Barrett: Okay. Well --
+[276] 44:08 Kannon K. Shanmugam: -- with regard to its --
+[277] 44:09 Amy Coney Barrett: -- I think that's a little slippery. This is kind of what Justice Kagan was saying. I mean, we're talking about enclaves of federal common law, and now you're reverting to the constitutional structure equal sovereignty point.
+[278] 44:19 Amy Coney Barrett: If we're just staying with enclaves of federal common law, it seems that the answer has to be yes, that would be a matter left to federal common law. And then, sure, a federal court could decide as a matter of federal common law there's no cause of action.
+[279] 44:29 Kannon K. Shanmugam: I don't think so because I think that our argument is that this falls within the enclave of the constitutional principle. And so our argument does not depend on what might be available as a matter of federal common law.
+[280] 44:43 Kannon K. Shanmugam: And we would accept what this Court has said, which is that the Clean Water Act and the Clean Air Act have ousted federal common law from the equation. But our view is that the underlying constitutional principles still govern what claims can be brought under state law absent congressional authorization.
+[281] 45:04 John G. Roberts, Jr.: Justice Jackson?
+[282] 45:05 Ketanji Brown Jackson: So a number of the discussions that you've had with my colleagues make me think that we're really early in this case, that this is sort of premature from the standpoint of this Court exercising its jurisdiction.
+[283] 45:19 Ketanji Brown Jackson: So let me ask you, for example, do we have a state court determination regarding the choice of law here in this context?
+[284] 45:28 Kannon K. Shanmugam: So I think everyone agrees that the Colorado Supreme Court's decision reflected a definitive rejection of our federal arguments here, and so the issue is --
+[285] 45:41 Ketanji Brown Jackson: Not all of your federal arguments. My understanding is that you had a number of other federal defenses --
+[286] 45:46 Kannon K. Shanmugam: Right.
+[287] 45:46 Ketanji Brown Jackson: -- that are still pending.
+[288] 45:47 Kannon K. Shanmugam: Yes, our -- our preemption arguments, Justice Jackson.
+[289] 45:49 Ketanji Brown Jackson: Yes. Yes, yes, yes.
+[290] 45:50 Kannon K. Shanmugam: Yes. Exactly. And those were the issues after all that we --
+[291] 45:53 Ketanji Brown Jackson: No, I --
+[292] 45:54 Kannon K. Shanmugam: -- sought to have --
+[293] 45:54 Ketanji Brown Jackson: -- understand, but when we think about exercising jurisdiction, when we think about statutory jurisdiction and when we think about the Court's determinations about which cases it should hear, I wonder whether we should be considering matters like this essentially piecemeal insofar as you've not only made this preemption argument. I understand that you have several other federal issues that you have raised that are still pending in the state court. So why shouldn't we wait and hear all of these claims once the state courts are done with their federal considerations?
+[294] 46:31 Kannon K. Shanmugam: So, Justice Jackson, I think it certainly is true that we have argued personal jurisdiction and other federal defenses in this case and in other ways.
+[295] 46:42 Ketanji Brown Jackson: And they're still in the state court. We could hear this again on those issues assuming you lose here.
+[296] 46:47 Kannon K. Shanmugam: I think this Court could do that. But I think, at this point, I would point to the fact that, as we note in our brief, we now are facing more than 60 cases brought by municipalities in this context or more than 60 municipalities. I think the number of actual cases is around three dozen. More are being filed --
+[297] 47:07 Ketanji Brown Jackson: Yeah.
+[298] 47:07 Kannon K. Shanmugam: -- literally by the week. The most recent one was filed just last Wednesday. And the federal issues that we are advancing here have been fully decided by the Colorado Supreme Court and, indeed, fully decided in other courts as well.
+[299] 47:22 Kannon K. Shanmugam: And I would submit that, given the extraordinary magnitude of these cases, where, in each of these cases, plaintiffs are seeking billions of dollars of damages, that we need an answer to this question sooner rather than later.
+[300] 47:35 Kannon K. Shanmugam: And just as a matter of judicial administration, given the number of these cases that are in courts around the country, that the time is really now for this Court to resolve these issues.
+[301] 47:45 Ketanji Brown Jackson: All right. So let me just ask you on -- Justice Kagan started you down a road of other kinds of litigation that bear similarities to this.
+[302] 47:56 Ketanji Brown Jackson: I'm also wondering the extent to which your -- I guess it's the extraterritoriality principle relating to direct, traceable, and particularized effects. Is that your extraterritoriality?
+[303] 48:07 Kannon K. Shanmugam: Yes.
+[304] 48:08 Ketanji Brown Jackson: All right. That seems very close to a causation standard or test. So why is it that you are seeking to constitutionalize that issue? And if you are, how would a court go about figuring that out?
+[305] 48:23 Ketanji Brown Jackson: I mean, if we agree with you about extraterritoriality, who's making the decision as to whether or not there are direct, traceable, and particular effects in this case?
+[306] 48:34 Kannon K. Shanmugam: So it is a threshold determination for the Court as a matter of federal law.
+[307] 48:39 Ketanji Brown Jackson: Isn't it a matter of fact, though, whether or not there are direct, traceable, and particularized effects within the state?
+[308] 48:45 Kannon K. Shanmugam: So, Justice Jackson, I think what I would say about that is it's a slightly different inquiry from, say, the causation inquiry as a matter of state law, and that is because what you're really focusing on here is the nexus with the state. You're really focusing on the effects on the state.
+[309] 49:05 Kannon K. Shanmugam: And in this context, you can figure all of that out from the theory that the plaintiffs are advancing in their complaint.
+[310] 49:12 Ketanji Brown Jackson: From the theory, not as a matter of fact as to whether or not the pollution is causing problems with the state.
+[311] 49:18 Kannon K. Shanmugam: I don't think that there are any factual disputes that the Court needs to work out in order to apply our test. The Court can simply look to the theory underlying the plaintiffs' claims.
+[312] 49:30 Kannon K. Shanmugam: And I will say that I think a core theme of Boulder's submission here is, you know, don't think about this now because causation is just an issue that can be worked out as a matter of state law in the underlying proceedings.
+[313] 49:44 Kannon K. Shanmugam: But I would point the Court to what the trial court said in this case about causation as a matter of state law. I would point the Court to page 124A of the petition appendix, where the court said, and I'm quoting, that "in a multiple contributor tort case, there is no need to tie specific injuries to the actions of defendants."
+[314] 50:05 Kannon K. Shanmugam: As a matter of state law, the trial court was applying some form of market-share liability on steroids in this case, and that is what --
+[315] 50:14 Ketanji Brown Jackson: Did you appeal that causation ruling? I mean, my understanding was that the trial court below concluded that Boulder has plausibly alleged causation for its torts claims, and you didn't appeal that.
+[316] 50:23 Kannon K. Shanmugam: As a matter of --
+[317] 50:24 Ketanji Brown Jackson: So are you trying to make -- to -- to do that now in the context of this constitutional argument?
+[318] 50:29 Kannon K. Shanmugam: As a matter of state law, the trial court said that. And I make this point simply to illustrate the risk that state courts are not going to apply causation principles in the way that would be familiar to us.
+[319] 50:41 Kannon K. Shanmugam: We sought review on the preemption issues precisely because we thought that those were the issues of extraordinary importance that the Colorado Supreme Court immediately needed to resolve.
+[320] 50:53 Kannon K. Shanmugam: The critical point is that this Court -- that a court cannot shirk its responsibility to conduct this extraterritoriality analysis at the outset.
+[321] 51:04 Kannon K. Shanmugam: And, again, Boulder's theory here would permit the exception to swallow the rule. If, in fact, any in-state effect is sufficient, then the extraterritoriality principle really has no force.
+[322] 51:15 Ketanji Brown Jackson: Thank you.
+[323] 51:17 John G. Roberts, Jr.: Thank you, counsel.
+[324] 51:17 Kannon K. Shanmugam: Thank you.
+[325] 51:24 John G. Roberts, Jr.: Ms. Harris.
+[326] 51:25 Sarah M. Harris: Mr. Chief Justice, and may it please the Court:
+[327] 51:27 Sarah M. Harris: There are two main paths to reversal.
+[328] 51:30 Sarah M. Harris: First, we agree with Petitioners, interstate air pollution is an inherently federal area, and Congress hasn't authorized this suit in the Clean Air Act's saving clause.
+[329] 51:39 Sarah M. Harris: Ouellette held that the saving clause is what you get for the similar Clean Water Act, and AEP ties the two together.
+[330] 51:47 Sarah M. Harris: There's no claim here that Colorado is making a claim under a source state -- source state source of law that can proceed.
+[331] 51:54 Sarah M. Harris: Second, this suit egregiously exceeds constitutional limits on state authority.
+[332] 51:59 Sarah M. Harris: Boulder's theory is that because global climate change causes some Colorado injury, Colorado can hold oil companies liable for all their fossil-fuel activities worldwide.
+[333] 52:09 Sarah M. Harris: That eviscerates the theory of Pork Producers that states can only regulate out-of-state conduct with a direct nexus to in-state injury.
+[334] 52:17 Sarah M. Harris: Kansas in Phillips Petroleum couldn't apply its law to a class action just by pointing to some Kansas injuries when 97 percent of the conduct and injuries were out of state. So too here.
+[335] 52:28 Sarah M. Harris: I welcome the Court's questions.
+[336] 52:31 Clarence Thomas: Ms. Harris, would you discuss the issue of jurisdiction and whether or not this is a final determination from the state court?
+[337] 52:40 Sarah M. Harris: I agree with everything that Petitioners have said. Whether it is a self-contained proceeding from the state court follows exactly from Atlantic Richfield. Everything there is present here.
+[338] 52:51 Sarah M. Harris: The state supreme court for Colorado is applying Rule 21, treating this case as a self-contained original proceeding just like in Atlantic Richfield the Montana writ procedure.
+[339] 53:01 Sarah M. Harris: So just like in Montana, the Colorado Supreme Court directed the trial court to be a respondent. That's at JA 141.
+[340] 53:09 Sarah M. Harris: The test under Atlantic Richfield is: Did the state supreme court treat the case as a self-contained original proceeding? And the answer seems to be emphatically yes.
+[341] 53:18 Sarah M. Harris: And if you accepted Respondents' contrary functional view of does this feel like an interlocutory proceeding, does it feel kind of appellatee, I don't know what remains of the Court's traditional conception of its 1257 jurisdiction. You respect the state supreme court's framing of these things. And it seems clear that that's what the Colorado Supreme Court did.
+[342] 53:36 Neil Gorsuch: Ms. Harris --
+[343] 53:37 John G. Roberts, Jr.: Counsel --
+[344] 53:37 Neil Gorsuch: Oh, sorry, Chief.
+[345] 53:37 John G. Roberts, Jr.: I was going to say there are a lot of familiar situations where conduct outside of the state has broad effects among other states and all that, and yet we allow the state courts in a particular state to bring litigation that affects that, whether it's a mass tort sort of thing or maybe complaints about operations of the -- the Internet.
+[346] 54:01 John G. Roberts, Jr.: I guess I'm not quite sure what makes this situation different from those, all those other ones, where we've allowed them to proceed in -- in state court.
+[347] 54:09 Sarah M. Harris: Let me put it this way. In all of those state court -- tort cases, of course, you can regulate the out-of-state injury directed at your state. That falls comfortably within the constructive presence exception.
+[348] 54:18 Sarah M. Harris: The reason is the state that is imposing the liability rule is saying: Hey, if you bring your cars in my state, if you bring your opioids in my state, you're liable for conduct within my state.
+[349] 54:29 Sarah M. Harris: What it's not doing is saying what Colorado is doing here: You're banned from making that product anywhere nationwide. And so that's why this case falls more in the BMW v -- v. Gore side of the line, where the Court nicely illustrates the distinction.
+[350] 54:41 John G. Roberts, Jr.: Well, but that's -- that's a question of relief and -- and what might be available. It seems to me that the examples you gave are precisely what's going on here: conduct that could have impacts in many states, all of the states.
+[351] 54:54 John G. Roberts, Jr.: We still allow in many of these situations people to file in their state to seek relief from injuries that are occurring in their state.
+[352] 55:04 Sarah M. Harris: Again, you only allow that just as in BMW it's not a question of remedy. It's a question of can you apply your state law and what are the territorial limits, going back to Pork Producers.
+[353] 55:14 Sarah M. Harris: Again, if your liability rule is, if you direct your conduct to my state, even if it's out of state, the rule is, don't send your cars, like, with -- with a bad paint job, as in BMW, into Alabama. The rule cannot be, don't do these paint jobs anywhere across the country --
+[354] 55:29 Brett M. Kavanaugh: Ms. -- Ms. Harris --
+[355] 55:29 Sarah M. Harris: -- let alone across the world.
+[356] 55:30 Brett M. Kavanaugh: -- can I just ask on the -- that's a very complicated inquiry: direct effects, predictable effects.
+[357] 55:39 Brett M. Kavanaugh: Our Court, this Court, has said four times that interstate air and water pollution are a federal -- are matters for federal law unless Congress preserves or, in Mr. Shanmugam's words, authorizes state law.
+[358] 55:54 Brett M. Kavanaugh: Doesn't that take care of the issue? What -- I mean, I guess I'm not sure why you're leading with this more difficult inquiry than the one that our precedents have set forth since 1972.
+[359] 56:07 Sarah M. Harris: We agree that both paths are available and have no problem if you consider the -- the equal sovereignty arguments of --
+[360] 56:13 Brett M. Kavanaugh: What's -- you're leading with the other one, which makes me think there's a problem with the precedent, interstate air pollution one.
+[361] 56:21 Brett M. Kavanaugh: So what -- what's the problem with that? Why are you leading with the other one?
+[362] 56:26 Sarah M. Harris: Because we think there are two complementary theories in this case that are good to expound. But we are a hundred percent on board with what Petitioners are saying, so --
+[363] 56:32 Neil Gorsuch: All right, Ms. Harris, on -- on -- on the air theory --
+[364] 56:35 Sarah M. Harris: Sure.
+[365] 56:35 Neil Gorsuch: -- let's say we're before the adoption of the Clean Air Act.
+[366] 56:40 Sarah M. Harris: Mm-hmm.
+[367] 56:40 Neil Gorsuch: Could the Respondent here have brought a claim under federal common law?
+[368] 56:45 Sarah M. Harris: I don't think so, but this is the debate that the Court held open under AEP, which is it's unclear what exact causes of action federal courts would have felt comfortable crafting. And this is sort of what AEP walks through.
+[369] 56:58 Sarah M. Harris: It says the instances in which courts felt comfortable in the pre-Clean Air Act space fashioning particular remedies had familiar fact patterns, but that doesn't mean it's not a federal area. And so the Court --
+[370] 57:09 Neil Gorsuch: But there would be a federal common law question to adjudicate.
+[371] 57:13 Sarah M. Harris: It would be a federal common law question, but I would say AEP certainly says there's reasons to doubt that courts are supposed to be fashioning causes of action in all the states.
+[372] 57:20 Neil Gorsuch: Well, no, I understand that. But we'd have a federal common law question for some court to resolve, right?
+[373] 57:25 Sarah M. Harris: You would have a federal common law question, again, underpinning any constitutional issues.
+[374] 57:28 Neil Gorsuch: Okay. All right. All right. Let me stop you there. That --
+[375] 57:29 Sarah M. Harris: Sure.
+[376] 57:30 Neil Gorsuch: I'll take "yes" every day of the week.
+[377] 57:32 Sarah M. Harris: Okay.
+[378] 57:33 Sarah M. Harris: (Laughter.)
+[379] 57:34 Neil Gorsuch: What does the Clean Air Act do to -- to alter that "yes"? Because, as I understand it, EPA has disclaimed the -- the power to regulate greenhouse-gases not just from motor vehicles but more recently from stationary sources too.
+[380] 57:51 Neil Gorsuch: So this -- what -- does -- does the Clean Air Act change anything --
+[381] 57:57 Sarah M. Harris: The Clean Air Act, we --
+[382] 57:58 Neil Gorsuch: -- about the fact that there's a "yes" to -- that there's some common law question to answer?
+[383] 58:02 Sarah M. Harris: So the Clean Air Act does change things in the sense that, instead of having space for federal courts to fashion actions, the Court in AEP said the Clean Air Act is Congress's pronouncement. What you get as authorized by Congress there is what you get. EPA's recent actions don't change that for two reasons. One is --
+[384] 58:18 Neil Gorsuch: Well, let me put a finer point on it. If Congress didn't -- let's just hypothesize EPA is correct about greenhouse-gases and its capacity to regulate them, though I know that's a hotly contested issue and I'm -- I take no position on it here presently for the purposes of this question, but let's say Congress decided we're going to carve that out from -- from EPA's responsibility.
+[385] 58:39 Neil Gorsuch: Does that mean that there couldn't ever be a federal common law cause of action for it --
+[386] 58:44 Sarah M. Harris: Well --
+[387] 58:45 Neil Gorsuch: -- just because Congress didn't grant it to EPA?
+[388] 58:48 Sarah M. Harris: -- I think so and for two reasons. One is you're talking about a federal area where, if Congress has not authorized it, there's reason to think that federal common law shouldn't step in and fill the gaps for all the reasons that Ouellette was talking about being hesitant for Congress's ability.
+[389] 59:01 Sarah M. Harris: And, second of all --
+[390] 59:02 Neil Gorsuch: So -- so, before the Clean Air Act, you'd have some federal common law cause of action to -- to -- to decide. But, because -- because of the Clean Air Act and Congress not addressing this issue, nobody can sue at all?
+[391] 59:15 Sarah M. Harris: Again, I think that's correct, but I want to make a -- an important point which I think is getting missed here, which is Congress has absolutely spoken to regulation of greenhouse-gas emissions elsewhere in the Clean Air Act. The renewable fuels program is one of the best examples of that. So the idea that there's some sort of residual federal common law for some types of greenhouse-gas emissions but not others is strange. I think what --
+[392] 59:35 Neil Gorsuch: Well, they like ethanol. We know that. But, I mean, what does that have to do with emission of greenhouse gas? You -- you've disclaimed the power to regulate that directly.
+[393] 59:41 Sarah M. Harris: To -- with re- -- again, with --
+[394] 59:43 Neil Gorsuch: The renewable fuel mandate, just put in ethanol. Okay. I got it.
+[395] 59:46 Sarah M. Harris: The renewable fuel mandate has direct discussion of greenhouse-gas emissions regulations. So I think it's highly relevant to the question of whether it's a federal rule of decision.
+[396] 59:55 Sarah M. Harris: I think we're also a little far afield from what this actual claim entails, which is, under state law, under the law of an injured state, can you have a capacious suit against everyone who --
+[397] 60:04 Neil Gorsuch: No, I -- I understand that.
+[398] 60:04 Amy Coney Barrett: No, but what -- but just to follow up on what Justice Gorsuch said, that is a separate question. I agree. You're right.
+[399] 60:11 Amy Coney Barrett: But you don't -- go back to the "yes." I just want to make sure I have the "yes," that absent the Clear Air Act, that is a question of federal common law. Whether a federal court would fashion a cause of action under it is a different question, but it is still one of federal common law.
+[400] 60:24 Sarah M. Harris: That would be correct, but, again, it's federal common law, as Petitioner is saying, underpinned by constitutional concepts. So I don't want to lose site of what kind of federal common law we're talking about, what kind of federal area we're talking about.
+[401] 60:34 Amy Coney Barrett: Well, right, but all you're doing is saying that, yes, this is an enclave of federal law. And I understand you don't want to concede that if they turn around and file another suit in Colorado state court or in district court invoking a federal common law cause of action, I understand you don't want to concede that they could press such a suit. But it is still a matter of federal law.
+[402] 60:50 Sarah M. Harris: It's --
+[403] 60:51 Amy Coney Barrett: And maybe that is so because of some sort of equal sovereignty or extraterritoriality principle. I think Justice Kavanaugh is right. It's also simply -- in our precedent, we've called it an enclave of federal common law.
+[404] 61:01 Sarah M. Harris: Yes, that's right. And I just want to address one other thing that Justice Kavanaugh had raised, which is what do you do with the nature of the Clean Air Act saving clause? And I think the best way to think about it is it's a federal rule of decision.
+[405] 61:12 Sarah M. Harris: It's not the sort of weird exception where you suddenly have state law that preexisted springing back -- springing into being where it didn't otherwise exist. And I would --
+[406] 61:19 Sonia Sotomayor: What do you do with the questions that Justice Barrett asked Petitioners' counsel, which is there seems to be an enclave of state law that is permissible?
+[407] 61:34 Sarah M. Harris: Right, and it --
+[408] 61:34 Sonia Sotomayor: Even Ouellette recognized that it was all right to bring the state law claim there. So what do you do with that?
+[409] 61:42 Sarah M. Harris: Yes. Just -- I'm glad you asked that. I was trying to get to that. And I think, respectfully, I don't agree with the characterization of a residual preexisting state interstate pollution law for the reason that if you look to the Court's precedents, as Justice Kavanaugh was mentioning, they say things like: Federal law preempts state law in interstate air pollution. It's not a thing that exists.
+[410] 62:01 Sarah M. Harris: And I think the only way to make sense of Ouellette and the way it parses the saving clause in light of the federal common law and -- and history and its constitutional underpinnings is to recognize that, because it would be very strange indeed for the Court to have held that as a matter of -- based on this history and based on the text of the saving clause under the Clean Water Act, that there is no way for an injured state to sue under the injured state's law if there was some preexisting body of state law that was, like, out there, it would be a sort of weird displacement.
+[411] 62:32 Sarah M. Harris: I think, instead, what the Court's best read as saying is this has always been a federal area. Congress authorizes a rule of decision that the source state law can apply to an otherwise intractable state-on-state conflict. That's all states get to do because states don't get to then fill a vacuum of federal area with state law.
+[412] 62:52 Sarah M. Harris: And that's -- you could just stop right there and you don't have -- that's the end of Colorado's case.
+[413] 62:56 John G. Roberts, Jr.: Thank you.
+[414] 62:57 John G. Roberts, Jr.: Justice Thomas, anything further?
+[415] 62:59 John G. Roberts, Jr.: Justice Sotomayor?
+[416] 63:00 John G. Roberts, Jr.: Justice Kagan?
+[417] 63:02 Elena Kagan: What do you make of the closing paragraph of AEP, which says, you know, as to these state claims, we're not dealing with those, and then says the availability of a state lawsuit depends on the preemptive effect of the federal act?
+[418] 63:17 Sarah M. Harris: Yeah.
+[419] 63:18 Elena Kagan: So -- so it's -- it's clearly -- it's not looking to some big, broad constitutional principle. It's saying it just depends on what the Clean Air Act says about whether this state lawsuit can proceed.
+[420] 63:30 Elena Kagan: That seems -- I -- I mean, I know that you talk about the preemptive effect of the Clean Air Act in, like, a few pages at the end of your brief, but that's not your principal submission. I mean, this suggests that that should be the only question.
+[421] 63:44 Elena Kagan: So were they just -- was -- was AEP just wrong in not understanding that there was a bigger, broader, more important constitutional question lurking here?
+[422] 63:54 Sarah M. Harris: No. I think AEP is just right. And so let me just read the next part of AEP because I think it's highly illuminating. When it says the preemptive effect of the federal act, it cites Ouellette, it cites the pages of Ouellette that talk about the federal principles of federal common law. And then it says, "[holding that the Clean Water Act does not preclude aggrieved individuals from bringing a nuisance claim pursuant to the law of the source State.]"
+[423] 64:16 Sarah M. Harris: The source state claims were what it were -- what were at issue in AEP. So I take all of this discussion to be saying, hey, if you want to know can you bring a source state lawsuit, which is a thing reserved in AEP, go look to -- go look to Ouellette. And if you look to Ouellette, the thing that it says about how --
+[424] 64:31 Elena Kagan: Well, if you look to Ouellette, Ouellette is also almost entirely about the Clean Water Act. It's basically saying we have a statute, we need to know what that statute preempts and what it leaves in place.
+[425] 64:44 Elena Kagan: And, again, that would have been a very strange choice to make if it had at the front of its mind the idea that the Constitution itself, by virtue of the plan of the Convention, prevented states from touching this area.
+[426] 64:57 Sarah M. Harris: Respectfully, I disagree because the front part of Ouellette is all about tracing this history that Petitioner has been talking about and that we agree with about why is this an area of federal common law? Why is interstate air and water in their ambient and interstate qualities an inherently federal area even after Erie?
+[427] 65:14 Sarah M. Harris: And the Court says, like, tracing through that -- compares it to interstate boundaries disputes and everything else. And those are the very things that the Hyatt opinion says, no, they really are off limit to states, they're inherently federal in a way that has constitutional dimensions. And that makes sense of the way Ouellette then proceeded in its preemption analysis.
+[428] 65:30 Sarah M. Harris: I think it's really hard to read the ensuing discussion in -- in Ouellette about how to parse what the Clean Water Act means, what the saving clause means, and why exactly it is that the holding is that the injured state's suit is preempted if you don't have all that preceding discussion front of mind and recognize that the part of Ouellette that's key is not just the pervasive regulation of the Clean Water Act but the fact that control of interstate pollution is primarily -- primarily a matter of federal law that's explaining why state law doesn't have more room than what Congress has specifically authorized.
+[429] 66:03 Elena Kagan: Thank you.
+[430] 66:03 John G. Roberts, Jr.: Justice Gorsuch?
+[431] 66:04 John G. Roberts, Jr.: Justice Kavanaugh?
+[432] 66:06 Brett M. Kavanaugh: Do you read AEP to say that the Clean Air Act displaces federal common law?
+[433] 66:12 Sarah M. Harris: Yes.
+[434] 66:15 Brett M. Kavanaugh: Next question: On the source state law point at the end of AEP, the discussion you were just having with Justice Kagan, do you read the savings clause for the Clean Water Act and the Clean Air Act to have the same scope?
+[435] 66:28 Sarah M. Harris: Yes, and not just me, but every court of appeals to consider the question has said the same thing, and the text of the Clean Air Act reinforces that because the good neighbor provisions, for instance, that we talked about before, presupposed that the states lack authority if they're the injured state.
+[436] 66:43 Brett M. Kavanaugh: So, within the four corners of the precedent, if just that precedent, and if you're right about what you just said, the scope being the same, what is preserved by the Clean Air Act and what is permissible is a state tort suit under the source state's law but not under the affected state's law, so not under Colorado law in this case? Is that your argument for --
+[437] 67:06 Sarah M. Harris: Yes. And we know Colorado law is the law that's being applied from things like Pet. App. 54a to 55a. Like, the idea that it's a mystery what law is applying is just not right.
+[438] 67:15 Brett M. Kavanaugh: Last question: Out precedent says it, but do you object to state tort suits going under the source state law against emitters in that state? Is there some separate -- maybe this is where extraterritoriality or something else kicks in?
+[439] 67:30 Sarah M. Harris: Yes, because I think the way -- the nature of this suit would offend extraterritoriality principles --
+[440] 67:35 Brett M. Kavanaugh: Okay.
+[441] 67:35 Sarah M. Harris: -- above and beyond.
+[442] 67:36 Brett M. Kavanaugh: That's beyond our precedent. Okay, thank you.
+[443] 67:39 John G. Roberts, Jr.: Justice Barrett?
+[444] 67:40 John G. Roberts, Jr.: Justice Jackson?
+[445] 67:41 Ketanji Brown Jackson: Let me just get some -- sorry, can you hear he? Can I just get some clarity on what you just discussed about Justice Kavanaugh?
+[446] 67:48 Ketanji Brown Jackson: So what's the source state in this case? Have we decided that yet? Is that established?
+[447] 67:55 Sarah M. Harris: Well, there's no such thing as a source state in this case because Colorado's entire thesis is that the -- by a mere fact of having injuries in Colorado, they can regulate Petitioners' worldwide conduct.
+[448] 68:07 Sarah M. Harris: And, again, that is an unprecedented idea of a --
+[449] 68:09 Ketanji Brown Jackson: Why does that not implicate a source state? Maybe they're saying the source is from a lot of different places. But I don't know what you mean.
+[450] 68:15 Sarah M. Harris: Right. So they're trying to apply Colorado law. Colorado is the injured state, like the state in Ouellette that couldn't proceed, it was Vermont, the injured state.
+[451] 68:22 Ketanji Brown Jackson: Colorado does have some refiners, though. Are they not contributors in this way?
+[452] 68:28 Sarah M. Harris: That's not the thesis of their suit. They're saying, because of their injury, they get to sue for all of the worldwide activities. They're not confining themselves to saying, oh, there's particular fossil-fuel activities within the State of Colorado.
+[453] 68:40 Ketanji Brown Jackson: I know. But -- but, if -- if there are multiple sources, I'm just trying to figure out is Colorado one of them per their allegations.
+[454] 68:48 Sarah M. Harris: I don't think so in the -- in the nature of the suit. I don't think you could carve out, like, some future -- I don't think you could save their complaint by saying just because if you hypothesize not a suit based on injury or -- but a suit based on some unspecified --
+[455] 69:02 Ketanji Brown Jackson: I'm not carving it out. You -- you -- you articulated a theory with Justice Kavanaugh that said something to the effect of what is saved is the potential for a state tort suit under the source state's law.
+[456] 69:15 Ketanji Brown Jackson: And so I'm trying to figure out is Colorado a source state, one of them. Maybe there are many. I thought they had emitters or they at least had refineries. That was part of their allegation.
+[457] 69:27 Ketanji Brown Jackson: So I appreciate that they also say we're injured. That's what gives them a real stake in this. But aren't they also at least in part a source state?
+[458] 69:36 Sarah M. Harris: Again, if they wanted to make that complaint -- that their complaint, they would have to be focused on specifically what are the source state emitters and what are they doing to cause an injury in Colorado. They don't get to jump around and say, actually, what we want to regulate is all of the out-of-state, out-of-country conduct that is causing an injury.
+[459] 69:53 Ketanji Brown Jackson: I guess what I'm trying to figure out is we don't really know yet because we don't have the whole set of facts related to how this pollution is happening because we haven't gotten to that stage in this litigation.
+[460] 70:05 Ketanji Brown Jackson: It feels to me like the defendants in this case are coming in after attempting to remove this to federal court, you know, years of litigation about that where everybody says no, finally, this has to stay in state court, and now they're coming up with theories that are bringing it back to federal court before the state courts have really had a chance to sort out who is the source, what is their allegation with respect to how this causation is happening. And maybe -- maybe they lose because they can't actually trace this to any particular source. Maybe.
+[461] 70:41 Ketanji Brown Jackson: But it -- it feels like we don't really know enough to be confident that the theories that you are proposing are actually applicable here.
+[462] 70:50 Sarah M. Harris: Again, I think it would be strange indeed to say that you aren't certain if the federal law issues that are squarely presented might be resolved on different state law grounds down the road because perhaps their theories are inchoate. This is not sort of a, like, plead from the podium to fix your complaint situation.
+[463] 71:06 Sarah M. Harris: The question that the Colorado Supreme Court resolved, the questions are all the federal questions. Does federal law prevent the suit that Colorado -- that Boulder chose to fashion under Colorado law?
+[464] 71:16 Sarah M. Harris: There down the chain, I'm injured in Colorado. Therefore, I can sue all of the oil producers for their conduct everywhere with no limit in site. Is that okay? And the answer under federal law for many reasons is no.
+[465] 71:26 Ketanji Brown Jackson: Thank you.
+[466] 71:27 Sarah M. Harris: I don't --
+[467] 71:28 John G. Roberts, Jr.: Thank you, counsel.
+[468] 71:37 John G. Roberts, Jr.: Mr. Russell.
+[469] 71:39 Kevin K. Russell: Mr. Chief Justice, and may it please the Court:
+[470] 71:41 Kevin K. Russell: Since the Founding, states have had the power to provide tort remedies for injuries occurring within their borders even when the conduct causing those injuries occurred elsewhere.
+[471] 71:51 Kevin K. Russell: When somebody in New York defames a citizen of Boulder on national television or somebody in California releases a computer virus on the Internet or a biological virus into the world and it causes mass damage in Colorado, it has never been thought that only federal law can provide a remedy simply because the tortious conduct and the injury occurred in different states, because the harm was widespread, the damages were large, or the defendants were part of an important industry.
+[472] 72:18 Kevin K. Russell: And applying state law to such cases has never been viewed as one state impermissibly projecting its law nationwide. To be sure, specific constitutional provisions limit choice of law and place other constraints on the extraterritorial effects of state law.
+[473] 72:34 Kevin K. Russell: But Petitioners invoke none of those provisions here. Instead, they invite this Court to find in the structure of the Constitution a judicial power to declare some subject matters inherently federal and, therefore, preempted not by Congressional enactments but by Congressional silence.
+[474] 72:52 Kevin K. Russell: That claim inverts the constitutional structure and risks preemption being driven by judicial policy intuitions rather than anything in the Constitution itself.
+[475] 73:02 Kevin K. Russell: The structure of the Constitution places residual authority to preempt state laws with undesirable nationwide effects in Congress, not the courts. Accordingly, in AEP, this Court held that preemption of global warming nuisance claims is governed by the preemptive force of the Clean Air Act, citing Ouellette, which applied ordinary statutory preemption principles and concluded that state law could apply.
+[476] 73:26 Kevin K. Russell: Here, the statute does not preempt Respondents' deception and other claims against non-emitters not subject to the Act.
+[477] 73:34 Kevin K. Russell: But all of this must await another case because Petitioners have failed to establish this Court's jurisdiction to hear this interlocutory appeal.
+[478] 73:41 Kevin K. Russell: I welcome the Court's questions.
+[479] 73:44 Clarence Thomas: If you prevail, is there a limiting principle to whom you can -- as to whom you can sue?
+[480] 73:51 Kevin K. Russell: There are a number. So there's the constitutional limitations on choice of law, which require a sufficient nexus between the state whose law is to be applied and the conduct at issue. There's the Dormant Commerce Clause. There's personal jurisdiction limitations.
+[481] 74:07 Kevin K. Russell: The question here is not whether anything in the Constitution prohibits this lawsuit but whether the specific theories that they raised and the -- the Colorado Supreme Court passed upon below are valid.
+[482] 74:19 Clarence Thomas: So you could just as easily sue large retailers of -- of -- of these products?
+[483] 74:28 Kevin K. Russell: I think nothing in the Constitution would prevent that. I think that we would have --
+[484] 74:33 Clarence Thomas: But nothing in your theory prevents that either, right?
+[485] 74:37 Kevin K. Russell: Nothing in our theory prevents that. It could be that the Colorado courts would have a different idea that it is first and foremost a question of -- of state tort law.
+[486] 74:45 Kevin K. Russell: But, in terms -- but, you know, when lots of people act together to cause widespread harm, it is not uncommon for multiple different defendants to be potentially liable.
+[487] 74:56 Kevin K. Russell: But the principal, I think, protection, to the extent that seems unreasonable, is that Congress stands at the ready to intervene and to enact federal law that preempts unreasonable state laws with undesirable national effects.
+[488] 75:09 Brett M. Kavanaugh: Well, Congress -- Congress could act to allow state tort lawsuits too. The question in this case is really what burden is on Congress. Does Congress have to act to allow them, or does Congress have to act to proscribe them? What's the baseline or the default?
+[489] 75:25 Brett M. Kavanaugh: And I think, in the abstract, that would be an interesting question, but we have the precedents, you heard me mention them. And just to, you know, go back to Ouellette, it does say regulation of interstate water pollution is a matter of federal, not state, law.
+[490] 75:43 Brett M. Kavanaugh: Milwaukee I therefore held that these cases should be resolved "by reference to federal common law. The implicit corollary of this ruling was that state common law was preempted."
+[491] 75:54 Brett M. Kavanaugh: A later decision made it clear that state common law actions did not survive Milwaukee I, and then, of course, AEP comes in and says the Clean Air Act displaces federal common law. But I think we're on a -- have a wall of precedent that says state tort law does not apply except for the Ouellette source state thing.
+[492] 76:16 Brett M. Kavanaugh: So what do -- what do we do with that precedent? And here's why -- you mentioned Congress. Here's why I ask it. I think this Court would be rightly accused of misleading Congress for decades on what the state of the law was when Congress acts in the Clean Air Acts in the various amendments with respect to issues such as this.
+[493] 76:34 Brett M. Kavanaugh: Congress could rightly believe that this Court has set forth that interstate water and air pollution were matters of federal law and thus the burden being on Congress to act if it wanted to allow state tort suits. So that's linking up our precedent with Congress. Have at it.
+[494] 76:51 Kevin K. Russell: So I think, here -- there's a number of things I can say about that. Let me just start with how I understand this Court's precedents to deal with the fact that this -- that at least the -- the -- the emissions suits dealt with in those cases. This case is not about emissions. It's about deception and -- and producers.
+[495] 77:09 Kevin K. Russell: But, even assuming that this case was exactly about the same subject matter, I think the Court has treated this as, look, there was a body of federal common law. Set to the side for the moment whether that body of common law reflected this Court's determination that only federal law could apply there or that the Court had some degree of flexibility for deciding that some subject matters of special federal interest should be subject to federal common law. But there was this federal common law. Congress steps in and displaces it. And when Congress steps and displaces it, it displaces all of the policy decisions that were previously made by courts, including on the proper role of state law.
+[496] 77:48 Kevin K. Russell: And the question then becomes just one, as -- as Ouellette said, one of statutory interpretation. And although Ouellette acknowledged that previously this had been an area that was dealt with comprehensively by federal common law and although it did say that the question is whether state -- whether Congress preserved it, the way the Court decided what was preserved, the way it decided, for example, whether affected state law could apply, was by applying ordinary preemption principles, not asking whether Congress had authorized it.
+[497] 78:19 Brett M. Kavanaugh: Well, that -- that suggests that Congress, when it did the Clean Air Act, resurrected state tort law that had previously been ruled to be preempted by federal common law by this Court. And that's, like, an all-time elephant in mouse hole in terms of what Congress would have done there.
+[498] 78:38 Kevin K. Russell: I don't think so. So, in the Isla Petroleum case, this Court confronted a similar situation in which a federal statute had previously preempted part of RICO's regulation of fuel prices. Congress withdrew this. The argument -- same argument was made that you should therefore start from the premise that federal law -- that state law has been preempted and the question is whether Congress revived it. And this Court directly rejected that framing.
+[499] 79:03 Kevin K. Russell: I think that -- and there's a constitutional reason for this. The Supremacy Clause starts from the premise that state law applies unless something in the Constitution or the laws enacted in pursuance thereof preempt it. And I don't think under that structure --
+[500] 79:17 Sonia Sotomayor: Counsel, the problem with that is our statements that federal common law control water and air. But I think that we're sort of missing the point. The Clean Air Act does not regulate marketing or advertising of fuel, correct?
+[501] 79:33 Kevin K. Russell: Correct.
+[502] 79:34 Sonia Sotomayor: It does not mandate the use of specific fuel sources, correct?
+[503] 79:38 Kevin K. Russell: Correct.
+[504] 79:40 Sonia Sotomayor: So it's not clear to me how regulating the production and false advertisement of oils affects air and water, correct?
+[505] 79:48 Kevin K. Russell: Correct.
+[506] 79:49 Sonia Sotomayor: The Clean Wear -- Clean Air Act. And this case seems no different to me from Commonwealth Edison versus Montana, where we said that a state tax on coal did not affect the Clean Air Act standards for those that burned coal, correct?
+[507] 80:05 Kevin K. Russell: Correct.
+[508] 80:06 Sonia Sotomayor: Isn't this that -- your case?
+[509] 80:08 Kevin K. Russell: I think it's -- it's -- it is that case. So I think Petitioners' argument requires this Court to jump through a number of hoops to get indirectly at what the Court can just act directly. And it requires this Court to decide whether these sorts of claims would have fallen in the scope of the former federal common law even though all of those cases involved suits against emitters for their emissions.
+[510] 80:31 Kevin K. Russell: It would then require this Court to decide the second complicated question of whether, when the Court creates federal common law, it does so because it is exercising some degree of law-making discretion or, instead, only ever creates federal common law because the Constitution forbids state law from applying there, and then decide whether Congress can overrule that determination and then decide whether Congress actually did.
+[511] 80:53 Kevin K. Russell: Instead, I would suggest that the Court can and should directly answer the question: What in the Constitution implicitly prohibits Colorado or any other state's law from applying to these claims? And they -- they'd raise their arguments, right? It's -- it's equal sovereignty and extraterritoriality. But, as I explained in the opening, this Court has for a long time understood that when a state applies its tort law to in-state injuries caused by out-of-state conduct, that is not an impermissible exercise of extraterritoriality.
+[512] 81:21 Brett M. Kavanaugh: What will --
+[513] 81:22 John G. Roberts, Jr.: Counsel --
+[514] 81:22 Elena Kagan: I guess I don't --
+[515] 81:24 John G. Roberts, Jr.: -- just to make sure I have a correct understanding, presumably, if you prevail, the next day, a municipality in every single state will file a lawsuit, they'll probably copy your pleadings, and then there will be at least 50 -- you know, different cities in one state could do it, I suppose -- causes of action filed. And -- and what -- what do -- I mean, is it -- how -- how do you think that will work out on the ground?
+[516] 81:57 Kevin K. Russell: So I think, on the ground, I mean, there are other examples where, you know, a course of conduct causes mass liability across the nation, in asbestos, you know, in other kinds of product liability suits, and courts deal with them, you know, through litigation, including there is an MDL-like --
+[517] 82:14 John G. Roberts, Jr.: Well, asbestos is a little --
+[518] 82:15 Kevin K. Russell: -- process in states.
+[519] 82:16 John G. Roberts, Jr.: I -- I think maybe asbestos is a little different since that's not something that's necessarily -- it doesn't have to be applied as broadly after a decision of the sort you're talking about as it was before.
+[520] 82:27 John G. Roberts, Jr.: But there's always going to be greenhouse-gas emissions affecting every state. So it's not as if anything other than your litigation is going to address it. So, as a -- as a practical matter, what should -- again, what should -- what should happen?
+[521] 82:43 Kevin K. Russell: As a practical -- as a practical matter, I think, before these defendants face the kind of liability that they are projecting, we are going to have to satisfy the Dormant Commerce Clause. I mean, it's the choice of law rules and restrictions on choice of law that come from the constitutional personal jurisdiction. And we're going to have to prove proximate cause, which they say we cannot prove.
+[522] 83:05 Kevin K. Russell: And, you know, the mere fact that there's going to be a lot -- there could be a lot of litigation, I don't think there's anything in the Constitution that says preemption arises from -- whenever, you know, a state law, if copied in other states, could cause a lot of litigation.
+[523] 83:18 John G. Roberts, Jr.: Well, and -- and with the overlay that, of course, we're not talking about regulation of emissions at all. It's just sort of the pre -- production.
+[524] 83:28 John G. Roberts, Jr.: Now why -- does that have any significance in the case?
+[525] 83:30 Kevin K. Russell: Well --
+[526] 83:31 John G. Roberts, Jr.: There's a reason why -- why aren't these suits directed at greenhouse-gas emissions?
+[527] 83:36 Kevin K. Russell: I think in part because of Ouellette. You know, I think that that is a field that has been occupied in significant part by federal law.
+[528] 83:47 John G. Roberts, Jr.: Well, isn't your --
+[529] 83:47 Kevin K. Russell: We don't think that --
+[530] 83:49 John G. Roberts, Jr.: I'm sorry to interrupt, but isn't your suit an attempt to evade those decisions?
+[531] 83:55 Kevin K. Russell: It's an attempt --
+[532] 83:56 John G. Roberts, Jr.: It's going -- it's an effort to reduce emissions. The -- the fuel production itself doesn't have the sort of universal harm that we're -- we're talking about.
+[533] 84:06 Kevin K. Russell: No, it is not an effort to reduce emissions. For example, the deception claim. Under our deception theory, they can continue to produce as much fossil fuels as they like and contribute to as much air pollution and greenhouse-gas emissions as the market will bear when consumers are properly informed about the consequences of that decision.
+[534] 84:27 Kevin K. Russell: With respect to the production, the production claims could have an indirect effect on the emissions in the same way that a severance tax on coal does, in the same way that a gas tax overtly directed at trying to reduce emissions and greenhouse gases does.
+[535] 84:42 Kevin K. Russell: But I don't think that anything in the Clean Air Act stretches as far as preempting every state law that could have an effect on emissions. That's --
+[536] 84:52 Neil Gorsuch: Mr. --
+[537] 84:52 Elena Kagan: Do you think --
+[538] 84:53 Neil Gorsuch: -- Russell -- I'm sorry, please go ahead.
+[539] 84:54 Elena Kagan: No, go ahead.
+[540] 84:55 Neil Gorsuch: No.
+[541] 84:55 Elena Kagan: Do you think Milwaukee I is still good law? I mean, whatever you think about the wall of precedents idea, Milwaukee I seems fairly clearly to say there's this area of state -- of environmental law that it would be crazy for states to be the regulators of, and this is primarily or entirely a matter of federal law.
+[542] 85:18 Elena Kagan: Does that survive? Does that survive the environmental -- you know, the Clean Air Act, the Clean Water Act, everything that we've said about those two statutes? Is there still, as Milwaukee I indicated, a constitutional limit on what states can do in the air and water field?
+[543] 85:36 Kevin K. Russell: So, number one, I -- I don't concede that when this Court says that an area is meat for federal governments that that means that the Court has determined that the Constitution forbids --
+[544] 85:47 Elena Kagan: You really read Milwaukee I to allow state regulation of air and water to any significant degree?
+[545] 85:54 Kevin K. Russell: No, but not for constitutional reasons. It's not because the Court thought there was a constitutional problem. In fact, the Court -- what the Court pointed to was the pervasive statutory regulation in that space. And the Court viewed the federal common law in that case as principally filling up the details, providing a supplemental remedy that federal law had not provided.
+[546] 86:14 Elena Kagan: Well, why would there have to be federal common rather than state law unless there was a constitutional principle indicating exactly that?
+[547] 86:23 Kevin K. Russell: Because I think that this --
+[548] 86:23 Elena Kagan: I mean, it's not just like there has to be federal common law because, what, we, the Court, think it would be a good idea?
+[549] 86:31 Kevin K. Russell: Well, I think that the -- this Court's federal common law power originates in a period prior to Erie, where the Court viewed itself as all courts, as having the power to create common law or to understand common law and apply it to the particular circumstances of particular cases. And that's what it was doing in the original jurisdiction cases.
+[550] 86:53 Kevin K. Russell: After Erie, the Court understood itself to retain a narrower band of that kind of authority. And I don't think the Court has ever thought that that authority is limited to situations in which state law cannot constitutionally apply.
+[551] 87:05 Kevin K. Russell: Think of the test. The test is, is there a conflict between state law and some federal interest? And then compare that to Hyatt III, where the Court self-consciously found that the structure of the Constitution preempted a state law. And there, that was a self-conscious constitutional analysis, looking at Founding-era documents like the Federalist Papers and Founding-era understandings of the role of state sovereignty.
+[552] 87:28 Kevin K. Russell: There's nothing like that in Milwaukee I or in any of this Court's --
+[553] 87:33 Elena Kagan: Thank you.
+[554] 87:33 Kevin K. Russell: -- cases.
+[555] 87:34 Brett M. Kavanaugh: Well, in Ouellette, which you've relied on, it specifically says in Footnote 20 that Vermont law cannot apply.
+[556] 87:44 Brett M. Kavanaugh: And my understanding of the factual scenario in Ouellette, New York polluter, Vermont affected state, is that your case, Colorado, is the -- is Vermont, the equivalent of Vermont in that case. And the Court there explicitly said Vermont law could not apply.
+[557] 88:00 Brett M. Kavanaugh: So what do we do with that?
+[558] 88:02 Kevin K. Russell: I think, at most, if you thought our case was on all fours with Ouellette -- and we don't think it is, but let me set that aside for the moment -- that would mean that we could proceed on these claims under the -- the law of the source state.
+[559] 88:12 Brett M. Kavanaugh: Do you agree that under Ouellette, you could not proceed under Colorado law?
+[560] 88:17 Kevin K. Russell: Yes. But my friends have insisted that we've only pled Colorado law. I urge you to look at the complaint. It doesn't identify a state source of law. We certainly didn't stake our case on it.
+[561] 88:29 Kevin K. Russell: We have, in some of our briefing, said that we think Colorado is the right choice of law, and we do think that that would be constitutionally permitted and isn't in conflict with the --
+[562] 88:38 Neil Gorsuch: Can you -- can you spell that out for me for just a minute?
+[563] 88:41 Neil Gorsuch: Let -- let's suppose, you know, you say to us, Mr. Russell, that we should look to choice-of-law limits in the Constitution.
+[564] 88:50 Neil Gorsuch: Is there anything anomalous in your mind to applying state law here to worldwide conduct?
+[565] 88:57 Kevin K. Russell: State law in general? No.
+[566] 88:58 Neil Gorsuch: No, Colorado state law.
+[567] 89:00 Kevin K. Russell: No, I don't think so. So if, like, a car was negligently manufactured in -- in Canada --
+[568] 89:05 Neil Gorsuch: You say it's just -- it's the same thing as -- as the classic car manufacturer case or something like that?
+[569] 89:12 Kevin K. Russell: Well, I do think, you know, the other side makes the argument that the causal link here is more attenuated, and I do think that that is an appropriate consideration under choice of law. The constitutional test is whether the nexus is such that it would be non-arbitrary and not fundamentally unfair to apply Colorado law to these claims.
+[570] 89:30 Kevin K. Russell: But, again -- I'm sorry.
+[571] 89:32 Amy Coney Barrett: Mr. -- are you finished?
+[572] 89:33 Neil Gorsuch: But, again? I want to hear the -- the dot, dot, dot.
+[573] 89:36 Kevin K. Russell: But, again, there hasn't been a choice-of-law determination in this case. And Petitioners --
+[574] 89:39 Neil Gorsuch: Hasn't been, but you think Colorado would be the appropriate choice of law, just as if it were a car defect case, manufactured, strict liability defects?
+[575] 89:47 Kevin K. Russell: We do -- we do think so.
+[576] 89:49 Neil Gorsuch: Okay.
+[577] 89:49 Amy Coney Barrett: Mr. Russell --
+[578] 89:50 Brett M. Kavanaugh: We --
+[579] 89:50 Amy Coney Barrett: Oh, sorry. Please finish.
+[580] 89:52 Brett M. Kavanaugh: Go ahead.
+[581] 89:53 Amy Coney Barrett: I just want to ask about the limits of your theory. I want to put aside the federal common law point for a minute and just focus on the extraterritoriality argument or the equal sovereignty argument.
+[582] 90:02 Amy Coney Barrett: So let's pretend the Clear -- Clean Air Act doesn't exist. So I don't want to talk about statutory preemption.
+[583] 90:07 Amy Coney Barrett: Everybody agrees that state tort law is a form of regulation. But what if Colorado passed a law purporting to cap emissions in the other 49 states? Is there any principle that would prevent that?
+[584] 90:20 Kevin K. Russell: I think that is the BMW principle and is the principle that was referred to in Footnote 1 in National Pork Producers.
+[585] 90:27 Kevin K. Russell: This Court has always recognized -- the distinction between a state doing that, directly regulating conduct, passing a statute that says it's unlawful to engage in conduct in another state, has always been understood as different than a state providing a tort remedy for conduct that took place elsewhere and caused harm in --
+[586] 90:44 Amy Coney Barrett: So, even if Colorado says, whereas these emissions are harming the residents of Colorado, whereas these emissions are causing climate change that are creating all of the exact same harms that your suit alleges, that would not be okay?
+[587] 90:57 Kevin K. Russell: I don't think so. And, again --
+[588] 90:59 Amy Coney Barrett: So the same thing can happen through the tort suit, though?
+[589] 91:02 Kevin K. Russell: It isn't the same thing. All the tort suit is doing is making them -- it doesn't prohibit them from engaging in the conduct. It requires them to internalize a portion of the costs of their activities by paying for some of the damage that those activities inflict.
+[590] 91:16 Kevin K. Russell: And I think that's why the Court has never concerned -- considered imposition of tort liability for out-of-state conduct as a form of extraterritorial or impermissibly extraterritorial application of the source state's -- or the -- the injured state's law into another sphere.
+[591] 91:33 Kevin K. Russell: And I think Petitioners ultimately don't disagree with that. They just say this case is special either because it involves water and air because that's a special thing or because they say the connection here is too attenuated.
+[592] 91:47 Kevin K. Russell: And the question for preemption is not whether the -- the allegations in this case are in conflict with federal law but whether Colorado law is consistent with the requirements of federal law.
+[593] 91:59 Kevin K. Russell: And even if the federal Constitution required a proximate causal relationship -- and I don't think it goes that far, but even if it did, that is a state law element for all of our claims. And I don't think that there can be any argument that there's any conflict between state and law when --
+[594] 92:14 Brett M. Kavanaugh: Can I --
+[595] 92:15 Kevin K. Russell: -- state and federal law when they both require the same thing.
+[596] 92:17 Brett M. Kavanaugh: Can I go back to Justice Barrett's question?
+[597] 92:19 Brett M. Kavanaugh: You said the state law -- an actual state legislative act that did the same thing that the tort suit is trying to do in terms of penalizing conduct would be preempted. I'm trying to understand the difference with the state tort suit.
+[598] 92:34 Brett M. Kavanaugh: You were a little cavalier about the state tort suit just makes them internalize it. It's going to bankrupt -- you know, if there are enough of these, bankrupt these -- these various defendants and certainly other defendants out there. I mean, anyone is a potential defendant for a suit like this, any -- any manufacturer, any business.
+[599] 92:55 Brett M. Kavanaugh: So -- so why is the state tort suit different than the state law? I'm just not understanding that.
+[600] 93:00 Kevin K. Russell: It's a matter of -- of tradition.
+[601] 93:02 Kevin K. Russell: So you could just as easily say that if Vermont holds a -- a company in New Hampshire liable for the damages for building a dam that backs up water into Vermont, that might have the practical effect of causing the people in the other state to act differently. It may have -- may have a prohibitive effect.
+[602] 93:24 Kevin K. Russell: But that has never been thought to mean that Vermont doesn't have the power to apply its law to that tort. And this -- you know --
+[603] 93:31 Brett M. Kavanaugh: With the --
+[604] 93:32 Kevin K. Russell: -- this is where --
+[605] 93:32 Brett M. Kavanaugh: -- was it a New Hampshire polluter in your example?
+[606] 93:36 Kevin K. Russell: Frankly, I've lost track of --
+[607] 93:37 Brett M. Kavanaugh: It was another state, though?
+[608] 93:38 Brett M. Kavanaugh: I mean, I think Ouellette does say that's -- Ouellette purports to be about tradition and about the nature of the Union and a lot of principles that say you can't apply Vermont law in that circumstance. The law of the affected state cannot be applied.
+[609] 93:53 Kevin K. Russell: So let me first answer the question about Ouellette and then the -- the broader general constitutional understanding and tradition.
+[610] 94:00 Kevin K. Russell: Ouellette said that the law of the injured state could not apply for a very specific reason, not for a constitutional reason but because it conflicted with the Clean Water Act's permitting regime for particular point sources.
+[611] 94:14 Kevin K. Russell: The problem was that a particular point source could be subjected to conflicting rules with -- because -- if, you know, the state of the injured --
+[612] 94:24 Brett M. Kavanaugh: One interruption.
+[613] 94:25 Kevin K. Russell: Sure.
+[614] 94:25 Brett M. Kavanaugh: The background principle of Ouellette, as stated by the Court, was that state law would not apply unless specifically preserved -- that's the phrase, "specifically preserved" -- by the -- by the Act. It flipped the usual preemption.
+[615] 94:39 Kevin K. Russell: With respect, I don't think it did, because the way it decided whether it was specifically preserved. So the question, the principal question presented, was about the affected state's law.
+[616] 94:49 Kevin K. Russell: And so it said: Well, we're going to ask, is the effective state law preserved? And it looks at the savings clause, and it says the savings clause does not save it.
+[617] 94:58 Kevin K. Russell: Under Petitioners' view, that should have been the end of the case because Congress did not specifically authorize the affected state's law to apply.
+[618] 95:05 Kevin K. Russell: But, instead, the Court went further and then said, look, that savings clauses don't apply, and it went and applied an ordinary statutory purposes-and-objectives preemption analysis.
+[619] 95:18 Kevin K. Russell: And the reason the source -- or the -- the affected state's law was preempted was because of a conflict, not a lack of authorization but a conflict.
+[620] 95:28 Elena Kagan: So suppose we did that, Mr. Russell. I mean, we've been talking a lot about these constitutional principles, and -- and your friends have indeed relegated the Clean Air Act to a couple of pages at the end of their briefs.
+[621] 95:40 Elena Kagan: But I'm wondering why that isn't the more natural and simpler route towards their view of what should happen here.
+[622] 95:50 Elena Kagan: In other words, the Clean Air Act sets up an extremely complicated scheme about how regulations of emissions, how it should operate, how air quality standards should be devised and enforced, and that scheme does -- actually does involve states in a wide variety of ways, but that scheme does not involve the kind of state litigation that you brought.
+[623] 96:20 Elena Kagan: And so why not just say: This really does just get in the way of how the -- of how Congress decided to regulate greenhouse gases or any other air quality standards?
+[624] 96:33 Kevin K. Russell: So a few responses to that.
+[625] 96:35 Kevin K. Russell: First, I think it is difficult to decide whether the Clean Air Act preempts these claims when we don't know whether the Clean Air Act applies to greenhouse-gas emissions when the EPA is saying it lacks the statutory authority to do that.
+[626] 96:48 Elena Kagan: Well, we know --
+[627] 96:48 Kevin K. Russell: But --
+[628] 96:48 Elena Kagan: -- what the EPA says today and -- and said last year and might say tomorrow, but -- but -- but the statute is the statute, and --
+[629] 96:57 Kevin K. Russell: Right. And the Court could interpret the statute and decide the question that is presently pending in the D.C. Circuit about whether this regulates greenhouse gases. It was a very --
+[630] 97:04 Elena Kagan: I don't think we would have to decide that question, Mr. Russell. We -- you know, whatever the answer to that question is, we would say the Clean Air Act sets up a scheme for basically regulating air quality.
+[631] 97:18 Kevin K. Russell: Well, I -- with respect, I don't think that's an accurate reflection of what it regulates. It regulates point-source emissions.
+[632] 97:26 Kevin K. Russell: It does not regulate everything that has an indirect effect on emissions. It doesn't regulate the severance -- coal severance tax. It doesn't regulate gas taxes that affected levels of emissions. Virginia Uranium tells us that.
+[633] 97:39 Elena Kagan: Well, I -- I understand that theory, but, on the other hand, your suits are so related to what kinds of emissions are appropriate, right? The entire, you know, causal chain of the suit is, by virtue of what the defendants have done, the products they've made, the way they've marketed those products, they have caused emissions to increase.
+[634] 98:03 Elena Kagan: So everything depends on -- on this idea that the defendants are responsible for excessive emissions. And, you know, one can look at the Clean Air Act and say the Clean Air Act sets up a scheme for deciding what are excessive emissions and what are not.
+[635] 98:21 Kevin K. Russell: Well, with respect, I disagree with that. Number one, the deception claims, I think, are far outside anything the Clean Air Act is designed to deal with. The EPA doesn't have authority for regulating the -- the ideal amount of deception in the marketing of fossil fuels.
+[636] 98:35 Kevin K. Russell: And, in fact, the -- the Clean Air Act doesn't give the EPA authority to figure out what is the ideal amount of emissions or pollutions or the right mix of fuels or the right level of economic activity. It is a much more precise mandate that is limited at putting -- is limited to putting a cap on the amount of emissions from particular point sources. It does not go forward to say that states cannot enact laws that have the indirect effect of raising the costs of fossil fuels and thereby reducing their use or, you know, enacting gasoline taxes again.
+[637] 99:08 Kevin K. Russell: I think the -- the -- the mere fact that these claims address, you know, things that are a step -- a few steps removed do not necessarily mean that Congress intended to regulate them. That's the lesson from Virginia Uranium.
+[638] 99:24 Kevin K. Russell: And, of course, Congress remains free to step in if it wants to define some different limit. It requires some difficult line-drawing of what kinds of conduct are impermissible for states to regulate because -- by virtue of their effect on the levels of emissions and their impacts on air quality.
+[639] 99:42 Kevin K. Russell: And I think it would be strange to think that the -- the statute itself prevents states from engaging in conduct that indirectly improves air quality because that's the -- the principal scheme of this statute, is to leave it to states to decide how much to regulate beyond the minimum level of regulation required by the Act itself.
+[640] 100:08 Ketanji Brown Jackson: Can I --
+[641] 100:09 John G. Roberts, Jr.: Thank -- oh, sorry.
+[642] 100:10 Ketanji Brown Jackson: Sorry, I just wanted to focus for a second on the exchange I had with Mr. Shanmugam about the direct, traceable, and particularized effects.
+[643] 100:20 Ketanji Brown Jackson: Do you agree with him that that can be decided as a matter of law in the context of this case?
+[644] 100:26 Kevin K. Russell: Well, number one, I don't agree with him that that is a constitutional test. This is some amalgamation that they brought up from, I think, standing and personal jurisdiction cases. I don't think this Court has ever said that is the test.
+[645] 100:38 Kevin K. Russell: But I don't think it can be decided as a matter of law by this Court on the pleadings. The question for preemption, as I said before, is whether there is a compatibility between the requirements of state law and federal law. And I don't think there's any dispute that Colorado's requirement or any state's requirement of proximate causation would meet the constitutional test.
+[646] 101:00 Kevin K. Russell: And their assertion that we won't be able to prove it, we won't be able to prove the element just like if there's, you know -- the First Amendment requires proof of actual malice in a defamation case involving a public figure. If state law requires that element, there's no preemption there. And that doesn't mean that a federal court, as a matter of constitutional law, would decide whether or not there is actual malice adequately alleged.
+[647] 101:24 Ketanji Brown Jackson: Thank you.
+[648] 101:26 Kevin K. Russell: If I could return just for a moment to jurisdiction and to the Atlantic Richfield case, the thing that has been -- that has made every case that this Court has decided under that line of precedent a separate lawsuit was that it had a separate defendant, which was the trial court.
+[649] 101:43 Kevin K. Russell: And that is not the case in this -- this case. They -- and when the rules required them to identify against whom relief was sought, at page 5 of their petition, they named the Boulder defendants, not the Court. And I recognize that that seems like a formal distinction, but this is a line of precedent that is itself very formal.
+[650] 102:01 John G. Roberts, Jr.: Thank you, counsel.
+[651] 102:02 John G. Roberts, Jr.: Justice Thomas, anything?
+[652] 102:03 John G. Roberts, Jr.: Justice Sotomayor?
+[653] 102:05 John G. Roberts, Jr.: Justice Kagan?
+[654] 102:06 John G. Roberts, Jr.: Justice Gorsuch?
+[655] 102:07 John G. Roberts, Jr.: Justice Kavanaugh, anything further?
+[656] 102:10 Brett M. Kavanaugh: In AEP, the Court said -- and this is picking up on Justice Kagan's questions just now -- "it's altogether fitting that Congress designated an expert agency here, EPA, as best suited to serve as primary regulator of greenhouse-gas emissions. The expert agency is surely better equipped to do the job than individual district judges issuing ad hoc case-by-case injunctions. Federal judges lack the scientific, economic, and technological resources an agency can utilize in coping with issues of this order."
+[657] 102:40 Brett M. Kavanaugh: I mean, doesn't those same points apply to a six-person state jury in Boulder and other juries in another country?
+[658] 102:48 Kevin K. Russell: I think that those are all good policy arguments about why state law should not apply here. But that's not the question presented here.
+[659] 102:56 Kevin K. Russell: The question is, you know, whether there's something in the Constitution that takes that policy decision away from Congress. And --
+[660] 103:03 Brett M. Kavanaugh: Well, I think that was probably talking about how the Clean Air Act had set forth a fairly comprehensive scheme that gave the states roles and saying that that meant that we shouldn't have, on top of the Clean Air Act, this other looming body that makes decisions.
+[661] 103:21 Kevin K. Russell: Again -- again, none of those reasons apply to the deception claims. I don't think just saying that --
+[662] 103:27 Brett M. Kavanaugh: Yeah.
+[663] 103:27 Kevin K. Russell: -- you know, producers cannot deceive the public implicates any of those concerns.
+[664] 103:33 Brett M. Kavanaugh: Thank you.
+[665] 103:35 John G. Roberts, Jr.: Justice Barrett?
+[666] 103:35 John G. Roberts, Jr.: Justice Jackson?
+[667] 103:37 John G. Roberts, Jr.: Thank you, counsel.
+[668] 103:43 John G. Roberts, Jr.: Rebuttal, Mr. Shanmugam.
+[669] 103:44 Kannon K. Shanmugam: Thank you, Mr. Chief Justice. Just three points on rebuttal.
+[670] 103:47 Kannon K. Shanmugam: First, the breadth of Boulder's theory here is astonishing. First, there is no limit under Boulder's theory on who could be sued. My friend, Mr. Russell, cites personal jurisdiction and the Dormant Commerce Clause.
+[671] 104:01 Kannon K. Shanmugam: But, under Boulder's theory, Boulder could tag me with personal jurisdiction when I am in Colorado in two weeks and sue me on a nuisance claim for refilling my car and thereby contributing to global climate change. There is simply no limit, and personal jurisdiction provides cold comfort in that regard.
+[672] 104:20 Kannon K. Shanmugam: Similarly, there's no limit on who can sue. We haven't heard anything this morning to suggest that the band of potential plaintiffs would be limited to the mere 90,000 municipalities across the country. Any individual who has suffered the effects of climate change could sue under Boulder's theory as well.
+[673] 104:38 Kannon K. Shanmugam: Second, the shortest line to a -- an appropriately cabined and narrowed decision here is to rely on the equal sovereignty principle. In particular, the Court can rely on this Court's case law from Missouri versus Illinois right through to AEP in this particular context.
+[674] 104:56 Kannon K. Shanmugam: We do believe that the conceptual framework for that is set out in Franchise Tax Board versus Hyatt, in which the Court said that there are certain areas involving conflicting rights where states cannot apply the applicable rule of decision.
+[675] 105:10 Kannon K. Shanmugam: And the Court can certainly say, for the reasons given by my friend, Ms. Harris, that that reasoning is reinforced by the extraterritoriality principle because there is simply no precedent for extending any state's authority as far as Boulder is suggesting. My friend, Mr. Russell, cites none.
+[676] 105:28 Kannon K. Shanmugam: And third and finally, especially given the foreign affairs implications -- and remember that 90 percent of greenhouse-gas emissions occur outside the United States -- this is a matter for the political branches on the federal level in the first instance.
+[677] 105:44 Kannon K. Shanmugam: As the brief set out in some length, in this area, the President and Congress have struck a careful balance between energy production on the one hand and greenhouse-gas reductions on the other. Congress can always act to authorize these claims if it so chooses. But administrations of both political parties have opposed liability schemes on the international level. There's no warrant for countenancing one on the domestic level.
+[678] 106:13 Kannon K. Shanmugam: In conclusion, this case and others like it reflect an all-too-regrettable trend of trying to resolve major political issues in court rather than leaving them to the political branches where they belong. Climate change is certainly one of the most pressing issues of the day, but we would submit that this is exactly the wrong way to go about resolving it. And so we would submit that the judgment of the Colorado Supreme Court should be reversed.
+[679] 106:40 Kannon K. Shanmugam: Thank you.
+[680] 106:40 John G. Roberts, Jr.: Thank you, counsel.
+[681] 106:41 John G. Roberts, Jr.: The case is submitted.

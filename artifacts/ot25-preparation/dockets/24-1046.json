@@ -1,0 +1,1525 @@
+{
+  "CaseNumber": "24-1046 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "07/27/2026",
+  "sJsonTerm": "2024",
+  "sJsonCaseNumber": "01046",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Jason Wolford, et al., Petitioners",
+  "RespondentTitle": "Anne E. Lopez, Attorney General of Hawaii",
+  "DocketedDate": "April 3, 2025",
+  "LowerCourt": "United States Court of Appeals for the Ninth Circuit",
+  "LowerCourtCaseNumbers": "(23-16164)",
+  "LowerCourtDecision": "September 6, 2024",
+  "LowerCourtRehearingDenied": "January 15, 2025",
+  "QPLink": "../qp/24-01046qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Apr 01 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due May 5, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "24- Petition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/354535/20250401142124829_24-%20Petition.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24- Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/354535/20250401142139166_24-%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24- Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/354535/20250401142150776_24-%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 08 2025",
+      "Text": "Motion to extend the time to file a response from May 5, 2025 to June 4, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Wolford Extension Letter - Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/354987/20250408102701182_Wolford%20Extension%20Letter%20-%20Final.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 10 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including June 4, 2025."
+    },
+    {
+      "Date": "May 01 2025",
+      "Text": "Brief amicus curiae of United States filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046-Cert-Amicus-US.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/357921/20250501150148754_24-1046-Cert-Amicus-US.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "CERTIFICATE 24-1046 JASON WOLFORD.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/357921/20250501150212821_CERTIFICATE%2024-1046%20JASON%20WOLFORD.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 01 2025",
+      "Text": "Brief amicus curiae of The National Association For Gun Rights filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/357868/20250501090640899_24-1046%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/357868/20250501090703011_24-1046%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/357868/20250501090652135_24-1046%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 02 2025",
+      "Text": "Brief amici curiae of Second Amendment Law Center, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Wolford v. Lopez - Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/358011/20250502134839425_Wolford%20v.%20Lopez%20-%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Wolford v. Lopez - COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/358011/20250502134853892_Wolford%20v.%20Lopez%20-%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Wolford v. Lopez - COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/358011/20250502134907514_Wolford%20v.%20Lopez%20-%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 05 2025",
+      "Text": "Brief amicus curiae of Foundation for Moral Law filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Wolford v. Lopez amicus brief Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/358075/20250505105550177_Wolford%20v.%20Lopez%20amicus%20brief%20Final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Wolford v. Lopez certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/358075/20250505105619717_Wolford%20v.%20Lopez%20certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 - Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/358075/20250505105628597_24-1046%20-%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 05 2025",
+      "Text": "Brief amici curiae of Montana, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/358122/20250505133248285_24-1046_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046_Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/358122/20250505133324461_24-1046_Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/358122/20250505133312269_24-1046_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 05 2025",
+      "Text": "Brief amicus curiae of The Buckeye Institute filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/358072/20250505102700221_24-1046%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/358072/20250505102717248_24-1046%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/358072/20250505102709836_24-1046%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 05 2025",
+      "Text": "Brief amicus curiae of Association of New Jersey Rifle & Pistol Clubs, Inc. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 Amicus Brief - ANJRPC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/358143/20250505145150261_24-1046%20Amicus%20Brief%20-%20ANJRPC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Affidavit - ANJRPC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/358143/20250505145247189_24-1046%20Affidavit%20-%20ANJRPC.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Compliance - ANJRPC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/358143/20250505145216523_24-1046%20Compliance%20-%20ANJRPC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 04 2025",
+      "Text": "Brief of respondent Anne E. Lopez in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Wolford BIO - Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/362296/20250604142621606_Wolford%20BIO%20-%20Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1046 Milbank LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/362296/20250604142630002_No.%2024-1046%20Milbank%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1046 Milbank LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/362296/20250604142638841_No.%2024-1046%20Milbank%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 16 2025",
+      "Text": "Reply of petitioners Jason Wolford, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 Reply Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/363285/20250616141021290_24-1046%20Reply%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 AOS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/363285/20250616141034121_24-1046%20AOS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/363285/20250616141026741_24-1046%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 25 2025",
+      "Text": "DISTRIBUTED for Conference of 9/29/2025."
+    },
+    {
+      "Date": "Sep 15 2025",
+      "Text": "Supplemental brief of petitioners Jason Wolford, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/374711/20250915172523840_24-1046%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/374711/20250915172540594_24-1046%20Service%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/374711/20250915172532699_24-1046%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 22 2025",
+      "Text": "Supplemental brief of respondent Anne Lopez filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "09.22 Wolford response brief_final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/375551/20250922171021853_09.22%20Wolford%20response%20brief_final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1046 Milbank LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/375551/20250922171059481_No.%2024-1046%20Milbank%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1046 Milbank LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/375551/20250922171048673_No.%2024-1046%20Milbank%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 03 2025",
+      "Text": "Petition GRANTED limited to Question 1 presented by the petition."
+    },
+    {
+      "Date": "Nov 12 2025",
+      "Text": "SET FOR ARGUMENT on Tuesday, January 20, 2026."
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief of petitioners Jason Wolford, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 Merits Brief of Petitioners with Statutory Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/384821/20251117164215781_24-1046%20Merits%20Brief%20of%20Petitioners%20with%20Statutory%20Appendix.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/384821/20251117164224977_24-1046%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/384821/20251117164233218_24-1046%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Joint appendix filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 Joint Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/384822/20251117164808088_24-1046%20Joint%20Appendix.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/384822/20251117164830544_24-1046%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 18 2025",
+      "Text": "Record requested from the United States Court of Appeals for the Ninth Circuit."
+    },
+    {
+      "Date": "Nov 20 2025",
+      "Text": "Brief amicus curiae of Foundation for Moral Law filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Wolford v. Lopez Merits amicus brief Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385354/20251120174017887_Wolford%20v.%20Lopez%20Merits%20amicus%20brief%20Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Wolford v. Lopez merits service affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385354/20251120174125926_Wolford%20v.%20Lopez%20merits%20service%20affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Wolford v. Lopez merits certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385354/20251120174026619_Wolford%20v.%20Lopez%20merits%20certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 21 2025",
+      "Text": "Brief amicus curiae of National African American Gun Association, Inc. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "SCOTUS 24-1046 Brief for Amicus Curiae Nat. African American Gun Assoc..pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385383/20251121110530296_SCOTUS%2024-1046%20Brief%20for%20Amicus%20Curiae%20Nat.%20African%20American%20Gun%20Assoc..pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certification word count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385383/20251121110609544_Certification%20word%20count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Affidavit of service 24-1046 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385383/20251121110643192_Affidavit%20of%20service%2024-1046%20Amicus%20Brief.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 21 2025",
+      "Text": "Brief amicus curiae of Patrick J. Charles in support of neither party filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Charles_Wolford - Brief of Amicus Curiae in Support of Neither Party.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385392/20251121120044643_Charles_Wolford%20-%20Brief%20of%20Amicus%20Curiae%20in%20Support%20of%20Neither%20Party.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Wolford - Amicus Brief Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385392/20251121120125351_Wolford%20-%20Amicus%20Brief%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Wolford - Amicus Brief Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385392/20251121120108066_Wolford%20-%20Amicus%20Brief%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 21 2025",
+      "Text": "Brief amici curiae of Second Amendment Foundation, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Brief amici curiae SAF et al.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385459/20251121164650628_Brief%20amici%20curiae%20SAF%20et%20al.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385459/20251121164708861_Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385459/20251121164659707_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amicus curiae of United States filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 - Wolford v. Lopez.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385635/20251124144506656_24-1046%20-%20Wolford%20v.%20Lopez.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Cert. 24-1046.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385635/20251124144546682_Cert.%2024-1046.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amici curiae of Peace Officers Research Association of California, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046acPeaceOfficersResearchAssociationOfCalifornia.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385619/20251124143404596_24-1046acPeaceOfficersResearchAssociationOfCalifornia.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1046 MASTAGNI HOLSTEDT APC COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385619/20251124143416619_No.%2024-1046%20MASTAGNI%20HOLSTEDT%20APC%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1046 MASTAGNI HOLSTEDT APC COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385619/20251124143426264_No.%2024-1046%20MASTAGNI%20HOLSTEDT%20APC%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amicus curiae of Professor J. Joel Alicea filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385538/20251124115558982_24-1046%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Word Count Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385538/20251124115609105_24-1046%20Word%20Count%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385538/20251124115614540_24-1046%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amicus curiae of Firearms Policy Coalition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046_Wolford Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385565/20251124124532865_24-1046_Wolford%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046_ Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385565/20251124124609192_24-1046_%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385565/20251124124559840_24-1046_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amicus curiae of U.S. Sportsmen\u2019s Alliance Foundation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385545/20251124120526320_24-1046%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385545/20251124120615920_24-1046%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385545/20251124120606254_24-1046%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amici curiae of Montana, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385599/20251124135712285_24-1046_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046_Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385599/20251124135736557_24-1046_Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046_Word Count Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385599/20251124135724364_24-1046_Word%20Count%20Cert.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amicus curiae of National Association for Gun Rights filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046_Brief of Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385600/20251124135754343_24-1046_Brief%20of%20Amicus.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385600/20251124135819798_24-1046%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385600/20251124135806987_24-1046%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amici curiae of National Rifle Association of America, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 - NRA - Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385523/20251124110017851_24-1046%20-%20NRA%20-%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 - NRA - Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385523/20251124110049396_24-1046%20-%20NRA%20-%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 - NRA - Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385523/20251124110034798_24-1046%20-%20NRA%20-%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amicus curiae of Liberty Justice Center filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385689/20251124173736042_24-1046%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385689/20251124173805376_24-1046%20Service%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385689/20251124173745067_24-1046%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amicus curiae of National Shooting Sports Foundation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385540/20251124115733541_24-1046_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046_Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385540/20251124115749193_24-1046_Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046_Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385540/20251124115740249_24-1046_Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amicus curiae of The Buckeye Institute filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385541/20251124120209129_24-1046%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385541/20251124120221623_24-1046%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385541/20251124120215636_24-1046%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amicus curiae of Claremont Institute's Center for Constitutional Jurisprudence filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 - TSAC CCJ.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385516/20251124103346618_24-1046%20-%20TSAC%20CCJ.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385516/20251124103421108_24-1046_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "CERTIFICATE OF COMPLIANCE 25-1046 - CCJ.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385516/20251124103402758_CERTIFICATE%20OF%20COMPLIANCE%2025-1046%20-%20CCJ.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amici curiae of Gun Owners of America, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Wolford merits amicus brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385666/20251124163445014_Wolford%20merits%20amicus%20brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1046_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385666/20251124163521427_No.%2024-1046_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1046_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385666/20251124163500586_No.%2024-1046_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amici curiae of California Gun Rights Foundation, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025-11-24 Wolford CGF CHL Amicus Brief FILE.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385579/20251124131203768_2025-11-24%20Wolford%20CGF%20CHL%20Amicus%20Brief%20FILE.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "120787 service affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385579/20251124131224714_120787%20service%20affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2025-11-24 Wolford Certificate of Compliance 120787.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385579/20251124131214522_2025-11-24%20Wolford%20Certificate%20of%20Compliance%20120787.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amici curiae of Association of New Jersey Rifle & Pistol Clubs, Inc., et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 Amicus Brief of ANJRPC NJFOS NYSRPA GOAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385612/20251124141741988_24-1046%20Amicus%20Brief%20of%20ANJRPC%20NJFOS%20NYSRPA%20GOAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "120754 service affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385612/20251124141927642_120754%20service%20affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "120754 word count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385612/20251124141850509_120754%20word%20count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amici curiae of Clayton Cramer, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Wolford v. Lopez - 2025-11-24 Amicus Brief of Clayton Cramer CRPA 2ALC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385628/20251124144006768_Wolford%20v.%20Lopez%20-%202025-11-24%20Amicus%20Brief%20of%20Clayton%20Cramer%20CRPA%202ALC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1046 Michel and Associates COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385628/20251124144032974_No.%2024-1046%20Michel%20and%20Associates%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1046 Michel and Associates COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385628/20251124144021166_No.%2024-1046%20Michel%20and%20Associates%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 25 2025",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Wolford Divided Argument Motion.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385760/20251125134849169_Wolford%20Divided%20Argument%20Motion.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate 24-1046 mot.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/385760/20251125134908772_Certificate%2024-1046%20mot.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 01 2025",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Dec 05 2025",
+      "Text": "Record received from the United States Court of Appeals for the Ninth Circuit. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Dec 17 2025",
+      "Text": "Brief of respondent Anne E. Lopez, Attorney General of Hawaii, filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25.12.17 Wolford response_final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/387778/20251217162555763_25.12.17%20Wolford%20response_final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Milbank LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/387778/20251217162625233_24-1046%20Milbank%20LLP%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Milbank LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/387778/20251217162632650_24-1046%20Milbank%20LLP%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 22 2025",
+      "Text": "Brief amici curiae of Brady Center to Prevent Gun Violence, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Wolford S Ct Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390123/20251222140448989_Wolford%20S%20Ct%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390123/20251222140517146_Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390123/20251222140511590_Certificate%20of%20Word%20Count%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 23 2025",
+      "Text": "Brief amici curiae of City of Baltimore, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025.12.23 Wolford Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390324/20251223205427897_2025.12.23%20Wolford%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Democracy Forward COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390324/20251223205450714_24-1046%20Democracy%20Forward%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Democracy Forward COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390324/20251223205438960_24-1046%20Democracy%20Forward%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 23 2025",
+      "Text": "Brief amici curiae of Professors of Property Law filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 bsac Professors of Property Law.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390328/20251223205838916_24-1046%20bsac%20Professors%20of%20Property%20Law.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Word Count -- bsac Professors of Property Law.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390328/20251223205855497_24-1046%20Word%20Count%20--%20bsac%20Professors%20of%20Property%20Law.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Proof of Service -- bsac Professors of Property Law.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390328/20251223205909292_24-1046%20Proof%20of%20Service%20--%20bsac%20Professors%20of%20Property%20Law.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 23 2025",
+      "Text": "Brief amici curiae of The District of Columbia, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "DC IL AMICUS - Wolford v. Lopez - 24-1046.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390309/20251223173804827_DC%20IL%20AMICUS%20-%20Wolford%20v.%20Lopez%20-%2024-1046.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "COS - Wolford v. Lopez - 24-1046.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390309/20251223174245395_COS%20-%20Wolford%20v.%20Lopez%20-%2024-1046.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "COWC - Wolford v. Lopez - 24-1046.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390309/20251223174236673_COWC%20-%20Wolford%20v.%20Lopez%20-%2024-1046.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 23 2025",
+      "Text": "Brief amicus curiae of Everytown For Gun Safety Support filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Wolford No. 24-1046 - Amicus Brief ISO Respondent FINAL TO PRINTER 12.23.25.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390335/20251224100228361_Wolford%20No.%2024-1046%20-%20Amicus%20Brief%20ISO%20Respondent%20FINAL%20TO%20PRINTER%2012.23.25.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Cooley LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390335/20251224100254435_24-1046%20Cooley%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Cooley LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390335/20251224100238906_24-1046%20Cooley%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 23 2025",
+      "Text": "Brief amici curiae of Global Action On Gun Violence filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Wolford v. Lopez GAGV Amicus Brief Final filing version.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390315/20251223181708908_Wolford%20v.%20Lopez%20GAGV%20Amicus%20Brief%20Final%20filing%20version.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1046 Katten Muchin Rosenman COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390315/20251223181722292_No.%2024-1046%20Katten%20Muchin%20Rosenman%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1046 Katten Muchin Rosenman COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390315/20251223181716982_No.%2024-1046%20Katten%20Muchin%20Rosenman%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 24 2025",
+      "Text": "Brief amicus curiae of Prosecutors Against Gun Violence filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Wolford v. Lopez No. 24-1046 - Amicus Brief for PAGV .pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390347/20251224124417632_Wolford%20v.%20Lopez%20No.%2024-1046%20-%20Amicus%20Brief%20for%20PAGV%20.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate of Service - PDFA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390347/20251224124430730_Certificate%20of%20Service%20-%20PDFA.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Compliance - PDFA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390347/20251224124425552_Certificate%20of%20Compliance%20-%20PDFA.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 29 2025",
+      "Text": "Brief amici curiae of Property Law Professors Claire Priest, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 Brief of Property Law Professors as Amici Curiae.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390449/20251229152028972_24-1046%20Brief%20of%20Property%20Law%20Professors%20as%20Amici%20Curiae.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Covington Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390449/20251229153101464_24-1046%20Covington%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Covington Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/390449/20251229153050063_24-1046%20Covington%20Certificate%20of%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument GRANTED."
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Reply of petitioners Jason Wolford, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 Reply Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/391350/20260109180416778_24-1046%20Reply%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1046 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/391350/20260109180424236_24-1046%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/391350/20260109180433114_24-1046%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 20 2026",
+      "Text": "Argued. For petitioners: Alan A. Beck, San Diego, Cal.; and Sarah M. Harris, Principal Deputy Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.) For respondent: Neal K. Katyal, Washington, D. C."
+    },
+    {
+      "Date": "May 22 2026",
+      "Text": "Motion for Leave to File Supplemental Brief of Jason Wolford, et al. not accepted for filing. (Corrected PDF to be submitted--May 26, 2026)"
+    },
+    {
+      "Date": "May 22 2026",
+      "Text": "Motion to file a supplemental brief after argument filed by petitioners Jason Wolford, et al.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1046 Motion and Supplemental Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/409746/20260526105212317_24-1046%20Motion%20and%20Supplemental%20Brief.pdf"
+        },
+        {
+          "Description": "Other",
+          "File": "24-1046 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/409746/20260526105230323_24-1046%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1046 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/409746/20260526105239843_24-1046%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 08 2026",
+      "Text": "Motion to file a supplemental brief after argument filed by petitioners GRANTED."
+    },
+    {
+      "Date": "Jun 25 2026",
+      "Text": "Judgment REVERSED and case REMANDED.  Alito, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/24-1046_nmio.pdf'>opinion</a> of the Court, in which Roberts, C. J., and Thomas, Gorsuch, Kavanaugh, and Barrett, JJ., joined. Barrett, J., filed a concurring opinion, in which Thomas and Gorsuch, JJ., joined as to Part II\u2013B. Kagan, J., filed a dissenting opinion. Jackson, J., filed a dissenting opinion, in which Sotomayor, J., joined."
+    },
+    {
+      "Date": "Jul 27 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 24-1046 Rev Rem COSTS 9th Cir. 7.27.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1046/417338/20260727120933018_EFILING%2024-1046%20Rev%20Rem%20COSTS%209th%20Cir.%207.27.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioners",
+  "Petitioner": [
+    {
+      "Attorney": "Alan Alexander Beck",
+      "IsCounselofRecord": true,
+      "Title": "Law Offices of Alan Beck",
+      "PrisonerId": null,
+      "Phone": "6199059105",
+      "Address": "2692 Harcourt Drive",
+      "City": "San Diego",
+      "State": "CA",
+      "Zip": "92123",
+      "Email": "ALAN.ALEXANDER.BECK@GMAIL.COM",
+      "PartyName": "Jason Wolford, et al."
+    },
+    {
+      "Attorney": "Kevin Gerard O'Grady",
+      "IsCounselofRecord": false,
+      "Title": "The Law Office of Kevin O'Grady, LLC",
+      "PrisonerId": null,
+      "Phone": "808-521-3367",
+      "Address": "1164 Bishop Street\r\nSuite 1605",
+      "City": "Honolulu",
+      "State": "HI",
+      "Zip": "96813",
+      "Email": "Kevin@kevinogradylaw.com",
+      "PartyName": "Jason Wolford, et al."
+    },
+    {
+      "Attorney": "Mark William Pennak",
+      "IsCounselofRecord": false,
+      "Title": "Maryland Shall Issue, Inc.",
+      "PrisonerId": null,
+      "Phone": "301 873 3671",
+      "Address": "9613 Harford Rd., Ste. C #1015",
+      "City": "Baltimore, MD",
+      "State": "MD",
+      "Zip": "21234",
+      "Email": "m.pennak@me.com",
+      "PartyName": "Jason Wolford, Alison Wolford, Atom Kasprzycki and the Hawaii Firearms Coalition"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondent",
+  "Respondent": [
+    {
+      "Attorney": "Neal Kumar Katyal",
+      "IsCounselofRecord": true,
+      "Title": "Milbank LLP",
+      "PrisonerId": null,
+      "Phone": "202-835-7500",
+      "Address": "1101 New York Ave, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "nkatyal@milbank.com",
+      "PartyName": "Anne Lopez"
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Barry Kevin Arrington",
+      "IsCounselofRecord": true,
+      "Title": "Arrington Law Firm",
+      "PrisonerId": "3948 Legacy Drive, Suite 106-312",
+      "Phone": "3032057870",
+      "Address": "4195 Wadsworth Boulevard",
+      "City": "Wheat Ridge",
+      "State": "CO",
+      "Zip": "80033",
+      "Email": "BARRY@ARRINGTONPC.COM",
+      "PartyName": "The National Association For Gun Rights"
+    },
+    {
+      "Attorney": "Barry Kevin Arrington",
+      "IsCounselofRecord": true,
+      "Title": "Arrington Law Firm",
+      "PrisonerId": "3948 Legacy Drive, Suite 106-312",
+      "Phone": "3032057870",
+      "Address": "4195 Wadsworth Boulevard",
+      "City": "Wheat Ridge",
+      "State": "CO",
+      "Zip": "80033",
+      "Email": "BARRY@ARRINGTONPC.COM",
+      "PartyName": "National Association for Gun Rights"
+    },
+    {
+      "Attorney": "Bradley Alan Benbrook",
+      "IsCounselofRecord": true,
+      "Title": "Benbrook Law Group",
+      "PrisonerId": null,
+      "Phone": "9164474900",
+      "Address": "701 University Avenue, Suite 106",
+      "City": "Sacramento",
+      "State": "CA",
+      "Zip": "95825",
+      "Email": "brad@benbrooklawgroup.com",
+      "PartyName": "California Gun Rights Foundation and Center for Human Liberty"
+    },
+    {
+      "Attorney": "Thomas Mark Bondy",
+      "IsCounselofRecord": true,
+      "Title": "Orrick, Herrington & Sutcliffe LLP",
+      "PrisonerId": null,
+      "Phone": "202-339-8400",
+      "Address": "2100 Pennsylvania Avenue NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20037",
+      "Email": "TBONDY@ORRICK.COM",
+      "PartyName": "Brady Center to Prevent Gun Violence and Giffords Law Center to Prevent Gun Violence"
+    },
+    {
+      "Attorney": "Ryan Michael Chabot",
+      "IsCounselofRecord": true,
+      "Title": "Wilmer Cutler Pickering Hale and Dorr LLP",
+      "PrisonerId": null,
+      "Phone": "(212) 230-8800",
+      "Address": "7 World Trade Center\r\n250 Greenwich Street",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10007",
+      "Email": "ryan.chabot@wilmerhale.com",
+      "PartyName": "Professors of Property Law"
+    },
+    {
+      "Attorney": "Christopher Arne Cole",
+      "IsCounselofRecord": true,
+      "Title": "Katten Muchin Rosenman LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 625-3550",
+      "Address": "1919 Pennsylvania Ave., NW, Suite 800",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "chris.cole@katten.com",
+      "PartyName": "Global Action On Gun Violence"
+    },
+    {
+      "Attorney": "Christian Brian Corrigan",
+      "IsCounselofRecord": true,
+      "Title": "Montana Department of Justice",
+      "PrisonerId": null,
+      "Phone": "4064442026",
+      "Address": "215 N Sanders",
+      "City": "Helena",
+      "State": "MT",
+      "Zip": "59601",
+      "Email": "Christian.CORRIGAN@MT.GOV",
+      "PartyName": "States of Montana, Idaho, 23 Other States, and the Arizona Legislature"
+    },
+    {
+      "Attorney": "John C. Eastman",
+      "IsCounselofRecord": true,
+      "Title": "Constitutional Counsel Group",
+      "PrisonerId": null,
+      "Phone": "(562) 435-9062",
+      "Address": "444 W Ocean Blvd, Ste 1403",
+      "City": "Long Beach",
+      "State": "CA",
+      "Zip": "90802",
+      "Email": "jeastman@ccg1776.com",
+      "PartyName": "The Claremont Institute's Center for Constitutional Jurisprudence"
+    },
+    {
+      "Attorney": "John Allen Eidsmoe",
+      "IsCounselofRecord": true,
+      "Title": "Foundation for Moral Law",
+      "PrisonerId": null,
+      "Phone": "3342621245",
+      "Address": "P.O. Box 148",
+      "City": "Gallant",
+      "State": "AL",
+      "Zip": "35972",
+      "Email": "eidsmoeja@juno.com",
+      "PartyName": "Foundation for Moral Law"
+    },
+    {
+      "Attorney": "Patrick James Fuster",
+      "IsCounselofRecord": true,
+      "Title": "Gibson, Dunn & Crutcher LLP",
+      "PrisonerId": null,
+      "Phone": "213.229.7000",
+      "Address": "333 South Grand Avenue",
+      "City": "Los Angeles",
+      "State": "CA",
+      "Zip": "90071",
+      "Email": "pfuster@gibsondunn.com",
+      "PartyName": "Patrick J. Charles"
+    },
+    {
+      "Attorney": "Joseph Gary Samuel Greenlee",
+      "IsCounselofRecord": true,
+      "Title": "NRA-ILA",
+      "PrisonerId": null,
+      "Phone": "(703) 267-1161",
+      "Address": "11250 Waples Mill Road",
+      "City": "Fairfax",
+      "State": "VA",
+      "Zip": "22030",
+      "Email": "jgreenlee@nrahq.org",
+      "PartyName": "National Rifle Association of America and Independence Institute"
+    },
+    {
+      "Attorney": "Stephen Porter Halbrook",
+      "IsCounselofRecord": true,
+      "Title": "Stephen P. Halbrook, PH.D.Attorney at Law",
+      "PrisonerId": null,
+      "Phone": "703-352-7276",
+      "Address": "3925 Chain Bridge Road\r\nSuite 403",
+      "City": "Fairfax",
+      "State": "VA",
+      "Zip": "22030",
+      "Email": "protell@aol.com",
+      "PartyName": "National \tAfrican American Gun Association, Inc."
+    },
+    {
+      "Attorney": "Kathleen Roberta Hartnett",
+      "IsCounselofRecord": true,
+      "Title": "Cooley LLP",
+      "PrisonerId": null,
+      "Phone": "(415) 693-2000",
+      "Address": "3 Embarcadero Center",
+      "City": "San Francisco",
+      "State": "CA",
+      "Zip": "94111",
+      "Email": "KHARTNETT@COOLEY.COM",
+      "PartyName": "Everytown For Gun Safety Support"
+    },
+    {
+      "Attorney": "Timothy Channing Hester",
+      "IsCounselofRecord": true,
+      "Title": "Covington & Burling LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 662-6000",
+      "Address": "One CityCenter\r\n850 Tenth Street, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001-4956",
+      "Email": "thester@cov.com",
+      "PartyName": "Property Law Professors Claire Priest, Carol M. Rose & Joseph William Singer"
+    },
+    {
+      "Attorney": "Michael Thomas Jean",
+      "IsCounselofRecord": true,
+      "Title": "U.S. Sportsmen's Alliance Foundation",
+      "PrisonerId": null,
+      "Phone": "2485089765",
+      "Address": "801 Kingsmill Parkway",
+      "City": "Columbus",
+      "State": "OH",
+      "Zip": "43229",
+      "Email": "mjean@sportsmensalliance.org",
+      "PartyName": "The U.S. Sportsmen\u2019s Alliance Foundation"
+    },
+    {
+      "Attorney": "David Emilio Mastagni",
+      "IsCounselofRecord": true,
+      "Title": "Mastagni Holstedt, APC",
+      "PrisonerId": null,
+      "Phone": "(916) 446-4692",
+      "Address": "1912 I Street",
+      "City": "Sacramento",
+      "State": "CA",
+      "Zip": "95811",
+      "Email": "davidm@mastagni.com",
+      "PartyName": "Peace Officers Research Association of California, California Association of Highway Patrolmen, and the Crime Prevention Research Center"
+    },
+    {
+      "Attorney": "C. D. Michel",
+      "IsCounselofRecord": true,
+      "Title": "Michel & Associates, P.C.",
+      "PrisonerId": null,
+      "Phone": "(562) 216-4444",
+      "Address": "180 East Ocean Blvd.\r\nSuite 200",
+      "City": "Long Beach",
+      "State": "CA",
+      "Zip": "90802",
+      "Email": "CMICHEL@MICHELLAWYERS.COM",
+      "PartyName": "Clayton Cramer, California Rifle & Pistol Association, Second Amendment Law Center"
+    },
+    {
+      "Attorney": "C. D. Michel",
+      "IsCounselofRecord": true,
+      "Title": "Michel & Associates, P.C.",
+      "PrisonerId": null,
+      "Phone": "(562) 216-4453",
+      "Address": "180 East Ocean Blvd.\r\nSuite 200",
+      "City": "Long Beach",
+      "State": "CA",
+      "Zip": "90802",
+      "Email": "CMICHEL@MICHELLAWYERS.COM",
+      "PartyName": "Second Amendment Law Center, California Rifle & Pistol Association, Incorporated, Delaware State Sportsmen\u2019s Association, Inc., Hawaii Rifle Association, Gun Owners of California, Second Amendment Defense and Education Coalition, Ltd., Federal Firearms Licensees of Illinois, Minnesota Gun Owners Caucus, Operation Blazing Sword\u2013Pink Pistols"
+    },
+    {
+      "Attorney": "Konstadinos T. Moros",
+      "IsCounselofRecord": true,
+      "Title": "The Second Amendment Foundation",
+      "PrisonerId": null,
+      "Phone": "4254547012",
+      "Address": "12500 NE 10th Pl.",
+      "City": "Bellevue",
+      "State": "WA",
+      "Zip": "98005",
+      "Email": "kmoros@saf.org",
+      "PartyName": "Second Amendment Foundation, Citizens Committee for the Right to Keep and Bear Arms, Connecticut Citizens Defense League, and Minnesota Gun Owners Caucus"
+    },
+    {
+      "Attorney": "Ryan Ashley Morrison",
+      "IsCounselofRecord": true,
+      "Title": "Liberty Justice Center",
+      "PrisonerId": null,
+      "Phone": "512-481-4400",
+      "Address": "7500 Rialto Blvd.\r\nSuite 1-250",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": "78735",
+      "Email": "rmorrison@libertyjusticecenter.org",
+      "PartyName": "Liberty Justice Center"
+    },
+    {
+      "Attorney": "Erin E. Murphy",
+      "IsCounselofRecord": true,
+      "Title": "Clement & Murphy, PLLC",
+      "PrisonerId": null,
+      "Phone": "(202) 742-8900",
+      "Address": "706 Duke Street",
+      "City": "Alexandria",
+      "State": "VA",
+      "Zip": "22314",
+      "Email": "ERIN.MURPHY@CLEMENTMURPHY.COM",
+      "PartyName": "National Shooting Sports Foundation"
+    },
+    {
+      "Attorney": "John David Ohlendorf",
+      "IsCounselofRecord": true,
+      "Title": "Cooper & Kirk, PLLC",
+      "PrisonerId": null,
+      "Phone": "(202) 220-9600",
+      "Address": "1523 New Hampshire Avenue, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "johlendorf@cooperkirk.com",
+      "PartyName": "J. JOEL ALICEA"
+    },
+    {
+      "Attorney": "Robert Jeffrey Olson",
+      "IsCounselofRecord": true,
+      "Title": "William J. Olson P.C.",
+      "PrisonerId": null,
+      "Phone": "703-356-5070",
+      "Address": "370 Maple Avenue West, Suite 4",
+      "City": "Vienna",
+      "State": "VA",
+      "Zip": "22180-5615",
+      "Email": "wjo@mindspring.com",
+      "PartyName": "Gun Owners of America, Gun Owners Foundation, Gun Owners of California, Coalition of New Jersey Firearm Owners, Tennessee Firearms Association, Tennessee Firearms Foundation, Virginia Citizens Defense League, Virginia Citizens Defense Foundation, Arizona Citizens Defense League, Arizona Libertarian Party, America's Future, Citizens United, U.S. Constitutional Rights Legal Defense Fund, and Conservative Legal Defense and Education Fund"
+    },
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": false,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "United States"
+    },
+    {
+      "Attorney": "Daniel L. Schmutter",
+      "IsCounselofRecord": true,
+      "Title": "Hartman & Winnicki, P.C.",
+      "PrisonerId": null,
+      "Phone": "201-967-8040",
+      "Address": "74 Passaic Street",
+      "City": "Ridgewood",
+      "State": "NJ",
+      "Zip": "07450",
+      "Email": "dschmutter@hartmanwinnicki.com",
+      "PartyName": "Association of New Jersey Rifle & Pistol Clubs, Inc."
+    },
+    {
+      "Attorney": "Daniel L. Schmutter",
+      "IsCounselofRecord": true,
+      "Title": "Hartman & Winnicki, P.C.",
+      "PrisonerId": null,
+      "Phone": "201-967-8040",
+      "Address": "74 Passaic Street",
+      "City": "Ridgewood",
+      "State": "NJ",
+      "Zip": "07450",
+      "Email": "dschmutter@hartmanwinnicki.com",
+      "PartyName": "Association of New Jersey Rifle & Pistol Clubs, Inc., New Jersey Firearms Owners Syndicate, New York State Rifle & Pistol Association, Inc., Gun Owners' Action League, Inc."
+    },
+    {
+      "Attorney": "Alethea Anne Swift",
+      "IsCounselofRecord": false,
+      "Title": "Democracy Forward Foundation",
+      "PrisonerId": null,
+      "Phone": "202-964-7678",
+      "Address": "P.O. Box 34553",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20043",
+      "Email": "aswift@democracyforward.org",
+      "PartyName": "City of Baltimore, City of New Haven, and South Carolina Small Business Chamber of Commerce"
+    },
+    {
+      "Attorney": "David H. Thompson",
+      "IsCounselofRecord": true,
+      "Title": "Cooper & Kirk, PLLC",
+      "PrisonerId": null,
+      "Phone": "202-220-9600",
+      "Address": "1523 New Hampshire Avenue, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "DTHOMPSON@COOPERKIRK.COM",
+      "PartyName": "Firearms Policy Coalition"
+    },
+    {
+      "Attorney": "Peter Martin Torstensen Jr.",
+      "IsCounselofRecord": false,
+      "Title": "Montana Attorney General's Office",
+      "PrisonerId": null,
+      "Phone": "406-444-2026",
+      "Address": "215 North Sanders Street",
+      "City": "Helena",
+      "State": "MT",
+      "Zip": "59601",
+      "Email": "PETER.TORSTENSEN@MT.GOV",
+      "PartyName": "States of Montana, Idaho, 23 Other States, and the Arizona Legislature"
+    },
+    {
+      "Attorney": "David Christian Tryon",
+      "IsCounselofRecord": true,
+      "Title": "The Buckeye Institute",
+      "PrisonerId": null,
+      "Phone": "(614) 224-4422",
+      "Address": "88 East Broad Street, Suite 1300",
+      "City": "Columbus",
+      "State": "OH",
+      "Zip": "43215",
+      "Email": "d.tryon@buckeyeinstitute.org",
+      "PartyName": "The Buckeye Institute"
+    },
+    {
+      "Attorney": "Caroline Sage Van Zile",
+      "IsCounselofRecord": true,
+      "Title": "Office of Attorney General, District of Columbia",
+      "PrisonerId": null,
+      "Phone": "(202) 724-6609",
+      "Address": "Office of the Solicitor General\r\n400 6th Street, NW, Suite 8100",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "caroline.vanzile@dc.gov",
+      "PartyName": "The District of Columbia, Illinois, et al."
+    },
+    {
+      "Attorney": "Paul Reinherz Quitman Wolfson",
+      "IsCounselofRecord": true,
+      "Title": "Democracy Forward Foundation",
+      "PrisonerId": null,
+      "Phone": "(202) 383-0794",
+      "Address": "P.O. Box 34553",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20043",
+      "Email": "pwolfson@democracyforward.org",
+      "PartyName": "City of Baltimore, City of New Haven, South Carolina Small Business Chamber of Commerce"
+    },
+    {
+      "Attorney": "Steven Chiajon Wu",
+      "IsCounselofRecord": true,
+      "Title": "New York County District Attorney's Office",
+      "PrisonerId": null,
+      "Phone": "212-335-9326",
+      "Address": "1 Hogan Place",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10013",
+      "Email": "WUS@DANY.NYC.GOV",
+      "PartyName": "Prosecutors Against Gun Violence"
+    }
+  ]
+}

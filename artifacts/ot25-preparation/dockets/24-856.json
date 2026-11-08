@@ -1,0 +1,1290 @@
+{
+  "CaseNumber": "24-856 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "07/27/2026",
+  "sJsonTerm": "2024",
+  "sJsonCaseNumber": "00856",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Cisco Systems, Inc., et al., Petitioners",
+  "RespondentTitle": "Doe I, et al.",
+  "DocketedDate": "February 11, 2025",
+  "Links": "Linked with 24A450",
+  "LowerCourt": "United States Court of Appeals for the Ninth Circuit",
+  "LowerCourtCaseNumbers": "(15-16909)",
+  "LowerCourtDecision": "July 7, 2023",
+  "LowerCourtRehearingDenied": "September 3, 2024",
+  "QPLink": "../qp/24-00856qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Nov 01 2024",
+      "Text": "Application (24A450) to extend the time to file a petition for a writ of certiorari from December 2, 2024 to January 31, 2025, submitted to Justice Kagan.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2024.11.01 - App to Extend.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/330952/20241101125900582_2024.11.01%20-%20App%20to%20Extend.pdf"
+        },
+        {
+          "Description": "Lower Court Orders/Opinions",
+          "File": "2024.11.01 - Appx.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/330952/20241101125910665_2024.11.01%20-%20Appx.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2024.11.01 - Cert of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/330952/20241101125920786_2024.11.01%20-%20Cert%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 06 2024",
+      "Text": "Application (24A450) granted by Justice Kagan extending the time to file until January 31, 2025."
+    },
+    {
+      "Date": "Jan 31 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due March 13, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "2025.01.31 - Cisco Cert Pet.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/342121/20250206141602824_2025.01.31%20-%20Cisco%20Cert%20Pet.pdf"
+        },
+        {
+          "Description": "Appendix",
+          "File": "2025.01.31 - Cisco Cert Pet App.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/342121/20250206141615995_2025.01.31%20-%20Cisco%20Cert%20Pet%20App.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "COC_Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/342121/20250206141629082_COC_Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "COS_Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/342121/20250206141638553_COS_Final.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 28 2025",
+      "Text": "Brief amicus curiae of Washington Legal Foundation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 WLF amicus brief ISO cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/350965/20250228135339992_24-856%20WLF%20amicus%20brief%20ISO%20cert.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Cert Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/350965/20250228135353265_24-856%20Cert%20Compliance.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Cert Serv.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/350965/20250228135408001_24-856%20Cert%20Serv.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 28 2025",
+      "Text": "Waiver of right of respondent Doe I, et al. to respond filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "CiscoWaiver.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/350973/20250228141947383_CiscoWaiver.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 13 2025",
+      "Text": "Brief amici curiae of Law Professor Samuel Estreicher, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/352069/20250313152407985_24-856%20Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 AOS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/352069/20250313152448884_24-856%20AOS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/352069/20250313152430094_24-856%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 13 2025",
+      "Text": "Brief amici curiae of Chevron Corporation, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24_856 tsac_Chevron.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/352278/20250317155631952_24_856%20tsac_Chevron.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 tsac_Chevron COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/352278/20250317155507412_24-856%20tsac_Chevron%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 tsac_Chevron COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/352278/20250317155534985_24-856%20tsac_Chevron%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 13 2025",
+      "Text": "Brief amici curiae of The Chamber of Commerce of the United States of America, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-856 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/352073/20250313154046369_No.%2024-856%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-856 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/352073/20250313154111008_No.%2024-856%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-856 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/352073/20250313154119735_No.%2024-856%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 13 2025",
+      "Text": "Brief amicus curiae of American Free Enterprise Chamber of Commerce filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Amicus Brief of American Free Enterprise Chamber of Commerce.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/352023/20250313104755156_24-856%20Amicus%20Brief%20of%20American%20Free%20Enterprise%20Chamber%20of%20Commerce.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/352023/20250313104807725_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/352023/20250313104801607_Certificate%20of%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 19 2025",
+      "Text": "DISTRIBUTED for Conference of 4/4/2025."
+    },
+    {
+      "Date": "Mar 21 2025",
+      "Text": "Response Requested. (Due April 21, 2025)"
+    },
+    {
+      "Date": "Apr 21 2025",
+      "Text": "Brief amicus curiae of Congressman Chris Smith filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/356133/20250421164748175_24-856%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/356133/20250421164821689_24-856%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/356133/20250421164756172_24-856%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 21 2025",
+      "Text": "Brief of respondents Doe I, et al. in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Brief in Opposition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/356086/20250421115806414_24-856%20Brief%20in%20Opposition.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/356086/20250421115823692_24-856%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/356086/20250421115833702_24-856%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 05 2025",
+      "Text": "Reply of petitioners Cisco Systems, Inc., et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-856 - Cisco reply brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/358159/20250505165443468_No.%2024-856%20-%20Cisco%20reply%20brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-856 - Cisco reply COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/358159/20250505165508351_No.%2024-856%20-%20Cisco%20reply%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-856 - Cisco reply COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/358159/20250505165453997_No.%2024-856%20-%20Cisco%20reply%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 06 2025",
+      "Text": "DISTRIBUTED for Conference of 5/22/2025."
+    },
+    {
+      "Date": "May 27 2025",
+      "Text": "The Solicitor General is invited to file a brief in this case expressing the views of the United States."
+    },
+    {
+      "Date": "Dec 09 2025",
+      "Text": "Brief amicus curiae of United States filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856_Cisco-CVSG.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/386875/20251209154334578_24-856_Cisco-CVSG.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Cert. 24-856.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/386875/20251209154415835_Cert.%2024-856.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 22 2025",
+      "Text": "Supplemental brief of respondents Doe I, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Supplemental Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/390133/20251222150308366_24-856%20Supplemental%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/390133/20251222150327942_24-856%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/390133/20251222150321443_24-856%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 23 2025",
+      "Text": "DISTRIBUTED for Conference of 1/9/2026."
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Petition GRANTED limited to Questions 1 and 3 presented by the petition."
+    },
+    {
+      "Date": "Feb 11 2026",
+      "Text": "SET FOR ARGUMENT on Tuesday, April 28, 2026."
+    },
+    {
+      "Date": "Feb 18 2026",
+      "Text": "Brief of petitioners Cisco Systems, Inc., et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 - Cisco Br for Petrs.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/396570/20260218115211423_24-856%20-%20Cisco%20Br%20for%20Petrs.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 - Cisco Br for Petrs - COWC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/396570/20260218115244356_24-856%20-%20Cisco%20Br%20for%20Petrs%20-%20COWC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 - Cisco Br for Petrs - COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/396570/20260218115306154_24-856%20-%20Cisco%20Br%20for%20Petrs%20-%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 18 2026",
+      "Text": "Joint appendix filed.  (Statement of costs filed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 - Joint Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/396571/20260218115621093_24-856%20-%20Joint%20Appendix.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 - Joint Appendix - COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/396571/20260218115652261_24-856%20-%20Joint%20Appendix%20-%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Ninth Circuit."
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amicus curiae of United States filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856tsacUnitedStates.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/397322/20260225165613681_24-856tsacUnitedStates.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. 24-856. final..pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/397322/20260225165645495_certificate.%2024-856.%20final..pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amicus curiae of CACI Premier Technology, Inc. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Amicus Brief of CACI Premier Technology Inc_.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/397223/20260225111616088_24-856%20Amicus%20Brief%20of%20CACI%20Premier%20Technology%20Inc_.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/397223/20260225111659756_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "certificate of word count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/397223/20260225111712247_certificate%20of%20word%20count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amicus curiae of Washington Legal Foundation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 WLF amicus Brief Cisco v. Doe.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/397209/20260225100421523_24-856%20WLF%20amicus%20Brief%20Cisco%20v.%20Doe.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 WLF amicus Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/397209/20260225100446219_24-856%20WLF%20amicus%20Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 WLF amicus Cert Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/397209/20260225100438782_24-856%20WLF%20amicus%20Cert%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amici curiae of Chamber of Commerce of the United States of America, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/397265/20260225131457119_24-856%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/397265/20260225131503233_24-856%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/397265/20260225131507447_24-856%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 06 2026",
+      "Text": "Record received from the United States Court of Appeals for the Ninth Circuit. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Mar 20 2026",
+      "Text": "Brief of respondents Doe I, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Brief for Respondents.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/401497/20260320163800247_24-856%20Brief%20for%20Respondents.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/401497/20260320163809243_24-856%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/401497/20260320163818604_24-856%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 25 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856_Cisco--US_Divided_Argument_Motion.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/401850/20260325162453522_24-856_Cisco--US_Divided_Argument_Motion.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate 24-856 - Cisco Systems v. Doe - divided argument.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/401850/20260325162510870_Certificate%2024-856%20-%20Cisco%20Systems%20v.%20Doe%20-%20divided%20argument.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 26 2026",
+      "Text": "Brief amici curiae of Reverend Bob Fu, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Cisco v. Doe amicus brief - religious freedom_3-26-2026_FINAL for filing.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/402963/20260326152835918_Cisco%20v.%20Doe%20amicus%20brief%20-%20religious%20freedom_3-26-2026_FINAL%20for%20filing.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Washington Litigation Group COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/402963/20260326152935552_24-856%20Washington%20Litigation%20Group%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 Washington Litigation Group COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/402963/20260326152946552_24-856%20Washington%20Litigation%20Group%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amicus curiae of Constitutional Accountability Center filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Cisco CAC Amicus FINAL FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403000/20260327093118608_Cisco%20CAC%20Amicus%20FINAL%20FINAL.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Compliance Cisco FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403000/20260327093131169_Certificate%20of%20Compliance%20Cisco%20FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service Cisco FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403000/20260327093142105_Proof%20of%20Service%20Cisco%20FINAL.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amicus curiae of International Law Scholars filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Intl Law Scholars Cisco Amicus Brief - efile.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403004/20260327092556862_Intl%20Law%20Scholars%20Cisco%20Amicus%20Brief%20-%20efile.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Intl Law Scholars Cisco Amicus Brief - COC efile.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403004/20260327092631503_Intl%20Law%20Scholars%20Cisco%20Amicus%20Brief%20-%20COC%20efile.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Intl Law Scholars Cisco Amicus Brief - COS efile.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403004/20260327092807027_Intl%20Law%20Scholars%20Cisco%20Amicus%20Brief%20-%20COS%20efile.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amicus curiae of The Guernica37 Centre for International Justice filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403011/20260327105349649_24-856%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403011/20260327105359200_24-856%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403011/20260327105409863_24-856%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amici curiae of Former U.S. Ambassadors-At-Large for War Crimes Issues/Global Criminal Justice, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403002/20260327091429268_24-856%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403002/20260327091502811_24-856%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403002/20260327091512644_24-856%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amici curiae of Scholars of Federal Jurisdiction, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403087/20260327154254550_24-856%20Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403087/20260327154300679_24-856%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 AOS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403087/20260327154305951_24-856%20AOS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amici curiae of Center For A Free Cuba, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Amici Curiae Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403080/20260327145834281_24-856%20Amici%20Curiae%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403080/20260327145842706_24-856%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Word Count Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403080/20260327145850517_24-856%20Word%20Count%20Cert.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amici curiae of Representative Christopher H. Smith, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403055/20260327134434142_24-856%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Word Count Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403055/20260327134449936_24-856%20Word%20Count%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403055/20260327134506191_24-856%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amici curiae of Professor William R. Casto, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Brief of Amici Curiae Professors of Legal History - Cisco v Doe.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403030/20260327121607945_Brief%20of%20Amici%20Curiae%20Professors%20of%20Legal%20History%20-%20Cisco%20v%20Doe.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Amici Curiae Profs of Legal History Certificate of Word Count Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403030/20260327121633396_Amici%20Curiae%20Profs%20of%20Legal%20History%20Certificate%20of%20Word%20Count%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Amici Curiae Profs of Legal History Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403030/20260327121644934_Amici%20Curiae%20Profs%20of%20Legal%20History%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amici curiae of Oxfam America, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403110/20260327172322845_24-856%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403110/20260327172331579_24-856%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403110/20260327172339259_24-856%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amici curiae of International Human Rights Organizations filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403098/20260327170304209_24-856%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403098/20260327170312897_24-856%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403098/20260327170321512_24-856%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amici curiae of Persecuted Christian Minorities, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403120/20260327180637687_24-856%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403120/20260327180645444_24-856%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403120/20260327180655738_24-856%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amicus curiae of Electronic Frontier Foundation filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403115/20260327175113567_24-856%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403115/20260327175119493_24-856%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403115/20260327175127002_24-856%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Amicus brief of Estate of Tamar Kedem Siman Tov, et al. not accepted for filing. (To be resubmitted - April 1, 2026)"
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amici curiae of Estate of Tamar Kedem Siman Tov, et al. filed. (Resubmitted - April 1, 2026) (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24 856 Cisco Systems v. Doe I - Brief for Amici Curiae Estate of Tamar Kedem Siman Tov.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403451/20260401152240963_24%20856%20Cisco%20Systems%20v.%20Doe%20I%20-%20Brief%20for%20Amici%20Curiae%20Estate%20of%20Tamar%20Kedem%20Siman%20Tov.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-856 Cisco Systems v. Doe I- Brief for Amici Curiae Estate of Tamar Kedem Siman Tov Word Certification.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403451/20260401152553270_24-856%20Cisco%20Systems%20v.%20Doe%20I-%20Brief%20for%20Amici%20Curiae%20Estate%20of%20Tamar%20Kedem%20Siman%20Tov%20Word%20Certification.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-856 Cisco Systems v. Doe I- Brief for Amici Curiae Estate of Tamar Kedem Siman Tov AOS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403451/20260401152607470_24-856%20Cisco%20Systems%20v.%20Doe%20I-%20Brief%20for%20Amici%20Curiae%20Estate%20of%20Tamar%20Kedem%20Siman%20Tov%20AOS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Amicus brief of Former U.N. Special Rapporteurs on Torture not accepted for filing. (To be resubmitted April 01, 2026)"
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amici curiae of Former U.N. Special Rapporteurs on Torture filed. (Resubmitted - April 1, 2026) (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Brief of Former U.N. Special Rapporteurs as Amici Curiae on Torture iso Resp.03-27-26.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403496/20260401195651252_Brief%20of%20Former%20U.N.%20Special%20Rapporteurs%20as%20Amici%20Curiae%20on%20Torture%20iso%20Resp.03-27-26.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Affidavit of Service.03-27-26.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403496/20260401195701600_Affidavit%20of%20Service.03-27-26.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Cert of Compliance re Word Count.03-27-26.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403496/20260401195710341_Cert%20of%20Compliance%20re%20Word%20Count.03-27-26.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Amici brief of Human Rights First, et al. not accepted for filing. (To be resubmitted - April 1, 2026)"
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amici curiae of Human Rights First, et al. filed. (Resubmitted - April 1, 2026) (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "260330 AC Brief for efiling.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403435/20260401144500309_260330%20AC%20Brief%20for%20efiling.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "260330 Certificate of Word Count Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403435/20260401144517056_260330%20Certificate%20of%20Word%20Count%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "260330 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/403435/20260401144534601_260330%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amicus curiae of Center for Justice and Accountability filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 CJA ACB ISO Resp. Merit Stage.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/402998/20260327024704848_24-856%20CJA%20ACB%20ISO%20Resp.%20Merit%20Stage.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "E-Filing_Proof_of_Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/402998/20260327024713907_E-Filing_Proof_of_Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amici curiae of Uyghur Human Rights Project, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-856 ACB UHRP et al. ISO Resp Merit Stage.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/402997/20260327024732861_24-856%20ACB%20UHRP%20et%20al.%20ISO%20Resp%20Merit%20Stage.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "E-Filing_Proof_of_Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/402997/20260327024805326_E-Filing_Proof_of_Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Apr 15 2026",
+      "Text": "Reply of petitioners Cisco Systems, Inc., et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Cisco reply brief for petitioners - 24-856.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/404489/20260415094601358_Cisco%20reply%20brief%20for%20petitioners%20-%2024-856.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Cisco reply brief certificate of word count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/404489/20260415094609646_Cisco%20reply%20brief%20certificate%20of%20word%20count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Cisco reply brief for petitioners certificate of service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/404489/20260415094615018_Cisco%20reply%20brief%20for%20petitioners%20certificate%20of%20service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 17 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument GRANTED."
+    },
+    {
+      "Date": "Apr 28 2026",
+      "Text": "Argued. For petitioners: Kannon K. Shanmugam, Washington, D. C.; and Curtis E. Gannon, Deputy Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.)  For respondents: Paul L. Hoffman, Hermosa Beach, Cal."
+    },
+    {
+      "Date": "Jun 23 2026",
+      "Text": "Judgment REVERSED and case REMANDED.  Barrett, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/24-856_kjfm.pdf'>opinion</a> of the Court, in which Roberts, C. J., and Thomas, Alito, Gorsuch, and Kavanaugh, JJ., joined.  Jackson, J., filed an opinion concurring in part and dissenting in part, in which Kagan, J., joined. Sotomayor, J., filed a dissenting opinion, in which Kagan and Jackson, JJ., joined as to Parts I\u2013III and V."
+    },
+    {
+      "Date": "Jul 27 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 24-856 Rev Rem COSTS 9th Cir. 7.27.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-856/417363/20260727140955834_EFILING%2024-856%20Rev%20Rem%20COSTS%209th%20Cir.%207.27.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioners",
+  "Petitioner": [
+    {
+      "Attorney": "Christopher George Michel",
+      "IsCounselofRecord": true,
+      "Title": "Quinn Emanuel Urquhart & Sullivan, LLP",
+      "PrisonerId": null,
+      "Phone": "202-538-8000",
+      "Address": "555 13th Street NW\r\nSuite 600",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "CHRISTOPHERMICHEL@QUINNEMANUEL.COM",
+      "PartyName": "Cisco Systems, Inc., et al."
+    },
+    {
+      "Attorney": "Kannon K. Shanmugam",
+      "IsCounselofRecord": false,
+      "Title": "Davis Polk & Wardwell LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 962-7000",
+      "Address": "1050 17th Street, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "kshanmugam@davispolk.com",
+      "PartyName": "Cisco Systems, Inc., et al."
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondents",
+  "Respondent": [
+    {
+      "Attorney": "Paul Lindsey Hoffman",
+      "IsCounselofRecord": true,
+      "Title": "Schonbrun Seplow Harris Hoffman & Zeldes LLP",
+      "PrisonerId": null,
+      "Phone": "3107177373",
+      "Address": "200 Pier Ave.\r\nSTE 226",
+      "City": "Hermosa Beach",
+      "State": "CA",
+      "Zip": "90254",
+      "Email": "hoffpaul@aol.com",
+      "PartyName": "Doe I, et al."
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": true,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "United States"
+    },
+    {
+      "Attorney": "Cory L. Andrews",
+      "IsCounselofRecord": true,
+      "Title": null,
+      "PrisonerId": null,
+      "Phone": "2025880302",
+      "Address": "2009 Massachusetts Avenue, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "CANDREWS@WLF.ORG",
+      "PartyName": "Washington Legal Foundation"
+    },
+    {
+      "Attorney": "Thomas Bain Becker",
+      "IsCounselofRecord": true,
+      "Title": "Rerooted Archive",
+      "PrisonerId": null,
+      "Phone": "5167124164",
+      "Address": "1320 East Barringer Street",
+      "City": "Philadelphia",
+      "State": "PA",
+      "Zip": "19119",
+      "Email": "rerooted.archive@gmail.com",
+      "PartyName": "Persecuted Christian Minorities and Supporting Organizations"
+    },
+    {
+      "Attorney": "John Wood Brewer",
+      "IsCounselofRecord": true,
+      "Title": "Amini LLC",
+      "PrisonerId": null,
+      "Phone": "(212) 490-4700",
+      "Address": "131 West 35th Street\r\n12th Floor",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10001",
+      "Email": "jbrewer@aminillc.com",
+      "PartyName": "Estate of Tamar Kedem Siman Tov, et al."
+    },
+    {
+      "Attorney": "Kendall Coffey",
+      "IsCounselofRecord": true,
+      "Title": "COFFEY BURLINGTON P.L.",
+      "PrisonerId": null,
+      "Phone": "305-858-2900",
+      "Address": "2601 South Bayshore Drive\r\nPenthouse One",
+      "City": "Miami",
+      "State": "FL",
+      "Zip": "33133",
+      "Email": "kcoffey@coffeyburlington.com",
+      "PartyName": "Center For A Free Cuba, Doctors Against Forced Organ Harvesting, The Institute For The American Future, Mercury One, The Vulnerable People Project and Jaco Booyens Ministries"
+    },
+    {
+      "Attorney": "Sophia Sabrina Cope",
+      "IsCounselofRecord": true,
+      "Title": "Electronic Frontier Foundation",
+      "PrisonerId": null,
+      "Phone": "415-436-9333",
+      "Address": "815 Eddy Street",
+      "City": "San Francisco",
+      "State": "CA",
+      "Zip": "94109",
+      "Email": "sophia@eff.org",
+      "PartyName": "Electronic Frontier Foundation"
+    },
+    {
+      "Attorney": "Paul A. Cunningham",
+      "IsCounselofRecord": true,
+      "Title": "Harkins Cunningham LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 973-7601",
+      "Address": "1750 K St. N.W.\r\nSte. 300",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006-3817",
+      "Email": "pac@harkinscunningham.com",
+      "PartyName": "Uyghur Human Rights Project, et al."
+    },
+    {
+      "Attorney": "Ilana Hope Eisenstein",
+      "IsCounselofRecord": true,
+      "Title": "DLA Piper LLP (US)",
+      "PrisonerId": null,
+      "Phone": "215-656-3300",
+      "Address": "1650 Market Street\r\nSuite 5000",
+      "City": "Philadelphia",
+      "State": "PA",
+      "Zip": "19103",
+      "Email": "ilana.eisenstein@dlapiper.com",
+      "PartyName": "The Chamber of Commerce of the United States of America, Business Roundtable, The National Association of Manufacturers, and TechNet"
+    },
+    {
+      "Attorney": "Susan Hannah Farbstein",
+      "IsCounselofRecord": true,
+      "Title": "Harvard Law School",
+      "PrisonerId": null,
+      "Phone": "(617) 495-4589",
+      "Address": "1563 Massachusetts Ave.\r\nPound Hall 401",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02138",
+      "Email": "sfarbstein@law.harvard.edu",
+      "PartyName": "Center for Justice and Accountability"
+    },
+    {
+      "Attorney": "Agnieszka M. Fryszman",
+      "IsCounselofRecord": true,
+      "Title": "Cohen Milstein Sellers & Toll, PLLC",
+      "PrisonerId": null,
+      "Phone": "202-408-4600",
+      "Address": "1100 New York Ave.\r\nFloor 8",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20005",
+      "Email": "afryszman@cohenmilstein.com",
+      "PartyName": "Representative Christopher H. Smith, Joe Wilson, Gus M. Bilirakis, and Stephen F. Lynch"
+    },
+    {
+      "Attorney": "Katherine M. Gallagher",
+      "IsCounselofRecord": true,
+      "Title": "Center for Constitutional Rights",
+      "PrisonerId": null,
+      "Phone": "2126146455",
+      "Address": "666 Broadway, 7th Floor",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10012",
+      "Email": "kgallagher@ccrjustice.org",
+      "PartyName": "International Human Rights Organizations"
+    },
+    {
+      "Attorney": "Scott Allen Gilmore",
+      "IsCounselofRecord": true,
+      "Title": "DiCello Levitt LLP",
+      "PrisonerId": null,
+      "Phone": "202-900-8936",
+      "Address": "801 17th St. NW Suite 430",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "sgilmore@dicellolevitt.com",
+      "PartyName": "Human Rights First, Michael H. Posner, and the International Corporate Accountability Roundtable"
+    },
+    {
+      "Attorney": "Jack L. Goldsmith",
+      "IsCounselofRecord": true,
+      "Title": null,
+      "PrisonerId": null,
+      "Phone": "617 384 8159",
+      "Address": "1563 Massachusetts Ave.\r\nAreeda 233",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02138",
+      "Email": "goldsmith@pobox.com",
+      "PartyName": "Chevron Corporation, Dole Food Co., Inc., International Business Machines Corp., Merck & Co. Inc."
+    },
+    {
+      "Attorney": "Brianne Jenna Gorod",
+      "IsCounselofRecord": true,
+      "Title": "Constitutional Accountability Center",
+      "PrisonerId": null,
+      "Phone": "202 296 6889",
+      "Address": "1730 Rhode Island Ave. NW\r\nSuite 1200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "BRIANNE@THEUSCONSTITUTION.ORG",
+      "PartyName": "Constitutional Accountability Center"
+    },
+    {
+      "Attorney": "James Kellogg Green",
+      "IsCounselofRecord": true,
+      "Title": "James K. Green, P.A.",
+      "PrisonerId": null,
+      "Phone": "5616592029",
+      "Address": "501 South Flagler Drive, Suite 306\r\nFlagler Center",
+      "City": "West Palm Beach",
+      "State": "FL",
+      "Zip": "33401",
+      "Email": "jkg@jameskgreenlaw.com",
+      "PartyName": "Scholars of Federal Jurisdiction, et al."
+    },
+    {
+      "Attorney": "Michael David Hausfeld",
+      "IsCounselofRecord": true,
+      "Title": "Hausfeld LLP",
+      "PrisonerId": null,
+      "Phone": "202-540-7200",
+      "Address": "1200 Seventeenth Street NW\r\nSuite 600",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "mhausfeld@hausfeldllp.com",
+      "PartyName": "Oxfam America and Professors of Economics and Political Science Joseph Stiglitz, Simon Johnson, Geoffrey Heal, Gabriel Zucman, Marc Goergen, Adam Dean, and Mircea Raianu"
+    },
+    {
+      "Attorney": "Christina Georgia Hioureas",
+      "IsCounselofRecord": true,
+      "Title": "Foley Hoag LLP",
+      "PrisonerId": null,
+      "Phone": "2128120400",
+      "Address": "1301 Avenue of the Americas",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10019",
+      "Email": "hioureas@gmail.com",
+      "PartyName": "Former U.S. Ambassadors-At-Large for War Crimes Issues/Global Criminal Justice and Prosecutors of International Crimes"
+    },
+    {
+      "Attorney": "Christina Georgia Hioureas",
+      "IsCounselofRecord": true,
+      "Title": "Foley Hoag LLP",
+      "PrisonerId": null,
+      "Phone": "2128120400",
+      "Address": "1301 Avenue of the Americas\r\n25th Floor",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10019",
+      "Email": "hioureas@gmail.com",
+      "PartyName": "The Guernica37 Centre for International Justice"
+    },
+    {
+      "Attorney": "Robert K. Kry",
+      "IsCounselofRecord": true,
+      "Title": "MoloLamken LLP",
+      "PrisonerId": null,
+      "Phone": "2025562011",
+      "Address": "600 New Hampshire Ave., NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20037",
+      "Email": "rkry@mololamken.com",
+      "PartyName": "International Law Scholars"
+    },
+    {
+      "Attorney": "R. Trent McCotter",
+      "IsCounselofRecord": true,
+      "Title": "Separation of Powers Clinic,Columbus School of Law",
+      "PrisonerId": null,
+      "Phone": "202-706-5488",
+      "Address": "3600 John McCormack Rd.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20064",
+      "Email": "mccotter@cua.edu",
+      "PartyName": "American Free Enterprise Chamber of Commerce"
+    },
+    {
+      "Attorney": "John Frederick O'Connor",
+      "IsCounselofRecord": true,
+      "Title": "Steptoe LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 429-3000",
+      "Address": "1330 Connecticut Avenue, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "joconnor@steptoe.com",
+      "PartyName": "CACI Premier Technology, Inc."
+    },
+    {
+      "Attorney": "Brian Olney",
+      "IsCounselofRecord": true,
+      "Title": "Hadsell Stormer Renick & Dai LLP",
+      "PrisonerId": null,
+      "Phone": "(626) 585-9600",
+      "Address": "128 N. Fair Oaks Ave.",
+      "City": "Pasadena",
+      "State": "CA",
+      "Zip": "91103",
+      "Email": "bolney@hadsellstormer.com",
+      "PartyName": "Former U.N. Special Rapporteurs on Torture"
+    },
+    {
+      "Attorney": "James Inman Pearce",
+      "IsCounselofRecord": true,
+      "Title": "Washington Litigation Group",
+      "PrisonerId": null,
+      "Phone": "2025218770",
+      "Address": "1717 K Street NW, Suite 1120",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "jpearce@washingtonlitigationgroup.org",
+      "PartyName": "Reverend Bob Fu and Other Individuals and Organizations Defending Religious Freedom"
+    },
+    {
+      "Attorney": "Emily Adelaide Ray",
+      "IsCounselofRecord": true,
+      "Title": "Human Rights Entrepreneurs Clinic",
+      "PrisonerId": null,
+      "Phone": "2079397782",
+      "Address": "23 Everett Street, Suite 305",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02138",
+      "Email": "eray@law.harvard.edu",
+      "PartyName": "Professors of Legal History"
+    },
+    {
+      "Attorney": "Laura Kathleen Roberts",
+      "IsCounselofRecord": true,
+      "Title": "Marcus & Roberts, LLP",
+      "PrisonerId": null,
+      "Phone": "6502819411",
+      "Address": "712 H Street\r\nSuite 1422",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20002",
+      "Email": "kroberts@marcusandroberts.com",
+      "PartyName": "Congressman Chris Smith"
+    },
+    {
+      "Attorney": "Daniel Martin Sullivan",
+      "IsCounselofRecord": true,
+      "Title": "Holwell Shuster & Goldberg LLP",
+      "PrisonerId": null,
+      "Phone": "646-837-5132",
+      "Address": "425 Lexington Avenue",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10017",
+      "Email": "dsullivan@hsgllp.com",
+      "PartyName": "Law Professors Samuel Estreicher and Michael D. Ramsey"
+    }
+  ]
+}

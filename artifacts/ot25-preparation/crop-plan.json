@@ -1,0 +1,212 @@
+{
+  "jules_lobel": {
+    "source_file": "originals/jules_lobel.jpg",
+    "source_sha256": "9ac6dbfce3b776f39168f9ccefdfdcb909e7f2071d29e16e5371bd31087f6aa5",
+    "box": [
+      537,
+      0,
+      3173,
+      2636
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/jules_lobel.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "4a12c515f6f7f6cc8b8f898bce7541ee6ec0dd462ed44782360b94b92845c8f1"
+  },
+  "geoffrey_m_pipoly": {
+    "source_file": "originals/geoffrey_m_pipoly.jpg",
+    "source_sha256": "cc3b755f76eabc6e8548067479eb2f0688cba6bf6dc2fddeea3ca875dd05504b",
+    "box": [
+      1240,
+      0,
+      2090,
+      850
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/geoffrey_m_pipoly.jpg",
+    "width": 850,
+    "height": 850,
+    "sha256": "c7196c1b18969d2b2fbb56c72f04ef10cc691d8298ca3987a1f4a430b41dc5a5"
+  },
+  "tobias_s_loss_eaton": {
+    "source_file": "originals/tobias_s_loss_eaton.jpg",
+    "source_sha256": "60a2ccc5b56bf85fdc1cd9e42100de9f4f431bf34075e9ec3d3bea958bb067d8",
+    "box": [
+      0,
+      0,
+      375,
+      375
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/tobias_s_loss_eaton.jpg",
+    "width": 375,
+    "height": 375,
+    "sha256": "37d89a671d435c7aff0443d911b10ac4d72c859ab3d98d399f571fcf1532ce02"
+  },
+  "alan_a_beck": {
+    "source_file": "replacements/alan_a_beck.jpg",
+    "source_sha256": "75ca81c1143674666f5bbd523ce6da78eda9d6429678b6f4bb7906050a7fbb27",
+    "box": [
+      0,
+      0,
+      567,
+      567
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/alan_a_beck.jpg",
+    "width": 567,
+    "height": 567,
+    "sha256": "c5c8da2719a163b339d8e2187f316fc3e2057e2fa1d8eea561589a2fa745754c"
+  },
+  "charles_b_klein": {
+    "source_file": "originals/charles_b_klein.jpg",
+    "source_sha256": "7993c7193da05b8e2e52a95bd67848ea7d871668123851f544a010e1ce122b38",
+    "box": [
+      200,
+      70,
+      1400,
+      1270
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/charles_b_klein.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "4bb738e0048ae187be39eb358f092be9168bfde1eddb1008189728d801e7b388"
+  },
+  "joseph_j_perkovich": {
+    "source_file": "originals/joseph-j-perkovich.png",
+    "source_sha256": "92cfec4621a8c03beae23adf03d58b1aedafcb0b1f6f768ef75e02c0bd978647",
+    "box": [
+      0,
+      0,
+      480,
+      480
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/joseph_j_perkovich.jpg",
+    "width": 480,
+    "height": 480,
+    "sha256": "7a2cd3fbd7bd02ab6675631895669027bbc7f03f531f68d9e7ce333f73b99062"
+  },
+  "emily_m_ferguson": {
+    "source_file": "replacements/emily_m_ferguson.jpg",
+    "source_sha256": "a206ab1d059d898c725798970e5c42e24516fc90ae1fbd04df6b3dfb08cbd8af",
+    "box": [
+      0,
+      0,
+      800,
+      800
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/emily_m_ferguson.jpg",
+    "width": 800,
+    "height": 800,
+    "sha256": "623fd59b7fd4ddb19d6157d83e62adeb0ff72aa98ad4c37539f8e64d8da0b98e"
+  },
+  "michael_zuckerman": {
+    "source_file": "originals/michael_zuckerman.jpg",
+    "source_sha256": "bb9a1b41b39e5ad9dcc0db094143e6ee953fc762fabb7dd2cb4c319753d00544",
+    "box": [
+      0,
+      0,
+      2048,
+      2048
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/michael_zuckerman.jpg",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "fe50e65ea4c68bbf6e521ca931fa3ca0d5294cc4d1480b288820f25be9520fa7"
+  },
+  "philip_l_ellison": {
+    "source_file": "originals/philip_l_ellison.jpg",
+    "source_sha256": "32cb894b0e6b1e952c9b1cde017c0c2035616d3d1b23bd144bbb878a2bb5a826",
+    "box": [
+      0,
+      35,
+      686,
+      721
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/philip_l_ellison.jpg",
+    "width": 686,
+    "height": 686,
+    "sha256": "bc5e5d6e17d253e277eed74e97a2ee6b0a031a1db3520bcbe1991ba4cde41459"
+  },
+  "matthew_t_nelson": {
+    "source_file": "originals/matthew_t_nelson.jpg",
+    "source_sha256": "3be9784952b5fbb9f0ac6ef521b6115a866cf2a282fb9c2fb87150e787b35146",
+    "box": [
+      0,
+      0,
+      819,
+      819
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/matthew_t_nelson.jpg",
+    "width": 819,
+    "height": 819,
+    "sha256": "594b7abc6489b7f832e3a81933cf1f071f2eec99db6b567f703fcff44b32a313"
+  },
+  "erin_e_murphy": {
+    "source_file": "originals/erin_e_murphy.jpg",
+    "source_sha256": "d3ae87241366255f1912d2850ddf4c8e310cafb95229f41aaa032ed497c2ebe0",
+    "box": [
+      0,
+      0,
+      400,
+      400
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/erin_e_murphy.jpg",
+    "width": 400,
+    "height": 400,
+    "sha256": "d8c1a9894a543a6ece3362c7ac095f399b936481a3e4a18f12f3dbf92221e90f"
+  },
+  "richard_d_klingler": {
+    "source_file": "originals/richard_d_klingler.jpg",
+    "source_sha256": "71aa990868ef84e1c0d459ead754e8bcc6c5653315692e6f161632c35770648a",
+    "box": [
+      0,
+      0,
+      700,
+      700
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/richard_d_klingler.jpg",
+    "width": 700,
+    "height": 700,
+    "sha256": "b2c34a1d10215dde34e91eb0debf4e128afd438153237906daf7e54f1e9b8fb6"
+  },
+  "michael_e_kenneally_jr": {
+    "source_file": "replacements/michael_e_kenneally_jr.jpg",
+    "source_sha256": "22de195b56d39a2053925f0b346cc4b57a6011a5c33ef316b5e64b647349b592",
+    "box": [
+      0,
+      0,
+      560,
+      560
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/michael_e_kenneally_jr.jpg",
+    "width": 560,
+    "height": 560,
+    "sha256": "0a73d2423489a7736a1986106fd8e8586a3e6ec41f84a5fa018857fe9c5cea1b"
+  },
+  "john_e_roberts": {
+    "source_file": "originals/john-e-roberts.jpg",
+    "source_sha256": "93cd81afb917a7a6c2055d61df78800db86332fe60a1cbf1fa11ed1333b38fdc",
+    "box": [
+      61,
+      0,
+      585,
+      524
+    ],
+    "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+    "output_file": "square/john_e_roberts.jpg",
+    "width": 524,
+    "height": 524,
+    "sha256": "8720389b710994c980fd252e3816d039941e39c399ba684a91a2c1933dbb510f"
+  }
+}

@@ -1,0 +1,669 @@
+{
+  "case": "Suncor Energy (U.S.A.) Inc. v. County Commissioners of Boulder County, No. 25-170 (argued Oct 5, 2026)",
+  "notes": [
+    "Block ids are the [n] values in transcript.txt; end_block is exclusive. Timestamps are the transcript m:ss values.",
+    "Physical page numbers count form feeds (1-based). Printed page labels are noted where known.",
+    "Candidate count (about 40) is above the 12-25 planning range. Each opportunity has a priority field so the editor can prune. High = clear first-substantive mention or a direct dispute over meaning/holding.",
+    "Source files: /Users/dominik/GitHub/scotus-videos/annotation-trial/25-170/sources/. Opinion texts are in cap-*.txt (case.law), statutes in usc-sec*.txt (GPO), Oyez summaries in oyez-*.json.",
+    "Justice Alito's Sept 28, 2026 non-participation letter (sources/alito-letter.txt) is not discussed in the argument and has no block; it may suit the question-presented card as context. Alito also concurred in part in AEP (oyez-2010-10-174.json)."
+  ],
+  "opportunities": [
+    {
+      "id": "qp-scope-of-grant",
+      "type": "Question presented",
+      "priority": "high",
+      "start_block": 0,
+      "end_block": 4,
+      "spoken": "[0] 0:00 John G. Roberts, Jr.: We'll hear argument first this term in Case 25-170, Suncor Energy versus County Commissioners of Boulder County. [3] 0:12 ...This case involves an unprecedented effort to use state law to regulate global conduct.",
+      "highlight_phrases": ["Suncor Energy versus County Commissioners of Boulder County", "unprecedented effort to use state law to regulate global conduct"],
+      "viewer_benefit": "Shows the exact question the Court granted (whether federal law precludes these state-law claims) before the argument turns to the details.",
+      "candidate_sources": [
+        {"file": "sources/qp.txt", "physical_page": "single-page file (no form feed in qp.txt)", "verbatim": "Whether federal law precludes state-law claims seeking relief for injuries allegedly caused by the effects of interstate and international greenhouse-gas emissions on the global climate."},
+        {"file": "sources/qp.txt", "verbatim": "IN ADDITION TO THE QUESTION PRESENTED BY THE PETITION, THE PARTIES ARE DIRECTED TO BRIEF AND ARGUE THE FOLLOWING QUESTION: WHETHER THIS COURT HAS STATUTORY AND ARTICLE III JURISDICTION TO HEAR THIS CASE."}
+      ],
+      "open_questions": ["Card text is the QP as granted (sources/qp.txt); the petition's QP should be checked against the docket if the editor wants the exact wording."]
+    },
+    {
+      "id": "jurisdiction-added-question",
+      "type": "Question presented",
+      "priority": "high",
+      "start_block": 11,
+      "end_block": 14,
+      "spoken": "[11] 2:16 Clarence Thomas: Mr. Shanmugam, before we get to the merits, would you spend some time and explain why we have jurisdiction?",
+      "highlight_phrases": ["why we have jurisdiction", "statutory and Article III jurisdiction"],
+      "viewer_benefit": "Explains that the Court added a threshold question about its own power to hear the case, which the argument spends a long time on before the merits.",
+      "candidate_sources": [
+        {"file": "sources/qp.txt", "verbatim": "WHETHER THIS COURT HAS STATUTORY AND ARTICLE III JURISDICTION TO HEAR THIS CASE."},
+        {"file": "sources/docket.json", "verbatim": "Feb 23 2026: Petition GRANTED. In addition to the question presented by the petition, the parties are directed to brief and argue the following question: Whether this Court has statutory and Article III jurisdiction to hear this case."}
+      ],
+      "open_questions": ["Could be combined with qp-scope-of-grant as one two-part card."]
+    },
+    {
+      "id": "atlantic-richfield-case",
+      "type": "Case",
+      "priority": "high",
+      "start_block": 13,
+      "end_block": 17,
+      "spoken": "[13] 2:33 Kannon K. Shanmugam: On statutory jurisdiction, our view is that Atlantic Richfield is directly on point. It could not be clearer as a matter of Colorado law that the proceeding below was a self-contained original proceeding, which gives rise to jurisdiction in this Court under Section 1257.",
+      "highlight_phrases": ["Atlantic Richfield is directly on point", "self-contained original proceeding", "jurisdiction in this Court under Section 1257"],
+      "viewer_benefit": "Introduces the precedent both sides use to decide whether this state-court ruling is a final judgment the Court can review.",
+      "candidate_sources": [
+        {"file": "sources/oyez-2019-17-1498.json", "verbatim": "Atlantic Richfield Co. v. Christian (2020), volume 590. Conclusion: 'Because under Montana law, a supervisory writ proceeding is a self-contained case, not an interlocutory appeal, it was a final judgment subject to review.'"},
+        {"file": "sources/cert-reply.txt", "physical_page": 6, "verbatim": "'a supervisory writ proceeding is a self-contained case, not an interlocutory appeal.' 590 U.S. at 12."},
+        {"file": "sources/pet-brief.txt", "physical_page": 23, "verbatim": "In Atlantic Richfield Co. v. Christian, 590 U.S. 1 (2020), the Court held that such a self-contained proceeding is 'final' for purposes of Section 1257(a)."}
+      ],
+      "open_questions": ["Oyez lists volume 590 with no page; the briefs cite 590 U.S. 1 (2020). Use the Montana-writ facts from the Oyez summary if a Facts line is wanted.", "Shanmugam says the Montana court affirmed and remanded but still called it original jurisdiction (block 138). The editor may want that point as a second card."]
+    },
+    {
+      "id": "statute-28-usc-1257",
+      "type": "Statute",
+      "priority": "high",
+      "start_block": 13,
+      "end_block": 16,
+      "spoken": "[13] 2:33 ...which gives rise to jurisdiction in this Court under Section 1257.",
+      "highlight_phrases": ["jurisdiction in this Court under Section 1257", "Final judgments or decrees rendered by the highest court of a State"],
+      "viewer_benefit": "Gives the statute the jurisdiction argument turns on, so the viewer can see why 'final judgment' matters.",
+      "candidate_sources": [
+        {"file": "sources/usc-sec1257.txt", "verbatim": "(a) Final judgments or decrees rendered by the highest court of a State in which a decision could be had, may be reviewed by the Supreme Court by writ of certiorari where the validity of a treaty or statute of the United States is drawn in question or where the validity of a statute of any State is drawn in question on the ground of its being repugnant to the Constitution, treaties, or laws of the United States, or where any title, right, privilege, or immunity is specially set up or claimed under the Constitution or the treaties or statutes of, or any commission held or authority exercised under, the United States."},
+        {"file": "sources/pet-brief.txt", "physical_page": 23, "verbatim": "The Colorado Supreme Court's decision constitutes a final judgment reviewable under 28 U.S.C. 1257(a) because it terminated a self-contained original proceeding in Colorado's court of last resort."}
+      ],
+      "open_questions": ["Card would quote subsection (a) only (statute text in usc-sec1257.txt, GPO 2024 edition). Clause (b) concerns D.C. and is not needed."]
+    },
+    {
+      "id": "colorado-rule-21-vs-4.2",
+      "type": "Comparison",
+      "priority": "high",
+      "start_block": 152,
+      "end_block": 155,
+      "spoken": "[153] 3:21 Kannon K. Shanmugam: You can take an interlocutory appeal under Colorado Appellate Rule 4.2. ... [154] 3:35 Or you can go directly to the Colorado Supreme Court.",
+      "highlight_phrases": ["interlocutory appeal under Colorado Appellate Rule 4.2", "go directly to the Colorado Supreme Court", "the proceeding begins and ends in the Colorado Supreme Court"],
+      "viewer_benefit": "Lays out the two Colorado routes to the state supreme court (interlocutory appeal vs. original proceeding), which is the factual crux of the jurisdiction fight.",
+      "candidate_sources": [
+        {"file": "sources/reply.txt", "physical_page": 9, "verbatim": "Like other States, Colorado has separate procedures for self-contained original proceedings and direct interlocutory appeals. See Colo. App. R. 4.2(a), (h)."},
+        {"file": "sources/pet-app.txt", "physical_page": 9, "verbatim": "¶23 The exercise of our original jurisdiction under C.A.R. 21 lies within our sole discretion. ... An original proceeding under C.A.R. 21 is an extraordinary remedy that is limited in its purpose and availability."},
+        {"file": "external", "verbatim": "Colorado Appellate Rule 21 (titled 'Original Jurisdiction Under the Constitution', per the argument at block 130) and C.A.R. 4.2 (interlocutory appeal). Fetch the current rule texts from the Colorado Judicial Branch site."}
+      ],
+      "open_questions": ["Rule text was not verified from a file; fetch C.A.R. 21 and 4.2 before quoting. Shanmugam also compares Rule 4.2 to 28 U.S.C. 1292 (block 153)."]
+    },
+    {
+      "id": "colorado-decretal-remand",
+      "type": "Excerpt",
+      "priority": "high",
+      "start_block": 128,
+      "end_block": 139,
+      "spoken": "[129] 19:13 Sonia Sotomayor: How do we know, since the court below didn't tell us, that this was an original writ or just an interlocutory appeal? [137] 20:47 Kannon K. Shanmugam: ...I think the best thing that my friend on the other side has pointed to is the fact that the decretal language in this case remanded.",
+      "highlight_phrases": ["How do we know, since the court below didn't tell us", "the decretal language in this case remanded", "just an interlocutory appeal"],
+      "viewer_benefit": "Shows the actual final sentence of the Colorado Supreme Court opinion that both sides read differently: it discharges the show-cause order and remands.",
+      "candidate_sources": [
+        {"file": "sources/pet-app.txt", "physical_page": 26, "verbatim": "¶70 Accordingly, we discharge the order to show cause and remand this case to the district court for further proceedings consistent with this opinion."},
+        {"file": "sources/pet-app.txt", "physical_page": 4, "verbatim": "¶2 ... Accordingly, we discharge the order to show cause and remand this case to the district court for further proceedings consistent with this opinion."},
+        {"file": "sources/ja.txt", "physical_page": 143, "verbatim": "ORDER AND RULE TO SHOW CAUSE ... the Board of County Commissioners of Boulder County, the City of Boulder, and the district court are directed to answer in writing"}
+      ],
+      "open_questions": ["Harris (block 339) cites 'JA 141' for the trial court being a respondent; the order is at physical JA page 143 in ja.txt. Printed JA page not verified.", "Colorado Supreme Court opinion dated May 12, 2025 (docket and pet-app TOC)."]
+    },
+    {
+      "id": "colorado-court-jurisdiction-paragraphs",
+      "type": "Excerpt",
+      "priority": "medium",
+      "start_block": 128,
+      "end_block": 131,
+      "spoken": "[128] 18:38 Sonia Sotomayor: ...it has two strands. ... they tell us that the first strand is like Atlantic Richfield, has to do with writs of prohibition or some sort of writ of that sort, but that it also encompasses appellate jurisdiction.",
+      "highlight_phrases": ["it also encompasses appellate jurisdiction", "two strands"],
+      "viewer_benefit": "Shows how the Colorado Supreme Court itself described its jurisdiction to take the case (C.A.R. 21 original jurisdiction, chosen for issues of public importance).",
+      "candidate_sources": [
+        {"file": "sources/pet-app.txt", "physical_page": 9, "verbatim": "¶24 To date, we have not addressed the preemptive effect of federal law on state common law tort claims for harms related to climate change. ... Thus, we believe that resolution of this issue warrants the exercise of our original jurisdiction under C.A.R. 21."},
+        {"file": "sources/pet-app.txt", "physical_page": 9, "verbatim": "¶21 Defendants then petitioned this court for an order to show cause under C.A.R. 21, and we issued an order to show cause."}
+      ],
+      "open_questions": ["Sotomayor's characterization of 'amici' is contested; the card should attribute it as a Justice's reading."]
+    },
+    {
+      "id": "cox-fourth-category",
+      "type": "Case",
+      "priority": "high",
+      "start_block": 139,
+      "end_block": 147,
+      "spoken": "[146] 21:57 Kannon K. Shanmugam: But the very point of the fourth exception under Cox is that it provides for review in circumstances where the party seeking review might still prevail on non-federal grounds. And we point to Fort Wayne Books ...",
+      "highlight_phrases": ["fourth exception under Cox", "prevail on non-federal grounds", "Fort Wayne Books"],
+      "viewer_benefit": "Explains the backup route to jurisdiction: Cox's categories allow review of a state federal-issue ruling before the case ends.",
+      "candidate_sources": [
+        {"file": "sources/cap-420-469.txt", "verbatim": "Lastly, there are those situations where the federal issue has been finally decided in the state courts with further proceedings pending in which the party seeking review here might prevail on the merits on nonfederal grounds, thus rendering unnecessary review of the federal issue by this Court, and where reversal of the state court on the federal issue would be preclusive of any further litigation on the relevant cause of action rather than merely controlling the nature and character of, or determining the admissibility of evidence in, the state proceedings still to come."},
+        {"file": "sources/pet-brief.txt", "physical_page": 23, "verbatim": "in the alternative, the Colorado Supreme Court's decision should be treated as 'final' for purposes of Section 1257(a) because it falls within the fourth category of cases identified in Cox Broadcasting Corp. v. Cohn, 420 U.S. 469 (1975)."}
+      ],
+      "open_questions": ["Pinpoint for the fourth category (believed 420 U.S. at 482-83) not verified in the file.", "Fort Wayne Books, Inc. v. Indiana, 489 U.S. 46 (1989) is cited only in the pet-brief table of authorities; its text is not in the file set. Sotomayor distinguishes it at block 147."]
+    },
+    {
+      "id": "article-iii-injury-spending-money",
+      "type": "Glossary",
+      "priority": "low",
+      "start_block": 148,
+      "end_block": 152,
+      "spoken": "[150] 22:37 Sarah... [150] Sonia Sotomayor: Because you're spending money that -- in litigation. But I don't know that we've ever talked of spending money on litigation as a constitutional injury. [151] 22:46 Kannon K. Shanmugam: But we are doing so involuntarily as a result of the adverse ruling on a question of federal law.",
+      "highlight_phrases": ["spending money on litigation as a constitutional injury", "the adverse ruling on a question of federal law"],
+      "viewer_benefit": "Explains the Article III standing question: whether being forced to litigate in state court is an injury the Court can recognize.",
+      "candidate_sources": [
+        {"file": "sources/ja.txt", "verbatim": "(none; no Article III passage located in file set)"},
+        {"file": "external", "verbatim": "NCAA v. Murphy (2018), named at block 19 (4:25) as the case that treated loss of a preemption defense as loss of 'the right to be free from state regulation'. Fetch from supremecourt.gov."}
+      ],
+      "open_questions": ["No file in the set supplies a definition of Article III injury; the editor will need an outside source.", "Speaker attribution: Sotomayor at block 150; Shanmugam at 151."]
+    },
+    {
+      "id": "source-state-glossary",
+      "type": "Glossary",
+      "priority": "high",
+      "start_block": 49,
+      "end_block": 52,
+      "spoken": "[49] 9:07 Neil Gorsuch: So just to interject here, let's say your defendant is in -- from Texas. You'd object to Colorado applying Texas law? [51] 9:23 Shanmugam: ...Congress has done that in a limited way in the Clean Air Act by, in the saving clause, authorizing the law of the source state to apply.",
+      "highlight_phrases": ["the law of the source state", "authorizing the law of the source state to apply", "let's say your defendant is in -- from Texas"],
+      "viewer_benefit": "Defines 'source state' (where the emissions or conduct happened) versus the injured or 'affected' state, the distinction the whole case turns on.",
+      "candidate_sources": [
+        {"file": "sources/cap-479-481.txt", "verbatim": "We hold that when a court considers a state-law claim concerning interstate water pollution that is subject to the CWA, the court must apply the law of the State in which the point source is located."},
+        {"file": "sources/cap-564-410.txt", "verbatim": "nothing in the Act bars aggrieved individuals from bringing a nuisance claim pursuant to the law of the source State (Ouellette, quoted in AEP)."}
+      ],
+      "open_questions": ["The 'source state' term is used throughout; the card should attach to first use at block 51 and the Texas example at block 49."]
+    },
+    {
+      "id": "equal-sovereignty-glossary",
+      "type": "Glossary",
+      "priority": "high",
+      "start_block": 38,
+      "end_block": 40,
+      "spoken": "[38] 7:10 Shanmugam: ...we are relying on two strands of federalist principle here. The second is extraterritoriality. [39] 7:21 The first is the principle of equal sovereignty, the notion that in an area like this, there are uniquely federal interests that dictate the application of federal law.",
+      "highlight_phrases": ["the principle of equal sovereignty", "uniquely federal interests that dictate the application of federal law"],
+      "viewer_benefit": "Defines the first of the two constitutional theories (equal sovereignty) that the petitioners rely on, and why it matters that the argument has two strands.",
+      "candidate_sources": [
+        {"file": "sources/sg-brief.txt", "physical_page": 26, "verbatim": "Equal sovereignty means 'each State may make its own reasoned judgment about what conduct is permitted or proscribed within its borders.' ... By the same token, equal sovereignty 'implies certain constitutional limitations' on a State's authority. Hyatt, 587 U.S. at 245"},
+        {"file": "sources/pet-brief.txt", "physical_page": 34, "verbatim": "the fundamental principle of equal sovereignty among the States (Hyatt, 587 U.S. at 246)."}
+      ],
+      "open_questions": ["Card should note this is a constitutional theory the petitioners draw from Franchise Tax Board v. Hyatt (see franchise-tax-hyatt-case), not a holding."]
+    },
+    {
+      "id": "extraterritoriality-vs-choice-of-law",
+      "type": "Glossary",
+      "priority": "high",
+      "start_block": 43,
+      "end_block": 46,
+      "spoken": "[43] 7:48 Elena Kagan: I mean, usually, we think of extraterritoriality as questions of choice of law. In other words, a state can't apply its own law extraterritorially.",
+      "highlight_phrases": ["questions of choice of law", "a state can't apply its own law extraterritorially"],
+      "viewer_benefit": "Defines the difference between extraterritoriality (a limit on what a state may regulate) and choice of law (which state's law applies), which the Justices keep returning to.",
+      "candidate_sources": [
+        {"file": "sources/resp-brief.txt", "physical_page": 40, "verbatim": "a significant contact or significant aggregation of contacts, creating state interests, such that choice of its law is neither arbitrary nor fundamentally unfair. (quoting Phillips Petroleum Co. v. Shutts, 472 U.S. 797, 818 (1985))"}
+      ],
+      "open_questions": ["Kagan's own definition is the best source for the card; the Shutts quote is a supporting gloss for the choice-of-law test.", "The term 'extraterritoriality' recurs constantly; the editor may want this card at block 43 only."]
+    },
+    {
+      "id": "constructive-presence-glossary",
+      "type": "Glossary",
+      "priority": "medium",
+      "start_block": 22,
+      "end_block": 26,
+      "spoken": "[22] 5:07 Shanmugam: ...there are cases in which the Court has permitted that, where a defendant can be said to be constructively present in the state by virtue of their conduct. [27] 5:38 Roberts: Well, yeah, if you throw a rock over the border and hit him, that person can be --",
+      "highlight_phrases": ["constructively present in the state by virtue of their conduct", "throw a rock over the border"],
+      "viewer_benefit": "Explains the recognized exception to the no-extraterritorial-regulation rule, with the Chief Justice's rock example as the easy case.",
+      "candidate_sources": [
+        {"file": "sources/pet-brief.txt", "physical_page": 35, "verbatim": "a State is 'without power to exercise \"extra territorial jurisdiction,\" that is, to regulate and control activities wholly beyond its boundaries.' Watson v. Employers Liability Assurance Corp., 348 U.S. 66, 70 (1954)"}
+      ],
+      "open_questions": ["No file in the set defines 'constructive presence' directly. The editor will need an outside source or should keep this as a plain-language gloss.", "Harris uses 'constructive presence exception' at block 347."]
+    },
+    {
+      "id": "caa-savings-clause",
+      "type": "Statute",
+      "priority": "high",
+      "start_block": 50,
+      "end_block": 53,
+      "spoken": "[51] 9:23 Shanmugam: We acknowledge under our equal sovereignty principle that Congress can authorize state law to apply. Congress has done that in a limited way in the Clean Air Act by, in the saving clause, authorizing the law of the source state to apply.",
+      "highlight_phrases": ["in the saving clause, authorizing the law of the source state to apply", "Congress can authorize state law to apply"],
+      "viewer_benefit": "Shows the statutory text that the two sides dispute: whether the Clean Air Act lets state tort law apply to these claims.",
+      "candidate_sources": [
+        {"file": "sources/usc-sec7604.txt", "verbatim": "(e) Nothing in this section shall restrict any right which any person (or class of persons) may have under any statute or common law to seek enforcement of any emission standard or limitation or to seek any other relief (including relief against the Administrator or a State agency)."},
+        {"file": "sources/usc-sec7416.txt", "verbatim": "nothing in this chapter shall preclude or deny the right of any State or political subdivision thereof to adopt or enforce (1) any standard or limitation respecting emissions of air pollutants or (2) any requirement respecting control or abatement of air pollution"}
+      ],
+      "open_questions": ["Which Clean Air Act clause the 'saving clause' refers to is not stated in the transcript. Section 7604(e) is the citizen-suit savings clause; section 7416 is the state-authority retention clause. The editor should confirm from the briefs.", "AEP (cap-564-410.txt) does not discuss the CAA savings clause in the file text. The SG brief cites section 7416 at physical page 18 for 'States retain authority to regulate only sources within their borders'."]
+    },
+    {
+      "id": "cwa-vs-caa-savings-comparison",
+      "type": "Comparison",
+      "priority": "medium",
+      "start_block": 112,
+      "end_block": 114,
+      "spoken": "[112] 16:19 Shanmugam: ...it is true in both Ouellette and in American Electric Power that the Court recognized that there is some room for state law to operate ... But that is because the Clean Water Act and the Clean Air Act contain these saving clauses, which this Court --",
+      "highlight_phrases": ["the Clean Water Act and the Clean Air Act contain these saving clauses", "the saving clause is what you get for the similar Clean Water Act"],
+      "viewer_benefit": "Puts the two parallel savings clauses side by side, which is the link the petitioners and Harris both rely on.",
+      "candidate_sources": [
+        {"file": "sources/usc-sec7604.txt", "verbatim": "(e) Nothing in this section shall restrict any right which any person (or class of persons) may have under any statute or common law ..."},
+        {"file": "sources/cap-479-481.txt", "verbatim": "the saving clause specifically preserves other state actions, and therefore nothing in the Act bars aggrieved individuals from bringing a nuisance claim pursuant to the law of the source State."},
+        {"file": "external", "verbatim": "33 U.S.C. 1365(e) (Clean Water Act savings clause). Not in the file set; fetch from govinfo."}
+      ],
+      "open_questions": ["Second window: Harris at block 329 (51:39): 'Ouellette held that the saving clause is what you get for the similar Clean Water Act, and AEP ties the two together.'", "Harris says at block 435 that 'every court of appeals to consider the question has said the same thing'. Not verified; no circuit split is explicitly discussed."]
+    },
+    {
+      "id": "ouellette-holding",
+      "type": "Case",
+      "priority": "high",
+      "start_block": 202,
+      "end_block": 206,
+      "spoken": "[202] 32:03 Brett M. Kavanaugh: ...Ouellette did allow the Vermont affected party to sue the New York polluter under New York State law. [204] 32:32 Shanmugam: So the easiest answer to that, Justice Kavanaugh, is that it is clear that my friend, Mr. Russell, is relying on Colorado law, the law of the affected state.",
+      "highlight_phrases": ["Ouellette did allow the Vermont affected party", "under New York State law", "the law of the affected state"],
+      "viewer_benefit": "Explains the Vermont-New York precedent, which is the closest analogy and which both sides argue about.",
+      "candidate_sources": [
+        {"file": "sources/cap-479-481.txt", "verbatim": "The question presented is whether the Act pre-empts a common-law nuisance suit filed in a Vermont court under Vermont law, when the source of the alleged injury is located in New York."},
+        {"file": "sources/cap-479-481.txt", "verbatim": "We hold that when a court considers a state-law claim concerning interstate water pollution that is subject to the CWA, the court must apply the law of the State in which the point source is located."},
+        {"file": "external", "verbatim": "International Paper Co. v. Ouellette, 479 U.S. 481 (1987) (cited as the reporter cite in the case file)."}
+      ],
+      "open_questions": ["Card should state the holding precisely: Vermont law could not apply; New York (source-state) law could."]
+    },
+    {
+      "id": "ouellette-footnote-20-vermont-law",
+      "type": "Excerpt",
+      "priority": "medium",
+      "start_block": 555,
+      "end_block": 559,
+      "spoken": "[555] 87:34 Brett M. Kavanaugh: Well, in Ouellette, which you've relied on, it specifically says in Footnote 20 that Vermont law cannot apply. [560] 88:17 Kevin K. Russell: ...my friends have insisted that we've only pled Colorado law.",
+      "highlight_phrases": ["it specifically says in Footnote 20 that Vermont law cannot apply", "Do you agree that under Ouellette, you could not proceed under Colorado law"],
+      "viewer_benefit": "Shows the Justice's specific challenge to the petitioners' reading, with the respondent's answer that the complaint does not rely on Colorado law as its source.",
+      "candidate_sources": [
+        {"file": "sources/cap-479-481.txt", "verbatim": "Footnote 20 not located in the file text (case.law version without footnote numbers)."}
+      ],
+      "open_questions": ["Footnote 20 of Ouellette needs to be fetched from the official reporter before it is quoted.", "Related window: Russell's reply at blocks 609-619 ('a lack of authorization but a conflict') and Kavanaugh's 'specifically preserved' at block 614."]
+    },
+    {
+      "id": "watson-case",
+      "type": "Case",
+      "priority": "medium",
+      "start_block": 115,
+      "end_block": 118,
+      "spoken": "[115] 16:53 Sonia Sotomayor: Watson. Watson versus Employer Liability. That was a multi-state case. [117] 17:04 Sotomayor: Well, that was a constructive presence case.",
+      "highlight_phrases": ["What do you do with Watson?", "Watson versus Employer Liability", "constructive presence case"],
+      "viewer_benefit": "Introduces a multi-state precedent the Justice raises against the petitioners' limit on state reach.",
+      "candidate_sources": [
+        {"file": "sources/pet-brief.txt", "physical_page": 35, "verbatim": "a State is 'without power to exercise \"extra territorial jurisdiction,\" that is, to regulate and control activities wholly beyond its boundaries.' Watson v. Employers Liability Assurance Corp., 348 U.S. 66, 70 (1954)"}
+      ],
+      "open_questions": ["Holding of Watson (1954) not in the file set. Fetch 348 U.S. 66 before writing a Case card.", "Case name in the transcript is 'Employer Liability'; the reporter name is Employers Liability Assurance Corp."]
+    },
+    {
+      "id": "franchise-tax-hyatt-case",
+      "type": "Case",
+      "priority": "high",
+      "start_block": 176,
+      "end_block": 179,
+      "spoken": "[176] 28:25 Shanmugam: For the equal sovereignty principle, I would point to Justice Thomas's opinion for the Court in Franchise Tax Board versus Hyatt, which I think established three very important premises for the argument.",
+      "highlight_phrases": ["Franchise Tax Board versus Hyatt", "certain areas involving conflicting rights"],
+      "viewer_benefit": "Introduces the case the petitioners treat as the source of their equal-sovereignty framework.",
+      "candidate_sources": [
+        {"file": "sources/sg-brief.txt", "physical_page": 18, "verbatim": "Franchise Tax Bd. v. Hyatt, 587 U.S. 230, 246 (2019) (citation omitted)"},
+        {"file": "sources/pet-brief.txt", "physical_page": 35, "verbatim": "every State is shielded from private suits not only in its own courts but also in the courts of other States. Hyatt, 587 U.S. at 245, 249."},
+        {"file": "sources/pet-brief.txt", "physical_page": 33, "verbatim": "'no longer fully independent nations' ... Hyatt, 587 U.S. at 245-246."}
+      ],
+      "open_questions": ["Shanmugam's paraphrase ('areas involving conflicting rights where states could not supply the applicable rule of decision', block 178) is not verified; fetch Hyatt, 587 U.S. 230, at 245-247.", "Confirm the opinion author; Shanmugam says Justice Thomas (block 176). Not checked.", "The opinion is cited for the 2019 holding that states keep sovereign immunity in other states' courts. The card should state that holding precisely."]
+    },
+    {
+      "id": "missouri-v-illinois-tennessee-copper",
+      "type": "Case",
+      "priority": "medium",
+      "start_block": 181,
+      "end_block": 184,
+      "spoken": "[182] 29:34 Shanmugam: And if I could point you to any cases from this Court, the two I would select are Missouri versus Illinois and Georgia versus Tennessee Copper, two decisions written by Justice Holmes within two years of each other that talk about the fact that states no longer have the right to abate forcible nuisances.",
+      "highlight_phrases": ["Missouri versus Illinois and Georgia versus Tennessee Copper", "states no longer have the right to abate forcible nuisances"],
+      "viewer_benefit": "Introduces the early federal-common-law pollution cases that the petitioners cite as the historical root of their theory.",
+      "candidate_sources": [
+        {"file": "sources/pet-brief.txt", "physical_page": 36, "verbatim": "The first such case was Missouri v. Illinois, 200 U.S. 496 (1906) ... Since Congress had not created law to govern such claims, the Court concluded that it must craft a federal rule of decision, explaining that it 'must follow and apply [federal] rules even if legislation of one or both of the states seems to stand in the way.' Id. at 520."},
+        {"file": "sources/pet-brief.txt", "physical_page": 36, "verbatim": "the Court applied federal common law to a claim seeking abatement of the discharge of noxious gases in Tennessee that were causing damage in Georgia. See Georgia v. Tennessee Copper Co., 206 U.S. 230 (1907)"},
+        {"file": "sources/cap-479-481.txt", "verbatim": "Missouri v. Illinois, 200 U. S. 496 (1906) (water pollution)."}
+      ],
+      "open_questions": ["Holmes authorship is stated by Shanmugam only; not verified in the file set.", "First substantive mention of Missouri v. Illinois is at block 61 (10:08)."]
+    },
+    {
+      "id": "milwaukee-i-ii-four-precedents",
+      "type": "Case",
+      "priority": "high",
+      "start_block": 192,
+      "end_block": 195,
+      "spoken": "[193] 30:48 Brett M. Kavanaugh: Let me finish. Milwaukee I, Milwaukee II, Ouellette, and AEP, which, as I read them together, make crystal-clear that interstate air and water pollution are matters for federal law unless Congress specifically preserves state law.",
+      "highlight_phrases": ["Milwaukee I, Milwaukee II, Ouellette, and AEP", "matters for federal law unless Congress specifically preserves state law"],
+      "viewer_benefit": "Names the four precedents the Justice treats as controlling, which frames the whole argument.",
+      "candidate_sources": [
+        {"file": "sources/cap-406-91.txt", "verbatim": "Illinois v. City of Milwaukee, 406 U.S. 91 (1972) (Milwaukee I) (case text in file)."},
+        {"file": "sources/cap-564-410.txt", "verbatim": "Illinois v. Milwaukee, 406 U. S. 91, 93, (1972) (Milwaukee I) (recognizing right of Illinois to sue in federal district court to abate discharge of sewage into Lake Michigan)."},
+        {"file": "sources/cap-564-410.txt", "verbatim": "In Milwaukee v. Illinois, 451 U. S. 304, 316-319 (1981) (Milwaukee II), this Court held that Congress had displaced the federal common-law right of action recognized in Milwaukee I by adopting amendments to the Clean Water Act"}
+      ],
+      "open_questions": ["Milwaukee II (451 U.S. 304) is in cap-451-304.txt; its text is available if the editor wants it as a separate card."]
+    },
+    {
+      "id": "milwaukee-i-implicit-corollary",
+      "type": "Excerpt",
+      "priority": "medium",
+      "start_block": 489,
+      "end_block": 492,
+      "spoken": "[490] 75:43 Brett M. Kavanaugh: Milwaukee I therefore held that these cases should be resolved 'by reference to federal common law.' The implicit corollary of this ruling was that state common law was preempted.",
+      "highlight_phrases": ["by reference to federal common law", "The implicit corollary of this ruling was that state common law was preempted"],
+      "viewer_benefit": "Shows the exact sentence from Ouellette that Justice Kavanaugh is quoting, so the viewer can see the 'state common law was preempted' argument in the Court's own words.",
+      "candidate_sources": [
+        {"file": "sources/cap-479-481.txt", "verbatim": "Milwaukee I therefore held that these cases should be resolved by reference to federal common law; the implicit corollary of this ruling was that state common law was preempted. See id., at 107, n. 9"}
+      ],
+      "open_questions": ["The quote is from Ouellette, 479 U.S. at 488 (per AEP's citation); Kavanaugh is quoting Ouellette, not Milwaukee I directly."]
+    },
+    {
+      "id": "federal-common-law-enclave-glossary",
+      "type": "Glossary",
+      "priority": "high",
+      "start_block": 242,
+      "end_block": 244,
+      "spoken": "[242] 37:42 Amy Coney Barrett: ...they do say, drawing on other older precedents, that this is a field, interstate pollution, air and water, is a field that's an enclave of federal common law because it is not suited to the law of any one state",
+      "highlight_phrases": ["enclave of federal common law", "not suited to the law of any one state"],
+      "viewer_benefit": "Defines 'federal common law' and the 'enclave' idea, which is the frame of the Court's pollution cases.",
+      "candidate_sources": [
+        {"file": "sources/cap-564-410.txt", "verbatim": "In Milwaukee v. Illinois ... (Milwaukee II), this Court held that Congress had displaced the federal common-law right of action recognized in Milwaukee I"},
+        {"file": "sources/cap-479-481.txt", "verbatim": "Milwaukee I therefore held that these cases should be resolved by reference to federal common law"}
+      ],
+      "open_questions": ["No single definition in the file set; the editor should write a plain-language gloss and check it against the cases.", "Alternative window: Gorsuch's 'Could the Respondent here have brought a claim under federal common law?' at blocks 365-367 (56:35-56:58)."]
+    },
+    {
+      "id": "aec-case-displacement",
+      "type": "Case",
+      "priority": "high",
+      "start_block": 244,
+      "end_block": 247,
+      "spoken": "[245] 38:37 Amy Coney Barrett: But now we have the Clean Air Act, and Massachusetts versus EPA interpreted 7411 to say that the EPA is the one that has the authority to regulate greenhouse-gas emissions. So, to the extent there is a national rule, Congress has given it to the EPA to set it.",
+      "highlight_phrases": ["American Electric Power", "the Clean Air Act and the EPA action", "Congress has given it to the EPA to set it"],
+      "viewer_benefit": "Gives the holding that the Clean Air Act displaces the federal common-law nuisance claims against power companies, which the argument uses as the starting point.",
+      "candidate_sources": [
+        {"file": "sources/cap-564-410.txt", "verbatim": "The Clean Air Act and the Environmental Protection Agency action the Act authorizes, we hold, displace the claims the plaintiffs seek to pursue."},
+        {"file": "sources/cap-564-410.txt", "verbatim": "In Massachusetts v. EPA, 549 U. S. 497 (2007), this Court held that the Clean Air Act ... authorizes federal regulation of emissions of carbon dioxide and other greenhouse gases."},
+        {"file": "sources/oyez-2010-10-174.json", "verbatim": "The Supreme Court reversed and remanded the lower court order in a unanimous opinion by Justice Ruth Bader Ginsburg."}
+      ],
+      "open_questions": ["Barrett says 'Massachusetts v. EPA interpreted 7411'. Massachusetts v. EPA concerned motor-vehicle emissions (likely section 7521); Barrett herself says 7521 at block 272. Possible transcript or speech issue; the editor should check before printing 7411.", "Oyez lists Justice Sotomayor as not participating in AEP and Justice Alito as concurring in part; verify before using."]
+    },
+    {
+      "id": "aec-closing-paragraph",
+      "type": "Excerpt",
+      "priority": "high",
+      "start_block": 417,
+      "end_block": 421,
+      "spoken": "[417] 63:02 Elena Kagan: What do you make of the closing paragraph of AEP, which says, you know, as to these state claims, we're not dealing with those, and then says the availability of a state lawsuit depends on the preemptive effect of the federal act?",
+      "highlight_phrases": ["the closing paragraph of AEP", "the availability of a state lawsuit depends on the preemptive effect of the federal act", "nuisance claim pursuant to the law of the source State"],
+      "viewer_benefit": "Shows the final paragraph of AEP that both sides read as support: the availability of a state suit depends on preemption, and the Court cites a source-state nuisance claim.",
+      "candidate_sources": [
+        {"file": "sources/cap-564-410.txt", "verbatim": "In light of our holding that the Clean Air Act displaces federal common law, the availability vel non of a state lawsuit depends, inter alia, on the preemptive effect of the federal Act. Id., at 489, 491, 497 (holding that the Clean Water Act does not preclude aggrieved individuals from bringing a \"nuisance claim pursuant to the law of the source State\")."}
+      ],
+      "open_questions": ["Harris reads the bracketed parenthetical at block 422 (63:54) and says 'AEP is just right'."]
+    },
+    {
+      "id": "aec-expert-agency-passage",
+      "type": "Excerpt",
+      "priority": "medium",
+      "start_block": 656,
+      "end_block": 659,
+      "spoken": "[656] 102:10 Brett M. Kavanaugh: In AEP, the Court said -- and this is picking up on Justice Kagan's questions just now -- 'it's altogether fitting that Congress designated an expert agency here, EPA, as best suited to serve as primary regulator of greenhouse-gas emissions. The expert agency is surely better equipped to do the job than individual district judges issuing ad hoc case-by-case injunctions.'",
+      "highlight_phrases": ["expert agency is surely better equipped", "individual district judges issuing ad hoc case-by-case injunctions"],
+      "viewer_benefit": "Shows AEP's reasoning that an expert agency, not courts, should set emissions policy, which Kavanaugh applies to a state jury.",
+      "candidate_sources": [
+        {"file": "sources/cap-564-410.txt", "verbatim": "It is altogether fitting that Congress designated an expert agency, here, EPA, as best suited to serve as primary regulator of greenhouse gas emissions. The expert agency is surely better equipped to do the job than individual district judges issuing ad hoc, case-by-case injunctions. Federal judges lack the scientific, economic, and technological resources an agency can utilize in coping with issues of this order."}
+      ],
+      "open_questions": ["The transcript has 'greenhouse-gas emissions' with a hyphen; the opinion text is 'greenhouse gas emissions'. Quote the opinion text on screen."]
+    },
+    {
+      "id": "epa-position-stationary-sources",
+      "type": "Timeline",
+      "priority": "medium",
+      "start_block": 379,
+      "end_block": 383,
+      "spoken": "[379] 57:34 Neil Gorsuch: What does the Clean Air Act do to -- to alter that 'yes'? Because, as I understand it, EPA has disclaimed the -- the power to regulate greenhouse-gases not just from motor vehicles but more recently from stationary sources too.",
+      "highlight_phrases": ["EPA has disclaimed the power to regulate greenhouse-gases", "not just from motor vehicles but more recently from stationary sources too"],
+      "viewer_benefit": "Summarizes the current EPA position the argument keeps returning to: EPA says it lacks authority over greenhouse-gas standards for vehicles and says it may not regulate stationary sources either.",
+      "candidate_sources": [
+        {"file": "sources/resp-brief.txt", "physical_page": 61, "verbatim": "The United States explains that a recent EPA rule 'concluded that [EPA] lacks authority ... to prescribe greenhouse-gas emissions standards for new motor vehicles and engines based on climate-change concerns' although it has not yet extended that rationale to its power to regulate 'stationary sources.' U.S. Br. 34 n.4 (citing 91 Fed. Reg. 7686 (Fe..."},
+        {"file": "sources/sg-brief.txt", "physical_page": 18, "verbatim": "That Act makes EPA the decisionmaker on whether and how to regulate emissions from stationary sources. 42 U.S.C. 7411."}
+      ],
+      "open_questions": ["Timeline dates are not in the file set (the Federal Register cite is truncated in resp-brief.txt). Fetch the SG brief footnote 4 and the Federal Register cite.", "Whether EPA has in fact disclaimed stationary-source authority is contested; Gorsuch's phrasing is a question, not a finding."]
+    },
+    {
+      "id": "clean-air-act-state-federal-roles",
+      "type": "Statute",
+      "priority": "medium",
+      "start_block": 216,
+      "end_block": 220,
+      "spoken": "[216] 34:08 Brett M. Kavanaugh: The Clean Air Act is very significant in terms of the responsibilities it puts on states. We've had the cross-state air pollution rule. ... EME Homer sets forth the good neighbor provision, tells the states what they can do. [222] 35:04 Shanmugam: I think the best place to look is to Section 7411, which is Section 111 of the Clean Air Act",
+      "highlight_phrases": ["EME Homer sets forth the good neighbor provision", "Section 7411, which is Section 111 of the Clean Air Act"],
+      "viewer_benefit": "Shows the Clean Air Act's state-federal allocation of duties that Kavanaugh and Shanmugam argue about, including the good-neighbor duty and EPA's primary role for stationary sources.",
+      "candidate_sources": [
+        {"file": "sources/sg-brief.txt", "physical_page": 18, "verbatim": "42 U.S.C. 7411 ... States retain authority to regulate only sources within their borders. 42 U.S.C. 7416."},
+        {"file": "external", "verbatim": "42 U.S.C. 7410(a)(2)(D)(i)(I) (good-neighbor provision). Not in the file set; fetch from govinfo."},
+        {"file": "external", "verbatim": "EPA v. EME Homer City Generation, L.P., 572 U.S. 489 (2014) (cited in pet-brief table of authorities). Fetch from supremecourt.gov."}
+      ],
+      "open_questions": ["Good-neighbor text and 7411 text are not in the file set; fetch before quoting.", "Kavanaugh's 'cross-state air pollution rule' is a reference to EPA rulemaking, not a case cite in the transcript."]
+    },
+    {
+      "id": "pork-producers-territorial-limits",
+      "type": "Case",
+      "priority": "high",
+      "start_block": 332,
+      "end_block": 335,
+      "spoken": "[333] 52:09 Sarah M. Harris: That eviscerates the theory of Pork Producers that states can only regulate out-of-state conduct with a direct nexus to in-state injury.",
+      "highlight_phrases": ["the theory of Pork Producers", "states can only regulate out-of-state conduct with a direct nexus to in-state injury"],
+      "viewer_benefit": "Introduces the 2023 decision on state power over out-of-state conduct, which the Respondents' side is said to be undermining.",
+      "candidate_sources": [
+        {"file": "sources/reply.txt", "physical_page": 19, "verbatim": "The prohibition on extraterritorial regulation, which is derived from 'the Constitution's horizontal separation of powers,' National Pork Producers Council v. Ross, 598 U.S. 356, 376 n.1 (2023), independently bars a State from using its law to govern conduct in another State."},
+        {"file": "sources/reply.txt", "physical_page": 21, "verbatim": "'the territorial limits of state authority under the Constitution's horizontal separation of powers.' National Pork Producers, 598 U.S. at 375 n.1."}
+      ],
+      "open_questions": ["Harris's gloss on the holding ('direct nexus') is her characterization; fetch Ross and check. The reporter pinpoint differs between the reply (375 n.1 and 376 n.1); verify.", "Footnote 1 of Pork Producers is invoked again by Russell at block 584 (90:20) in the BMW discussion."]
+    },
+    {
+      "id": "phillips-petroleum-shutts",
+      "type": "Case",
+      "priority": "medium",
+      "start_block": 333,
+      "end_block": 336,
+      "spoken": "[334] 52:17 Sarah M. Harris: Kansas in Phillips Petroleum couldn't apply its law to a class action just by pointing to some Kansas injuries when 97 percent of the conduct and injuries were out of state.",
+      "highlight_phrases": ["Kansas in Phillips Petroleum", "a class action just by pointing to some Kansas injuries", "97 percent of the conduct and injuries were out of state"],
+      "viewer_benefit": "Introduces a case where a state's law could not govern a nationwide class, which the petitioners say is the same problem here.",
+      "candidate_sources": [
+        {"file": "sources/sg-brief.txt", "physical_page": 27, "verbatim": "due process prohibits choosing a single State's law to govern every claim in a 'nationwide class action' when that State lacks a sufficient 'interest' in all the claims. Phillips Petroleum Co. v. Shutts, 472 U.S. 797, 822 (1985)."},
+        {"file": "sources/resp-brief.txt", "physical_page": 40, "verbatim": "a significant contact or significant aggregation of contacts, creating state interests, such that choice of its law is neither arbitrary nor fundamentally unfair."}
+      ],
+      "open_questions": ["The '97 percent' figure appears in no file in the set. Verify against 472 U.S. 797 before printing it."]
+    },
+    {
+      "id": "bmw-v-gore",
+      "type": "Case",
+      "priority": "medium",
+      "start_block": 347,
+      "end_block": 350,
+      "spoken": "[349] 54:29 Sarah M. Harris: ...So that's why this case falls more in the BMW v -- v. Gore side of the line, where the Court nicely illustrates the distinction.",
+      "highlight_phrases": ["BMW v. Gore side of the line", "the Court nicely illustrates the distinction"],
+      "viewer_benefit": "Introduces the punitive-damages case that Harris uses to separate out-of-state conduct directed at the state from conduct the state seeks to ban nationwide.",
+      "candidate_sources": [
+        {"file": "sources/sg-brief.txt", "physical_page": 27, "verbatim": "impos[ing] economic sanctions on violators of its laws with the intent of changing the tortfeasors' lawful conduct in other States.' BMW of N. Am., Inc. v. Gore, 517 U.S. 559, 572 (1996)"}
+      ],
+      "open_questions": ["Harris's 'not a question of remedy' distinction (block 352) and Russell's 'BMW principle' (block 584) are contrasting uses; both are in the transcript."]
+    },
+    {
+      "id": "kurns-gravamen",
+      "type": "Case",
+      "priority": "medium",
+      "start_block": 167,
+      "end_block": 170,
+      "spoken": "[167] 26:31 Kannon K. Shanmugam: That is basically what we're saying. And we rely on this Court's decision in Kurns for the proposition, when you're engaging in this type of analysis, you've got to look at the gravamen of the claim.",
+      "highlight_phrases": ["rely on this Court's decision in Kurns", "look at the gravamen of the claim"],
+      "viewer_benefit": "Explains the 'gravamen' test: a court looks at the substance of a claim rather than its label, which is how Shanmugam answers Kagan's point that the suit is a tort suit with a misrepresentation label.",
+      "candidate_sources": [
+        {"file": "sources/pet-brief.txt", "physical_page": 49, "verbatim": "Because the 'gravamen' of the plaintiffs' failure-to-warn claim was still that the railroad worker 'suffered harmful consequences as a result of his exposure to asbestos contained in locomotive parts and appurtenances,' the claim was 'directed at the equipment of locomotives' and fell within the preempted field. Kurns, 565 U.S. at 635."}
+      ],
+      "open_questions": ["Kurns v. Railroad Friction Products Corp., 565 U.S. 625 (2012) is about a federal statute's preemption of asbestos failure-to-warn claims for locomotives; the card must state this accurately (fetch the opinion).", "Shanmugam also says Kurns makes the gravamen 'relevant to damages' (block 170)."]
+    },
+    {
+      "id": "isla-petroleum",
+      "type": "Case",
+      "priority": "low",
+      "start_block": 497,
+      "end_block": 500,
+      "spoken": "[498] 78:38 Kevin K. Russell: ...in the Isla Petroleum case, this Court confronted a similar situation in which a federal statute had previously preempted part of RICO's regulation of fuel prices. Congress withdrew this.",
+      "highlight_phrases": ["in the Isla Petroleum case", "whether Congress revived it"],
+      "viewer_benefit": "Introduces a case the respondents use to argue that Congress's silence does not revive preempted state law.",
+      "candidate_sources": [
+        {"file": "sources/resp-brief.txt", "physical_page": 59, "verbatim": "The Court has rejected such a rule even when federal law once occupied the field. In Puerto Rico Department of Consumer Affairs v. Isla Petroleum Corp., 485 U.S. 495 (1988)"},
+        {"file": "sources/resp-brief.txt", "physical_page": 60, "verbatim": "See Isla Petroleum, 485 U.S. at 503."}
+      ],
+      "open_questions": ["The transcript's 'RICO' description is not supported by the brief text. Fetch 485 U.S. 495 to verify the subject matter before printing it."]
+    },
+    {
+      "id": "commonwealth-edison-montana",
+      "type": "Case",
+      "priority": "medium",
+      "start_block": 504,
+      "end_block": 509,
+      "spoken": "[506] 80:05 Sonia Sotomayor: ...And this case seems no different to me from Commonwealth Edison versus Montana, where we said that a state tax on coal did not affect the Clean Air Act standards for those that burned coal, correct?",
+      "highlight_phrases": ["Commonwealth Edison versus Montana", "a state tax on coal did not affect the Clean Air Act standards"],
+      "viewer_benefit": "Introduces a precedent Sotomayor treats as directly on point: a state tax on coal was not preempted by the Clean Air Act.",
+      "candidate_sources": [
+        {"file": "sources/resp-brief.txt", "physical_page": 64, "verbatim": "in Commonwealth Edison Co. v. Montana, 453 U.S. 609 (1981), the claim that the Clean Air Act preempted a state tax on coal 'merit[ed] little discussion' because the 'Clean Air Act does not mandate the use of coal; it merely prescribes standards governing the emission of sulfur dioxide when coal is used.' Id. at 636 n.22."}
+      ],
+      "open_questions": ["Sotomayor says 'where we said'; the respondents' quote suggests the Court gave the point little discussion (fn 22). Editor should weigh that.", "Russell answers 'it is that case' (block 509)."]
+    },
+    {
+      "id": "dormant-commerce-clause-glossary",
+      "type": "Glossary",
+      "priority": "medium",
+      "start_block": 480,
+      "end_block": 482,
+      "spoken": "[480] 73:51 Kevin K. Russell: There are a number. So there's the constitutional limitations on choice of law, which require a sufficient nexus between the state whose law is to be applied and the conduct at issue. There's the Dormant Commerce Clause. There's personal jurisdiction limitations.",
+      "highlight_phrases": ["There's the Dormant Commerce Clause", "a sufficient nexus between the state whose law is to be applied and the conduct at issue"],
+      "viewer_benefit": "Defines the dormant Commerce Clause, one of the constitutional limits Russell says remain available to defendants.",
+      "candidate_sources": [
+        {"file": "sources/reply.txt", "physical_page": 19, "verbatim": "The dormant Commerce Clause is related to, yet distinct from, 'the territorial limits of state authority under the Constitution's horizontal separation of powers.' National Pork Producers, 598 U.S. at 375 n.1."}
+      ],
+      "open_questions": ["The reply's description is a party's gloss; a neutral definition should come from a standard source."]
+    },
+    {
+      "id": "virginia-uranium",
+      "type": "Case",
+      "priority": "medium",
+      "start_block": 631,
+      "end_block": 634,
+      "spoken": "[632] 97:26 Kevin K. Russell: It does not regulate everything that has an indirect effect on emissions. It doesn't regulate the severance -- coal severance tax. It doesn't regulate gas taxes that affected levels of emissions. Virginia Uranium tells us that.",
+      "highlight_phrases": ["Virginia Uranium tells us that", "does not regulate everything that has an indirect effect on emissions"],
+      "viewer_benefit": "Introduces the case the respondents rely on for the idea that a federal regulatory statute does not automatically displace state measures that only indirectly affect the regulated subject.",
+      "candidate_sources": [
+        {"file": "sources/bio.txt", "physical_page": 35, "verbatim": "But this Court considered and rejected a similar argument in Virginia Uranium, Inc. v. Warren, 587 U.S. 761 (2019)."},
+        {"file": "sources/resp-brief.txt", "verbatim": "federal law pervasively regulated 'the milling, transfer, use and disposal of uranium.' 587 U.S. at 765 (lead opinion)."}
+      ],
+      "open_questions": ["Holding not in the file set; fetch 587 U.S. 761 and identify the lead opinion and its reasoning before writing a Case card.", "Russell repeats it at block 637 (99:08) ('That's the lesson from Virginia Uranium')."]
+    },
+    {
+      "id": "complaint-paragraph-411",
+      "type": "Record",
+      "priority": "high",
+      "start_block": 161,
+      "end_block": 165,
+      "spoken": "[161] 25:07 Elena Kagan: I'm waiting to see the distinction, because this complaint talks a lot about misrepresentations that are made by the -- the defendants. [163] 25:32 Kannon K. Shanmugam: ...take a look, for instance, at paragraph 411 of the complaint at page 105.",
+      "highlight_phrases": ["this complaint talks a lot about misrepresentations", "paragraph 411 of the complaint at page 105"],
+      "viewer_benefit": "Shows the complaint paragraph the petitioners say is not a conventional misrepresentation claim, so the viewer can judge the 'tobacco-style' comparison Kagan draws.",
+      "candidate_sources": [
+        {"file": "sources/ja.txt", "physical_page": 107, "verbatim": "411. Defendants' concealment and misrepresentation substantially contributed to the unchecked growth in fossil fuel use, GHG emissions, and the atmospheric concentration of GHGs at levels that they knew would cause alterations in the climate. Defendants acted in groups that concealed and misrepresented the dangers of fossil fuel use."}
+      ],
+      "open_questions": ["Printed complaint page 105 per the argument; the ¶411 text is on physical JA page 107 (the page-105 footer falls in the same region). Confirm.", "Kagan's tobacco comparison (blocks 156-157, 23:57-24:23: '1990s tobacco suits ... opioid litigation') is the context; the tobacco and opioid cases are not in the file set beyond the trial court's opioid citation (pet-app physical page 126)."]
+    },
+    {
+      "id": "complaint-claims-colorado-law",
+      "type": "Record",
+      "priority": "medium",
+      "start_block": 559,
+      "end_block": 562,
+      "spoken": "[560] 88:17 Kevin K. Russell: ...my friends have insisted that we've only pled Colorado law. I urge you to look at the complaint. It doesn't identify a state source of law. We certainly didn't stake our case on it.",
+      "highlight_phrases": ["It doesn't identify a state source of law", "we've only pled Colorado law"],
+      "viewer_benefit": "Lists the six claims in Boulder's complaint, so the viewer can test Russell's claim that the complaint does not name a source state's law.",
+      "candidate_sources": [
+        {"file": "sources/ja.txt", "physical_page": 114, "verbatim": "IV. PLAINTIFFS' CLAIMS FIRST CAUSE OF ACTION (Public Nuisance) 444."},
+        {"file": "sources/ja.txt", "physical_page": 126, "verbatim": "FIFTH CAUSE OF ACTION (Violation Of The Colorado Consumer Protection Act, Colo. Rev. Stat. § 6-1-105(1..."},
+        {"file": "sources/pet-app.txt", "physical_page": 5, "verbatim": "¶4 Based on these factual allegations, Boulder asserts, as pertinent here, causes of action for public nuisance, private nuisance, trespass, unjust enrichment, and civil conspiracy."}
+      ],
+      "open_questions": ["Physical JA pages for causes two to four: private nuisance (phys 119), trespass (phys 122), unjust enrichment (phys 124), civil conspiracy (phys 129).", "Whether the complaint names a source state's law was not checked beyond these headings; the editor should verify the statement by reading the complaint."]
+    },
+    {
+      "id": "commerce-city-refinery-record",
+      "type": "Record",
+      "priority": "medium",
+      "start_block": 451,
+      "end_block": 455,
+      "spoken": "[451] 68:22 Ketanji Brown Jackson: Colorado does have some refiners, though. Are they not contributors in this way?",
+      "highlight_phrases": ["Colorado does have some refiners", "Are they not contributors in this way"],
+      "viewer_benefit": "Shows the complaint's allegation about the Commerce City refinery, which is the basis for Jackson's question about whether Colorado is a source state.",
+      "candidate_sources": [
+        {"file": "sources/ja.txt", "physical_page": 19, "verbatim": "57. Defendant Suncor USA, a subsidiary of Suncor Energy, operates a refinery in Commerce City, Colorado that produces 98,000 barrels per day of gasoline and diesel fuel. The Commerce City refinery processes Canadian tar sands crude from Suncor Energy's mining operations in Canada and products from fractured oil and gas production in Colorado."}
+      ],
+      "open_questions": ["Physical page 17 has a quote from a Suncor annual report describing refineries in Edmonton and Commerce City; paragraph number not verified."]
+    },
+    {
+      "id": "trial-court-causation-ruling",
+      "type": "Excerpt",
+      "priority": "high",
+      "start_block": 313,
+      "end_block": 316,
+      "spoken": "[313] 49:44 Kannon K. Shanmugam: ...I would point the Court to page 124A of the petition appendix, where the court said, and I'm quoting, that 'in a multiple contributor tort case, there is no need to tie specific injuries to the actions of defendants.' [315] 50:14 Ketanji Brown Jackson: Did you appeal that causation ruling?",
+      "highlight_phrases": ["in a multiple contributor tort case, there is no need to tie specific injuries to the actions of defendants", "Did you appeal that causation ruling"],
+      "viewer_benefit": "Shows the trial court's causation language Shanmugam quotes, and Jackson's objection that the causation ruling was not appealed.",
+      "candidate_sources": [
+        {"file": "sources/pet-app.txt", "physical_page": 126, "verbatim": "Rather, in a multiple contributor tort case, there is no need to tie specific injuries to the actions of defendants. See Rutherford v. Owens-Illinois, Inc., 941 P.2d 1203, 1219 (Cal. 1997)"}
+      ],
+      "open_questions": ["Shanmugam says printed page 124a; the text is at physical page 126 of pet-app.txt. Confirm the printed label.", "This is the district court's May 19, 2022 opinion (Appendix B begins at 48a)."]
+    },
+    {
+      "id": "procedural-history-timeline",
+      "type": "Timeline",
+      "priority": "high",
+      "start_block": 282,
+      "end_block": 287,
+      "spoken": "[283] 45:19 Ketanji Brown Jackson: So let me ask you, for example, do we have a state court determination regarding the choice of law here in this context?",
+      "highlight_phrases": ["do we have a state court determination regarding the choice of law", "we think about exercising jurisdiction", "why shouldn't we wait and hear all of these claims"],
+      "viewer_benefit": "Lays out how the case got here (state filing, removal fight, state-court rulings, cert grant), so the viewer can see why Justice Jackson thinks the case is early.",
+      "candidate_sources": [
+        {"file": "sources/pet-app.txt", "physical_page": 52, "verbatim": "The Local Governments commenced this action in April 2018. In June 2018, the Energy Companies filed a Notice of Removal in the U.S. District Court of Colorado"},
+        {"file": "sources/pet-app.txt", "physical_page": 7, "verbatim": "¶12 After substantial litigation in the Tenth Circuit and two certiorari petitions in the United States Supreme Court, the Tenth Circuit ultimately affirmed the federal district court's remand order, and this case resumed in the Boulder County District Court."},
+        {"file": "sources/docket.json", "verbatim": "Aug 08 2025: Petition for a writ of certiorari filed. | Feb 23 2026: Petition GRANTED ... | May 14 2026: Brief of petitioners filed | Jul 27 2026: Brief of respondents filed | Oct 05 2026: Argued."},
+        {"file": "sources/pet-app.txt", "physical_page": 4, "verbatim": "¶2 We now conclude that Boulder's claims are not preempted by federal law"}
+      ],
+      "open_questions": ["Colorado Supreme Court opinion date May 12, 2025 (pet-app TOC and docket). District court opinion May 19, 2022 (TOC). Stay of mandate May 27, 2025 (TOC).", "Jackson's pending federal defenses (personal jurisdiction, block 287-295) are in the state court; the editor may want that as a line on the timeline.", "The Tenth Circuit cite is 25 F.4th 1238 (10th Cir. 2022), per pet-app ¶12."]
+    },
+    {
+      "id": "respondent-named-in-state-proceeding",
+      "type": "Comparison",
+      "priority": "medium",
+      "start_block": 648,
+      "end_block": 651,
+      "spoken": "[648] 101:26 Kevin K. Russell: ...the thing that has been -- that has made every case that this Court has decided under that line of precedent a separate lawsuit was that it had a separate defendant, which was the trial court. [649] 101:43 And that is not the case in this -- this case. They ... named the Boulder defendants, not the Court.",
+      "highlight_phrases": ["it had a separate defendant, which was the trial court", "they named the Boulder defendants, not the Court"],
+      "viewer_benefit": "Shows the argument that, unlike Atlantic Richfield, the Colorado proceeding named the Boulder plaintiffs rather than the trial court as the respondent.",
+      "candidate_sources": [
+        {"file": "sources/ja.txt", "physical_page": 143, "verbatim": "Therefore, the Board of County Commissioners of Boulder County, the City of Boulder, and the district court are directed to answer in writing"},
+        {"file": "sources/pet-app.txt", "physical_page": 9, "verbatim": "Defendants then petitioned this court for an order to show cause under C.A.R. 21, and we issued an order to show cause."}
+      ],
+      "open_questions": ["Harris (block 339) says the trial court was directed to be a respondent at 'JA 141'; the order is at physical JA 143. Russell says the petition at page 5 named the Boulder defendants; not verified.", "Russell's point is about the Atlantic Richfield line of cases; the editor may combine with atlantic-richfield-case."]
+    },
+    {
+      "id": "tobacco-opioid-analogy",
+      "type": "Comparison",
+      "priority": "low",
+      "start_block": 156,
+      "end_block": 160,
+      "spoken": "[156] 23:57 Elena Kagan: ...this suit appears to be based on the old 1990s tobacco suits that were brought by states and local governments ... I suppose the opioid litigation more recently follows the same model. [157] 24:23 Elena Kagan: This is chapter 3. So, if this is chapter 3, were chapters 1 and 2 also preempted?",
+      "highlight_phrases": ["the old 1990s tobacco suits", "This is chapter 3", "were chapters 1 and 2 also preempted"],
+      "viewer_benefit": "Compares this suit to the tobacco and opioid suits, which many viewers will know, and shows why Kagan asks whether those suits would also be preempted.",
+      "candidate_sources": [
+        {"file": "sources/pet-app.txt", "physical_page": 126, "verbatim": "In re National Prescription Opiate Litigation, 2019 WL 4178617, at *4 (N.D. Ohio Sept. 4, 2019)"}
+      ],
+      "open_questions": ["Tobacco litigation cases are not in the file set; the editor should decide whether a Comparison card is needed or a plain-language note suffices.", "Shanmugam's answer (block 158-160) is that tobacco is a traditional misrepresentation claim with consumer reliance."]
+    }
+  ],
+  "passing_mentions": [
+    "NCAA v. Murphy (block 19, 4:25): cited for the idea that losing a preemption defense is losing the right to be free from state regulation; used as support for Article III injury (see article-iii-injury-spending-money).",
+    "Fort Wayne Books, Inc. v. Indiana, 489 U.S. 46 (1989) (block 146, 21:57-22:13): named by Shanmugam and distinguished by Sotomayor; covered inside cox-fourth-category.",
+    "Erie R. Co. v. Tompkins (blocks 426 at 64:57 and 549 at 86:31): referenced as 'after Erie' and 'pre-Erie' without explanation.",
+    "Illinois v. City of Milwaukee II / City of Milwaukee v. Illinois, 451 U.S. 304 (1981) (blocks 193 at 30:48, 491 at 75:54): covered by milwaukee-i-ii-four-precedents.",
+    "Franchise Tax Board v. Hyatt (block 551 at 87:05, Russell's 'Hyatt III' reference): covered by franchise-tax-hyatt-case.",
+    "Renewable fuel program (blocks 391-395, 59:15-59:55): Harris and Gorsuch discuss the renewable fuel mandate as Clean Air Act GHG regulation; no case cite; statute not verified.",
+    "Section 1292 (block 153, 23:21): Rule 4.2 compared to the federal interlocutory-appeal statute (28 U.S.C. 1292); covered by colorado-rule-21-vs-4.2.",
+    "EME Homer (block 216, 34:08): Kavanaugh names EPA v. EME Homer City as setting the good-neighbor provision; covered by clean-air-act-state-federal-roles.",
+    "Cross-state air pollution rule (block 216, 34:08): regulatory reference, no citation given.",
+    "Justice Marshall and Justice Story (block 110, 15:59): cited by Shanmugam for the origin of the extraterritoriality principle; no citation given.",
+    "Amicus briefs of Professor Prakash and Tennessee (block 111, 16:06): amici, not precedents.",
+    "Hyatt-style 'equal dignity' and Bonaparte (not in transcript): no action."
+  ]
+}

@@ -1,0 +1,1560 @@
+{
+  "candidates": [
+    {
+      "id": "preiser_rodriguez_hansford",
+      "blocks": [
+        4,
+        4
+      ],
+      "time": "0:26",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "Preiser against Rodriguez",
+      "kind": "case",
+      "identification": "Preiser v. Rodriguez, 411 U.S. 475 (1973). Holding (sources/cap-411-475.txt): state prisoners who sought restoration of good-conduct credits that would bring immediate release (on parole) must proceed in habeas, not under 42 U.S.C. 1983. Preiser concerned state prisoners and parole-release, not transfer to a halfway house or home confinement.",
+      "where_in_sources": "sources/cap-411-475.txt (holding); sources/pet-brief.txt printed p.16 (physical p.28) cites 411 U.S. at 484 for Preiser's habeas rule.",
+      "why_viewer_needs_it": "The viewer needs one line on what Preiser decided, because both sides rest their rule on it.",
+      "caution": "Hansford says Preiser 'held that claims seeking release from prison to parole must be brought in habeas' and that this case is 'materially indistinguishable'. Whether Preiser covers prerelease custody is the central disputed point (Barber, blocks 81-95; the amicus contests the analogy). A card should state the holding, not the 'indistinguishable' conclusion.",
+      "uncertain": false
+    },
+    {
+      "id": "stat_2241c3_quote_hansford",
+      "blocks": [
+        4,
+        4
+      ],
+      "time": "0:26",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "in custody in violation of the laws of the United States",
+      "kind": "statute",
+      "identification": "28 U.S.C. 2241(c)(3). Statute text (sources/usc-28-2241.txt, line 15): 'He is in custody in violation of the Constitution or laws or treaties of the United States.' The phrase spoken at block 4 is not verbatim.",
+      "where_in_sources": "sources/usc-28-2241.txt line 15; sources/pet-brief.txt TOA cites 28 U.S.C. 2241(c)(3).",
+      "why_viewer_needs_it": "The 'in custody' language is the jurisdictional hook the petitioner invokes; the viewer needs the actual words.",
+      "caution": "The spoken words omit 'Constitution' and 'treaties'. A card should quote the statute as printed, not the speaker's version.",
+      "uncertain": false
+    },
+    {
+      "id": "stat_2241_scope_barber",
+      "blocks": [
+        104,
+        104
+      ],
+      "time": "20:41",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "The habeas statute, 2241, doesn't tell you",
+      "kind": "statute",
+      "identification": "28 U.S.C. 2241 (the general habeas grant). Barber's point is that 2241 says nothing about which claims belong in habeas; scope comes from history and tradition.",
+      "where_in_sources": "sources/usc-28-2241.txt; sources/us-brief.txt and amicus-brief.txt discuss tradition and scope.",
+      "why_viewer_needs_it": "Shows the reader that the dispute is about what 2241's 'custody' covers, not whether 2241 exists.",
+      "caution": "Barber's 'tradition' test is the amicus's framing; the petitioner argues the statute's text and Preiser cover the claim. Do not present the tradition test as settled.",
+      "uncertain": false
+    },
+    {
+      "id": "stat_3621b_judicial_review_bar",
+      "blocks": [
+        11,
+        11
+      ],
+      "time": "2:32",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "not reviewable in any court",
+      "kind": "statute",
+      "identification": "18 U.S.C. 3621(b), final sentence (added by First Step Act 601(2)): 'Notwithstanding any other provision of law, a designation of a place of imprisonment under this subsection is not reviewable by any court.' Source text: sources/usc-18-3621.txt; quoted in sources/us-brief.txt lines 682-696 (statutory background).",
+      "where_in_sources": "sources/usc-18-3621.txt; sources/us-brief.txt lines 682-696 (statutory background) and line 1655 (physical p.49, printed p.38).",
+      "why_viewer_needs_it": "The judicial-review bar is the threshold ground the government raises and the reason for the requested DIG; the viewer needs the exact sentence.",
+      "caution": "Hansford says 'not reviewable in any court'; the statute says 'by any court'. Whether the bar reaches 3624(g) transfers, or only BOP's designation of a facility 'under this subsection', is the disputed question (Hansford blocks 11-15; Barber blocks 84, 124-135). Quote the sentence; do not state its scope.",
+      "uncertain": false
+    },
+    {
+      "id": "stat_3632d4c_called_3634",
+      "blocks": [
+        12,
+        12
+      ],
+      "time": "2:58",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "3634(d)(4)",
+      "kind": "statute",
+      "identification": "Most likely 18 U.S.C. 3632(d)(4)(C): time credits 'shall be applied toward time in prerelease custody or supervised release', and the BOP 'shall transfer eligible prisoners' (sources/usc-18-3632.txt line 48). The transcript says '3634(d)(4)'. The petitioner's brief cites 3632(d)(4)(C) (pet-brief TOA); the Court's grant order cites 18 U.S.C. 3631-3635 generally; no brief cites 3634 in the sources.",
+      "where_in_sources": "sources/usc-18-3632.txt line 48; sources/pet-brief.txt TOA (3632(d)(4)(C), printed p.9); sources/qp.txt; sources/docket.json (grant entry).",
+      "why_viewer_needs_it": "The viewer may hear the section number and look it up; the number needs to be right on screen.",
+      "caution": "Likely a transcription slip for 3632. Confirm against the audio before carding any section number.",
+      "uncertain": true
+    },
+    {
+      "id": "stat_3624g2_g4_structure",
+      "blocks": [
+        13,
+        13
+      ],
+      "time": "3:16",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "3624(g)(2) and 3624(g)(4)",
+      "kind": "statute",
+      "identification": "18 U.S.C. 3624(g)(2) (types of prerelease custody: (A) home confinement, with 24-hour electronic monitoring and a 85 percent minimum term, and (B) residential reentry center) and 3624(g)(4) (BOP to impose 'increasingly less restrictive conditions' on prisoners 'placed in prerelease custody pursuant to this subsection'). Text: sources/usc-18-3624.txt lines 52-70.",
+      "where_in_sources": "sources/usc-18-3624.txt lines 41-70; sources/us-brief.txt appendix pp. 9a-13a.",
+      "why_viewer_needs_it": "The petitioner's argument that prerelease custody is a separate statutory status rests on how (g) is organized.",
+      "caution": "Quote the subsections; the question whether (g) creates 'a different authority' that displaces 3621(b) is contested (government reply, us-reply.txt printed p.19, cites 3624(c)(6)(A) to say it does not).",
+      "uncertain": false
+    },
+    {
+      "id": "stat_3624c6_regulations",
+      "blocks": [
+        14,
+        14
+      ],
+      "time": "3:42",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "pursuant to 3624(c)(6)",
+      "kind": "statute",
+      "identification": "18 U.S.C. 3624(c)(6)(A)-(C): BOP must issue regulations ensuring placement in a community correctional facility is '(A) conducted in a manner consistent with section 3621(b)', '(B) determined on an individual basis', and '(C) of sufficient duration...'. Text: sources/usc-18-3624.txt lines 22-25.",
+      "where_in_sources": "sources/usc-18-3624.txt lines 22-25; sources/us-reply.txt printed p.19 (lines 781-783) quotes (c)(6)(A).",
+      "why_viewer_needs_it": "Hansford says the regulations that link 3624 to 3621(b) are unclear; the viewer should see what the subsection literally says.",
+      "caution": "Hansford calls it 'not clear'; the government relies on (c)(6)(A) to tie 3624 to 3621(b). Quote the text only.",
+      "uncertain": false
+    },
+    {
+      "id": "record_halfway_house_A_B",
+      "blocks": [
+        14,
+        14
+      ],
+      "time": "3:42",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "Halfway House A or B",
+      "kind": "record",
+      "identification": "Not located. The labels 'Halfway House A' and 'Halfway House B' do not appear in sources/ja.txt or the briefs. The only named halfway-house option in the record is the 'Houston RRC' (sources/ja.txt line 378, JA page 10, Ground Four of the habeas petition).",
+      "where_in_sources": "sources/ja.txt line 378 (JA 10, 'Houston RRC'); sources/ja.txt lines 376-392 (JA 10-11).",
+      "why_viewer_needs_it": "The viewer may assume these are two real facilities; they may be placeholders.",
+      "caution": "Do not card 'Halfway House A/B' as record facts until the speaker's referent is confirmed. The JA only names the Houston RRC.",
+      "uncertain": true
+    },
+    {
+      "id": "case_chafin_mootness",
+      "blocks": [
+        18,
+        18
+      ],
+      "time": "5:20",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "Chafin versus Chafin",
+      "kind": "case",
+      "identification": "Chafin v. Chafin, 568 U.S. 165 (2013) (text: sources/cap-568-165.txt). The petitioner's reply cites 568 U.S. at 174 (sources/pet-reply.txt printed p.22, physical p.26) for the point that a dispute over the merits is not a mootness question.",
+      "where_in_sources": "sources/cap-568-165.txt; sources/pet-reply.txt printed p.22 (physical p.26, line 900).",
+      "why_viewer_needs_it": "Mootness is raised in this argument, and Chafin is the standard both sides use.",
+      "caution": "Hansford's 'not in a substantial argument' is not Chafin's wording as far as I can find in sources/cap-568-165.txt. The opinion says confusing mootness with the merits is an error (cap-568 text). Card the holding, not her paraphrase.",
+      "uncertain": false
+    },
+    {
+      "id": "fact_supervised_release_theory",
+      "blocks": [
+        17,
+        18
+      ],
+      "time": "4:47",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "it can be used to reduce the term of supervised release",
+      "kind": "fact",
+      "identification": "Petitioner's theory that restored time credits can shorten supervised release, relying on Gonzalez v. Herrera, 151 F.4th 1076, 1079-1080 (9th Cir. 2025) (not named by the speaker). The circuit conflict and the pending cert petition are Rivera-Perez v. Flowers, No. 26-396 (cert petition filed Sept. 17, 2026, per the petitioner's reply; the speaker does not name it at block 18). Statutory counterpoints in the sources: 3624(g)(3) (early start to supervised release, up to 12 months, not a shortened term; sources/usc-18-3624.txt line 69) and 3583(e) (sentencing court modifies supervised release).",
+      "where_in_sources": "sources/pet-reply.txt printed p.21-22 (physical p.25, lines 886-895); sources/usc-18-3624.txt line 69.",
+      "why_viewer_needs_it": "A viewer will not know why the mootness question depends on supervised release.",
+      "caution": "Contested: Hansford says the question is not a merits test for mootness; Barber (blocks 192-194) says the argument 'lacks all merit'. Describe it as a disputed theory, not as settled.",
+      "uncertain": true
+    },
+    {
+      "id": "term_good_time_credits",
+      "blocks": [
+        17,
+        17
+      ],
+      "time": "4:47",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "good-time credits",
+      "kind": "term",
+      "identification": "The speakers use 'good-time credits' for the First Step Act earned time credits in 18 U.S.C. 3632(d)(4). Good-conduct credit is a different statutory credit, 18 U.S.C. 3624(b) (up to 54 days per year; sources/usc-18-3624.txt). In Preiser the 'good-time' credits were state-law good-conduct credits (sources/cap-411-475.txt).",
+      "where_in_sources": "sources/usc-18-3624.txt (b)(1); sources/usc-18-3632.txt; sources/cap-411-475.txt.",
+      "why_viewer_needs_it": "The transcript uses 'good-time credits' for several different things; the viewer may conflate them.",
+      "caution": "Editor decision: a card that defines 'good-time credits' must say which credit is meant. The transcript uses the term for FSA time credits (blocks 17, 42-43, 47).",
+      "uncertain": true
+    },
+    {
+      "id": "fact_imminent_release_claim",
+      "blocks": [
+        42,
+        42
+      ],
+      "time": "10:29",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "it's imminently going to release him to prerelease custody",
+      "kind": "fact",
+      "identification": "The government's brief says BOP's FSA Time Credit Assessment of July 25, 2026 shows 1,275 days of time credits and a 'projected, contingent on his good behavior, [eligibility] for transfer to a halfway house on January 22, 2027' (sources/us-brief.txt printed p.15, physical p.26, lines 827-834). That is an eligibility date for transfer, not an imminent release.",
+      "where_in_sources": "sources/us-brief.txt printed p.15 (physical p.26, lines 827-834).",
+      "why_viewer_needs_it": "The 'imminent release' claim matters for mootness; the viewer needs the actual date and what it means.",
+      "caution": "Hansford's 'imminently going to release him' is her characterization. The government's own brief says eligibility for transfer on Jan 22, 2027. The petitioner's reply says release dates have been notified and withdrawn more than once (pet-reply printed p.21, physical p.25).",
+      "uncertain": true
+    },
+    {
+      "id": "fact_pro_se_relief_sought",
+      "blocks": [
+        40,
+        40
+      ],
+      "time": "10:14",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "he is asking to be sent to prerelease custody",
+      "kind": "fact",
+      "identification": "The relief sought, as stated in the Question Presented (sources/qp.txt): 'accelerated transfer to a halfway house or home confinement'. The Fifth Circuit describes the relief as 'transfer to a halfway house or home confinement' (sources/pet-app.txt physical p.6). The petitioner was pro se below (sources/pet-app.txt cover).",
+      "where_in_sources": "sources/qp.txt; sources/pet-app.txt physical p.6 (Ap.1.2) and cover page.",
+      "why_viewer_needs_it": "Justice Thomas's question at block 39 asks whether the petitioner wants transfer or only a declaration. The answer defines what is before the Court.",
+      "caution": "The answer is the petitioner's counsel's reading of a pro se filing.",
+      "uncertain": false
+    },
+    {
+      "id": "stat_3624g1_four_requirements",
+      "blocks": [
+        45,
+        45
+      ],
+      "time": "11:15",
+      "speaker": "Justice Gorsuch",
+      "exact_words": "four requirements",
+      "kind": "statute",
+      "identification": "18 U.S.C. 3624(g)(1)(A)-(D) (eligibility for prerelease custody or supervised release under the FSA system): (A) time credits earned equal to the remainder of the sentence; (B) demonstrated recidivism-risk reduction or minimum/low risk; (C) sentence computed; (D)(i) for prerelease custody, either (I) minimum or low risk to recidivate on the last 2 reassessments, or (II) warden-approved petition with findings. Text: sources/usc-18-3624.txt lines 41-51. Hansford's 'lowest recidivism rating' (block 42) corresponds to (D)(i)(I).",
+      "where_in_sources": "sources/usc-18-3624.txt lines 41-51; sources/us-brief.txt printed p.9a-10a (appendix).",
+      "why_viewer_needs_it": "A viewer will hear 'four requirements' without the list; the list is short and checkable.",
+      "caution": "Gorsuch attributes the 'four requirements' point to 'Justice Alito', but no Alito remark on 3624(g) appears in the transcript; blocks 157-159 are unattributed. Attribution is uncertain.",
+      "uncertain": true
+    },
+    {
+      "id": "timeline_case_history",
+      "blocks": [
+        5,
+        5
+      ],
+      "time": "0:55",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "The Fifth Circuit dismissed Mr. Maxwell's case",
+      "kind": "timeline",
+      "identification": "Case history: petition filed Feb. 7, 2022 (E.D. Tex. No. 1:22-cv-40; JA 1); magistrate judge's R&R Feb. 13, 2023 (JA 18); district court dismissed Oct. 6, 2023 for failure to exhaust FSA claims (JA 28); Fifth Circuit per curiam Apr. 3, 2025, No. 23-40699 (JA 34), affirming on the vehicle ground without reaching exhaustion; rehearing denied June 23, 2025 (JA 37); cert petition filed Aug. 20, 2025; cert granted June 1, 2026, limited to the habeas question (docket); amicus invited June 16, 2026; respondent substituted July 28, 2026 (Albert Thomas III to Sandra Dinis); argued Nov. 2, 2026.",
+      "where_in_sources": "sources/ja.txt TOC (lines 46-70); sources/docket.json; sources/qp.txt; sources/pet-app.txt physical p.5-6.",
+      "why_viewer_needs_it": "The viewer needs the procedural path to see why exhaustion, vehicle and mootness are all in play.",
+      "caution": "Date conflict: sources/petition.txt line 296 gives the Fifth Circuit's sua sponte dismissal as April 13, 2025; the JA TOC and docket give April 3, 2025. Use the JA/docket date and flag the conflict. Also: the Fifth Circuit rule is 'would automatically entitle him to accelerated release', not 'complete release' (see melot candidate).",
+      "uncertain": false
+    },
+    {
+      "id": "case_melot_fifth_circuit_rule",
+      "blocks": [
+        5,
+        5
+      ],
+      "time": "0:55",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "habeas is only available where a prisoner seeks complete release",
+      "kind": "case",
+      "identification": "Melot v. Bergami, 970 F.3d 596, 599 (5th Cir. 2020) (cited by the Fifth Circuit as the 'bright-line rule': if a favorable determination 'would not automatically entitle him to accelerated release', the proper vehicle is a civil rights suit). Applied in the Maxwell opinion (sources/pet-app.txt physical p.6, lines 138-146; QP cites 'Melot v. Bergomi', a spelling error).",
+      "where_in_sources": "sources/pet-app.txt physical p.6 (lines 138-146); sources/qp.txt; sources/pet-brief.txt TOA and body (cites Melot at 596, 599).",
+      "why_viewer_needs_it": "This is the rule the Court is reviewing; the viewer needs its wording.",
+      "caution": "'Complete release' is Hansford's paraphrase. The Fifth Circuit's phrase is 'automatically entitle him to accelerated release'. Quote the opinion, not the paraphrase.",
+      "uncertain": false
+    },
+    {
+      "id": "fact_fifth_circuit_sua_sponte",
+      "blocks": [
+        21,
+        21
+      ],
+      "time": "5:45",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "sua sponte dismissed the case",
+      "kind": "fact",
+      "identification": "The Fifth Circuit ruled on the habeas-vehicle question without reaching exhaustion. Its opinion says: 'we need not address whether Maxwell sufficiently exhausted his administrative remedies because, even if he did, § 2241 is not the proper vehicle' (sources/pet-app.txt physical p.6, lines 143-146). QP describes the holding as 'Sua sponte' (sources/qp.txt).",
+      "where_in_sources": "sources/pet-app.txt physical p.6 (lines 143-146); sources/qp.txt line 16.",
+      "why_viewer_needs_it": "Explains why the exhaustion question is not before the Court and was not decided below.",
+      "caution": "The speaker says 'sua sponte dismissed'. The opinion frames it as an alternative to exhaustion. The petition's April 13 date conflicts with the JA/docket date (see timeline).",
+      "uncertain": false
+    },
+    {
+      "id": "fact_exhaustion_three_grounds",
+      "blocks": [
+        22,
+        26
+      ],
+      "time": "6:05",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "three reasons",
+      "kind": "fact",
+      "identification": "Petitioner's three exhaustion arguments for remand: (1) he cited the First Step Act in grievance materials (JA 17); (2) futility, because the BOP's regulation reflects the calculation he challenges; (3) obstruction of the grievance process, with a Perttu jury-trial argument. The district court and the government contend he never exhausted FSA claims (sources/pet-app.txt physical p.9-11; JA 28 et seq.).",
+      "where_in_sources": "sources/pet-app.txt physical p.9-11 (lines 252, 387-400); sources/ja.txt JA 28 et seq.; sources/bio.txt (government's view on Perttu, physical p.13).",
+      "why_viewer_needs_it": "The viewer hears three arguments quickly and needs them listed.",
+      "caution": "These are the petitioner's arguments for remand. The government's position is that exhaustion is not established (bio.txt; pet-app). Do not present them as findings.",
+      "uncertain": false
+    },
+    {
+      "id": "record_JA17_first_step_act_grievance",
+      "blocks": [
+        23,
+        23
+      ],
+      "time": "6:11",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "Joint Appendix 17",
+      "kind": "record",
+      "identification": "JA 17 is a page of the BP-11 central-office appeal (Remedy ID 1048383-R1, dated Jan. 15, 2021), which asks for relief under '18 U.S.C. § 3621; § 3624; ... the First Step Act of 2018' (sources/ja.txt lines 575-611, JA pages 15-18 as printed in the JA TOC).",
+      "where_in_sources": "sources/ja.txt lines 575-611 (JA 17); JA TOC (lines 46-70).",
+      "why_viewer_needs_it": "This is the record cite for the petitioner's point that the FSA was raised in the grievance process.",
+      "caution": "The BP-11 is an excerpt of an attachment to the government's motion to dismiss (JA 15, D. Ct. Doc. 8-1). Whether this grievance exhausted the FSA claim is what the lower courts disputed (JA 28 et seq.).",
+      "uncertain": false
+    },
+    {
+      "id": "statute_BOP_regulation_FSA_credits",
+      "blocks": [
+        24,
+        24
+      ],
+      "time": "6:21",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "BOP's regulations",
+      "kind": "statute",
+      "identification": "The regulation the petitioner challenges is most likely 28 C.F.R. 523.42 ('Earning First Step Time Credits'), which the petition cites (sources/petition.txt line 890; sources/pet-app.txt index, Ap.3.17). The speaker does not give a section number.",
+      "where_in_sources": "sources/petition.txt line 890 (28 C.F.R. 523.42); sources/pet-app.txt line 56 (Ap.3.17).",
+      "why_viewer_needs_it": "The viewer needs to know which BOP rule is being attacked when the futility argument is made.",
+      "caution": "The identification is an inference from the petition and appendix index; the speaker does not name it. Mark as inferred until the reg text is checked.",
+      "uncertain": true
+    },
+    {
+      "id": "case_perttu_jury_trial",
+      "blocks": [
+        25,
+        25
+      ],
+      "time": "6:38",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "Perttu",
+      "kind": "case",
+      "identification": "Perttu v. Richards, 605 U.S. 460 (2025). Question presented, per the preliminary print (sources/perttu.txt): 'whether a party has a right to a jury trial on PLRA exhaustion when that dispute is intertwined with the merits of the underlying suit.' Cited in the Question Presented II (sources/qp.txt).",
+      "where_in_sources": "sources/perttu.txt (question presented); sources/qp.txt (QP II); sources/bio.txt printed p.11 (physical p.13, government says Perttu is 'irrelevant').",
+      "why_viewer_needs_it": "Viewer needs one line on what Perttu asks; the speaker treats it as a remand issue.",
+      "caution": "QP II is not among the questions granted (docket, June 1, 2026 grant limited to the habeas question). The government says Perttu does not apply to habeas (bio.txt). Do not suggest the jury-trial issue is before the Court.",
+      "uncertain": false
+    },
+    {
+      "id": "case_bivens_vehicle",
+      "blocks": [
+        30,
+        30
+      ],
+      "time": "7:32",
+      "speaker": "Justice Jackson",
+      "exact_words": "a Bivens claim",
+      "kind": "case",
+      "identification": "Bivens v. Six Unknown Named Agents of Fed. Bureau of Narcotics, 403 U.S. 388 (1971) (sources/cap-403-388.txt). The Fifth Circuit calls a civil-rights suit under Bivens the 'proper vehicle to attack unconstitutional conditions of confinement and prison procedures' (sources/pet-app.txt physical p.5, quoting Melot).",
+      "where_in_sources": "sources/cap-403-388.txt; sources/pet-app.txt physical p.5 (Ap.1.1).",
+      "why_viewer_needs_it": "The question is whether the claim goes to habeas or must be brought as a Bivens claim.",
+      "caution": "The government says there is 'certainly no Bivens claim' (block 216); the amicus and petitioner disagree on whether a damages remedy exists. Do not state that Bivens is available.",
+      "uncertain": false
+    },
+    {
+      "id": "fact_not_litigated_below",
+      "blocks": [
+        27,
+        28
+      ],
+      "time": "6:53",
+      "speaker": "Justice Jackson",
+      "exact_words": "they weren't really litigated below",
+      "kind": "fact",
+      "identification": "Justice Jackson's premise is that the 3621(b) and exhaustion issues were not litigated in the court of appeals. The record shows exhaustion was decided by the district court (JA 28 et seq.; pet-app). Whether 3621(b) was raised in the district court is contested: Barber says it was (block 222).",
+      "where_in_sources": "sources/ja.txt JA 28 et seq.; sources/pet-app.txt physical p.6 (Fifth Circuit did not reach exhaustion).",
+      "why_viewer_needs_it": "A viewer needs to know which issues the courts below actually decided.",
+      "caution": "The 3621(b) point: Barber says 'We did, in fact, raise it in this case in the district court' (block 222); the sources I checked do not confirm that. Flag and do not card as fact.",
+      "uncertain": true
+    },
+    {
+      "id": "fact_puerto_rico_transfers",
+      "blocks": [
+        37,
+        37
+      ],
+      "time": "9:25",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "transfer by Puerto Rico",
+      "kind": "fact",
+      "identification": "Hansford refers to 'other cases ... we cited in the certiorari reply brief about transfer by Puerto Rico' of prisoners to home confinement with electronic monitoring. I could not find any Puerto Rico case in the sources (the cert reply in sources/pet-reply.txt does not mention Puerto Rico).",
+      "where_in_sources": "sources/pet-reply.txt (searched; no Puerto Rico case); sources/us-brief.txt and us-reply.txt (searched; none).",
+      "why_viewer_needs_it": "The viewer may want the example; it is unverified.",
+      "caution": "Not verified. Do not card until the cited cases are located. Note: Justice Sotomayor says 'they do it all the time in Puerto Rico' at block 138, so the example appears in oral argument (see candidate fact_puerto_rico_removal_practice).",
+      "uncertain": true
+    },
+    {
+      "id": "term_distinct_lower_level_custody",
+      "blocks": [
+        32,
+        32
+      ],
+      "time": "8:10",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "distinct and lower level of custody",
+      "kind": "term",
+      "identification": "The petitioner's proposed rule: a challenge to a 'distinct and lower level of custody' is cognizable in habeas (pet-brief Part, 'level-of-custody' heading; printed p.34, TOC). The Court's language is 'quantum change in the level of custody' (Dotson, Scalia concurring, quoting Graham v. Broglin, sources/cap-544-74.txt).",
+      "where_in_sources": "sources/pet-brief.txt TOC (printed p.34); sources/cap-544-74.txt (concurrence).",
+      "why_viewer_needs_it": "Both sides argue over what 'distinct' and 'lower level of custody' mean; the viewer needs the words to follow the argument.",
+      "caution": "'Distinct' is never defined by the speaker. Hansford says the rule is her 'showing our work'; the government's rule is different (see next candidate).",
+      "uncertain": false
+    },
+    {
+      "id": "comparison_gov_rule_prison_to_community",
+      "blocks": [
+        33,
+        33
+      ],
+      "time": "8:40",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "rule of transfer from prison into the community",
+      "kind": "comparison",
+      "identification": "Two proposed rules. Petitioner: release to a 'distinct and lower level of custody' (block 32). Government: 'release from prison into the community' (sources/us-reply.txt lines 178-183, physical p.6, citing Jones v. Hendrix, 599 U.S. at 475, and Preiser, 411 U.S. at 500).",
+      "where_in_sources": "sources/us-reply.txt physical p.6 (lines 178-183).",
+      "why_viewer_needs_it": "Hansford says she is 'happy with the government's rule'; the viewer should see how the two rules differ.",
+      "caution": "Hansford says she accepts the government's formulation, while the amicus and the government contest the scope. Quote both formulations side by side without saying which is right.",
+      "uncertain": false
+    },
+    {
+      "id": "term_lower_security_hypothetical",
+      "blocks": [
+        48,
+        48
+      ],
+      "time": "11:47",
+      "speaker": "Justice Barrett",
+      "exact_words": "transfer to a lower-security facility",
+      "kind": "comparison",
+      "identification": "Justice Barrett's hypothetical: a transfer to a lower-security prison, as opposed to a halfway house. Compares a lower-security prison move with a prison-to-community move; the amicus's example is a prison camp versus a halfway house (block 262).",
+      "where_in_sources": "Transcript block 262 (Barnes on prison camps vs halfway houses); sources/amicus-brief.txt lines 584-639 (halfway-house conditions, electronic monitoring).",
+      "why_viewer_needs_it": "The line-drawing problem is the speakers' main concern, and this is the first place it comes up.",
+      "caution": "Taking sides risk: the petitioner's rule would reach these transfers; the government's would not. Present as the disputed line.",
+      "uncertain": false
+    },
+    {
+      "id": "case_quantum_change_scalia_dotson",
+      "blocks": [
+        58,
+        58
+      ],
+      "time": "13:13",
+      "speaker": "Justice Sotomayor",
+      "exact_words": "quantum change",
+      "kind": "case",
+      "identification": "Wilkinson v. Dotson, 544 U.S. 74 (2005), Scalia, J., concurring (sources/cap-544-74.txt). The phrase 'quantum change in the level of custody' appears in the concurrence, quoting Graham v. Broglin, 922 F.2d 379, 381 (7th Cir. 1991) (Posner, J.). The majority opinion (Breyer, J.) does not use the phrase.",
+      "where_in_sources": "sources/cap-544-74.txt (concurrence, which begins at 544 U.S. 85; pin page not in the CAP text); sources/us-brief.txt TOA (Dotson).",
+      "why_viewer_needs_it": "Sotomayor's attribution is right; a viewer who reads the majority will not find the phrase.",
+      "caution": "Pin cite unverified. Cite the concurrence, not the majority.",
+      "uncertain": false
+    },
+    {
+      "id": "comparison_quantum_vs_materially_less",
+      "blocks": [
+        58,
+        61
+      ],
+      "time": "13:13",
+      "speaker": "Justice Sotomayor",
+      "exact_words": "materially less restrictive custody",
+      "kind": "comparison",
+      "identification": "Three formulations of the same test: 'quantum change in the level of custody' (Dotson concurrence, Scalia); 'lower level of custody' (the Court's test as Hansford describes it, block 61); 'materially less restrictive custody' (Sotomayor's proposal, block 58, not from the Court). The phrase 'materially less restrictive' also appears in the petitioner's and amicus's briefs (sources/pet-brief.txt, sources/us-reply.txt, sources/amicus-brief.txt).",
+      "where_in_sources": "sources/cap-544-74.txt (concurrence); sources/pet-brief.txt, us-reply.txt, amicus-brief.txt (search 'materially less restrictive').",
+      "why_viewer_needs_it": "The justices argue about wording; the viewer needs the three phrases side by side.",
+      "caution": "Sotomayor's 'materially less restrictive custody' is a suggested phrasing, not a holding. Hansford says 'any adjective ... is fine' (block 61).",
+      "uncertain": false
+    },
+    {
+      "id": "case_wolff_good_time_habeas",
+      "blocks": [
+        43,
+        43
+      ],
+      "time": "10:42",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "in Wolff, for instance",
+      "kind": "case",
+      "identification": "Wolff v. McDonnell, 418 U.S. 539 (1974) (sources/cap-418-539.txt). The government reads Wolff at 418 U.S. at 553-554 as holding that a claim to restore good-time credits belongs in habeas, while a related damages claim may go under 1983 (sources/us-brief.txt printed p.24, physical p.35, lines 1152-1155).",
+      "where_in_sources": "sources/us-brief.txt printed p.24 (physical p.35, lines 1152-1155); sources/cap-418-539.txt.",
+      "why_viewer_needs_it": "Hansford cites Wolff for the principle that a good-time calculation challenge is a habeas claim.",
+      "caution": "Both sides rely on Wolff; the government describes it as splitting habeas and 1983 claims. Verify the pin against the opinion before carding.",
+      "uncertain": true
+    },
+    {
+      "id": "statute_1983_state_prisoners",
+      "blocks": [
+        34,
+        34
+      ],
+      "time": "8:59",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "broader 1983 rights",
+      "kind": "statute",
+      "identification": "42 U.S.C. 1983 (civil rights suits). Hansford's point is that habeas narrowing affects state prisoners who seek 1983 relief.",
+      "where_in_sources": "sources/pet-brief.txt TOA (42 U.S.C. 1983); sources/us-brief.txt TOA.",
+      "why_viewer_needs_it": "Shows why the decision may matter to state prisoners.",
+      "caution": "General point; no statute text needed beyond 1983 itself.",
+      "uncertain": false
+    },
+    {
+      "id": "comparison_security_level_hypotheticals",
+      "blocks": [
+        96,
+        101
+      ],
+      "time": "19:04",
+      "speaker": "Justice Gorsuch",
+      "exact_words": "from, say, a medium security to a minimum security",
+      "kind": "comparison",
+      "identification": "Justice Gorsuch's hypotheticals: moves from medium to minimum security, and from maximum to medium (block 96; block 101 describes a 23-hour solitary-confinement prisoner moved to a medium-security facility). Barber responds that those claims would not be cognizable (block 98).",
+      "where_in_sources": "Transcript blocks 96-101 and 262; sources/amicus-brief.txt lines 584-639 (halfway-house conditions).",
+      "why_viewer_needs_it": "The 'where does this lead' question is the main line-drawing concern, and the hypotheticals are concrete.",
+      "caution": "Taking sides risk: the government says these claims are not habeas claims; Hansford says the rule is narrow (block 32). Present as the disputed line.",
+      "uncertain": false
+    },
+    {
+      "id": "term_level_of_custody_test",
+      "blocks": [
+        116,
+        116
+      ],
+      "time": "23:20",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "level-of-custody test",
+      "kind": "term",
+      "identification": "The petitioner's 'level-of-custody' test (Barber's term, from the petitioner's briefs, pet-brief heading 'level-of-custody', printed p.34).",
+      "where_in_sources": "sources/pet-brief.txt TOC (printed p.34).",
+      "why_viewer_needs_it": "The term appears repeatedly; the viewer needs to know it refers to the petitioner's test.",
+      "caution": "Barber calls it 'open-ended, amorphous'. That is his characterization; the card should not adopt it.",
+      "uncertain": false
+    },
+    {
+      "id": "case_morrissey_essence_of_parole",
+      "blocks": [
+        92,
+        92
+      ],
+      "time": "17:46",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "the essence of parole is release from prison before the completion of sentence",
+      "kind": "case",
+      "identification": "Morrissey v. Brewer, 408 U.S. 471 (1972) (sources/cap-408-471.txt): 'The essence of parole is release from prison, before the completion of sentence, on the condition that the prisoner abide by certain rules during the balance of the sentence.' Barber's recitation matches the opinion.",
+      "where_in_sources": "sources/cap-408-471.txt (quote in the opinion's text; CAP text has no page markers); sources/us-brief.txt TOA (Morrissey, printed pp.30-31).",
+      "why_viewer_needs_it": "Barber uses Morrissey to define parole; the viewer needs the definition to follow the parole comparison.",
+      "caution": "Pin cite unverified. Barber's version drops a comma and says 'it said'; the quoted phrase is accurate.",
+      "uncertain": false
+    },
+    {
+      "id": "fact_parole_commission_control",
+      "blocks": [
+        88,
+        88
+      ],
+      "time": "17:17",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "Parole Commission",
+      "kind": "fact",
+      "identification": "Federal parole was administered by the United States Parole Commission, which was separate from BOP. The petitioner's brief says the Sentencing Reform Act of 1984 abolished federal parole for future prisoners (sources/pet-brief.txt lines 632-635). Barber says parole 'would be under the control of the Parole Commission' (block 88).",
+      "where_in_sources": "sources/pet-brief.txt lines 632-635 (SRA 1984, abolishing federal parole); sources/pet-brief.txt TOA (United States Parole Commission cases).",
+      "why_viewer_needs_it": "The parole comparison depends on who controls parole versus prerelease custody.",
+      "caution": "The date and scope of the abolition are not checked against a statute in the sources; treat the SRA reference as the petitioner's statement.",
+      "uncertain": true
+    },
+    {
+      "id": "case_jones_v_cunningham",
+      "blocks": [
+        94,
+        94
+      ],
+      "time": "18:11",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "Jones against Cunningham",
+      "kind": "case",
+      "identification": "Jones v. Cunningham, 371 U.S. 236 (1963) (sources/cap-371-236.txt): a state prisoner placed on parole is 'in custody' under 28 U.S.C. 2241, so habeas jurisdiction lies. Cited in the government's brief (printed pp.16, 28-29) and in the petitioner's brief (printed p.26).",
+      "where_in_sources": "sources/cap-371-236.txt (holding); sources/us-brief.txt physical p.27 (printed 16) and physical p.39-40 (printed 28-29); sources/pet-brief.txt printed p.26 (physical 38).",
+      "why_viewer_needs_it": "Barber cites it as the case where habeas reaches conditional custody, which is the core of his parole comparison.",
+      "caution": "Holding concerns parole custody, not transfers. Keep to the holding.",
+      "uncertain": false
+    },
+    {
+      "id": "case_preiser_squarely_controls_barber",
+      "blocks": [
+        95,
+        95
+      ],
+      "time": "18:49",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "Preiser squarely controls here",
+      "kind": "case",
+      "identification": "Preiser v. Rodriguez, 411 U.S. 475 (1973), as in candidate preiser_rodriguez_hansford. Barber argues Preiser 'squarely controls' because prerelease custody is equivalent to parole for habeas purposes (block 94).",
+      "where_in_sources": "sources/cap-411-475.txt; sources/us-brief.txt printed p.14-15 (Preiser at 411 U.S. 475).",
+      "why_viewer_needs_it": "The second side's answer to Hansford's Preiser argument.",
+      "caution": "Contested: Hansford says Preiser covers this; Barber says it covers prerelease custody by analogy to parole. Show both claims, not the conclusion.",
+      "uncertain": false
+    },
+    {
+      "id": "term_DIG",
+      "blocks": [
+        119,
+        119
+      ],
+      "time": "23:45",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "floated the idea of a DIG in our papers",
+      "kind": "term",
+      "identification": "DIG = dismissal of the writ of certiorari as improvidently granted. The government asks in the alternative for that disposition (sources/us-brief.txt printed p.42, physical p.53, lines 1794-1797). Justice Alito's question at block 178 spells out 'dismissed as improvidently granted'.",
+      "where_in_sources": "sources/us-brief.txt printed p.42 (physical p.53, lines 1794-1797).",
+      "why_viewer_needs_it": "The argument turns on whether the Court should DIG the case; the acronym is not spelled out at first use.",
+      "caution": "The request for a DIG is contested: Hansford says it would reward post-grant jurisdictional arguments (block 349-353). Do not present the DIG as correct or incorrect.",
+      "uncertain": false
+    },
+    {
+      "id": "term_voluntary_cessation",
+      "blocks": [
+        72,
+        72
+      ],
+      "time": "14:42",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "voluntary cessation exception",
+      "kind": "term",
+      "identification": "Mootness doctrine: a defendant's voluntary stop of the challenged conduct does not moot a case unless it is 'absolutely clear' the conduct will not recur. The petitioner's reply cites Already, LLC v. Nike, 568 U.S. 85, 91 (2013), for the 'formidable burden' (sources/pet-reply.txt printed p.21-22, physical p.25-26, lines 899-905). The phrase 'voluntary cessation' itself does not appear in the sources.",
+      "where_in_sources": "sources/pet-reply.txt physical p.25-26 (Already v. Nike quotation).",
+      "why_viewer_needs_it": "Hansford says this exception may fit if the government releases Maxwell; the viewer needs the term.",
+      "caution": "The definition is from the petitioner's reply; the government disputes the mootness argument. Mark as paraphrase of the doctrine.",
+      "uncertain": true
+    },
+    {
+      "id": "term_capable_of_repetition",
+      "blocks": [
+        71,
+        71
+      ],
+      "time": "14:17",
+      "speaker": "Justice Jackson",
+      "exact_words": "capable of repetition yet evading review",
+      "kind": "term",
+      "identification": "Mootness exception: an issue 'capable of repetition, yet evading review' (Justice Jackson's question). The phrase does not appear in the sources.",
+      "where_in_sources": "not in sources (searched).",
+      "why_viewer_needs_it": "Justice Jackson raises it; Hansford responds that the exception itself may not apply (block 72).",
+      "caution": "Identification from general doctrine; not checked against a case in the sources.",
+      "uncertain": true
+    },
+    {
+      "id": "case_skinner_reduce_level_custody",
+      "blocks": [
+        109,
+        109
+      ],
+      "time": "21:52",
+      "speaker": "Justice Kagan",
+      "exact_words": "reduce the level of custody",
+      "kind": "case",
+      "identification": "Skinner v. Switzer, 562 U.S. 521, 534 (2011), quoting Wilkinson v. Dotson, 544 U.S. at 86 (Scalia, J., concurring) (sources/bio.txt printed p.8, physical p.10, line 429; sources/cap-562-521.txt: 'nor reduc[e] the level of custody'). Kagan asks whether the Court used the phrase in Skinner.",
+      "where_in_sources": "sources/cap-562-521.txt; sources/bio.txt physical p.10 (line 429); sources/us-brief.txt TOA (Skinner).",
+      "why_viewer_needs_it": "Kagan says the Court itself used the 'reduce the level of custody' language; the viewer needs the source.",
+      "caution": "Barber says Skinner 'had nothing to do with levels of custody' (block 112) and that the phrase comes from a concurrence. Skinner is a DNA-testing 1983 case; present the quotation without Barber's gloss.",
+      "uncertain": false
+    },
+    {
+      "id": "stat_3621b_designate_quote_sotomayor",
+      "blocks": [
+        125,
+        125
+      ],
+      "time": "25:17",
+      "speaker": "Justice Sotomayor",
+      "exact_words": "designate the place of prisoner's imprisonment under",
+      "kind": "statute",
+      "identification": "18 U.S.C. 3621(b): the BOP 'shall designate the place of the prisoner's imprisonment' (sources/usc-18-3621.txt, first sentences of subsection (b)); the judicial-review sentence refers to 'a designation of a place of imprisonment under this subsection'. Sotomayor's version says 'under that subsection' and omits 'the'.",
+      "where_in_sources": "sources/usc-18-3621.txt (subsection (b)); sources/us-brief.txt lines 682-696 (statutory background).",
+      "why_viewer_needs_it": "Sotomayor's textual argument (the bar applies only to designations 'under this subsection') turns on this language; the viewer should see the statute.",
+      "caution": "Her paraphrase is not verbatim ('prisoner's' vs 'prisoner's' with 'the' omitted; 'that' vs 'this' subsection). Quote the statute, not her version. Whether 3624 decisions are made 'under' 3621(b) is contested (Barber, block 126).",
+      "uncertain": false
+    },
+    {
+      "id": "comparison_halfway_vs_prison_binary",
+      "blocks": [
+        129,
+        129
+      ],
+      "time": "26:22",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "binary choice of halfway house versus prison",
+      "kind": "comparison",
+      "identification": "Barber's distinction: the choice is 'between the binary choice of halfway house versus prison' (a question of custody type) versus 'which particular halfway house' (a question of placement, which he says is under 3621(b)). Hansford makes the same split (block 14).",
+      "where_in_sources": "Transcript blocks 14 and 129; sources/us-reply.txt printed p.19 for the government's 3621(b) placement argument.",
+      "why_viewer_needs_it": "This is the core of the 'two-step' argument: whether to prison or community is separate from which facility.",
+      "caution": "Barber: 'We don't think that that is a coherent distinction'. Sotomayor pushes back (blocks 128-134). Present as contested.",
+      "uncertain": false
+    },
+    {
+      "id": "case_osorio_calderon_8th_cir",
+      "blocks": [
+        136,
+        137
+      ],
+      "time": "27:27",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "Osorio-Calderon case from the Eighth Circuit",
+      "kind": "case",
+      "identification": "Osorio-Calderon v. Warden, 179 F.4th 1158 (8th Cir. 2026). The government calls it the 'only' precedential appellate decision on 3621(b)'s bar, decided after cert was granted (sources/us-brief.txt printed p.41, physical p.52, line 1792; us-reply.txt TOA p.18). Barber's factual description (a sex offender whom the only Puerto Rico halfway house would not accept) is not confirmed in any source I checked.",
+      "where_in_sources": "sources/us-brief.txt TOA (printed p.39-40) and physical p.52 (printed p.41); sources/us-reply.txt TOA (printed p.18); sources/us-reply.txt around line 766.",
+      "why_viewer_needs_it": "The viewer needs the case name and the one-sentence holding; Barber's facts about the prisoner are not in the filings.",
+      "caution": "Barber's facts (sex offender; Puerto Rico halfway house refused the prisoner) are unverified. Do not card them. The petitioner says the claim in that case was for 3621(b) only; check the opinion before summarizing it.",
+      "uncertain": true
+    },
+    {
+      "id": "fact_only_one_appellate_decision",
+      "blocks": [
+        142,
+        142
+      ],
+      "time": "27:57",
+      "speaker": "Justice Barrett",
+      "exact_words": "we only have one court of appeals decision on this",
+      "kind": "fact",
+      "identification": "Justice Barrett's premise: only one court of appeals decision addresses the question. The government's brief says the 3621(b) question 'has thus far been addressed in only one precedential court of appeals decision' (sources/us-brief.txt printed p.41, physical p.52): Osorio-Calderon.",
+      "where_in_sources": "sources/us-brief.txt printed p.41 (physical p.52, line 1790-1793).",
+      "why_viewer_needs_it": "Explains why the government argues the question is not ripe, and why a DIG is requested.",
+      "caution": "This is the government's characterization, and it refers to 3621(b), not to the habeas-cognizability question presented; Barrett's premise is about the QP. Keep the two questions apart on screen.",
+      "uncertain": false
+    },
+    {
+      "id": "term_jurisdictional_cognizability",
+      "blocks": [
+        143,
+        143
+      ],
+      "time": "28:16",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "the habeas cognizability question is also",
+      "kind": "term",
+      "identification": "Whether a claim 'sounds in habeas' (cognizability) is a jurisdictional question. Barber says it is, so the Court can decide the issues in either order (Sinochem). Barnes later disputes that (blocks 277-279). The government's brief does not use the word 'jurisdictional' in the sources I searched (us-brief.txt has 0 matches).",
+      "where_in_sources": "Transcript blocks 143 and 277-279; sources/us-brief.txt (no 'jurisdictional' match); sources/pet-reply.txt (Sinochem, printed p.21).",
+      "why_viewer_needs_it": "The DIG and vehicle arguments depend on whether cognizability is jurisdictional; viewers hear the word without a definition.",
+      "caution": "Contested: Barnes (block 278) says recent Court cases make it hard to call this jurisdictional; Barber says it is. Describe both positions; do not take a side.",
+      "uncertain": true
+    },
+    {
+      "id": "fact_not_raised_at_cert",
+      "blocks": [
+        167,
+        168
+      ],
+      "time": "30:47",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "We did not raise mootness or 3621(b) at the cert stage",
+      "kind": "fact",
+      "identification": "Barber concedes the government did not raise mootness or 3621(b) at the cert stage, and raised exhaustion because that was the district court's basis. The government's brief in opposition (sources/bio.txt, filed Apr. 16, 2026 per docket.json) contains no references to 3621 or mootness (grep of bio.txt found none).",
+      "where_in_sources": "sources/bio.txt (no '3621' or 'moot' match); sources/docket.json (BIO filed Apr. 16, 2026).",
+      "why_viewer_needs_it": "Justice Jackson's relitigation concern depends on this concession.",
+      "caution": "Concession is Barber's; the BIO search is my check of the text in sources/bio.txt. Present as the government's concession at argument.",
+      "uncertain": false
+    },
+    {
+      "id": "term_collateral_consequences",
+      "blocks": [
+        191,
+        191
+      ],
+      "time": "32:55",
+      "speaker": "Justice Gorsuch",
+      "exact_words": "collateral consequences",
+      "kind": "term",
+      "identification": "Mootness and 'collateral consequences': a claim can stay live if the judgment has continuing consequences after release, such as the effect of restored credits on supervised release. The phrase is used across the briefs (pet-brief, petition, us-brief, pet-reply, us-reply, amicus-brief). The Court's general rule is not explained in the sources I checked beyond this use.",
+      "where_in_sources": "sources/pet-reply.txt (collateral consequences, mootness); sources/us-brief.txt; sources/amicus-brief.txt.",
+      "why_viewer_needs_it": "Gorsuch asks about 'collateral consequences' after release; the viewer needs the term for the mootness question.",
+      "caution": "Gorsuch says 'there apparently is a circuit split' on this (block 191); the split is the supervised-release question (candidate fact_supervised_release_theory). Do not define the doctrine beyond the sources.",
+      "uncertain": true
+    },
+    {
+      "id": "statute_3624g3_early_start_supervised",
+      "blocks": [
+        192,
+        192
+      ],
+      "time": "33:14",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "early start to supervised release",
+      "kind": "statute",
+      "identification": "18 U.S.C. 3624(g)(3): 'the Director ... may transfer the prisoner to begin any such term of supervised release at an earlier date, not to exceed 12 months, based on the application of time credits under section 3632' (sources/usc-18-3624.txt line 69).",
+      "where_in_sources": "sources/usc-18-3624.txt line 69 (subsection (g)(3)).",
+      "why_viewer_needs_it": "The statute is the textual basis for Barber's claim that credits can start supervised release early.",
+      "caution": "Barber says the credits 'can't shorten your term of supervised release'. The text in (g)(3) addresses an earlier start date (up to 12 months); it does not expressly say the term cannot be shortened. Quote the text; flag Barber's gloss.",
+      "uncertain": false
+    },
+    {
+      "id": "statute_3583e_supervised_modification",
+      "blocks": [
+        193,
+        193
+      ],
+      "time": "33:38",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "supervised release is always under the control of the sentencing court",
+      "kind": "statute",
+      "identification": "18 U.S.C. 3583(e) (modification of conditions or revocation of supervised release by the sentencing court, after considering the 3553(a) factors). Barber does not cite a subsection (sources/usc-18-3583.txt line 22).",
+      "where_in_sources": "sources/usc-18-3583.txt line 22 (subsection (e)).",
+      "why_viewer_needs_it": "Barber's argument that supervised-release length is a sentencing-court question rests on this subsection.",
+      "caution": "Barber's 'always' is his characterization. Quote 3583(e); do not adopt 'always'.",
+      "uncertain": true
+    },
+    {
+      "id": "case_rivera_perez_cert_petition",
+      "blocks": [
+        194,
+        194
+      ],
+      "time": "33:48",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "Rivera-Perez case",
+      "kind": "case",
+      "identification": "Rivera-Perez v. Flowers, No. 26-396 (cert petition filed Sept. 17, 2026, per the petitioner's reply). Barber says the Second Circuit canvassed the question in the Rivera-Perez case. The court below is not identified in the sources; the petitioner's reply cites only the cert petition.",
+      "where_in_sources": "sources/pet-reply.txt printed p.21 (physical p.25, lines 891-893).",
+      "why_viewer_needs_it": "The viewer needs to know the pending cert petition that Hansford mentioned at block 18.",
+      "caution": "Court of decision (Second Circuit) is Barber's statement; not verified in sources. Uncertain.",
+      "uncertain": true
+    },
+    {
+      "id": "case_camreta_mootness",
+      "blocks": [
+        195,
+        195
+      ],
+      "time": "34:02",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "Camreta versus Greene",
+      "kind": "case",
+      "identification": "Camreta v. Greene, 563 U.S. 692 (2011) (merits opinion; my recollection, not in the sources). The sources contain only the 2010-2011 orders in the same case (sources/cap/meta-562.json lists 562 U.S. 960 and 562 U.S. 1209). Barber cites it for the proposition that a litigant cannot always point to some theory to keep a case alive.",
+      "where_in_sources": "Not in the sources (the merits opinion is missing); sources/cap/meta-562.json lists the related orders.",
+      "why_viewer_needs_it": "The viewer needs the citation for this mootness principle.",
+      "caution": "Citation from memory; verify before carding. Barber's reading of Camreta's mootness holding is his.",
+      "uncertain": true
+    },
+    {
+      "id": "fact_release_date_jan22_2027",
+      "blocks": [
+        196,
+        196
+      ],
+      "time": "34:22",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "January 22, 2027, projected release date",
+      "kind": "fact",
+      "identification": "The government's brief says BOP's FSA Time Credit Assessment (July 25, 2026) projects Maxwell to become 'eligible for transfer to a halfway house on January 22, 2027' (sources/us-brief.txt printed p.15, physical p.26, line 833). Barber calls it the 'projected release date'. Justice Jackson's 'end of January' (block 163) refers to the same date. The petitioner's reply says notices of release dates have been withdrawn or modified (pet-reply printed p.21).",
+      "where_in_sources": "sources/us-brief.txt printed p.15 (physical p.26, lines 827-834); sources/us-reply.txt line 860 (January 2027, citing Gov't Br. 14, 41); sources/pet-reply.txt printed p.21 (physical p.25, lines 874-876).",
+      "why_viewer_needs_it": "The mootness argument depends on when Maxwell is transferred; the date needs to be on screen.",
+      "caution": "'Projected release date' (Barber) is not the government brief's wording; the brief says eligibility for transfer to a halfway house. Use the brief's wording, or label it 'projected transfer eligibility'.",
+      "uncertain": false
+    },
+    {
+      "id": "term_judgment_forthwith_rehearing",
+      "blocks": [
+        196,
+        196
+      ],
+      "time": "34:22",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "issue your judgment forthwith",
+      "kind": "term",
+      "identification": "Supreme Court practice: a judgment is not sent down to the lower court until after the rehearing period (generally 32 days after decision) under Supreme Court Rule 45. Barber asks the Court to issue the judgment forthwith to avoid mootness during that period. The rule is from memory; not in the sources.",
+      "where_in_sources": "Not in the sources; transcript block 196 only.",
+      "why_viewer_needs_it": "Viewers may not know why the timing of the judgment matters.",
+      "caution": "Rule citation from memory; verify (Rule 45.3). Barber says mootness would happen 'during the rehearing period'.",
+      "uncertain": true
+    },
+    {
+      "id": "case_trump_v_jgg",
+      "blocks": [
+        201,
+        202
+      ],
+      "time": "34:47",
+      "speaker": "Justice Kavanaugh",
+      "exact_words": "Trump versus JGG",
+      "kind": "case",
+      "identification": "Trump v. J.G.G., 604 U.S. 670 (2025) (preliminary print: sources/jgg.txt, April 7, 2025). Per-curiam opinion in the Alien Enemies Act removal cases; it holds that claims challenging AEA removal and confinement fall within the 'core' of habeas and must be brought in habeas, even without a request for release. Cited in the petitioner's brief (printed p.28-29) and the government's reply (us-reply TOA).",
+      "where_in_sources": "sources/jgg.txt (opinion; 'core' of the writ, 'immediate physical release is not the only remedy'); sources/pet-brief.txt printed p.19, 29 (physical 31, 41).",
+      "why_viewer_needs_it": "Kavanaugh asks about it; Barber says it reinforces that habeas evolves.",
+      "caution": "Barber calls JGG a case about 'transfer claims'; the opinion concerns AEA removal and detention. Describe JGG as the opinion does. Barber's 'longstanding tradition ... extradition' gloss is his.",
+      "uncertain": false
+    },
+    {
+      "id": "term_suspension_clause",
+      "blocks": [
+        205,
+        206
+      ],
+      "time": "35:28",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "Suspension Clause version of habeas",
+      "kind": "term",
+      "identification": "U.S. Const. art. I, sec. 9, cl. 2 (the Suspension Clause): the constitutional floor for habeas, read as the founding-era writ. Jones v. Hendrix rejects an argument that would 'extend the writ of habeas corpus far beyond its scope when the Constitution was drafted' (sources/jones-hendrix.txt, Suspension Clause discussion).",
+      "where_in_sources": "sources/jones-hendrix.txt (Suspension Clause discussion); sources/us-brief.txt TOA (Art. I, sec. 9, cl. 2, printed p.39).",
+      "why_viewer_needs_it": "Barber's Suspension Clause argument is what makes the habeas-scope question matter constitutionally.",
+      "caution": "Barber gives a gloss ('the narrow founding-era version'). That gloss is the government's position; the term itself is standard.",
+      "uncertain": false
+    },
+    {
+      "id": "case_jones_v_hendrix",
+      "blocks": [
+        206,
+        206
+      ],
+      "time": "35:48",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "Jones against Hendrix",
+      "kind": "case",
+      "identification": "Jones v. Hendrix, 599 U.S. 465 (2023) (preliminary print: sources/jones-hendrix.txt). Holding: a federal prisoner cannot use 2241 to raise a statutory claim the 2255 remedy would bar, and the Suspension Clause does not extend the writ beyond its founding-era scope.",
+      "where_in_sources": "sources/jones-hendrix.txt (opinion, 'Cite as: 599 U.S. 465 (2023)'); sources/pet-brief.txt printed p.19 (599 U.S. at 473).",
+      "why_viewer_needs_it": "Both sides cite Hendrix for the scope of the writ.",
+      "caution": "The Question Presented (sources/qp.txt) cites 'Jones v. Hendrix, 216 L.Ed.2d 471 (2022)'; the official cite is 599 U.S. 465 (2023). Use 2023.",
+      "uncertain": false
+    },
+    {
+      "id": "fact_government_fifth_circuit_wrong",
+      "blocks": [
+        215,
+        216
+      ],
+      "time": "36:47",
+      "speaker": "Justice Jackson",
+      "exact_words": "the Fifth Circuit was wrong in this case",
+      "kind": "fact",
+      "identification": "Justice Jackson's question: whether the government's position is that the Fifth Circuit was wrong on cognizability. Barber answers yes, and that there is no Bivens claim. The government's brief argues the Fifth Circuit's rule is incorrect and that district courts lack jurisdiction under 3621(b).",
+      "where_in_sources": "sources/us-brief.txt (summary of argument and Part D; search 'Fifth Circuit'); sources/us-brief.txt printed p.41-42 (alternative DIG).",
+      "why_viewer_needs_it": "Shows that both parties agree the Fifth Circuit ruled wrongly, so the remaining dispute is the threshold question.",
+      "caution": "The fact that both sides say the Fifth Circuit was wrong is the key clarification. I did not find the exact sentence in the government's brief; mark as the speaker's summary of the government's position.",
+      "uncertain": true
+    },
+    {
+      "id": "fact_raised_3621b_below",
+      "blocks": [
+        222,
+        222
+      ],
+      "time": "37:56",
+      "speaker": "Kevin J. Barber",
+      "exact_words": "We did, in fact, raise it in this case in the district court",
+      "kind": "fact",
+      "identification": "Barber says the government raised 3621(b) in the district court. The JA's magistrate and district court materials (sources/ja.txt JA 18-33) discuss the petitioner's 3621(b)-factor claims, but I did not find the judicial-review bar ('not reviewable by any court') in the JA. Not verified.",
+      "where_in_sources": "sources/ja.txt (JA 18-33; grep for 'not reviewable' finds nothing; '3621(b)' appears in the petitioner's grounds at JA 10-11 and 19-22).",
+      "why_viewer_needs_it": "Justice Jackson's 'weren't really litigated below' premise (block 27) depends on whether the bar was raised below.",
+      "caution": "Barber's statement could not be confirmed in the sources. Flag, do not card as fact.",
+      "uncertain": true
+    },
+    {
+      "id": "term_prerelease_custody_not_release",
+      "blocks": [
+        230,
+        230
+      ],
+      "time": "38:23",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "prerelease custody isn't release",
+      "kind": "term",
+      "identification": "The government's and amicus's position: prerelease custody is not 'release' because the prisoner remains in BOP's control, and home confinement is 'a form of confinement'. Compare 3624(a) ('released by the Bureau of Prisons') and 3624(g)(2) ('placed in prerelease custody'), sources/usc-18-3624.txt.",
+      "where_in_sources": "sources/usc-18-3624.txt lines 11 and 52; transcript blocks 230, 319-331.",
+      "why_viewer_needs_it": "This is the central word dispute: 'release' versus 'prerelease custody'.",
+      "caution": "Contested. Hansford treats the transfer as release; Barnes says it is not. Card the two uses of 'release' side by side and do not pick one.",
+      "uncertain": false
+    },
+    {
+      "id": "fact_prison_camp_vs_halfway_conditions",
+      "blocks": [
+        232,
+        232
+      ],
+      "time": "39:09",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "from a prison camp to a halfway house",
+      "kind": "fact",
+      "identification": "Barnes's factual claim: some federal prisons (prison camps) have dormitory housing and no perimeter fence, similar to some halfway houses. Not verified in the sources; the amicus brief describes halfway-house conditions (sources/amicus-brief.txt lines 584-639) but not prison camp conditions.",
+      "where_in_sources": "sources/amicus-brief.txt lines 584-639 (halfway-house conditions).",
+      "why_viewer_needs_it": "The conditions comparison is the amicus's main argument against a bright line.",
+      "caution": "Factual assertion by counsel. Do not card as established fact unless the BOP's facility descriptions are in the record.",
+      "uncertain": true
+    },
+    {
+      "id": "term_core_of_habeas",
+      "blocks": [
+        233,
+        233
+      ],
+      "time": "39:36",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "place at the core of habeas corpus",
+      "kind": "term",
+      "identification": "'Core of habeas corpus': Preiser's phrase for claims that attack 'the very duration of their physical confinement' (sources/cap-411-475.txt, 'within the core of habeas corpus'; also quoted in Skinner, sources/cap-562-521.txt). Barnes says the change must be a 'quantum change' to be at the core.",
+      "where_in_sources": "sources/cap-411-475.txt; sources/cap-562-521.txt ('core of habeas corpus'); sources/cap-544-74.txt (Dotson quoting Preiser, 'within the core of habeas corpus').",
+      "why_viewer_needs_it": "Viewers hear 'core of habeas' many times (Barber 81-82, Hansford 354 'heartland').",
+      "caution": "Preiser's 'core' describes duration claims; the parties disagree about whether a transfer changes 'duration' or 'level'. Do not present the core as settled for transfers.",
+      "uncertain": false
+    },
+    {
+      "id": "case_koray_bop_control",
+      "blocks": [
+        242,
+        242
+      ],
+      "time": "40:27",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "in the Koray case",
+      "kind": "case",
+      "identification": "Reno v. Koray, 515 U.S. 50 (1995) (sources/cap-515-50.txt). A sentence-credit case under 18 U.S.C. 3585(b): a defendant released on bail to a community treatment center was not in 'official detention' because he was not subject to BOP's control. The majority stresses that detained or sentenced defendants 'remain subject to the control of the Bureau'.",
+      "where_in_sources": "sources/cap-515-50.txt (majority, Rehnquist, C.J.); sources/amicus-brief.txt TOA (Koray, printed pp.32-37); sources/us-reply.txt TOA (printed p.15); sources/pet-reply.txt printed p.13 (Koray distinguished as 'an entirely different' question).",
+      "why_viewer_needs_it": "Barnes says Koray drew the BOP-control line; the viewer should see the case is about sentence credit.",
+      "caution": "Barnes's characterization is supported by the opinion's BOP-control language, but Koray is a 3585(b) credit case. The petitioner's reply says Koray addressed an entirely different question (pet-reply printed p.13, physical p.17).",
+      "uncertain": false
+    },
+    {
+      "id": "comparison_disciplinary_probation_violations",
+      "blocks": [
+        243,
+        244
+      ],
+      "time": "40:45",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "a disciplinary hearing officer in the Bureau of Prisons",
+      "kind": "comparison",
+      "identification": "Barnes's comparison: two people in the same halfway house, one in prerelease custody (violations go to a BOP disciplinary hearing officer) and one on supervised release (violations go to the probation office and the sentencing judge).",
+      "where_in_sources": "Transcript blocks 243-244; sources/usc-18-3624.txt lines 52-70 (BOP's role in prerelease custody violations, (g)(5)).",
+      "why_viewer_needs_it": "The control comparison is the amicus's main line for why prerelease custody is not parole.",
+      "caution": "Contested by the petitioner. Describe both sides' treatment of violations; do not adopt.",
+      "uncertain": false
+    },
+    {
+      "id": "fact_federal_parole_abolished",
+      "blocks": [
+        246,
+        246
+      ],
+      "time": "41:26",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "Parole, Your Honor, doesn't exist in the federal system",
+      "kind": "fact",
+      "identification": "Federal parole no longer exists for newly sentenced prisoners: the petitioner's brief says the Sentencing Reform Act of 1984 abolished federal parole for future prisoners (sources/pet-brief.txt lines 632-635). Old federal parole was administered by the Parole Commission, a separate agency (Kagan, block 247-250).",
+      "where_in_sources": "sources/pet-brief.txt lines 632-635; sources/pet-brief.txt TOA (Parole Commission cases).",
+      "why_viewer_needs_it": "Kagan's question depends on what 'parole' meant in the federal system; the viewer needs the basic fact.",
+      "caution": "The statutory date and transition rules are not checked in the sources. Treat as the petitioner's statement pending verification.",
+      "uncertain": true
+    },
+    {
+      "id": "comparison_old_federal_parole_agency",
+      "blocks": [
+        250,
+        250
+      ],
+      "time": "41:36",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "It was an agency within the executive branch",
+      "kind": "comparison",
+      "identification": "Old federal parole (Parole Commission, separate agency in the executive branch) versus prerelease custody (BOP, which also designates prisons). Barnes says the old system's 'distinct body' separated release from prison administration.",
+      "where_in_sources": "Transcript blocks 247-251; sources/pet-brief.txt lines 632-635.",
+      "why_viewer_needs_it": "Kagan asks whether an agency-control distinction matters; the comparison is the crux of the parole analogy.",
+      "caution": "Barnes's 'distinct body' point is his. The petitioner says prerelease custody is the same kind of release as parole. Present as disputed.",
+      "uncertain": true
+    },
+    {
+      "id": "statute_federal_escape",
+      "blocks": [
+        252,
+        252
+      ],
+      "time": "42:15",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "federal escape statute",
+      "kind": "statute",
+      "identification": "18 U.S.C. 751(a): escape from 'the custody of the Attorney General ... or from any institution or facility in which he is confined by direction of the Attorney General'. Barnes says the escape statute has been understood to apply to people in prerelease custody; no section number was given. Text: sources/usc-18-751.txt.",
+      "where_in_sources": "sources/usc-18-751.txt lines 1-20.",
+      "why_viewer_needs_it": "Barnes uses escape liability as evidence that prerelease custody is custody.",
+      "caution": "The 'understood to apply' claim is not shown in the sources; quote section 751 only. Barnes did not name the section.",
+      "uncertain": true
+    },
+    {
+      "id": "comparison_parole_vs_prerelease_kagan",
+      "blocks": [
+        300,
+        304
+      ],
+      "time": "54:35",
+      "speaker": "Justice Kagan",
+      "exact_words": "parole looks an awful lot like what's going on here",
+      "kind": "comparison",
+      "identification": "Kagan's question: does parole look like what the petitioner seeks? Barnes: parole usually gives more liberty and is outside BOP control; Kagan answers that a parolee could live in a halfway house like this one (block 303).",
+      "where_in_sources": "Transcript blocks 300-304; sources/cap-408-471.txt (parole conditions, Morrissey); sources/us-brief.txt printed p.31-32 (parole analogy, Morrissey at 478, 482).",
+      "why_viewer_needs_it": "This is the parole-versus-prerelease comparison the whole case turns on.",
+      "caution": "Both sides' comparison is contested. Present the features each side identifies (BOP control, liberty, conditions) without ranking them.",
+      "uncertain": false
+    },
+    {
+      "id": "case_sinochem_order",
+      "blocks": [
+        314,
+        314
+      ],
+      "time": "57:39",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "under Sinochem",
+      "kind": "case",
+      "identification": "Sinochem International Co. v. Malaysia International Shipping Corp., 549 U.S. 422 (2007) (sources/cap-549-422.txt; pet-reply printed p.21, physical p.25, line 882, citing 549 U.S. at 431). Holds a court may choose which threshold issue to decide first.",
+      "where_in_sources": "sources/cap-549-422.txt; sources/pet-reply.txt physical p.25 (line 882).",
+      "why_viewer_needs_it": "Barnes says Sinochem lets the Court skip the mootness question if the cognizability question is jurisdictional.",
+      "caution": "Sinochem concerns forum non conveniens and threshold issues; its application to this habeas question is contested (the Court's jurisdiction is disputed in blocks 143-146 and 277-280).",
+      "uncertain": false
+    },
+    {
+      "id": "statute_3624a_date_of_release",
+      "blocks": [
+        319,
+        324
+      ],
+      "time": "58:45",
+      "speaker": "Justice Jackson",
+      "exact_words": "The prisoner shall be released by the Bureau of Prisons on the date of the expiration",
+      "kind": "statute",
+      "identification": "18 U.S.C. 3624(a) (date of release): 'A prisoner shall be released by the Bureau of Prisons on the date of the expiration of the prisoner's term of imprisonment, less any time credited toward the service of the prisoner's sentence as provided in subsection (b).' (sources/usc-18-3624.txt line 11). Jackson's spoken version begins 'The prisoner' and omits 'as provided in subsection (b)'.",
+      "where_in_sources": "sources/usc-18-3624.txt line 11; sources/us-brief.txt appendix, 3624(a) text at lines 1923-1926.",
+      "why_viewer_needs_it": "Jackson argues from this language that Congress described the halfway-house move as release; the statutory words are needed on screen.",
+      "caution": "Use the statute's wording ('A prisoner'), not Jackson's. Barnes reads (a) as covering only supervised release (block 331); that reading is contested.",
+      "uncertain": false
+    },
+    {
+      "id": "comparison_release_vs_prerelease_status",
+      "blocks": [
+        325,
+        331
+      ],
+      "time": "59:33",
+      "speaker": "Justice Jackson",
+      "exact_words": "transfer to a prerelease status",
+      "kind": "comparison",
+      "identification": "Two readings of 'release' in 3624: Jackson reads (a) as covering halfway-house moves ('release'); Barnes reads (a) as covering supervised release only, and treats prerelease custody as a 'transfer to a prerelease status'.",
+      "where_in_sources": "sources/usc-18-3624.txt lines 11 (a), 52 (g)(2).",
+      "why_viewer_needs_it": "The release-versus-transfer question is the textual crux Jackson raises.",
+      "caution": "Contested. Show the two readings; do not adopt either.",
+      "uncertain": false
+    },
+    {
+      "id": "term_immediate_jailer",
+      "blocks": [
+        353,
+        353
+      ],
+      "time": "62:56",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "the authority of the immediate jailer",
+      "kind": "term",
+      "identification": "The habeas 'immediate custodian' rule: the proper respondent is the official with immediate control over the prisoner (Hansford's 'immediate jailer'). Her cited cases are Medley, Bonner and Preiser (block 354). The phrase is not in the sources I searched (grep 'immediate custodian' found none).",
+      "where_in_sources": "Transcript blocks 353-354; sources/cap-134-160.txt (Medley, habeas against Colorado warden), sources/cap-151-242.txt (Bonner).",
+      "why_viewer_needs_it": "The term identifies the warden as the proper party, which is the petitioner's argument on the merits.",
+      "caution": "Hansford's phrase is advocacy. The term is standard habeas doctrine; do not card as settled beyond the cases.",
+      "uncertain": true
+    },
+    {
+      "id": "case_meachum_transfers",
+      "blocks": [
+        269,
+        269
+      ],
+      "time": "46:21",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "The Meachum case rejects the due process claim",
+      "kind": "case",
+      "identification": "Meachum v. Fano, 427 U.S. 215 (1976) (sources/cap-427-215.txt): due process does not require a hearing before a transfer to a prison with less favorable conditions, absent a state law or practice conditioning transfers on misconduct. Barnes says Meachum forecloses a due process theory; Barber says the government wins inter-prison transfer cases because of Meachum (block 338).",
+      "where_in_sources": "sources/cap-427-215.txt; sources/us-reply.txt TOA (p.9); sources/pet-reply.txt TOA (p.8).",
+      "why_viewer_needs_it": "Explains why inter-prison transfers are not a due process liberty interest, which the speakers use to explain the government's position.",
+      "caution": "Barnes says the due process claim is 'pernicious' and cites parole-revocation due process; Sotomayor says that has been rejected (block 268). Keep to Meachum's holding.",
+      "uncertain": false
+    },
+    {
+      "id": "case_st_cyr_clarity",
+      "blocks": [
+        349,
+        349
+      ],
+      "time": "61:53",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "St. Cyr level of clarity",
+      "kind": "case",
+      "identification": "INS v. St. Cyr, 533 U.S. 289 (2001) (sources/cap-533-289.txt): the clear-statement rule for finding that a statute strips federal habeas jurisdiction. The petitioner's reply cites St. Cyr at 298 (sources/pet-reply.txt printed p.19, physical p.23, line 812).",
+      "where_in_sources": "sources/cap-533-289.txt; sources/pet-reply.txt physical p.23 (printed p.19, line 812).",
+      "why_viewer_needs_it": "Hansford uses it to say the government's 3621(b) argument is too weak to bar review.",
+      "caution": "The 'level of clarity' standard is the petitioner's framing; St. Cyr's clear-statement rule is about habeas jurisdiction-stripping.",
+      "uncertain": false
+    },
+    {
+      "id": "case_medley_bonner_habeas",
+      "blocks": [
+        353,
+        353
+      ],
+      "time": "62:56",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "Medley, Bonner",
+      "kind": "case",
+      "identification": "In re Medley, 134 U.S. 160 (1890) (CAP name and citation verified: sources/cap-134-160.txt). Medley was a habeas petition by a Colorado prisoner held by the state penitentiary warden. Not cited in any brief in the sources; Hansford's use of it for the 'immediate jailer' point is not verified.",
+      "where_in_sources": "sources/cap-134-160.txt (habeas petition against the warden of the Colorado penitentiary); no brief cites Medley.",
+      "why_viewer_needs_it": "Hansford lists Medley as a precedent for the authority of the immediate jailer; the viewer needs the case.",
+      "caution": "The holding about solitary confinement is not reviewed here; the transcript does not describe the holding. Check the opinion before saying what Medley held.",
+      "uncertain": true
+    },
+    {
+      "id": "case_bonner_1894_habeas_remedy",
+      "blocks": [
+        353,
+        353
+      ],
+      "time": "62:56",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "Bonner, and of course Preiser",
+      "kind": "case",
+      "identification": "In re Bonner, 151 U.S. 242 (1894) (sources/cap-151-242.txt). Syllabus: a federal court that sentenced a prisoner to a year's imprisonment lacked jurisdiction to order it served in a state penitentiary; the prisoner was entitled to habeas directing discharge from the penitentiary warden's custody.",
+      "where_in_sources": "sources/cap-151-242.txt (syllabus); sources/pet-brief.txt printed p.22 (characterizes Bonner as correcting place of confinement, physical p.34); sources/us-brief.txt printed p.40 (granting habeas where the sentencing court lacked jurisdiction).",
+      "why_viewer_needs_it": "Both sides rely on Bonner; the viewer needs its holding.",
+      "caution": "The petitioner and government describe Bonner differently, but both fit the syllabus. Do not pick one description.",
+      "uncertain": false
+    },
+    {
+      "id": "statute_PLRA_exhaustion",
+      "blocks": [
+        293,
+        293
+      ],
+      "time": "53:10",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "under the PLRA",
+      "kind": "statute",
+      "identification": "Prison Litigation Reform Act, 42 U.S.C. 1997e(a) (exhaustion of administrative remedies for suits 'with respect to prison conditions'). Text: sources/usc-42-1997e.txt.",
+      "where_in_sources": "sources/usc-42-1997e.txt; sources/us-brief.txt TOA (1997e(a), printed p.20); sources/pet-reply.txt TOA (42 U.S.C. 1997e).",
+      "why_viewer_needs_it": "Barnes says PLRA exhaustion is a statutory, less flexible rule than habeas exhaustion; the viewer needs the statute named.",
+      "caution": "Barnes's 'more rigid ... not subject to exceptions' is his characterization. Perttu (QP II) concerns PLRA exhaustion. Do not describe the PLRA rule as settled.",
+      "uncertain": false
+    },
+    {
+      "id": "term_release_barnes_definition",
+      "blocks": [
+        296,
+        296
+      ],
+      "time": "53:55",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "construe the word \"release\" broadly enough to encompass a move from incarceration to parole",
+      "kind": "term",
+      "identification": "Barnes's proposed rule statement: habeas applies if the prisoner is suing for 'release', which he would read to include a move from incarceration to parole; the key question is 'release' versus 'a change in the conditions of confinement'.",
+      "where_in_sources": "Transcript block 296; sources/cap-411-475.txt and sources/cap-408-471.txt (parole as release).",
+      "why_viewer_needs_it": "Kagan asks for his rule statement; the viewer should have his words.",
+      "caution": "Barnes's proposal is an amicus position; the petitioner's proposal is different (block 32). Show both, do not adopt either.",
+      "uncertain": false
+    },
+    {
+      "id": "comparison_state_vs_federal_remedies",
+      "blocks": [
+        287,
+        289
+      ],
+      "time": "51:42",
+      "speaker": "Justice (unattributed)",
+      "exact_words": "federal prisoners don't have the option of a 1983 action",
+      "kind": "comparison",
+      "identification": "State prisoners can sue under 42 U.S.C. 1983 for conditions claims; federal prisoners cannot (Bivens is the only analog, and the government says there is no Bivens claim). A justice speculates that the government's position is motivated by this difference.",
+      "where_in_sources": "Transcript blocks 287-290 (unattributed justice); sources/cap-403-388.txt (Bivens); sources/pet-brief.txt TOA (1983).",
+      "why_viewer_needs_it": "The state/federal remedy gap is the reason the question matters beyond this case.",
+      "caution": "Speculation about the government's motives (blocks 288-290). Do not card the motive as fact.",
+      "uncertain": true
+    },
+    {
+      "id": "term_equity_injunctive",
+      "blocks": [
+        286,
+        286
+      ],
+      "time": "51:28",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "sue in equity",
+      "kind": "term",
+      "identification": "Barnes's proposal: a federal prisoner can sue in equity for an injunction on conditions claims (an implied equitable cause of action). The petitioner's reply says the amicus 'breezily asserts' that an implied cause of action would be available in equity (sources/pet-reply.txt).",
+      "where_in_sources": "sources/pet-reply.txt (search 'in equity'; amicus discussion); sources/amicus-brief.txt (equity).",
+      "why_viewer_needs_it": "Barnes's answer to 'what cause of action would a federal prisoner use' depends on this term.",
+      "caution": "Contested by the petitioner's reply. Present as Barnes's position.",
+      "uncertain": true
+    },
+    {
+      "id": "statute_3624g2_prerelease_entitlement",
+      "blocks": [
+        273,
+        273
+      ],
+      "time": "47:08",
+      "speaker": "Justice Jackson",
+      "exact_words": "Congress has designated prerelease custody into a halfway house as an entitlement",
+      "kind": "statute",
+      "identification": "Jackson's reading: Congress made halfway-house transfer an entitlement. The statute says 'A prisoner shall be placed in prerelease custody as follows' (18 U.S.C. 3624(g)(2), sources/usc-18-3624.txt line 52), subject to the (g)(1) eligibility conditions. The word 'entitlement' is not in the statute.",
+      "where_in_sources": "sources/usc-18-3624.txt lines 41-52 ((g)(1) eligibility, (g)(2) 'shall be placed').",
+      "why_viewer_needs_it": "The 'shall be placed' language is the basis for the entitlement argument.",
+      "caution": "'Entitlement' is Jackson's word. The statute has eligibility conditions (g)(1) and BOP discretion over conditions (g)(4). Quote the 'shall be placed' text.",
+      "uncertain": false
+    },
+    {
+      "id": "fact_puerto_rico_removal_practice",
+      "blocks": [
+        138,
+        138
+      ],
+      "time": "27:48",
+      "speaker": "Justice Sotomayor",
+      "exact_words": "they do it all the time in Puerto Rico",
+      "kind": "fact",
+      "identification": "Sotomayor says BOP 'do[es] it all the time in Puerto Rico' by removing prisoners from Puerto Rico to other facilities. Not verified in the sources. The Puerto Rico transfer examples the petitioner mentions (block 37) are also not in the sources.",
+      "where_in_sources": "No source found (searched sources for 'Puerto Rico').",
+      "why_viewer_needs_it": "It is the main factual dispute about whether transfers are administratively hard (Barber, block 137).",
+      "caution": "Unverified factual claim by a justice. Do not card.",
+      "uncertain": true
+    },
+    {
+      "id": "fact_no_statutory_right_to_security_level",
+      "blocks": [
+        264,
+        264
+      ],
+      "time": "45:25",
+      "speaker": "Justice Sotomayor",
+      "exact_words": "no statutory rule that entitles you to a different level of security",
+      "kind": "fact",
+      "identification": "Sotomayor's premise: no statute gives a prisoner a right to a particular security level. The statute makes 'the prisoner's security designation' one factor in BOP's placement decisions (18 U.S.C. 3621(b), sources/usc-18-3621.txt), so security level is a BOP designation, not an entitlement. Meachum (no due process right to a particular prison) is the case law behind it.",
+      "where_in_sources": "sources/usc-18-3621.txt (subsection (b) factors); sources/cap-427-215.txt (Meachum).",
+      "why_viewer_needs_it": "Sotomayor argues the habeas line is different here because the statute grants an entitlement; a viewer needs the contrast.",
+      "caution": "Sotomayor's premise is her reading. Barnes disagrees (blocks 265-267). Present both sides.",
+      "uncertain": false
+    },
+    {
+      "id": "fact_due_process_interest_parole",
+      "blocks": [
+        269,
+        269
+      ],
+      "time": "46:21",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "due process interest in not having one's parole stripped",
+      "kind": "fact",
+      "identification": "Barnes says this Court's cases recognize a due process interest in not having parole or supervised release revoked without process. He names no case. Likely candidates in the sources: Morrissey v. Brewer (parole revocation) and United States v. Haymond, 588 U.S. 634 (2019) (supervised release revocation; cited in sources/amicus-brief.txt TOA and line 1142).",
+      "where_in_sources": "sources/amicus-brief.txt line 1142 (Haymond, 588 U.S. at 652); sources/amicus-brief.txt TOA (Haymond, printed p.25); sources/cap-408-471.txt (Morrissey).",
+      "why_viewer_needs_it": "Barnes's 'pernicious' due-process concern rests on this line of cases.",
+      "caution": "Barnes names no case; the Haymond and Morrissey links are my inference from the sources. Mark uncertain on screen.",
+      "uncertain": true
+    },
+    {
+      "id": "comparison_prerelease_vs_supervised_sharper_line",
+      "blocks": [
+        275,
+        276
+      ],
+      "time": "47:36",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "a sharper line between prerelease custody on the one hand and supervised release on the other",
+      "kind": "comparison",
+      "identification": "Barnes's point: Congress drew a line between prerelease custody and general imprisonment, and a sharper one between prerelease custody and supervised release. Prerelease custody remains under BOP control; supervised release is under probation and the sentencing court (see candidates on blocks 243-244 and 192-193).",
+      "where_in_sources": "sources/usc-18-3624.txt lines 52-70 (prerelease custody) and sources/usc-18-3583.txt line 22 (supervised release modification).",
+      "why_viewer_needs_it": "The three-way comparison (prison, prerelease custody, supervised release) is the structure of Barnes's argument.",
+      "caution": "Contested: Hansford's view is that prerelease custody is release and comparable to parole. Present the distinctions as Barnes's.",
+      "uncertain": false
+    },
+    {
+      "id": "term_jurisdictional_barnes",
+      "blocks": [
+        278,
+        278
+      ],
+      "time": "48:57",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "Some lower courts have treated this issue of whether a claim sounds in habeas as",
+      "kind": "term",
+      "identification": "Whether a claim 'sounds in habeas' is jurisdictional (subject-matter) or merits. Barnes says some lower courts treat it as jurisdictional, which is hard to square with the Court's recent categorization cases; he cites no specific case in this passage.",
+      "where_in_sources": "Transcript blocks 143 and 277-279; sources/us-brief.txt (no 'jurisdictional' match); sources/pet-reply.txt Sinochem discussion (printed p.20-21).",
+      "why_viewer_needs_it": "Determines whether the Court may decide the QP before the 3621(b) bar (Sinochem).",
+      "caution": "Contested. Barber says it is jurisdictional (block 143); Barnes says that is hard to reconcile with recent cases (block 278). Present both.",
+      "uncertain": true
+    },
+    {
+      "id": "term_conditions_of_confinement_claims",
+      "blocks": [
+        283,
+        284
+      ],
+      "time": "50:13",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "conditions-of-confinement claims",
+      "kind": "term",
+      "identification": "Claims challenging the conditions (not the duration) of confinement, such as overcrowding or food; these go under 42 U.S.C. 1983 for states and Bivens or equitable relief for federal prisoners. Barnes says this claim belongs on the conditions side. The term appears in the sources (us-brief, pet-brief, pet-app, amicus-brief, pet-reply, us-reply, Preiser and Dotson CAP texts).",
+      "where_in_sources": "sources/cap-411-475.txt and sources/cap-544-74.txt (conditions vs duration); sources/us-brief.txt (conditions of confinement, generally).",
+      "why_viewer_needs_it": "The 'conditions' side of the line is the key label; the viewer needs it defined against 'duration'.",
+      "caution": "Barnes classifies this claim as a conditions claim; the petitioner says it is a duration-type (level-of-custody) claim. Present the label as contested.",
+      "uncertain": false
+    },
+    {
+      "id": "comparison_judge_made_vs_statutory_exhaustion",
+      "blocks": [
+        292,
+        293
+      ],
+      "time": "52:49",
+      "speaker": "Brian W. Barnes",
+      "exact_words": "judge-made doctrine in the context of habeas",
+      "kind": "comparison",
+      "identification": "Exhaustion in federal habeas is a judge-made doctrine with exceptions; PLRA exhaustion under 42 U.S.C. 1997e(a) is statutory and, Barnes says, less flexible.",
+      "where_in_sources": "sources/usc-42-1997e.txt; sources/cap-562-521.txt (PLRA context in Skinner); sources/pet-app.txt physical p.16-18 (Maxwell's exhaustion discussion).",
+      "why_viewer_needs_it": "Barnes says the two regimes differ on exhaustion; the viewer needs the contrast with the PLRA candidate.",
+      "caution": "Barnes's 'more rigid' characterization is his. Perttu (QP II) turns on PLRA exhaustion and is not before the Court.",
+      "uncertain": false
+    },
+    {
+      "id": "comparison_bureau_of_prerelease_custody_hypothetical",
+      "blocks": [
+        305,
+        306
+      ],
+      "time": "55:21",
+      "speaker": "Justice Kagan",
+      "exact_words": "Bureau of Prerelease Custody",
+      "kind": "comparison",
+      "identification": "Kagan's hypothetical: Congress creates a separate agency to supervise prerelease custody. Barnes says that would 'make a difference'. Hypothetical only; no such agency exists in the statute.",
+      "where_in_sources": "sources/usc-18-3624.txt (BOP role in prerelease custody, (g)(4)-(5)).",
+      "why_viewer_needs_it": "Shows that the parties' comparison depends on which agency controls the custody.",
+      "caution": "Hypothetical posed by a justice; not a proposal. Do not present as a bill or statute.",
+      "uncertain": false
+    },
+    {
+      "id": "comparison_which_agency_controls",
+      "blocks": [
+        310,
+        311
+      ],
+      "time": "56:39",
+      "speaker": "Justice Kavanaugh",
+      "exact_words": "why it matters which agency in the executive branch is in control",
+      "kind": "comparison",
+      "identification": "Kavanaugh's question: why does it matter whether BOP or the Parole Commission controls the person? Barnes answers that BOP control is a factor, following Koray, that the person 'continues to serve a term of incarceration'.",
+      "where_in_sources": "Transcript blocks 310-311; sources/cap-515-50.txt (Koray, BOP control); sources/usc-18-3624.txt (BOP role in prerelease custody).",
+      "why_viewer_needs_it": "Kavanaugh's question shows the parole analogy turns on the agency that controls the person.",
+      "caution": "Contested. Barnes's answer is the amicus's; the petitioner says the parole comparison is strong despite the agency difference (block 352-353 areas).",
+      "uncertain": false
+    },
+    {
+      "id": "comparison_government_vs_petitioner_test",
+      "blocks": [
+        336,
+        337
+      ],
+      "time": "60:28",
+      "speaker": "Justice Kagan",
+      "exact_words": "embracing wholeheartedly Ms. Hansford's test",
+      "kind": "comparison",
+      "identification": "Kagan notes that the government's own proposed rule is narrower than the petitioner's test (us-reply: 'release from prison into the community', sources/us-reply.txt physical p.6). Barnes says the government may be content to lose inter-prison transfer cases because of Meachum (block 338).",
+      "where_in_sources": "sources/us-reply.txt physical p.6 (lines 178-183); sources/cap-427-215.txt (Meachum).",
+      "why_viewer_needs_it": "Explains why the government is on the petitioner's side in the result but argues a narrower rule.",
+      "caution": "Speculation about the government's reasons (Kagan blocks 336-337; Sotomayor's 'respect precedent' suggestion at block 340). Do not card a motive.",
+      "uncertain": true
+    },
+    {
+      "id": "fact_maxwell_continuing_supervised_release_issue",
+      "blocks": [
+        352,
+        352
+      ],
+      "time": "62:44",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "because of that supervised release issue",
+      "kind": "fact",
+      "identification": "Hansford says Maxwell will keep litigating the supervised-release issue if he is released to a halfway house. This ties the supervised-release theory (block 17-18) to the mootness argument.",
+      "where_in_sources": "Transcript blocks 17-18 and 352; sources/pet-reply.txt printed p.21-22 (supervised-release theory).",
+      "why_viewer_needs_it": "Mootness hinges on whether a live stake remains after release.",
+      "caution": "Contested (see fact_supervised_release_theory).",
+      "uncertain": false
+    },
+    {
+      "id": "term_heartland_habeas",
+      "blocks": [
+        354,
+        354
+      ],
+      "time": "63:38",
+      "speaker": "Masha G. Hansford",
+      "exact_words": "heartland habeas claim",
+      "kind": "term",
+      "identification": "'Heartland' habeas claim: Hansford's term for a claim in the core of the writ, meaning a claim that the custodian lacks lawful authority to hold the prisoner. Same idea as the 'core of habeas corpus' (Preiser, sources/cap-411-475.txt).",
+      "where_in_sources": "sources/cap-411-475.txt ('core of habeas corpus'); Transcript blocks 205, 233, 354.",
+      "why_viewer_needs_it": "The 'core' label is used by both sides; the viewer hears 'core', 'heartland' and 'core habeas' as the same idea.",
+      "caution": "Advocacy label. Card the Preiser 'core of habeas corpus' phrase rather than 'heartland'.",
+      "uncertain": false
+    }
+  ],
+  "read_aloud": [
+    {
+      "block": 4,
+      "time": "0:26",
+      "speaker": "Masha G. Hansford",
+      "verbatim": "in custody in violation of the laws of the United States",
+      "note": "Hansford quotes the habeas clause. The statute reads 'in custody in violation of the Constitution or laws or treaties of the United States' (usc-28-2241.txt line 15). Quote the statute, not the spoken version."
+    },
+    {
+      "block": 11,
+      "time": "2:32",
+      "speaker": "Masha G. Hansford",
+      "verbatim": "a designation of a place of imprisonment under this subsection is not reviewable in any court",
+      "note": "Hansford's paraphrase of 3621(b)'s final sentence; the statute says 'by any court'."
+    },
+    {
+      "block": 58,
+      "time": "13:13",
+      "speaker": "Justice Sotomayor",
+      "verbatim": "quantum change",
+      "note": "Sotomayor quotes Dotson concurrence language (Scalia, J., concurring; see cap-544-74.txt). Verbatim match."
+    },
+    {
+      "block": 92,
+      "time": "17:46",
+      "speaker": "Kevin J. Barber",
+      "verbatim": "the essence of parole is release from prison before the completion of sentence",
+      "note": "Barber recites Morrissey v. Brewer, 408 U.S. 471 (cap-408-471.txt). Matches the opinion; Barber introduces it with 'it said'."
+    },
+    {
+      "block": 109,
+      "time": "21:52",
+      "speaker": "Justice Kagan",
+      "verbatim": "reduce the level of custody",
+      "note": "Kagan quotes the phrase Skinner (562 U.S. at 534) took from Dotson's Scalia concurrence (cap-562-521.txt: 'nor reduc[e] the level of custody'). Verbatim match of the spoken phrase."
+    },
+    {
+      "block": 125,
+      "time": "25:17",
+      "speaker": "Justice Sotomayor",
+      "verbatim": "designate the place of prisoner's imprisonment under",
+      "note": "Sotomayor quotes 3621(b). The statute says 'designate the place of the prisoner's imprisonment' (usc-18-3621.txt); she says 'under that subsection' where the statute says 'under this subsection'."
+    },
+    {
+      "block": 324,
+      "time": "59:22",
+      "speaker": "Justice Jackson",
+      "verbatim": "The prisoner shall be released by the Bureau of Prisons on the date of the expiration of the prisoner's term of imprisonment, less any time credited toward the service of the prisoner's sentence",
+      "note": "Jackson reads 3624(a) aloud. The statute begins 'A prisoner' and continues 'as provided in subsection (b)'. Use the statute's text on screen."
+    }
+  ],
+  "notes": [
+    "Speaker labels: 'Kevin J. Barber' (blocks 79-116 etc.) is the government's argument, Assistant to the Solicitor General per docket.json; 'Brian W. Barnes' is the Court-appointed amicus (docket.json; sources/ja.txt cover). Both names are real and consistent with the docket; 'Barber' is not a mishearing of 'Barnes'.",
+    "Unattributed speaker 'Justice :' blocks in transcript.txt: 19, 39, 41, 154, 156, 157, 158, 159, 178, 179, 281, 287, 288, 289, 290. From Barber's replies, blocks 158-159 and 178 appear to be Justice Alito (his answers at blocks 160 and 180 address 'Justice Alito'). Others are unknown; do not attribute without the audio.",
+    "Warden: the transcript and JA say 'Warden' without a name. The docket lists the respondent as Sandra Dinis, Acting Warden (substituted July 28, 2026 for Albert Thomas III, per docket.json and sources/qp.txt).",
+    "Mid-run, new files appeared under sources/ (usc-18-3621/3624/3632/3583/751/2241/1997e .txt, cap-*.txt and cap/ metadata, jgg.txt, perttu.txt, jones-hendrix.txt, several PDFs). I used them for statute and case text in this pass. Treat them as provided and check the originals if it matters.",
+    "Housekeeping: while setting up the scan I briefly created an empty directory .scratch inside the project folder and removed it. Scratch work is in the session scratchpad.",
+    "Block 167-168: Barber concedes the government did not raise mootness or 3621(b) at cert; the BIO (sources/bio.txt) contains no 3621 or mootness references, consistent with that concession.",
+    "Block 222 ('We did, in fact, raise it in this case in the district court'): not confirmed. The JA shows the petitioner's 3621(b)-factor grounds but not the judicial-review bar. Flag as unverified.",
+    "Block 138 and 37: Puerto Rico examples are not in the sources. Keep them out of cards unless located.",
+    "Block 196: the government's brief describes January 22, 2027 as the projected eligibility date for transfer, while Barber calls it a 'projected release date'. Card the brief's wording.",
+    "Block 136: Osorio-Calderon's facts as described by Barber are unverified; the citation is verified in the government's brief and reply.",
+    "Block 281 (unattributed justice, 'Would it matter if a federal prisoner could bring a Bivens claim...') revisits the Bivens question from block 30; Barnes answers at 282-283 that the government's view is there is no vehicle because of 3621(b).",
+    "Block 340: Sotomayor's 'respect precedent' suggestion and block 338 (Barber) about Meachum are speculation about the government's reasons; not carded.",
+    "Block 262 (Barnes): prison camps 'look ... quite similar to the typical halfway house'. This is his factual assertion and is not verified in the sources.",
+    "Block 157-159 (unattributed, read as Alito from Barber's replies): the justice says the 'release bar' might bar all these claims, making the question academic. Use the speaker label 'Justice Alito (inferred)' if carded.",
+    "Block 178-179 (unattributed): Justice Alito (inferred from Barber's answer 'No, Justice Alito', block 180) asks whether a DIG can be used for 'buyer's regret'."
+  ]
+}

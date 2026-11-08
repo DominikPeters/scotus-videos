@@ -1,0 +1,2396 @@
+[
+  {
+    "ID": 63752,
+    "name": "Bowe v. United States",
+    "href": "https://api.oyez.org/cases/2025/24-5438",
+    "view_count": 0,
+    "docket_number": "24-5438",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1737093600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55601"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1760418000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55717"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1767938400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55768"
+      }
+    ],
+    "question": "<p>1. Does a rule requiring dismissal of repeat claims in state prisoner habeas petitions also apply to repeat claims in federal prisoner motions to vacate their sentences?</p>\n<p>2. Does the Court have jurisdiction to review lower court decisions allowing or denying federal prisoners permission to file repeat challenges to their sentences?</p>\n<p>\u00a0</p>\n<p>\u00a0</p>\n<p>\u00a0</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28070"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that the statutory bar in 28 U.S.C. \u00a7 2244(b)(3)(E) that prohibits certiorari review of court of appeals decisions on second or successive habeas applications does not apply to federal prisoners, and \u00a7 2244(b)(1)\u2019s bar on claims previously presented does not apply to federal prisoners\u2019 motions under \u00a7 2255(h).",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-5438/"
+  },
+  {
+    "ID": 63773,
+    "name": "Berk v. Choy",
+    "href": "https://api.oyez.org/cases/2025/24-440",
+    "view_count": 0,
+    "docket_number": "24-440",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1741582800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55626"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1759726800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55712"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1768888800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55779"
+      }
+    ],
+    "question": "<p>Must a Delaware law providing that a complaint must be dismissed unless it is accompanied by an expert affidavit be enforced by a federal court sitting in diversity?</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28074"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that a Delaware law providing that a complaint must be dismissed unless it is accompanied by an expert affidavit conflicts with a valid Federal Rule of Civil Procedure and thus does not apply in a federal court sitting in diversity.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-440/"
+  },
+  {
+    "ID": 63774,
+    "name": "Chiles v. Salazar",
+    "href": "https://api.oyez.org/cases/2025/24-539",
+    "view_count": 0,
+    "docket_number": "24-539",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1741582800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55627"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1759813200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55713"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1774933200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55809"
+      }
+    ],
+    "question": "<p>Does a Colorado law banning \u201cconversion therapy\u201d\u2014i.e., attempts to \u201cconvert\u201d someone\u2019s sexual orientation or gender identity\u2014violate the Free Speech Clause of the First Amendment?</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28075"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that a Colorado law banning \u201cconversion therapy\u201d\u2014i.e., attempts to \u201cconvert\u201d someone\u2019s sexual orientation or gender identity\u2014violates the Free Speech Clause of the First Amendment.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-539/"
+  },
+  {
+    "ID": 63775,
+    "name": "Barrett v. United States",
+    "href": "https://api.oyez.org/cases/2025/24-5774",
+    "view_count": 0,
+    "docket_number": "24-5774",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1740981600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55628"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1759813200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55714"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1768370400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55769"
+      }
+    ],
+    "question": "<p>May a defendant who commits a single act that violates two statutory provisions be convicted under both provisions?</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28076"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that a defendant who commits a single act that violates both 18 U.S.C. \u00a7924(c)(1)(A)(i)\u2014using, carrying, or possessing a firearm during a federal crime of violence or drug trafficking crime\u2014and \u00a7924(j)\u2014which applies when such a violation causes death\u2014may be convicted under only one of those provisions, not both.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-5774/"
+  },
+  {
+    "ID": 63780,
+    "name": "Villarreal v. Texas",
+    "href": "https://api.oyez.org/cases/2025/24-557",
+    "view_count": 0,
+    "docket_number": "24-557",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1744002000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55632"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1759726800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55711"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1771999200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55786"
+      }
+    ],
+    "question": "<p>Does a trial court violate a defendant\u2019s Sixth Amendment right to counsel by preventing the defendant and his lawyer from discussing the defendant\u2019s testimony during an overnight break in the trial?</p>\n<p>\u00a0</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28077"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that a trial court does not violate a defendant\u2019s Sixth Amendment right to counsel by narrowly banning discussion of the defendant\u2019s ongoing testimony with counsel during an overnight recess.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-557/"
+  },
+  {
+    "ID": 63781,
+    "name": "Ellingburg v. United States",
+    "href": "https://api.oyez.org/cases/2025/24-482",
+    "view_count": 0,
+    "docket_number": "24-482 ",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1744002000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55633"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1760418000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55718"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1768888800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55778"
+      }
+    ],
+    "question": "<p>Is criminal restitution under the Mandatory Victim Restitution Act (MVRA) penal for purposes of the Ex Post Facto Clause?</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28078"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that criminal restitution under the Mandatory Victim Restitution Act (MVRA) is penal for purposes of the Ex Post Facto Clause.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-482/"
+  },
+  {
+    "ID": 63782,
+    "name": "United States Postal Service v. Konan",
+    "href": "https://api.oyez.org/cases/2025/24-351",
+    "view_count": 0,
+    "docket_number": "24-351",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1745211600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55635"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1759899600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55716"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1771912800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55784"
+      }
+    ],
+    "question": "<p>Does a claim that Postal Service employees intentionally refused to deliver mail to a designated address arise out of \u201cthe loss\u201d or \u201cmiscarriage\u201d of postal matter under the Federal Tort Claims Act\u2019s postal-matter exception?</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28079"
+    },
+    "term": "2025",
+    "description": "The Federal Tort Claims Act's postal exception \u2014 which bars lawsuits against the government for claims \"arising out of the loss, miscarriage, or negligent transmission of letters or postal matter\" \u2014 shields the United States from liability even when postal workers intentionally fail to deliver mail.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-351/"
+  },
+  {
+    "ID": 63786,
+    "name": "Hain Celestial Group, Inc. v. Palmquist",
+    "href": "https://api.oyez.org/cases/2025/24-724",
+    "view_count": 0,
+    "docket_number": "24-724",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1745816400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55644"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1762236000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55724"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1771912800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55785"
+      }
+    ],
+    "question": "<p>Must a federal court\u2019s final judgment be set aside if the case did not have complete diversity when it was removed from state court, and can a plaintiff block diversity jurisdiction by updating the complaint after removal to include a valid claim against a nondiverse defendant?</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28080"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that a federal court cannot create jurisdiction over a lawsuit through its own erroneous ruling. When an appellate court reverses a district court's mistaken dismissal of a party who destroyed complete diversity, the jurisdictional defect never disappears and any trial verdict must be thrown out.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-724/"
+  },
+  {
+    "ID": 63790,
+    "name": "Landor v. Louisiana Department of Corrections",
+    "href": "https://api.oyez.org/cases/2025/23-1197",
+    "view_count": 0,
+    "docket_number": "23-1197 ",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1750654800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55683"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1762754400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55737"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1782190800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55849"
+      }
+    ],
+    "question": "<p>May an individual sue a government official in his individual capacity for damages for violations of the Religious Land Use and Institutionalized Persons Act (RLUIPA)?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28082"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that an individual may not sue a government official in his individual capacity for damages for violations of the Religious Land Use and Institutionalized Persons Act (RLUIPA).",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/609/23-1197/"
+  },
+  {
+    "ID": 63791,
+    "name": "M & K Employee Solutions, LLC v. Trustees of the IAM National Pension Fund",
+    "href": "https://api.oyez.org/cases/2025/23-1209",
+    "view_count": 0,
+    "docket_number": "23-1209 ",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1751259600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55684"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1768888800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55773"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1779339600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55832"
+      }
+    ],
+    "question": "<p>When a pension plan calculates how much a departing employer owes \u201cas of the end of the plan year,\u201d must the plan use the financial assumptions it had already adopted by that date, or can it use new assumptions created after that date if they are based on information that was available at year-end?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28083"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that under the Employee Retirement Income Security Act (ERISA), pension plans may calculate an employer's withdrawal liability using actuarial assumptions selected after the statutory measurement date (the last day of the plan year before the employer's withdrawal).",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/23-1209/"
+  },
+  {
+    "ID": 63792,
+    "name": "Cox Communications, Inc. v. Sony Music Entertainment",
+    "href": "https://api.oyez.org/cases/2025/24-171",
+    "view_count": 0,
+    "docket_number": "24-171",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1751259600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55685"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1764568800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55745"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1774414800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55810"
+      }
+    ],
+    "question": "<p>Can an internet service provider be held liable, and found to have acted willfully, for copyright infringement just because it knew users were infringing and did not terminate their access?</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28084"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that an internet service provider does not commit \"contributory copyright infringement\" \u2014 meaning legal responsibility for copyright violations committed by someone else \u2014 simply by continuing to provide internet service to subscribers it knows have been flagged for piracy.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-171/"
+  },
+  {
+    "ID": 63793,
+    "name": "FS Credit Opportunities Corp. v. Saba Capital Master Fund, Ltd.",
+    "href": "https://api.oyez.org/cases/2025/24-345",
+    "view_count": 0,
+    "docket_number": "24-345",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1751259600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55686"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1765346400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55752"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1781154000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55843"
+      }
+    ],
+    "question": "<p>Does Section 47(b) of the ICA, 15 U.S.C. \u00a7 80a-46 (b), create an implied private right of action?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28085"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that Section 47(b) of the Investment Company Act (ICA) does not give private individuals the power to sue for rescission when they allege a contract violates the Act; that enforcement power belongs to the Securities and Exchange Commission.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/24-345/"
+  },
+  {
+    "ID": 63794,
+    "name": "Fernandez v. United States",
+    "href": "https://api.oyez.org/cases/2025/24-556",
+    "view_count": 0,
+    "docket_number": "24-556 ",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1748322000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55687"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1762927200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55739"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1779944400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55834"
+      }
+    ],
+    "question": "<p>Can a federal prisoner use the compassionate release law to get their sentence reduced based on claims that they might be innocent or that their sentence is unfair, even though these same claims would normally have to be raised through habeas corpus?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28086"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that a prisoner who wants to challenge the validity of his conviction after sentencing must use the federal habeas corpus statute, 28 U.S.C. \u00a72255\u2014not the compassionate release statute, 18 U.S.C. \u00a73582",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/24-556/"
+  },
+  {
+    "ID": 63795,
+    "name": "Bost v. Illinois State Board of Elections",
+    "href": "https://api.oyez.org/cases/2025/24-568",
+    "view_count": 0,
+    "docket_number": "24-568",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1748840400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55688"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1759899600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55715"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1768370400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55767"
+      }
+    ],
+    "question": "<p>Do federal candidates have Article III standing to challenge state laws that allow mail-in ballots to be received and counted for two weeks after Election Day based on claims that such laws dilute their votes and force them to incur additional campaign expenses for extended ballot monitoring?</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28087"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that a candidate for elected office has standing under Article III of the Constitution to challenge election rules that govern the counting of votes in his election, regardless of whether those rules harm his electoral prospects or increase the cost of his campaign.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-568/"
+  },
+  {
+    "ID": 63796,
+    "name": "National Republican Senatorial Committee v. Federal Election Commission",
+    "href": "https://api.oyez.org/cases/2025/24-621",
+    "view_count": 0,
+    "docket_number": "24-621",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1751259600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55689"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1765260000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55750"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1782795600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55873"
+      }
+    ],
+    "question": "<p>Do FECA limits on coordinated party expenditures in 52 U.S.C. \u00a7 30116 violate the First Amendment, either on their face or as applied to party spending in connection with \u201cparty coordinated communications\u201d?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28088"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that limits on coordinated party expenditures in 52 U.S.C. \u00a7 30116 violate the First Amendment.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/609/24-621/"
+  },
+  {
+    "ID": 63797,
+    "name": "Case v. Montana",
+    "href": "https://api.oyez.org/cases/2025/24-624",
+    "view_count": 0,
+    "docket_number": "24-624",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1748840400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55690"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1760504400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55720"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1768370400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55770"
+      }
+    ],
+    "question": "<p>May law enforcement enter a home without a search warrant based on less than probable cause that an emergency is occurring?</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28089"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that law enforcement may enter a home without a search warrant when they have an objectively reasonable basis for believing that an occupant is seriously injured or faces imminent serious injury.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-624/"
+  },
+  {
+    "ID": 63798,
+    "name": "The GEO Group, Inc. v. Menocal",
+    "href": "https://api.oyez.org/cases/2025/24-758",
+    "view_count": 0,
+    "docket_number": "24-758",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1748840400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55691"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1762754400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55738"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1771999200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55787"
+      }
+    ],
+    "question": "<p>Is a pretrial order denying a government contractor's claim to protection under Yearsley v. W.A. Ross Construction Co. immediately appealable under the collateral-order doctrine?</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28090"
+    },
+    "term": "2025",
+    "description": "A case in which the Court will decide whether an order denying a government contractor\u2019s claim of derivative sovereign immunity under Yearsley v. W.A. Ross Construction Co. is immediately appealable under the collateral-order doctrine, which permits interlocutory appeals of certain non-final orders that conclusively determine important issues separate from the merits.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-758/"
+  },
+  {
+    "ID": 63799,
+    "name": "Urias-Orellana v. Bondi",
+    "href": "https://api.oyez.org/cases/2025/24-777",
+    "view_count": 0,
+    "docket_number": "24-777 ",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1751259600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55692"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1764568800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55746"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1772604000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55797"
+      }
+    ],
+    "question": "<p>Must a federal court of appeals defer to the BIA\u2019s judgment that a given set of undisputed facts does not demonstrate mistreatment severe enough to constitute \u201cpersecution\u201d under 8 U.S.C. \u00a7 1101(a)(42)?</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28091"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that a federal court of appeals must defer to the Board of Immigration Appeals\u2019 judgment that a given set of undisputed facts does not demonstrate mistreatment severe enough to constitute \u201cpersecution\u201d under 8 U.S.C. \u00a7 1101(a)(42).",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-777/"
+  },
+  {
+    "ID": 63800,
+    "name": "First Choice Women's Resource Centers, Inc. v. Platkin",
+    "href": "https://api.oyez.org/cases/2025/24-781",
+    "view_count": 0,
+    "docket_number": "24-781",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1750050000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55693"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1764655200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55747"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1777438800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55821"
+      }
+    ],
+    "question": "<p>When the recipient of a state investigatory subpoena demonstrates an objectively reasonable chill of its First Amendment rights, does a federal court lack jurisdiction to hear the case because those constitutional claims must first be resolved in state court?</p>\n",
+    "citation": {
+      "volume": "608",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28092"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that a government subpoena demanding a private organization's donor records inflicts an immediate injury to First Amendment freedom of association rights, allowing the organization to challenge the demand in federal court before it is enforced.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/24-781/"
+  },
+  {
+    "ID": 63801,
+    "name": "Enbridge Energy, LP v. Nessel",
+    "href": "https://api.oyez.org/cases/2025/24-783",
+    "view_count": 0,
+    "docket_number": "24-783",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1751259600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55694"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1771912800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55790"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1776834000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55822"
+      }
+    ],
+    "question": "<p>Do district courts have the authority to excuse the thirty-day procedural time limit for removal in 28 U.S.C. \u00a7 1446(b)(1)?</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": "608",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28093"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that the thirty-day deadline for moving a lawsuit from state court to federal court is a mandatory rule that judges cannot extend for fairness reasons.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/24-783/"
+  },
+  {
+    "ID": 63802,
+    "name": "Coney Island Auto Parts Unlimited, Inc. v. Burton",
+    "href": "https://api.oyez.org/cases/2025/24-808",
+    "view_count": 0,
+    "docket_number": "24-808",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1749186000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55695"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1762236000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55723"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1768888800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55780"
+      }
+    ],
+    "question": "<p>Does Federal Rule of Civil Procedure 60(c)(1) impose any time limit to set aside a void default judgment for lack of personal jurisdiction?</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28094"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that a motion to set aside a judgment as void under Federal Rule of Civil Procedure 60(b)(4) must be filed within a \"reasonable time\" as required by Rule 60(c)(1).",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-808/"
+  },
+  {
+    "ID": 63803,
+    "name": "Chevron USA Inc. v. Plaquemines Parish, Louisiana",
+    "href": "https://api.oyez.org/cases/2025/24-813",
+    "view_count": 0,
+    "docket_number": "24-813",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1750050000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55696"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1768197600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55763"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1776402000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55823"
+      }
+    ],
+    "question": "<p>Can an oil company being sued in state court for its World War II-era oil production move its case to federal court simply because the oil was produced to meet federal government contracts for wartime fuel\u2014even if the contract did not specifically direct how to produce the oil?</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": "608",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28095"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that the federal officer removal statute allows a defendant to move a state-court suit to federal court if the challenged conduct has a plausible and close relationship to the performance of federal duties.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/24-813/"
+  },
+  {
+    "ID": 63804,
+    "name": "Rutherford v. United States",
+    "href": "https://api.oyez.org/cases/2025/24-820",
+    "view_count": 0,
+    "docket_number": "24-820",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1749186000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55697"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1762927200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55740"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1779944400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55836"
+      }
+    ],
+    "question": "<p>May a district court, when evaluating a motion for compassionate release under 18 U.S.C. \u00a7 3582(c)(1)(A)(i), consider as an \u201cextraordinary and compelling reason\u201d the fact that a defendant is serving a sentence substantially longer than what would be imposed today due to the First Step Act\u2019s prospective changes to mandatory minimum penalties, particularly where the disparity amounts to decades of additional imprisonment?</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28096"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that when Congress makes a sentencing reduction non-retroactive, the gap between an old sentence and what a defendant would receive under the new law cannot qualify as an \"extraordinary and compelling reason\" to grant compassionate release under 18 U.S.C. \u00a73582(c)(1)(A)(i). ",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/24-820/"
+  },
+  {
+    "ID": 63805,
+    "name": "Hamm v. Smith",
+    "href": "https://api.oyez.org/cases/2025/24-872",
+    "view_count": 0,
+    "docket_number": "24-872",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1749186000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55698"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1765346400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55751"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1779339600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55831"
+      }
+    ],
+    "question": "<p>When a capital defendant has taken multiple IQ tests with varying results, how should courts evaluate the cumulative effect of those scores to determine whether the defendant has significantly subaverage intellectual functioning under <em>Atkins v. Virginia</em>?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28097"
+    },
+    "term": "2025",
+    "description": "A case in which the Court was asked to decide whether and how courts may consider the cumulative effect of multiple IQ scores in assessing an Atkins claim.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/24-872/"
+  },
+  {
+    "ID": 63806,
+    "name": "Hencely v. Fluor Corporation",
+    "href": "https://api.oyez.org/cases/2025/24-924",
+    "view_count": 0,
+    "docket_number": "24-924",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1748840400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55699"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1762149600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55722"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1776834000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55824"
+      }
+    ],
+    "question": "<p>Does Boyle v. United Technologies Corporation, which immunized government contractors from liability under certain circumstances, extend to preempt state tort claims against a government contractor for conduct that breached its contract and violated military orders?</p>\n",
+    "citation": {
+      "volume": "608",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28098"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that federal law does not block state-law lawsuits against military contractors for actions that the government neither ordered nor authorized.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/24-924/"
+  },
+  {
+    "ID": 63807,
+    "name": "Rico v. United States",
+    "href": "https://api.oyez.org/cases/2025/24-1056",
+    "view_count": 0,
+    "docket_number": "24-1056",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1751259600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55700"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1762149600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55721"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1774414800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55803"
+      }
+    ],
+    "question": "<p>Does the fugitive-tolling doctrine apply in the context of supervised release?</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28099"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that the Sentencing Reform Act does not permit a defendant's term of supervised release to automatically extend when the defendant absconds.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-1056/"
+  },
+  {
+    "ID": 63808,
+    "name": "Louisiana v. Callais",
+    "href": "https://api.oyez.org/cases/2025/24-109",
+    "view_count": 0,
+    "docket_number": "24-109",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1730700000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55705"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1742792400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55706"
+      },
+      {
+        "event": "Reargued",
+        "dates": [
+          1760504400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55719"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1777438800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55825"
+      }
+    ],
+    "question": "<p>Does Louisiana\u2019s creation of a second majority-Black congressional district constitute unconstitutional racial gerrymandering, even when drawn in response to a federal court finding that the state\u2019s prior single majority-Black district likely violated Section 2 of the Voting Rights Act?</p>\n<p>\u00a0</p>\n<p>\u00a0</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28100"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that Louisiana\u2019s creation of a second majority-Black congressional district constitutes unconstitutional racial gerrymandering, even when drawn in response to a federal court finding that the state\u2019s prior single majority-Black district likely violated Section 2 of the Voting Rights Act.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/2024/24-109/"
+  },
+  {
+    "ID": 63810,
+    "name": "Galette v. New Jersey Transit  Corp.",
+    "href": "https://api.oyez.org/cases/2025/24-1021",
+    "view_count": 0,
+    "docket_number": "24-1021",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1751518800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55707"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1768370400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55766"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1772604000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55798"
+      }
+    ],
+    "question": "<p>Is the New Jersey Transit Corporation an arm of the State of New Jersey for interstate sovereign immunity purposes?</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28102"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that the New Jersey Transit Corporation is not an arm of the State of New Jersey for interstate sovereign immunity purposes.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-1021/"
+  },
+  {
+    "ID": 63811,
+    "name": "Little v. Hecox",
+    "href": "https://api.oyez.org/cases/2025/24-38",
+    "view_count": 0,
+    "docket_number": "24-38",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1751518800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55708"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1768284000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55764"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1782795600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55874"
+      }
+    ],
+    "question": "<p>May a state, consistent with the Equal Protection Clause of the Fourteenth Amendment, categorically require sports participants to compete based on their biological sex, rather than gender identity?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28103"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that schools may limit women\u2019s and girls\u2019 sports teams to biological females under both Title IX and the Equal Protection Clause of the Fourteenth Amendment, and states may determine eligibility for female sports based on biological sex alone.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/2025/24-38/"
+  },
+  {
+    "ID": 63812,
+    "name": "Olivier v. City of Brandon, Mississippi",
+    "href": "https://api.oyez.org/cases/2025/24-993",
+    "view_count": 0,
+    "docket_number": "24-993",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1751518800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55709"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1764741600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55748"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1773982800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55796"
+      }
+    ],
+    "question": "<p>Does Heck v. Humphrey bar Section 1983 claims for purely prospective relief when the plaintiff has already been punished under the challenged law, and does that bar apply even if the plaintiff lacked access to federal habeas relief?</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28104"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that its decision in Heck v. Humphrey does not bar claims under 42 U.S.C. \u00a7 1983 seeking only prospective relief when the plaintiff has previously been punished under the challenged law.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-993/"
+  },
+  {
+    "ID": 63813,
+    "name": "West Virginia v. B.P.J.",
+    "href": "https://api.oyez.org/cases/2025/24-43",
+    "view_count": 0,
+    "docket_number": "24-43",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1751518800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55710"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1768284000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55765"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1782795600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55875"
+      }
+    ],
+    "question": "<p>Does Title IX or the Equal Protection Clause prohibit a state from assigning students to girls\u2019 and boys\u2019 sports teams based on their biological sex as determined at birth?</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28105"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that Title IX and the Equal Protection Clause permit states and schools to limit girls\u2019 and women\u2019s sports teams to biological females.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/609/24-43/"
+  },
+  {
+    "ID": 63816,
+    "name": "Learning Resources, Inc. v. Trump",
+    "href": "https://api.oyez.org/cases/2025/24-1287",
+    "view_count": 0,
+    "docket_number": "24-1287",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1757394000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55725"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1762322400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55726"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1771567200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55783"
+      }
+    ],
+    "question": "<p>Does the International Emergency Powers Act, 50 U.S.C. \u00a7 1701 (\u201cIEEPA\u201d), authorize the president to impose tariffs?</p>\n<p>\u00a0</p>\n<p>\u00a0</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": "607",
+      "page": null,
+      "year": "2026",
+      "href": "https://api.oyez.org/case_citation/case_citation/28106"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that the International Emergency Powers Act, 50 U.S.C. \u00a7 1701 (\u201cIEEPA\u201d), does not permit the president to impose tariffs.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/607/24-1287/"
+  },
+  {
+    "ID": 63820,
+    "name": "Flowers Foods, Inc. v. Brock ",
+    "href": "https://api.oyez.org/cases/2025/24-935",
+    "view_count": 0,
+    "docket_number": "24-935",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1760936400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55727"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1774414800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55802"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1779944400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55837"
+      }
+    ],
+    "question": "<p>Are workers who deliver locally goods that travel in interstate commerce\u2014but who do not transport the goods across borders nor interact with vehicles that cross borders\u2014\u201ctransportation workers\u201d \u201cengaged in foreign or interstate commerce\u201d for purposes of the exemption in Section 1 of the Federal Arbitration Act?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28107"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that a worker who handles goods on a purely intrastate (within one state) leg of a broader interstate journey qualifies for the Federal Arbitration Act's (FAA) \u00a71 exemption, even if the worker never personally crosses state lines or loads and unloads vehicles that do.",
+    "justia_url": null
+  },
+  {
+    "ID": 63821,
+    "name": "United States v. Hemani",
+    "href": "https://api.oyez.org/cases/2025/24-1234",
+    "view_count": 0,
+    "docket_number": "24-1234",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1760936400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55728"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1772431200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55792"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1781758800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55846"
+      }
+    ],
+    "question": "<p>Does a federal law that prohibits the possession of firearms by a person who \u201cis an unlawful user of or addicted to any controlled substance\u201d violate the respondent\u2019s Second Amendment right to bear arms?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28108"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that 18 U.S.C. \u00a7 922(g)(3), which prohibits the possession of firearms by a person who \u201cis an unlawful user of or addicted to any controlled substance,\u201d violates the Second Amendment as applied to the respondent.",
+    "justia_url": null
+  },
+  {
+    "ID": 63822,
+    "name": "Keathley v. Buddy Ayers Construction, Incorporated",
+    "href": "https://api.oyez.org/cases/2025/25-6",
+    "view_count": 0,
+    "docket_number": "25-6",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1760936400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55729"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1774328400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55800"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1781154000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55844"
+      }
+    ],
+    "question": "<p>May the doctrine of judicial estoppel be invoked to bar a plaintiff who fails to disclose a civil claim in bankruptcy filings from pursuing that claim simply because there is a potential motive for nondisclosure, regardless of whether there is evidence that the plaintiff in fact acted in bad faith?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28109"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that judicial estoppel does not automatically bar a debtor's undisclosed civil claim based solely on a potential motive to conceal it. Instead, courts must look to the totality of the circumstances to distinguish between an inadvertent mistake and intentional bad faith.",
+    "justia_url": null
+  },
+  {
+    "ID": 63823,
+    "name": "Trump v. Slaughter",
+    "href": "https://api.oyez.org/cases/2025/25-332",
+    "view_count": 0,
+    "docket_number": "25-332",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1758517200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55730"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1765173600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55749"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1785301200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55872"
+      }
+    ],
+    "question": "<p>Do the statutory removal protections for members of the Federal Trade Commission violate the separation of powers?</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28110"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that the statutory removal protections for members of the Federal Trade Commission violate the separation of powers and overruled Humphrey\u2019s Executor v. United States, 295 U.S. 602 (1935).",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/609/25-332/"
+  },
+  {
+    "ID": 63824,
+    "name": "Exxon Mobil Corp. v. Corporaci\u00f3n Cimex, S.A. (Cuba)",
+    "href": "https://api.oyez.org/cases/2025/24-699",
+    "view_count": 0,
+    "docket_number": "24-699",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1759467600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55731"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1771826400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55788"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1782190800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55850"
+      }
+    ],
+    "question": "<p>Does the Helms-Burton Act abrogate foreign sovereign immunity in cases against Cuban instrumentalities, even if the parties do not satisfy an exception under the Foreign Sovereign Immunities Act?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28111"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that the Helms-Burton Act strips Cuban government agencies and instrumentalities of their foreign sovereign immunity without requiring plaintiffs to separately satisfy any exception under the Foreign Sovereign Immunities Act (FSIA).",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/609/24-699/"
+  },
+  {
+    "ID": 63825,
+    "name": "Havana Docks Corporation v. Royal Caribbean Cruises, Ltd.",
+    "href": "https://api.oyez.org/cases/2025/24-983",
+    "view_count": 0,
+    "docket_number": "24-983",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1759467600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55732"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1771826400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55789"
+      }
+    ],
+    "question": "<p>Is the legal right to sue under Title III of the LIBERTAD Act tied to the confiscated property claim or the hypothetical, unexpired duration of the original property interest?</p>\n<p>\u00a0</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28112"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that under Title III of the Cuban Liberty and Democratic Solidarity Act, a company that once held any property interest in physical property that Cuba confiscated can sue anyone who later \"traffics\" in \u2014 that is, knowingly uses or commercially benefits from \u2014 that physical property, even if the company's original interest in it would have expired before the trafficking occurred.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/24-983/"
+  },
+  {
+    "ID": 63826,
+    "name": "Wolford v. Lopez",
+    "href": "https://api.oyez.org/cases/2025/24-1046",
+    "view_count": 0,
+    "docket_number": "24-1046 ",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1759467600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55733"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1768888800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55771"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1782363600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55854"
+      }
+    ],
+    "question": "<p>Does a law that makes it a crime for a licensed concealed carry permit holder to bring a handgun onto private property open to the public\u2014such as a store or restaurant\u2014unless the property owner gives \u201cexpress authorization\u201d violate the Second Amendment?</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28113"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that a Hawaii law that makes it a crime for a licensed concealed carry permit holder to bring a handgun onto private property open to the public\u2014such as a store or restaurant\u2014unless the property owner gives \"express authorization\" violates the Second Amendment.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/609/24-1046/"
+  },
+  {
+    "ID": 63827,
+    "name": "Hunter v. United States",
+    "href": "https://api.oyez.org/cases/2025/24-1063",
+    "view_count": 0,
+    "docket_number": "24-1063",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1760072400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55734"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1772517600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55793"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1781758800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55847"
+      }
+    ],
+    "question": "<p>1. Does an appeal waiver bar all claims except for ineffective assistance of counsel or a sentence exceeding the statutory maximum?\u00a0</p>\n<p>2. Does such a waiver become ineffective if the sentencing judge later tells the defendant they can appeal, and the government fails to object?</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28114"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that when a criminal defendant signs an appeal waiver as part of a plea agreement, that waiver becomes unenforceable if enforcing it would produce a miscarriage of justice.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/24-1063/"
+  },
+  {
+    "ID": 63828,
+    "name": "Montgomery v. Caribe Transport II, LLC",
+    "href": "https://api.oyez.org/cases/2025/24-1238",
+    "view_count": 0,
+    "docket_number": "24-1238",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1759467600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55735"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1772604000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55794"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1778734800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55833"
+      }
+    ],
+    "question": "<p>Does 49 U.S.C. \u00a7 14501(c) preempt a state common-law claim against a broker for negligently selecting a motor carrier or driver?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28115"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that 49 U.S.C. \u00a7 14501(c) does not preempt state negligent-hiring lawsuits against transportation brokers, because those claims fall within the law's built-in safety exception preserving state authority to regulate motor vehicle safety.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/24-1238/"
+  },
+  {
+    "ID": 63829,
+    "name": "Pung v. Isabella County",
+    "href": "https://api.oyez.org/cases/2025/25-95",
+    "view_count": 0,
+    "docket_number": "25-95",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1759467600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55736"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1771999200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55791"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1782190800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55852"
+      }
+    ],
+    "question": "<p>1. When the government takes property for tax debt, does the Fifth Amendment require compensation based on the property\u2019s true fair market value, or only on the lower amount it sold for at a tax foreclosure auction?</p>\n<p>2. Does the Eighth Amendment\u2019s Excessive Fines Clause prohibit the government from seizing and keeping a property worth far more than the small tax debt owed on it?</p>\n<p>\u00a0</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28116"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that when the government sells a property at a tax foreclosure auction, the Fifth Amendment's Takings Clause entitles the former owner only to the surplus proceeds, not the property's hypothetical fair market value.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/609/25-95/"
+  },
+  {
+    "ID": 63840,
+    "name": "Watson v. Republican National Committee",
+    "href": "https://api.oyez.org/cases/2025/24-1260",
+    "view_count": 0,
+    "docket_number": "24-1260",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1762754400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55741"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1774242000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55799"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1782709200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55876"
+      }
+    ],
+    "question": "<p>Do the federal election-day statutes preempt a state law that allows ballots that are cast by federal election day to be received by election officials after that day?</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28119"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that federal election-day statutes, which set the date on which voters must cast their ballots, do not require ballots to physically arrive at election offices by that date and therefore do not preempt state laws that count absentee ballots postmarked by election day but received afterward.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/609/24-1260/"
+  },
+  {
+    "ID": 63843,
+    "name": "Noem v. Al Otro Lado",
+    "href": "https://api.oyez.org/cases/2025/25-5",
+    "view_count": 0,
+    "docket_number": "25-5",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1763359200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55744"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1774328400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55801"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1782363600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55869"
+      }
+    ],
+    "question": "<p>Does a noncitizen who is stopped on the Mexican side of the U.S.-Mexico border \u201carrive[] in the United States\u201d within the meaning of Immigration and Nationality Act?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28122"
+    },
+    "term": "2025",
+    "description": "A case in which the Court will decide whether a noncitizen who is stopped on the Mexican side of the U.S.-Mexico border \u201carrives in the United States\u201d within the meaning of Immigration and Nationality Act, 8 U.S.C. 1101 et seq., which provides that a noncitizen who \u201carrives in the United States\u201d may apply for asylum and must be inspected by an immigration officer.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/609/25-5/"
+  },
+  {
+    "ID": 63848,
+    "name": "Doe v. Dynamic Physical Therapy, LLC",
+    "href": "https://api.oyez.org/cases/2025/25-180",
+    "view_count": 0,
+    "docket_number": "25-180",
+    "timeline": null,
+    "question": "<p>\u00a0</p>\n<p>\u00a0</p>\n\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28123"
+    },
+    "term": "2025",
+    "description": null,
+    "justia_url": null
+  },
+  {
+    "ID": 63856,
+    "name": "Jules v. Andre Balazs Properties",
+    "href": "https://api.oyez.org/cases/2025/25-83",
+    "view_count": 0,
+    "docket_number": "25-83",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1764914400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55753"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1774846800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55812"
+      }
+    ],
+    "question": "<p>Does a federal court that initially exercises jurisdiction and stays a case pending arbitration maintain jurisdiction over a post-arbitration Section 9 or 10 application where jurisdiction would otherwise be lacking?</p>\n\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28125"
+    },
+    "term": "2025",
+    "description": "A case in which the Court will decide whether a federal court that initially exercises jurisdiction and stays a case pending arbitration maintains jurisdiction over a post-arbitration Section 9 or 10 application where jurisdiction would otherwise be lacking.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/25-83/"
+  },
+  {
+    "ID": 63857,
+    "name": "T. M. v. University of Maryland Medical System Corporation",
+    "href": "https://api.oyez.org/cases/2025/25-197",
+    "view_count": 0,
+    "docket_number": "25-197",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1764914400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55754"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1776661200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55814"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1781758800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55848"
+      }
+    ],
+    "question": "<p>Can the Rooker-Feldman doctrine, which prevents parties who lose in state courts from challenging injuries caused by state-court judgments, be triggered by a state-court decision that remains subject to further review in state court?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28126"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that the Rooker-Feldman doctrine, which bars federal district courts from reviewing and nullifying state-court judgments, applies even when the state-court judgment under attack remains subject to an ongoing appeal in state court.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/25-197/"
+  },
+  {
+    "ID": 63858,
+    "name": "Trump v. Barbara",
+    "href": "https://api.oyez.org/cases/2025/25-365",
+    "view_count": 0,
+    "docket_number": "25-365",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1764914400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55755"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1775019600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55804"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1782795600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55877"
+      }
+    ],
+    "question": "<p>Is a presidential executive order that denies U.S. birthright citizenship to children born in the United States because their parents are unlawfully present or in the country on temporary visas consistent with the Citizenship Clause of the Fourteenth Amendment and 8 U.S.C. \u00a7 1401(a)?</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28127"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that the Fourteenth Amendment\u2019s Citizenship Clause guarantees U.S. citizenship at birth to every person born on American soil, including children whose parents are present in the country unlawfully or on temporary visas, because those children are fully subject to the jurisdiction of the United States.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/609/25-365/"
+  },
+  {
+    "ID": 63859,
+    "name": "Abouammo v. United States",
+    "href": "https://api.oyez.org/cases/2025/25-5146",
+    "view_count": 0,
+    "docket_number": "25-5146",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1764914400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55756"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1774846800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55811"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1781154000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55845"
+      }
+    ],
+    "question": "<p>Is venue proper in a district where no offense conduct took place, so long as the statute\u2019s intent element \u201ccontemplates\u201d effects that could occur there?</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28128"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that venue is proper only in the district where the alleged offense took place, not in the district where the targeted investigation was located.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/25-5146/"
+  },
+  {
+    "ID": 63860,
+    "name": "Pitchford v. Cain",
+    "href": "https://api.oyez.org/cases/2025/24-7351",
+    "view_count": 0,
+    "docket_number": "24-7351",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1765778400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55757"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1774933200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55805"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1779944400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55838"
+      }
+    ],
+    "question": "<p>Did the Mississippi Supreme Court unreasonably decide\u2014under the standards set by federal habeas law\u2014that Terry Pitchford gave up his right to argue that the prosecutor\u2019s explanations for striking four Black jurors were false or racially biased?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28129"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that when a trial court prevents a defendant from completing the three-step Batson process for challenging racially discriminatory jury strikes, a state appellate court's subsequent finding that the defendant waived that challenge constitutes an unreasonable application of clearly established federal law under the Antiterrorism and Effective Death Penalty Act (AEDPA), entitling the defendant to federal habeas relief.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/24-7351/"
+  },
+  {
+    "ID": 63861,
+    "name": "Cisco Systems, Inc. v. Doe I",
+    "href": "https://api.oyez.org/cases/2025/24-856",
+    "view_count": 0,
+    "docket_number": "24-856 ",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1767938400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55758"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1777352400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55828"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1782190800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55853"
+      }
+    ],
+    "question": "<p>Does either the Alien Tort Statute or the Torture Victim Protection Act allow a judicially-implied private right of action for aiding and abetting?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28130"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that neither the Alien Tort Statute nor the Torture Victim Protection Act supplies a judicially implied private right of action for aiding-and-abetting liability.",
+    "justia_url": null
+  },
+  {
+    "ID": 63863,
+    "name": "Federal Communications Commission v. AT&T, Inc.",
+    "href": "https://api.oyez.org/cases/2025/25-406",
+    "view_count": 0,
+    "docket_number": "25-406 ",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1767938400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55760"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1776747600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55815"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1780549200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55841"
+      }
+    ],
+    "question": "<p>Are provisions of the Communications Act of 1934 that govern the Federal Communications Commission\u2019s assessment and enforcement of monetary forfeitures consistent with the Seventh Amendment and Article III?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28132"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that the Seventh Amendment's right to a jury trial does not require the FCC to involve a jury when issuing forfeiture orders.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/25-406/"
+  },
+  {
+    "ID": 63864,
+    "name": "Blanche v. Lau ",
+    "href": "https://api.oyez.org/cases/2025/25-429",
+    "view_count": 0,
+    "docket_number": "25-429",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1767938400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55761"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1776834000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55816"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1782190800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55851"
+      }
+    ],
+    "question": "<p>To remove a lawful permanent resident who committed an offense listed in Section 1182(a)(2) and was subsequently paroled into the United States, must the government prove that it possessed clear and convincing evidence of the offense at the time of the lawful permanent resident\u2019s last reentry into the United States?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28133"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that the Immigration and Nationality Act (INA) does not require a border officer to possess clear and convincing evidence that a lawful permanent resident has committed a crime involving moral turpitude before treating that resident as an applicant for admission rather than someone already admitted to the country.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/609/25-429/"
+  },
+  {
+    "ID": 63865,
+    "name": "Sripetch v. SEC",
+    "href": "https://api.oyez.org/cases/2025/25-466",
+    "view_count": 0,
+    "docket_number": "25-466",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1767938400
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55762"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1776661200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55813"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1780549200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55840"
+      }
+    ],
+    "question": "<p>May the SEC seek equitable disgorgement under 15 U.S.C. \u00a7\u00a7 78u(d)(5) and (d)(7) without showing investors suffered pecuniary harm?</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28134"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that the SEC may seek equitable disgorgement under 15 U.S.C. \u00a7\u00a7 78u(d)(5) and (d)(7) without showing investors suffered pecuniary harm.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/25-466/"
+  },
+  {
+    "ID": 63873,
+    "name": "Trump v. Cook",
+    "href": "https://api.oyez.org/cases/2025/25a312",
+    "view_count": 0,
+    "docket_number": "25A312",
+    "timeline": [
+      {
+        "event": "Argued",
+        "dates": [
+          1768975200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55772"
+      },
+      {
+        "event": "Granted",
+        "dates": [
+          1792299600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55782"
+      }
+    ],
+    "question": "<p>Should the Court stay a district court injunction preventing the President from removing a member of the Federal Reserve Board of Governors \"for cause\" based on pre-appointment conduct without prior notice or a hearing?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28135"
+    },
+    "term": "2025",
+    "description": "A case in which the Court will decide whether to stay a district court injunction preventing the President from removing a member of the Federal Reserve Board of Governors \u201cfor cause\u201d based on pre-appointment conduct without prior notice or a hearing.",
+    "justia_url": null
+  },
+  {
+    "ID": 63876,
+    "name": "Klein v. Martin",
+    "href": "https://api.oyez.org/cases/2025/25-51",
+    "view_count": 0,
+    "docket_number": "25-51",
+    "timeline": null,
+    "question": "<p>\u00a0</p>\n<p>\u00a0</p>\n<p>\u00a0</p>\n\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28136"
+    },
+    "term": "2025",
+    "description": null,
+    "justia_url": null
+  },
+  {
+    "ID": 63877,
+    "name": "Hikma Pharmaceuticals USA Inc. v. Amarin Pharma, Inc.",
+    "href": "https://api.oyez.org/cases/2025/24-889",
+    "view_count": 0,
+    "docket_number": "24-889 ",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1768543200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55774"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1777438800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55826"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1780549200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55842"
+      }
+    ],
+    "question": "<p>1. When a generic drug manufacturer excludes a patented use from its label, can it still be liable for inducing infringement if it calls its product a \u201cgeneric version\u201d of the brand-name drug and cites publicly available information about the brand-name drug\u2019s sales?</p>\n<p>2. Can a patent infringement complaint survive dismissal if it does not allege that the defendant made any statement specifically instructing or encouraging the patented use?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28137"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that a generic drug manufacturer does not actively induce patent infringement under 35 U.S.C. \u00a7271(b) when its communications consist only of legally required labeling, standard industry language, omissions, and vague statements that lack any affirmative purpose of encouraging the patented use.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/608/24-889/"
+  },
+  {
+    "ID": 63878,
+    "name": "Monsanto Company v. Durnell",
+    "href": "https://api.oyez.org/cases/2025/24-1068",
+    "view_count": 0,
+    "docket_number": "24-1068",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1768543200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55775"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1777266000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55829"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1782363600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55870"
+      }
+    ],
+    "question": "<p>Does the Federal Insecticide, Fungicide, and Rodenticide Act preempt a label-based failure-to-warn claim where EPA has not required the warning?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28138"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that the Federal Insecticide, Fungicide, and Rodenticide Act preempts a label-based failure-to-warn claim where EPA has not required the warning.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/609/24-1068/"
+  },
+  {
+    "ID": 63879,
+    "name": "Chatrie v. United States",
+    "href": "https://api.oyez.org/cases/2025/25-112",
+    "view_count": 0,
+    "docket_number": "25-112",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1768543200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55776"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1777266000
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55830"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1782709200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55878"
+      }
+    ],
+    "question": "<p>Did the execution of the geofence warrant violate the Fourth Amendment?</p>\n<p>\u00a0</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28139"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that law enforcement\u2019s use of a geofence warrant to obtain location data from a tech company constitutes a Fourth Amendment search, requiring a valid warrant supported by probable cause and particularity, because people retain a reasonable expectation of privacy in detailed records of their physical movements.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/609/25-112/"
+  },
+  {
+    "ID": 63880,
+    "name": "Anderson v. Intel Corporation Investment Policy Committee",
+    "href": "https://api.oyez.org/cases/2025/25-498",
+    "view_count": 0,
+    "docket_number": "25-498 ",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1768543200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55777"
+      }
+    ],
+    "question": "<p>Must a complaint alleging a fiduciary breach in ERISA underperformance cases include allegations of a \u201cmeaningful benchmark\u201d to survive the pleading stage?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28140"
+    },
+    "term": "2025",
+    "description": "A case in which the Court will decide whether a complaint alleging a fiduciary breach in ERISA underperformance cases must include allegations of a \u201cmeaningful benchmark\u201d to survive the pleading stage.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/2025/25-498 /"
+  },
+  {
+    "ID": 63881,
+    "name": "Salazar v. Paramount Global",
+    "href": "https://api.oyez.org/cases/2025/25-459",
+    "view_count": 0,
+    "docket_number": "25-459",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1769407200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55781"
+      }
+    ],
+    "question": "<p>Does the phrase \u201cgoods or services from a video tape service provider,\u201d as used in the Video Privacy Protection Act\u2019s definition of \u201cconsumer,\u201d refer to all of a video tape service provider\u2019s goods or services or only to its audiovisual goods or services?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28141"
+    },
+    "term": "2025",
+    "description": "A case in which the Court will decide whether the phrase \u201cgoods or services from a video tape service provider,\u201d as used in the Video Privacy Protection Act\u2019s definition of \u201cconsumer,\u201d refers to all of a video tape service provider\u2019s goods or services or only to its audiovisual goods or services.",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/2025/25-459/"
+  },
+  {
+    "ID": 63888,
+    "name": "Mullin v. Doe",
+    "href": "https://api.oyez.org/cases/2025/25-1083",
+    "view_count": 0,
+    "docket_number": "25-1083",
+    "timeline": [
+      {
+        "event": "Granted",
+        "dates": [
+          1773637200
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55806"
+      },
+      {
+        "event": "Argued",
+        "dates": [
+          1777438800
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55827"
+      },
+      {
+        "event": "Decided",
+        "dates": [
+          1782363600
+        ],
+        "href": "https://api.oyez.org/case_timeline/case_timeline/55871"
+      }
+    ],
+    "question": "<p>Did the Trump administration lawfully end the Temporary Protected Status program for Syrian nationals?</p>\n",
+    "citation": {
+      "volume": null,
+      "page": null,
+      "year": null,
+      "href": "https://api.oyez.org/case_citation/case_citation/28144"
+    },
+    "term": "2025",
+    "description": "A case in which the Court held that the TPS statute\u2019s judicial review bar blocks all non-constitutional challenges to the Secretary of Homeland Security's decisions to grant, extend, or terminate Temporary Protected Status (TPS).",
+    "justia_url": "https://supreme.justia.com/cases/federal/us/609/25-1083/"
+  }
+]

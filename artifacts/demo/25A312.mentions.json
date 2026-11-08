@@ -1,0 +1,290 @@
+{
+  "origin": "luna-subagent",
+  "model": "gpt-6-luna",
+  "mentions": [
+    {
+      "start_block": "s0t3b2",
+      "end_block": "s0t3b2",
+      "evidence": "And, certainly, there's a statutory authority that's very plain here because it says removable for cause by the President, so the statute is unambiguous, giving the President removal power. And we contend that there --there --at least there's --what's kind of been packed on to the Federal Reserve over the years by Congress is clearly quintessential executive power.",
+      "kind": "statute",
+      "title": "Federal Reserve Act removal clause: “removable for cause by the President”",
+      "document_ids": [
+        "8a3cf3aa686e",
+        "5e99009bee7b"
+      ],
+      "query": "12 U.S.C. § 242; removable for cause by the President; Federal Reserve Act; congressional removal authority",
+      "page_hint": "",
+      "id": "m001",
+      "start": 194.82,
+      "end": 214.84
+    },
+    {
+      "start_block": "s0t8b0",
+      "end_block": "s0t8b0",
+      "evidence": "We would say yes. For example, the President's removal order says either this is deceit or at least it's gross negligence. And now, obviously, they've released their letter of counsel, not from Cook herself, you know, two days before the close of briefing here, where they contended that it was an inadvertent notation.",
+      "kind": "opinion",
+      "title": "August 25 removal letter quoted in district court opinion",
+      "document_ids": [
+        "8a3cf3aa686e",
+        "b96db4089916"
+      ],
+      "query": "August 25 2025 removal letter Doc. 1-4 President deceit gross negligence mortgage applications",
+      "page_hint": "",
+      "id": "m002",
+      "start": 245.64,
+      "end": 261.03
+    },
+    {
+      "start_block": "s0t139b3",
+      "end_block": "s0t139b5",
+      "evidence": "The letter from Ms. Cook says: The Michigan bank gave me permission to rent because I got a job in Washington. I had to move from New York when I got my job in Washington, and, frankly, I renovated my apartment the year before, thinking I would be in New York for the rest of my life. Things change, and the bank in Michigan, at least they represent, will say there was no deceit of them. As to the mortgage issue in Atlanta, Ms. Cook's lawyer represents that the paper submitted to the bank disclosed the fact that this was a vacation home. So they may not have experienced deceit. If they didn't experience deceit, then you're left with gross negligence, and the question becomes, is it grossly negligent to make a mistake on a mortgage application? And I don't know that gross negligence has ever risen to the level of a mistake. So there is a factual issue.",
+      "kind": "record",
+      "title": "Cook counsel letter explaining Michigan and Atlanta mortgage representations",
+      "document_ids": [
+        "87ce8c68b5f6",
+        "0943083cfe7e"
+      ],
+      "query": "Cook attorney letter Michigan bank permission to rent Washington job Atlanta vacation home mortgage applications",
+      "page_hint": "",
+      "id": "m003",
+      "start": 1895.24,
+      "end": 1969.51
+    },
+    {
+      "start_block": "s0t124b1",
+      "end_block": "s0t125b0",
+      "evidence": "But no court has ever explored those facts. Are the mortgage applications even in the record in this case? I know that the text of the social media post that screenshots the mortgage applications is in the record. But I don't recall if the --the paperwork itself is in the record, in the district court's record.",
+      "kind": "record",
+      "title": "Mortgage application evidence in the district court record",
+      "document_ids": [
+        "8a3cf3aa686e",
+        "b96db4089916"
+      ],
+      "query": "mortgage applications actual paperwork record screenshot social media post district court record",
+      "page_hint": "",
+      "id": "m004",
+      "start": 1676.23,
+      "end": 1696.46
+    },
+    {
+      "start_block": "s0t34b1",
+      "end_block": "s0t37b1",
+      "evidence": "Justice Sotomayor brought up the public interest here, and we have amicus briefs from economists who tell us that if Governor Cook is --if we grant you your stay, that it could trigger a recession. How should we think about the public interest in a case like this? Yeah. Two --two things to say about that. One is, if you look at what actually happened here, she was removed on August 25th and the stock market went up for the next three days. So we've already had a kind of natural experiment, so to speak, about whether or not the predictions of doom will really be implemented. Surely, that if investors are jittery or whatever the argument is, you would have seen that on August 25th, and you did not see that. In fact, you have the surprised - Well, I'll interrupt you there to say that I don't want to be in the business of predicting exactly what the market's going to do. I agree. And that's why I think the Court ought to consider all those amicus briefs and their sort of, you know, predictions of doom with a fairly jaundiced eye. What the Court has to do is weigh -essentially, you have those amicus briefs as a reflection of very elite opinion, elite opinion that what's happened here -",
+      "kind": "amicus",
+      "title": "Economists’ amicus prediction that removing Cook could trigger a recession",
+      "document_ids": [
+        "8f13735caf57",
+        "6087678833db"
+      ],
+      "query": "economists amicus brief grant stay Cook removal could trigger recession economic effects",
+      "page_hint": "",
+      "id": "m005",
+      "start": 818.52,
+      "end": 875.54
+    },
+    {
+      "start_block": "s0t188b1",
+      "end_block": "s0t190b0",
+      "evidence": "But, again, thinking about the real world and the brief of the former Governors of the Federal Reserve, I mean, your position, again, because you say, well, the president can't say it's for policy reasons, which may be what's really --again, in not talking about the current situation and other situations in the future --what's really driving it. It incentivizes a president to come up with what --as the Federal Reserve former governors say, trivial or inconsequential or old allegations that are very difficult to disprove. It incentivizes kind of the search and destroy and find something and just put that on a piece of paper, no judicial review, no process, nothing, you're done. I mean, again, what --what are we doing when we have a system that --that incentivizes that and leads to that? Now, again, you can dispute that you think it's going to lead to that. And, again, I'm not talking about the facts of this case. I'm taking --I don't know the facts of this case. I'm taking no position on that. This Court has since Martin against Mott, running all the way through Trump against United States, Trump against Hawaii, a whole host of decisions, accorded, consistently afforded the president the presumption of regularity in his action and consistently declined to probe a president's actions for, you know, their --for their subjective motivations. And so, in the hypothetical question that you pose, that hypothetical future president should also be afforded the very same sort of deference and --and - But that leads -I mean, that brief, that amicus brief, cites Justice Scalia's dissent in Morrison, which is always a good place to look for wisdom, and the --the concern that you're putting all these resources --because you can't say it's for policy, putting all these resources, let's find something, anything, about this person and --and --and --and then we're good. And, by the way, there's no judicial review, so we're really good. And there's no administrative process.",
+      "kind": "amicus",
+      "title": "Former Federal Reserve governors’ brief on trivial or old removal allegations",
+      "document_ids": [
+        "4411b77fe2a9"
+      ],
+      "query": "brief former Governors Federal Reserve trivial inconsequential old allegations removal policy no judicial review",
+      "page_hint": "",
+      "id": "m006",
+      "start": 2604.3,
+      "end": 2726.7
+    },
+    {
+      "start_block": "s0t209b5",
+      "end_block": "s0t211b1",
+      "evidence": "I mean, look, I can't emphasize enough, you know, what, for example, the Tuttle Michigan Law Review article from 1905 that's heavily relied on, for example, in the Manners amicus brief that they rely heavily on in their supplemental brief, it says the case law is all over the map on all of these issues. That - that treatise says the courts differ on almost every conceivable part of this question. The only point of consistency is that specified cause is INM, which also, as we can see, is a holding of the Court in Shurtleff, whereas \"cause\" just doesn't mean that. We cite all these cases that they dispute, and there's this battle about what did the 19th century case law mean. Keep in mind, in the context of that battle, they bear the burden of making the old-soil argument. Justice Jackson? Just following up really quickly on that point, isn't --isn't the case law all over the map because the statutes were different? I mean, I understand the Manners brief, which they rely upon, to really drill down on the various statutes related to removal and to have identified ones, for example, that have a fixed term but allowed removal only for cause or had a fixed term and provided for removal at the president's discretion or didn't have a fixed cause --a fixed term, et cetera, et cetera.",
+      "kind": "brief",
+      "title": "Applicant supplemental brief’s Tuttle article passage",
+      "document_ids": [
+        "5e99009bee7b"
+      ],
+      "query": "Manners amicus brief Tuttle Michigan Law Review article statutes fixed term removal for cause President discretion",
+      "page_hint": "",
+      "id": "m007",
+      "start": 2990.15,
+      "end": 3067.85
+    },
+    {
+      "start_block": "s0t212b0",
+      "end_block": "s0t212b0",
+      "evidence": "Respectfully to her, that contention is plainly incorrect. So, if you go to our supplemental brief, page 9, Footnote 4, in the accompanying text, we cite Ulrich and then 13 more cases in that footnote for the proposition that \"for cause\" does not require notice and a hearing.",
+      "kind": "brief",
+      "title": "Applicant’s supplemental brief, page 9 footnote 4, citing Ulrich and 13 cases on hearing requirements",
+      "document_ids": [
+        "5e99009bee7b"
+      ],
+      "query": "supplemental brief page 9 Footnote 4 Ulrich 13 cases for cause notice hearing",
+      "page_hint": "9",
+      "id": "m008",
+      "start": 3127.41,
+      "end": 3142.59
+    },
+    {
+      "start_block": "s1t187b1",
+      "end_block": "s1t188b1",
+      "evidence": "And I see, for example, a court, a Maryland court, Board of State Commissioners of Hagertown --Hagerstown in 1903, which is around the same time as the establishment of the statute, that said, quote, \"the phrase 'for cause' must mean some cause affecting the ability or fitness of the incumbent to perform the duty imposed upon him.\" And other similar courts at the time talked about pre-tenure conduct and said if it was pre-tenure, it can't be sufficient cause unless it was serious enough to undermine the job performance. A mere allegation was not enough back at common law. It had to have been tested and proven like through a conviction. So these standards that were used here to determine at least at the district court level whether cause was satisfied came from somewhere. Is that right? Absolutely. And, you know, I love that Hagerstown case because not only is it a very helpful common law case, but it's actually the basis for the definition in Black's Law that the government and Judge Katz below relied on. I mean, you know, Black's Law is an unusual dictionary. It just doesn't sort of, you know, pop out the meaning from like Noah Webster's mind. It like cites cases for particular concepts. And the concept --the case it cites for for cause is that Hagerstown case.",
+      "kind": "amicus",
+      "title": "Hagerstown “for cause” definition quoted in Jane Manners amicus",
+      "document_ids": [
+        "0943083cfe7e",
+        "87ce8c68b5f6"
+      ],
+      "query": "Hagerstown 1903 phrase for cause ability fitness incumbent perform duty Black’s Law definition",
+      "page_hint": "",
+      "id": "m009",
+      "start": 6616.39,
+      "end": 6695.55
+    },
+    {
+      "start_block": "s1t2b1",
+      "end_block": "s1t2b1",
+      "evidence": "And I think, if you understand the original public meaning of \"for cause\" in either 1913 or 1935, I do not think it was as capacious as my friend suggests. I think it probably meant INM plus ineligibility, and in the context of the Fed in particular, it probably picked up Section 244, which prevents a federal governor from also serving as a director and an officer of a bank. So, if they're a Fed governor that insisted on being a director of Chase Manhattan, I think that would be removal for cause.",
+      "kind": "brief",
+      "title": "Clement’s Section 244 example about bank-director eligibility",
+      "document_ids": [
+        "0943083cfe7e"
+      ],
+      "query": "Section 244 Federal Reserve governor director officer of a bank original public meaning for cause",
+      "page_hint": "",
+      "id": "m010",
+      "start": 3636.79,
+      "end": 3669.61
+    },
+    {
+      "start_block": "s2t0b4",
+      "end_block": "s2t0b6",
+      "evidence": "For example, in Ray Gooden --you know, from New York in 1902 which involved an officer who engaged in a kind of shenanigan in order to get the office in the first place. There was a --a corrupt agreement to appoint somebody to a position if they supported that person politically. Iowa against Walsh, which was pre-office embezzlement. Gill against Watertown, a case they rely heavily it was said in dicta, at least, that gross fraud is committed before office would constitute cause to remove. So there really isn't support anywhere for this notion that pre-office misconduct can't be considered when it comes to a cause standard.",
+      "kind": "brief",
+      "title": "Applicant’s cited pre-office misconduct cases: Ray Gooden, Iowa v. Walsh, and Gill v. Watertown",
+      "document_ids": [
+        "5e99009bee7b",
+        "994af39b97ba"
+      ],
+      "query": "Ray Gooden New York 1902 Iowa v Walsh pre-office embezzlement Gill v Watertown gross fraud cause",
+      "page_hint": "",
+      "id": "m011",
+      "start": 6916.22,
+      "end": 6952.44
+    },
+    {
+      "start_block": "s0t10b2",
+      "end_block": "s0t10b2",
+      "evidence": "Secondly, we think that places that within the line of cases going from Martin against Mott through Dalton against Specter and beyond Payne and so forth, where the President has broad discretion, and the Court has consistently held in those cases where the President is granted this broad discretion and that's not judicially reviewable. And there are statements to that effect obviously in Marbury itself that they disregard, pages 165 and 166 of Marbury.",
+      "kind": "brief",
+      "title": "Applicant’s Marbury discussion of pages 165–166 and presidential discretion",
+      "document_ids": [
+        "8a3cf3aa686e",
+        "5e99009bee7b"
+      ],
+      "query": "Marbury pages 165 166 Martin v Mott Dalton v Specter Payne presidential discretion judicial review",
+      "page_hint": "165-166",
+      "id": "m012",
+      "start": 347.61,
+      "end": 369.33
+    },
+    {
+      "start_block": "s0t30b2",
+      "end_block": "s0t30b2",
+      "evidence": "What this Court held in Sawyer is there is no jurisdiction to issue a preliminary injunction restoring a public officer to office, and --and that's a holding of the Court.",
+      "kind": "brief",
+      "title": "Applicant’s Sawyer argument against an injunction restoring a public officer",
+      "document_ids": [
+        "8a3cf3aa686e",
+        "5e99009bee7b"
+      ],
+      "query": "Sawyer preliminary injunction restore public officer no jurisdiction equity",
+      "page_hint": "",
+      "id": "m013",
+      "start": 784.49,
+      "end": 792.56
+    },
+    {
+      "start_block": "s0t97b0",
+      "end_block": "s0t97b0",
+      "evidence": "So the contention in the amicus briefs is that you can rely on Delgado to sort of bypass the holding of Sawyer and say that mandamus can provide the essence --essentially, the same relief as a preliminary injunction. I guess the argument would be you'd have to mandamus everybody, so all the members of the --members of the Board, to treat her as she's still --as if she's still a governor, all the staff to treat them as --as --as if they were still a governor, because Delgado held where there was the city clerk who can't decide who was validly elected city commissioner, the Court held you could mandamus that clerk to recognize the de facto officer in the interim.",
+      "kind": "brief",
+      "title": "Respondents’ supplemental brief on amici’s Delgado/de facto-officer argument",
+      "document_ids": [
+        "8f13735caf57",
+        "6087678833db",
+        "4411b77fe2a9"
+      ],
+      "query": "Delgado mandamus de facto officer bypass Sawyer preliminary injunction amicus brief",
+      "page_hint": "",
+      "id": "m014",
+      "start": 1335.6,
+      "end": 1371.79
+    },
+    {
+      "start_block": "s1t4b0",
+      "end_block": "s1t4b1",
+      "evidence": "So I agree with General Sauer that the president would have a fair amount of discretion in how he or she wanted to fashion that hearing. I mean, one example we have historically is President Taft, and he sort of gave the removed officials the full Taft, and it was notice, opportunity for a hearing before an impartial tribunal that, you know, serendipitously included future-Justice Frankfurter, and then he --I mean, so that's kind of the maximum that the president could give. But we're not suggesting that you need to give the full Taft. The president would have a lot of flexibility on that. I think --you asked what the review would look like, and I think that actually sort of gets to the heart of where the president's incentives would be. I think the more process that the president provides, the less room there's going to be for judicial review and judicial second-guessing of factual determinations. So, if a president wants to give the full Taft, I think the scope for review of factual determinations by that kind of tribunal would be very narrow, but I do think there would be legal review.",
+      "kind": "brief",
+      "title": "Clement’s historical Taft removal hearing example and review framework",
+      "document_ids": [
+        "0943083cfe7e"
+      ],
+      "query": "President Taft removed officials impartial tribunal Frankfurter notice hearing judicial review",
+      "page_hint": "",
+      "id": "m015",
+      "start": 3716.75,
+      "end": 3778.31
+    },
+    {
+      "start_block": "s0t72b0",
+      "end_block": "s0t73b0",
+      "evidence": "What is the removal order? The --the --the Truth Social post? It's the --no. It's the August 25th letter. I think it's Doc 1-4 in the district court. But the removal order addresses that. The evidence is you have mortgage applications within two weeks of each other that make clearly conflicting representations.",
+      "kind": "record",
+      "title": "August 25 removal letter distinguished from the Truth Social post",
+      "document_ids": [
+        "8a3cf3aa686e",
+        "b96db4089916"
+      ],
+      "query": "August 25 letter removal order not Truth Social post conflicting mortgage representations",
+      "page_hint": "",
+      "id": "m016",
+      "start": 1169.02,
+      "end": 1185.62
+    },
+    {
+      "start_block": "s0t87b1",
+      "end_block": "s0t87b2",
+      "evidence": "Certainly --and I think the question points out a great weakness in their argument, which is that the word \"cause\" does not include notice and a hearing by --on its face. Congress knows how to provide notice and a hearing. It did so in the NLRA one month before it --it reenacted the for-cause restriction here in 1935.",
+      "kind": "statute",
+      "title": "Applicant’s argument comparing the 1935 removal clause with the NLRA",
+      "document_ids": [
+        "8a3cf3aa686e",
+        "5e99009bee7b"
+      ],
+      "query": "Congress NLRA one month earlier in 1935 notice hearing INM cause statutory language",
+      "page_hint": "",
+      "id": "m017",
+      "start": 1282.3,
+      "end": 1299.52
+    },
+    {
+      "start_block": "s1t140b0",
+      "end_block": "s1t140b0",
+      "evidence": "I --I think the fact that there is an attachment to one of the applications that describes it as a vacation home. And that's not -",
+      "kind": "brief",
+      "title": "Respondents’ brief passage describing the mortgage attachment as a “vacation home”",
+      "document_ids": [
+        "87ce8c68b5f6",
+        "0943083cfe7e"
+      ],
+      "query": "attachment to one of the applications describes it as a vacation home",
+      "page_hint": "",
+      "id": "m018",
+      "start": 5444.34,
+      "end": 5450.09
+    }
+  ]
+}

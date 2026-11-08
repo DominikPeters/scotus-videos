@@ -1,0 +1,141 @@
+{
+  "scope": "Read-only source audit of cloud portrait/research/render/statistics/repair/deployment/storage paths, plus local checksum and player pin call sites. No production failures intentionally triggered and no implementation changes made in this audit.",
+  "findings": [
+    {
+      "id": "F1",
+      "priority": "P2",
+      "status": "reproduced",
+      "title": "Research caches pin URLs across resumed work without checking current content",
+      "file": "cloud/scotus_cloud/annotation_cards.py",
+      "line": 166,
+      "related": [
+        {
+          "file": "cloud/scotus_cloud/card_history.py",
+          "line": 74
+        }
+      ],
+      "trigger": "A public evidence document is corrected at the same URL, and research resumes or transcript blocks are refreshed.",
+      "behavior": "URL SHA remains the cache identity. Existing sources bypass fetch; CardHistory retains those sources while rebinding changed transcript blocks.",
+      "impact": "New cards can continue using stale evidence despite a fresh official transcript.",
+      "recommendation": "Retain immutable snapshots for a finished research run, but revalidate URL-backed sources on explicit source refresh and record a new content revision. Preserve old versions as evidence for old cards."
+    },
+    {
+      "id": "F2",
+      "priority": "P2",
+      "status": "reproduced",
+      "title": "Portrait publisher rejects legitimate replacements and even metadata-only updates",
+      "file": "cloud/scotus_cloud/github_assets.py",
+      "line": 58,
+      "related": [
+        {
+          "file": "cloud/scotus_cloud/asset_publisher.py",
+          "line": 19
+        }
+      ],
+      "trigger": "Owner approves a replacement for an advocate ID already published, or provenance changes while image bytes stay identical.",
+      "behavior": "Idempotency requires both Git blobs to match exactly; any existing differing file produces a hard error. Website export precedes the GitHub step.",
+      "impact": "Archive remains stale; website can contain the new image while GitHub publication fails.",
+      "recommendation": "Allow explicitly approved revisions using normal Git commits and expected-current-content conflict checks. Treat identical images with updated provenance as metadata updates."
+    },
+    {
+      "id": "F3",
+      "priority": "P2",
+      "status": "reproduced",
+      "title": "Content-addressed card exhibits cannot be safely uploaded again",
+      "file": "cloud/scotus_cloud/annotation_cards.py",
+      "line": 424,
+      "related": [
+        {
+          "file": "cloud/scotus_cloud/google.py",
+          "line": 181
+        }
+      ],
+      "trigger": "A worker uploaded an exhibit and then lost its checkpoint, or enrichment runs again with the same exhibit.",
+      "behavior": "finish uploads to the same content-addressed path using a create-only storage API and does not handle an existing identical object.",
+      "impact": "An ordinary replay fails with HTTP 412.",
+      "recommendation": "Reuse identical existing bytes, as upload_preview and CardHistory already do. Preserve create-only conflict handling for different content."
+    },
+    {
+      "id": "F4",
+      "priority": "P2",
+      "status": "reproduced",
+      "title": "Source freshness check misses replacement audio at an unchanged URL",
+      "file": "cloud/scotus_cloud/maintenance.py",
+      "line": 39,
+      "trigger": "The Court replaces audio bytes at the same MP3 URL while the transcript PDF stays unchanged.",
+      "behavior": "PDF is compared by content; audio is compared only by URL. The stored audio hash is not consulted against the official recording.",
+      "impact": "Source refresh reports current and retries alignment with stale prepared audio.",
+      "recommendation": "Revalidate official audio on explicit refresh or a source-related alignment failure, using content or trustworthy change metadata; avoid repeatedly downloading it during routine polling."
+    },
+    {
+      "id": "F5",
+      "priority": "P2",
+      "status": "reproduced at reference-library interface; no production occurrence asserted",
+      "title": "Reference-library signatures omit source revisions and can leave old originals behind",
+      "file": "cloud/scotus_cloud/card_library.py",
+      "line": 78,
+      "related": [
+        {
+          "file": "cloud/scotus_cloud/card_library.py",
+          "line": 93
+        }
+      ],
+      "trigger": "A source PDF or its page metadata changes without changing extracted page text.",
+      "behavior": "The update signature covers only page number/text. source.json is not refreshed; an existing original.pdf is never replaced. Even when text changes, the old original can survive alongside new metadata.",
+      "impact": "Readers can see inconsistent source metadata and original PDF bytes.",
+      "recommendation": "Include source content revision and relevant page metadata in the signature, and replace the exported PDF when that source revision changes."
+    },
+    {
+      "id": "R1",
+      "priority": "P2",
+      "status": "reproduced design risk",
+      "title": "Hand-maintained renderer checksums duplicate source truth",
+      "file": "cloud/scotus_cloud/presentation_sources.py",
+      "line": 9,
+      "trigger": "A legitimate renderer edit does not also update presentation/sources.json.",
+      "behavior": "verified_source raises even for a comment-only edit. Repair validation also requires coordinated source/manifest edits.",
+      "impact": "Accepted renderer changes can fail at planning/preview time.",
+      "recommendation": "Generate and validate the manifest from the selected source during the build; keep run-specific renderer identity without a manually maintained second copy."
+    },
+    {
+      "id": "R2",
+      "priority": "P2",
+      "status": "source-level design risk, not a reproduced outage",
+      "title": "Static presentation assets are pinned remote runtime dependencies",
+      "file": "cloud/scotus_cloud/bundle.py",
+      "line": 14,
+      "related": [
+        {
+          "file": "cloud/presentation/renderer/assets.json",
+          "line": 2
+        }
+      ],
+      "trigger": "GitHub is unavailable, or a tracked font/logo is changed without updating the static asset manifest.",
+      "behavior": "Planning downloads seven static assets from an old commit and verifies their hashes.",
+      "impact": "Temporary GitHub failures block planning; new tracked assets remain invisible until separate manifest changes.",
+      "recommendation": "Package the matching static assets with the renderer at build time. Freeze that selected asset set in each render bundle rather than following latest assets mid-render."
+    }
+  ],
+  "reproductions_file": "reproductions.json",
+  "keep": [
+    "Hashes of approved/frozen render inputs, chunks, and final media prevent mixed revisions.",
+    "Per-edited-file repair preimages and immutable deployed image identities prevent applying a patch to the wrong code. Current v2 repairs already avoid unrelated whole-tree invalidation.",
+    "HMACs, OAuth PKCE, ETags/generation conditions, and worker leases serve authentication or concurrency; do not remove them as duplicate catalog checks."
+  ],
+  "watch_list": [
+    {
+      "file": "cloud/scotus_cloud/spotify.py",
+      "line": 17,
+      "note": "Spotify persisted-query hashes are third-party protocol operation IDs. They can age when the provider changes its frontend; they are not file-integrity checks. Thumbnail failures are caught and do not block video publication."
+    }
+  ],
+  "recommendation_order": [
+    "F3",
+    "F2",
+    "F1",
+    "F4",
+    "F5",
+    "R1",
+    "R2"
+  ]
+}

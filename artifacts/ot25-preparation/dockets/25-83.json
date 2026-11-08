@@ -1,0 +1,336 @@
+{
+  "CaseNumber": "25-83 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "06/15/2026",
+  "sJsonTerm": "2025",
+  "sJsonCaseNumber": "00083",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Adrian Jules, Petitioner",
+  "RespondentTitle": "Andre Balazs Properties, et al.",
+  "DocketedDate": "July 22, 2025",
+  "LowerCourt": "United States Court of Appeals for the Second Circuit",
+  "LowerCourtCaseNumbers": "(23-1253, 23-1283)",
+  "LowerCourtDecision": "April 25, 2025",
+  "QPLink": "../qp/25-00083qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Jul 22 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due August 21, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "USSC Petition for Writ of Certiorari.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/365505/20250718102458658_USSC%20Petition%20for%20Writ%20of%20Certiorari.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Jules Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/365505/20250718102508446_Jules%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Jules COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/365505/20250718102517860_Jules%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 15 2025",
+      "Text": "Waiver of right of respondent Andre Balazs Properties, et al. to respond filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "20250815  Jules - US Supreme Court - Waiver.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/369920/20250815173351577_20250815%20%20Jules%20-%20US%20Supreme%20Court%20-%20Waiver.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 20 2025",
+      "Text": "DISTRIBUTED for Conference of 9/29/2025."
+    },
+    {
+      "Date": "Aug 21 2025",
+      "Text": "Response Requested. (Due September 22, 2025)"
+    },
+    {
+      "Date": "Sep 15 2025",
+      "Text": "Motion to extend the time to file a response from September 22, 2025 to October 22, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "20250915 Letter Requesting 30-Day Extension.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/374673/20250915152234064_20250915%20Letter%20Requesting%2030-Day%20Extension.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 16 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including October 22, 2025."
+    },
+    {
+      "Date": "Oct 22 2025",
+      "Text": "Brief of respondents Andre Balazs Properties, et al. in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-83-Brief in Opposition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/380319/20251022135955367_25-83-Brief%20in%20Opposition.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-83-Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/380319/20251022140006805_25-83-Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-83-CERT OF COMPLIANCE.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/380319/20251022140016371_25-83-CERT%20OF%20COMPLIANCE.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 31 2025",
+      "Text": "Reply of petitioner Adrian Jules filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Adrian Jules - Cert Reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/383208/20251031110342720_Adrian%20Jules%20-%20Cert%20Reply.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "CERTIFICATE OF WORD COUNT Jules cert reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/383208/20251031110351520_CERTIFICATE%20OF%20WORD%20COUNT%20Jules%20cert%20reply.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "CERTIFICATE OF SERVICE Jules cert reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/383208/20251031110359789_CERTIFICATE%20OF%20SERVICE%20Jules%20cert%20reply.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 05 2025",
+      "Text": "DISTRIBUTED for Conference of 11/21/2025."
+    },
+    {
+      "Date": "Dec 01 2025",
+      "Text": "DISTRIBUTED for Conference of 12/5/2025."
+    },
+    {
+      "Date": "Dec 05 2025",
+      "Text": "Petition GRANTED."
+    },
+    {
+      "Date": "Dec 22 2025",
+      "Text": "Motion to dispense with printing the joint appendix filed by petitioner Adrian Jules.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-83 Jules - Motion to Dispense with JA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/390058/20251222093452911_25-83%20Jules%20-%20Motion%20to%20Dispense%20with%20JA.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "CERTIFICATE OF SERVICE Jules Motion JA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/390058/20251222093504653_CERTIFICATE%20OF%20SERVICE%20Jules%20Motion%20JA.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 12 2026",
+      "Text": "Motion to dispense with printing the joint appendix filed by petitioner GRANTED."
+    },
+    {
+      "Date": "Jan 16 2026",
+      "Text": "Brief of petitioner Adrian Jules filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-83 Brief for Petitioner.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/391951/20260116122533610_25-83%20Brief%20for%20Petitioner.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/391951/20260116122544179_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/391951/20260116122551404_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 30 2026",
+      "Text": "SET FOR ARGUMENT on Monday, March 30, 2026."
+    },
+    {
+      "Date": "Feb 05 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Second Circuit."
+    },
+    {
+      "Date": "Feb 11 2026",
+      "Text": "Sealed material received electronically from the United States District Court for the Southern District of New York and available with the Clerk. The remainder of the record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Feb 12 2026",
+      "Text": "Record received electronically from the United States Court of Appeals for the Second Circuit and available with the Clerk."
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief of respondents Andre Balazs Properties, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-83 bs.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/396498/20260217162302726_25-83%20bs.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-83 bs -- proof of service -- FILED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/396498/20260217162312849_25-83%20bs%20--%20proof%20of%20service%20--%20FILED.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-83 bs -- certificate of word count -- FILED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/396498/20260217162319316_25-83%20bs%20--%20certificate%20of%20word%20count%20--%20FILED.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 24 2026",
+      "Text": "Brief amicus curiae of Chamber of Commerce of the United States of America filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-83acTheChamberofCommerceOfTheUnitedStatesOfAmerica.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/397133/20260224113952114_25-83acTheChamberofCommerceOfTheUnitedStatesOfAmerica.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-83 Taft Law COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/397133/20260224114013659_25-83%20Taft%20Law%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-83 Taft Law COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/397133/20260224114006179_25-83%20Taft%20Law%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Mar 19 2026",
+      "Text": "Reply of petitioner Adrian Jules filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-83 rb.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/401311/20260319125250318_25-83%20rb.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "CERTIFICATE OF WORD COUNT Jules merits reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/401311/20260319125258273_CERTIFICATE%20OF%20WORD%20COUNT%20Jules%20merits%20reply.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "CERTIFICATE OF SERVICE Jules merits reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/401311/20260319125307674_CERTIFICATE%20OF%20SERVICE%20Jules%20merits%20reply.pdf"
+        },
+        {
+          "Description": "Other",
+          "File": "No. 25-83-Letter of Petitioner.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/401311/20260323140920333_No.%2025-83-Letter%20of%20Petitioner.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "Argued. For petitioner: Adam G. Unikowsky, Washington, D. C.  For respondents: Daniel L. Geyser, Dallas, Tex."
+    },
+    {
+      "Date": "May 14 2026",
+      "Text": "Adjudged to be AFFIRMED.  Sotomayor, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/25-83_3e04.pdf'>opinion</a> for a unanimous Court."
+    },
+    {
+      "Date": "Jun 15 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 25-83 Aff 2d. Cir. 6.15.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-83/413331/20260615155358620_EFILING%2025-83%20Aff%202d.%20Cir.%206.15.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioner",
+  "Petitioner": [
+    {
+      "Attorney": "Adam G. Unikowsky",
+      "IsCounselofRecord": true,
+      "Title": "Jenner & Block LLP",
+      "PrisonerId": null,
+      "Phone": "202-639-6000",
+      "Address": "1099 New York Avenue, NW\r\nSuite 900",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "AUNIKOWSKY@JENNER.COM",
+      "PartyName": "Adrian Jules"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondents",
+  "Respondent": [
+    {
+      "Attorney": "Anne Margaret Voigts",
+      "IsCounselofRecord": true,
+      "Title": "Pillsbury Winthrop Shaw Pittman LLP",
+      "PrisonerId": null,
+      "Phone": "(650) 422-6710",
+      "Address": "2550 Hanover Street",
+      "City": "Palo Alto",
+      "State": "CA",
+      "Zip": "94304-1115",
+      "Email": "anne.voigts@pillsburylaw.com",
+      "PartyName": "Andre Balazs Properties, et al."
+    },
+    {
+      "Attorney": "Daniel L. Geyser",
+      "IsCounselofRecord": false,
+      "Title": "Haynes and Boone, LLP",
+      "PrisonerId": null,
+      "Phone": "303-382-6219",
+      "Address": "2801 N. Harwood Street, Ste. 2300",
+      "City": "Dallas",
+      "State": "TX",
+      "Zip": "75201",
+      "Email": "DANIEL.GEYSER@HAYNESBOONE.COM",
+      "PartyName": "Andre Balazs Properties, et al."
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Peter Bowman Rutledge",
+      "IsCounselofRecord": true,
+      "Title": "Taft Stettinius & Hollister LLP",
+      "PrisonerId": null,
+      "Phone": "404 233 7000",
+      "Address": "1600 Atlanta Financial Center\r\n3343 Peachtree Road N.E.",
+      "City": "Atlanta",
+      "State": "GA",
+      "Zip": "30326-1044",
+      "Email": "brutledge@taftlaw.com",
+      "PartyName": "Chamber of Commerce of the United States of America"
+    }
+  ]
+}

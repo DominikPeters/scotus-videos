@@ -1,0 +1,617 @@
+{
+ "cards": [
+  {
+   "id": "qp",
+   "start_block": 0,
+   "end_block": 4,
+   "recommended": true,
+   "reason": "States the question the Court agreed to decide as Schnapper opens, shortened (wording from the Codex set); the full text appears at 50:26.",
+   "cue": {
+    "kind": "Question presented",
+    "heading": "granted March 30, 2026",
+    "text": "May a defendant seek summary judgment on an affirmative defense omitted from its answer, <mark>without amending the answer</mark>—even if Rule 16(b)(4) would bar an amendment?",
+    "source": "Question presented, shortened · Supreme Court docket",
+    "highlight": [
+     "Pleading an affirmative defense"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "qp.txt",
+     "page": 1,
+     "quote": "Where a defendant has filed an answer without pleading an affirmative defense, may the defendant nonetheless assert that affirmative defense as the basis for a summary judgment motion, without amending or seeking to amend its answer to plead that affirmative defense",
+     "claim": "QP"
+    },
+    {
+     "source": "qp.txt",
+     "page": 1,
+     "quote": "CERT. GRANTED 3/30/2026",
+     "claim": "Granted"
+    }
+   ]
+  },
+  {
+   "id": "hassan",
+   "start_block": 4,
+   "end_block": 6,
+   "recommended": true,
+   "reason": "Schnapper attacks the Eleventh Circuit’s Hassan rule; the card shows how the decision below states it.",
+   "cue": {
+    "kind": "Excerpt",
+    "label": "Opinion excerpt",
+    "heading": "Eleventh Circuit, <i>Younge</i> (2025)",
+    "before": "",
+    "quote": "Since Hassan, we have repeatedly reaffirmed that a district court may receive evidence of an unpleaded affirmative defense if the plaintiff was <mark>not “prejudiced”</mark> by the defendant’s failure to plead the defense in its answer.",
+    "after": "",
+    "source": "Opinion of the Court of Appeals, Apr. 1, 2025 · Pet. App. 10a",
+    "highlight": [
+     "Hassan decision"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "petition.pdf",
+     "page": 61,
+     "quote": "Since Hassan, we have repeatedly reaffirmed that a district court may receive evidence of an unpleaded affirmative defense if the plaintiff was not “prejudiced” by the defendant's failure to plead the defense in its answer.",
+     "claim": "Hassan rule as applied below"
+    }
+   ]
+  },
+  {
+   "id": "rules-15-16",
+   "start_block": 6,
+   "end_block": 8,
+   "recommended": true,
+   "reason": "Schnapper names Rules 15(a)(2) and 16(b)(4) as the standards that should govern; the card shows both side by side. They come up throughout.",
+   "cue": {
+    "kind": "Comparison",
+    "heading": "Two rules on changing course",
+    "compare": [
+     {
+      "title": "Amending a pleading",
+      "cite": "Rule 15(a)(2)",
+      "text": "… a party may amend its pleading only with the opposing party’s written consent or the court’s leave. The court should <mark>freely give leave when justice so requires</mark>."
+     },
+     {
+      "title": "Changing the schedule",
+      "cite": "Rule 16(b)(4)",
+      "text": "A schedule may be modified <mark>only for good cause</mark> and with the judge’s consent."
+     }
+    ],
+    "source": "Federal Rules of Civil Procedure",
+    "highlight": [
+     "good cause standard in Rule 16(b)(4)"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "frcp-15.txt",
+     "page": 1,
+     "quote": "a party may amend its pleading only with the opposing party's written consent or the court's leave. The court should freely give leave when justice so requires.",
+     "claim": "15(a)(2)"
+    },
+    {
+     "source": "frcp-16.txt",
+     "page": 1,
+     "quote": "A schedule may be modified only for good cause and with the judge's consent.",
+     "claim": "16(b)(4)"
+    }
+   ]
+  },
+  {
+   "id": "personal-staff",
+   "start_block": 18,
+   "end_block": 22,
+   "recommended": true,
+   "reason": "Thomas and Schnapper discuss whether Younge was “personal staff” under a “six-part test”; the card explains the exemption and lists the factors.",
+   "cue": {
+    "kind": "Glossary",
+    "heading": "Title VII",
+    "glossary": {
+     "term": "Personal staff",
+     "expansion": ""
+    },
+    "text": "Title VII does not cover people an elected official chooses for their personal staff. Assuming the test applies, the Eleventh Circuit weighed six factors: the official’s power to hire and fire; accountability to the official alone; representing the official to the public; the official’s control over the position; its rank; and how closely the two actually work.",
+    "source": "42 U.S.C. § 2000e(f) · Eleventh Circuit opinion, Pet. App. 15a–16a",
+    "highlight": [
+     "member of his personal staff"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "usc-42-2000e.txt",
+     "page": 1,
+     "quote": "any person chosen by such officer to be on such officer's personal staff",
+     "claim": "Exemption"
+    },
+    {
+     "source": "petition.pdf",
+     "page": 66,
+     "quote": "We assume without deciding that the Laurie factors govern our analysis",
+     "claim": "Assumed"
+    },
+    {
+     "source": "petition.pdf",
+     "page": 66,
+     "quote": "(1) Whether the elected official has plenary powers of appointment and removal, (2) whether the person in the position at issue is personally accountable to only that elected official, (3) whether the person in the position at issue represents the elected official in the eyes of the public, (4) whether the elected official exercises a considerable amount of control over the position, (5) the level of the position within the organization’s chain of command, and (6) the actual",
+     "claim": "Six factors"
+    }
+   ]
+  },
+  {
+   "id": "foman",
+   "start_block": 25,
+   "end_block": 28,
+   "recommended": true,
+   "reason": "Barrett invokes Foman; its list of reasons for denying leave to amend (“the Foman factors”) recurs all argument.",
+   "cue": {
+    "kind": "Excerpt",
+    "label": "Opinion excerpt",
+    "heading": "<i>Foman</i> v. <i>Davis</i> (1962)",
+    "before": "",
+    "quote": "In the absence of any apparent or declared reason — such as <mark>undue delay</mark>, bad faith or dilatory motive …, <mark>undue prejudice</mark> to the opposing party …, futility of amendment, etc. — the leave sought should … be “freely given.”",
+    "after": "",
+    "source": "Opinion of the Court · 371 U.S. 178, 182",
+    "highlight": [
+     "same under Foman"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-371-178.txt",
+     "page": 1,
+     "quote": "In the absence of any apparent or declared reason — such as undue delay, bad faith or dilatory motive on the part of the movant, repeated failure to cure deficiencies by amendments previously allowed, undue prejudice to the opposing party by virtue of allowance of the amendment, futility of amendment, etc. — the leave sought should, as the rules require, be “freely given.”",
+     "claim": "Foman factors"
+    }
+   ]
+  },
+  {
+   "id": "ahmad",
+   "start_block": 39,
+   "end_block": 42,
+   "recommended": true,
+   "reason": "Barrett asks about “the Tenth Circuit’s rule”; the card shows the Tenth Circuit’s own statement of it.",
+   "cue": {
+    "kind": "Excerpt",
+    "label": "Opinion excerpt",
+    "heading": "Tenth Circuit, <i>Ahmad</i> v. <i>Furlong</i> (2006)",
+    "before": "",
+    "quote": "Rather than demanding that the defendant first move to amend the answer, we need only <mark>apply the same standards that govern motions to amend</mark> when we determine whether the defendant should be permitted to “constructively” amend the answer by means of the summary-judgment motion.",
+    "after": "",
+    "source": "435 F.3d 1196, 1202",
+    "highlight": [
+     "the Tenth Circuit's rule"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-f3d-435-1196.txt",
+     "page": 1,
+     "quote": "Rather than demanding that the defendant first move to amend the answer, we need only apply the same standards that govern motions to amend when we determine whether the defendant should be permitted to “constructively” amend the answer by means of the summary-judgment motion.",
+     "claim": "Tenth Circuit approach"
+    }
+   ]
+  },
+  {
+   "id": "rule-61",
+   "start_block": 73,
+   "end_block": 75,
+   "recommended": true,
+   "reason": "Gorsuch likens the Eleventh Circuit’s test to “the first sentence of Rule 61”; the card shows it.",
+   "cue": {
+    "kind": "Rule",
+    "heading": "Rule 61 — Harmless error",
+    "text": "Unless justice requires otherwise, <mark>no error</mark> in admitting or excluding evidence—or any other error by the court or a party—is ground for granting a new trial, for setting aside a verdict, or for vacating, modifying, or otherwise disturbing a judgment or order.",
+    "source": "Federal Rules of Civil Procedure, Rule 61, first sentence",
+    "highlight": [
+     "first sentence of Rule 61"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "frcp-61.txt",
+     "page": 1,
+     "quote": "Unless justice requires otherwise, no error in admitting or excluding evidence—or any other error by the court or a party—is ground for granting a new trial, for setting aside a verdict, or for vacating, modifying, or otherwise disturbing a judgment or order.",
+     "claim": "Rule 61"
+    }
+   ]
+  },
+  {
+   "id": "affirmative-defense",
+   "start_block": 96,
+   "end_block": 98,
+   "recommended": true,
+   "reason": "Alito contrasts an affirmative defense with an element of the claim; the card defines the term, which the whole case turns on, and notes that the Eleventh Circuit only assumed the exemption is one.",
+   "cue": {
+    "kind": "Glossary",
+    "heading": "Pleading",
+    "glossary": {
+     "term": "Affirmative defense",
+     "expansion": ""
+    },
+    "text": "A reason that defeats a claim even if the plaintiff proves everything the claim requires. Rule 8(c) requires the defendant to state it in the answer. An element, by contrast, is part of what the plaintiff must prove. The Eleventh Circuit assumed, without deciding, that the personal-staff exemption is an affirmative defense.",
+    "source": "Fed. R. Civ. P. 8(c)(1); <i>Oden</i> (5th Cir. 2001); Pet. App. 8a",
+    "highlight": [
+     "an affirmative defense or an element of the claim"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "frcp-8.txt",
+     "page": 1,
+     "quote": "In responding to a pleading, a party must affirmatively state any avoidance or affirmative defense",
+     "claim": "Must be pleaded"
+    },
+    {
+     "source": "cap-f3d-246-458.txt",
+     "page": 1,
+     "quote": "The personal staff exception allows the defendant to avoid liability even if the plaintiff meets his burden of proof under Title VII.",
+     "claim": "Meaning"
+    },
+    {
+     "source": "petition.pdf",
+     "page": 59,
+     "quote": "we assume without deciding that Title VII’s personal- staff exemption is an affirmative defense",
+     "claim": "Assumed below"
+    }
+   ]
+  },
+  {
+   "id": "approaches",
+   "start_block": 130,
+   "end_block": 133,
+   "recommended": true,
+   "reason": "Sotomayor says there are “three different approaches”; the map shows the three courts of appeals discussed and their rules.",
+   "cue": {
+    "kind": "Circuit split",
+    "heading": "An unpleaded defense at summary judgment",
+    "map": {
+     "below": "11",
+     "groups": [
+      {
+       "label": "Must amend the answer first",
+       "color": "#d07b63",
+       "circuits": [
+        "DC"
+       ]
+      },
+      {
+       "label": "Treat the motion as a motion to amend",
+       "color": "#6698ba",
+       "circuits": [
+        "10"
+       ]
+      },
+      {
+       "label": "Allowed if no prejudice",
+       "color": "#c9a23f",
+       "circuits": [
+        "11"
+       ]
+      }
+     ],
+     "labelOffsets": {}
+    },
+    "source": "Approaches discussed at argument: <i>Harris</i> (D.C. Cir. 1997), <i>Ahmad</i> (10th Cir. 2006), <i>Hassan</i> (11th Cir. 1988)",
+    "highlight": [
+     "three different approaches"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-f3d-126-339.txt",
+     "page": 1,
+     "quote": "Rule 8(c) means what it says: affirmative defenses must be raised in a responsive pleading, not a dispositive motion.",
+     "claim": "D.C. Circuit"
+    },
+    {
+     "source": "cap-f3d-435-1196.txt",
+     "page": 1,
+     "quote": "we need only apply the same standards that govern motions to amend",
+     "claim": "Tenth Circuit"
+    },
+    {
+     "source": "petition.pdf",
+     "page": 61,
+     "quote": "a district court may receive evidence of an unpleaded affirmative defense if the plaintiff was not “prejudiced”",
+     "claim": "Eleventh Circuit"
+    }
+   ]
+  },
+  {
+   "id": "rule-56",
+   "start_block": 204,
+   "end_block": 206,
+   "recommended": true,
+   "reason": "Petrany opens on raising a defense “at summary judgment on an undisputable record”; the card shows the summary-judgment standard (idea from the Codex set).",
+   "cue": {
+    "kind": "Rule",
+    "heading": "Rule 56(a) — Summary judgment",
+    "text": "The court shall grant summary judgment if the movant shows that there is <mark>no genuine dispute as to any material fact</mark> and the movant is entitled to judgment as a matter of law.",
+    "source": "Federal Rules of Civil Procedure",
+    "highlight": [
+     "undisputable record"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "frcp-56.txt",
+     "page": 1,
+     "quote": "The court shall grant summary judgment if the movant shows that there is no genuine dispute as to any material fact and the movant is entitled to judgment as a matter of law.",
+     "claim": "56(a)"
+    }
+   ]
+  },
+  {
+   "id": "gera",
+   "start_block": 287,
+   "end_block": 293,
+   "recommended": true,
+   "reason": "Sotomayor asks about an alternative remedy and Petrany cites the EEOC route and a 180-day limit; the card shows the statute that provides both.",
+   "cue": {
+    "kind": "Statute",
+    "heading": "42 U.S.C. § 2000e-16c — Government Employee Rights Act",
+    "text": "(a) … The rights, protections, and remedies provided pursuant to section 2000e–16b of this title shall apply with respect to employment of any individual chosen or appointed, by a person elected to public office … (1) to be a member of the elected official's personal staff; … (b) … (1) … Any individual referred to in subsection (a) may file a complaint alleging a violation, <mark>not later than 180 days</mark> after the occurrence of the alleged violation, with the Equal Employment Opportunity Commission …",
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+     "alternative remedy"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "usc-42-2000e-16c.txt",
+     "page": 1,
+     "quote": "The rights, protections, and remedies provided pursuant to section 2000e–16b of this title shall apply with respect to employment of any individual chosen or appointed, by a person elected to public office",
+     "claim": "(a)"
+    },
+    {
+     "source": "usc-42-2000e-16c.txt",
+     "page": 1,
+     "quote": "(1) to be a member of the elected official's personal staff;",
+     "claim": "(a)(1)"
+    },
+    {
+     "source": "usc-42-2000e-16c.txt",
+     "page": 1,
+     "quote": "Any individual referred to in subsection (a) may file a complaint alleging a violation, not later than 180 days after the occurrence of the alleged violation, with the Equal Employment Opportunity Commission",
+     "claim": "(b)(1)"
+    }
+   ]
+  },
+  {
+   "id": "case-history",
+   "start_block": 319,
+   "end_block": 323,
+   "recommended": true,
+   "reason": "Jackson mentions “two years litigating this case” before the defense appeared; the timeline shows when the answer was filed and when the exemption was first raised.",
+   "cue": {
+    "kind": "Timeline",
+    "heading": "Younge’s case",
+    "timeline": {
+     "events": [
+      {
+       "date": "July 15, 2019",
+       "label": "Younge is fired"
+      },
+      {
+       "date": "2020",
+       "label": "Younge sues under Title VII"
+      },
+      {
+       "date": "Mar 24, 2021",
+       "label": "DA’s Office answers, without the personal-staff defense"
+      },
+      {
+       "date": "Mar 14, 2022",
+       "label": "DA’s Office first mentions the exemption, at a hearing"
+      },
+      {
+       "date": "May 16, 2022",
+       "label": "Moves for summary judgment on it"
+      }
+     ]
+    },
+    "source": "Petition for certiorari, pp. 4–7 (citing the record)",
+    "highlight": [
+     "two years litigating this case"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "petition.pdf",
+     "page": 19,
+     "quote": "Howard fired Younge on July 15, 2019",
+     "claim": "Fired"
+    },
+    {
+     "source": "petition.pdf",
+     "page": 19,
+     "quote": "commenced in 2020",
+     "claim": "Suit"
+    },
+    {
+     "source": "petition.pdf",
+     "page": 20,
+     "quote": "The defendant ultimately filed its answer on March 24, 2021. That answer asserted several affirmative defenses, but not the affirmative defense at issue here.",
+     "claim": "Answer"
+    },
+    {
+     "source": "petition.pdf",
+     "page": 22,
+     "quote": "until a hearing that the district judge held on an unrelated issue on March 14, 2022",
+     "claim": "First mention"
+    },
+    {
+     "source": "petition.pdf",
+     "page": 21,
+     "quote": "on May 16, 2022, the defendant moved for summary judgment, asserting that affirmative defense as a basis for that motion",
+     "claim": "SJ motion"
+    }
+   ]
+  },
+  {
+   "id": "consent-relief",
+   "start_block": 329,
+   "end_block": 330,
+   "recommended": true,
+   "reason": "Petrany cites Rules 15(b)(2) and 54 as rules that reach matters outside the pleadings; the card shows both. The 15(b)(2) column includes its last sentence (idea from the Codex set).",
+   "cue": {
+    "kind": "Comparison",
+    "heading": "Rules that look past the pleadings",
+    "compare": [
+     {
+      "title": "Issues tried by consent",
+      "cite": "Rule 15(b)(2)",
+      "text": "When an issue not raised by the pleadings is tried by the parties’ express or implied consent, it must be <mark>treated in all respects as if raised in the pleadings</mark>. … But failure to amend does not affect the result of the trial of that issue."
+     },
+     {
+      "title": "Relief in a judgment",
+      "cite": "Rule 54(c)",
+      "text": "Every other final judgment should grant the relief to which each party is entitled, <mark>even if the party has not demanded that relief</mark> in its pleadings."
+     }
+    ],
+    "source": "Federal Rules of Civil Procedure",
+    "highlight": [
+     "Rule 15(b)(2)"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "frcp-15.txt",
+     "page": 1,
+     "quote": "When an issue not raised by the pleadings is tried by the parties’ express or implied consent, it must be treated in all respects as if raised in the pleadings.",
+     "claim": "15(b)(2)"
+    },
+    {
+     "source": "frcp-54.txt",
+     "page": 1,
+     "quote": "Every other final judgment should grant the relief to which each party is entitled, even if the party has not demanded that relief in its pleadings.",
+     "claim": "54(c)"
+    },
+    {
+     "source": "frcp-15.txt",
+     "page": 1,
+     "quote": "But failure to amend does not affect the result of the trial of that issue.",
+     "claim": "15(b)(2), last sentence"
+    }
+   ]
+  },
+  {
+   "id": "wood",
+   "start_block": 330,
+   "end_block": 332,
+   "recommended": true,
+   "reason": "Petrany cites Day and Wood v. Milyard for treating an unpleaded defense as forfeited rather than waived; the card shows how Wood draws that distinction.",
+   "cue": {
+    "kind": "Excerpt",
+    "label": "Opinion excerpt",
+    "heading": "<i>Wood</i> v. <i>Milyard</i> (2012)",
+    "before": "We note here the distinction between defenses that are “waived” and those that are “forfeited.”",
+    "quote": "A waived claim or defense is one that a party has <mark>knowingly and intelligently relinquished</mark>; a forfeited plea is one that a party has <mark>merely failed to preserve</mark>.",
+    "after": "",
+    "source": "Opinion of the Court · 566 U.S. 463, 470",
+    "highlight": [
+     "Day, Milyard"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-566-463.txt",
+     "page": 1,
+     "quote": "A waived claim or defense is one that a party has knowingly and intelligently relinquished; a forfeited plea is one that a party has merely failed to preserve.",
+     "claim": "Waiver vs forfeiture"
+    }
+   ]
+  },
+  {
+   "id": "staff-statute",
+   "start_block": 385,
+   "end_block": 387,
+   "recommended": true,
+   "reason": "Petrany says amending would only add “seven words” invoking 2000e(f); the card shows the provision.",
+   "cue": {
+    "kind": "Statute",
+    "heading": "42 U.S.C. § 2000e(f) — who is an “employee”",
+    "text": "The term “employee” means an individual employed by an employer, except that the term “employee” shall not include any person elected to public office … or <mark>any person chosen by such officer to be on such officer's personal staff</mark>, or an appointee on the policy making level or an immediate adviser with respect to the exercise of the constitutional or legal powers of the office.",
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+     "2000e(f)"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "usc-42-2000e.txt",
+     "page": 1,
+     "quote": "The term \"employee\" means an individual employed by an employer, except that the term \"employee\" shall not include any person elected to public office",
+     "claim": "(f)"
+    },
+    {
+     "source": "usc-42-2000e.txt",
+     "page": 1,
+     "quote": "or any person chosen by such officer to be on such officer's personal staff, or an appointee on the policy making level or an immediate adviser with respect to the exercise of the constitutional or legal powers of the office.",
+     "claim": "(f)"
+    }
+   ]
+  },
+  {
+   "id": "qp-again",
+   "start_block": 387,
+   "end_block": 389,
+   "recommended": true,
+   "reason": "Alito goes back to “the actual question on which review was granted” and paraphrases it; the card shows its text.",
+   "cue": {
+    "kind": "Question presented",
+    "heading": "granted March 30, 2026",
+    "text": "Where a defendant has filed an answer without pleading an affirmative defense, may the defendant nonetheless assert that affirmative defense as the basis for a summary judgment motion, <mark>without amending or seeking to amend its answer</mark> to plead that affirmative defense, and may a defendant do so even if an amendment adding that affirmative defense would be barred by Rule 16(b)(4)?",
+    "source": "Question presented · Supreme Court docket",
+    "highlight": [
+     "the actual question on which review was granted"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "qp.txt",
+     "page": 1,
+     "quote": "may a defendant do so even if an amendment adding that affirmative defense would be barred by Rule 16(b)(4)?",
+     "claim": "QP"
+    }
+   ]
+  },
+  {
+   "id": "rule-12b",
+   "start_block": 409,
+   "end_block": 412,
+   "recommended": true,
+   "reason": "Schnapper reads the “but” in the second sentence of Rule 12(b) as an exception; the card shows the text, which says “every defense”.",
+   "cue": {
+    "kind": "Rule",
+    "heading": "Rule 12(b) — How to present defenses",
+    "text": "Every defense to a claim for relief in any pleading must be asserted in the responsive pleading if one is required. <mark>But a party may assert the following defenses by motion</mark>: … (6) failure to state a claim upon which relief can be granted; …",
+    "source": "Federal Rules of Civil Procedure",
+    "highlight": [
+     "second sentence of Rule 12(b)"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "frcp-12.txt",
+     "page": 1,
+     "quote": "Every defense to a claim for relief in any pleading must be asserted in the responsive pleading if one is required. But a party may assert the following defenses by motion:",
+     "claim": "12(b)"
+    },
+    {
+     "source": "frcp-12.txt",
+     "page": 1,
+     "quote": "(6) failure to state a claim upon which relief can be granted;",
+     "claim": "12(b)(6)"
+    }
+   ]
+  }
+ ],
+ "private_notes": [
+  "Kontrick (block 3): Schnapper says 'amended complaint'; the opinion says 'answer or amended answer'. Not carded: the opening question card fills that window.",
+  "Not carded as unverified: the 'four circuits … the only circuit to the contrary is from 1982' count (block 106), 'ED' (probably Encino, block 108; its text does not support the claim), the Second Circuit (blocks 43, 264), and the Docket 132 quote (block 178).",
+  "The timeline omits the May 26, 2021 amendment deadline because whether the local rule set one is disputed in the argument (Alito, blocks 151-152, 178). It follows the petition's dates; the petition also mentions an April 2022 motion the court struck (App. 81a-82a).",
+  "Pet. App. pages come from the OCR'd opinion (pet-app-ocr.txt); CAP pin cites (Foman 182, Ahmad 1202, Wood 470) are from the briefs."
+ ]
+}

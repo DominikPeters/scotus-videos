@@ -1,0 +1,1305 @@
+{
+  "term": 2025,
+  "scope": "calendar 2026 arguments",
+  "cases": [
+    {
+      "docket": "24-813",
+      "name": "Chevron USA Inc. v. Plaquemines Parish, Louisiana",
+      "dates": [
+        "2026-01-12"
+      ],
+      "oyez_id": 63803,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-813.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Paul D. Clement",
+          "id": "paul_d_clement",
+          "description": "for the Petitioners",
+          "existing_image": "advocates/paul_d_clement.jpg"
+        },
+        {
+          "name": "Aaron Z. Roper",
+          "id": "aaron_z_roper",
+          "description": "for the United States, as amicus curiae, supporting the Petitioners",
+          "existing_image": null
+        },
+        {
+          "name": "J. Benjamin Aguinaga",
+          "id": "j_benjamin_aguinaga",
+          "description": "for the Respondents",
+          "existing_image": "advocates/j_benjamin_aguinaga.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "24-38",
+      "name": "Little v. Hecox",
+      "dates": [
+        "2026-01-13"
+      ],
+      "oyez_id": 63811,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-38.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Alan M. Hurst",
+          "id": "alan_m_hurst",
+          "description": "for the Petitioners",
+          "existing_image": "advocates/alan_m_hurst.jpg"
+        },
+        {
+          "name": "Hashim M. Mooppan",
+          "id": "hashim_m_mooppan",
+          "description": "for the United States, as amicus curiae, supporting the Petitioners",
+          "existing_image": "advocates/hashim_m_mooppan.jpg"
+        },
+        {
+          "name": "Kathleen R. Hartnett",
+          "id": "kathleen_r_hartnett",
+          "description": "for the Respondents",
+          "existing_image": "advocates/kathleen_r_hartnett.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "24-43",
+      "name": "West Virginia v. B.P.J.",
+      "dates": [
+        "2026-01-13"
+      ],
+      "oyez_id": 63813,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-43.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Michael R. Williams",
+          "id": "michael_r_williams",
+          "description": "for the Petitioners",
+          "existing_image": "advocates/michael_r_williams.jpg"
+        },
+        {
+          "name": "Hashim M. Mooppan",
+          "id": "hashim_m_mooppan",
+          "description": "for the United States, as amicus curiae, supporting the Petitioners",
+          "existing_image": "advocates/hashim_m_mooppan.jpg"
+        },
+        {
+          "name": "Joshua A. Block",
+          "id": "joshua_a_block",
+          "description": "for the Respondent",
+          "existing_image": "advocates/joshua_a_block.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "24-1021",
+      "name": "Galette v. New Jersey Transit  Corp.",
+      "dates": [
+        "2026-01-14"
+      ],
+      "oyez_id": 63810,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-1021.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Michael Zuckerman",
+          "id": "michael_zuckerman",
+          "description": "for New Jersey Transit Corp., et al. (Respondent in No. 24-1021, Petitioners in No. 24-1113) ",
+          "existing_image": null
+        },
+        {
+          "name": "Michael B. Kimberly",
+          "id": "michael_b_kimberly",
+          "description": "for Galette and Colt, et al. (Petitioner in 24-1021, Respondents in 24-1113)",
+          "existing_image": "advocates/michael_b_kimberly.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "24-1046 ",
+      "name": "Wolford v. Lopez",
+      "dates": [
+        "2026-01-20"
+      ],
+      "oyez_id": 63826,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-1046 .json",
+      "transcript_cache": false,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Alan A. Beck",
+          "id": "alan_a_beck",
+          "description": "for the Petitioners",
+          "existing_image": null
+        },
+        {
+          "name": "Sarah M. Harris",
+          "id": "sarah_m_harris",
+          "description": "for the United States, as amicus curiae, supporting the Petitioners",
+          "existing_image": "advocates/sarah_m_harris.jpg"
+        },
+        {
+          "name": "Neal Kumar Katyal",
+          "id": "neal_kumar_katyal",
+          "description": "for the Respondent",
+          "existing_image": "advocates/neal_kumar_katyal.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "23-1209 ",
+      "name": "M & K Employee Solutions, LLC v. Trustees of the IAM National Pension Fund",
+      "dates": [
+        "2026-01-20"
+      ],
+      "oyez_id": 63791,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/23-1209 .json",
+      "transcript_cache": false,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Michael E. Kenneally, Jr.",
+          "id": "michael_e_kenneally_jr",
+          "description": "for the Petitioners",
+          "existing_image": null
+        },
+        {
+          "name": "John E. Roberts",
+          "id": "john_e_roberts",
+          "description": "for the Respondent",
+          "existing_image": null
+        },
+        {
+          "name": "Kevin J. Barber",
+          "id": "kevin_j_barber",
+          "description": "for the United States, as amicus curiae, supporting the Respondent",
+          "existing_image": "advocates/kevin_j_barber.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "25A312",
+      "name": "Trump v. Cook",
+      "dates": [
+        "2026-01-21"
+      ],
+      "oyez_id": 63873,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/25A312.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "D. John Sauer",
+          "id": "d_john_sauer",
+          "description": "for the Applicants",
+          "existing_image": "advocates/d_john_sauer.jpg"
+        },
+        {
+          "name": "Paul D. Clement",
+          "id": "paul_d_clement",
+          "description": "for the Respondent",
+          "existing_image": "advocates/paul_d_clement.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "24-699",
+      "name": "Exxon Mobil Corp. v. Corporaci\u00f3n Cimex, S.A. (Cuba)",
+      "dates": [
+        "2026-02-23"
+      ],
+      "oyez_id": 63824,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-699.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Morgan L. Ratner",
+          "id": "morgan_l_ratner",
+          "description": "for the Petitioner",
+          "existing_image": "advocates/morgan_l_ratner.jpg"
+        },
+        {
+          "name": "Curtis E. Gannon",
+          "id": "curtis_e_gannon",
+          "description": "for the United States, as amicus curiae, supporting the Petitioner",
+          "existing_image": "advocates/curtis_e_gannon.jpg"
+        },
+        {
+          "name": "Jules L. Lobel",
+          "id": "jules_lobel",
+          "description": "for the Respondents",
+          "existing_image": null
+        }
+      ]
+    },
+    {
+      "docket": "24-983",
+      "name": "Havana Docks Corporation v. Royal Caribbean Cruises, Ltd.",
+      "dates": [
+        "2026-02-23"
+      ],
+      "oyez_id": 63825,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-983.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Richard D. Klingler",
+          "id": "richard_d_klingler",
+          "description": "for the Petitioner",
+          "existing_image": null
+        },
+        {
+          "name": "Aimee W. Brown",
+          "id": "aimee_w_brown",
+          "description": "for the United States, as amicus curiae, supporting the Petitioner",
+          "existing_image": "advocates/aimee_w_brown.jpg"
+        },
+        {
+          "name": "Paul D. Clement",
+          "id": "paul_d_clement",
+          "description": "for the Respondents",
+          "existing_image": "advocates/paul_d_clement.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "24-783",
+      "name": "Enbridge Energy, LP v. Nessel",
+      "dates": [
+        "2026-02-24"
+      ],
+      "oyez_id": 63801,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-783.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "John J. Bursch",
+          "id": "john_j_bursch",
+          "description": "for the Petitioners",
+          "existing_image": "advocates/john_j_bursch.jpg"
+        },
+        {
+          "name": "Ann M. Sherman",
+          "id": "ann_m_sherman",
+          "description": "for the Respondent",
+          "existing_image": "advocates/ann_m_sherman.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "25-95",
+      "name": "Pung v. Isabella County",
+      "dates": [
+        "2026-02-25"
+      ],
+      "oyez_id": 63829,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/25-95.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Philip L. Ellison",
+          "id": "philip_l_ellison",
+          "description": "for the Petitioner",
+          "existing_image": null
+        },
+        {
+          "name": "Frederick Liu",
+          "id": "frederick_liu",
+          "description": "for the United States, as amicus curiae, supporting neither party",
+          "existing_image": "advocates/frederick_liu.jpg"
+        },
+        {
+          "name": "Matthew T. Nelson",
+          "id": "matthew_t_nelson",
+          "description": "for the Respondent",
+          "existing_image": null
+        }
+      ]
+    },
+    {
+      "docket": "24-1234",
+      "name": "United States v. Hemani",
+      "dates": [
+        "2026-03-02"
+      ],
+      "oyez_id": 63821,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-1234.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Sarah M. Harris",
+          "id": "sarah_m_harris",
+          "description": "for the Petitioner",
+          "existing_image": "advocates/sarah_m_harris.jpg"
+        },
+        {
+          "name": "Erin E. Murphy",
+          "id": "erin_e_murphy",
+          "description": "for the Respondent",
+          "existing_image": null
+        }
+      ]
+    },
+    {
+      "docket": "24-1063",
+      "name": "Hunter v. United States",
+      "dates": [
+        "2026-03-03"
+      ],
+      "oyez_id": 63827,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-1063.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Lisa S. Blatt",
+          "id": "lisa_s_blatt",
+          "description": "for the Petitioner",
+          "existing_image": "advocates/lisa_s_blatt.jpg"
+        },
+        {
+          "name": "Zoe A. Jacoby",
+          "id": "zoe_a_jacoby",
+          "description": "for the Respondent",
+          "existing_image": "advocates/zoe_a_jacoby.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "24-1238",
+      "name": "Montgomery v. Caribe Transport II, LLC",
+      "dates": [
+        "2026-03-04"
+      ],
+      "oyez_id": 63828,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-1238.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Paul D. Clement",
+          "id": "paul_d_clement",
+          "description": "for the Petitioner",
+          "existing_image": "advocates/paul_d_clement.jpg"
+        },
+        {
+          "name": "Theodore J. Boutrous Jr.",
+          "id": "theodore_j_boutrous_jr",
+          "description": "for the Respondents",
+          "existing_image": "advocates/theodore_j_boutrous_jr.jpg"
+        },
+        {
+          "name": "Sopan Joshi",
+          "id": "sopan_joshi",
+          "description": "for the United States, as amicus curiae, supporting the Respondents",
+          "existing_image": "advocates/sopan_joshi.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "24-1260",
+      "name": "Watson v. Republican National Committee",
+      "dates": [
+        "2026-03-23"
+      ],
+      "oyez_id": 63840,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-1260.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Scott G. Stewart",
+          "id": "scott_g_stewart",
+          "description": "for the Petitioner",
+          "existing_image": "advocates/scott_g_stewart.jpg"
+        },
+        {
+          "name": "Paul D. Clement",
+          "id": "paul_d_clement",
+          "description": "for the Respondents",
+          "existing_image": "advocates/paul_d_clement.jpg"
+        },
+        {
+          "name": "D. John Sauer",
+          "id": "d_john_sauer",
+          "description": "for the United States, as amicus curiae, supporting the Respondents",
+          "existing_image": "advocates/d_john_sauer.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "25-6",
+      "name": "Keathley v. Buddy Ayers Construction, Incorporated",
+      "dates": [
+        "2026-03-24"
+      ],
+      "oyez_id": 63822,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/25-6.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Gregory G. Garre",
+          "id": "gregory_g_garre",
+          "description": "for the Petitioner",
+          "existing_image": "advocates/gregory_g_garre.jpg"
+        },
+        {
+          "name": "Frederick Liu",
+          "id": "frederick_liu",
+          "description": "for the United States, as amicus curiae, supporting vacatur",
+          "existing_image": "advocates/frederick_liu.jpg"
+        },
+        {
+          "name": "William M. Jay",
+          "id": "william_m_jay",
+          "description": "for the Respondent",
+          "existing_image": "advocates/william_m_jay.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "25-5",
+      "name": "Noem v. Al Otro Lado",
+      "dates": [
+        "2026-03-24"
+      ],
+      "oyez_id": 63843,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/25-5.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Vivek Suri",
+          "id": "vivek_suri",
+          "description": "for the Petitioners",
+          "existing_image": "advocates/vivek_suri.jpg"
+        },
+        {
+          "name": "Kelsi B. Corkran",
+          "id": "kelsi_b_corkran",
+          "description": "for the Respondents",
+          "existing_image": "advocates/kelsi_b_corkran.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "24-935",
+      "name": "Flower Foods, Inc. v. Brock ",
+      "dates": [
+        "2026-03-25"
+      ],
+      "oyez_id": 63820,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-935.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Traci L. Lovitt",
+          "id": "traci_l_lovitt",
+          "description": "for the Petitioners",
+          "existing_image": "advocates/traci_l_lovitt.jpg"
+        },
+        {
+          "name": "Jennifer D. Bennett",
+          "id": "jennifer_d_bennett",
+          "description": "for the Respondent",
+          "existing_image": "advocates/jennifer_d_bennett.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "25-5146",
+      "name": "Abouammo v. United States",
+      "dates": [
+        "2026-03-30"
+      ],
+      "oyez_id": 63859,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/25-5146.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Tobias S. Loss-Eaton",
+          "id": "tobias_s_loss_eaton",
+          "description": "for the Petitioner",
+          "existing_image": null
+        },
+        {
+          "name": "Anthony A. Yang",
+          "id": "anthony_a_yang",
+          "description": "for the Respondent",
+          "existing_image": "advocates/anthony_a_yang.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "25-83",
+      "name": "Jules v. Andre Balazs Properties",
+      "dates": [
+        "2026-03-30"
+      ],
+      "oyez_id": 63856,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/25-83.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Adam G. Unikowsky",
+          "id": "adam_g_unikowsky",
+          "description": "for the Petitioner",
+          "existing_image": "advocates/adam_g_unikowsky.jpg"
+        },
+        {
+          "name": "Daniel L. Geyser",
+          "id": "daniel_l_geyser",
+          "description": "for the Respondents",
+          "existing_image": "advocates/daniel_l_geyser.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "24-7351",
+      "name": "Pitchford v. Cain",
+      "dates": [
+        "2026-03-31"
+      ],
+      "oyez_id": 63860,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-7351.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Joseph J. Perkovich",
+          "id": "joseph_j_perkovich",
+          "description": "for the Petitioner",
+          "existing_image": null
+        },
+        {
+          "name": "Scott G. Stewart",
+          "id": "scott_g_stewart",
+          "description": "for the Respondents",
+          "existing_image": "advocates/scott_g_stewart.jpg"
+        },
+        {
+          "name": "Emily M. Ferguson",
+          "id": "emily_m_ferguson",
+          "description": "for the United States, as amicus curiae, supporting the Respondents",
+          "existing_image": null
+        }
+      ]
+    },
+    {
+      "docket": "25-365",
+      "name": "Trump v. Barbara",
+      "dates": [
+        "2026-04-01"
+      ],
+      "oyez_id": 63858,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/25-365.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "D. John Sauer",
+          "id": "d_john_sauer",
+          "description": "for the Petitioners",
+          "existing_image": "advocates/d_john_sauer.jpg"
+        },
+        {
+          "name": "Cecillia D. Wang",
+          "id": "cecillia_d_wang",
+          "description": "for the Respondents",
+          "existing_image": "advocates/cecillia_d_wang.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "25-197",
+      "name": "T. M. v. University of Maryland Medical System Corporation",
+      "dates": [
+        "2026-04-20"
+      ],
+      "oyez_id": 63857,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/25-197.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Elizabeth B. Prelogar",
+          "id": "elizabeth_b_prelogar",
+          "description": "for the Petitioner",
+          "existing_image": "advocates/elizabeth_b_prelogar.jpg"
+        },
+        {
+          "name": "Lisa S. Blatt",
+          "id": "lisa_s_blatt",
+          "description": "for the Respondents",
+          "existing_image": "advocates/lisa_s_blatt.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "25-466",
+      "name": "Sripetch v. SEC",
+      "dates": [
+        "2026-04-20"
+      ],
+      "oyez_id": 63865,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/25-466.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Daniel L. Geyser",
+          "id": "daniel_l_geyser",
+          "description": "for the Petitioner",
+          "existing_image": "advocates/daniel_l_geyser.jpg"
+        },
+        {
+          "name": "Malcolm L. Stewart",
+          "id": "malcolm_l_stewart",
+          "description": "for the Respondent",
+          "existing_image": "advocates/malcolm_l_stewart.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "25-406 ",
+      "name": "Federal Communications Commission v. AT&T, Inc.",
+      "dates": [
+        "2026-04-21"
+      ],
+      "oyez_id": 63863,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/25-406 .json",
+      "transcript_cache": false,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Jeffrey B. Wall",
+          "id": "jeffrey_b_wall",
+          "description": "for AT&T, Inc. and Verizon Communications Inc.",
+          "existing_image": "advocates/jeffrey_b_wall.jpg"
+        },
+        {
+          "name": "Vivek Suri",
+          "id": "vivek_suri",
+          "description": "for the FCC, et al.",
+          "existing_image": "advocates/vivek_suri.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "25-429",
+      "name": "Blanche v. Lau ",
+      "dates": [
+        "2026-04-22"
+      ],
+      "oyez_id": 63864,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/25-429.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Sopan Joshi",
+          "id": "sopan_joshi",
+          "description": "for the Petitioner",
+          "existing_image": "advocates/sopan_joshi.jpg"
+        },
+        {
+          "name": "Shay Dvoretzky",
+          "id": "shay_dvoretzky",
+          "description": "for the Respondent",
+          "existing_image": "advocates/shay_dvoretzky.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "25-112",
+      "name": "Chatrie v. United States",
+      "dates": [
+        "2026-04-27"
+      ],
+      "oyez_id": 63879,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/25-112.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Adam G. Unikowsky",
+          "id": "adam_g_unikowsky",
+          "description": "for the Petitioner",
+          "existing_image": "advocates/adam_g_unikowsky.jpg"
+        },
+        {
+          "name": "Eric J. Feigin",
+          "id": "eric_j_feigin",
+          "description": "for the Respondent",
+          "existing_image": "advocates/eric_j_feigin.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "24-1068",
+      "name": "Monsanto Company v. Durnell",
+      "dates": [
+        "2026-04-27"
+      ],
+      "oyez_id": 63878,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-1068.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Paul D. Clement",
+          "id": "paul_d_clement",
+          "description": "for the Petitioner",
+          "existing_image": "advocates/paul_d_clement.jpg"
+        },
+        {
+          "name": "Sarah M. Harris",
+          "id": "sarah_m_harris",
+          "description": "for the United States, as amicus curiae, supporting the Petitioner",
+          "existing_image": "advocates/sarah_m_harris.jpg"
+        },
+        {
+          "name": "Ashley C. Keller",
+          "id": "ashley_c_keller",
+          "description": "for the Respondent",
+          "existing_image": "advocates/ashley_c_keller.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "24-856 ",
+      "name": "Cisco Systems, Inc. v. Doe I",
+      "dates": [
+        "2026-04-28"
+      ],
+      "oyez_id": 63861,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-856 .json",
+      "transcript_cache": false,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Kannon K. Shanmugam",
+          "id": "kannon_k_shanmugam",
+          "description": "for the Petitioners",
+          "existing_image": "advocates/kannon_k_shanmugam.jpg"
+        },
+        {
+          "name": "Curtis E. Gannon",
+          "id": "curtis_e_gannon",
+          "description": "for the United States, as amicus curiae, supporting the Petitioners",
+          "existing_image": "advocates/curtis_e_gannon.jpg"
+        },
+        {
+          "name": "Paul L. Hoffman",
+          "id": "paul_l_hoffman",
+          "description": "for the Respondents",
+          "existing_image": "advocates/paul_l_hoffman.jpg"
+        }
+      ]
+    },
+    {
+      "docket": "25-1083",
+      "name": "Mullin v. Doe",
+      "dates": [
+        "2026-04-29"
+      ],
+      "oyez_id": 63888,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/25-1083.json",
+      "transcript_cache": true,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "D. John Sauer",
+          "id": "d_john_sauer",
+          "description": "for the Petitioners",
+          "existing_image": "advocates/d_john_sauer.jpg"
+        },
+        {
+          "name": "Ahilan T. Arulanantham",
+          "id": "ahilan_t_arulanantham",
+          "description": "for the Respondents in Case No. 25-1083",
+          "existing_image": "advocates/ahilan_t_arulanantham.jpg"
+        },
+        {
+          "name": "Geoffrey M. Pipoly",
+          "id": "geoffrey_m_pipoly",
+          "description": "for the Respondents in Case No. 25-1084",
+          "existing_image": null
+        }
+      ]
+    },
+    {
+      "docket": "24-889 ",
+      "name": "Hikma Pharmaceuticals USA Inc. v. Amarin Pharma, Inc.",
+      "dates": [
+        "2026-04-29"
+      ],
+      "oyez_id": 63877,
+      "metadata_cache": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-889 .json",
+      "transcript_cache": false,
+      "local_video_files": [],
+      "advocates": [
+        {
+          "name": "Charles B. Klein",
+          "id": "charles_b_klein",
+          "description": "for the Petitioners",
+          "existing_image": null
+        },
+        {
+          "name": "Malcolm L. Stewart",
+          "id": "malcolm_l_stewart",
+          "description": "for the United States, as amicus curiae, supporting the Petitioners",
+          "existing_image": "advocates/malcolm_l_stewart.jpg"
+        },
+        {
+          "name": "Michael R. Huston",
+          "id": "michael_r_huston",
+          "description": "for the Respondents",
+          "existing_image": "advocates/michael_r_huston.jpg"
+        }
+      ]
+    }
+  ],
+  "advocates": {
+    "morgan_l_ratner": {
+      "name": "Morgan L. Ratner",
+      "existing_image": "advocates/morgan_l_ratner.jpg",
+      "cases": [
+        "24-699"
+      ]
+    },
+    "curtis_e_gannon": {
+      "name": "Curtis E. Gannon",
+      "existing_image": "advocates/curtis_e_gannon.jpg",
+      "cases": [
+        "24-699",
+        "24-856 "
+      ]
+    },
+    "jules_lobel": {
+      "name": "Jules L. Lobel",
+      "existing_image": null,
+      "cases": [
+        "24-699"
+      ]
+    },
+    "kannon_k_shanmugam": {
+      "name": "Kannon K. Shanmugam",
+      "existing_image": "advocates/kannon_k_shanmugam.jpg",
+      "cases": [
+        "24-856 "
+      ]
+    },
+    "paul_l_hoffman": {
+      "name": "Paul L. Hoffman",
+      "existing_image": "advocates/paul_l_hoffman.jpg",
+      "cases": [
+        "24-856 "
+      ]
+    },
+    "d_john_sauer": {
+      "name": "D. John Sauer",
+      "existing_image": "advocates/d_john_sauer.jpg",
+      "cases": [
+        "25-1083",
+        "25-365",
+        "25A312",
+        "24-1260"
+      ]
+    },
+    "ahilan_t_arulanantham": {
+      "name": "Ahilan T. Arulanantham",
+      "existing_image": "advocates/ahilan_t_arulanantham.jpg",
+      "cases": [
+        "25-1083"
+      ]
+    },
+    "geoffrey_m_pipoly": {
+      "name": "Geoffrey M. Pipoly",
+      "existing_image": null,
+      "cases": [
+        "25-1083"
+      ]
+    },
+    "tobias_s_loss_eaton": {
+      "name": "Tobias S. Loss-Eaton",
+      "existing_image": null,
+      "cases": [
+        "25-5146"
+      ]
+    },
+    "anthony_a_yang": {
+      "name": "Anthony A. Yang",
+      "existing_image": "advocates/anthony_a_yang.jpg",
+      "cases": [
+        "25-5146"
+      ]
+    },
+    "elizabeth_b_prelogar": {
+      "name": "Elizabeth B. Prelogar",
+      "existing_image": "advocates/elizabeth_b_prelogar.jpg",
+      "cases": [
+        "25-197"
+      ]
+    },
+    "lisa_s_blatt": {
+      "name": "Lisa S. Blatt",
+      "existing_image": "advocates/lisa_s_blatt.jpg",
+      "cases": [
+        "25-197",
+        "24-1063"
+      ]
+    },
+    "alan_a_beck": {
+      "name": "Alan A. Beck",
+      "existing_image": null,
+      "cases": [
+        "24-1046 "
+      ]
+    },
+    "sarah_m_harris": {
+      "name": "Sarah M. Harris",
+      "existing_image": "advocates/sarah_m_harris.jpg",
+      "cases": [
+        "24-1046 ",
+        "24-1234",
+        "24-1068"
+      ]
+    },
+    "neal_kumar_katyal": {
+      "name": "Neal Kumar Katyal",
+      "existing_image": "advocates/neal_kumar_katyal.jpg",
+      "cases": [
+        "24-1046 "
+      ]
+    },
+    "charles_b_klein": {
+      "name": "Charles B. Klein",
+      "existing_image": null,
+      "cases": [
+        "24-889 "
+      ]
+    },
+    "malcolm_l_stewart": {
+      "name": "Malcolm L. Stewart",
+      "existing_image": "advocates/malcolm_l_stewart.jpg",
+      "cases": [
+        "24-889 ",
+        "25-466"
+      ]
+    },
+    "michael_r_huston": {
+      "name": "Michael R. Huston",
+      "existing_image": "advocates/michael_r_huston.jpg",
+      "cases": [
+        "24-889 "
+      ]
+    },
+    "joseph_j_perkovich": {
+      "name": "Joseph J. Perkovich",
+      "existing_image": null,
+      "cases": [
+        "24-7351"
+      ]
+    },
+    "scott_g_stewart": {
+      "name": "Scott G. Stewart",
+      "existing_image": "advocates/scott_g_stewart.jpg",
+      "cases": [
+        "24-7351",
+        "24-1260"
+      ]
+    },
+    "emily_m_ferguson": {
+      "name": "Emily M. Ferguson",
+      "existing_image": null,
+      "cases": [
+        "24-7351"
+      ]
+    },
+    "michael_zuckerman": {
+      "name": "Michael Zuckerman",
+      "existing_image": null,
+      "cases": [
+        "24-1021"
+      ]
+    },
+    "michael_b_kimberly": {
+      "name": "Michael B. Kimberly",
+      "existing_image": "advocates/michael_b_kimberly.jpg",
+      "cases": [
+        "24-1021"
+      ]
+    },
+    "jeffrey_b_wall": {
+      "name": "Jeffrey B. Wall",
+      "existing_image": "advocates/jeffrey_b_wall.jpg",
+      "cases": [
+        "25-406 "
+      ]
+    },
+    "vivek_suri": {
+      "name": "Vivek Suri",
+      "existing_image": "advocates/vivek_suri.jpg",
+      "cases": [
+        "25-406 ",
+        "25-5"
+      ]
+    },
+    "cecillia_d_wang": {
+      "name": "Cecillia D. Wang",
+      "existing_image": "advocates/cecillia_d_wang.jpg",
+      "cases": [
+        "25-365"
+      ]
+    },
+    "paul_d_clement": {
+      "name": "Paul D. Clement",
+      "existing_image": "advocates/paul_d_clement.jpg",
+      "cases": [
+        "25A312",
+        "24-1260",
+        "24-1238",
+        "24-813",
+        "24-983",
+        "24-1068"
+      ]
+    },
+    "gregory_g_garre": {
+      "name": "Gregory G. Garre",
+      "existing_image": "advocates/gregory_g_garre.jpg",
+      "cases": [
+        "25-6"
+      ]
+    },
+    "frederick_liu": {
+      "name": "Frederick Liu",
+      "existing_image": "advocates/frederick_liu.jpg",
+      "cases": [
+        "25-6",
+        "25-95"
+      ]
+    },
+    "william_m_jay": {
+      "name": "William M. Jay",
+      "existing_image": "advocates/william_m_jay.jpg",
+      "cases": [
+        "25-6"
+      ]
+    },
+    "adam_g_unikowsky": {
+      "name": "Adam G. Unikowsky",
+      "existing_image": "advocates/adam_g_unikowsky.jpg",
+      "cases": [
+        "25-83",
+        "25-112"
+      ]
+    },
+    "daniel_l_geyser": {
+      "name": "Daniel L. Geyser",
+      "existing_image": "advocates/daniel_l_geyser.jpg",
+      "cases": [
+        "25-83",
+        "25-466"
+      ]
+    },
+    "traci_l_lovitt": {
+      "name": "Traci L. Lovitt",
+      "existing_image": "advocates/traci_l_lovitt.jpg",
+      "cases": [
+        "24-935"
+      ]
+    },
+    "jennifer_d_bennett": {
+      "name": "Jennifer D. Bennett",
+      "existing_image": "advocates/jennifer_d_bennett.jpg",
+      "cases": [
+        "24-935"
+      ]
+    },
+    "philip_l_ellison": {
+      "name": "Philip L. Ellison",
+      "existing_image": null,
+      "cases": [
+        "25-95"
+      ]
+    },
+    "matthew_t_nelson": {
+      "name": "Matthew T. Nelson",
+      "existing_image": null,
+      "cases": [
+        "25-95"
+      ]
+    },
+    "eric_j_feigin": {
+      "name": "Eric J. Feigin",
+      "existing_image": "advocates/eric_j_feigin.jpg",
+      "cases": [
+        "25-112"
+      ]
+    },
+    "erin_e_murphy": {
+      "name": "Erin E. Murphy",
+      "existing_image": null,
+      "cases": [
+        "24-1234"
+      ]
+    },
+    "john_j_bursch": {
+      "name": "John J. Bursch",
+      "existing_image": "advocates/john_j_bursch.jpg",
+      "cases": [
+        "24-783"
+      ]
+    },
+    "ann_m_sherman": {
+      "name": "Ann M. Sherman",
+      "existing_image": "advocates/ann_m_sherman.jpg",
+      "cases": [
+        "24-783"
+      ]
+    },
+    "theodore_j_boutrous_jr": {
+      "name": "Theodore J. Boutrous Jr.",
+      "existing_image": "advocates/theodore_j_boutrous_jr.jpg",
+      "cases": [
+        "24-1238"
+      ]
+    },
+    "sopan_joshi": {
+      "name": "Sopan Joshi",
+      "existing_image": "advocates/sopan_joshi.jpg",
+      "cases": [
+        "24-1238",
+        "25-429"
+      ]
+    },
+    "alan_m_hurst": {
+      "name": "Alan M. Hurst",
+      "existing_image": "advocates/alan_m_hurst.jpg",
+      "cases": [
+        "24-38"
+      ]
+    },
+    "hashim_m_mooppan": {
+      "name": "Hashim M. Mooppan",
+      "existing_image": "advocates/hashim_m_mooppan.jpg",
+      "cases": [
+        "24-38",
+        "24-43"
+      ]
+    },
+    "kathleen_r_hartnett": {
+      "name": "Kathleen R. Hartnett",
+      "existing_image": "advocates/kathleen_r_hartnett.jpg",
+      "cases": [
+        "24-38"
+      ]
+    },
+    "kelsi_b_corkran": {
+      "name": "Kelsi B. Corkran",
+      "existing_image": "advocates/kelsi_b_corkran.jpg",
+      "cases": [
+        "25-5"
+      ]
+    },
+    "michael_r_williams": {
+      "name": "Michael R. Williams",
+      "existing_image": "advocates/michael_r_williams.jpg",
+      "cases": [
+        "24-43"
+      ]
+    },
+    "joshua_a_block": {
+      "name": "Joshua A. Block",
+      "existing_image": "advocates/joshua_a_block.jpg",
+      "cases": [
+        "24-43"
+      ]
+    },
+    "zoe_a_jacoby": {
+      "name": "Zoe A. Jacoby",
+      "existing_image": "advocates/zoe_a_jacoby.jpg",
+      "cases": [
+        "24-1063"
+      ]
+    },
+    "aaron_z_roper": {
+      "name": "Aaron Z. Roper",
+      "existing_image": null,
+      "cases": [
+        "24-813"
+      ]
+    },
+    "j_benjamin_aguinaga": {
+      "name": "J. Benjamin Aguinaga",
+      "existing_image": "advocates/j_benjamin_aguinaga.jpg",
+      "cases": [
+        "24-813"
+      ]
+    },
+    "shay_dvoretzky": {
+      "name": "Shay Dvoretzky",
+      "existing_image": "advocates/shay_dvoretzky.jpg",
+      "cases": [
+        "25-429"
+      ]
+    },
+    "richard_d_klingler": {
+      "name": "Richard D. Klingler",
+      "existing_image": null,
+      "cases": [
+        "24-983"
+      ]
+    },
+    "aimee_w_brown": {
+      "name": "Aimee W. Brown",
+      "existing_image": "advocates/aimee_w_brown.jpg",
+      "cases": [
+        "24-983"
+      ]
+    },
+    "ashley_c_keller": {
+      "name": "Ashley C. Keller",
+      "existing_image": "advocates/ashley_c_keller.jpg",
+      "cases": [
+        "24-1068"
+      ]
+    },
+    "michael_e_kenneally_jr": {
+      "name": "Michael E. Kenneally, Jr.",
+      "existing_image": null,
+      "cases": [
+        "23-1209 "
+      ]
+    },
+    "john_e_roberts": {
+      "name": "John E. Roberts",
+      "existing_image": null,
+      "cases": [
+        "23-1209 "
+      ]
+    },
+    "kevin_j_barber": {
+      "name": "Kevin J. Barber",
+      "existing_image": "advocates/kevin_j_barber.jpg",
+      "cases": [
+        "23-1209 "
+      ]
+    }
+  }
+}

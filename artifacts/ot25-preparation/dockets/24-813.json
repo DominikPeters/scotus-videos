@@ -1,0 +1,1084 @@
+{
+  "CaseNumber": "24-813 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "05/19/2026",
+  "sJsonTerm": "2024",
+  "sJsonCaseNumber": "00813",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Chevron USA Incorporated, et al., Petitioners",
+  "RespondentTitle": "Plaquemines Parish, Louisiana, et al.",
+  "DocketedDate": "January 31, 2025",
+  "LowerCourt": "United States Court of Appeals for the Fifth Circuit",
+  "LowerCourtCaseNumbers": "(23-30294, 23-30422)",
+  "LowerCourtDecision": "May 29, 2024",
+  "LowerCourtRehearingDenied": "October 31, 2024",
+  "QPLink": "../qp/24-00813qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Jan 29 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due March 3, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "No. 24- Petition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/340453/20250129161518402_No.%2024-%20Petition.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24- Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/340453/20250129161525971_No.%2024-%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24- Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/340453/20250129161534237_No.%2024-%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 05 2025",
+      "Text": "Waiver of right of respondent Louisiana to respond filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Chevron v. Plaquemines Parish Response Waiver.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/341997/20250205110032177_Chevron%20v.%20Plaquemines%20Parish%20Response%20Waiver.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 10 2025",
+      "Text": "Waiver of right of respondents Plaquemines Parish and Louisiana ex rel. Parish of Plaquemines; Parish of Cameron and Louisiana ex rel. Parish of Cameron to respond filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Waiver to Respond.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/342392/20250210155835041_Waiver%20to%20Respond.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 11 2025",
+      "Text": "Waiver of right of respondents Louisiana, through the Department of Energy & Natural Resources, and its Assistant Secretary, Keith Lovell to respond filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025-02-11 SCOTUS Waiver - Donald W. Price.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/342438/20250211093545579_2025-02-11%20SCOTUS%20Waiver%20-%20Donald%20W.%20Price.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 12 2025",
+      "Text": "DISTRIBUTED for Conference of 2/28/2025."
+    },
+    {
+      "Date": "Feb 18 2025",
+      "Text": "Letter from counsel for petitioners of Chevron U.S.A. Incorporated, et al. submitted.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025.02.18 Letter re No. 24-813.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/343026/20250218141159870_2025.02.18%20Letter%20re%20No.%2024-813.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 21 2025",
+      "Text": "Response Requested. (Due March 24, 2025)"
+    },
+    {
+      "Date": "Feb 28 2025",
+      "Text": "Brief amici curiae of American Petroleum Institute, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813acAmericanPetroleumInstitute.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/350954/20250228131102917_24-813acAmericanPetroleumInstitute.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-813 Stoel Rives COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/350954/20250228131110687_No.%2024-813%20Stoel%20Rives%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-813 Stoel Rives COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/350954/20250228131118083_No.%2024-813%20Stoel%20Rives%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 10 2025",
+      "Text": "Motion to extend the time to file a response from March 24, 2025 to April 23, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025.03.10 SCOTUS MET to File BIO.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/351559/20250310111817552_2025.03.10%20SCOTUS%20MET%20to%20File%20BIO.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 11 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including April 23, 2025, for all respondents."
+    },
+    {
+      "Date": "Mar 24 2025",
+      "Text": "Brief amici curiae of Chamber of Commerce of the United States of America, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813 tsac Brief of the Chamber of Commerce and NAM.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/352825/20250324142702240_24-813%20tsac%20Brief%20of%20the%20Chamber%20of%20Commerce%20and%20NAM.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813 Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/352825/20250324142803706_24-813%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/352825/20250324142737598_24-813%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 24 2025",
+      "Text": "Brief amici curiae of General (Retired) Richard B. Myers, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813 - Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/352801/20250324122448692_24-813%20-%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813 - Word Count Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/352801/20250324122500629_24-813%20-%20Word%20Count%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813 - Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/352801/20250324122515405_24-813%20-%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 23 2025",
+      "Text": "Brief of respondents Louisiana, et al. in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813 Brief in Opposition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/356342/20250423142816075_24-813%20Brief%20in%20Opposition.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/356342/20250423142838383_24-813%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/356342/20250423142829842_24-813%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 23 2025",
+      "Text": "Brief of respondents Plaquemines Parish, Louisiana, et al. in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/356349/20250423144955569_24-813%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/356349/20250423145015101_24-813%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/356349/20250423145003874_24-813%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 07 2025",
+      "Text": "Letter dated May 7, 2025 informing the Court that petitioner Burlington Resources Oil & Gas Company is withdrawing from the petition for certiorari filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813 Burlington Letter.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/362041/20250530145142221_24-813%20Burlington%20Letter.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 13 2025",
+      "Text": "DISTRIBUTED for Conference of 5/29/2025."
+    },
+    {
+      "Date": "May 13 2025",
+      "Text": "Reply of petitioners Chevron U.S.A. Incorporated, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025-05-13 Final Chevron Cert Reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/358679/20250513114122174_2025-05-13%20Final%20Chevron%20Cert%20Reply.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-813 Clement Murphy COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/358679/20250513114129683_No.%2024-813%20Clement%20Murphy%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-813 Clement Murphy COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/358679/20250513114136193_No.%2024-813%20Clement%20Murphy%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 02 2025",
+      "Text": "DISTRIBUTED for Conference of 6/5/2025."
+    },
+    {
+      "Date": "Jun 02 2025",
+      "Text": "Petition for writ of certiorari dismissed under Rule 46 only as to petitioner Burlington Resources Oil & Gas Company."
+    },
+    {
+      "Date": "Jun 09 2025",
+      "Text": "DISTRIBUTED for Conference of 6/12/2025."
+    },
+    {
+      "Date": "Jun 16 2025",
+      "Text": "Petition GRANTED."
+    },
+    {
+      "Date": "Jul 08 2025",
+      "Text": "Motion for an extension of time to file the briefs on the merits filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025-07-08 Chevron letter re merits extension.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/364637/20250708123844762_2025-07-08%20Chevron%20letter%20re%20merits%20extension.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 16 2025",
+      "Text": "Motion to extend the time to file the briefs on the merits granted.  The time to file the joint appendix and petitioners' brief on the merits is extended to and including September 4, 2025.  The time to file respondents' brief on the merits is extended to and including November 13, 2025."
+    },
+    {
+      "Date": "Sep 04 2025",
+      "Text": "Brief of petitioners Chevron USA Incorporated, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813_Brief for Petitioners.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/373666/20250904122406188_24-813_Brief%20for%20Petitioners.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/373666/20250904122415627_24-813_Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813_Affidavit of Service_Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/373666/20250904122422474_24-813_Affidavit%20of%20Service_Brief.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 04 2025",
+      "Text": "Joint appendix filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813_Joint Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/373667/20250904122517660_24-813_Joint%20Appendix.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813_Affidavit of Service_Joint Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/373667/20250904122525707_24-813_Affidavit%20of%20Service_Joint%20Appendix.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 09 2025",
+      "Text": "Brief amici curiae of General (Retired) Richard B. Myers, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374091/20250909115711589_24-813%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374091/20250909115727839_24-813%20Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374091/20250909115720966_24-813%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 11 2025",
+      "Text": "Brief amicus curiae of United States filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813 -Chevron USA v. Plaquemines Parish Louisiana_.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374442/20250911145847599_24-813%20-Chevron%20USA%20v.%20Plaquemines%20Parish%20Louisiana_.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate 24-813.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374442/20250911145904101_Certificate%2024-813.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 11 2025",
+      "Text": "Brief amici curiae of West Virginia, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Plaquemines States Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374449/20250911152550370_Plaquemines%20States%20Amicus.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "signed_COS_WVA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374449/20250911152607278_signed_COS_WVA.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Plaquemines CoC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374449/20250911152559895_Plaquemines%20CoC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 11 2025",
+      "Text": "Brief amici curiae of United States Senator Mike Lee, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374407/20250911134056967_24-813_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374407/20250911134109187_24-813_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813_Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374407/20250911134103347_24-813_Certificate%20of%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 11 2025",
+      "Text": "Brief amici curiae of Washington Legal Foundation, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No 24-813 WLF ALF merits amicus brief Chevron v Plaquemines.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374331/20250911091420488_No%2024-813%20WLF%20ALF%20merits%20amicus%20brief%20Chevron%20v%20Plaquemines.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813 Chevron v. Plaquemines WLF Cert Serv.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374331/20250911091516842_24-813%20Chevron%20v.%20Plaquemines%20WLF%20Cert%20Serv.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813 Chevron v. Plaquemines  Cert Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374331/20250911091437791_24-813%20Chevron%20v.%20Plaquemines%20%20Cert%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 11 2025",
+      "Text": "Brief amicus curiae of America First Policy Institute filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374465/20250911171635015_24-813%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374465/20250911171654358_24-813%20Service%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374465/20250911171646024_24-813%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 11 2025",
+      "Text": "Brief amici curiae of Oil and Gas Associations filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813acOilAndGasAssociations.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374389/20250911125524629_24-813acOilAndGasAssociations.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-813 Stoel Rives COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374389/20250911125531508_No.%2024-813%20Stoel%20Rives%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-813 Stoel Rives COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374389/20250911125537279_No.%2024-813%20Stoel%20Rives%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 11 2025",
+      "Text": "Brief amicus curiae of Express Scripts, Inc. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Express Scripts Amicus Brief ISO Petitioners.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374453/20250911160225011_Express%20Scripts%20Amicus%20Brief%20ISO%20Petitioners.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No 24-813 Morgan Lewis Bockius COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374453/20250911160231598_No%2024-813%20Morgan%20Lewis%20Bockius%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No 24-813 Morgan Lewis Bockius COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374453/20250911160238545_No%2024-813%20Morgan%20Lewis%20Bockius%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 11 2025",
+      "Text": "Brief amicus curiae of Pelican Institute for Public Policy filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374458/20250911164744084_24-813%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813 Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374458/20250911164753628_24-813%20Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374458/20250911164802125_24-813%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 11 2025",
+      "Text": "Brief amici curiae of Chamber of Commerce of the United States of America, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813 - Plaquemines Merits Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374448/20250911151615519_24-813%20-%20Plaquemines%20Merits%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813 - Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374448/20250911151630407_24-813%20-%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813 - Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374448/20250911151643187_24-813%20-%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 11 2025",
+      "Text": "Brief amicus curiae of American Tort Reform Association filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813 tsac  ATRA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374470/20250911175926700_24-813%20tsac%20%20ATRA.pdf"
+        },
+        {
+          "Description": "Other",
+          "File": "24-813 tsac  ATRA - Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374470/20250911175932670_24-813%20tsac%20%20ATRA%20-%20Appendix.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813 tsac ATRA - COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374470/20250911175940068_24-813%20tsac%20ATRA%20-%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813 tsac ATRA - COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374470/20250911175954738_24-813%20tsac%20ATRA%20-%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 11 2025",
+      "Text": "Brief amici curiae of Honorable William P. Barr, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374334/20250911094321420_24-813_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374334/20250911094337054_24-813_Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/374334/20250911094349124_24-813_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 12 2025",
+      "Text": "SET FOR ARGUMENT on Monday, January 12, 2026."
+    },
+    {
+      "Date": "Nov 12 2025",
+      "Text": "Record requested from the United States Court of Appeals for the Fifth Circuit."
+    },
+    {
+      "Date": "Nov 13 2025",
+      "Text": "Brief of respondents Plaquemines Parish, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/384401/20251113142213270_24-813%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/384401/20251113142220699_24-813%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/384401/20251113142247349_24-813%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 13 2025",
+      "Text": "Brief of respondents Louisiana, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813_Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/384430/20251113163904899_24-813_Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813_Certificate of Compliance_Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/384430/20251113163912081_24-813_Certificate%20of%20Compliance_Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813_Affidavit_Respondent Merits Brief_FedEx.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/384430/20251113163921096_24-813_Affidavit_Respondent%20Merits%20Brief_FedEx.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 18 2025",
+      "Text": "Record received from the United States Court of Appeals for the Fifth Circuit. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Nov 18 2025",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813. Chevron Divided Argument Motion.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/384999/20251118160737138_24-813.%20Chevron%20Divided%20Argument%20Motion.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. 24-813. final mtn..pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/384999/20251118160759015_certificate.%2024-813.%20final%20mtn..pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 19 2025",
+      "Text": "Record received electronically from the United States District Court for the Western District of Louisiana and available with the Clerk."
+    },
+    {
+      "Date": "Nov 20 2025",
+      "Text": "Brief amicus curiae of Former Governor John Bel Edwards filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813 Former Governor John Bel Edwards Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/385274/20251120115534725_24-813%20Former%20Governor%20John%20Bel%20Edwards%20Amicus.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813 Former Governor John Bel Edwards Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/385274/20251120115524824_24-813%20Former%20Governor%20John%20Bel%20Edwards%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813 Former Governor John Bel Edwards Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/385274/20251120115514441_24-813%20Former%20Governor%20John%20Bel%20Edwards%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 20 2025",
+      "Text": "Brief amici curiae of Environmental Defense Fund, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Chevron v. Plaquemines - EDF-Moore amicus brief - FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/385339/20251120160311097_Chevron%20v.%20Plaquemines%20-%20EDF-Moore%20amicus%20brief%20-%20FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/385339/20251120160441978_Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Compliance FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/385339/20251120160331488_Certificate%20of%20Compliance%20FINAL.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 20 2025",
+      "Text": "Brief amicus curiae of General (Retired) Russel Honor\u00e9 filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-813_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/385347/20251120164604301_24-813_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813_Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/385347/20251120164621252_24-813_Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813-Word Count Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/385347/20251120164628245_24-813-Word%20Count%20Cert.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 20 2025",
+      "Text": "Brief amici curiae of American Association for Justice, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "AAJ Amicus Brief_Chevron v. Plaquemines Parish_Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/385240/20251120070121564_AAJ%20Amicus%20Brief_Chevron%20v.%20Plaquemines%20Parish_Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "AAJ Certificate of Service_Chevron v. Plaquemines Parish_Final-Copy.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/385240/20251120070155354_AAJ%20Certificate%20of%20Service_Chevron%20v.%20Plaquemines%20Parish_Final-Copy.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "AAJ Certificate of Compliance_Chevron v. Plaquemines Parish_Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/385240/20251120070143372_AAJ%20Certificate%20of%20Compliance_Chevron%20v.%20Plaquemines%20Parish_Final.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 01 2025",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Dec 02 2025",
+      "Text": "Record received electronically from the United States District Court for the Eastern District of Louisiana and available with the Clerk."
+    },
+    {
+      "Date": "Dec 15 2025",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument GRANTED."
+    },
+    {
+      "Date": "Dec 15 2025",
+      "Text": "Reply of petitioners Chevron U.S.A. Incorporated, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025-12-15 Chevron Reply Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/387392/20251215122758394_2025-12-15%20Chevron%20Reply%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-813 Clement Murphy COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/387392/20251215122805954_24-813%20Clement%20Murphy%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-813 Clement Murphy COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/387392/20251215122812143_24-813%20Clement%20Murphy%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 08 2026",
+      "Text": "Letter from Clerk of Court to counsel of record noting that Justice Alito will not continue to participate in this case.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Letter from Clerk in No. 24-813.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/391167/20260108162001341_Letter%20from%20Clerk%20in%20No.%2024-813.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 12 2026",
+      "Text": "Argued. For petitioners: Paul D. Clement, Alexandria, Va.; and Aaron Z. Roper, Assistant to the Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.) For respondents: J. Benjamin Agui\u00f1aga, Solicitor General, Baton Rouge, La."
+    },
+    {
+      "Date": "Apr 17 2026",
+      "Text": "Judgment VACATED and case REMANDED.  Thomas, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/24-813_3e04.pdf'>opinion</a> of the Court, in which Roberts, C. J., and Sotomayor, Kagan, Gorsuch, Kavanaugh, and Barrett, JJ., joined. Jackson, J., filed an opinion concurring in the judgment. Alito, J., took no part in the decision of the case."
+    },
+    {
+      "Date": "May 19 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 24-813 Vac Rem COSTS 5th Cir. 5.19.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-813/409271/20260519151124702_EFILING%2024-813%20Vac%20Rem%20COSTS%205th%20Cir.%205.19.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioners",
+  "Petitioner": [
+    {
+      "Attorney": "Paul D. Clement",
+      "IsCounselofRecord": true,
+      "Title": "Clement & Murphy, PLLC",
+      "PrisonerId": null,
+      "Phone": "(202) 742-8900",
+      "Address": "706 Duke Street",
+      "City": "Alexandria",
+      "State": "VA",
+      "Zip": "22314",
+      "Email": "PAUL.CLEMENT@CLEMENTMURPHY.COM",
+      "PartyName": "Chevron U.S.A. Incorporated, et al."
+    },
+    {
+      "Attorney": "Michael J. Mazzone",
+      "IsCounselofRecord": false,
+      "Title": "Haynes Boone",
+      "PrisonerId": null,
+      "Phone": "713-547-2115",
+      "Address": "1221 McKinney Street\r\nSuite 4000",
+      "City": "Houston",
+      "State": "TX",
+      "Zip": "77010",
+      "Email": "michael.mazzone@haynesboone.com",
+      "PartyName": "Burlington Resources Oil & Gas Company"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondents",
+  "Respondent": [
+    {
+      "Attorney": "Jorge Benjamin Aguinaga",
+      "IsCounselofRecord": true,
+      "Title": "Louisiana Department of Justice",
+      "PrisonerId": null,
+      "Phone": "225-506-3746",
+      "Address": "1885 N. Third Street",
+      "City": "Baton Rouge",
+      "State": "LA",
+      "Zip": "70802",
+      "Email": "aguinagaB@ag.louisiana.gov",
+      "PartyName": "Louisiana"
+    },
+    {
+      "Attorney": "Victor L. Marcello",
+      "IsCounselofRecord": true,
+      "Title": "Talbot, Carmouche & Marcello",
+      "PrisonerId": null,
+      "Phone": "225-400-9991",
+      "Address": "17405 Perkins Road",
+      "City": "Baton Rouge",
+      "State": "LA",
+      "Zip": "70810",
+      "Email": "vmarcello@tcmlawoffice.com",
+      "PartyName": "Plaquemines Parish and the State of Louisiana ex rel. Parish of Plaquemines; Parish of Cameron and the State of Louisiana ex rel. Parish of Cameron"
+    },
+    {
+      "Attorney": "Donald W. Price",
+      "IsCounselofRecord": true,
+      "Title": "Louisiana Department of Energy & Natural Resources",
+      "PrisonerId": null,
+      "Phone": "(225) 342-4274",
+      "Address": "P.O. Box 94396\r\n617 N. Third Street",
+      "City": "Baton Rouge",
+      "State": "LA",
+      "Zip": "70804",
+      "Email": "donald.price@la.gov",
+      "PartyName": "State of Louisiana, through the Department of Energy & Natural Resources, and its Assistant Secretary, Keith Lovell"
+    },
+    {
+      "Attorney": "James Blake Canfield",
+      "IsCounselofRecord": false,
+      "Title": "Louisiana Dept. of Energy and Natural Resources",
+      "PrisonerId": null,
+      "Phone": "2253423024",
+      "Address": "617 North Third Street, Suite 1223",
+      "City": "Baton Rouge",
+      "State": "LA",
+      "Zip": "70802",
+      "Email": "blake.canfield@la.gov",
+      "PartyName": "State of Louisiana, through the Department of Energy & Natural Resources, and its Assistant Secretary, Keith Lovell"
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": true,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "United States"
+    },
+    {
+      "Attorney": "Cory L. Andrews",
+      "IsCounselofRecord": true,
+      "Title": "Washington Legal Foundation",
+      "PrisonerId": null,
+      "Phone": "2025880302",
+      "Address": "2009 Massachusetts Avenue, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "CANDREWS@WLF.ORG",
+      "PartyName": "Washington Legal Foundation"
+    },
+    {
+      "Attorney": "James Stuart Castiglione Baehr",
+      "IsCounselofRecord": true,
+      "Title": "Pelican Institute for Public Policy",
+      "PrisonerId": null,
+      "Phone": "(504) 500-0506",
+      "Address": "400 Poydras Street, Suite 900",
+      "City": "New Orleans",
+      "State": "LA",
+      "Zip": "70130",
+      "Email": "james@pelicaninstitute.org",
+      "PartyName": "The Pelican Institute for Public Policy"
+    },
+    {
+      "Attorney": "Tristan L. Duncan",
+      "IsCounselofRecord": true,
+      "Title": "Shook, Hardy & Bacon",
+      "PrisonerId": null,
+      "Phone": "816-474-6550",
+      "Address": "2555 Grand Boulevard",
+      "City": "Kansas City",
+      "State": "MO",
+      "Zip": "64108",
+      "Email": "TLDUNCAN@SHB.COM",
+      "PartyName": "General (Retired) Richard B. Myers and Admiral (Retired) Michael G. Mullen"
+    },
+    {
+      "Attorney": "Caroline Anne Flynn",
+      "IsCounselofRecord": true,
+      "Title": "Earthjustice",
+      "PrisonerId": null,
+      "Phone": "202-667-4500",
+      "Address": "1001 G Street NW\r\nSuite 1000",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "cflynn@earthjustice.org",
+      "PartyName": "Former Governor John Bel Edwards"
+    },
+    {
+      "Attorney": "William McGinley Jay",
+      "IsCounselofRecord": true,
+      "Title": "Goodwin Procter, LLP",
+      "PrisonerId": null,
+      "Phone": "2023464000",
+      "Address": "1900 N Street, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "WJAY@GOODWINLAW.COM",
+      "PartyName": "Chamber of Commerce of the United States of America and the National Association of Manufacturers"
+    },
+    {
+      "Attorney": "Dana Lydia Kaersvang",
+      "IsCounselofRecord": true,
+      "Title": "Deutsch Hunt PLLC",
+      "PrisonerId": null,
+      "Phone": "2028880404",
+      "Address": "300 New Jersey Ave. NW, Suite 300",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "dkaersvang@deutschhunt.com",
+      "PartyName": "Environmental Defense Fund and Father Lawrence Moore"
+    },
+    {
+      "Attorney": "Traci L. Lovitt",
+      "IsCounselofRecord": true,
+      "Title": "Jones Day",
+      "PrisonerId": null,
+      "Phone": "(212) 326-7830",
+      "Address": "250 Vesey Street",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10281-1047",
+      "Email": "tlovitt@jonesday.com",
+      "PartyName": "American Tort Reform Association"
+    },
+    {
+      "Attorney": "Christopher E. Mills",
+      "IsCounselofRecord": true,
+      "Title": "Spero Law LLC",
+      "PrisonerId": null,
+      "Phone": "8436060640",
+      "Address": "557 East Bay Street #22251",
+      "City": "Charleston",
+      "State": "SC",
+      "Zip": "29413",
+      "Email": "cmills@spero.law",
+      "PartyName": "U.S. Senators Mike Lee, Ted Budd, Ted Cruz, John Cornyn, Cindy Hyde-Smith, and John Hoeven"
+    },
+    {
+      "Attorney": "Jason T. Morgan",
+      "IsCounselofRecord": true,
+      "Title": "Stoel Rives LLP",
+      "PrisonerId": null,
+      "Phone": "(206) 624-0900",
+      "Address": "600 University Street\r\nSuite 3600",
+      "City": "Seattle",
+      "State": "WA",
+      "Zip": "98101",
+      "Email": "JASON.MORGAN@STOEL.COM",
+      "PartyName": "American Petroleum Institute and the American Fuel & Petrochemical Manufacturers"
+    },
+    {
+      "Attorney": "Robert S. Peck",
+      "IsCounselofRecord": true,
+      "Title": "Center for Constitutional Litigation, PC",
+      "PrisonerId": null,
+      "Phone": "2029442874",
+      "Address": "1901 Connecticut Avenue, NW\r\nSuite 1101",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20009",
+      "Email": "ROBERT.PECK@CCLFIRM.COM",
+      "PartyName": "American Association for Justice and Louisiana Association for Justice"
+    },
+    {
+      "Attorney": "Jeremy Brooks Rosen",
+      "IsCounselofRecord": true,
+      "Title": "Horvitz & Levy LLP",
+      "PrisonerId": null,
+      "Phone": "818-995-0800",
+      "Address": "3601 W. Olive Ave., 8th Fl.",
+      "City": "Burbank",
+      "State": "CA",
+      "Zip": "91505",
+      "Email": "jrosen@horvitzlevy.com",
+      "PartyName": "Hon. William P. Barr and Hon. Michael B. Mukasey"
+    },
+    {
+      "Attorney": "Jason Robert Scherr",
+      "IsCounselofRecord": true,
+      "Title": "Morgan, Lewis & Bockius LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 739-3000",
+      "Address": "1111 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "jr.scherr@morganlewis.com",
+      "PartyName": "Express Scripts, Inc."
+    },
+    {
+      "Attorney": "Nicholas Jeffrey Wanic",
+      "IsCounselofRecord": true,
+      "Title": "America First Policy Institute",
+      "PrisonerId": null,
+      "Phone": "779-396-0137",
+      "Address": "1455 Pennsylvania Avenue NW, Suite 255",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "nwanic@americafirstpolicy.com",
+      "PartyName": "America First Policy Institute"
+    },
+    {
+      "Attorney": "Michael Ray Williams",
+      "IsCounselofRecord": true,
+      "Title": "Office of the West Virginia Attorney General",
+      "PrisonerId": null,
+      "Phone": "304-558-2021",
+      "Address": "State Capitol Complex, Bldg. 1, Rm E-26\r\n1900 Kanawha Blvd. E",
+      "City": "Charleston",
+      "State": "WV",
+      "Zip": "25305",
+      "Email": "mwilliams@wvago.gov",
+      "PartyName": "State of West Virginia and 6 Other States"
+    },
+    {
+      "Attorney": "Daniel Hirotsu Woofter",
+      "IsCounselofRecord": true,
+      "Title": "Russell & Woofter LLC",
+      "PrisonerId": null,
+      "Phone": "202-240-8433",
+      "Address": "1701 Pennsylvania Ave NW\r\nSuite 200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "dw@russellwoofter.com",
+      "PartyName": "General (Retired) Russel Honor\u00e9"
+    }
+  ]
+}

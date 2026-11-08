@@ -1,0 +1,31 @@
+{
+  "recording": "Maxwell v. Dinis (25-5930)",
+  "claude": {
+    "total_cards": 27,
+    "recommended": 26,
+    "recommended_seconds": 1028.5,
+    "argument_percentage": 26.7,
+    "incorporated_codex_ideas": [
+      "statute comparison",
+      "circuit split",
+      "early supervised release statute"
+    ]
+  },
+  "server_codex": {
+    "total_cards": 11,
+    "recommended": 11,
+    "recommended_seconds": 387.1,
+    "argument_percentage": 10.1
+  },
+  "judgment": "Use the revised Claude set as the base, after editorial corrections; this is a comparison of current artifacts, not a controlled model benchmark.",
+  "strengths": [
+    "More useful glossary and late-argument coverage",
+    "Skinner excerpt addresses the language being debated",
+    "Codex opening question is more concise and introduces Preiser earlier"
+  ],
+  "edits_before_use": [
+    "Preserve the warden-approval alternative when abridging section 3624(g)(1)(D) in four-requirements",
+    "Trim the densest statutory/comparison cards for readability"
+  ],
+  "primary_source_for_statutory_edit": "https://www.govinfo.gov/content/pkg/USCODE-2024-title18/html/USCODE-2024-title18-partII-chap229-subchapC-sec3624.htm"
+}

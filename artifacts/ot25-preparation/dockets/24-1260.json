@@ -1,0 +1,1630 @@
+{
+  "CaseNumber": "24-1260 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "07/31/2026",
+  "sJsonTerm": "2024",
+  "sJsonCaseNumber": "01260",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Michael Watson, Mississippi Secretary of State, Petitioner",
+  "RespondentTitle": "Republican National Committee, et al.",
+  "DocketedDate": "June 10, 2025",
+  "LowerCourt": "United States Court of Appeals for the Fifth Circuit",
+  "LowerCourtCaseNumbers": "(24-60395)",
+  "LowerCourtDecision": "October 25, 2024",
+  "LowerCourtRehearingDenied": "March 14, 2025",
+  "QPLink": "../qp/24-01260qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Jun 06 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due July 10, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "Watson v. RNC Petition and Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/362512/20250606130022508_Watson%20v.%20RNC%20Petition%20and%20Appendix.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Watson v. RNC COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/362512/20250606130042522_Watson%20v.%20RNC%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Watson v. RNC COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/362512/20250606130056490_Watson%20v.%20RNC%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 17 2025",
+      "Text": "Waiver of right of respondents Justin Wetzel, Toni Jo Diaz, Becky Payne, Barbara Kimball, Christine Brice, and Carolyn Handler to respond filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Waiver on Certiorari tch.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/363359/20250617114613545_Waiver%20on%20Certiorari%20tch.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 03 2025",
+      "Text": "Motion of Libertarian Party of Mississippi to extend the time to file a response from July 10, 2025 to August 11, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Final Watson v. RNC letter 2025.07.01.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/364480/20250703213146678_Final%20Watson%20v.%20RNC%20letter%202025.07.01.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 03 2025",
+      "Text": "Motion of Republican National Committee, et al. to extend the time to file a response from July 10, 2025 to August 11, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Watson v. RNC - Motion for BIO Extension.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/364483/20250703221039663_Watson%20v.%20RNC%20-%20Motion%20for%20BIO%20Extension.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 08 2025",
+      "Text": "Motions to extend the time to file a response are granted and the time is extended to and including August 11, 2025, for all respondents."
+    },
+    {
+      "Date": "Jul 10 2025",
+      "Text": "Brief of respondents Vet Voice Foundation, et al. in support filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-1260_Response in Support of Petition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/364930/20250710151312285_No.%2024-1260_Response%20in%20Support%20of%20Petition.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1260_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/364930/20250710151329642_No.%2024-1260_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1260_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/364930/20250710151321285_No.%2024-1260_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 10 2025",
+      "Text": "Brief amici curiae of Center for Election Confidence, Inc., et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/364840/20250710101559188_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Certificate of Compliance PDFA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/364840/20250710101616616_24-1260%20Certificate%20of%20Compliance%20PDFA.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 Affidavit PDFA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/364840/20250710101622406_24-1260%20Affidavit%20PDFA.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 10 2025",
+      "Text": "Brief amici curiae of District of Columbia, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Multistate Amicus Brief_Watson v. RNC_Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/364902/20250710142319759_Multistate%20Amicus%20Brief_Watson%20v.%20RNC_Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1260 OAG DC COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/364902/20250710142454825_No.%2024-1260%20OAG%20DC%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1260 OAG DC COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/364902/20250710142425423_No.%2024-1260%20OAG%20DC%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 11 2025",
+      "Text": "Brief of respondents Republican National Committee, et al. in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Watson v. RNC - Cert Petition BIO FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/369359/20250811123444959_Watson%20v.%20RNC%20-%20Cert%20Petition%20BIO%20FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1260 Consovoy McCarthy PLLC COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/369359/20250811123459001_No.%2024-1260%20Consovoy%20McCarthy%20PLLC%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1260 Consovoy McCarthy PLLC COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/369359/20250811123453076_No.%2024-1260%20Consovoy%20McCarthy%20PLLC%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 11 2025",
+      "Text": "Brief of respondent Libertarian Party of Mississippi in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "250806a BIO for efiling.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/369327/20250811101542560_250806a%20BIO%20for%20efiling.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/369327/20250811101637016_Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/369327/20250811101600491_Certificate%20of%20Word%20Count%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 25 2025",
+      "Text": "Reply of petitioner Michael Watson filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-1260 Reply re Certiorari.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/370612/20250825132757269_No.%2024-1260%20Reply%20re%20Certiorari.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1260 Reply COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/370612/20250825132829293_No.%2024-1260%20Reply%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1260 Reply COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/370612/20250825132815297_No.%2024-1260%20Reply%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 27 2025",
+      "Text": "DISTRIBUTED for Conference of 9/29/2025."
+    },
+    {
+      "Date": "Sep 03 2025",
+      "Text": "Response Requested. (Due October 3, 2025)"
+    },
+    {
+      "Date": "Sep 24 2025",
+      "Text": "Letter of September 24, 2025 from counsel for respondents Justin Wetzel, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Harris Scott 9.24.25.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/377941/20250925172137558_Harris%20Scott%209.24.25.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 26 2025",
+      "Text": "Waiver of the 14-day waiting period for the distribution of the petition pursuant to Rule 15.5 filed by petitioner.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-1260 Rule 15.5 Letter.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/378012/20250926131308355_No.%2024-1260%20Rule%2015.5%20Letter.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 01 2025",
+      "Text": "DISTRIBUTED for Conference of 10/17/2025."
+    },
+    {
+      "Date": "Nov 03 2025",
+      "Text": "DISTRIBUTED for Conference of 11/7/2025."
+    },
+    {
+      "Date": "Nov 10 2025",
+      "Text": "Petition GRANTED."
+    },
+    {
+      "Date": "Nov 20 2025",
+      "Text": "Motion for an extension of time to file the briefs on the merits filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-1260 Extension Letter.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/385245/20251120090618873_No.%2024-1260%20Extension%20Letter.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 20 2025",
+      "Text": "Motion to dispense with printing the joint appendix filed by petitioner Michael Watson.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-1260 Motion to Dispense with Joint Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/385246/20251120092108281_No.%2024-1260%20Motion%20to%20Dispense%20with%20Joint%20Appendix.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1260 COS re Motion to Dispense with Joint Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/385246/20251120092126453_No.%2024-1260%20COS%20re%20Motion%20to%20Dispense%20with%20Joint%20Appendix.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 01 2025",
+      "Text": "Motion to extend the time to file the joint appendix and petitioner's brief on the merits is extended to and including January 2, 2026.  The time to file respondents' briefs on the merits is extended to and including February 9, 2026."
+    },
+    {
+      "Date": "Dec 15 2025",
+      "Text": "Motion to dispense with printing the joint appendix filed by petitioner GRANTED."
+    },
+    {
+      "Date": "Jan 02 2026",
+      "Text": "Brief of petitioner Michael Watson filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-1260 Brief for Petitioner.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/390664/20260102121935930_No.%2024-1260%20Brief%20for%20Petitioner.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1260 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/390664/20260102121955317_No.%2024-1260%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1260 COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/390664/20260102122008589_No.%2024-1260%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 02 2026",
+      "Text": "Brief of respondents Vet Voice Foundation, et al. in support of petitioner filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260_ Brief for Respondents.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/390707/20260102150216866_24-1260_%20Brief%20for%20Respondents.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/390707/20260102150229678_24-1260_Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260_Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/390707/20260102150239875_24-1260_Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 05 2026",
+      "Text": "Amicus brief of Corey J. Biazzo not accepted for filing. (To be corrected - January 07, 2026)"
+    },
+    {
+      "Date": "Jan 05 2026",
+      "Text": "Brief amicus curiae of Corey J. Biazzo filed. (Corrected)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Updated Brief of Corey J. Biazzo as Amicus Curiae in Support of Petitioner .pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391101/20260108082351677_Updated%20Brief%20of%20Corey%20J.%20Biazzo%20as%20Amicus%20Curiae%20in%20Support%20of%20Petitioner%20.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof_of_Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391101/20260108082418360_Proof_of_Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate_of_Word_Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391101/20260108082431390_Certificate_of_Word_Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Amicus brief of League of United Latin Americans Citizens not accepted for filing. (To be corrected - January 12, 2026)"
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amicus curiae of League of United Latin American Citizens filed. (Corrected)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391367/20260112090903473_24-1260%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391367/20260112090914426_24-1260%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Word Count Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391367/20260112090925041_24-1260%20Word%20Count%20Cert.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amici curiae of National Congress of American Indians, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Brief of Amici.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391355/20260109184052775_24-1260%20Brief%20of%20Amici.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391355/20260109184111716_24-1260%20Service%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391355/20260109184101962_24-1260%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amici curiae of League of Women Voters, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Watson v Republican National Committee Brief of Amici Curiae.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391333/20260109154234812_24-1260%20Watson%20v%20Republican%20National%20Committee%20Brief%20of%20Amici%20Curiae.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 Watson v Republican National Committee AOS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391333/20260109154254956_24-1260%20Watson%20v%20Republican%20National%20Committee%20AOS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Watson v Republican National Committee COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391333/20260109154245221_24-1260%20Watson%20v%20Republican%20National%20Committee%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amici curiae of Professor Michael T. Morley, et al. in support of neither party filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391327/20260109152439467_24-1260%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391327/20260109152517048_24-1260%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391327/20260109152500848_24-1260%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amicus curiae of National Defense Committee filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Watson Amicus Brief Filed SCOTUS 1 9 2026.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391325/20260109152101573_Watson%20Amicus%20Brief%20Filed%20SCOTUS%201%209%202026.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Watson COS Filed 1 9 2026.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391325/20260109152133742_Watson%20COS%20Filed%201%209%202026.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Watson Word Count Compliance Filed 1 9 2026.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391325/20260109152115198_Watson%20Word%20Count%20Compliance%20Filed%201%209%202026.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amici curiae of Campaign Legal Center, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391267/20260109122606089_24-1260%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 AOS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391267/20260109122633574_24-1260%20AOS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391267/20260109122627273_24-1260%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amici curiae of District of Columbia, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Watson Brief to File.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391315/20260109151143024_Watson%20Brief%20to%20File.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Watson COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391315/20260109151203048_Watson%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Watson COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391315/20260109151216469_Watson%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amici curiae of Former Election Administrators filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Amicus Brief of Former Election Adminstrators.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391234/20260109105709063_24-1260%20Amicus%20Brief%20of%20Former%20Election%20Adminstrators.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391234/20260109105744770_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391234/20260109105725670_Certificate%20of%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amicus curiae of The Democratic National Committee filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 tsac DNC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391265/20260109122637479_24-1260%20tsac%20DNC.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Munger Tolles Olson COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391265/20260109122738381_24-1260%20Munger%20Tolles%20Olson%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 Munger Tolles Olson COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391265/20260109122749847_24-1260%20Munger%20Tolles%20Olson%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amici curiae of Local Election Officials, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Amicus Brief of Local Election Officials .pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391331/20260109154104129_24-1260%20Amicus%20Brief%20of%20Local%20Election%20Officials%20.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391331/20260109154127496_24-1260%20Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391331/20260109154114618_24-1260%20Certificate%20of%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amicus curiae of Alaska in support of neither party filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026.01.09 Alaska Amicus Watson v. RNC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391323/20260109151956258_2026.01.09%20Alaska%20Amicus%20Watson%20v.%20RNC.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Office of Attorney General Alaska COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391323/20260109152014257_24-1260%20Office%20of%20Attorney%20General%20Alaska%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 Office of Attorney General Alaska COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391323/20260109152027219_24-1260%20Office%20of%20Attorney%20General%20Alaska%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amicus curiae of Constitutional Accountability Center filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Watson v. RNC Amicus Brief FINAL FOR FILING.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391218/20260109094110749_Watson%20v.%20RNC%20Amicus%20Brief%20FINAL%20FOR%20FILING.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Watson v. RNC Certificate of Service FINAL FOR FILING.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391218/20260109094134109_Watson%20v.%20RNC%20Certificate%20of%20Service%20FINAL%20FOR%20FILING.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Watson v. RNC Certificate of Compliance FINAL FOR FILING.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391218/20260109094122410_Watson%20v.%20RNC%20Certificate%20of%20Compliance%20FINAL%20FOR%20FILING.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amici curiae of Fourteen United States Senators filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260acFourteenUnitedStatesSenators.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391280/20260109131806573_24-1260acFourteenUnitedStatesSenators.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Dunn Isaacson Rhee LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391280/20260109131815017_Dunn%20Isaacson%20Rhee%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Dunn Isaacson Rhee LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391280/20260109131822132_Dunn%20Isaacson%20Rhee%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amici curiae of Lawyers\u2019 Committee For Civil Rights Under Law, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260acLawyersCommitteeForCivilRightsUnderLaw.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391261/20260109120323140_24-1260acLawyersCommitteeForCivilRightsUnderLaw.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1260 COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391261/20260109120544111_No.%2024-1260%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1260 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391261/20260109120551061_No.%2024-1260%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Amicus brief of National Security Leaders for America not accepted for filing. (To be corrected - January 13, 2026)"
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amicus curiae of National Security Leaders for America filed. (Corrected)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391723/20260114143411565_24-1260%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391723/20260114143433250_24-1260%20Service%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391723/20260114143425465_24-1260%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amicus curiae of Society For The Rule Of Law Institute filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391252/20260109114911435_24-1260_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260_Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391252/20260109114932072_24-1260_Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260_Word Count Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391252/20260109114924418_24-1260_Word%20Count%20Cert.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief amici curiae of Individuals and Organizations Representing Military and Overseas Voters filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Watson v RNC Military Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391352/20260109181013046_24-1260%20Watson%20v%20RNC%20Military%20Amicus.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391352/20260109181054323_24-1260%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/391352/20260109181102927_24-1260%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 29 2026",
+      "Text": "Motion for divided argument filed by respondents Vet Voice Foundation, et al. in support of petitioner.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026-01-29 MS Motion Divided Argument FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/394981/20260129135259802_2026-01-29%20MS%20Motion%20Divided%20Argument%20FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2026-01-29 Certificate of Service MS Motion Divided Argument FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/394981/20260129135340905_2026-01-29%20Certificate%20of%20Service%20MS%20Motion%20Divided%20Argument%20FINAL.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 30 2026",
+      "Text": "SET FOR ARGUMENT on Monday, March 23, 2026."
+    },
+    {
+      "Date": "Feb 03 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Fifth Circuit."
+    },
+    {
+      "Date": "Feb 06 2026",
+      "Text": "Opposition of petitioner to motion of Vet Voice Foundation, et al. for divided argument filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-1260 Opposition to Divided Argument.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/395689/20260206141143186_No.%2024-1260%20Opposition%20to%20Divided%20Argument.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1260 Opposition re Divided Argument COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/395689/20260206141155216_No.%2024-1260%20Opposition%20re%20Divided%20Argument%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 09 2026",
+      "Text": "Brief of respondents Republican National Committee, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Watson v. RNC - Red Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/395791/20260209131726304_Watson%20v.%20RNC%20-%20Red%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 Consovoy McCarthy PLLC COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/395791/20260209131733843_24-1260%20Consovoy%20McCarthy%20PLLC%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Consovoy McCarthy PLLC COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/395791/20260209131740246_24-1260%20Consovoy%20McCarthy%20PLLC%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 09 2026",
+      "Text": "Brief of respondent Libertarian Party of Mississippi filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No 24 1260 Respondents Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/395807/20260209143028565_No%2024%201260%20Respondents%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No 24 1260 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/395807/20260209143153307_No%2024%201260%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No 24 1260Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/395807/20260209143203240_No%2024%201260Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 13 2026",
+      "Text": "Brief amici curiae of Members of Congress, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Amicus Brief of The American Center for Law and Justice.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396200/20260213101253470_24-1260%20Amicus%20Brief%20of%20The%20American%20Center%20for%20Law%20and%20Justice.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396200/20260213101300752_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396200/20260213101523997_Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amicus curiae of United States filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260bsacUnitedStates.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396427/20260217134927549_24-1260bsacUnitedStates.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Cert. 24-1260 brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396427/20260217134943036_Cert.%2024-1260%20brief.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Watson Motion for Divided Argument.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396430/20260217135118040_24-1260%20Watson%20Motion%20for%20Divided%20Argument.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Cert 24-1260 Motion.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396430/20260217135140345_Cert%2024-1260%20Motion.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amici curiae of Citizens United, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Watson v. RNC Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396447/20260217142409039_Watson%20v.%20RNC%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Watson Word Count Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396447/20260217142422447_Watson%20Word%20Count%20Cert.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Watson Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396447/20260217142432307_Watson%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amici curiae of Citizens for New Jersey Election Integrity, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "NjeiRNC_Amici Document February 17 2026 EFile.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396459/20260217145056658_NjeiRNC_Amici%20Document%20February%2017%202026%20EFile.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "NjeiRNC_Amici Certificate Word Count February 17 2026 EFile.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396459/20260217145102667_NjeiRNC_Amici%20Certificate%20Word%20Count%20February%2017%202026%20EFile.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "NjeiRNC_Amici Certificate Service February 17 2026 EFile.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396459/20260217145107908_NjeiRNC_Amici%20Certificate%20Service%20February%2017%202026%20EFile.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amici curiae of Montana, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396531/20260217180951510_24-1260_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260_Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396531/20260217181007415_24-1260_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396531/20260217181021026_24-1260_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amici curiae of National Republican Congressional Committee, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396389/20260217121138048_24-1260%20Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Word Count Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396389/20260217121148378_24-1260%20Word%20Count%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396389/20260217121158176_24-1260%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amici curiae of Center for Election Confidence, Inc., et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Amicus Brief Merits.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396356/20260217101242321_Amicus%20Brief%20Merits.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260_Word Count Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396356/20260217101250850_24-1260_Word%20Count%20Cert.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260_Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396356/20260217101255973_24-1260_Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amicus curiae of Claremont Institute's Center for Constitutional Jurisprudence filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396529/20260217180253502_24-1260%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396529/20260217180350716_24-1260%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396529/20260217180415393_24-1260%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amici curiae of Wisconsin Voter Alliance, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396401/20260217124451623_24-1260%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396401/20260217124451884_24-1260%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396401/20260217124451495_24-1260%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amici curiae of Nancy Landry, Louisiana Secretary of State, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260_Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396453/20260217143551649_24-1260_Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260_Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396453/20260217143616233_24-1260_Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260_Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396453/20260217143628323_24-1260_Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amici curiae of Public Interest Legal Foundation, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396435/20260217135906640_24-1260%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396435/20260217135920937_24-1260%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396435/20260217135936056_24-1260%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Motion for divided argument filed by respondents.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "FINAL 2026.02.16 Joint Mot RN.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396373/20260217111638063_FINAL%202026.02.16%20Joint%20Mot%20RN.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "FINAL 2026-02-17 Watson v. RNC Motion for Divided Argument COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396373/20260217111649507_FINAL%202026-02-17%20Watson%20v.%20RNC%20Motion%20for%20Divided%20Argument%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 18 2026",
+      "Text": "Record received from the United States Court of Appeals for the Fifth Circuit. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Response to motion of respondents for divided argument from petitioner Michael Watson filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-1260 Response re Divided Argument.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396990/20260223105423276_No.%2024-1260%20Response%20re%20Divided%20Argument.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1260 Response re Divided Argument COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/396990/20260223105431380_No.%2024-1260%20Response%20re%20Divided%20Argument%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Motion for divided argument filed by Vet Voice Foundation, et al. DENIED."
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Motion for divided argument filed by respondents DENIED."
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument GRANTED."
+    },
+    {
+      "Date": "Mar 06 2026",
+      "Text": "Record received from the United States District Court for the Southern District of Mississippi. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Mar 11 2026",
+      "Text": "Reply of petitioner Michael Watson filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-1260 Reply Brief for Petitioner.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/400613/20260311151101578_No.%2024-1260%20Reply%20Brief%20for%20Petitioner.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1260 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/400613/20260311151112344_No.%2024-1260%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1260 COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/400613/20260311151121036_No.%2024-1260%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 11 2026",
+      "Text": "Reply of respondents Vet Voice Foundation, et al. in support of petitioner filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1260 Reply Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/400567/20260311123414319_24-1260%20Reply%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1260 Word Count Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/400567/20260311123425389_24-1260%20Word%20Count%20Cert.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1260 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/400567/20260311123436346_24-1260%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 23 2026",
+      "Text": "Argued. For petitioner: Scott G. Stewart, Solicitor General, Jackson, Miss.  For respondents: Paul D. Clement, Alexandria, Va.; and D. John Sauer, Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.)"
+    },
+    {
+      "Date": "Jun 29 2026",
+      "Text": "Judgment REVERSED and case REMANDED.  Barrett, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/24-1260_g3cn.pdf'>opinion</a> of the Court, in which Roberts, C. J., and Sotomayor, Kagan, and Jackson, JJ., joined. Alito, J., filed a dissenting opinion, in which Thomas and Gorsuch, JJ., joined, and in which Kavanaugh, J., joined as to all but Parts II\u2013C\u20132 and III."
+    },
+    {
+      "Date": "Jul 31 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 24-1260 Rev Rem COSTS 5th Cir. 7.31.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1260/417697/20260731121803335_EFILING%2024-1260%20Rev%20Rem%20COSTS%205th%20Cir.%207.31.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioner",
+  "Petitioner": [
+    {
+      "Attorney": "Scott Grant Stewart",
+      "IsCounselofRecord": true,
+      "Title": "Mississippi Attorney General's Office",
+      "PrisonerId": null,
+      "Phone": "(601) 359-3680",
+      "Address": "P.O. Box 220",
+      "City": "Jackson",
+      "State": "MS",
+      "Zip": "39205-0220",
+      "Email": "SCOTT.STEWART@AGO.MS.GOV",
+      "PartyName": "Michael Watson"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondents",
+  "Respondent": [
+    {
+      "Attorney": "Gilbert Charles Dickey",
+      "IsCounselofRecord": true,
+      "Title": "Consovoy McCarthy, PLLC",
+      "PrisonerId": null,
+      "Phone": "(703) 243-9423",
+      "Address": "1600 Wilson Boulevard\r\nSuite 700",
+      "City": "Arlington",
+      "State": "VA",
+      "Zip": "22209",
+      "Email": "gilbert@consovoymccarthy.com",
+      "PartyName": "Republican National Committee, Mississippi Republican Party, James Perry, and Matthew Lamb"
+    },
+    {
+      "Attorney": "Marc Erik Elias",
+      "IsCounselofRecord": true,
+      "Title": "Elias Law Group LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 968-4490",
+      "Address": "250 Massachusetts Ave. NW\r\nSuite 400",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "Eliasm@elias.law",
+      "PartyName": "Vet Voice Foundation, et al. in support of petitioner"
+    },
+    {
+      "Attorney": "Timothy Charles Holleman",
+      "IsCounselofRecord": true,
+      "Title": "Boyce Holleman & Associates",
+      "PrisonerId": null,
+      "Phone": "2282973142",
+      "Address": "1720 23rd Ave/Boyce Holleman Blvd",
+      "City": "Gulfport",
+      "State": "MS",
+      "Zip": "39501",
+      "Email": "tim@boyceholleman.com",
+      "PartyName": "Justin Wetzel, Toni Jo Diaz, Becky Payne, Barbara Kimball, Christine Brice, and Carolyn Handler"
+    },
+    {
+      "Attorney": "T. Russell Nobile",
+      "IsCounselofRecord": true,
+      "Title": "Judicial Watch, Inc.",
+      "PrisonerId": null,
+      "Phone": "(202) 527-9866",
+      "Address": "P.O. Box 6592",
+      "City": "Gulfport, Mississippi",
+      "State": "MS",
+      "Zip": "39506",
+      "Email": "Rnobile@judicialwatch.org",
+      "PartyName": "Libertarian Party of Mississippi"
+    },
+    {
+      "Attorney": "Paul D. Clement",
+      "IsCounselofRecord": false,
+      "Title": "Clement & Murphy, PLLC",
+      "PrisonerId": null,
+      "Phone": "(202) 742-8900",
+      "Address": "706 Duke Street",
+      "City": "Alexandria",
+      "State": "VA",
+      "Zip": "22314",
+      "Email": "PAUL.CLEMENT@CLEMENTMURPHY.COM",
+      "PartyName": "Libertarian Party of Mississippi"
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "John Christian Adams",
+      "IsCounselofRecord": true,
+      "Title": "Public Interest Legal Foundation",
+      "PrisonerId": null,
+      "Phone": "703-745-5870",
+      "Address": "107 S. West Street\r\nSuite 700",
+      "City": "Alexandria",
+      "State": "VA",
+      "Zip": "22314",
+      "Email": "adams@publicinterestlegal.org",
+      "PartyName": "Public Interest Legal Foundation and American Constitutional Rights Union"
+    },
+    {
+      "Attorney": "Richard Douglas Bernstein",
+      "IsCounselofRecord": true,
+      "Title": null,
+      "PrisonerId": null,
+      "Phone": "3017752064",
+      "Address": "1875 K Street, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "rbernsteinlaw@gmail.com",
+      "PartyName": "The Society For The Rule Of Law Institute"
+    },
+    {
+      "Attorney": "Corey John Biazzo",
+      "IsCounselofRecord": true,
+      "Title": "Biazzo Law PLLC",
+      "PrisonerId": null,
+      "Phone": "703-297-5777",
+      "Address": "6416 Rea Rd.",
+      "City": "Charlotte",
+      "State": "NC",
+      "Zip": "28277",
+      "Email": "corey@biazzolaw.com",
+      "PartyName": "Corey J. Biazzo"
+    },
+    {
+      "Attorney": "Christian Brian Corrigan",
+      "IsCounselofRecord": true,
+      "Title": "Montana Department of Justice",
+      "PrisonerId": null,
+      "Phone": "4064442026",
+      "Address": "215 N Sanders",
+      "City": "Helena",
+      "State": "MT",
+      "Zip": "59601",
+      "Email": "Christian.CORRIGAN@MT.GOV",
+      "PartyName": "State of Montana"
+    },
+    {
+      "Attorney": "Jacqueline Diana De Leon",
+      "IsCounselofRecord": true,
+      "Title": "Native American Rights Fund",
+      "PrisonerId": null,
+      "Phone": "3034478760",
+      "Address": "250 Arapahoe Ave.",
+      "City": "Boulder",
+      "State": "CO",
+      "Zip": "80302",
+      "Email": "JDeLeon@narf.org",
+      "PartyName": "National Congress of American Indians, Alaska Federation of Natives, and Washington Conservation Action Education Fund"
+    },
+    {
+      "Attorney": "P. Benjamin DeWitt Duke",
+      "IsCounselofRecord": true,
+      "Title": "Covington & Burling",
+      "PrisonerId": null,
+      "Phone": "212 841-1000",
+      "Address": "30 Hudson Yards",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10001",
+      "Email": "pbduke@cov.com",
+      "PartyName": "Individuals and Organizations Representing Military and Overseas Voters"
+    },
+    {
+      "Attorney": "John C. Eastman",
+      "IsCounselofRecord": true,
+      "Title": "Constitutional Counsel Group",
+      "PrisonerId": null,
+      "Phone": "(562) 435-9062",
+      "Address": "444 W Ocean Blvd, Ste 1403",
+      "City": "Long Beach",
+      "State": "CA",
+      "Zip": "90802",
+      "Email": "jeastman@ccg1776.com",
+      "PartyName": "The Claremont Institute's Center for Constitutional Jurisprudence"
+    },
+    {
+      "Attorney": "Norman L. Eisen",
+      "IsCounselofRecord": true,
+      "Title": "Democracy Defenders Fund",
+      "PrisonerId": null,
+      "Phone": "(202) 601-8678",
+      "Address": "600 Pennsylvania Avenue, SE #15180",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20003",
+      "Email": "norman@democracydefenders.org",
+      "PartyName": "League of United Latin American Citizens"
+    },
+    {
+      "Attorney": "Brianne Jenna Gorod",
+      "IsCounselofRecord": true,
+      "Title": "Constitutional Accountability Center",
+      "PrisonerId": null,
+      "Phone": "202 296 6889",
+      "Address": "1730 Rhode Island Ave. NW\r\nSuite 1200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "BRIANNE@THEUSCONSTITUTION.ORG",
+      "PartyName": "Constitutional Accountability Center"
+    },
+    {
+      "Attorney": "Kevin J. Hamilton",
+      "IsCounselofRecord": true,
+      "Title": "Perkins Coie",
+      "PrisonerId": null,
+      "Phone": "(206) 359-8000",
+      "Address": "1301 Second Avenue\r\nSuite 4200",
+      "City": "Seattle",
+      "State": "WA",
+      "Zip": "98101",
+      "Email": "khamilton@perkinscoie.com",
+      "PartyName": "Former Election Administrators"
+    },
+    {
+      "Attorney": "Erick G. Kaardal",
+      "IsCounselofRecord": true,
+      "Title": "Mohrman, Kaardal & Erickson P.A.",
+      "PrisonerId": null,
+      "Phone": "612-341-1074",
+      "Address": "150 South Fifth Street, Suite 3100",
+      "City": "Minneapolis",
+      "State": "MN",
+      "Zip": "55402",
+      "Email": "kaardal@mklaw.com",
+      "PartyName": "Wisconsin Voter Alliance, Michigan Fair Elections Institute, PA Fair Elections, and Veterans for America First"
+    },
+    {
+      "Attorney": "Sophia Lin Lakin",
+      "IsCounselofRecord": true,
+      "Title": "American Civil Liberties Union Foundation, Inc.",
+      "PrisonerId": null,
+      "Phone": "212-549-2500",
+      "Address": "125 Broad Street, 18th Floor",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10004",
+      "Email": "SLAKIN@ACLU.ORG",
+      "PartyName": "League of Women Voters, Rural Coalition/coalici\u00f3n Rural, Center for Rural Strategies, American association of People With Disabilities, and Disability Rights Mississippi"
+    },
+    {
+      "Attorney": "Jenna Marie Lorence",
+      "IsCounselofRecord": true,
+      "Title": "Department of Law",
+      "PrisonerId": null,
+      "Phone": "(907) 269-5100",
+      "Address": "1031 West 4th Avenue\r\nSuite 200",
+      "City": "Anchorage",
+      "State": "AK",
+      "Zip": "99501",
+      "Email": "jenna.lorence@alaska.gov",
+      "PartyName": "Alaska"
+    },
+    {
+      "Attorney": "John N. Maher",
+      "IsCounselofRecord": true,
+      "Title": "Maher Legal Services PC",
+      "PrisonerId": null,
+      "Phone": "7084688155",
+      "Address": "122 North Wheaton Avenue\r\nBox 1386",
+      "City": "Wheaton",
+      "State": "IL",
+      "Zip": "60187",
+      "Email": "john@maherlegalservices.com",
+      "PartyName": "National Defense Committee"
+    },
+    {
+      "Attorney": "Amy J. Mauser",
+      "IsCounselofRecord": true,
+      "Title": "Dunn Isaacson Rhee LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 240-2900",
+      "Address": "401 Ninth Street, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004-2637",
+      "Email": "amauser@dirllp.com",
+      "PartyName": "Fourteen United States Senators"
+    },
+    {
+      "Attorney": "Jonathan B. Miller",
+      "IsCounselofRecord": true,
+      "Title": "Public Rights Project",
+      "PrisonerId": null,
+      "Phone": "(510) 738-6788",
+      "Address": "490 43rd Street, #115",
+      "City": "Oakland",
+      "State": "CA",
+      "Zip": "94609",
+      "Email": "JON@PUBLICRIGHTSPROJECT.ORG",
+      "PartyName": "Local Election Officials and Local Governments"
+    },
+    {
+      "Attorney": "Christopher E. Mills",
+      "IsCounselofRecord": true,
+      "Title": "Spero Law LLC",
+      "PrisonerId": null,
+      "Phone": "8436060640",
+      "Address": "557 East Bay Street #22251",
+      "City": "Charleston",
+      "State": "SC",
+      "Zip": "29413",
+      "Email": "cmills@spero.law",
+      "PartyName": "Center for Election Confidence, Inc., Restoring Integrity and Trust in Elections, Inc., Honest Elections Project, and American Legislative Exchange Council"
+    },
+    {
+      "Attorney": "Christopher E. Mills",
+      "IsCounselofRecord": true,
+      "Title": "Spero Law LLC",
+      "PrisonerId": null,
+      "Phone": "8436060640",
+      "Address": "557 East Bay Street #22251",
+      "City": "Charleston",
+      "State": "SC",
+      "Zip": "29413",
+      "Email": "cmills@spero.law",
+      "PartyName": "Center for Election Confidence, Inc., Restoring Integrity and Trust in Elections, Inc., and Honest Elections Project"
+    },
+    {
+      "Attorney": "Michael T. Morley",
+      "IsCounselofRecord": true,
+      "Title": "Florida State University Election Law Center",
+      "PrisonerId": null,
+      "Phone": "8607783883",
+      "Address": "425 W. Jefferson Street",
+      "City": "Tallahassee",
+      "State": "FL",
+      "Zip": "32306",
+      "Email": "mmorley@law.fsu.edu",
+      "PartyName": "Professor Michael T. Morley and Florida State University Election Law Center"
+    },
+    {
+      "Attorney": "Adav Noti",
+      "IsCounselofRecord": true,
+      "Title": "Campaign Legal Center",
+      "PrisonerId": null,
+      "Phone": "2027362200",
+      "Address": "1101 14th Street, NW, Suite 400",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20005",
+      "Email": "anoti@campaignlegalcenter.org",
+      "PartyName": "Campaign Legal Center and Protect Democracy Project"
+    },
+    {
+      "Attorney": "William Jeffrey Olson",
+      "IsCounselofRecord": true,
+      "Title": "William J. Olson, P.C.",
+      "PrisonerId": null,
+      "Phone": "7033565070",
+      "Address": "370 Maple Ave. W., Suite 4",
+      "City": "Vienna",
+      "State": "VA",
+      "Zip": "22180",
+      "Email": "WJO@MINDSPRING.COM",
+      "PartyName": "Citizens United, Citizens United Foundation, The Presidential Coalition, LLC, America\u2019s Future, Gun Owners of America, Gun Owners Foundation, U.S. Constitutional Rights Legal Defense Fund, and Conservative Legal Defense and Education Fund"
+    },
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": false,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "United States"
+    },
+    {
+      "Attorney": "Daniel Carl Schwartz",
+      "IsCounselofRecord": true,
+      "Title": "Bryan Cave Leighton Paisner LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 508-6025",
+      "Address": "1155 F. St. NW, Ste. 700",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "daniel.schwartz@bclplaw.com",
+      "PartyName": "National Security Leaders for America"
+    },
+    {
+      "Attorney": "Jay Alan Sekulow",
+      "IsCounselofRecord": true,
+      "Title": "American Center for Law & Justice",
+      "PrisonerId": null,
+      "Phone": "2025468890",
+      "Address": "201 Maryland Avenue, N.E.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20002",
+      "Email": "sekulow@aclj.org",
+      "PartyName": "Members of Congress and the American Center for Law & Justice"
+    },
+    {
+      "Attorney": "Charles Robert Spies",
+      "IsCounselofRecord": true,
+      "Title": "Dickinson Wright PLLC",
+      "PrisonerId": null,
+      "Phone": "202-466-5964",
+      "Address": "1825 Eye Street NW\r\nSTE 900",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "cspies@dickinsonwright.com",
+      "PartyName": "National Republican Congressional Committee, et al."
+    },
+    {
+      "Attorney": "William Thomas Thompson",
+      "IsCounselofRecord": true,
+      "Title": "Lehotsky Keller Cohn LLP",
+      "PrisonerId": null,
+      "Phone": "5126938350",
+      "Address": "7500 Rialto Blvd.\r\nSuite 1-250",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": "78735",
+      "Email": "will@lkcfirm.com",
+      "PartyName": "Secretaries of State of Louisiana and Wyoming"
+    },
+    {
+      "Attorney": "Caroline Sage Van Zile",
+      "IsCounselofRecord": true,
+      "Title": "Attorney General for the District of Columbia",
+      "PrisonerId": null,
+      "Phone": "(202) 724-6609",
+      "Address": "Office of the Solicitor General\r\n400 6th Street, NW, Suite 8100",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "caroline.vanzile@dc.gov",
+      "PartyName": "District of Columbia and 19 States"
+    },
+    {
+      "Attorney": "Donald B. Verrilli Jr.",
+      "IsCounselofRecord": true,
+      "Title": "Munger, Tolles & Olson LLP",
+      "PrisonerId": null,
+      "Phone": "202-220-1100",
+      "Address": "601 Massachusetts Avenue, NW\r\nSuite 500E",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001-5369",
+      "Email": "DONALD.VERRILLI@MTO.COM",
+      "PartyName": "The Democratic National Committee"
+    },
+    {
+      "Attorney": "Dana Lauren Wefer",
+      "IsCounselofRecord": true,
+      "Title": "Coyle & Wefer Law Group, P.C.",
+      "PrisonerId": null,
+      "Phone": "(973) 610-0491",
+      "Address": "201 Littleton Road, Suite 210",
+      "City": "Morris Plains",
+      "State": "NJ",
+      "Zip": "07950",
+      "Email": "dwefer@weferlawoffices.com",
+      "PartyName": "Citizens for New Jersey Election Integrity and Project Civica, Inc."
+    },
+    {
+      "Attorney": "Robert Neil Weiner",
+      "IsCounselofRecord": true,
+      "Title": "Lawyers\u2019 Committee For Civil Rights Under Law",
+      "PrisonerId": null,
+      "Phone": "(202) 662-8600",
+      "Address": "1500 K St. N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20005",
+      "Email": "rweiner@lawyerscommittee.org",
+      "PartyName": "Lawyers\u2019 Committee For Civil Rights Under Law, National Association For The Advancement Of Colored People Legal Defense And Education Fund, Asian American Legal Defense And Education Fund, Equal Justice Society, National Urban League, National Association For The Advancement Of Colored People, And Mississippi State Conference Of The National Association For The Advancement Of Colored People"
+    }
+  ]
+}

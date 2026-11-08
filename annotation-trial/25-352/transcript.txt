@@ -1,0 +1,416 @@
+[0] 0:00 John G. Roberts, Jr.: We'll hear argument next in Case 25-352, Younge versus Fulton Judicial Circuit District Attorney's Office.
+[1] 0:07 John G. Roberts, Jr.: Mr. Schnapper.
+[2] 0:08 Eric Schnapper: Thank you, Mr. Chief Justice, and may it please the Court:
+[3] 0:12 Eric Schnapper: Pleading an affirmative defense is ordinarily a precondition for invoking that defense to bar or limit a claim. Kontrick held that ordinarily, under the civil rules, a defense is lost if it's not included in an amended complaint -- in an amended defense or in the original defense. There's no reason to depart in this case from those established rules.
+[4] 0:38 Eric Schnapper: The Eleventh Circuit's Hassan decision improperly permits a defendant to invoke an affirmative defense which it has never pled. It has several fatal flaws.
+[5] 0:49 Eric Schnapper: First, it effectively rewrites Rules 8 and 12 to create categories of affirmative defenses that do not have to be pled, despite the fact that the plain text of those rules provide that any affirmative defense and every affirmative defense must be pled.
+[6] 1:07 Eric Schnapper: Secondly, if a defendant has not yet included an affirmative defense in its answer and the deadline under a scheduling order for amending the answer has passed, a defendant would normally have to meet the good cause standard in Rule 16(b)(4). But, under Hassan, a defendant can -- is exempt itself from that rule simply by moving for summary judgment.
+[7] 1:33 Eric Schnapper: Third, where a defendant has inadvertently omitted an affirmative defense, Rules 15(a)(2) and 16(b)(4) establish the standard for nonetheless raising that affirmative defense. Hassan substitutes a no-prejudice standard for that.
+[8] 1:54 Eric Schnapper: In addition, in -- in its justifications for the Hassan rule or some version of it, the defendant has offered arguments that reach far beyond just the question of what happens with an unpled affirmative defense and raises a host of issues about the -- about the issue -- the standards that would emerge.
+[9] 2:14 Eric Schnapper: A ruling for us would simply apply the established rules and -- and standards in Rules 15(a)(2) and 16(b)(4). It would not require the Court to become embroiled in fashioning new standards, as was aired in the previous case.
+[10] 2:32 Eric Schnapper: I welcome the Court's questions.
+[11] 2:34 Clarence Thomas: Mr. Schnapper, what was the prejudice to your client?
+[12] 2:40 Eric Schnapper: The standard -- we argue there was prejudice below, and we didn't --
+[13] 2:44 Clarence Thomas: And what was it?
+[14] 2:45 Eric Schnapper: Well, the claim was that we wanted -- would have sought additional discovery.
+[15] 2:51 Clarence Thomas: For what? I mean, that was admitted, that -- what was -- what additional facts did you need?
+[16] 2:58 Eric Schnapper: Well, there were two that were raised there, Your Honor. One was -- concerned whether the public regarded the plaintiff as acting -- as speaking for the district attorney. We proposed to do discovery about that. The judge wouldn't let us do that.
+[17] 3:13 Eric Schnapper: We also sought to do discovery from the chief of staff about the extent to which he supervised her. And the court declined to let us do that either.
+[18] 3:24 Clarence Thomas: But I don't see what that had to do -- I thought it was admitted that she was a member of his personal staff.
+[19] 3:30 Eric Schnapper: No, Your Honor. Whether someone's a member of the personal staff is subject in this -- was subject in this case to a six-part test. And those were two of the -- of -- of the factors. And a third of the factors, there was clearly evidence that it wasn't satisfied.
+[20] 3:48 Eric Schnapper: So -- so whether -- whether she was personal staff was, indeed, the dispute. We sought discovery on that. And the court declined -- I have to phrase it differently.
+[21] 4:00 Eric Schnapper: The question that was put to us was, would we have sought discovery with regard to that had this been at issue a year or two earlier? We argued we would have. And the court indicated it would -- it wouldn't have let us have that discovery.
+[22] 4:12 Ketanji Brown Jackson: So it's all speculative, right? I mean, your point is that -- that it's hard to know whether or not there's prejudice in a situation like this because, if this affirmative defense had been pled in the answer or if the answer had been amended, then you might well have asked for discovery that was specified in this way, and the court might have granted it because there -- it went to an affirmative defense.
+[23] 4:41 Ketanji Brown Jackson: But it's very hard in the aftermath to figure out the extent to which the road not taken affected your case.
+[24] 4:50 Eric Schnapper: That's right, Your Honor. That was a point that Chief Judge Edwards made in the Harris decision many years ago, that we're sort of constructing a counterfactual conditional world and try to figure out what would happen.
+[25] 5:01 Amy Coney Barrett: But that's just a question of whether you would have secured leave to amend the complaint even if you had faced a Rule 15 motion to amend. The undue prejudice portion of the argument would have been the same under Foman. I mean, there may have been other factors, like undue delay, et cetera, as well. But, essentially, what you're arguing is that you were prejudiced, so the district court or the magistrate judge's decision that you weren't prejudiced is wrong. But that doesn't go to the form by which the other side had to seek to amend the complaint.
+[26] 5:31 Eric Schnapper: The -- if they had sought to amend the complaint, it would have been governed by the standards in Rules 16(b)(4) and 15(a)(2), both of which would have to be satisfied. 16(b)(4) would have required that they show good cause for not having raised this.
+[27] 5:48 Amy Coney Barrett: I agree, but you were just talking about undue prejudice, and you were saying why, in fact, you were unfairly prejudiced.
+[28] 5:54 Amy Coney Barrett: That would have also been a factor that the court would consider under Rule 15. And it did consider it under the Eleventh Circuit's test. So I guess what I'm saying is going back and forth about whether you were prejudiced or not doesn't help you in your fundamental argument, which is that, procedurally, this wasn't done right. Undue prejudice had to be shown either way.
+[29] 6:14 Eric Schnapper: Insofar as I take it your point is that prejudice vel non would be an issue under 15(a)(2).
+[30] 6:21 Amy Coney Barrett: Yeah.
+[31] 6:21 Eric Schnapper: And this -- these complexities would be there. I think that's --
+[32] 6:23 Amy Coney Barrett: Yeah.
+[33] 6:24 Eric Schnapper: I think -- I think that's fair. But the -- one of the things that happens under the Eleventh Circuit's standard is that we have to have a very specific standard of what constitutes prejudice. That's not as important under Rule 15(a)(2) because the court can consider anything.
+[34] 6:42 Eric Schnapper: There's considerable disagreement even now, four decades after Hassan, in the Eleventh Circuit about what the word "precedent" means in -- excuse me, "prejudice" means in this context. There are -- there are three lines of cases at least.
+[35] 6:57 Eric Schnapper: One of them holds that the -- the need for -- for discovery earlier is never prejudicial because the court can just reopen discovery, which pretty much makes the exception gobble up the rule. On the other end of the spectrum, there are a line of cases which hold that the fact that the discovery deadline had closed is, without more, enough to bar Hassan. And then there is this intermediate view, which is you try to figure out what the discovery would have been and how important it would have been.
+[36] 7:27 Eric Schnapper: I mean, that -- in this case --
+[37] 7:28 Amy Coney Barrett: Well, what if --
+[38] 7:28 Eric Schnapper: -- that was an issue.
+[39] 7:29 Amy Coney Barrett: Let me stop you there just to ask you, I mean, what would the problem be, really, with something like the Tenth Circuit's rule, which says, well, we'll construe this summary judgment motion as a motion under Rule 15 and Rule 16, and we'll apply those standards; it's just that we're not going to make them go through the formalist exercise of actually filing a Rule 15 or 16 motion?
+[40] 7:51 Amy Coney Barrett: That would solve your problem, wouldn't it, because the standards for undue prejudice would be the same? It just would be that they would also have to satisfy the other factors. What would your -- be your objection to that?
+[41] 8:01 Eric Schnapper: We -- we would -- that would solve that problem. You would have to be sure to let the parties brief that.
+[42] 8:07 Eric Schnapper: Now there's a -- there's a difference -- among the courts that don't follow Hassan, there are -- there are -- there are different views. The Tenth Circuit view is it treats an unpled affirmative defense -- the reference to an unpled affirmative defense or reference to an unpled claim as a motion for leave to add that.
+[43] 8:25 Eric Schnapper: The Second Circuit, as I believe, says that's permissible. And then the D -- and then the Eleventh Circuit doesn't do that.
+[44] 8:33 Eric Schnapper: I think I'd suggest the Court not take a position on whether treating an -- an unpled affirmative defense at summary judgment as a motion as something courts have to do. I'm not really familiar with the experience in the Tenth Circuit about whether that's work --
+[45] 8:48 Elena Kagan: But just to understand --
+[46] 8:49 Sonia Sotomayor: I'm sorry. I --
+[47] 8:49 Eric Schnapper: Technically, it's -- it's -- it's -- it's sufficient, but whether it's a good idea practically, I -- we don't have a position on that.
+[48] 8:55 Elena Kagan: I mean, I guess just to understand what your argument is, suppose that the defendant here, instead of filing a summary judgment motion but at the exact time, you know, waited a long, long time and then said: Oh, we realize we have this affirmative defense, came in and said we'd like to amend. Perfectly fine, right, for the court then to apply Rule 15 or Rule 16 to the extent that that's applicable and say: Okay, notwithstanding that a lot of time has passed, you can amend, right?
+[49] 9:28 Elena Kagan: So there's no such thing as, like: I'm sorry, you've waited too long, is there, in your view? I mean, maybe there's the --
+[50] 9:34 Eric Schnapper: How --
+[51] 9:35 Elena Kagan: -- undue delay standard, but -- but, you know, a court might find, well, it wasn't undue. We -- you can amend now.
+[52] 9:43 Eric Schnapper: Well --
+[53] 9:44 Elena Kagan: I guess what I'm saying is that this is never waived in the sense of which some things are waived when you don't timely file because there's a provision in the rule for amending your pleading.
+[54] 9:57 Eric Schnapper: I'm hard-pressed to find something in what you said that I disagree with.
+[55] 10:00 Elena Kagan: Okay.
+[56] 10:00 Eric Schnapper: But -- but -- but let me make clear what I'm saying just --
+[57] 10:03 Amy Coney Barrett: Try anyway.
+[58] 10:04 Eric Schnapper: So our position is that the Court should reverse this decision, send it back, and tell the defendant if it wants to raise affirmative defense to move to amend. That's all we're asking this Court to hold.
+[59] 10:16 Elena Kagan: Yeah. So, if that's right, right --
+[60] 10:18 Eric Schnapper: A delay --
+[61] 10:18 Elena Kagan: -- if -- if -- if you can -- even now, there could be an amendment of the pleading, and then I think that Justice Barrett was asking a similar kind of question.
+[62] 10:29 Elena Kagan: You know, maybe the court would say: Well, rather than going through all the trouble of amending the pleading when -- when I know exactly what your amendment motion is going to say, it should be within my discretion as well just to construe your motion for summary judgment as a motion to amend.
+[63] 10:47 Elena Kagan: You know, maybe not. That's up to the court. The court could say: Go back and just give me the right paper. Or the court could say, like: That's a lot of bother, let's -- let me just construe this as a motion to amend.
+[64] 10:58 Elena Kagan: But either one, I mean, I guess the court can do that right now.
+[65] 11:03 Eric Schnapper: So let me -- there are two things raised by your questions at least.
+[66] 11:07 Eric Schnapper: The first one is, would it be permissible for a court to do that? It goes on in the Tenth Circuit. I don't see why a court couldn't do that here. We're not -- we're not articulating any objection to it.
+[67] 11:18 Eric Schnapper: I'm only adding a word of caution that I wouldn't advise the Court to tell people -- judges they have to do that.
+[68] 11:24 Eric Schnapper: With regard to the time, the time does matter under both 15(a)(2) and 16(b)(4). Under 16(b)(4), once the deadline for amending a complaint -- a complaint or an answer passes, the standard is different, and it is a more demanding standard.
+[69] 11:42 Eric Schnapper: Even under 15(a)(2), undue delay would be a reason to -- could be a reason to deny leave to amend. And this could be a kind of case where that would matter.
+[70] 11:53 Neil Gorsuch: That -- that seems to me if I might -- I'm sorry to interrupt.
+[71] 11:56 Eric Schnapper: Please.
+[72] 11:56 Neil Gorsuch: But, Mr. Schnapper, that seems to me to be the crux of the case.
+[73] 12:00 Neil Gorsuch: Under the Eleventh Circuit rule, they -- they look at prejudice and kind of a harmless error, first sentence of Rule 61 kind of circumstance, which applies to trials, I know, but that's -- that's how I think of how they look at it is, would anything have been different?
+[74] 12:18 Neil Gorsuch: But what you -- but your argument, I think, is, if you go back and look at Rule 15 and 16, there are going to be other considerations that a court may wish to take into account, like the 20-year litigation that goes on forever, that outlasts a generation, and they come to summary judgment and then they drop this thing in there.
+[75] 12:38 Neil Gorsuch: A court might say: Hey, you might have done exactly the same thing, Mr. Plaintiff, I don't know, okay, maybe it wouldn't make any difference on the merits, but it's just too late. Undue delay, Foman -- as Foman points out, might be a basis and that every court of appeals in America would uphold that as not an abuse of discretion, I suspect.
+[76] 12:59 Neil Gorsuch: So is that really the delta where this -- this dispute makes a difference?
+[77] 13:04 Eric Schnapper: The -- the -- the basic difference is our contention that they would have to satisfy the 15(a)(2) and 16(b)(4) standards.
+[78] 13:11 Neil Gorsuch: And -- and --
+[79] 13:11 Eric Schnapper: That's the only thing we're arguing about.
+[80] 13:13 Neil Gorsuch: I understand. But the rubber meets the road, I think --
+[81] 13:16 Eric Schnapper: Sorry? Say again?
+[82] 13:17 Neil Gorsuch: The rubber meets the road when it comes to undue delay, I think, right?
+[83] 13:23 Neil Gorsuch: One -- it's one thing to say: Hey, the case would have looked the same, you're not prejudiced on the merits, but there are other considerations that Rule 15 and 16 may take account of, including things like undue delay.
+[84] 13:34 Eric Schnapper: Yes, yes, that's right. It's -- and I think the Harris decision in the D.C. Circuit made that point in several paragraphs, that the standard under Rule 15(a)(2) is multi-factored, and in the -- in the Hassan -- Hassan standard is just one factor.
+[85] 13:49 Samuel A. Alito, Jr.: Well, isn't --
+[86] 13:49 Sonia Sotomayor: So, basically --
+[87] 13:50 Samuel A. Alito, Jr.: -- the question --
+[88] 13:51 Sonia Sotomayor: I'm sorry.
+[89] 13:52 Samuel A. Alito, Jr.: Isn't the question whether delay was undue very closely related in most instances to whether there was prejudice?
+[90] 14:02 Samuel A. Alito, Jr.: What does it mean for it to be undue? If -- if nobody was prejudiced, the opposite party wasn't prejudiced, the court wasn't prejudiced, then why would it be undue?
+[91] 14:13 Eric Schnapper: Well --
+[92] 14:14 Samuel A. Alito, Jr.: I mean, there could be such cases. What I'm saying is I think we're talking about a sliver, a sliver of cases where that's going to be -- there's going to be undue delay without prejudice.
+[93] 14:26 Eric Schnapper: So Foman describes these as different standards. And I -- and I think it would be difficult sitting here to imagine all the different ways this problem of amendment comes up. But -- but, in this context, for example, the underlying problem here is whether the plaintiff is in the right forum.
+[94] 14:46 Eric Schnapper: A substantive Title claim -- Title VII right can be litigated under -- either under the traditional Title VII methodology of going to district court, or, if an employee is personal staff of an elected official, that claim is adjudicated before the EEOC under the Government Employee Rights Act.
+[95] 15:06 Eric Schnapper: So the -- the -- the -- the question, as -- the question here is, were we in the right forum? Now I -- I can imagine if they were to move to amend and -- and -- and they'd have to also get by Rule 15(a)(2) that our argument would be we wasted and the court wasted two years on this case litigating it in the district court, and now you're telling us we should have been in another forum. And that just should have happened earlier.
+[96] 15:31 Samuel A. Alito, Jr.: A prod -- I mean, a practical problem, it seems to me, with any rule that makes -- with a -- with a formalistic rule about filing a motion to amend for an affirmative defense, the problem with that is that it puts -- it makes it very important to determine whether something is, in fact, an affirmative defense or an element of the claim.
+[97] 16:00 Samuel A. Alito, Jr.: Now that's not -- that issue isn't before us here, but I don't know that this is an affirmative defense. And if the rules differ a lot, then plaintiffs are just going to have to -- they're going to plead every element of a claim as -- as an affirmative defense to make sure that they haven't missed something.
+[98] 16:22 Eric Schnapper: That problem, to the extent that it's there -- and it's raised by one of the amicus briefs -- is true no matter what. I mean, that's a -- short of a proposal to abolish the requirement that you plead affirmative defenses, that -- that issue is potentially there.
+[99] 16:38 Samuel A. Alito, Jr.: No, it's not --
+[100] 16:38 Eric Schnapper: With regard to --
+[101] 16:39 Samuel A. Alito, Jr.: -- it's not an argument to abolish the requirement. It's an argument to -- not to draw -- not to make it very difficult to assert an affirmative defense later where nobody has been prejudiced.
+[102] 16:53 Eric Schnapper: Well, if I could make two points.
+[103] 16:56 Eric Schnapper: So the first one is that might be an argument that a defendant could raise in support of a motion to amend and -- but -- but -- but, if -- if an answer hasn't included an affirmative defense, the solution is to amend the answer.
+[104] 17:15 Eric Schnapper: And any arguments about -- of that sort would fall there, not some special rule to just disregard --
+[105] 17:21 Samuel A. Alito, Jr.: Why is this an affirmative defense? I know it's not the issue before us. Why is this an affirmative defense? It's not an element of the claim.
+[106] 17:28 Eric Schnapper: Well, just to give you the -- the background of this issue, five circuits have addressed that question. Four of the circuits have held it is an affirmative defense. The only circuit to the contrary is from 1982.
+[107] 17:40 Eric Schnapper: The -- but the -- the prevailing view of this is that this functions as essentially exempting certain kinds of activities from the coverage of the statute. It's why it's referred to, including in the court below, as an exemption.
+[108] 17:56 Eric Schnapper: This Court's decision in I believe it's ED a number of years ago about exemptions from the Fair Labor Standards Act says they're all affirmative defenses. This is one of the exemptions from the Fair Labor Standards Act.
+[109] 18:11 Ketanji Brown Jackson: And -- and --
+[110] 18:12 Eric Schnapper: But, as you say, that issue is not here.
+[111] 18:13 Samuel A. Alito, Jr.: It's a hard line -- it's a hard line to draw. Suppose a private person is sued under 1983. Is that an affirmative defense? I'm not a -- I'm not a state employee. I'm a -- I'm a private citizen.
+[112] 18:26 Eric Schnapper: I'm sorry, is what an affirmative defense?
+[113] 18:28 Samuel A. Alito, Jr.: Never mind, it's a different issue. It's a -- it's a hard line to draw.
+[114] 18:31 Amy Coney Barrett: Can I -- can I --
+[115] 18:31 Ketanji Brown Jackson: But can I ask you about that line, though? Because, I mean, I thought your argument was that that line gets taken into account in the context of a motion to amend, that under Rule 15, if a person says -- or even in this case, if they didn't raise it earlier and they suddenly put it in a summary judgment motion and their response to the court saying why is this here is we didn't think it was an affirmative defense, so we didn't need to put it in our answer or amend as a result, we can have litigation about that.
+[116] 19:06 Eric Schnapper: You could do a --
+[117] 19:07 Ketanji Brown Jackson: But that's not the claim. That's not the argument that's being made here. They're basically saying: We concede for the purpose of this argument that this is an affirmative defense, that we -- under the rules, we're supposed to put it in our answer. We're just saying the fact that we didn't put it in our -- in our answer, the standard, is too bad. It doesn't matter because it didn't prejudice -- prejudice anyone.
+[118] 19:33 Eric Schnapper: That -- that is our view. To the extent that there's an argument here, it should be made in the context of a -- a motion to amend.
+[119] 19:40 Ketanji Brown Jackson: Can I ask you about -- a little bit about Justice Gorsuch says that undue delay is really the crux of it. I'm wondering whether your argument isn't also that, under Rule 16, there is a good cause requirement.
+[120] 19:55 Ketanji Brown Jackson: So it's not just the idea that we're arguing about whether the delay was undue, which, as Justice Alito suggests, could bleed into prejudice. There's also, I think, under Rule 16, the requirement that if you're going to try to raise this now, you've got to have good cause.
+[121] 20:13 Eric Schnapper: That's correct. Our -- if -- if -- as we've mentioned repeatedly in our brief, they -- there's a serious 16(b)(4) problem here. But the question before the Court is not whether -- we're not asking the Court to decide they can't amend their complaint, their answer. All we're asking the Court to decide is --
+[122] 20:30 Ketanji Brown Jackson: Is what the standard is in --
+[123] 20:32 Eric Schnapper: Is that they have to do it under 15(a)(2) and 16(b)(4).
+[124] 20:35 Amy Coney Barrett: And, counsel, can I just clarify about that? Because I took your argument to be that you had to -- a formal one, that you actually had to file the piece of paper, motion under Rule 15 to amend, motion under 16 to amend the scheduling order.
+[125] 20:49 Amy Coney Barrett: But I took you to say in response to my earlier questions that you really don't care if the court construes the motion for summary judgment as a motion to amend the complaint and the scheduling order so long as the court is applying the same standards that would other apply under 15 or 16.
+[126] 21:05 Eric Schnapper: That's our -- that's our view.
+[127] 21:06 Amy Coney Barrett: Okay.
+[128] 21:06 Eric Schnapper: That's our view.
+[129] 21:07 Brett M. Kavanaugh: And to follow --
+[130] 21:07 Sonia Sotomayor: But can I put that -- I want to put the period on that because I understood things the same way Judge Barrett did. There are three different approaches. The D.C. Circuit says you can't file a motion for summary judgment adding an affirmative defense. You have to first file a motion to amend.
+[131] 21:26 Sonia Sotomayor: You don't think that that rule is required? You don't want me to say that D.C. can't have it, but you don't want us to say it's required?
+[132] 21:39 Eric Schnapper: Given my druthers, I would just not be taking a position on the issue because it's a matter between the circuits and it's not relevant here.
+[133] 21:44 Amy Coney Barrett: Yes, we kind of have --
+[134] 21:45 Eric Schnapper: But we're not arguing you couldn't --
+[135] 21:47 Amy Coney Barrett: You kind of have to, I mean, because I think what the Eleventh Circuit did here is some version of that, like, some version of saying -- I mean not applying all the same standards but saying, like, we're not going to go through this rigamarole; we're -- we're applying just the undue prejudice standard.
+[136] 22:01 Amy Coney Barrett: And I'm not saying I agree with that, but I guess there is a big difference in the way I read your brief and what you're saying now because I think there is a difference from saying, no, you have to formally make this a motion. It -- it's just different.
+[137] 22:15 Eric Schnapper: The thrust of our argument is the standard that has to be applied.
+[138] 22:18 Amy Coney Barrett: Okay.
+[139] 22:18 Eric Schnapper: But we don't take -- really take a position as between whether there would need to be a formal motion or the district judge could treat a summary judgment motion as a motion to amend. That's not uncommon.
+[140] 22:28 Sonia Sotomayor: So, basically, what you want us to say is, if you're going to treat it as a motion to -- if you're going to, in summary judgment, permit an amendment to the pleadings, you have to apply the Foman factors?
+[141] 22:40 Eric Schnapper: That's -- that's the crux of the issue.
+[142] 22:42 Sonia Sotomayor: And -- and the Foman factors include prejudice, but they're not exclusive?
+[143] 22:46 Eric Schnapper: Right. Right.
+[144] 22:47 Sonia Sotomayor: That -- it's as simple as that?
+[145] 22:48 Brett M. Kavanaugh: And -- and good cause, right? Isn't that your argument?
+[146] 22:51 Eric Schnapper: Yes.
+[147] 22:52 Brett M. Kavanaugh: I mean, I thought, I guess, to pick up on Justice Jackson's point, I thought the question of whether good cause is also required is -- is critical here --
+[148] 23:02 Eric Schnapper: It's --
+[149] 23:02 Brett M. Kavanaugh: -- because that's quite a bit different than --
+[150] 23:04 Eric Schnapper: I'm maybe not doing a good enough job adding that in. There are -- as I've said, there are two standards that would have to be met in this case, 15(a)(2) and 16(b)(4). In some cases, it would only be 15(a)(2). It would depend on the timing.
+[151] 23:16 Samuel A. Alito, Jr.: Well, Mr. Schnapper, I don't -- you'll correct me. I don't see why 16(b)(4) is in this case at all. The district court's scheduling order said that the parties have to comply with the time limits set forth in the Federal Rules of Civil Procedure -- that's Rule 15 -- and this court's local rules.
+[152] 23:39 Samuel A. Alito, Jr.: And I don't see anything in the local rules of the Northern District of Georgia that address the deadline issue at all.
+[153] 23:46 Eric Schnapper: The -- the local rules have -- require motions to be filed within 30 days. That's why we ended up with the -- the deadline in this case. It's a Northern District of -- of Georgia rule.
+[154] 23:57 Neil Gorsuch: Do we need to decide any of that, I mean, whether 15 or 16(b) --
+[155] 24:00 Eric Schnapper: Sorry?
+[156] 24:00 Neil Gorsuch: Do we need to decide whether --
+[157] 24:01 Eric Schnapper: No.
+[158] 24:02 Neil Gorsuch: -- 15 or 16 applies? Can't we just say go look at one of them or both of them? Depending upon the circumstances of the case, you either --
+[159] 24:10 Eric Schnapper: You need to decide very little to resolve the case in our favor.
+[160] 24:12 Neil Gorsuch: But --
+[161] 24:12 Eric Schnapper: All we're asking you to hold is the standard that has to be met is the 15(a)(2) and 16(b)(4) standard. And --
+[162] 24:19 Neil Gorsuch: -- as -- as 15 -- 15(a) and 16 if applicable?
+[163] 24:23 Eric Schnapper: Right. Both of them. Both of them.
+[164] 24:24 Brett M. Kavanaugh: Well, on 16, I mean, I thought, again, going back, do you think good cause is a requirement or not? Because that's a big difference.
+[165] 24:33 Eric Schnapper: Both -- both --
+[166] 24:34 Brett M. Kavanaugh: I mean, prejudice goes to the effect on the other party. Good cause is whether, you know, you have something better than -- to pick up on the prior case, something better than "my bad" when you come in.
+[167] 24:46 Brett M. Kavanaugh: (Laughter.)
+[168] 24:47 Brett M. Kavanaugh: Right?
+[169] 24:48 Eric Schnapper: Yes, Your Honor.
+[170] 24:49 Brett M. Kavanaugh: So that would be a different component.
+[171] 24:53 Eric Schnapper: 16(b)(4) is clearly different than the Hassan standard. Even 15(a)(2) is different than the Hassan standard. And that's -- that's our complaint about Hassan.
+[172] 25:03 Brett M. Kavanaugh: I guess the question is, why should we require good cause on top of prejudice?
+[173] 25:07 Eric Schnapper: Because that's what the rule says.
+[174] 25:09 Brett M. Kavanaugh: Because you think 16(b)(4) does apply?
+[175] 25:12 Eric Schnapper: Well, that's our -- our position. I guess the defendant on remand could argue it didn't. But I think it's fairly clear, the way the local rules work, that that -- that was the deadline.
+[176] 25:27 John G. Roberts, Jr.: Justice Thomas, anything further?
+[177] 25:28 John G. Roberts, Jr.: Justice Alito?
+[178] 25:35 Samuel A. Alito, Jr.: I am told that you acknowledged below, District Court Docket 132 at 8, you wrote, "This Court's local rules do not address the deadline for amending pleadings." Is that inaccurate?
+[179] 25:50 Eric Schnapper: I --
+[180] 25:50 Samuel A. Alito, Jr.: Well, I'll go back --
+[181] 25:51 Eric Schnapper: -- I don't have it in front of me, but --
+[182] 25:52 Samuel A. Alito, Jr.: I'll go back and check.
+[183] 25:53 Eric Schnapper: But -- but that would be an issue on remand. I -- I -- they could argue that. I think --
+[184] 25:56 Samuel A. Alito, Jr.: I understand. I understand that.
+[185] 25:57 Eric Schnapper: The general understanding in the Northern District is --
+[186] 25:59 Samuel A. Alito, Jr.: I understand.
+[187] 26:00 Eric Schnapper: -- it's due when it was due. But they could raise that on --
+[188] 26:02 John G. Roberts, Jr.: Justice Sotomayor?
+[189] 26:03 John G. Roberts, Jr.: Justice Kagan?
+[190] 26:04 Elena Kagan: Just to clarify what you said about Rule 16, what you're saying is that if Rule 16 is applicable in this case, then there's a good cause standard that must be met. But you're not asking us to decide whether Rule 16 is applicable in this case.
+[191] 26:19 Eric Schnapper: We're -- we are not asking you to decide that at all.
+[192] 26:21 Elena Kagan: You're just saying that if it is, that requirement must be met, the good cause standard, in the same way that the Rule 15 requirement of undue delay must be met?
+[193] 26:32 Eric Schnapper: That's all we're asking for.
+[194] 26:33 Elena Kagan: It's just like the rules are the rules; you take the standard from the rules, whichever rules apply, one or both.
+[195] 26:40 Eric Schnapper: Exactly.
+[196] 26:42 John G. Roberts, Jr.: Justice Gorsuch?
+[197] 26:43 John G. Roberts, Jr.: Justice Kavanaugh?
+[198] 26:44 John G. Roberts, Jr.: Justice Barrett?
+[199] 26:46 John G. Roberts, Jr.: Justice Jackson?
+[200] 26:47 John G. Roberts, Jr.: Thank you, counsel.
+[201] 26:48 Eric Schnapper: Thank you, Your Honor.
+[202] 26:50 John G. Roberts, Jr.: Mr. Petrany.
+[203] 26:51 Stephen J. Petrany: Mr. Chief Justice, and may it please the Court:
+[204] 26:54 Stephen J. Petrany: Petitioner Younge's Title VII claim fails because, as her own testimony helped to establish, she was undisputably personal staff to an elected official. Now, to be sure, the DA's office mistakenly failed to plead this defense in its answer, but the failure to comply with the pleading rules and the consequences for that mistake are two separate issues.
+[205] 27:14 Stephen J. Petrany: And nothing in the federal rules holds, not 15 or 16 or anything else, that the consequence for this type of pleading mistake is that a litigant cannot raise a legal argument at summary judgment on an undisputable record where there's no prejudice to the plaintiff because nothing would have been materially different without the mistake.
+[206] 27:33 Stephen J. Petrany: To the contrary, the text, structure, background principles support a prejudice test, a strict prejudice test but a prejudice test in these circumstances. That includes Rule 61, but it also includes the numerous rules that provide specific consequences like waiver, like bars on raising arguments from 12(h) to 71.1, 72(a).
+[207] 27:55 Stephen J. Petrany: And conspicuously missing here is anything like that. And that silence is especially compelling because the rules used to provide that a defendant waives all defenses and objections not included in the answer. But that was removed in 1966. Younge would reinsert that atextually into the rules.
+[208] 28:16 Stephen J. Petrany: Younge essentially insists that a defendant must first amend the pleadings to raise a legal argument at summary judgment. But that's not just wrong. It misunderstands what pleadings are and what they do. They provide notice of factual issues to be worked out, discovered, investigated, and ultimately tried.
+[209] 28:33 Stephen J. Petrany: But legal arguments are the province of motions. And so demanding an amendment here, where the record is already set, would be empty paper shuffling. That's what the prejudice test got you to. We have a record. What's the right answer?
+[210] 28:48 Stephen J. Petrany: I think the Court should affirm.
+[211] 28:49 Stephen J. Petrany: I welcome the Court's questions.
+[212] 28:51 Clarence Thomas: Petitioners suggest that there was prejudice, and I didn't quite understand it.
+[213] 28:58 Clarence Thomas: What do you understand Petitioner's argument for prejudice?
+[214] 29:02 Stephen J. Petrany: I think they have virtually no argument for prejudice, Your Honor, and it makes this case, I think, relatively easy.
+[215] 29:07 Stephen J. Petrany: The Eleventh Circuit identified three arguments that Petitioner made on prejudice.
+[216] 29:12 Stephen J. Petrany: They said: Well, we would -- we could look at the regulations a little bit more. The Eleventh Circuit said: That's legal analysis. You're not prejudiced by -- by that.
+[217] 29:22 Stephen J. Petrany: They had an argument that: Well, actually, after the pregnancy was disclosed, she was no longer treated as personal staff. But, again, the Eleventh Circuit said that's a legal question as to when you look at whether they're personal staff. That is not factual or evidentiary.
+[218] 29:37 Stephen J. Petrany: Their final argument was: Maybe we could poll -- you know, find some members of the public and poll them as to whether or not Petitioner was seen as speaking for the district attorney.
+[219] 29:47 Stephen J. Petrany: And what the Eleventh Circuit said -- and this is the crux of our position -- is that wouldn't change anything. You could actually do that, you could go find those people, and even if they said, eh, we didn't think that she was speaking for the DA, it doesn't matter, because the evidence is so overwhelming, her own testimony was so clear, that no matter what, she fails under the personal-staff exemption.
+[220] 30:09 Stephen J. Petrany: And so the question is the mere fact that we made a mistake that -- well, assuming it's an affirmative defense, I do want to -- to mention that -- but assuming this is an affirmative defense, there was a mistake and that the DA's office did not include this in its answer, but there is nothing that says that that kind of mistake means you can't raise a legal argument at summary judgment.
+[221] 30:31 Ketanji Brown Jackson: Except --
+[222] 30:31 Elena Kagan: But, Mr. Petrany, I think that there is. I mean, I think Rule 15 and possibly Rule 16 in some cases tells you what to do when you've made a mistake.
+[223] 30:42 Elena Kagan: There's a rule. You violated the rule. You did it inadvertently. Now the question is: What happens?
+[224] 30:49 Elena Kagan: And it turns out Rule 15 and 16 say it's not irreversible at all. You can correct your mistake.
+[225] 30:56 Elena Kagan: But then it -- those rules provide the standard for when you can -- in what circumstances you can correct your mistake. So they speak to exactly the question here: In what circumstances are we going to allow you to correct the error of not putting your affirmative defense in your answer?
+[226] 31:18 Stephen J. Petrany: Your Honor, I have three points I want to make on that.
+[227] 31:21 Stephen J. Petrany: The first is, Your Honor said: Well, you can correct your mistake. But Younge's argument has been, and I take Younge's argument to still be, actually, you can't. If you just made a mistake, that can't satisfy the good-cause standard.
+[228] 31:35 Stephen J. Petrany: So that is an argument.
+[229] 31:36 Elena Kagan: Well, that's -- first off, that's Rule 16. Rule 16 might not even apply to this case.
+[230] 31:41 Elena Kagan: The question is -- let's assume it were a Rule 15.
+[231] 31:45 Elena Kagan: I mean, you're right, if there were a Rule 16 issue, Rule 16 would apply the standard.
+[232] 31:50 Elena Kagan: But, in any case, Rule 15 and Rule 16, one or both, speak to this question of what do we do when an answer doesn't include what it's supposed to include.
+[233] 32:02 Elena Kagan: Hey, we have a standard for -- for deciding when you can correct that.
+[234] 32:07 Stephen J. Petrany: Well, respectfully, Your Honor, Rule 15 is not really directed at corrections. It's directed at amendments, to be sure, because, as the case goes on, things change.
+[235] 32:15 Elena Kagan: The amendment is a way of correcting what you failed to do before.
+[236] 32:17 Stephen J. Petrany: Yeah, but I want to make a point about Rule 15 and Rule 16.
+[237] 32:20 Stephen J. Petrany: Under Rule 15, our standard, I think, is actually tougher than the Rule 15 standard because, I think, as Justice Gorsuch was -- was noting and what the lower courts virtually unanimously agree on, undue delay really means prejudicial delay. And so, really, what you're talking about when you're talking about Rule 15 is --
+[238] 32:37 Neil Gorsuch: Well, not -- not always, counsel, all right? Often, I agree, but let's work with just Rule 15, "when justice so requires." That's the standard.
+[239] 32:46 Neil Gorsuch: And let's say this litigation has been going on forever, okay? Let's say -- let's say it wasn't a mistake. Let's say it was in bad faith that you waited.
+[240] 32:57 Neil Gorsuch: But why does a court need to consult prejudice under those circumstances?
+[241] 33:01 Neil Gorsuch: Why couldn't a court say: Justice does not require an amendment in these circumstances, doesn't -- doesn't permit an amendment in these circumstances given bad faith and dilatory tactics by the defendant? I'm not going to look at prejudice.
+[242] 33:14 Stephen J. Petrany: Well, two points, Your Honor.
+[243] 33:15 Stephen J. Petrany: First, we have acknowledged from the beginning, and I don't take Younge to disagree, that courts can look at bad faith. They have the inherent authority always to look at bad faith.
+[244] 33:22 Neil Gorsuch: Well, why can't they just stop there? I would have --
+[245] 33:24 Stephen J. Petrany: Oh, they absolutely could. They wouldn't need to go any further.
+[246] 33:26 Neil Gorsuch: I would have -- I would have thought so.
+[247] 33:27 Stephen J. Petrany: They would -- they would not need to go any further, but that's not --
+[248] 33:29 Neil Gorsuch: Exactly.
+[249] 33:30 Stephen J. Petrany: -- that's not at all in tension with -- with our rule.
+[250] 33:33 Stephen J. Petrany: Our point is simply that the assumption from Younge's position is there is an inference, it is an inference, that because it's not in your pleading, you cannot raise a legal argument at summary judgment based on undisputed and undisputable facts.
+[251] 33:48 Stephen J. Petrany: And we just think that inference is not correct. The inference to draw is you certainly can't be talking about facts that are potentially in dispute --
+[252] 33:55 Neil Gorsuch: Now -- now we get into the affirmative defense versus what's an element of the claim, and -- and that's just not before us. So --
+[253] 34:01 Stephen J. Petrany: No, no, no.
+[254] 34:02 Neil Gorsuch: -- I'm talking about an affirmative defense. You've made -- you're trying to pursue an affirmative defense. Work with me on that, okay?
+[255] 34:07 Stephen J. Petrany: Yeah, that, we -- we can assume that, yes.
+[256] 34:09 Neil Gorsuch: And -- and the affirm -- and the affirmative defense is incredibly dilatory and maybe even dilatory because of reasons of bad faith. I'm not suggesting that's the case here.
+[257] 34:19 Neil Gorsuch: Why couldn't -- I -- I think your rule would mean the district court couldn't deny leave in those circumstances.
+[258] 34:25 Stephen J. Petrany: Yeah, respectfully, Your Honor, that is not our rule. As we -- as we pointed out in our brief, a court has the inherent authority to look and say: Look, you delayed on purpose or you knew about this the whole time and this was just a, you know, bad-faith strategery or something like that, and it could absolutely reject it for that reason.
+[259] 34:41 Stephen J. Petrany: Our point is simply that there are --
+[260] 34:43 Neil Gorsuch: Well, that seems to be an admission that Rule 15 --
+[261] 34:45 Amy Coney Barrett: Right.
+[262] 34:46 Neil Gorsuch: -- applies.
+[263] 34:47 Amy Coney Barrett: I mean, Foman takes all of those factors into account.
+[264] 34:50 Amy Coney Barrett: I guess, what would your objection be to the Second and Tenth Circuit approach, which I was discussing with your friend on the other side? Simply says: Sure, construe this summary judgment motion as a motion for leave to amend, apply the standards under Rule 15 and 16, as Justice Kagan suggested. Doesn't mean you can't amend. It just means that here are the standards that apply.
+[265] 35:08 Stephen J. Petrany: Two points, Your Honor.
+[266] 35:10 Stephen J. Petrany: If the Court were to decide in that fashion, I think it should simply affirm because I think the Eleventh Circuit did apply a strict prejudice test. It -- there was no suggestion --
+[267] 35:19 Amy Coney Barrett: Say we don't want to do that. What's the problem with the rule?
+[268] 35:23 Amy Coney Barrett: Because all we've been asked to do is decide -- I -- I thought I had understood this case to be about whether you had to go through the exercise of actually filing the motion to amend. We found out that that's not the -- the plaintiff's position.
+[269] 35:36 Amy Coney Barrett: So what is your objection? We can send it back. And if that is, in fact, what the Eleventh Circuit thinks, the Eleventh Circuit will reach the same result. But what is your objection, if any --
+[270] 35:42 Stephen J. Petrany: Well, I --
+[271] 35:42 Amy Coney Barrett: -- to the Tenth and -- Tenth saying that?
+[272] 35:43 Stephen J. Petrany: -- I think the primary objection would be Younge has argued all along and continues to argue in this Court that 16(b)(4) should apply and that making a mistake is not good cause.
+[273] 35:54 Stephen J. Petrany: So setting aside that we just think it's wrong, that would be the objection as a practical matter.
+[274] 35:59 Sonia Sotomayor: That's a separate legal argument, meaning that's not what we granted cert on.
+[275] 36:04 Sonia Sotomayor: We granted cert on whether you have to -- in making a motion to amend, whether it's now independent from a motion for summary judgment or a part of summary judgment, that you have to essentially comply with the Foman factors --
+[276] 36:21 Stephen J. Petrany: Your Honor --
+[277] 36:22 Sonia Sotomayor: -- or that the Foman factors guide the decision-making.
+[278] 36:25 Stephen J. Petrany: Your Honor, the question presented --
+[279] 36:26 Sonia Sotomayor: You --
+[280] 36:27 Stephen J. Petrany: -- specifically asks whether or not you can make the argument even if you couldn't comply with 16(b)(4). So I took Younge to be arguing this entire time that --
+[281] 36:36 Sonia Sotomayor: All right. We'll look at the question.
+[282] 36:38 Stephen J. Petrany: -- that -- that if -- if you have to amend the pleadings to make this work, that we could not make it work because we don't have good cause.
+[283] 36:45 Sonia Sotomayor: Only -- only if 16(b) is applicable.
+[284] 36:46 Stephen J. Petrany: But I would just like to get back to --
+[285] 36:48 Sonia Sotomayor: Could I ask a quick question?
+[286] 36:49 Stephen J. Petrany: Oh, go ahead.
+[287] 36:49 Sonia Sotomayor: Do you think she has -- assuming she's personal staff, is there any remedy that she had, alternative remedy?
+[288] 36:58 Stephen J. Petrany: Well, she could have gone through the EEOC for sure.
+[289] 37:01 Sonia Sotomayor: All right. And would she have had time to do it? Meaning --
+[290] 37:05 Stephen J. Petrany: Oh, absolutely. In fact, she had --
+[291] 37:07 Sonia Sotomayor: No, no, no. I mean by the time she filed the complaint. If you had raised your defense earlier, would she have been within the statute of limitations to go back to the EEOC?
+[292] 37:18 Stephen J. Petrany: No, Your Honor. So the statute of limitations is 180 days. She didn't even file the first amended complaint until after that.
+[293] 37:25 Sonia Sotomayor: All right. That -- that was my only --
+[294] 37:26 Stephen J. Petrany: We did not -- and we did not file the answer until after that.
+[295] 37:28 Sonia Sotomayor: I should have asked the other side that.
+[296] 37:29 Stephen J. Petrany: Yeah, but I --
+[297] 37:30 Ketanji Brown Jackson: Can I ask you -- can I ask a question?
+[298] 37:31 Samuel A. Alito, Jr.: Well, I --
+[299] 37:31 Ketanji Brown Jackson: I'm sorry, can I ask you a question? Yes.
+[300] 37:35 Ketanji Brown Jackson: I guess what is bugging me about your position is that it seems to disincentivize parties to actually bring motions to amend. And maybe I'm not understanding your view.
+[301] 37:47 Ketanji Brown Jackson: But, to the extent that if you wait until summary judgment, when once you've realized you made the mistake, and you don't, as Justice Kagan suggests, follow what the rules say about amending, and you just go to summary judgment, if the standard there is just prejudice, why aren't you then incentivizing parties to do things in that route rather than going through the motion to amend, which is exactly what the rules say you're supposed to do?
+[302] 38:16 Stephen J. Petrany: Two responses, Your Honor. The first is our standard, we believe, is tougher than Rule 15. So Rule 15 is as justice requires. And the Court has described this as undue prejudice, and the lower courts have all recognized that means there can be prejudice; it just can't be too much or not fair.
+[303] 38:33 Stephen J. Petrany: But our test is would there be any difference? Would anything have changed? Was there any possibility --
+[304] 38:38 Ketanji Brown Jackson: But -- I understand, but to the extent that there is a difference, you're saying because your standard, you think, is harder, it actually wouldn't incentivize people to go that route?
+[305] 38:48 Stephen J. Petrany: Well --
+[306] 38:49 Ketanji Brown Jackson: People will still move to amend?
+[307] 38:50 Stephen J. Petrany: Well, they would absolutely move to amend if they had the ability to do so because, again, we're all -- we're looking at this ex-post --
+[308] 38:57 Ketanji Brown Jackson: But you didn't move to amend. So why wouldn't they -- I don't understand.
+[309] 39:02 Stephen J. Petrany: Well, because in the Eleventh Circuit, the rule has already clear that if -- if the record is set, if there's nothing that could have changed, then, sure, you just bring the argument at summary judgment. But --
+[310] 39:11 Ketanji Brown Jackson: I mean, I guess I don't understand why we wouldn't just equalize -- why the standards wouldn't be just equalized? You know, whether you move to amend or whether, as Justice Barrett suggests, you wait, you put it in the summary judgment motion, and we interpret it, courts interpret it as a motion to amend and apply the same standards, why isn't that the way this rule system should work? To the extent you have a different standard, it seems odd.
+[311] 39:35 Stephen J. Petrany: Well, it's because you're getting at a different question, Your Honor. So when you're amending the pleadings, you are opening up potentially a whole world of difference in how the litigation is going to go. You can add claims, retract claims, add parties --
+[312] 39:47 Ketanji Brown Jackson: I don't know if that helps you or hurts you.
+[313] 39:48 Stephen J. Petrany: -- or subtract parties.
+[314] 39:49 Ketanji Brown Jackson: I don't know if that helps or hurts you, because it's clear that a motion to amend is what is supposed to happen under the rules, precisely because it could lead to different litigation outcomes.
+[315] 40:00 Ketanji Brown Jackson: So to the extent we go your route, it seems to me that a person would be inherently prejudiced by your refusal to amend because those same litigation outcomes wouldn't necessarily happen.
+[316] 40:11 Stephen J. Petrany: No. Our whole point is we're not doing an amendment in any meaningful sense because we're just trying to raise an argument that wasn't pleaded, but we get none of the benefits of amendment, expanding, changing discovery, new discovery, compelling discovery --
+[317] 40:24 Ketanji Brown Jackson: But you --
+[318] 40:25 Stephen J. Petrany: -- changing the schedule, et cetera.
+[319] 40:25 Ketanji Brown Jackson: -- deprive the other side of the benefits of amendment by not doing it. If you had put this -- you know, counsel on the other side says we spent two years litigating this case. And you say it's such a slam-dunk affirmative defense. It -- if it was in the answer, perhaps we would never have wasted all of those resources.
+[320] 40:46 Ketanji Brown Jackson: There's a reason why Congress wants these things or why the -- the rule drafters want affirmative defenses to be pleaded up front. It matters to the litigation.
+[321] 40:56 Stephen J. Petrany: I --
+[322] 40:56 Ketanji Brown Jackson: And so I don't -- I don't understand how you can say, on the one hand, it does and, on the other hand, it doesn't.
+[323] 41:02 Stephen J. Petrany: Well, Your Honor, it definitely matters in most instances, which is why our rule is narrow and it's strict. The idea here is not, well, I can just raise something at summary judgment and be done with it. The idea is, if you raise an argument at summary judgment, it has to be a legal argument where the record is set and nothing could have been any different. There would have been nothing materially different in the litigation.
+[324] 41:22 Stephen J. Petrany: That is much tougher than the Rule 15 standard. Much tougher. And the reason for that is precisely because we're not trying to do the things that amending a pleading does. We're just trying to raise an argument. This is directly analogous to, say, raising this affirmative defense in a motion to dismiss. If the facts are in the complaint, you can do that --
+[325] 41:39 Ketanji Brown Jackson: But if it's not --
+[326] 41:39 Stephen J. Petrany: -- even though it hasn't been pleaded. You know -- and in this particular case, just to use this as an example, two examples from this case, first of all, this is not something that we could have won on a motion to dismiss. And if we put it in the answer, there would have been no difference from Younge's side. Younge has argued the entire time that she isn't personal staff. So Younge was not going to just, you know, say, throw my -- throw her hands up and say, you know, oops, I shouldn't have done this.
+[327] 42:02 Stephen J. Petrany: But here's another example: In this very case, there was a different affirmative defense or at least putative affirmative defense, the policymaking appointee exception, that the court said, look, you would need to amend to do this because the facts aren't in the record. We don't have a set record. We can't just apply the law to the facts and know that we got it right.
+[328] 42:19 Stephen J. Petrany: And so our test is catching only one thing. It's catching a situation where you made a mistake, the facts are completely undisputable, the other side is not prejudiced, nothing would have been any different, and so you just address the argument at summary judgment.
+[329] 42:33 Stephen J. Petrany: And, again, the inference from the other side is you can't address an argument on summary judgment if it isn't in the pleadings. But that is just not true. It's done at motions to dismiss. Rule 15(b)(2) even allows factual issues when tried by consent to then be part of the case, even if the pleadings are not amended. Rule 54 allows plaintiffs to get the entitlements -- or the -- the relief to which they're entitled even if they didn't ask for it.
+[330] 42:58 Stephen J. Petrany: The rules are to -- you know, to anthropomorphize them, are okay with the idea that in rare circumstances something's not going to be in the pleadings, but you can still raise it. In fact, this Court has used that very language in its decisions when it acknowledged that the failure to include something in your pleadings in Day, Milyard, and elsewhere, is more like forfeiture. It's not like waiver. It's not something like you can't come back from.
+[331] 43:24 Stephen J. Petrany: And it's not sufficient to say, well, you could come back from it if you amended your pleading, where the law, the door that Younge's would put up is, yeah, but you can't do that because you made a mistake. And a mistake is never going to be good cause for amending a pleading.
+[332] 43:40 Stephen J. Petrany: And I would put on -- and I'd add on top of that, if it were true that --
+[333] 43:44 Ketanji Brown Jackson: Can I just -- can I just --
+[334] 43:45 Stephen J. Petrany: Yes.
+[335] 43:47 Ketanji Brown Jackson: While Younge maybe making that argument, that's not before us here. That would be a remand question in this particular circumstance, correct?
+[336] 43:54 Stephen J. Petrany: Well, the Eleventh Circuit has said in other cases that, you know, just making a mistake is not good cause.
+[337] 43:59 Ketanji Brown Jackson: No, I understand. But in this case, the court's ruling in Younge's favor, for example, would not necessarily have to determine whether or not there was good cause in this situation, right?
+[338] 44:11 Stephen J. Petrany: If I understand Your Honor's question, no, I think that's exactly what the question would be, because there's absolutely no question that there was no prejudice here. I mean, we have no problem with applying the Foman factors.
+[339] 44:21 Elena Kagan: Well, I though that your argument --
+[340] 44:22 Stephen J. Petrany: We easily satisfy all of them.
+[341] 44:23 Elena Kagan: I thought that your argument was that Rule 16 doesn't apply at all. So if Rule 16 doesn't apply at all per your argument, we don't even address the good cause question. The good cause question isn't applicable.
+[342] 44:36 Stephen J. Petrany: I agree -- I agree, Your Honor.
+[343] 44:37 Elena Kagan: And --
+[344] 44:37 Stephen J. Petrany: That's if -- that's if we win. I -- I took the question to be --
+[345] 44:39 Elena Kagan: Well, presumably, you would do that at remand. You would have every opportunity to say Rule 16 doesn't apply here.
+[346] 44:46 Stephen J. Petrany: Well --
+[347] 44:46 Elena Kagan: And then you're back to only the undue delay, undue prejudice delta.
+[348] 44:52 Stephen J. Petrany: Well, if the Court --
+[349] 44:53 Elena Kagan: Which is a pretty, you know, slim delta. And mostly I think what I want to say to you, Mr. Petrany, is that you say, well, our standard is less strict, our standard is more strict. It seems to me it's less strict in some circumstances and it's more strict in other circumstances is really what your standard is.
+[350] 45:11 Elena Kagan: But the -- the point of the fact is that your standard is not the rule standard. The rules provide standards here. Why not just use them? Whether they're more strict or less strict, than the ones that would suit your client?
+[351] 45:25 Stephen J. Petrany: Well, respectfully, Justice Kagan, I think we are going with the rules' standard. I think that it would have been Younge's standard if we were in 1963. At that time, any defense or objection not included in an answer was waived.
+[352] 45:38 Stephen J. Petrany: But that is not the case today. Well, if that's not the case today, then there must be instances where you can raise defenses or legal arguments that aren't in your pleading. Otherwise, taking that out was completely meaningless. And all the other uses of that term and others would be --
+[353] 45:55 Sonia Sotomayor: There's no question that you have more ability to amend. That's not the issue. The issue is, is that ability still cabined in some way?
+[354] 46:05 Sonia Sotomayor: And both 15 -- Rule 15 and Rule 16 have some cabining factors in them.
+[355] 46:11 Stephen J. Petrany: Justice --
+[356] 46:11 Sonia Sotomayor: It's different than your no-prejudice standard.
+[357] 46:15 Stephen J. Petrany: No. Justice Sotomayor, as the rule used to be, you -- the -- you could still amend. That was still the same thing. But the rule said that if it wasn't in your answer, it's waived. It didn't say you couldn't amend. You could amend.
+[358] 46:28 Stephen J. Petrany: So taking that out, under Younge's view and under this interpretation, would be completely useless. It would have done and accomplished nothing.
+[359] 46:37 Stephen J. Petrany: And all the other places -- you know, Rule 12(h) specifically lays out --
+[360] 46:40 Sonia Sotomayor: I'm not sure I understand your argument.
+[361] 46:42 Amy Coney Barrett: Would your argument be the same if Rule 16 weren't in this case? I mean, I understand you're most worried about 16(b)(4)'s good cause standard. But let's imagine that we're just talking about Rule 15.
+[362] 46:50 Amy Coney Barrett: You have no -- you're telling us that you're totally confident you can satisfy the Foman standard. So you don't seem really to have an objection to saying that even if we construe your motion for summary judgment as a motion to amend under Rule 15, the Foman factors apply. You don't really care about that, right?
+[363] 47:07 Stephen J. Petrany: Well, I think under the -- yeah, I think in this particular circumstance, yeah, I don't -- I don't really see a problem with that in the abstract. I don't think it's the best way of understanding what's going on. But I -- yeah, I think our test is harder than -- I think it's inherently harder --
+[364] 47:20 Amy Coney Barrett: But Justice Kagan said that --
+[365] 47:21 Stephen J. Petrany: So I don't think it's a problem.
+[366] 47:22 Amy Coney Barrett: If that's the standard, you can amend, there's a way do it, Rule 15. There's a standard. So, really, your objection is, wow, 16(b)(4)'s good cause standard would essentially mean that nobody can ever amend because good cause is really hard.
+[367] 47:34 Stephen J. Petrany: Well, I think --
+[368] 47:36 Amy Coney Barrett: Is that what you're saying?
+[369] 47:36 Stephen J. Petrany: -- what we mean is no one could ever -- no one could ever amend or raise a knock-down legal argument on summary judgment if they made a mistake. You know, if -- if there was some other reason that they aren't raised it, then maybe. But --
+[370] 47:47 Amy Coney Barrett: This just seems like a different argument. This just seems like an argument like, hey, listen, if you interpret good cause in 16(b)(4) to be too strict, then it completely undercuts your Rule 15 right to amend.
+[371] 47:55 Stephen J. Petrany: Well, sure --
+[372] 47:56 Amy Coney Barrett: Which is not the same --
+[373] 47:58 Stephen J. Petrany: Well, sure, Your Honor.
+[374] 47:59 Amy Coney Barrett: -- question.
+[375] 47:59 Stephen J. Petrany: But that is not the principal argument that I'm making. My point is just if the Court wants to say, look, let's just, you know, kind of not worry about the label but just apply the Rule 15 standard, I think our standard is tougher than that. So I don't have a problem with that.
+[376] 48:16 Stephen J. Petrany: I think that, however, the key question after that is, well, if we have to apply 16(b)(4) too, why?
+[377] 48:23 Stephen J. Petrany: Again, 16(b)(4) is about amending a scheduling order. It's about amending a complaint. That has all kinds of costs associated with it that merely raising a legal argument at summary judgment does not.
+[378] 48:34 Stephen J. Petrany: That is directly analogous to raising, again, an affirmative defense at a motion to dismiss where you just -- you have the facts there. So just apply the law.
+[379] 48:43 Amy Coney Barrett: Justice Alito asked you, would -- would an amendment here even violate the scheduling order?
+[380] 48:46 Amy Coney Barrett: Justice Alito read you some things from the record and the local rules that suggested that you didn't even violate any sort of timeline.
+[381] 48:53 Stephen J. Petrany: Your Honor, my understanding is that there were -- that there was a 30-day -- after the scheduling order, a 30-day deadline for amending. If there's something hidden in the record that says otherwise, I haven't found it.
+[382] 49:06 Stephen J. Petrany: But, I think, again, that just gets to the point that, at once upon a time, there was a rule that if it's not in your answer, it's waived. But that's no longer there.
+[383] 49:17 Stephen J. Petrany: And so if the answer -- so if the -- if the rule is nevertheless, you have to amend, that is a rule that if it's not in your answer, it's waived. Because it's saying the only way you can do this is by amending your answer.
+[384] 49:30 Stephen J. Petrany: And I think there are too many examples of where this Court and the rules make clear you actually don't have to do that, to hold that here. And I think if you're open to the idea that, look, we can raise an argument on summary judgment because the facts are totally set, and that's what the Eleventh Circuit said, there is no prejudice here, not only are these undisputed, but they are undisputable. No one could find anything that would change them.
+[385] 49:52 Stephen J. Petrany: If you're open to the idea that you can raise an argument outside of the pleadings, this would be exactly the situation to do it, where there's no prejudice, nothing would have been different, and the only thing that amending a complaint would do -- or, sorry, amending an answer would do is add seven words to the answer to say you fail under 2000e(f), it just -- it doesn't accomplish anything meaningful.
+[386] 50:18 Samuel A. Alito, Jr.: Can I go to -- go back to the actual question on which review was granted? And it has -- it has two parts.
+[387] 50:26 Samuel A. Alito, Jr.: The first part, I take it, refers to Rule 15. And what I understand the Rule 15 question that was presented to us to be is this: Is it -- can an affirmative defense provide the basis for summary judgment where there has not, in fact, been a formal amendment of the complaint?
+[388] 50:52 Samuel A. Alito, Jr.: And I under -- Mr. Schnapper, it would be -- would be helpful if Mr. Schnapper clarified this on rebuttal, but I understood him to say that isn't necessary, there doesn't necessarily have to be a formal amendment to the complaint. It is permissible for the district court to say: We don't need to go through all this rigmarole, I am just going to consider your summary judgment motion as a -- a motion to amend the complaint.
+[389] 51:20 Samuel A. Alito, Jr.: Is -- is that an incorrect understanding of the question that we granted review on?
+[390] 51:27 Stephen J. Petrany: No. I think that's correct. And I -- I do think that, at least as far as I can tell, Younge's position has changed a little bit between the briefing and oral argument, because I took Younge's position to be: No, you really do have to amend, even if it's just a rule for rule's sake and formalism for formalism's sake, you really do have to amend.
+[391] 51:45 Stephen J. Petrany: And our point is there are at least circumstances where the federal rules themselves acknowledge there are times when you don't have to amend for amendment's sake. And we think this is the example par excellence of that circumstance.
+[392] 52:02 Stephen J. Petrany: I -- I will also go on to the structural reason for this. There are pleadings which cover factual issues, and there's motions which cover legal arguments.
+[393] 52:14 Stephen J. Petrany: This Court has summarily reversed lower courts for requiring law in complaints.
+[394] 52:21 Stephen J. Petrany: I think that you would be really undermining that understanding of the way the Federal Rules of Civil Procedure work if you say: You can't raise this legal argument on summary judgment with a completely set record, where everything is undisputable, just because it wasn't in the pleading, just because this legal argument was not in the pleading.
+[395] 52:39 Stephen J. Petrany: An affirmative defense is a combination of two things: facts and law.
+[396] 52:43 Stephen J. Petrany: In this case, the Eleventh Circuit held there's nothing to dispute about the facts here, and there never could be. So that means we have the record. So what is the point of amending a pleading to say, oh, we have the record?
+[397] 52:57 Stephen J. Petrany: The only thing left is, is there a legal argument? And legal arguments come through motions. They don't come, generally speaking, through pleadings.
+[398] 53:05 Stephen J. Petrany: So we think it makes perfect sense of not only the text but of the structure of the rules that in the rare circumstances where someone has made a mistake, but it just turns out that the factual record is replete, it's done, and there's nothing else you could do to it, at that point you just treat the factual record as the factual record, and there's no reason to demand the utterly formalistic step of go amend your pleading so that it now reflects the factual record.
+[399] 53:31 Stephen J. Petrany: The rules themselves reject that in 15(b)(2). And so I don't see why the Court would essentially invent a requirement of that kind where the rules, again, don't require it. They used to, but they no longer do.
+[400] 53:44 John G. Roberts, Jr.: Thank you, counsel.
+[401] 53:45 John G. Roberts, Jr.: Anything further?
+[402] 53:48 John G. Roberts, Jr.: Anything further?
+[403] 53:48 John G. Roberts, Jr.: Okay. Thank you, counsel.
+[404] 53:52 John G. Roberts, Jr.: Rebuttal, Mr. Schnapper.
+[405] 53:55 Eric Schnapper: Mr. Chief Justice: Two quick points.
+[406] 53:57 Eric Schnapper: First of all, again, to make clear our position, it is that in order to raise an unpled affirmative defense, the -- the answer has to be amended. It doesn't have to be a formal motion. The court could treat a summary judgment motion as a motion to amend.
+[407] 54:18 Eric Schnapper: And I think -- I would have thought if that wasn't clear from our opening brief, I'm making it clear now. The opening brief criticized the Eleventh Circuit because its standard was different than 15(a)(2) and 16(a)(4), and that's our concern.
+[408] 54:34 Eric Schnapper: One other point. My friend noted that there are some provisions in the rules which permit a defendant to invoke an affirmative defense without pleading it and suggested that shows that you don't need to plead it at all. Those exceptions actually show the opposite, because they are validly exceptions.
+[409] 54:54 Eric Schnapper: So the first one is: An unpled affirmative defense can be raised in a 12(b)(6) motion if the affirmative defense is apparent on the face of the complaint.
+[410] 55:03 Eric Schnapper: That's because, in the second sentence of Rule 12(b), after saying, every affirmative defense must be pled, it says: But you can raise a defense by motion.
+[411] 55:14 Eric Schnapper: So the "but" makes it clear that it is an exception to the rule.
+[412] 55:18 Eric Schnapper: With regard to Section 15(b)(2), which my friend referred to, that expressly says that an issue tried by consent, and that would include a defense, is before the court and gets resolved even though not pled.
+[413] 55:34 Eric Schnapper: Again, the whole point of saying that is to make clear that ordinarily it would have to be pled.
+[414] 55:40 Eric Schnapper: Thank you very much.
+[415] 55:41 John G. Roberts, Jr.: Thank you, counsel. The case is submitted.

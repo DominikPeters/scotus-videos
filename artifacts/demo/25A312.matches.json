@@ -1,0 +1,130 @@
+{
+  "matches": [
+    {
+      "mention_id": "m001",
+      "candidate_id": "8a3cf3aa686e:8",
+      "quote": "By statute, “each member shall hold office for a term of fourteen years,” “unless sooner removed for cause by the President.” 12 U.S.C. 242. Congress initially adopted the for-cause provision in 1913,",
+      "confidence": 0.99,
+      "reason": "The application quotes 12 U.S.C. § 242 verbatim, including the “unless sooner removed for cause” clause discussed in the transcript."
+    },
+    {
+      "mention_id": "m002",
+      "candidate_id": "b96db4089916:30",
+      "quote": "At a minimum, the conduct at issue exhibits the sort of gross negligence in financial transactions that calls into question your competence and trustworthiness as a financial regulator.",
+      "confidence": 0.96,
+      "reason": "The district-court opinion reproduces the President’s August 25 removal-letter sentence that labels the conduct gross negligence and questions Cook’s competence as a financial regulator; the title identifies this as quoted letter text."
+    },
+    {
+      "mention_id": "m003",
+      "candidate_id": "",
+      "quote": "",
+      "confidence": 0.0,
+      "reason": "The transcript describes Cook’s counsel letter, but the indexed filings do not reproduce the quoted Michigan and Atlanta explanation as a source passage."
+    },
+    {
+      "mention_id": "m004",
+      "candidate_id": "",
+      "quote": "",
+      "confidence": 0.0,
+      "reason": "The transcript itself is unsure whether the mortgage paperwork is in the district-court record; the filings discuss or screenshot the applications but do not identify the original forms with confidence."
+    },
+    {
+      "mention_id": "m005",
+      "candidate_id": "",
+      "quote": "",
+      "confidence": 0.0,
+      "reason": "Several economist or former-official briefs discuss recession risk or past recessions, but none uniquely predicts that granting this stay would trigger one."
+    },
+    {
+      "mention_id": "m006",
+      "candidate_id": "4411b77fe2a9:11",
+      "quote": "Worse, the Applicant’s standard creates incentives for a President intent on asserting control over the Board to use the vast resources of the Executive Branch to conduct targeted searches for potential improprieties committed prior to service.",
+      "confidence": 0.96,
+      "reason": "The former Governors’ brief warns that the applicant’s theory creates incentives for targeted searches for pre-service improprieties, matching the passage discussed in the transcript."
+    },
+    {
+      "mention_id": "m007",
+      "candidate_id": "5e99009bee7b:18",
+      "quote": "The law-review article on which Manners heavily relies (Br. 7, 9, 14) describes the necessity of “notice and a hearing” for a for-cause removal as “unsettled” and “disputed.” Alonzo H. Tuttle, Removal of Public Offic- ers from Office for Cause, 3 Mich. L. Rev. 290, 293 (1905). It continues: “Many cases can be found holding that removal ‘for cause’ requires charges, notice and a hearing, and many can likewise be found holding that it does not.”",
+      "confidence": 0.94,
+      "reason": "This supplemental-brief passage names Manners and Tuttle and states the article found cases on both sides of the hearing question."
+    },
+    {
+      "mention_id": "m008",
+      "candidate_id": "5e99009bee7b:17",
+      "quote": "Amicus Pro- fessor Manners cites (Br. 6-12) cases imposing such a requirement, but many courts disagreed, instead rea- soning that “the omission from [a for-cause removal provision] of any requirement of notice or hearing” in- dicates that “neither notice [n]or hearing is a necessary condition precedent to a valid removal.” State ex rel. Ulrick v. Sanchez, 255 P. 1077, 1086-1087 (N.M. 1926).",
+      "confidence": 0.99,
+      "reason": "This is printed page 9 and contains the applicant’s footnote 4 with its Ulrick citation, matching the spoken page and footnote reference."
+    },
+    {
+      "mention_id": "m009",
+      "candidate_id": "e3b68ad97359:27",
+      "quote": "Courts explained that “[t]he phrase ‘for cause’ does not mean the arbitrary will of the appointing power, for that might be the outgrowth of mere whim, caprice, prejudice, or passion, which would, in reality, be no cause at all.” Williams, 53 A. at 925; ibid. (“[T]he phrase ‘for cause’ must mean some cause affecting or concerning the ability or fitness of the incumbent to perform the duty imposed upon him. * * * Hence [‘for cause’] must be inefficiency, incompetency, or other kindred disqualification.”",
+      "confidence": 0.97,
+      "reason": "The Jane Manners amicus reproduces the Hagerstown court’s ability-or-fitness definition quoted by Justice Jackson."
+    },
+    {
+      "mention_id": "m010",
+      "candidate_id": "",
+      "quote": "",
+      "confidence": 0.0,
+      "reason": "The downloaded briefs do not reproduce Clement’s precise Section 244 bank-director eligibility example; a statutory citation alone would not verify this passage."
+    },
+    {
+      "mention_id": "m011",
+      "candidate_id": "",
+      "quote": "",
+      "confidence": 0.0,
+      "reason": "The exact Ray Gooden, Iowa v. Walsh, and Gill v. Watertown examples are spoken in rebuttal, but I did not find those cited passages in an indexed filing."
+    },
+    {
+      "mention_id": "m012",
+      "candidate_id": "",
+      "quote": "",
+      "confidence": 0.0,
+      "reason": "Marbury itself is not among the docket PDFs, and the cataloged filings do not reproduce the specific pages 165–166 passage with enough context to identify it as the source artifact."
+    },
+    {
+      "mention_id": "m013",
+      "candidate_id": "8a3cf3aa686e:35",
+      "quote": "“[T]o sustain a bill in equity to restrain * * * the removal of public officers, is to invade the domain of the courts of common law, or of the executive and administrative department.” In re Sawyer, 124 U.S. 200, 210 (1888).",
+      "confidence": 0.97,
+      "reason": "The application quotes Sawyer’s rule against using equity to restrain removal of public officers, the passage Sauer invokes."
+    },
+    {
+      "mention_id": "m014",
+      "candidate_id": "0943083cfe7e:32",
+      "quote": "To the contrary, this Court held just three years after Sawyer that temporary relief “could be used to protect and enforce recognition of a de facto officer without deciding who was the de jure officer.” Bray, supra, at 18 (discussing Delgado v. Chavez, 140 U.S. 586 (1891)); see Borchers et al. Br. 12-14 (similar).",
+      "confidence": 0.95,
+      "reason": "The respondents’ supplemental brief states the de facto-officer/Delgado theory and cites the Borchers amicus, matching Sauer’s description of amici’s argument."
+    },
+    {
+      "mention_id": "m015",
+      "candidate_id": "",
+      "quote": "",
+      "confidence": 0.0,
+      "reason": "The indexed filings do not reproduce Clement’s specific Taft/Frankfurter hearing anecdote; a match would be a thematic substitute."
+    },
+    {
+      "mention_id": "m016",
+      "candidate_id": "b96db4089916:29",
+      "quote": "Two days after Director Pulte posted the referral letter, President Trump said in an interview that “what [Cook] did was bad” and that he would “fire her if she doesn’t resign.” ECF 1 ¶ 45. Then, on August 25, 2025, President Trump posted screenshots of a two-page letter to his Truth Social account.",
+      "confidence": 0.93,
+      "reason": "The district-court record appendix distinguishes the earlier referral-letter post and resignation demand from the August 25 two-page removal letter, matching the exchange."
+    },
+    {
+      "mention_id": "m017",
+      "candidate_id": "5e99009bee7b:16",
+      "quote": "the National Labor Relations Act, 29 U.S.C. 153(a), which was enacted just a month before the Banking Act. There are more than a dozen addi- tional examples, applicable to both Senate-confirmed officers 2 and other officers. 3 The Court’s usual “reluc- tance” to read atextual requirements into statutes “is even greater” where, as here, Congress shows that “it knows how to make such a requirement manifest.” Jama v. ICE, 543 U.S. 335, 341 (2005).",
+      "confidence": 0.97,
+      "reason": "The applicant’s supplemental brief compares Section 242 with express notice-and-hearing statutes, including the NLRA enacted one month earlier."
+    },
+    {
+      "mention_id": "m018",
+      "candidate_id": "87ce8c68b5f6:22",
+      "quote": "And they also show that as part of her mortgage application, Gov- ernor Cook accurately described the Georgia property in question as a “vacation home,” “show[ing] that she had told the lender that the Atlanta property wouldn’t be her primary residence.” 3",
+      "confidence": 0.92,
+      "reason": "The response brief explicitly describes the mortgage-application attachment as a vacation home and cites supporting reporting; the title identifies this as the brief’s reproduced description."
+    }
+  ]
+}

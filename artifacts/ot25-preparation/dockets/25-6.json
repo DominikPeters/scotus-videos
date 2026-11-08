@@ -1,0 +1,494 @@
+{
+  "CaseNumber": "25-6 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "07/13/2026",
+  "sJsonTerm": "2025",
+  "sJsonCaseNumber": "00006",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Thomas Keathley, Petitioner",
+  "RespondentTitle": "Buddy Ayers Construction, Incorporated",
+  "DocketedDate": "July 1, 2025",
+  "LowerCourt": "United States Court of Appeals for the Fifth Circuit",
+  "LowerCourtCaseNumbers": "(24-60025)",
+  "LowerCourtDecision": "March 3, 2025",
+  "LowerCourtRehearingDenied": "March 31, 2025",
+  "QPLink": "../qp/25-00006qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Jun 27 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due July 31, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "2025-06-27 - Keathley - Petition For Certiorari with appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/364035/20250627141435446_2025-06-27%20-%20Keathley%20-%20Petition%20For%20Certiorari%20with%20appendix.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2025-06-27 Keathley - Certificate of Compliance for Cert. Petition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/364035/20250627141456298_2025-06-27%20Keathley%20-%20Certificate%20of%20Compliance%20for%20Cert.%20Petition.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2025-06-27 Keathley - Certificate of Service for Cert. Petition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/364035/20250627141510928_2025-06-27%20Keathley%20-%20Certificate%20of%20Service%20for%20Cert.%20Petition.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 11 2025",
+      "Text": "Motion to extend the time to file a response from July 31, 2025 to September 2, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Keathley v Buddy Ayers Construction Motion for Extension to File Respondent Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/365047/20250711175106329_Keathley%20v%20Buddy%20Ayers%20Construction%20Motion%20for%20Extension%20to%20File%20Respondent%20Brief.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 14 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including September 2, 2025."
+    },
+    {
+      "Date": "Sep 02 2025",
+      "Text": "Brief of respondent Buddy Ayers Constr., Inc., in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-6 Brief in Opposition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/373337/20250902130658968_25-6%20Brief%20in%20Opposition.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-6 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/373337/20250902130833731_25-6%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-6 Word Count Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/373337/20250902130820952_25-6%20Word%20Count%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 16 2025",
+      "Text": "Reply of petitioner Thomas Keathley filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025-09-16 Supreme Court No. 25-6 - Keathley Reply Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/374775/20250916120524518_2025-09-16%20Supreme%20Court%20No.%2025-6%20-%20Keathley%20Reply%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2025-09-16 Supreme Court No. 25-6 - Keathley Reply Brief Cert of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/374775/20250916120627625_2025-09-16%20Supreme%20Court%20No.%2025-6%20-%20Keathley%20Reply%20Brief%20Cert%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2025-09-16 Supreme Court No. 25-6 - Keathley Reply Brief Cert of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/374775/20250916120601127_2025-09-16%20Supreme%20Court%20No.%2025-6%20-%20Keathley%20Reply%20Brief%20Cert%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 17 2025",
+      "Text": "DISTRIBUTED for Conference of 10/10/2025."
+    },
+    {
+      "Date": "Oct 14 2025",
+      "Text": "DISTRIBUTED for Conference of 10/17/2025."
+    },
+    {
+      "Date": "Oct 20 2025",
+      "Text": "Petition GRANTED."
+    },
+    {
+      "Date": "Oct 23 2025",
+      "Text": "Motion for an extension of time filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025-10-23 - SCT No. 25-6 Keathley Extension Request.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/380417/20251023125051281_2025-10-23%20-%20SCT%20No.%2025-6%20Keathley%20Extension%20Request.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 31 2025",
+      "Text": "Motion to extend the time to file the briefs on the merits granted.  The time to file the joint appendix and petitioner's brief on the merits is extended to and including December 12, 2025.  The time to file respondent's brief on the merits is extended to and including January 20, 2026."
+    },
+    {
+      "Date": "Dec 08 2025",
+      "Text": "Amicus brief of The Honorable Melanie Cyganowski (Ret.), et al., not accepted for filing. (To be corrected - December 10, 2025)"
+    },
+    {
+      "Date": "Dec 08 2025",
+      "Text": "Brief amici curiae of The Honorable Melanie Cyganowski (Ret.), et al. filed. (Corrected)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-6 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/387008/20251210160424963_25-6%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-6 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/387008/20251210160435675_25-6%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-6 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/387008/20251210160557453_25-6%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 12 2025",
+      "Text": "Brief of petitioner Thomas Keathley filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "SCT No. 25-6 Keathley Merits Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/387284/20251212162114343_SCT%20No.%2025-6%20Keathley%20Merits%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "SCT No. 25-6 Keathley Merits Brief Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/387284/20251212162122971_SCT%20No.%2025-6%20Keathley%20Merits%20Brief%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "SCT No. 25-6 Keathley Merits Brief Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/387284/20251212162134760_SCT%20No.%2025-6%20Keathley%20Merits%20Brief%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 12 2025",
+      "Text": "Joint appendix filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "SCT No. 25-6 Keathley Joint Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/387285/20251212162430753_SCT%20No.%2025-6%20Keathley%20Joint%20Appendix.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "SCT No. 25-6 Keathley JA Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/387285/20251212162438618_SCT%20No.%2025-6%20Keathley%20JA%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 19 2025",
+      "Text": "Brief amicus curiae of United States  supporting vacatur filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Keathley_brief_final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/389995/20251219135643827_Keathley_brief_final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate - 25-6 - Keathley v. Buddy Ayers Construction Inc.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/389995/20251219135732012_Certificate%20-%2025-6%20-%20Keathley%20v.%20Buddy%20Ayers%20Construction%20Inc.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 19 2025",
+      "Text": "Brief amici curiae of National Association of Bankruptcy Trustees, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Brief of Amici Curiae-PDFA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/389948/20251219110704967_Brief%20of%20Amici%20Curiae-PDFA.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "NABT COS 25-6.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/389948/20251219110732601_NABT%20COS%2025-6.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Amicus word count 25-6.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/389948/20251219110720583_Amicus%20word%20count%2025-6.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 19 2025",
+      "Text": "Brief amici curiae of National Consumer Bankruptcy Rights Center, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "251217a AC Brief for efiling.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/389941/20251219103400348_251217a%20AC%20Brief%20for%20efiling.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "251217 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/389941/20251219103437554_251217%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "251217 Certificate of Word Count Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/389941/20251219103449800_251217%20Certificate%20of%20Word%20Count%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 19 2025",
+      "Text": "Brief amicus curiae of American Association for Justice filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "AAJ Amicus Brief_Keathley v. BAC_Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/389975/20251219123234038_AAJ%20Amicus%20Brief_Keathley%20v.%20BAC_Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "AAJ Certificate of Service_Keathley v. BAC_Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/389975/20251219123252663_AAJ%20Certificate%20of%20Service_Keathley%20v.%20BAC_Final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "AAJ Certificate of Compliance_Keathley v. BAC_Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/389975/20251219123244325_AAJ%20Certificate%20of%20Compliance_Keathley%20v.%20BAC_Final.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 02 2026",
+      "Text": "Motion for a further extension of time to file respondent's brief on the merits filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Keathley v. BA Extension Letter.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/390728/20260102165156862_Keathley%20v.%20BA%20Extension%20Letter.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Motion for a further extension of time within which to file respondent's brief on the merits is granted and the time is extended to and including January 27, 2026."
+    },
+    {
+      "Date": "Jan 27 2026",
+      "Text": "Brief of respondent Buddy Ayers Constr., Inc. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-6 - Keathley v. Buddy Ayers - Brief for Respondent.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/392834/20260127173104149_25-6%20-%20Keathley%20v.%20Buddy%20Ayers%20-%20Brief%20for%20Respondent.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-6 - Keathley v. Buddy Ayers - Brief for Respondent Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/392834/20260127173119947_25-6%20-%20Keathley%20v.%20Buddy%20Ayers%20-%20Brief%20for%20Respondent%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-6 - Keathley v. Buddy Ayers - Brief for Respondent Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/392834/20260127173112313_25-6%20-%20Keathley%20v.%20Buddy%20Ayers%20-%20Brief%20for%20Respondent%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 29 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Keathley Divided Argument Motion.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/395018/20260129154426349_Keathley%20Divided%20Argument%20Motion.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. 25-6.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/395018/20260129154701937_certificate.%2025-6.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 30 2026",
+      "Text": "SET FOR ARGUMENT on Tuesday, March 24, 2026."
+    },
+    {
+      "Date": "Feb 04 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Fifth Circuit."
+    },
+    {
+      "Date": "Feb 11 2026",
+      "Text": "Record received from the United States Court of Appeals for the Fifth Circuit. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument GRANTED."
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Record received from the United States District Court for the Northern District of Mississippi. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Feb 26 2026",
+      "Text": "Reply of petitioner Thomas Keathley filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026-02-26 SCT No. 25-6 - Keathley Reply Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/399379/20260226135421488_2026-02-26%20SCT%20No.%2025-6%20-%20Keathley%20Reply%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2026-02-26 SCT No. 25-6 Keathley Merits Reply Brief Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/399379/20260226135451917_2026-02-26%20SCT%20No.%2025-6%20Keathley%20Merits%20Reply%20Brief%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2026-02-26 SCT No. 25-6 Keathley Merits Reply Brief Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/399379/20260226135441760_2026-02-26%20SCT%20No.%2025-6%20Keathley%20Merits%20Reply%20Brief%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 24 2026",
+      "Text": "Argued. For petitioner: Gregory G. Garre, Washington, D. C.; and Frederick Liu, Assistant to the Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.)  For respondent: William M. Jay, Washington, D. C."
+    },
+    {
+      "Date": "Jun 11 2026",
+      "Text": "Judgment VACATED and case REMANDED.  Jackson, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/25-6_d1o2.pdf'>opinion</a> for a unanimous Court.  Thomas, J., filed a concurring opinion, in which Gorsuch, J., joined.  Sotomayor, J., filed a concurring opinion."
+    },
+    {
+      "Date": "Jul 13 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 25-6 Vac Rem COSTS 5th. Cir. 7.13.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-6/416326/20260713115551099_EFILING%2025-6%20Vac%20Rem%20COSTS%205th.%20Cir.%207.13.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioner",
+  "Petitioner": [
+    {
+      "Attorney": "Gregory George Garre",
+      "IsCounselofRecord": true,
+      "Title": "Latham & Watkins LLP",
+      "PrisonerId": null,
+      "Phone": "202-637-2207",
+      "Address": "555 Eleventh Street, NW\r\nSuite 1000",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "GREGORY.GARRE@LW.COM",
+      "PartyName": "Thomas Keathley"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondent",
+  "Respondent": [
+    {
+      "Attorney": "William McGinley Jay",
+      "IsCounselofRecord": true,
+      "Title": "Goodwin Procter, LLP",
+      "PrisonerId": null,
+      "Phone": "2023464000",
+      "Address": "1900 N Street, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "WJAY@GOODWINLAW.COM",
+      "PartyName": "Buddy Ayers Constr., Inc."
+    },
+    {
+      "Attorney": "David D. O'Donnell",
+      "IsCounselofRecord": false,
+      "Title": "Clayton O'Donnell, PLLC",
+      "PrisonerId": null,
+      "Phone": "6622340900",
+      "Address": "1403 Van Buren Avenue\r\nSuite 103",
+      "City": "Oxford",
+      "State": "MS",
+      "Zip": "38655",
+      "Email": "dodonnell@claytonodonnell.com",
+      "PartyName": "Buddy Ayers Constr., Inc."
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "James Justin Haller",
+      "IsCounselofRecord": true,
+      "Title": "National Consumer Bankruptcy Rights Center",
+      "PrisonerId": null,
+      "Phone": "618-420-1568",
+      "Address": "586 N. First Street\r\n#202",
+      "City": "San Jose",
+      "State": "CA",
+      "Zip": "95112",
+      "Email": "jhaller@ncbrc.org",
+      "PartyName": "National Consumer Bankruptcy Rights Center, National Consumer Law Center, and National Association of Consumer Bankruptcy Attorneys"
+    },
+    {
+      "Attorney": "David R. Kuney",
+      "IsCounselofRecord": true,
+      "Title": "David Kuney Law",
+      "PrisonerId": null,
+      "Phone": "(301) 299-4336",
+      "Address": "9200 Cambridge Manor Court",
+      "City": "Potomac",
+      "State": "MD",
+      "Zip": "20854",
+      "Email": "DAVIDKUNEY@DKUNEY.COM",
+      "PartyName": "The Honorable Melanie Cyganowski (Ret.), Joan Feeney (Ret.), Judith Fitzgerald (Ret.), Bruce Markell (Ret.), Eugene Wedoff (Ret.), and Professor Robert M. Lawless"
+    },
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": false,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "United States"
+    },
+    {
+      "Attorney": "Catherine Steege",
+      "IsCounselofRecord": true,
+      "Title": "Jenner and Block LLP",
+      "PrisonerId": null,
+      "Phone": "312-222-9350",
+      "Address": "353 N. Clark Street",
+      "City": "Chicago",
+      "State": "IL",
+      "Zip": "60654-3456",
+      "Email": "CSteege@jenner.com",
+      "PartyName": "National Association of Bankruptcy Trustees and American College of Bankruptcy"
+    },
+    {
+      "Attorney": "Jeffrey Robert White",
+      "IsCounselofRecord": true,
+      "Title": "American Association for Justice",
+      "PrisonerId": null,
+      "Phone": "2026175620",
+      "Address": "777 6th Street NW\r\nSuite 300",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001-3723",
+      "Email": "jeffrey.white@justice.org",
+      "PartyName": "American Association for Justice"
+    }
+  ]
+}

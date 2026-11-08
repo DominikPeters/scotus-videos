@@ -1,0 +1,3672 @@
+{
+  "CaseNumber": "24-43 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "08/03/2026",
+  "sJsonTerm": "2024",
+  "sJsonCaseNumber": "00043",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "West Virginia, et al., Petitioners",
+  "RespondentTitle": "B. P. J., By Her Next Friend and Mother, Heather Jackson",
+  "DocketedDate": "July 16, 2024",
+  "LowerCourt": "United States Court of Appeals for the Fourth Circuit",
+  "LowerCourtCaseNumbers": "(23-1078, 23-1130)",
+  "LowerCourtDecision": "April 16, 2024",
+  "QPLink": "../qp/24-00043qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Jul 11 2024",
+      "Text": "Petition for a writ of certiorari filed. (Response due August 15, 2024)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "7.11 BPJ Petition final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/316794/20240711112756059_7.11%20BPJ%20Petition%20final.pdf"
+        },
+        {
+          "Description": "Appendix",
+          "File": "7.11 BPJ Cert Appendices-FOR E-SERVICE.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/316794/20240711112805531_7.11%20BPJ%20Cert%20Appendices-FOR%20E-SERVICE.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "7.11 BPJ Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/316794/20240711112818466_7.11%20BPJ%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "7.11 BPJ Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/316794/20240711115724771_7.11%20BPJ%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 30 2024",
+      "Text": "Motion to extend the time to file a response from August 15, 2024 to October 14, 2024, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "60 day extension request - 7-30 - Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/321190/20240730152429518_60%20day%20extension%20request%20-%207-30%20-%20Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-43 COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/321190/20240730152438992_No.%2024-43%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 31 2024",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including October 15, 2024."
+    },
+    {
+      "Date": "Aug 05 2024",
+      "Text": "Waiver of right of respondent West Virginia Secondary School Activities Commission to respond filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Waiver WVSSAC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/321603/20240805115753271_Waiver%20WVSSAC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 10 2024",
+      "Text": "Brief amici curiae of 35 Athletic Officials and Coaches of Female Athletes filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Hecox BPJ - amicus final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322289/20240812164505326_Hecox%20BPJ%20-%20amicus%20final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43 HLLI CoS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322289/20240812164536105_24-38%2024-43%20HLLI%20CoS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 24-43 HLLI CoC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322289/20240812164515266_24-38%2024-43%20HLLI%20CoC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 12 2024",
+      "Text": "Brief amici curiae of Dr. Brent Ellis, President Spring Arbor University and the Wagner Center filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "130243_Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322187/20240812095158159_130243_Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "130243 service affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322187/20240812095218337_130243%20service%20affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "130243 word count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322187/20240812095209912_130243%20word%20count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 13 2024",
+      "Text": "Brief amicus curiae of NC Values Institute filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "130258_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322325/20240813120229606_130258_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Compliance_Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322325/20240813120234283_Certificate%20of%20Compliance_Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Affidavit_Amici Curiae_FedEx.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322325/20240813120240794_Affidavit_Amici%20Curiae_FedEx.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 14 2024",
+      "Text": "Amicus brief of Business Leaders not accepted for filing. (August 14, 2024) (corrected brief submitted)"
+    },
+    {
+      "Date": "Aug 14 2024",
+      "Text": "Brief amici curiae of Business Leaders filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-038 24-43 Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322495/20240814165653920_24-038%2024-43%20Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "USSC word count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322495/20240814165659673_USSC%20word%20count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Affidavit of Service 24-038 and 24-43.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322495/20240814165708743_Affidavit%20of%20Service%2024-038%20and%2024-43.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 14 2024",
+      "Text": "Brief amicus curiae of Empowered Community Coalition, UA filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "WV v BPJ Amicus Brief - FINAL 2 PDF-A.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322419/20240814115517878_WV%20v%20BPJ%20Amicus%20Brief%20-%20FINAL%202%20PDF-A.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "WV v BPJ Certificate of Word Count 2 PDF-A.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322419/20240814115528465_WV%20v%20BPJ%20Certificate%20of%20Word%20Count%202%20PDF-A.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service-2 PDF-A.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322419/20240814115606185_Proof%20of%20Service-2%20PDF-A.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 14 2024",
+      "Text": "Brief amici curiae of Arkansas, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43acTheStatesOfArkansasAlabamaAnd24OtherStates.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322482/20240814161226124_24-43acTheStatesOfArkansasAlabamaAnd24OtherStates.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 AR AG CoS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322482/20240814161232982_24-43%20AR%20AG%20CoS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 AR AG CoC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322482/20240814161242728_24-43%20AR%20AG%20CoC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 14 2024",
+      "Text": "Brief amici curiae of Five Female Olympic Rowers filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "130284 brief - BPJ.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322448/20240814135916749_130284%20brief%20-%20BPJ.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "130284 word count - BPJ.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322448/20240814135933336_130284%20word%20count%20-%20BPJ.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "130284 service affidavit - BPJ.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322448/20240814135949344_130284%20service%20affidavit%20-%20BPJ.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 14 2024",
+      "Text": "Brief amici curiae of 102 Female Athletes, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322500/20240814170656455_24-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 Word Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322500/20240814170707452_24-43%20Word%20Cert.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322500/20240814170717631_24-43%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 14 2024",
+      "Text": "Brief amicus curiae of International Consortium On Female Sport filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38-24-43acInternationalConsortiumOnFemaleSport.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322432/20240814124854415_24-38-24-43acInternationalConsortiumOnFemaleSport.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 24-43 Kroger Gardis Consortium CoC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322432/20240814124901264_24-38%2024-43%20Kroger%20Gardis%20Consortium%20CoC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43 Kroger Gardis Consortium CoS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322432/20240814124909356_24-38%2024-43%20Kroger%20Gardis%20Consortium%20CoS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 14 2024",
+      "Text": "Brief amicus curiae of Independent Council On Women's Sport filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38-24-43acIndependentCouncilOnWomensSport.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322437/20240814125352206_24-38-24-43acIndependentCouncilOnWomensSport.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 24-43 Kroger Gardis Independent Council CoC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322437/20240814125400973_24-38%2024-43%20Kroger%20Gardis%20Independent%20Council%20CoC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43 Kroger Gardis Independent Council CoS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322437/20240814125409425_24-38%2024-43%20Kroger%20Gardis%20Independent%20Council%20CoS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 14 2024",
+      "Text": "Brief amicus curiae of Do No Harm (Aug. 22, 2024) filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 Br of Do No Harm as Amicus Curiae.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322465/20240829134549337_24-43%20Br%20of%20Do%20No%20Harm%20as%20Amicus%20Curiae.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "REVISED Affidavit_Amici Curiae_FedEx.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322465/20240814150259416_REVISED%20Affidavit_Amici%20Curiae_FedEx.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322465/20240829134319934_24-43%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 15 2024",
+      "Text": "Brief amici curiae of Billy Burleigh, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43acBillyBurleigh.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322532/20240815100849854_24-43acBillyBurleigh.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 Campbell Miller Payne CoC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322532/20240815100909691_24-43%20Campbell%20Miller%20Payne%20CoC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Campbell Miller Payne CoS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322532/20240815100923459_24-43%20Campbell%20Miller%20Payne%20CoS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 15 2024",
+      "Text": "Brief amici curiae of Advancing American Freedom, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2024 08 15 24-43 West Virginia v. BPJ Amici Brief AAF et al womens sports.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322544/20240815120618468_2024%2008%2015%2024-43%20West%20Virginia%20v.%20BPJ%20Amici%20Brief%20AAF%20et%20al%20womens%20sports.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2024 08 15 24-43 West Virginia v. BPJ COMPLIANCE AAF et al womens sports.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322544/20240815120642426_2024%2008%2015%2024-43%20West%20Virginia%20v.%20BPJ%20COMPLIANCE%20AAF%20et%20al%20womens%20sports.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2024 08 15 24-43 West Virginia v. BPJ Amici SERVICE AAF et al womens sports.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322544/20240815120658388_2024%2008%2015%2024-43%20West%20Virginia%20v.%20BPJ%20Amici%20SERVICE%20AAF%20et%20al%20womens%20sports.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 15 2024",
+      "Text": "Brief amici curiae of Concerned Women for America and Samaritan\u2019s Purse filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "130236 brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322574/20240815145539493_130236%20brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "130236 service affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322574/20240815145550816_130236%20service%20affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "120236 word count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322574/20240815145545190_120236%20word%20count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 15 2024",
+      "Text": "Brief amicus curiae of Parents Defending Education filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322565/20240815143901853_24-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322565/20240815143922732_24-43%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322565/20240815143910904_24-43%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 15 2024",
+      "Text": "Brief amicus curiae of America First Legal Foundation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322529/20240815095214001_24-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322529/20240815095240366_24-43%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 Word Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322529/20240815095233360_24-43%20Word%20Cert.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 15 2024",
+      "Text": "Brief amicus curiae of The American Civil Rights Project filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Amicus Brief - Petition Stage.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322606/20240815214956505_Amicus%20Brief%20-%20Petition%20Stage.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Amicus Brief - Petition Stage - Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322606/20240815215028141_Amicus%20Brief%20-%20Petition%20Stage%20-%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Amicus Brief - Petition Stage - Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322606/20240815215014358_Amicus%20Brief%20-%20Petition%20Stage%20-%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 15 2024",
+      "Text": "Brief amici curiae of America's Future, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "WVDOE v. BPJ amicus brief final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322594/20240815165544721_WVDOE%20v.%20BPJ%20amicus%20brief%20final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "130305 service affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322594/20240815165641095_130305%20service%20affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "130305 word count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322594/20240815165604219_130305%20word%20count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 15 2024",
+      "Text": "Brief amici curiae of A.C. a minor, by her next friend and mother Abigail Cross filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43_A.C. amicus brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322536/20240815105603417_24-43_A.C.%20amicus%20brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322536/20240815105623826_Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "USSC word count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/322536/20240815105614546_USSC%20word%20count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 15 2024",
+      "Text": "Brief of respondent B.P.J., by her next friend and mother, Heather Jackson in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43BriefInOpposition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/328334/20241015161418216_24-43BriefInOpposition.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-43 Cooley LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/328334/20241015161426107_No.%2024-43%20Cooley%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-43 Cooley LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/328334/20241015161432434_No.%2024-43%20Cooley%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 29 2024",
+      "Text": "Reply of petitioners West Virginia, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "BPJ Pets Cert Reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/330554/20241029132645644_BPJ%20Pets%20Cert%20Reply.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "BPJ Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/330554/20241029132651359_BPJ%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "BPJ Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/330554/20241029132714984_BPJ%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 30 2024",
+      "Text": "DISTRIBUTED for Conference of 11/15/2024."
+    },
+    {
+      "Date": "Nov 18 2024",
+      "Text": "DISTRIBUTED for Conference of 11/22/2024."
+    },
+    {
+      "Date": "Jun 23 2025",
+      "Text": "DISTRIBUTED for Conference of 6/26/2025."
+    },
+    {
+      "Date": "Jun 23 2025",
+      "Text": "Supplemental brief of petitioners West Virginia, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "BPJ Supplemental Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/363722/20250623141402813_BPJ%20Supplemental%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "BPJ Supplemental Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/363722/20250623141419077_BPJ%20Supplemental%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "BPJ Supplemental Compliance Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/363722/20250623141411235_BPJ%20Supplemental%20Compliance%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 03 2025",
+      "Text": "Petition GRANTED."
+    },
+    {
+      "Date": "Jul 22 2025",
+      "Text": "Motion for an extension of time to file the briefs on the merits filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025.07.22 BPJ v West Virginia Letter motion for joint extension of merits briefing.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/365775/20250722135158145_2025.07.22%20BPJ%20v%20West%20Virginia%20Letter%20motion%20for%20joint%20extension%20of%20merits%20briefing.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 22 2025",
+      "Text": "Motion to extend the time to file the briefs on the merits granted.  The time to file the joint appendix and petitioners' brief on the merits is extended to and including September 12, 2025.  The time to file respondent's brief on the merits is extended to and including November 10, 2025."
+    },
+    {
+      "Date": "Sep 12 2025",
+      "Text": "Brief of petitioners West Virginia, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "West Virginia v BPJ Opening Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374548/20250912160050839_West%20Virginia%20v%20BPJ%20Opening%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "BPJ Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374548/20250912160056861_BPJ%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "BPJ Cert of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374548/20250912160207564_BPJ%20Cert%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 12 2025",
+      "Text": "Joint appendix (10 volumes and 1 supplemental) filed.  (Statement of costs filed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "volume1.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374549/20250912160652212_volume1.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "volume2.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374549/20250912160700442_volume2.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "volume3.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374549/20250912160706944_volume3.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "volume4.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374549/20250912160809049_volume4.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "volume5.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374549/20250912160820732_volume5.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "volume6.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374549/20250912160829202_volume6.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "volume7.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374549/20250912160838407_volume7.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "volume8.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374549/20250912160844610_volume8.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "volume9.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374549/20250912160918526_volume9.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "volume10.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374549/20250912160934198_volume10.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "24-43 Supplemental Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374549/20250912160939727_24-43%20Supplemental%20Appendix.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "BPJ Cert of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374549/20250912160953131_BPJ%20Cert%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 15 2025",
+      "Text": "Amici brief of Dr. Brent Ellis, et al. not accepted for filing. (To be corrected - September 18, 2025)"
+    },
+    {
+      "Date": "Sep 15 2025",
+      "Text": "Brief amici curiae of Dr. Brent Ellis, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375187/20250919122709459_24-43%20Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375187/20250919122723078_24-43%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375187/20250919122716107_24-43%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 15 2025",
+      "Text": "Brief amicus curiae of NC Values Institute filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 and 24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374631/20250915131058337_24-38%20and%2024-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 and 24-43 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374631/20250915131112378_24-38%20and%2024-43%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 and 24-43 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374631/20250915131123093_24-38%20and%2024-43%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 17 2025",
+      "Text": "Brief amicus curiae of A.C., a minor, by her next friend and mother Abigail Cross filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 A.C. Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374905/20250917134019475_24-43%20A.C.%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374905/20250917134034801_24-43%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374905/20250917134027255_24-43%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 17 2025",
+      "Text": "Brief amicus curiae of Liberty Counsel filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "250920a AC Brief for efiling.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374859/20250917100010849_250920a%20AC%20Brief%20for%20efiling.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "250920 Certificate of Word Count Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374859/20250917100021396_250920%20Certificate%20of%20Word%20Count%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "250920 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374859/20250917100028334_250920%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 17 2025",
+      "Text": "Brief amicus curiae of Women\u2019s Declaration International USA filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 24-38 Brief of Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374887/20250917120506225_24-43%2024-38%20Brief%20of%20Amicus.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 24-38 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374887/20250917120513329_24-43%2024-38%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 24-38 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374887/20250917120521330_24-43%2024-38%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 18 2025",
+      "Text": "Brief amicus curiae of America First Legal Foundation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375005/20250918123406412_24-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375005/20250918123418735_24-43%20Service%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375005/20250918123413664_24-43%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 18 2025",
+      "Text": "Brief amicus curiae of United States Conference of Catholic Bishops filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375103/20250918170530522_24-38%2024-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 24-43 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375103/20250918170636746_24-38%2024-43%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375103/20250918170647255_24-38%2024-43%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 18 2025",
+      "Text": "Brief amici curiae of Dr. Daniel Kodsi, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 and 24-43 Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374986/20250918112750820_24-38%20and%2024-43%20Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 and 24-43 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374986/20250918112801140_24-38%20and%2024-43%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 and 24-43 AOS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/374986/20250918112806851_24-38%20and%2024-43%20AOS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 18 2025",
+      "Text": "Brief amicus curiae of Dr. Mark Regnerus filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-43 Brief of Amicus Curiae Dr. Mark Regnerus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375121/20250918185659761_No.%2024-43%20Brief%20of%20Amicus%20Curiae%20Dr.%20Mark%20Regnerus.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-43 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375121/20250918185711623_No.%2024-43%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-43 Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375121/20250918185729615_No.%2024-43%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of the United States filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38_24-43_Hecox_BPJ_US_tsac.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375295/20250919151930382_24-38_24-43_Hecox_BPJ_US_tsac.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate 24-38 24-43.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375295/20250919151952967_certificate%2024-38%2024-43.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of 96 West Virginia Legislators filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375186/20250919122715862_24-43%20Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375186/20250919122827614_24-43%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375186/20250919122805295_24-43%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of Female Athletes United, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "250927a AC Brief for efiling.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375362/20250919180726084_250927a%20AC%20Brief%20for%20efiling.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "250927 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375362/20250919181122452_250927%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "250927 Certificate of Word Count Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375362/20250919181107565_250927%20Certificate%20of%20Word%20Count%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of Advancing American Freedom, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025 09 19 24-43 BPJ AAF amici brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375212/20250919131314045_2025%2009%2019%2024-43%20BPJ%20AAF%20amici%20brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2025 09 19 24-43 BPJ AAF Service certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375212/20250919131353853_2025%2009%2019%2024-43%20BPJ%20AAF%20Service%20certificate.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2025 09 19 24-43 BPJ AAF Compliance certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375212/20250919131337412_2025%2009%2019%2024-43%20BPJ%20AAF%20Compliance%20certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of President of the Arizona State Senate Warren Petersen, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375167/20250919112846986_24-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375167/20250919112909877_24-43%20Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375167/20250919112857155_24-43%20Certificate%20of%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of The American Civil Rights Project filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Merits Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375265/20250919141618152_Merits%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Merits Amicus Brief - Affid of Serv.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375265/20250919141707311_Merits%20Amicus%20Brief%20-%20Affid%20of%20Serv.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Merits Amicus Brief - Cert of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375265/20250919141653455_Merits%20Amicus%20Brief%20-%20Cert%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of John Adams Academies, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Amicus Brief of John Adams Academies.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375279/20250919145932169_Amicus%20Brief%20of%20John%20Adams%20Academies.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375279/20250919150015874_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375279/20250919145956436_Certificate%20of%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of State of Arkansas, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025.09.19  Amicus Brief 24-43.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375281/20250919151159668_2025.09.19%20%20Amicus%20Brief%2024-43.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2025.09.19  Certificate of Service No. 24-43.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375281/20250919151216082_2025.09.19%20%20Certificate%20of%20Service%20No.%2024-43.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2025.09.19  Certificate of Compliance No. 24-43.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375281/20250919151238210_2025.09.19%20%20Certificate%20of%20Compliance%20No.%2024-43.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of Equal Protection Project filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375347/20250919172406329_24-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375347/20250919172421669_24-43%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375347/20250919172431840_24-43%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of The American College of Pediatricians filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 ACPeds Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375376/20250919203344749_24-43%20ACPeds%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-43 Schaerr Jaffe LLP COC-1.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375376/20250919203355853_No.%2024-43%20Schaerr%20Jaffe%20LLP%20COC-1.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-43 Schaerr Jaffe LLP COS-1.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375376/20250919203408078_No.%2024-43%20Schaerr%20Jaffe%20LLP%20COS-1.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of The Becket Fund for Religious Liberty filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "West Virginia SCOTUS Amicus Brief FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375364/20250919181149937_West%20Virginia%20SCOTUS%20Amicus%20Brief%20FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-43 Becket Fund COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375364/20250919181245200_No.%2024-43%20Becket%20Fund%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-43 Becket Fund COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375364/20250919181220183_No.%2024-43%20Becket%20Fund%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of Independent Women's Law Center filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 BPJ IWLC Amicus 9.19.25.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375373/20250919202808549_24-43%20BPJ%20IWLC%20Amicus%209.19.25.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-43 Schaerr Jaffe LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375373/20250919202819539_No.%2024-43%20Schaerr%20Jaffe%20LLP%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-43 Schaerr Jaffe LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375373/20250919202835579_No.%2024-43%20Schaerr%20Jaffe%20LLP%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of L. V., et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 Amicus Brief of L.V. et al_.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375132/20250919092511957_24-43%20Amicus%20Brief%20of%20L.V.%20et%20al_.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375132/20250919092549307_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375132/20250919092523990_Certificate%20of%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of Pennsylvania School Board Directors filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38_24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375136/20250919093425437_24-38_24-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38_24-43 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375136/20250919093431734_24-38_24-43%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38_24-43 Affidavit Pennsylvania School Board Directors Corrected.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375136/20250919132043575_24-38_24-43%20Affidavit%20Pennsylvania%20School%20Board%20Directors%20Corrected.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of Reem Alsalem United Nations Special Rapporteur on Violence Against Women and Girls, its Causes and Consequences filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Nos. 24-38 and 24-43_Amica Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375352/20250919172940345_Nos.%2024-38%20and%2024-43_Amica%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 24-38 and 24-43_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375352/20250919172959877_Nos.%2024-38%20and%2024-43_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 24-38 and 24-43_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375352/20250919172949926_Nos.%2024-38%20and%2024-43_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of Women's Liberation Front filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375195/20250919123426265_24-38%2024-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375195/20250919123446557_24-38%2024-43%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 24-43 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375195/20250919123436704_24-38%2024-43%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of Doctors of Sports Medicine filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Hecox BPJ SCT Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375156/20250919111144543_Hecox%20BPJ%20SCT%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 24-38 24-43 Charis Lex P.C. COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375156/20250919111151697_Nos.%2024-38%2024-43%20Charis%20Lex%20P.C.%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 24-38 24-43 Charis Lex P.C. COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375156/20250919111159072_Nos.%2024-38%2024-43%20Charis%20Lex%20P.C.%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of True Blue Sapphires, Inc. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 - 24-43 Sapphire Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375323/20250919163904378_24-38%20-%2024-43%20Sapphire%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 - 24-43 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375323/20250919163912369_24-38%20-%2024-43%20Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 - 24-43 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375323/20250919163920416_24-38%20-%2024-43%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of Defense of Freedom Institute for Policy Studies filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Nos. 24-38 and 24-43_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375359/20250919175538057_Nos.%2024-38%20and%2024-43_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 24-38 and 24-43_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375359/20250919175547571_Nos.%2024-38%20and%2024-43_Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 24-38 and 24-43_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375359/20250919175630494_Nos.%2024-38%20and%2024-43_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of America's Future, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "BPJ Hecox Merits Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375327/20250919164243588_BPJ%20Hecox%20Merits%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "BPJ Hecox Merits Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375327/20250919164304751_BPJ%20Hecox%20Merits%20Service%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "BPJ Hecox Merits Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375327/20250919164256874_BPJ%20Hecox%20Merits%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of Six High School Athletes filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 and 24-43 Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375300/20250919152427977_24-38%20and%2024-43%20Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 and 24-43 Word Count Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375300/20250919152435316_24-38%20and%2024-43%20Word%20Count%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 and 24-43 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375300/20250919152445474_24-38%20and%2024-43%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of 48 Members of the Congress filed. VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "CongressIdaho_Amicus Document September 19 2025 EFile.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375171/20250919113330743_CongressIdaho_Amicus%20Document%20September%2019%202025%20EFile.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "CongressIdaho_Amicus Certificate Word Count September 19 2025 EFile.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375171/20250919113339445_CongressIdaho_Amicus%20Certificate%20Word%20Count%20September%2019%202025%20EFile.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "CongressIdaho_Amicus Certificate Service September 19 2025 EFile.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375171/20250919113346647_CongressIdaho_Amicus%20Certificate%20Service%20September%2019%202025%20EFile.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of 31 Olympians, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "250922a AC Brief for efiling.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375382/20250919211232095_250922a%20AC%20Brief%20for%20efiling.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375382/20250919211240007_Certificate%20of%20Word%20Count%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375382/20250919211249082_Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of Center for American Liberty filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 and 24-43_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375272/20250919142701177_24-38%20and%2024-43_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 and 24-43_Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375272/20250919142706655_24-38%20and%2024-43_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 and 24-43_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375272/20250919142714276_24-38%20and%2024-43_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of American Association of Christian Schools, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 and 24-43_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375193/20250919122954055_24-38%20and%2024-43_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 and 24-43_Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375193/20250919123011257_24-38%20and%2024-43_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 and 24-43_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375193/20250919123016699_24-38%20and%2024-43_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of Concerned Women for America, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375263/20250919141248463_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375263/20250919141254214_Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "service affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375263/20250919141259812_service%20affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of Defending Education filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Nos. 24-38 and 24-43_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375257/20250919140534913_Nos.%2024-38%20and%2024-43_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 24-38 and 24-43_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375257/20250919140606396_Nos.%2024-38%20and%2024-43_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 24-38 and 24-43_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375257/20250919140544330_Nos.%2024-38%20and%2024-43_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of Sport Scientists filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375255/20250919140446325_24-38%2024-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 24-43 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375255/20250919140455456_24-38%2024-43%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375255/20250919140510223_24-38%2024-43%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of President Pro Tempore of the Idaho Senate Kelly Anthon, et al filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 and 24-43_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375316/20250919163038364_24-38%20and%2024-43_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 and 24-43_Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375316/20250919163044281_24-38%20and%2024-43_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 and 24-43_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375316/20250919163049369_24-38%20and%2024-43_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of Interested Sports Physiologists filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Nos. 24-38 and 24-43_Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375244/20250919135436387_Nos.%2024-38%20and%2024-43_Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 24-38 and 24-43_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375244/20250919135446463_Nos.%2024-38%20and%2024-43_Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 24-38 and 24-43_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375244/20250919135454573_Nos.%2024-38%20and%2024-43_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of Brief of Professors Richard J. Auchus, et al. in support of neither party filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 24-43 ac Professors.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375148/20250919104342367_24-38%2024-43%20ac%20Professors.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "signed COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375148/20250919104350843_signed%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "signed COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375148/20250919104358110_signed%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of Riley Gaines, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "NCAA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375349/20250919172734661_NCAA.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 24-38 24-43 Kroger Gardis and Regas LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375349/20250919172741577_Nos.%2024-38%2024-43%20Kroger%20Gardis%20and%20Regas%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 24-38 24-43 Kroger Gardis and Regas LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375349/20250919172748356_Nos.%2024-38%2024-43%20Kroger%20Gardis%20and%20Regas%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of Independent Council On Women's Sports filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Independent Council on Womens Sports.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375341/20250919171857547_Independent%20Council%20on%20Womens%20Sports.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-38 24-43 Kroger Gardis and Regas LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375341/20250919171928023_No.%2024-38%2024-43%20Kroger%20Gardis%20and%20Regas%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-38 24-43 Kroger Gardis and Regas LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375341/20250919171936346_No.%2024-38%2024-43%20Kroger%20Gardis%20and%20Regas%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of The Church of Jesus Christ of Latter-day Saints, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38-24-43acTheChurchOfJesusChristOfLatter-DaySaints.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375227/20250919133740714_24-38-24-43acTheChurchOfJesusChristOfLatter-DaySaints.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375227/20250919133755847_Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375227/20250919133809895_COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of Sex Matters filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 24-43  Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375391/20250919234020090_24-38%2024-43%20%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 24-43  Word Count Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375391/20250919234028384_24-38%2024-43%20%20Word%20Count%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43  Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375391/20250919234035953_24-38%2024-43%20%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of Do No Harm filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375139/20250919094707448_24-38%2024-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 24-43 Word Count Certification.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375139/20250919094759245_24-38%2024-43%20Word%20Count%20Certification.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375139/20250919094807182_24-38%2024-43%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of Business Leaders filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375214/20250919132145787_24-38%2024-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 24-43 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375214/20250919132153392_24-38%2024-43%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375214/20250919132159408_24-38%2024-43%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of Mountain States Legal Foundation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "AC BPJ 1.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375249/20250919140052482_AC%20BPJ%201.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375249/20250919140124140_24-43%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375249/20250919140112392_Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of U.S. House of Representatives filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43USHouseOfRepresentatives.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375233/20250919134643172_24-43USHouseOfRepresentatives.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-43 U.S. House of Representatives COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375233/20250919134713900_No.%2024-43%20U.S.%20House%20of%20Representatives%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-43 U.S. House of Representatives COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375233/20250919134702169_No.%2024-43%20U.S.%20House%20of%20Representatives%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amicus curiae of New Civil Liberties Alliance filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "9.19.25 West Virginia v. BPJ Amicus FINAL FLAT.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375292/20250919151713668_9.19.25%20West%20Virginia%20v.%20BPJ%20Amicus%20FINAL%20FLAT.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-43 New Civil Liberties Alliance COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375292/20250919151722299_No.%2024-43%20New%20Civil%20Liberties%20Alliance%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-43 New Civil Liberties Alliance COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/375292/20250919151728227_No.%2024-43%20New%20Civil%20Liberties%20Alliance%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Amici brief of Emma Hilton, PhD, et al. not accepted for filing. (To be corrected - September 29, 2025)"
+    },
+    {
+      "Date": "Sep 19 2025",
+      "Text": "Brief amici curiae of Emma Hilton, PhD, et al. filed. VIDED. (Corrected)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Final Emma Hilton.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/378429/20251001164337932_Final%20Emma%20Hilton.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43 Kroger Gardis Regas COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/378429/20251001164358146_24-38%2024-43%20Kroger%20Gardis%20Regas%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 24-43 Kroger Gardis Regas COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/378429/20251001164405193_24-38%2024-43%20Kroger%20Gardis%20Regas%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 28 2025",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43_BPJ_DividedArgumentMotion.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/380846/20251028161141761_24-43_BPJ_DividedArgumentMotion.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. 24-43.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/380846/20251028161222232_certificate.%2024-43.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 10 2025",
+      "Text": "Brief of respondent B.P.J., by her next friend and mother, Heather Jackson filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "B.P.J. Respondent Brief Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384127/20251110174312657_B.P.J.%20Respondent%20Brief%20Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-43 Cooley LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384127/20251110174324118_No.%2024-43%20Cooley%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-43 Cooley LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384127/20251110174331197_No.%2024-43%20Cooley%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 12 2025",
+      "Text": "SET FOR ARGUMENT on Tuesday, January 13, 2026."
+    },
+    {
+      "Date": "Nov 14 2025",
+      "Text": "Brief amici curiae of Title IX Scholars filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025.11.17 BPJ Title IX Scholars amicus_FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384660/20251117095532175_2025.11.17%20BPJ%20Title%20IX%20Scholars%20amicus_FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-43 Potomac Law Group PLLC COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384660/20251117095841731_No.%2024-43%20Potomac%20Law%20Group%20PLLC%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-43 Potomac Law Group PLLC COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384660/20251117095801040_No.%2024-43%20Potomac%20Law%20Group%20PLLC%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Record requested from the United States Court of Appeals for the Fourth Circuit."
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of Federal Jurisdiction Scholars filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 and 24-43 Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384766/20251117145611158_24-38%20and%2024-43%20Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 and 24-43 Word Count Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384766/20251117145636697_24-38%20and%2024-43%20Word%20Count%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 and 24-43 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384766/20251117145643492_24-38%20and%2024-43%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Amicus brief of Professor Joanna Harper, et al. not accepted for filing. (To be corrected - November 21, 2025)"
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of Professor Joanna Harper, et al. filed.  VIDED. (Corrected)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38  24-43 Brief of Amici.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/385425/20251121143920657_24-38%20%2024-43%20Brief%20of%20Amici.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38   24-43 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/385425/20251121143940846_24-38%20%20%2024-43%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43 Corrected Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/385425/20251121144001235_24-38%2024-43%20Corrected%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of New York, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Nos 24-38_24-43 Amicus Br for NY-HI-etal for Resps.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384896/20251117213209453_Nos%2024-38_24-43%20Amicus%20Br%20for%20NY-HI-etal%20for%20Resps.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos 24-38_24-43 OAG New York COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384896/20251117213222432_Nos%2024-38_24-43%20OAG%20New%20York%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos 24-38_24-43 OAG New York COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384896/20251117213232138_Nos%2024-38_24-43%20OAG%20New%20York%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of Coaches, Teammates, Competitors, and Allies of Transgender Athletes filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 _ 24-43 bsac CoachesTeammatesCompetitorsAlliesTransgenderAthletes.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384892/20251117210949362_24-38%20_%2024-43%20bsac%20CoachesTeammatesCompetitorsAlliesTransgenderAthletes.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 _ 24-43 Word Count -- bsac CoachesTeammatesCompetitorsAlliesTransgenderAthletes.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384892/20251117211010044_24-38%20_%2024-43%20Word%20Count%20--%20bsac%20CoachesTeammatesCompetitorsAlliesTransgenderAthletes.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 _ 24-43 Proof of Service -- bsac CoachesTeammatesCompetitorsAlliesTransgenderAthletes.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384892/20251117211029199_24-38%20_%2024-43%20Proof%20of%20Service%20--%20bsac%20CoachesTeammatesCompetitorsAlliesTransgenderAthletes.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of Members of Congress filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "MembersofCongressAmici.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384769/20251117150239241_MembersofCongressAmici.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43 Steptoe Johnson COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384769/20251117150247467_24-38%2024-43%20Steptoe%20Johnson%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 24-43 Steptoe Johnson COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384769/20251117150253455_24-38%2024-43%20Steptoe%20Johnson%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of American Psychological Association, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Brief Amici Curiae in Support of Respondents.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384926/20251118112607032_Brief%20Amici%20Curiae%20in%20Support%20of%20Respondents.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "certificate of word count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384926/20251118112618688_certificate%20of%20word%20count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate of service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384926/20251118112630019_Certificate%20of%20service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amicus curiae of National Women's Law Center filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025.11.17 - NWLC SCOTUS FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384836/20251117170031613_2025.11.17%20-%20NWLC%20SCOTUS%20FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 24-38 24-43 Democracy Forward COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384836/20251117170109273_Nos.%2024-38%2024-43%20Democracy%20Forward%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 24-38 24-43 Democracy Forward COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384836/20251117170058559_Nos.%2024-38%2024-43%20Democracy%20Forward%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of Professional, Olympic, and International Athletes in Women\u2019s Sports filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025.11.17 Pro Athletes Amicus Brief_UPDATED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384877/20251117183130944_2025.11.17%20Pro%20Athletes%20Amicus%20Brief_UPDATED.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Lieff Cabraser Heimann Berntein LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384877/20251117183141149_24-43%20Lieff%20Cabraser%20Heimann%20Berntein%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 Lieff Cabraser Heimann Berntein LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384877/20251117183147748_24-43%20Lieff%20Cabraser%20Heimann%20Berntein%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of Scholars of Equal Opportunity and Antidiscrimination Law filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 24-43 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384834/20251117165848378_24-38%2024-43%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384834/20251117165919776_24-38%2024-43%20Service%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 24-43 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384834/20251117165902150_24-38%2024-43%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of Law And History Scholars filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38-24-43acLawAndHistoryScholars.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384717/20251117124329368_24-38-24-43acLawAndHistoryScholars.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 24-38 24-43Tucker Ellis LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384717/20251117124338471_Nos.%2024-38%2024-43Tucker%20Ellis%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 24-38 24-43Tucker Ellis LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384717/20251117124345632_Nos.%2024-38%2024-43Tucker%20Ellis%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of Professors of Constitutional Law filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025.11.17 - Amicus Br of Con Law Profs.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384802/20251117160548942_2025.11.17%20-%20Amicus%20Br%20of%20Con%20Law%20Profs.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2025.11.17 - Amicus Br - COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384802/20251117160605075_2025.11.17%20-%20Amicus%20Br%20-%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2025.11.17 - Amicus Br - COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384802/20251117160619206_2025.11.17%20-%20Amicus%20Br%20-%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amicus curiae of Andrew Flores filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384851/20251117173800656_24-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384851/20251117173824907_24-43%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 Word Count Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384851/20251117173817891_24-43%20Word%20Count%20Cert.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amicus curiae of National Fair Housing Alliance filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-43 NFHA Amicus Brief 2025.11.17.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384875/20251117182936095_No.%2024-43%20NFHA%20Amicus%20Brief%202025.11.17.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-43 NFHA Amicus COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384875/20251117183008701_No.%2024-43%20NFHA%20Amicus%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-43 NFHA Amicus COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384875/20251117183022119_No.%2024-43%20NFHA%20Amicus%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of Organization of American Historians, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43acTheOrganizationOfAmericanHistorians.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384675/20251117104102166_24-43acTheOrganizationOfAmericanHistorians.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-43 Ballard Spahr LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384675/20251117104112764_No.%2024-43%20Ballard%20Spahr%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-43 Ballard Spahr LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384675/20251117104119687_No.%2024-43%20Ballard%20Spahr%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amicus curiae of California Women\u2019s Law Center filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384883/20251117191645846_24-43_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384883/20251117191710292_24-43_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43_Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384883/20251117191703648_24-43_Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amicus curiae of National Education Association filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "93254 BPJ BRIEF.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384756/20251117143351945_93254%20BPJ%20BRIEF.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "NEA - WV v. BPJ - Certificate of service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384756/20251117143416721_NEA%20-%20WV%20v.%20BPJ%20-%20Certificate%20of%20service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "NEA- WV v. BPJ Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384756/20251117143407811_NEA-%20WV%20v.%20BPJ%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amicus curiae of Public Justice filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 Amicus brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384669/20251117102004290_24-43%20Amicus%20brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384669/20251117102045224_24-43%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384669/20251117102036209_24-43%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amicus curiae of Professor William N. Eskridge, Jr. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384803/20251117160659433_24-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384803/20251117160749885_24-43%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-43 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384803/20251117160725361_24-43%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of Equal Protection Scholars filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 24-43 - bsac Equal Protection Scholars.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384837/20251117170239385_24-38%2024-43%20-%20bsac%20Equal%20Protection%20Scholars.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43 MTO COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384837/20251117170254541_24-38%2024-43%20MTO%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 24-43 MTO COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384837/20251117170247400_24-38%2024-43%20MTO%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of Constitutional Law Scholars filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38  24-43 Brief of Constitutional Law Professors.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384866/20251117175749449_24-38%20%2024-43%20Brief%20of%20Constitutional%20Law%20Professors.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38  24-43 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384866/20251117175805213_24-38%20%2024-43%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38  24-43 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384866/20251117175755502_24-38%20%2024-43%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of GLBTQ Legal Advocates and Defenders, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025.11.17 GLAD Law NCLR Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384702/20251117122016908_2025.11.17%20GLAD%20Law%20NCLR%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43 Herzfeld Suetholz Gastel Leniski and Wall PLLC COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384702/20251117122029482_24-38%2024-43%20Herzfeld%20Suetholz%20Gastel%20Leniski%20and%20Wall%20PLLC%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 24-43 Herzfeld Suetholz Gastel Leniski and Wall PLLC COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384702/20251117122036668_24-38%2024-43%20Herzfeld%20Suetholz%20Gastel%20Leniski%20and%20Wall%20PLLC%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amicus curiae of Constitutional Accountability Center filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Hecox-BPJ CAC Amicus FINAL FOR FILING.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384683/20251117111604307_Hecox-BPJ%20CAC%20Amicus%20FINAL%20FOR%20FILING.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Hecox-BPJ CAC Certificate of Compliance FINAL FOR FILING.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384683/20251117111641381_Hecox-BPJ%20CAC%20Certificate%20of%20Compliance%20FINAL%20FOR%20FILING.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Hecox-BPJ CAC Proof of Service FINAL FOR FILING.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384683/20251117111656855_Hecox-BPJ%20CAC%20Proof%20of%20Service%20FINAL%20FOR%20FILING.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of Advocates for Girls' and Women's Rights filed. VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38_24-43_bsacAdvocatesforGirlsandWomensRights.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384699/20251117121325116_24-38_24-43_bsacAdvocatesforGirlsandWomensRights.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 24-43_24-38 Public Counsel COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384699/20251117121335263_Nos.%2024-43_24-38%20Public%20Counsel%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 24-43_ 24-38 Public Counsel COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384699/20251117121343255_Nos.%2024-43_%2024-38%20Public%20Counsel%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of Transgender Law Center, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 and 24-43-Amici Curiae Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384759/20251117143402166_24-38%20and%2024-43-Amici%20Curiae%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 and 24-43-Word Count Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384759/20251117143410728_24-38%20and%2024-43-Word%20Count%20Cert.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 and 24-43-Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384759/20251117143426037_24-38%20and%2024-43-Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amici curiae of Practicing Pediatric Endocrinologists, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Nos. 24-38 and 24-43_Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384664/20251117100205294_Nos.%2024-38%20and%2024-43_Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 24-38 and 24-43_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384664/20251117100220614_Nos.%2024-38%20and%2024-43_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 24-38 and 24-43_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384664/20251117100212151_Nos.%2024-38%20and%2024-43_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amicus curiae of Andraya Yearwood filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-38 24-43 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384841/20251117171159232_24-38%2024-43%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-38 24-43 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384841/20251117171207394_24-38%2024-43%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-38 24-43 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384841/20251117171212783_24-38%2024-43%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amicus curiae of Information Society Project filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Nos. 24-38 and 24-43_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384750/20251117141821493_Nos.%2024-38%20and%2024-43_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 24-38 and 24-43_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384750/20251117141838544_Nos.%2024-38%20and%2024-43_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 24-38 and 24-43_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/384750/20251117141828020_Nos.%2024-38%20and%2024-43_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amicus curiae of National Women's Law Center filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "CORRECTED COVER 2025.11.17 - NWLC SCOTUS FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/385419/20251121142949837_CORRECTED%20COVER%202025.11.17%20-%20NWLC%20SCOTUS%20FINAL.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 24-38 24-43 Democracy Forward COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/385419/20251121142958473_Nos.%2024-38%2024-43%20Democracy%20Forward%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 24-38 24-43 Democracy Forward COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/385419/20251121143006042_Nos.%2024-38%2024-43%20Democracy%20Forward%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 18 2025",
+      "Text": "Record received from the United States Court of Appeals for the Fourth Circuit. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument GRANTED."
+    },
+    {
+      "Date": "Dec 01 2025",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Dec 10 2025",
+      "Text": "Reply of petitioners West Virginia, et al. filed. (Distributed).",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "West Virginia v BPJ Reply Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/386959/20251210120907477_West%20Virginia%20v%20BPJ%20Reply%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "COC BPJ Reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/386959/20251210120914147_COC%20BPJ%20Reply.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-43 Office of Attorney General West Virginia COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/386959/20251210120918814_24-43%20Office%20of%20Attorney%20General%20West%20Virginia%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 15 2025",
+      "Text": "Sealed material received electronically from the United States District Court for the Southern District of West Virginia. The remainder of the record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Jan 13 2026",
+      "Text": "Argued. For petitioners: Michael R. Williams, Solicitor General, Charleston, W. Va.; and Hashim M. Mooppan, Principal Deputy Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.) For respondent: Joshua A. Block, New York, N. Y."
+    },
+    {
+      "Date": "May 26 2026",
+      "Text": "Supplemental Brief of West Virginia, et al. not accepted for filing. (May 28, 2026--Revised document and filing type to be submitted.)"
+    },
+    {
+      "Date": "May 29 2026",
+      "Text": "Letter of petitioners filed (June 2, 2026).  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Petitioners Supplemental letter re BPJ.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/412051/20260602115952460_Petitioners%20Supplemental%20letter%20re%20BPJ.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 30 2026",
+      "Text": "Judgment REVERSED and case REMANDED.  Kavanaugh, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/24-43_2b35.pdf'>opinion</a> of the Court, in which Roberts, C. J., and Thomas, Alito, Gorsuch, and Barrett, JJ., joined. Thomas, J., and Gorsuch, J., filed concurring opinions. Sotomayor, J., filed an opinion concurring in the judgment in part and dissenting in part, in which Kagan and Jackson, JJ., joined. Jackson, J., filed an opinion concurring in the judgment in part and dissenting in part. (Opinion also for No. 24-38).  VIDED."
+    },
+    {
+      "Date": "Aug 03 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 24-43 Rev Rem COSTS 4th Cir. 8.3.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-43/417853/20260803104842079_EFILING%2024-43%20Rev%20Rem%20COSTS%204th%20Cir.%208.3.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioners",
+  "Petitioner": [
+    {
+      "Attorney": "Kelly Caswell Morgan",
+      "IsCounselofRecord": true,
+      "Title": "Bailey & Wyant, PLLC",
+      "PrisonerId": null,
+      "Phone": "3043454222",
+      "Address": "500 Virginia St. E. Suite 600\r\nP.O. Box 3710",
+      "City": "Charleston",
+      "State": "WV",
+      "Zip": "25337",
+      "Email": "kmorgan@baileywyant.com",
+      "PartyName": "West Virginia State Board of Education"
+    },
+    {
+      "Attorney": "Kelly Caswell Morgan",
+      "IsCounselofRecord": true,
+      "Title": "Bailey & Wyant, PLLC",
+      "PrisonerId": null,
+      "Phone": "3043454222",
+      "Address": "500 Virginia St. E. Suite 600\r\nP.O. Box 3710",
+      "City": "Charleston",
+      "State": "WV",
+      "Zip": "25337",
+      "Email": "kmorgan@baileywyant.com",
+      "PartyName": "W. Clayton Burch, In His Official Capacity as State Superintendent"
+    },
+    {
+      "Attorney": "Amy M. Smith",
+      "IsCounselofRecord": true,
+      "Title": "Steptoe & Johnson",
+      "PrisonerId": null,
+      "Phone": "304-933-8137",
+      "Address": "400 White Oaks Boulevard",
+      "City": "Bridgeport",
+      "State": "WV",
+      "Zip": "26330",
+      "Email": "amy.smith@steptoe-johnson.com",
+      "PartyName": "Harrison County Board of Education and Dora Stutler"
+    },
+    {
+      "Attorney": "Michael Ray Williams",
+      "IsCounselofRecord": true,
+      "Title": "Office of the West Virginia Attorney General",
+      "PrisonerId": null,
+      "Phone": "3045582021",
+      "Address": "State Capitol Complex, Bldg. 1, Rm E-26\r\n1900 Kanawha Blvd. E",
+      "City": "Charleston",
+      "State": "WV",
+      "Zip": "25305",
+      "Email": "mwilliams@wvago.gov",
+      "PartyName": "West Virginia, et al."
+    },
+    {
+      "Attorney": "John J. Bursch",
+      "IsCounselofRecord": false,
+      "Title": "Alliance Defending Freedom",
+      "PrisonerId": null,
+      "Phone": "(616) 450-4235",
+      "Address": "440 First Street NW\r\nSuite 600",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "jbursch@adflegal.org",
+      "PartyName": "West Virginia, et al."
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondent",
+  "Respondent": [
+    {
+      "Attorney": "Joshua A. Block",
+      "IsCounselofRecord": true,
+      "Title": "American Civil Liberties Union Foundation",
+      "PrisonerId": null,
+      "Phone": "2125492593",
+      "Address": "125 Broad Street\r\nFloor 18",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10004",
+      "Email": "JBLOCK@ACLU.ORG",
+      "PartyName": "B.P.J., by her next friend and mother, Heather Jackson"
+    },
+    {
+      "Attorney": "Susan Llewellyn Deniker",
+      "IsCounselofRecord": true,
+      "Title": "Steptoe & Johnson PLLC",
+      "PrisonerId": null,
+      "Phone": "3049338154",
+      "Address": "400 White Oaks Boulevard",
+      "City": "Bridgeport",
+      "State": "WV",
+      "Zip": "26330",
+      "Email": "Susan.Deniker@Steptoe-Johnson.com",
+      "PartyName": "Harrison County Board of Education and Dora Stutler, in her capacity as Harrison County Superintendent"
+    },
+    {
+      "Attorney": "Roberta F. Green",
+      "IsCounselofRecord": true,
+      "Title": "Shuman, McCuskey & Slicer",
+      "PrisonerId": null,
+      "Phone": "3044825364",
+      "Address": "1411 Virginia Street, East\r\nSuite 200",
+      "City": "Charleston",
+      "State": "WV",
+      "Zip": "25301",
+      "Email": "rgreen@shumanlaw.com",
+      "PartyName": "West Virginia Secondary School Activities Commission"
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Jessica Ring Amunson",
+      "IsCounselofRecord": true,
+      "Title": "Jenner & Block LLP",
+      "PrisonerId": null,
+      "Phone": "202-639-6000",
+      "Address": "1099 New York Avenue NW\r\nSuite 900",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "JAMUNSON@JENNER.COM",
+      "PartyName": "American Psychological Association, National Association of Social Workers, American Association for Marriage and Family Therapy"
+    },
+    {
+      "Attorney": "Trisha B. Anderson",
+      "IsCounselofRecord": true,
+      "Title": "Hecker Fink LLP",
+      "PrisonerId": null,
+      "Phone": "212-763-0883",
+      "Address": "1050 K Street NW, Suite 1040",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "tanderson@heckerfink.com",
+      "PartyName": "Professor William N. Eskridge Jr."
+    },
+    {
+      "Attorney": "David A. Barrett",
+      "IsCounselofRecord": true,
+      "Title": "Boies Schiller Flexner LLP",
+      "PrisonerId": null,
+      "Phone": "212-446-2300",
+      "Address": "55 Hudson Yards",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10001",
+      "Email": "dbarrett@bsfllp.com",
+      "PartyName": "Andrew Flores"
+    },
+    {
+      "Attorney": "Bryan Howard Beauman",
+      "IsCounselofRecord": true,
+      "Title": "Sturgill, Turner, Barker & Moloney, PLLC",
+      "PrisonerId": null,
+      "Phone": "859-255-8581",
+      "Address": "333 W. Vine Street, Ste 1500",
+      "City": "Lexington",
+      "State": "KY",
+      "Zip": "40507",
+      "Email": "bbeauman@sturgillturner.com",
+      "PartyName": "48 Members of the Congress"
+    },
+    {
+      "Attorney": "Luke Nathaniel Berg",
+      "IsCounselofRecord": true,
+      "Title": "Wisconsin Institute for Law & Liberty",
+      "PrisonerId": null,
+      "Phone": "6084696891",
+      "Address": "330 E. Kilbourn Ave\r\nSuite 725",
+      "City": "Milwaukee",
+      "State": "WI",
+      "Zip": "53202",
+      "Email": "luke@will-law.org",
+      "PartyName": "L.V., J.S., S.P., and Empowered Community Coalition, UA"
+    },
+    {
+      "Attorney": "Luke Nathaniel Berg",
+      "IsCounselofRecord": true,
+      "Title": "Wisconsin Institute for Law & Liberty",
+      "PrisonerId": null,
+      "Phone": "414-727-9455",
+      "Address": "330 East Kilbourn Avenue\r\nSuite 725",
+      "City": "Milwaukee",
+      "State": "WI",
+      "Zip": "53202",
+      "Email": "luke@will-law.org",
+      "PartyName": "Empowered Community Coalition, UA"
+    },
+    {
+      "Attorney": "Matthew B. Berry",
+      "IsCounselofRecord": true,
+      "Title": "Office of General Counsel",
+      "PrisonerId": null,
+      "Phone": "2022259700",
+      "Address": "5140 O'Neill House Office Building",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20515",
+      "Email": "matthew.berry@mail.house.gov",
+      "PartyName": "U.S. House of Representatives"
+    },
+    {
+      "Attorney": "William Bock III",
+      "IsCounselofRecord": true,
+      "Title": "Kroger, Gardis & Regas, LLP",
+      "PrisonerId": null,
+      "Phone": "(317) 777-7412",
+      "Address": "111 Monument Circle\r\nSuite 900",
+      "City": "Indianapolis",
+      "State": "IN",
+      "Zip": "46204-5125",
+      "Email": "wbock@kgrlaw.com",
+      "PartyName": "Riley Gaines and 32 College Athletes"
+    },
+    {
+      "Attorney": "William Bock III",
+      "IsCounselofRecord": true,
+      "Title": "Kroger, Gardis & Regas, LLP",
+      "PrisonerId": null,
+      "Phone": "317-777-7412",
+      "Address": "111  Monument Circle\r\nSuite 900",
+      "City": "Indianapolis",
+      "State": "IN",
+      "Zip": "46204-5125",
+      "Email": "wbock@kgrlaw.com",
+      "PartyName": "International Consortium On Female Sport"
+    },
+    {
+      "Attorney": "William Bock III",
+      "IsCounselofRecord": true,
+      "Title": "Kroger, Gardis & Regas, LLP",
+      "PrisonerId": null,
+      "Phone": "317-777-7412",
+      "Address": "111  Monument Circle\r\nSuite 900",
+      "City": "Indianapolis",
+      "State": "IN",
+      "Zip": "46204-5125",
+      "Email": "wbock@kgrlaw.com",
+      "PartyName": "Independent Council On Women's Sport"
+    },
+    {
+      "Attorney": "William Bock III",
+      "IsCounselofRecord": true,
+      "Title": "Kroger, Gardis & Regas, LLP",
+      "PrisonerId": null,
+      "Phone": "(317) 777-7412",
+      "Address": "111 Monument Circle\r\nSuite 900",
+      "City": "Indianapolis",
+      "State": "IN",
+      "Zip": "46204-5125",
+      "Email": "wbock@kgrlaw.com",
+      "PartyName": "Emma Hilton PhD and the International Consortium on Female Sport"
+    },
+    {
+      "Attorney": "Brian Matthew Boynton",
+      "IsCounselofRecord": true,
+      "Title": "Wilmer Cutler Pickering Hale and Dorr LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 663-6000",
+      "Address": "2100 Pennsylvania Ave., NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20037",
+      "Email": "brian.boynton@wilmerhale.com",
+      "PartyName": "Coaches, Teammates, Competitors, and Allies of Transgender Athletes"
+    },
+    {
+      "Attorney": "Alexandra Zoe Brodsky",
+      "IsCounselofRecord": true,
+      "Title": "Public Justice",
+      "PrisonerId": null,
+      "Phone": "202-797-8600",
+      "Address": "1620 L Street, N.W. Suite 630",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "ABRODSKY@PUBLICJUSTICE.NET",
+      "PartyName": "Public Justice"
+    },
+    {
+      "Attorney": "Nicholas Jacob Bronni",
+      "IsCounselofRecord": true,
+      "Title": "Solicitor General of Arkansas",
+      "PrisonerId": null,
+      "Phone": "501-682-6302",
+      "Address": "Arkansas Attorney General's Office\r\n323 Center St., Suite 200",
+      "City": "Little Rock",
+      "State": "AR",
+      "Zip": "72201",
+      "Email": "NICHOLAS.BRONNI@ARKANSASAG.GOV",
+      "PartyName": "Arkansas, et al."
+    },
+    {
+      "Attorney": "Kristine Lee Brown",
+      "IsCounselofRecord": true,
+      "Title": "Attorney At Law",
+      "PrisonerId": null,
+      "Phone": "720-285-9552",
+      "Address": "8700 E Jefferson Ave #370953",
+      "City": "Denver",
+      "State": "CO",
+      "Zip": "80237",
+      "Email": "kristiburtonbrown@gmail.com",
+      "PartyName": "102 Female Athletes"
+    },
+    {
+      "Attorney": "Jay Randall Carson",
+      "IsCounselofRecord": true,
+      "Title": "Wegman Hessler Valore",
+      "PrisonerId": null,
+      "Phone": "216-642-3342",
+      "Address": "6055 Rockside Woods Blvd. North\r\nSuite 200",
+      "City": "Cleveland",
+      "State": "OH",
+      "Zip": "44131",
+      "Email": "jrcarson@wegmanlaw.com",
+      "PartyName": "True Blue Sapphires, Inc."
+    },
+    {
+      "Attorney": "James E. Coleman Jr.",
+      "IsCounselofRecord": true,
+      "Title": "Duke University School of Law",
+      "PrisonerId": null,
+      "Phone": "(919) 613-7057",
+      "Address": "210 Science Drive\r\nBox 90360",
+      "City": "Durham",
+      "State": "NC",
+      "Zip": "27708",
+      "Email": "jcoleman@law.duke.edu",
+      "PartyName": "Brief of Professors Richard J. Auchus, David J. Handelsman, Sandra K. Hunter, Michael J. Joyner, Benjamin D. Levine, and Virginia M. Miller"
+    },
+    {
+      "Attorney": "Teresa Stanton Collett",
+      "IsCounselofRecord": true,
+      "Title": null,
+      "PrisonerId": null,
+      "Phone": "(651) 271-2958",
+      "Address": "3195 Red Oak Drive",
+      "City": "Eagan",
+      "State": "MN",
+      "Zip": "55121",
+      "Email": "teresa.collett@proton.me",
+      "PartyName": "Reem Alsalem United Nations Special Rapporteur on Violence Against Women and Girls, its Causes and Consequences"
+    },
+    {
+      "Attorney": "John Michael Connolly",
+      "IsCounselofRecord": true,
+      "Title": "Consovoy McCarthy PLLC",
+      "PrisonerId": null,
+      "Phone": "7032439423",
+      "Address": "1600 Wilson Blvd\r\nSuite 700",
+      "City": "Arlington",
+      "State": "VA",
+      "Zip": "22209",
+      "Email": "MIKE@CONSOVOYMCCARTHY.COM",
+      "PartyName": "Parents Defending Education"
+    },
+    {
+      "Attorney": "Kara Patrice Dansky",
+      "IsCounselofRecord": true,
+      "Title": "Attorney at Law",
+      "PrisonerId": null,
+      "Phone": "(833) 670-2474",
+      "Address": "P.O. Box 21160",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20009",
+      "Email": "info@karadansky.com",
+      "PartyName": "Women\u2019s Declaration International USA"
+    },
+    {
+      "Attorney": "Donald A. Daugherty Jr.",
+      "IsCounselofRecord": true,
+      "Title": "Defense of Freedom Institute for Policy Studies",
+      "PrisonerId": null,
+      "Phone": "(414) 559-6902",
+      "Address": "1455 Pennsylvania Avenue, NW\r\nSuite 400",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "don.daugherty@dfipolicy.org",
+      "PartyName": "Defense of Freedom Institute for Policy Studies"
+    },
+    {
+      "Attorney": "Kelly M. Dermody",
+      "IsCounselofRecord": true,
+      "Title": "Lieff Cabraser Heimann and Bernstein, LLP",
+      "PrisonerId": null,
+      "Phone": "(415) 956-1000",
+      "Address": "275 Battery Street\r\n29th Floor",
+      "City": "San Francisco",
+      "State": "CA",
+      "Zip": "94111",
+      "Email": "kdermody@lchb.com",
+      "PartyName": "Professional, Olympic, and International Athletes in Women\u2019s Sports"
+    },
+    {
+      "Attorney": "Deborah Dewart",
+      "IsCounselofRecord": true,
+      "Title": null,
+      "PrisonerId": null,
+      "Phone": "9103264554",
+      "Address": "111 Magnolia Lane",
+      "City": "Hubert",
+      "State": "NC",
+      "Zip": "28539",
+      "Email": "LAWYERDEBORAH@OUTLOOK.COM",
+      "PartyName": "NC Values Institute"
+    },
+    {
+      "Attorney": "Joshua Wallace Dixon",
+      "IsCounselofRecord": true,
+      "Title": "Center for American Liberty",
+      "PrisonerId": null,
+      "Phone": "(703) 687-6200",
+      "Address": "2145 14th Avenue, Suite 8",
+      "City": "Vero Beach",
+      "State": "FL",
+      "Zip": "32960",
+      "Email": "jdixon@libertycenter.org",
+      "PartyName": "Center for American Liberty"
+    },
+    {
+      "Attorney": "Sambo Dul",
+      "IsCounselofRecord": true,
+      "Title": "Coppersmith Brockelman PLC",
+      "PrisonerId": null,
+      "Phone": "602-381-5486",
+      "Address": "2800 North Central Avenue, Suite 1900",
+      "City": "Phoenix",
+      "State": "AZ",
+      "Zip": "85004",
+      "Email": "bdul@cblawyers.com",
+      "PartyName": "GLBTQ Legal Advocates & Defenders and National Center for LGBTQ Rights"
+    },
+    {
+      "Attorney": "Chad Michael Eggspuehler",
+      "IsCounselofRecord": true,
+      "Title": "Tucker Ellis, LLP",
+      "PrisonerId": null,
+      "Phone": "(216) 592-5000",
+      "Address": "950 Main Avenue, Suite 1100",
+      "City": "Cleveland",
+      "State": "OH",
+      "Zip": "44113",
+      "Email": "chad.eggspuehler@tuckerellis.com",
+      "PartyName": "Law And History Scholars"
+    },
+    {
+      "Attorney": "Lisa Adrienne Ells",
+      "IsCounselofRecord": true,
+      "Title": "Rosen Bien & Galvan & Grunfeld LLP",
+      "PrisonerId": null,
+      "Phone": "4154336830",
+      "Address": "101 Mission Street\r\n6th Floor",
+      "City": "San Francisco",
+      "State": "CA",
+      "Zip": "94105",
+      "Email": "lells@rbgg.com",
+      "PartyName": "Professors Joanna Harper, Philip Chilibeck, and Carol Ewing Graber"
+    },
+    {
+      "Attorney": "Laura Nicole Ferguson",
+      "IsCounselofRecord": true,
+      "Title": "Quinn Emanuel Urquhart & Sullivan, LLP",
+      "PrisonerId": null,
+      "Phone": "(305) 402-4880",
+      "Address": "2601 S. Bayshore Drive\r\nSuite 1550",
+      "City": "Miami",
+      "State": "FL",
+      "Zip": "33133",
+      "Email": "lauraferguson@quinnemanuel.com",
+      "PartyName": "Professors of Constitutional Law"
+    },
+    {
+      "Attorney": "Benjamin Michael Flowers",
+      "IsCounselofRecord": true,
+      "Title": "Ashbrook Byrne Kresge Flowers LLC",
+      "PrisonerId": null,
+      "Phone": "(513) 201-5775",
+      "Address": "PO Box 8248",
+      "City": "Cincinnati",
+      "State": "OH",
+      "Zip": "45249",
+      "Email": "bflowers@abkf.com",
+      "PartyName": "United States Conference of Catholic Bishops"
+    },
+    {
+      "Attorney": "Tara C. Ford",
+      "IsCounselofRecord": true,
+      "Title": "Public Counsel",
+      "PrisonerId": null,
+      "Phone": "(213) 385-2977",
+      "Address": "610 S. Ardmore Avenue",
+      "City": "Los Angeles",
+      "State": "CA",
+      "Zip": "90005",
+      "Email": "tford@publiccounsel.org",
+      "PartyName": "Advocates for Girls' and Women's Rights"
+    },
+    {
+      "Attorney": "Sean Paul Gates",
+      "IsCounselofRecord": true,
+      "Title": "Charis Lex P.C.",
+      "PrisonerId": null,
+      "Phone": "(626) 508-1715",
+      "Address": "155 N. Lake Ave., Ste. 800",
+      "City": "Pasadena",
+      "State": "CA",
+      "Zip": "91101",
+      "Email": "SGATES@CHARISLEX.COM",
+      "PartyName": "Doctors of Sports Medicine"
+    },
+    {
+      "Attorney": "Suzanne Beth Goldberg",
+      "IsCounselofRecord": true,
+      "Title": "Columbia Law School",
+      "PrisonerId": null,
+      "Phone": "212-854-4291",
+      "Address": "435 West 116th Street",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10027",
+      "Email": "sgoldberg@columbia.edu",
+      "PartyName": "Scholars of Equal Opportunity and Antidiscrimination Law"
+    },
+    {
+      "Attorney": "M. Norman Goldberger",
+      "IsCounselofRecord": true,
+      "Title": "Ballard Spahr Andrews & Ingersoll",
+      "PrisonerId": null,
+      "Phone": "(215) 665-8500",
+      "Address": "1735 Market Street\r\n51st Floor",
+      "City": "Philadelphia",
+      "State": "PA",
+      "Zip": "19103",
+      "Email": "Goldbergerm@ballardspahr.com",
+      "PartyName": "Organization of American Historians, the LGBTQ+ History Association, and Historian Scholars"
+    },
+    {
+      "Attorney": "Kaitlyn Alissa Golden",
+      "IsCounselofRecord": true,
+      "Title": "Democracy Forward Foundation",
+      "PrisonerId": null,
+      "Phone": "2024489090",
+      "Address": "P.O. Box 34553",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20043",
+      "Email": "kgolden@democracyforward.org",
+      "PartyName": "National Women's Law Center"
+    },
+    {
+      "Attorney": "Brianne Jenna Gorod",
+      "IsCounselofRecord": true,
+      "Title": "Constitutional Accountability Center",
+      "PrisonerId": null,
+      "Phone": "202 296 6889",
+      "Address": "1730 Rhode Island Ave. NW\r\nSuite 1200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "BRIANNE@THEUSCONSTITUTION.ORG",
+      "PartyName": "Constitutional Accountability Center"
+    },
+    {
+      "Attorney": "Benjamin Blystad Gould",
+      "IsCounselofRecord": true,
+      "Title": "Keller Rohrback L.L.P.",
+      "PrisonerId": null,
+      "Phone": "206-623-1900",
+      "Address": "1201 Third Avenue, Suite 3400",
+      "City": "Seattle",
+      "State": "WA",
+      "Zip": "98101",
+      "Email": "bgould@kellerrohrback.com",
+      "PartyName": "Constitutional Law Scholars in Support of Respondents"
+    },
+    {
+      "Attorney": "Richard Shawn Gunnarson",
+      "IsCounselofRecord": true,
+      "Title": "Kirton McConkie",
+      "PrisonerId": null,
+      "Phone": "801-328-3600",
+      "Address": "Key Bank Tower\r\n36 South State Street, Suite 1900",
+      "City": "Salt Lake City",
+      "State": "UT",
+      "Zip": "84111",
+      "Email": "SGUNNARSON@KMCLAW.COM",
+      "PartyName": "The Church of Jesus Christ of Latter-day Saints, et al."
+    },
+    {
+      "Attorney": "Kyle Douglas Hawkins",
+      "IsCounselofRecord": true,
+      "Title": "Lehotsky Keller Cohn LLP",
+      "PrisonerId": null,
+      "Phone": "(512) 693-8350",
+      "Address": "408 West 11th Street\r\nFifth Floor",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": "78701",
+      "Email": "kyle@lkcfirm.com",
+      "PartyName": "Interested Sports Physiologists"
+    },
+    {
+      "Attorney": "Emily Eileen Jones",
+      "IsCounselofRecord": true,
+      "Title": "Jones Law Firm. PLLC",
+      "PrisonerId": null,
+      "Phone": "4063847990",
+      "Address": "115 N. Broadway, Suite 410",
+      "City": "Billings",
+      "State": "MT",
+      "Zip": "59101",
+      "Email": "emily@joneslawmt.com",
+      "PartyName": "Five Female Olympic Rowers"
+    },
+    {
+      "Attorney": "Brian Kirk Kelsey",
+      "IsCounselofRecord": true,
+      "Title": "America First Policy Institute",
+      "PrisonerId": null,
+      "Phone": "202-503-4305",
+      "Address": "1455 Pennsylvania Ave., NW\r\nSuite 225",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "bkelsey@americafirstpolicy.com",
+      "PartyName": "Six High School Athletes"
+    },
+    {
+      "Attorney": "Elizabeth Kristen",
+      "IsCounselofRecord": true,
+      "Title": "The California Women's Law Center",
+      "PrisonerId": null,
+      "Phone": "3239519276",
+      "Address": "360 N. Pacific Coast Hwy.\r\nSuite 2070",
+      "City": "El Segundo",
+      "State": "CA",
+      "Zip": "90245",
+      "Email": "elizabeth.kristen@cwlc.org",
+      "PartyName": "California Women\u2019s Law Center"
+    },
+    {
+      "Attorney": "Lawrence S. Lustberg",
+      "IsCounselofRecord": true,
+      "Title": "Gibbons P.C.",
+      "PrisonerId": null,
+      "Phone": "973-596-4500",
+      "Address": "One Gateway Center",
+      "City": "Newark",
+      "State": "NJ",
+      "Zip": "07102",
+      "Email": "llustberg@gibbonslaw.com",
+      "PartyName": "Federal Jurisdiction Scholars"
+    },
+    {
+      "Attorney": "Erin Elizabeth Mersino",
+      "IsCounselofRecord": true,
+      "Title": "Advocates for Faith and Freedom",
+      "PrisonerId": null,
+      "Phone": "951-326-4554",
+      "Address": "25026 Las Brisas Road",
+      "City": "Murrieta",
+      "State": "CA",
+      "Zip": "92562",
+      "Email": "emersino@faith-freedom.com",
+      "PartyName": "John Adams Academies, Chino Valley Unified School District, Temecula Valley Unified School District, Murrieta Valley Unified School District, Perris Union High School District, Placer Union High School District, Kern County Board of Education, and Orange County Board of Education"
+    },
+    {
+      "Attorney": "Christopher E. Mills",
+      "IsCounselofRecord": true,
+      "Title": "Spero Law LLC",
+      "PrisonerId": null,
+      "Phone": "8436060640",
+      "Address": "557 East Bay Street #22251",
+      "City": "Charleston",
+      "State": "SC",
+      "Zip": "29413",
+      "Email": "cmills@spero.law",
+      "PartyName": "America First Legal Foundation"
+    },
+    {
+      "Attorney": "Christopher E. Mills",
+      "IsCounselofRecord": true,
+      "Title": "Spero Law LLC",
+      "PrisonerId": null,
+      "Phone": "8436060640",
+      "Address": "557 East Bay Street #22251",
+      "City": "Charleston",
+      "State": "SC",
+      "Zip": "29413",
+      "Email": "cmills@spero.law",
+      "PartyName": "Concerned Women for America and Samaritan\u2019s Purse"
+    },
+    {
+      "Attorney": "Daniel Isaac Morenoff",
+      "IsCounselofRecord": true,
+      "Title": "The American Civil Rights Projects",
+      "PrisonerId": null,
+      "Phone": "(214) 504-1835",
+      "Address": "P.O. Box 12207",
+      "City": "Dallas",
+      "State": "TX",
+      "Zip": "75225",
+      "Email": "dan@americancivilrightsproject.org",
+      "PartyName": "The American Civil Rights Project"
+    },
+    {
+      "Attorney": "Nicholas J. Nelson",
+      "IsCounselofRecord": true,
+      "Title": "CrossCastle PLLC",
+      "PrisonerId": null,
+      "Phone": "612-429-8100",
+      "Address": "333 Washington Ave. N.\r\nSuite 300-9078",
+      "City": "Minneapolis",
+      "State": "MN",
+      "Zip": "55401",
+      "Email": "nicholas.nelson@crosscastle.com",
+      "PartyName": "A.C. a minor, by her next friend and mother Abigail Cross"
+    },
+    {
+      "Attorney": "Tim Newton",
+      "IsCounselofRecord": true,
+      "Title": "Murphy and Grantland, P.A.",
+      "PrisonerId": null,
+      "Phone": "803-782-4100",
+      "Address": "Post Office Box 6648",
+      "City": "Columbia",
+      "State": "SC",
+      "Zip": "29260",
+      "Email": "TNEWTON@MURPHYGRANTLAND.COM",
+      "PartyName": "American Association of Christian Schools, et al."
+    },
+    {
+      "Attorney": "Katherine Brady Norman",
+      "IsCounselofRecord": true,
+      "Title": "New Civil Liberties Alliance",
+      "PrisonerId": null,
+      "Phone": "(202) 869-5210",
+      "Address": "4250 N. Fairfax Drive\r\nSuite 300",
+      "City": "Arlington",
+      "State": "VA",
+      "Zip": "22203",
+      "Email": "casey.norman@ncla.legal",
+      "PartyName": "New Civil Liberties Alliance"
+    },
+    {
+      "Attorney": "Alice Margaret O'Brien",
+      "IsCounselofRecord": true,
+      "Title": "National Education Association",
+      "PrisonerId": null,
+      "Phone": "202 822 7035",
+      "Address": "1201 16th Street, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "aobrien@nea.org",
+      "PartyName": "National Education Association"
+    },
+    {
+      "Attorney": "William Jeffrey Olson",
+      "IsCounselofRecord": true,
+      "Title": "William J. Olson, P.C.",
+      "PrisonerId": null,
+      "Phone": "7033565070",
+      "Address": "370 Maple Ave. W., Suite 4",
+      "City": "Vienna",
+      "State": "VA",
+      "Zip": "22180",
+      "Email": "WJO@MINDSPRING.COM",
+      "PartyName": "America's Future, Public Advocate of the United States, Eagle Forum, Eagle Forum Foundation, Clare Boothe Luce Center for Cons. Women, Leadership Institute, U.S. Constitutional Rights Legal Def. Fund, Fitzgerald Griffin Foundation, One Nation Under God Foundation, and Conservative Legal Def. and Education Fund"
+    },
+    {
+      "Attorney": "William Jeffrey Olson",
+      "IsCounselofRecord": true,
+      "Title": "William J. Olson, P.C.",
+      "PrisonerId": null,
+      "Phone": "7033565070",
+      "Address": "370 Maple Ave. W., Suite 4",
+      "City": "Vienna",
+      "State": "VA",
+      "Zip": "22180",
+      "Email": "WJO@MINDSPRING.COM",
+      "PartyName": "America's Future, Public Advocate of the United States, Public Advocate Foundation, Clare Boothe Luce Center for Conservative Women, U.S. Constitutional Rights Legal Defense Fund, One Nation Under God Foundation, and Conservative Legal Defense and Education Fund"
+    },
+    {
+      "Attorney": "Autumn Hamit Patterson",
+      "IsCounselofRecord": true,
+      "Title": "Office of the Arkansas Attorney General",
+      "PrisonerId": null,
+      "Phone": "5016822007",
+      "Address": "101 West Capitol Avenue",
+      "City": "Little Rock",
+      "State": "AR",
+      "Zip": "72201",
+      "Email": "autumn.patterson@arkansasag.gov",
+      "PartyName": "State of Arkansas"
+    },
+    {
+      "Attorney": "Joshua Kerry Payne",
+      "IsCounselofRecord": true,
+      "Title": "Campbell Miller Payne, PLLC",
+      "PrisonerId": null,
+      "Phone": "214-316-7156",
+      "Address": "5955 Alpha Road #1491",
+      "City": "Dallas",
+      "State": "TX",
+      "Zip": "75240",
+      "Email": "josh@cmppllc.com",
+      "PartyName": "Billy Burleigh, KathyGrace Duncan, Laura Perry Smalts, and Jane Smith"
+    },
+    {
+      "Attorney": "Rita Martin Peters",
+      "IsCounselofRecord": true,
+      "Title": "Attorney at Law",
+      "PrisonerId": null,
+      "Phone": "5408301229",
+      "Address": "5850 San Felipe\r\nSuite 575A",
+      "City": "Houston",
+      "State": "TX",
+      "Zip": "77057",
+      "Email": "ritamartinpeters@gmail.com",
+      "PartyName": "A.C., a minor, by her next friend and mother Abigail Cross"
+    },
+    {
+      "Attorney": "Thomas E. Redburn Jr.",
+      "IsCounselofRecord": true,
+      "Title": "Lowenstein Sandler LLP",
+      "PrisonerId": null,
+      "Phone": "(973) 597-2500",
+      "Address": "One Lowenstein Drive",
+      "City": "Roseland",
+      "State": "NJ",
+      "Zip": "07068",
+      "Email": "tredburn@lowenstein.com",
+      "PartyName": "Practicing Pediatric Endocrinologists and Pediatricians"
+    },
+    {
+      "Attorney": "Jonathan Zak Ritchie",
+      "IsCounselofRecord": true,
+      "Title": "Hissam Forman Donovan Ritchie PLLC",
+      "PrisonerId": null,
+      "Phone": "6812653802",
+      "Address": "700 Virginia Street East, Suite 210",
+      "City": "Charleston",
+      "State": "WV",
+      "Zip": "25301",
+      "Email": "zritchie@hfdrlaw.com",
+      "PartyName": "Dr. Daniel Kodsi, Mr. John Maier, Prof. Robert George and 21 Other Philosophers"
+    },
+    {
+      "Attorney": "Mary Patricia Rohmiller",
+      "IsCounselofRecord": true,
+      "Title": "Potomac Law Group",
+      "PrisonerId": null,
+      "Phone": "202-558-5557",
+      "Address": "1717 Pennsylvania Ave, NW Suite 1025",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "mrohmiller@potomaclaw.com",
+      "PartyName": "Title IX Scholars"
+    },
+    {
+      "Attorney": "Jacob Max Rosen",
+      "IsCounselofRecord": true,
+      "Title": "Munger, Tolles & Olson LLP",
+      "PrisonerId": null,
+      "Phone": "(415) 512-4000",
+      "Address": "560 Mission Street",
+      "City": "San Francisco",
+      "State": "CA",
+      "Zip": "94105",
+      "Email": "max.rosen@mto.com",
+      "PartyName": "Equal Protection Scholars"
+    },
+    {
+      "Attorney": "Samuel Joseph Salario Jr.",
+      "IsCounselofRecord": true,
+      "Title": "Lawson Huck Gonzalez",
+      "PrisonerId": null,
+      "Phone": "8137655113",
+      "Address": "1700 South Macdill Ave suite 240",
+      "City": "Tampa",
+      "State": "FL",
+      "Zip": "33629",
+      "Email": "samuel@lawsonhuckgonzalez.com",
+      "PartyName": "Female Athletes United, Selina Soule, Chelsea Mitchell, and Alanna Smith"
+    },
+    {
+      "Attorney": "Sasha Minh Samberg-Champion",
+      "IsCounselofRecord": true,
+      "Title": null,
+      "PrisonerId": null,
+      "Phone": "2028981661",
+      "Address": "1331 Pennsylvania Ave. NW, #650",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "ssamberg-champion@nationalfairhousing.org",
+      "PartyName": "National Fair Housing Alliance"
+    },
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": false,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "United States"
+    },
+    {
+      "Attorney": "Anthony David Sbardellati",
+      "IsCounselofRecord": true,
+      "Title": "Grove Law LLP",
+      "PrisonerId": null,
+      "Phone": "3108536020",
+      "Address": "10000 Washington Blvd., 6th Floor",
+      "City": "Culver City",
+      "State": "CA",
+      "Zip": "90232",
+      "Email": "asbardellati@grove.law",
+      "PartyName": "The Transgender Law Center, Genders & Sexualities Alliance Network, and PFLAG, Inc."
+    },
+    {
+      "Attorney": "Gene Clayton Schaerr",
+      "IsCounselofRecord": true,
+      "Title": "Schaerr | Jaffe",
+      "PrisonerId": null,
+      "Phone": "202-787-1060",
+      "Address": "1717 K Street NW, Suite 900",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "GSCHAERR@SCHAERR-JAFFE.COM",
+      "PartyName": "Independent Women's Law Center"
+    },
+    {
+      "Attorney": "Laura Elizabeth Wolk Slavis",
+      "IsCounselofRecord": true,
+      "Title": "The Becket Fund for Religious Liberty",
+      "PrisonerId": null,
+      "Phone": "202-955-0095",
+      "Address": "1919 Pennsylvania Avenue NW, Suite 400",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "lslavis@becketfund.org",
+      "PartyName": "The Becket Fund for Religious Liberty"
+    },
+    {
+      "Attorney": "Justin Daniel Smith",
+      "IsCounselofRecord": true,
+      "Title": "James Otis Law Group, LLC",
+      "PrisonerId": null,
+      "Phone": "8166782103",
+      "Address": "530 Maryville Centre Drive, Suite 230",
+      "City": "St. Louis",
+      "State": "MO",
+      "Zip": "63141",
+      "Email": "Justin.Smith@james-otis.com",
+      "PartyName": "President of the Arizona State Senate Warren Petersen and Speaker of the Arizona House of Representatives Steve Montenegro"
+    },
+    {
+      "Attorney": "Priscilla J. Smith",
+      "IsCounselofRecord": true,
+      "Title": "Yale Law School",
+      "PrisonerId": null,
+      "Phone": "(347) 262-5177",
+      "Address": "319 Sterling Place",
+      "City": "Brooklyn",
+      "State": "NY",
+      "Zip": "11238",
+      "Email": "priscilla.smith@yale.edu",
+      "PartyName": "Information Society Project at Yale Law School"
+    },
+    {
+      "Attorney": "Timothy Ray Snowball",
+      "IsCounselofRecord": true,
+      "Title": "Legal Insurrection Foundation",
+      "PrisonerId": null,
+      "Phone": "(401) 246-4192",
+      "Address": "18 Maple Avenue 280",
+      "City": "Barrington",
+      "State": "RI",
+      "Zip": "02806",
+      "Email": "tim@legalinsurrection.com",
+      "PartyName": "Equal Protection Project"
+    },
+    {
+      "Attorney": "Anna Elizabeth Wagner St. John",
+      "IsCounselofRecord": true,
+      "Title": "Hamilton Lincoln Law Institute",
+      "PrisonerId": null,
+      "Phone": "9173272392",
+      "Address": "1629 K St. NW Suite 300",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "anna.stjohn@hlli.org",
+      "PartyName": "35 Athletic Officials and Coaches of Female Athletes"
+    },
+    {
+      "Attorney": "Joseph Scott St. John",
+      "IsCounselofRecord": true,
+      "Title": "St. John LLC",
+      "PrisonerId": null,
+      "Phone": "4102123475",
+      "Address": "1701 Jefferson Ave",
+      "City": "New Orleans",
+      "State": "LA",
+      "Zip": "70115",
+      "Email": "scott@stjohnlaw.com",
+      "PartyName": "96 West Virginia Legislators"
+    },
+    {
+      "Attorney": "Nancy Karoline Stade",
+      "IsCounselofRecord": true,
+      "Title": "Women\u2019s Liberation Front",
+      "PrisonerId": null,
+      "Phone": "(202) 507-9475",
+      "Address": "1930 18th Street NW Ste B2 #2036",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20009",
+      "Email": "boardtreasurer@womensliberationfront.org",
+      "PartyName": "Women's Liberation Front"
+    },
+    {
+      "Attorney": "Mathew D. Staver",
+      "IsCounselofRecord": true,
+      "Title": null,
+      "PrisonerId": null,
+      "Phone": "(202) 289-1776",
+      "Address": "109 Second St., NE",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20002",
+      "Email": "COURT@LC.ORG",
+      "PartyName": "Liberty Counsel"
+    },
+    {
+      "Attorney": "Judd Edward Stone II",
+      "IsCounselofRecord": true,
+      "Title": "Stone | Hilton PLLC",
+      "PrisonerId": null,
+      "Phone": "(737) 465-3897",
+      "Address": "600 Congress Ave.\r\nSuite 2350",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": "78701",
+      "Email": "judd@stonehilton.com",
+      "PartyName": "President Pro Tempore of the Idaho Senate Kelly Anthon and Speaker of the Idaho House of Representatives Mike Moyle"
+    },
+    {
+      "Attorney": "Michelle Shamblin Stratton",
+      "IsCounselofRecord": true,
+      "Title": "Murphy Ball Stratton LLP",
+      "PrisonerId": null,
+      "Phone": "832-726-8321",
+      "Address": "1001 Fannin St., Ste. 720",
+      "City": "Houston",
+      "State": "TX",
+      "Zip": "77002",
+      "Email": "mstratton@mbssmartlaw.com",
+      "PartyName": "Sport Scientists"
+    },
+    {
+      "Attorney": "John Clay Sullivan",
+      "IsCounselofRecord": true,
+      "Title": "S|L Law PLLC",
+      "PrisonerId": null,
+      "Phone": "4695231351",
+      "Address": "610 Uptown Boulevard, Suite 2000",
+      "City": "Cedar Hill",
+      "State": "TX",
+      "Zip": "75104",
+      "Email": "john.sullivan@slfirm.com",
+      "PartyName": "Sex Matters"
+    },
+    {
+      "Attorney": "David H. Thompson",
+      "IsCounselofRecord": true,
+      "Title": "Cooper & Kirk, PLLC",
+      "PrisonerId": null,
+      "Phone": "202-220-9600",
+      "Address": "1523 New Hampshire Avenue, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "DTHOMPSON@COOPERKIRK.COM",
+      "PartyName": "Do No Harm"
+    },
+    {
+      "Attorney": "William E. Trachman",
+      "IsCounselofRecord": true,
+      "Title": "Mountain States Legal Foundation",
+      "PrisonerId": null,
+      "Phone": "3032922021",
+      "Address": "2596 S Lewis Way",
+      "City": "Lakewood",
+      "State": "CO",
+      "Zip": "80227",
+      "Email": "wtrachman@mslegal.org",
+      "PartyName": "Mountain States Legal Foundation"
+    },
+    {
+      "Attorney": "Edward Howard Trent",
+      "IsCounselofRecord": true,
+      "Title": "Schaerr Jaffe LLP",
+      "PrisonerId": null,
+      "Phone": "2027871060",
+      "Address": "1717 K Street NW\r\nSuite 900",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "etrent@schaerr-jaffe.com",
+      "PartyName": "The American College of Pediatricians"
+    },
+    {
+      "Attorney": "Conor Denali Tucker",
+      "IsCounselofRecord": true,
+      "Title": "Steptoe LLP",
+      "PrisonerId": null,
+      "Phone": "(213) 439-9400",
+      "Address": "633 West 5th Street\r\nSuite 1900",
+      "City": "Los Angeles",
+      "State": "CA",
+      "Zip": "90071",
+      "Email": "ctucker@steptoe.com",
+      "PartyName": "Members of Congress"
+    },
+    {
+      "Attorney": "Barbara Dale Underwood",
+      "IsCounselofRecord": true,
+      "Title": "New York Solicitor General",
+      "PrisonerId": null,
+      "Phone": "212-416-8016",
+      "Address": "Office of the Attorney General\r\n28 Liberty Street",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10005-1400",
+      "Email": "BARBARA.UNDERWOOD@AG.NY.GOV",
+      "PartyName": "States of New York, Hawai\u2018i, California, Colorado, Connecticut, Delaware, Illinois, Maine, Maryland, Massachusetts, Minnesota, Oregon, Rhode Island, Vermont, and Washington, and the District of Columbia"
+    },
+    {
+      "Attorney": "William Wagner",
+      "IsCounselofRecord": true,
+      "Title": "Great Lakes Justice Center",
+      "PrisonerId": null,
+      "Phone": "517-643-1765",
+      "Address": "5600 West Mount Hope Hwy",
+      "City": "Lansing",
+      "State": "MI",
+      "Zip": "48917",
+      "Email": "PROF.WWJD@GMAIL.COM",
+      "PartyName": "Dr. Brent Ellis, President Spring Arbor University and the Wagner Center"
+    },
+    {
+      "Attorney": "Randall L. Wenger",
+      "IsCounselofRecord": true,
+      "Title": "Independence Law Center",
+      "PrisonerId": null,
+      "Phone": "717-657-4990",
+      "Address": "23 N. Front Street, First Floor",
+      "City": "Harrisburg",
+      "State": "PA",
+      "Zip": "17101",
+      "Email": "rwenger@indlawcenter.org",
+      "PartyName": "Pennsylvania School Board Directors"
+    },
+    {
+      "Attorney": "John Marc Wheat",
+      "IsCounselofRecord": true,
+      "Title": "Advancing American Freedom, Inc.",
+      "PrisonerId": null,
+      "Phone": "(202) 780-4848",
+      "Address": "801 Pennsylvania Ave., NW\r\nSuite 930",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004-2729",
+      "Email": "MWHEAT@ADVANCINGAMERICANFREEDOM.COM",
+      "PartyName": "Advancing American Freedom"
+    },
+    {
+      "Attorney": "Jonathan Radford Whitehead",
+      "IsCounselofRecord": true,
+      "Title": "Law Offices of Jonathan R. Whitehead, LLC",
+      "PrisonerId": null,
+      "Phone": "18163988305",
+      "Address": "229 SE Douglas St., Ste 210",
+      "City": "Lee's Summit",
+      "State": "MO",
+      "Zip": "64063",
+      "Email": "JON@WHITEHEADLAWLLC.COM",
+      "PartyName": "Business Leaders"
+    },
+    {
+      "Attorney": "Edward Charles Wilde",
+      "IsCounselofRecord": true,
+      "Title": "Overing Morales Professional Law Corporation",
+      "PrisonerId": null,
+      "Phone": "6265648600",
+      "Address": "790 E. Colorado Blvd., Ste. 320",
+      "City": "Pasadena",
+      "State": "CA",
+      "Zip": "91101",
+      "Email": "ewilde@digitalmedialaw.com",
+      "PartyName": "Dr. Mark Regnerus"
+    },
+    {
+      "Attorney": "Gene Micah Wissinger",
+      "IsCounselofRecord": true,
+      "Title": "Levy Ratner, P.C.",
+      "PrisonerId": null,
+      "Phone": "2126278100",
+      "Address": "80 8th Avenue, Floor 8",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10011",
+      "Email": "mwissinger@levyratner.com",
+      "PartyName": "Andraya Yearwood"
+    }
+  ]
+}

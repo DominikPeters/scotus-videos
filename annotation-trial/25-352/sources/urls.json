@@ -1,0 +1,18 @@
+{
+  "qp.txt": "https://www.supremecourt.gov/qp/25-00352qp.pdf",
+  "petition.pdf": "https://www.supremecourt.gov/DocketPDF/25/25-352/375544/20250922164825888_25-%20Petition.pdf",
+  "usc-42-2000e.txt": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/html/USCODE-2024-title42-chap21-subchapVI-sec2000e.htm",
+  "usc-42-2000e-16c.txt": "https://www.govinfo.gov/content/pkg/USCODE-2024-title42/html/USCODE-2024-title42-chap21-subchapVI-sec2000e-16c.htm",
+  "cap-371-178.txt": "https://static.case.law/us/371/cases/0178-01.json",
+  "cap-566-463.txt": "https://static.case.law/us/566/cases/0463-01.json",
+  "cap-f3d-126-339.txt": "https://static.case.law/f3d/126/cases/0339-01.json",
+  "cap-f3d-246-458.txt": "https://static.case.law/f3d/246/cases/0458-01.json",
+  "cap-f3d-435-1196.txt": "https://static.case.law/f3d/435/cases/1196-01.json",
+  "frcp-8.txt": "https://www.law.cornell.edu/rules/frcp/rule_8",
+  "frcp-12.txt": "https://www.law.cornell.edu/rules/frcp/rule_12",
+  "frcp-15.txt": "https://www.law.cornell.edu/rules/frcp/rule_15",
+  "frcp-16.txt": "https://www.law.cornell.edu/rules/frcp/rule_16",
+  "frcp-54.txt": "https://www.law.cornell.edu/rules/frcp/rule_54",
+  "frcp-56.txt": "https://www.law.cornell.edu/rules/frcp/rule_56",
+  "frcp-61.txt": "https://www.law.cornell.edu/rules/frcp/rule_61"
+}

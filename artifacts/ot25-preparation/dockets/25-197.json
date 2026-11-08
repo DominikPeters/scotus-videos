@@ -1,0 +1,482 @@
+{
+  "CaseNumber": "25-197 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "07/20/2026",
+  "sJsonTerm": "2025",
+  "sJsonCaseNumber": "00197",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "T. M., Petitioner",
+  "RespondentTitle": "University of Maryland Medical System Corporation, et al.",
+  "DocketedDate": "August 19, 2025",
+  "LowerCourt": "United States Court of Appeals for the Fourth Circuit",
+  "LowerCourtCaseNumbers": "(24-1707)",
+  "LowerCourtDecision": "June 4, 2025",
+  "QPLink": "../qp/25-00197qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Aug 15 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due September 18, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "TM_pet.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/369851/20250815135118630_TM_pet.pdf"
+        },
+        {
+          "Description": "Appendix",
+          "File": "TM_pet_app.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/369851/20250815135129561_TM_pet_app.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "TM_pet_wordcount.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/369851/20250815135143118_TM_pet_wordcount.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "TM_pet_service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/369851/20250815135153859_TM_pet_service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 05 2025",
+      "Text": "Motion to extend the time to file a response from September 18, 2025 to October 20, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Extension Request - TM v. Univ. of Md. Med. Sys. Corp.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/373866/20250905143630185_Extension%20Request%20-%20TM%20v.%20Univ.%20of%20Md.%20Med.%20Sys.%20Corp.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/373866/20250905143644610_Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 08 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including October 20, 2025."
+    },
+    {
+      "Date": "Oct 20 2025",
+      "Text": "Brief of respondents University of Maryland Medical System Corporation, et al. in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "T.M. v. Univ. Md. Med. Sys. Corp BIO.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/380028/20251020122754253_T.M.%20v.%20Univ.%20Md.%20Med.%20Sys.%20Corp%20BIO.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "TM v. UMMS Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/380028/20251020122816493_TM%20v.%20UMMS%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "TM v. UMMS Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/380028/20251020122804336_TM%20v.%20UMMS%20Certificate%20of%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 05 2025",
+      "Text": "DISTRIBUTED for Conference of 11/21/2025."
+    },
+    {
+      "Date": "Nov 05 2025",
+      "Text": "Reply of petitioner T.M. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-197_cert_reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/383624/20251105115313648_25-197_cert_reply.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-197_service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/383624/20251105115420752_25-197_service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-197_word_count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/383624/20251105115328109_25-197_word_count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 01 2025",
+      "Text": "DISTRIBUTED for Conference of 12/5/2025."
+    },
+    {
+      "Date": "Dec 05 2025",
+      "Text": "Petition GRANTED."
+    },
+    {
+      "Date": "Jan 14 2026",
+      "Text": "Brief of petitioner T.M. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-197_petbr.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/391713/20260114130929641_25-197_petbr.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-197_petbr_wordcount.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/391713/20260114130939361_25-197_petbr_wordcount.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-197_petbr_service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/391713/20260114130952387_25-197_petbr_service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 14 2026",
+      "Text": "Joint appendix Volume I (redacted) filed.  (Statement of costs filed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-197_ja1.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/391714/20260114131135522_25-197_ja1.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-197_petbr_service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/391714/20260114131152713_25-197_petbr_service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 14 2026",
+      "Text": "Motion for leave to file Volume I of the joint appendix with redactions and Volume II under seal filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-197_motionseal.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/391715/20260114131532273_25-197_motionseal.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-197_motionseal_service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/391715/20260114131541493_25-197_motionseal_service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Amicus brief of Cyrus Sanai not accepted for filing. (To be corrected - February 4, 2026)"
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amicus curiae of Cyrus Sanai filed. (Corrected)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "T.M. Amicus v11 with cover.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/396088/20260211233812776_T.M.%20Amicus%20v11%20with%20cover.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Word Court v2.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/396088/20260211234318464_Word%20Court%20v2.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "POS v2.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/396088/20260211234405602_POS%20v2.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amicus curiae of Institute for Justice filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Brief for the Institute for Justice as Amicus Curiae in Support of Petitioner Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/392254/20260121101440950_Brief%20for%20the%20Institute%20for%20Justice%20as%20Amicus%20Curiae%20in%20Support%20of%20Petitioner%20Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/392254/20260121101522086_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Compliance Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/392254/20260121101509754_Certificate%20of%20Compliance%20Final.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amici curiae of Federal Courts Scholars filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-197 Brief of Amici Curiae Federal Courts Scholars ISO Petitioners.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/392342/20260121143132885_25-197%20Brief%20of%20Amici%20Curiae%20Federal%20Courts%20Scholars%20ISO%20Petitioners.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-197 COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/392342/20260121143302351_25-197%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-197 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/392342/20260121143225283_25-197%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amicus curiae of Constitutional Accountability Center filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "T.M. CAC Amicus Brief FINAL FOR FILING.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/392263/20260121103737990_T.M.%20CAC%20Amicus%20Brief%20FINAL%20FOR%20FILING.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "T.M. Certificate of Service FINAL FOR FILING.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/392263/20260121103834976_T.M.%20Certificate%20of%20Service%20FINAL%20FOR%20FILING.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "T.M. Certificate of Compliance FINAL FOR FILING.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/392263/20260121103745520_T.M.%20Certificate%20of%20Compliance%20FINAL%20FOR%20FILING.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 26 2026",
+      "Text": "Motion for leave to file Volume I of the joint appendix with redactions and Volume II under seal GRANTED."
+    },
+    {
+      "Date": "Feb 11 2026",
+      "Text": "SET FOR ARGUMENT on Monday, April 20, 2026."
+    },
+    {
+      "Date": "Feb 13 2026",
+      "Text": "Brief of respondents University of Maryland Medical System Corporation, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "TM v. UMM Merits Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/396216/20260213112320341_TM%20v.%20UMM%20Merits%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "UMMS Cert of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/396216/20260213112325693_UMMS%20Cert%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "UMMS Cert of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/396216/20260213112335743_UMMS%20Cert%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 18 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Fourth Circuit."
+    },
+    {
+      "Date": "Feb 18 2026",
+      "Text": "Sealed material received electronically from the United States Court of Appeals for the Fourth Circuit and available with the Clerk. The remainder of the record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Feb 20 2026",
+      "Text": "Brief amici curiae of American Medical Association, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-197_Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/396923/20260220165314061_25-197_Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-197_Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/396923/20260220165343425_25-197_Service%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-197_Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/396923/20260220165321585_25-197_Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 16 2026",
+      "Text": "Reply of T.M. not accepted for filing. (March 16, 2026 - To be corrected.)"
+    },
+    {
+      "Date": "Mar 16 2026",
+      "Text": "Reply of petitioner T.M. filed.  (Corrected - March 19, 2026.)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-197_reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/401296/20260319113423719_25-197_reply.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-197_word_count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/401296/20260319113431324_25-197_word_count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-197_service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/401296/20260319113438936_25-197_service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 23 2026",
+      "Text": "Sealed material received electronically from the United States District Court for the District of Maryland and available with the Clerk. The remainder of the record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Apr 20 2026",
+      "Text": "Argued. For petitioner: Elizabeth B. Prelogar, Washington, D. C.  For respondents: Lisa S. Blatt, Washington, D. C."
+    },
+    {
+      "Date": "Jun 18 2026",
+      "Text": "Adjudged to be AFFIRMED.  Sotomayor, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/25-197_new_4g15.pdf'>opinion</a> of the Court, in which Thomas, Alito, Kavanaugh, and Jackson, JJ., joined. Thomas, J., filed a concurring opinion. Barrett, J., filed a dissenting opinion, in which Roberts, C. J., and Kagan and Gorsuch, JJ., joined."
+    },
+    {
+      "Date": "Jul 20 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 25-197 Aff 4th. Cir. 7.20.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-197/416862/20260720115155703_EFILING%2025-197%20Aff%204th.%20Cir.%207.20.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioner",
+  "Petitioner": [
+    {
+      "Attorney": "Kannon K. Shanmugam",
+      "IsCounselofRecord": true,
+      "Title": "Davis Polk & Wardwell LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 962-7000",
+      "Address": "1050 17th Street, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "KSHANMUGAM@DAVISPOLK.COM",
+      "PartyName": "T.M."
+    },
+    {
+      "Attorney": "Elizabeth B. Prelogar",
+      "IsCounselofRecord": false,
+      "Title": "Cooley LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 776-2076",
+      "Address": "1299 Pennsylvania Ave\r\nSuite 700",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "eprelogar@cooley.com",
+      "PartyName": "T.M."
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondents",
+  "Respondent": [
+    {
+      "Attorney": "Lisa S. Blatt",
+      "IsCounselofRecord": true,
+      "Title": "Williams & Connolly LLP",
+      "PrisonerId": null,
+      "Phone": "202-434-5050",
+      "Address": "680 Maine Avenue SW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20024",
+      "Email": "LBLATT@WC.COM",
+      "PartyName": "University of Maryland Medical System Corporation, et al."
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Jack R. Bierig",
+      "IsCounselofRecord": true,
+      "Title": "ArentFox Schiff LLP",
+      "PrisonerId": null,
+      "Phone": "312-258-5500",
+      "Address": "233 S. Wacker Drive\r\nSuite 7100",
+      "City": "Chicago",
+      "State": "IL",
+      "Zip": "60606",
+      "Email": "jack.bierig@afslaw.com",
+      "PartyName": "American Medical Association and Maryland State Medical Society"
+    },
+    {
+      "Attorney": "Frances L. Diaz",
+      "IsCounselofRecord": true,
+      "Title": "Law Offices of Frances L. Diaz",
+      "PrisonerId": null,
+      "Phone": "3109275086",
+      "Address": "8306 Wilshire Blvd.\r\n#263",
+      "City": "Beverly Hills",
+      "State": "CA",
+      "Zip": "90211",
+      "Email": "francesdiaz@frontier.com",
+      "PartyName": "Cyrus Sanai"
+    },
+    {
+      "Attorney": "Benjamin Andrew Field",
+      "IsCounselofRecord": true,
+      "Title": "Institute for Justice",
+      "PrisonerId": null,
+      "Phone": "703-682-9320",
+      "Address": "901 N. Glebe Road\r\nSuite 900",
+      "City": "Arlingon",
+      "State": "VA",
+      "Zip": "22203",
+      "Email": "BFIELD@ij.org",
+      "PartyName": "Institute for Justice"
+    },
+    {
+      "Attorney": "Brianne Jenna Gorod",
+      "IsCounselofRecord": true,
+      "Title": "Constitutional Accountability Center",
+      "PrisonerId": null,
+      "Phone": "202 296 6889",
+      "Address": "1730 Rhode Island Ave. NW\r\nSuite 1200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "BRIANNE@THEUSCONSTITUTION.ORG",
+      "PartyName": "Constitutional Accountability Center"
+    },
+    {
+      "Attorney": "Robert Allen Long Jr.",
+      "IsCounselofRecord": true,
+      "Title": "Covington & Burling, LLP",
+      "PrisonerId": null,
+      "Phone": "202-662-6000",
+      "Address": "One CityCenter\r\n850 Tenth St., NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "RLONG@COV.COM",
+      "PartyName": "Federal Courts Scholars"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "richard_d_klingler": {
+    "status": 403,
+    "url": "https://georgellp.com/attorneys/richard-klingler/",
+    "images": []
+  },
+  "erin_e_murphy": {
+    "status": 200,
+    "url": "https://www.clementmurphy.com/who-we-are/erin-murphy/",
+    "images": [
+      [
+        "",
+        "https://www.clementmurphy.com/wp-content/uploads/CM.jpg"
+      ],
+      [
+        "",
+        "https://www.clementmurphy.com/who-we-are/erin-murphy/1200"
+      ],
+      [
+        "",
+        "https://www.clementmurphy.com/who-we-are/erin-murphy/675"
+      ],
+      [
+        "",
+        "https://www.clementmurphy.com/who-we-are/erin-murphy/image/jpeg"
+      ],
+      [
+        "Clement & Murphy, PLLC",
+        "https://www.clementmurphy.com/wp-content/themes/paperstreet/images/logo-dark.svg"
+      ],
+      [
+        "Clement & Murphy, PLLC",
+        "https://www.clementmurphy.com/wp-content/themes/paperstreet/images/logo-dark.svg"
+      ],
+      [
+        "Clement & Murphy, PLLC",
+        "https://www.clementmurphy.com/wp-content/themes/paperstreet/images/logo.svg"
+      ],
+      [
+        "Clement & Murphy, PLLC",
+        "https://www.clementmurphy.com/wp-content/themes/paperstreet/images/logo-dark.svg"
+      ],
+      [
+        "Clement & Murphy, PLLC",
+        "https://www.clementmurphy.com/wp-content/themes/paperstreet/images/logo.svg"
+      ],
+      [
+        "Erin E. Murphy attorney photo",
+        "https://www.clementmurphy.com/wp-content/uploads/Erin-E.-Murphy.jpg"
+      ]
+    ]
+  }
+}

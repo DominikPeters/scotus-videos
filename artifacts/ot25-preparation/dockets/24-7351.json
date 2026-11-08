@@ -1,0 +1,773 @@
+{
+  "CaseNumber": "24-7351 *** CAPITAL CASE ***",
+  "bCapitalCase": true,
+  "sJsonCreationDate": "06/29/2026",
+  "sJsonTerm": "2024",
+  "sJsonCaseNumber": "07351",
+  "sJsonCaseType": "IFP",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Terry Pitchford, Petitioner",
+  "RespondentTitle": "Burl Cain, Commissioner, Mississippi Department of Corrections, et al.",
+  "DocketedDate": "June 3, 2025",
+  "Links": "Linked with 24A1022",
+  "LowerCourt": "United States Court of Appeals for the Fifth Circuit",
+  "LowerCourtCaseNumbers": "(23-70009)",
+  "LowerCourtDecision": "January 17, 2025",
+  "LowerCourtRehearingDenied": "January 28, 2025",
+  "QPLink": "../qp/24-07351qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Apr 18 2025",
+      "Text": "Application (24A1022) to extend the time to file a petition for a writ of certiorari from April 28, 2025 to June 27, 2025, submitted to Justice Alito.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "TxP-2025.04.18-app.eot.pwc..pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/356048/20250418160745881_TxP-2025.04.18-app.eot.pwc..pdf"
+        },
+        {
+          "Description": "Lower Court Orders/Opinions",
+          "File": "Ex. A-Doc.108-1.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/356048/20250418160801324_Ex.%20A-Doc.108-1.pdf"
+        },
+        {
+          "Description": "Lower Court Orders/Opinions",
+          "File": "Ex. B-Doc.101.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/356048/20250418160809510_Ex.%20B-Doc.101.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "TxP-2025.04.18-app.eot.proofofservice.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/356048/20250418160821140_TxP-2025.04.18-app.eot.proofofservice.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 23 2025",
+      "Text": "Application (24A1022) granted by Justice Alito extending the time to file until May 28, 2025."
+    },
+    {
+      "Date": "May 28 2025",
+      "Text": "Petition for a writ of certiorari and motion for leave to proceed in forma pauperis filed. (Response due July 3, 2025)",
+      "Links": [
+        {
+          "Description": "Motion for Leave to Proceed in Forma Pauperis",
+          "File": "TxP-2025.05.28.IFP.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/359848/20250528194700457_TxP-2025.05.28.IFP.pdf"
+        },
+        {
+          "Description": "Petition",
+          "File": "TxP-2025.05.28.pwc.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/359848/20250528194840993_TxP-2025.05.28.pwc.pdf"
+        },
+        {
+          "Description": "Appendix",
+          "File": "TxP-PWC-appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/359848/20250528195113457_TxP-PWC-appendix.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "TxP-2025.05.28.ProofOfService.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/359848/20250528195129269_TxP-2025.05.28.ProofOfService.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 16 2025",
+      "Text": "Motion to extend the time to file a response from July 3, 2025 to August 4, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Pitchford Letter MFT 6.16.25.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/363277/20250616134812175_Pitchford%20Letter%20MFT%206.16.25.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 18 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including August 4, 2025."
+    },
+    {
+      "Date": "Jul 03 2025",
+      "Text": "Brief amici curiae of Linda Lee, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-7351 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/364469/20250703163538548_24-7351%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-7351 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/364469/20250703163558689_24-7351%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-7351 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/364469/20250703163548890_24-7351%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 03 2025",
+      "Text": "Brief amici curiae of Current and Former Elected Prosecutors, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-7351 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/364475/20250703171000249_24-7351%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-7351 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/364475/20250703171006831_24-7351%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-7351 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/364475/20250703171030958_24-7351%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 03 2025",
+      "Text": "Brief amicus curiae of Mississippi Legislative Black Caucus filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-7351 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/364453/20250703151643874_24-7351%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-7351 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/364453/20250703151658864_24-7351%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-7351 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/364453/20250703151715050_24-7351%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 01 2025",
+      "Text": "Brief of respondent Burl Cain, Commissioner, Mississippi Department of Corrections, et al. in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Pitchford BIO final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/368631/20250801120431754_Pitchford%20BIO%20final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate of service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/368631/20250801120445494_certificate%20of%20service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 15 2025",
+      "Text": "Reply of petitioner Terry Pitchford filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "TxP-2025.08.15-Reply..pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/369829/20250815124346904_TxP-2025.08.15-Reply..pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "TxP-2025.08.15.ProofOfService.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/369829/20250815124917508_TxP-2025.08.15.ProofOfService.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 21 2025",
+      "Text": "DISTRIBUTED for Conference of 9/29/2025."
+    },
+    {
+      "Date": "Oct 06 2025",
+      "Text": "DISTRIBUTED for Conference of 10/10/2025."
+    },
+    {
+      "Date": "Oct 14 2025",
+      "Text": "DISTRIBUTED for Conference of 10/17/2025."
+    },
+    {
+      "Date": "Nov 03 2025",
+      "Text": "DISTRIBUTED for Conference of 11/7/2025."
+    },
+    {
+      "Date": "Nov 10 2025",
+      "Text": "DISTRIBUTED for Conference of 11/14/2025."
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "DISTRIBUTED for Conference of 11/21/2025."
+    },
+    {
+      "Date": "Dec 01 2025",
+      "Text": "DISTRIBUTED for Conference of 12/5/2025."
+    },
+    {
+      "Date": "Dec 08 2025",
+      "Text": "DISTRIBUTED for Conference of 12/12/2025."
+    },
+    {
+      "Date": "Dec 15 2025",
+      "Text": "Motion to proceed in forma pauperis granted.  Petition for a writ of certiorari GRANTED limited to the following question:  Whether, under the standards set forth in AEDPA, 28 U. S. C. \u00a72254(d), the Mississippi Supreme Court unreasonably determined that petitioner waived his right to rebut the prosecutor's asserted race-neutral reasons for exercising peremptory strikes against four black jurors."
+    },
+    {
+      "Date": "Jan 28 2026",
+      "Text": "Brief of petitioner Terry Pitchford filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Pitchford - Opening Brief - Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/392924/20260128173638234_Pitchford%20-%20Opening%20Brief%20-%20Final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-7351 Hogan Lovells COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/392924/20260128173718144_24-7351%20Hogan%20Lovells%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-7351 Hogan Lovells COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/392924/20260128173739833_24-7351%20Hogan%20Lovells%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 28 2026",
+      "Text": "Joint appendix  Volumes 1, 2, 3 and 4 filed.  (Statement of costs filed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-7351 Joint Appendix - Volume 1 - Final 1-27-26.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/392927/20260128174158357_24-7351%20Joint%20Appendix%20-%20Volume%201%20-%20Final%201-27-26.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "24-7351 Joint Appendix - Volume 2 - Final 1-27-26.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/392927/20260128174219301_24-7351%20Joint%20Appendix%20-%20Volume%202%20-%20Final%201-27-26.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "24-7351 Joint Appendix - Volume 3 - Final 1-27-26.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/392927/20260128174227169_24-7351%20Joint%20Appendix%20-%20Volume%203%20-%20Final%201-27-26.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "24-7351 Joint Appendix - Volume 4 - Final 1-27-26.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/392927/20260128174234754_24-7351%20Joint%20Appendix%20-%20Volume%204%20-%20Final%201-27-26.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-7351 Hogan Lovells COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/392927/20260128174245777_24-7351%20Hogan%20Lovells%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 30 2026",
+      "Text": "SET FOR ARGUMENT on Tuesday, March 31, 2026."
+    },
+    {
+      "Date": "Feb 04 2026",
+      "Text": "Brief amici curiae of Constitutional Accountability Center, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Pitchford CAC-NACDL Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395418/20260204105535860_Pitchford%20CAC-NACDL%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Pitchford CAC-NACDL Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395418/20260204105623468_Pitchford%20CAC-NACDL%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Pitchford CAC-NACDL Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395418/20260204105615075_Pitchford%20CAC-NACDL%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 04 2026",
+      "Text": "Brief amicus curiae of Mississippi Legislative Black Caucus filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-7351_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395424/20260204111855307_No.%2024-7351_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-7351_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395424/20260204111916395_No.%2024-7351_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-7351_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395424/20260204111908858_No.%2024-7351_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 04 2026",
+      "Text": "Brief amici curiae of American Civil Liberties Union Foundation, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-7351_Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395457/20260204131739454_24-7351_Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-7351_Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395457/20260204131758847_24-7351_Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-7351_Word Count Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395457/20260204131747999_24-7351_Word%20Count%20Cert.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 04 2026",
+      "Text": "Brief amici curiae of Linda Lee, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Pitchford Juror Amicus FINALa.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395463/20260204132913123_Pitchford%20Juror%20Amicus%20FINALa.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-7351 King Spalding COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395463/20260204132927158_24-7351%20King%20Spalding%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-7351 King Spalding COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395463/20260204132935797_24-7351%20King%20Spalding%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 04 2026",
+      "Text": "Brief amicus curiae of NAACP Legal Defense & Educational Fund, Inc. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "FINAL 2026.02.04 Pitchford Amicus_A.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395448/20260204125334663_FINAL%202026.02.04%20Pitchford%20Amicus_A.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2026.02.04 AOS Pichford_A.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395448/20260204125447210_2026.02.04%20AOS%20Pichford_A.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "FINAL 2026.02.04 Pitchford CERT_A.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395448/20260204125344179_FINAL%202026.02.04%20Pitchford%20CERT_A.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 04 2026",
+      "Text": "Brief amici curiae of Fair and Just Prosecution, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-7351 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395494/20260204151512512_24-7351%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-7351 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395494/20260204151517839_24-7351%20Service%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-7351 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395494/20260204151524018_24-7351%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 04 2026",
+      "Text": "Brief amici curiae of Habeas Corpus Scholars filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Pitchford Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395446/20260204123731275_Pitchford%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395446/20260204123749270_Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/395446/20260204123739859_Certificate%20of%20Word%20Count%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 10 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Fifth Circuit."
+    },
+    {
+      "Date": "Feb 13 2026",
+      "Text": "Record received electronically from the United States Court of Appeals for the Fifth Circuit and available with the Clerk."
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Sealed material received electronically from the United States District Court for the Northern District of Mississippi and available with the Clerk. The remainder of the record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Feb 27 2026",
+      "Text": "Brief of respondents Cain, Comm'r, MS DOC, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-7351 Brief for Respondents and Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/399510/20260227133031362_No.%2024-7351%20Brief%20for%20Respondents%20and%20Appendix.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-7351 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/399510/20260227133040496_No.%2024-7351%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-7351 COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/399510/20260227133054519_No.%2024-7351%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 27 2026",
+      "Text": "Motion to appoint counsel filed by petitioner Terry Pitchford.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "TxP-2026.02.27-r39.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/399564/20260227172729921_TxP-2026.02.27-r39.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 06 2026",
+      "Text": "Brief amicus curiae of United States of America filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-7351bsacUnitedStates.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/400280/20260306173651885_24-7351bsacUnitedStates.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. 24-7351.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/400280/20260306173715531_certificate.%2024-7351.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 06 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Pitchford Divided Argument Motion_vF.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/400281/20260306173901670_Pitchford%20Divided%20Argument%20Motion_vF.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. 24-7351.mtn.div.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/400281/20260306173922844_certificate.%2024-7351.mtn.div.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 06 2026",
+      "Text": "Amicus brief of State of Alabama and 19 Other States not accepted for filing. (March 12, 2026 - To be corrected.)"
+    },
+    {
+      "Date": "Mar 06 2026",
+      "Text": "Brief amici curiae of State of Alabama and 19 Other States filed.  (Corrected - March 20, 2026).  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026.03.06 -- States Amicus Br. - Pitchford CORRECTED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/401409/20260320100146132_2026.03.06%20--%20States%20Amicus%20Br.%20-%20Pitchford%20CORRECTED.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2026.03.06 - States Certificate of Word Count - Pitchford.pdf.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/401409/20260320100157515_2026.03.06%20-%20States%20Certificate%20of%20Word%20Count%20-%20Pitchford.pdf.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2026.03.06 - States Certificate of Service - Pitchford.pdf.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/401409/20260320100208368_2026.03.06%20-%20States%20Certificate%20of%20Service%20-%20Pitchford.pdf.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 11 2026",
+      "Text": "Motion to appoint counsel DISTRIBUTED for Conference of 3/27/2026."
+    },
+    {
+      "Date": "Mar 17 2026",
+      "Text": "Reply of petitioner Terry Pitchford filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026-03-17 Pitchford Reply - Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/401129/20260317163834785_2026-03-17%20Pitchford%20Reply%20-%20Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-7351 Hogan Lovells COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/401129/20260317163919371_24-7351%20Hogan%20Lovells%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-7351 Hogan Lovells COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/401129/20260317163855917_24-7351%20Hogan%20Lovells%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 20 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument GRANTED."
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "Motion to appoint counsel filed by petitioner GRANTED."
+    },
+    {
+      "Date": "Mar 31 2026",
+      "Text": "Argued. For petitioner: Joseph J. Perkovich, New York, N. Y. (Appointed by this Court.)  For respondents: Scott G. Stewart, Solicitor General, Jackson, Miss.; and Emily M. Ferguson, Assistant to the Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.)"
+    },
+    {
+      "Date": "May 28 2026",
+      "Text": "Judgment REVERSED and case REMANDED.  Kavanaugh, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/24-7351_jiel.pdf'>opinion</a> of the Court, in which Roberts, C. J., and Sotomayor, Kagan, and Jackson, JJ., joined. Gorsuch, J., filed a dissenting opinion, in which Thomas, Alito, and Barrett, JJ., joined."
+    },
+    {
+      "Date": "Jun 29 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 24-7351 Rev Rem COSTS 5th Cir. 6.29.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-7351/415248/20260629130418652_EFILING%2024-7351%20Rev%20Rem%20COSTS%205th%20Cir.%206.29.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioner",
+  "Petitioner": [
+    {
+      "Attorney": "Joseph John Perkovich",
+      "IsCounselofRecord": true,
+      "Title": "Phillips Black, Inc.",
+      "PrisonerId": null,
+      "Phone": "212 400 1660",
+      "Address": "PO Box 3547",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10008",
+      "Email": "J.PERKOVICH@PHILLIPSBLACK.ORG",
+      "PartyName": "Terry Pitchford"
+    },
+    {
+      "Attorney": "Jo-Ann Tamila Sagar",
+      "IsCounselofRecord": false,
+      "Title": "Hogan Lovells US LLP",
+      "PrisonerId": null,
+      "Phone": "202-637-5600",
+      "Address": "555 Thirteenth Street, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "jo-ann.sagar@hoganlovells.com",
+      "PartyName": "Terry Pitchford"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondents",
+  "Respondent": [
+    {
+      "Attorney": "Scott Grant Stewart",
+      "IsCounselofRecord": true,
+      "Title": "Mississippi Attorney General's Office",
+      "PrisonerId": null,
+      "Phone": "(601) 359-5563",
+      "Address": "P.O. Box 220",
+      "City": "Jackson",
+      "State": "MS",
+      "Zip": "39205-0220",
+      "Email": "SCOTT.STEWART@AGO.MS.GOV",
+      "PartyName": "Cain, Comm'r, MS DOC, et al."
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Alexander Barrett Bowdre",
+      "IsCounselofRecord": true,
+      "Title": "Office of Alabama Attorney General",
+      "PrisonerId": null,
+      "Phone": "334-242-7300",
+      "Address": "501 Washington Avenue",
+      "City": "Montgomery",
+      "State": "AL",
+      "Zip": "36130-0152",
+      "Email": "barrett.bowdre@AlabamaAG.gov",
+      "PartyName": "State of Alabama and 19 Other States"
+    },
+    {
+      "Attorney": "Kimberly Joanne Broecker",
+      "IsCounselofRecord": true,
+      "Title": "Williams & Connolly LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 434-5000",
+      "Address": "680 Maine Avenue, S.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20024",
+      "Email": "kbroecker@wc.com",
+      "PartyName": "The Mississippi Legislative Black Caucus"
+    },
+    {
+      "Attorney": "Ashley Michelle Burrell",
+      "IsCounselofRecord": true,
+      "Title": "NAACP Legal Defense & Educational Fund, Inc.",
+      "PrisonerId": null,
+      "Phone": "(212) 965-2200",
+      "Address": "40 Rector Street, 5th Floor",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10006",
+      "Email": "ABURRELL@NAACPLDF.ORG",
+      "PartyName": "NAACP Legal Defense & Educational Fund, Inc."
+    },
+    {
+      "Attorney": "William Tucker Carrington",
+      "IsCounselofRecord": false,
+      "Title": "University of Mississippi School of Law",
+      "PrisonerId": null,
+      "Phone": "202-492-1755",
+      "Address": "481 Chucky Mullins Drive",
+      "City": "University",
+      "State": "MS",
+      "Zip": "38677",
+      "Email": "wtc4@ms-ip.org",
+      "PartyName": "Mississippi Legislative Black Caucus"
+    },
+    {
+      "Attorney": "Brianne Jenna Gorod",
+      "IsCounselofRecord": true,
+      "Title": "Constitutional Accountability Center",
+      "PrisonerId": null,
+      "Phone": "202 296 6889",
+      "Address": "1730 Rhode Island Ave. NW\r\nSuite 1200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "BRIANNE@THEUSCONSTITUTION.ORG",
+      "PartyName": "Constitutional Accountability Center and National Association of Criminal Defense Lawyers"
+    },
+    {
+      "Attorney": "Katherine Lindsay Pringle",
+      "IsCounselofRecord": true,
+      "Title": "Friedman Kaplan, et al.",
+      "PrisonerId": null,
+      "Phone": "212-833-1100",
+      "Address": "7 Times Square",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10036",
+      "Email": "kpringle@fklaw.com",
+      "PartyName": "American Civil Liberties Union Foundation, American Civil Liberties Union of Mississippi, and Fred T. Korematsu Center For Law and Equality"
+    },
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": false,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "United States"
+    },
+    {
+      "Attorney": "Geoffrey Cameron Shaw",
+      "IsCounselofRecord": true,
+      "Title": "Orrick, Herrington & Sutcliffe LLP",
+      "PrisonerId": null,
+      "Phone": "2136292020",
+      "Address": "355 S. Grand Ave., Suite 2700",
+      "City": "Los Angeles",
+      "State": "CA",
+      "Zip": "90071",
+      "Email": "geoffreyshaw@orrick.com",
+      "PartyName": "Habeas Corpus Scholars"
+    },
+    {
+      "Attorney": "Amy Rebekah Upshaw",
+      "IsCounselofRecord": true,
+      "Title": "King & Spalding LLP",
+      "PrisonerId": null,
+      "Phone": "202-737-0500",
+      "Address": "1700 Pennsylvania Avenue NW\r\nSuite 900",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "aupshaw@kslaw.com",
+      "PartyName": "Linda Lee, Patricia Tidwell Hubbard, and Carlos Ward"
+    },
+    {
+      "Attorney": "Daniel Hirotsu Woofter",
+      "IsCounselofRecord": true,
+      "Title": "Russell & Woofter LLC",
+      "PrisonerId": null,
+      "Phone": "202-240-8433",
+      "Address": "1701 Pennsylvania Ave NW\r\nSuite 200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "dw@russellwoofter.com",
+      "PartyName": "Current and Former Elected Prosecutors, Former Attorney General and Federal and State Judges, and Fair and Just Prosecution"
+    },
+    {
+      "Attorney": "Daniel Hirotsu Woofter",
+      "IsCounselofRecord": true,
+      "Title": "Russell & Woofter LLC",
+      "PrisonerId": null,
+      "Phone": "202-240-8433",
+      "Address": "1701 Pennsylvania Ave NW\r\nSuite 200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "dw@russellwoofter.com",
+      "PartyName": "Fair and Just Prosecution, the Law Enforcement Action Partnership, and 40 Current and Former Prosecutors, Law Enforcement Officials, and Former Judges"
+    }
+  ]
+}

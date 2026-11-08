@@ -1,0 +1,799 @@
+{
+  "CaseNumber": "24-1021 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "08/05/2026",
+  "sJsonTerm": "2024",
+  "sJsonCaseNumber": "01021",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [
+    {
+      "RelatedType": "Vide",
+      "DisplayCaseNumber": "24-1113"
+    }
+  ],
+  "PetitionerTitle": "Cedric Galette, Petitioner",
+  "RespondentTitle": "New Jersey Transit Corporation",
+  "DocketedDate": "March 25, 2025",
+  "LowerCourt": "Supreme Court of Pennsylvania, Eastern District",
+  "LowerCourtCaseNumbers": "(4 EAP 2024)",
+  "LowerCourtDecision": "March 12, 2025",
+  "QPLink": "../qp/24-01021qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Mar 19 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due April 24, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "Galette Cert Petition -- replacement.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/352520/20250321140049005_Galette%20Cert%20Petition%20--%20replacement.pdf"
+        },
+        {
+          "Description": "Appendix",
+          "File": "2025 03 19 Cert Pet Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/352520/20250319171829535_2025%2003%2019%20Cert%20Pet%20Appendix.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2025 03 19 Cert Pet COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/352520/20250319171838864_2025%2003%2019%20Cert%20Pet%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2025 03 19 Cert Pet COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/352520/20250319171845982_2025%2003%2019%20Cert%20Pet%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 15 2025",
+      "Text": "Brief of respondent New Jersey Transit Corporation in support filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025 0415 Galette Response.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/355651/20250415155610780_2025%200415%20Galette%20Response.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1021 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/355651/20250415155620722_24-1021%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1021 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/355651/20250415155630554_24-1021%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 21 2025",
+      "Text": "Reply of petitioner Cedric Galette filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025 04 21 Cert Reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/356108/20250421144813135_2025%2004%2021%20Cert%20Reply.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2025 04 21 Cert Reply COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/356108/20250421144821978_2025%2004%2021%20Cert%20Reply%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2025 04 21 Cert Reply COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/356108/20250421144832119_2025%2004%2021%20Cert%20Reply%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 22 2025",
+      "Text": "Waiver of the 14-day waiting period for the distribution of the petition pursuant to Rule 15.5 filed by petitioner.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Galette waiver letter.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/356242/20250422152013477_Galette%20waiver%20letter.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 23 2025",
+      "Text": "DISTRIBUTED for Conference of 5/15/2025."
+    },
+    {
+      "Date": "Apr 24 2025",
+      "Text": "Brief amici curiae of Texas, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1021 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/357432/20250424162255936_24-1021%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1021 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/357432/20250424162311936_24-1021%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1021 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/357432/20250424162303969_24-1021%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 30 2025",
+      "Text": "Rescheduled."
+    },
+    {
+      "Date": "Jun 09 2025",
+      "Text": "Supplemental brief of petitioner Cedric Galette filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Galette -- Cert Supplemental.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/362689/20250609163743077_Galette%20--%20Cert%20Supplemental.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1021 Winston Strawn COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/362689/20250609163807751_No.%2024-1021%20Winston%20Strawn%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1021 Winston Strawn COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/362689/20250609163757241_No.%2024-1021%20Winston%20Strawn%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 10 2025",
+      "Text": "DISTRIBUTED for Conference of 6/26/2025."
+    },
+    {
+      "Date": "Jul 03 2025",
+      "Text": "Petition GRANTED and consolidated with No. 24-1113, limited to the following question:  Whether the New Jersey Transit Corporation is an arm of the State of New Jersey for interstate sovereign immunity purposes.  A total of one hour is allotted for oral argument."
+    },
+    {
+      "Date": "Jul 03 2025",
+      "Text": "Because the Court has consolidated these cases for briefing and oral argument, future filings and activity in the cases will now be reflected on the docket of No. 24-1021.  Subsequent filings in these cases must therefore be submitted through the electronic filing system in No. 24-1021.  Each document submitted in connection with one or more of these cases must include on its cover the case number and caption for each case in which the filing is intended to be submitted.  Where a filing is submitted in fewer than all of the cases, the docket entry will reflect the case number(s) in which the filing is submitted; a document filed in all of the consolidated cases will be noted as \u201cVIDED.\u201d"
+    },
+    {
+      "Date": "Jul 21 2025",
+      "Text": "Motion for an extension of time to file the briefs on the merits filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025 0721 NJT Ltr File.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/365614/20250721114144387_2025%200721%20NJT%20Ltr%20File.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 22 2025",
+      "Text": "Motion to extend the time to file the briefs on the merits granted.  New Jersey Transit Corporation will serve as the petitioners in these cases, and the time to file the joint appendix and the opening brief on the merits is extended to and including September 3, 2025.  The time to file the response briefs on the merits of Cedric Galette and Jeffrey Colt, et al. is extended to and including November 12, 2025.  VIDED.  (Corrected - August 8, 2025.)"
+    },
+    {
+      "Date": "Aug 26 2025",
+      "Text": "Motion to dispense with printing the joint appendix filed by New Jersey Transit Corporation, et al.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025 0826 NJT Motion to Dispense with JA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/370729/20250826130831979_2025%200826%20NJT%20Motion%20to%20Dispense%20with%20JA.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2025 0826 COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/370729/20250826130838104_2025%200826%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 03 2025",
+      "Text": "Opening brief on the merits of New Jersey Transit Corporation, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1021-24-1113BriefForTheNewJerseyTransitPetitioners.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/373617/20250903194648723_24-1021-24-1113BriefForTheNewJerseyTransitPetitioners.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "signed_COS_NJOAG.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/373617/20250903194657855_signed_COS_NJOAG.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "signed_COC_NJOAG.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/373617/20250903194718580_signed_COC_NJOAG.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 10 2025",
+      "Text": "Brief amicus curiae of National Governors Association filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1021 Amicus Brief of National Governors Association.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/374197/20250910084616231_24-1021%20Amicus%20Brief%20of%20National%20Governors%20Association.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/374197/20250910084624139_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/374197/20250910084631642_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 10 2025",
+      "Text": "Brief amici curiae of State of Missouri, et al. filed. VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "MOHELA Amicus Brief - FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/374301/20250910161410315_MOHELA%20Amicus%20Brief%20-%20FINAL.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "MOHELA Amicus - Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/374301/20250910161439775_MOHELA%20Amicus%20-%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "MOHELA Amicus - Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/374301/20250910161455882_MOHELA%20Amicus%20-%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 10 2025",
+      "Text": "Brief amici curiae of Texas, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1021 and 24-1113 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/374287/20250910151907934_24-1021%20and%2024-1113%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1021 and 24-1113 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/374287/20250910151914458_24-1021%20and%2024-1113%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1021 and 24-1113 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/374287/20250910151920670_24-1021%20and%2024-1113%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 10 2025",
+      "Text": "Brief amicus curiae of Commuter Rail Coalition filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Nos. 24-1021 and 24-1113_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/374275/20250910143427351_Nos.%2024-1021%20and%2024-1113_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 24-1021 and 24-1113_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/374275/20250910143436433_Nos.%2024-1021%20and%2024-1113_Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 24-1021 and 24-1113_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/374275/20250910143444367_Nos.%2024-1021%20and%2024-1113_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 11 2025",
+      "Text": "Application for a stay (25A287), submitted to Justice Sotomayor.  (As to 24-1113).",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "NJT Stay Application.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/374521/20250912130128849_NJT%20Stay%20Application.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "Stay Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/374521/20250912130301483_Stay%20Appendix.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 12 2025",
+      "Text": "Order entered by Justice Sotomayor: Upon consideration of the application of counsel for the applicants, it is ordered that the trial in the Supreme Court of the State of New York, New York County, Index No. 158309/2017, is hereby stayed pending further order of Justice Sotomayor or of the Court. (As to 24-1113)."
+    },
+    {
+      "Date": "Sep 30 2025",
+      "Text": "Motion to dispense with printing the joint appendix filed by respondents GRANTED.  VIDED."
+    },
+    {
+      "Date": "Nov 12 2025",
+      "Text": "SET FOR ARGUMENT on Wednesday, January 14, 2026.  VIDED."
+    },
+    {
+      "Date": "Nov 12 2025",
+      "Text": "Response brief of Cedric Galette filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Galette -- merits brief -- final to printer.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/384274/20251112172818215_Galette%20--%20merits%20brief%20--%20final%20to%20printer.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 24-1021 and 24-1113 Winston Strawn COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/384274/20251112172844999_Nos.%2024-1021%20and%2024-1113%20Winston%20Strawn%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 24-1021 and 24-1113 Winston Strawn COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/384274/20251112172919497_Nos.%2024-1021%20and%2024-1113%20Winston%20Strawn%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 12 2025",
+      "Text": "Response brief of Jeffrey Colt, et al. filed. (as to 24-1113)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1113_bs.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/384223/20251112133443658_24-1113_bs.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1113_bs_COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/384223/20251112133456477_24-1113_bs_COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1113_bs_COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/384223/20251112133504314_24-1113_bs_COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Record requested from the Supreme Court of Pennsylvania, Eastern District."
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Amicus brief of Cedric Galette not accepted for filing. (November 18, 2025) (to be corrected with proper amicus party and attachments)"
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amicus curiae of New York State Academy of Trial Lawyers filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24 1021  Cedric Galette v  New Jersey Amicus Brief for New York State Academy of Trial Lawyers.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/384928/20251118113307523_24%201021%20%20Cedric%20Galette%20v%20%20New%20Jersey%20Amicus%20Brief%20for%20New%20York%20State%20Academy%20of%20Trial%20Lawyers.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24 1021  Cedric Galette v  New Jersey Amicus Brief for New York State Academy of Trial Lawyers AOS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/384928/20251118113530694_24%201021%20%20Cedric%20Galette%20v%20%20New%20Jersey%20Amicus%20Brief%20for%20New%20York%20State%20Academy%20of%20Trial%20Lawyers%20AOS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1021 Cedric Galette v New Jersey Amicus Brief for New York State Academy of Trial Lawyers Word Certification.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/384928/20251118113558752_24-1021%20Cedric%20Galette%20v%20New%20Jersey%20Amicus%20Brief%20for%20New%20York%20State%20Academy%20of%20Trial%20Lawyers%20Word%20Certification.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 19 2025",
+      "Text": "Brief amicus curiae of American Association for Justice filed. VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "AAJ Amicus Brief_Galette v. NJ Transit Corp._Final 20251119.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/385123/20251119124832449_AAJ%20Amicus%20Brief_Galette%20v.%20NJ%20Transit%20Corp._Final%2020251119.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "AAJ Certificate of Compliance_Galette v. NJ Transit Corp._Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/385123/20251119124853859_AAJ%20Certificate%20of%20Compliance_Galette%20v.%20NJ%20Transit%20Corp._Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "AAJ Certificate of Service_Galette v. NJ Transit Corp._Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/385123/20251119124859625_AAJ%20Certificate%20of%20Service_Galette%20v.%20NJ%20Transit%20Corp._Final.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 19 2025",
+      "Text": "Brief amicus curiae of Constitutional Accountability Center filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Galette v. NJ Transit CAC Brief - FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/385092/20251119113256248_Galette%20v.%20NJ%20Transit%20CAC%20Brief%20-%20FINAL.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count - FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/385092/20251119113315818_Certificate%20of%20Word%20Count%20-%20FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service - FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/385092/20251119113331098_Proof%20of%20Service%20-%20FINAL.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 19 2025",
+      "Text": "Brief amici curiae of Federal Courts Scholars filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "NJT v Colt Federal Courts Scholars Amicus Brief Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/385164/20251119194418346_NJT%20v%20Colt%20Federal%20Courts%20Scholars%20Amicus%20Brief%20Final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Federal Courts Scholars Amicus COWC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/385164/20251119194511695_Federal%20Courts%20Scholars%20Amicus%20COWC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Federal Courts Scholars Amicus COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/385164/20251119194556199_Federal%20Courts%20Scholars%20Amicus%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 19 2025",
+      "Text": "Brief amicus curiae of Public Citizen filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025.11.19 PC - NJ Transit amicus brief - final PDF-A.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/385159/20251119144334860_2025.11.19%20PC%20-%20NJ%20Transit%20amicus%20brief%20-%20final%20PDF-A.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/385159/20251119144410426_Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "PC - certif of word count pdfa final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/385159/20251119145243202_PC%20-%20certif%20of%20word%20count%20pdfa%20final.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 19 2025",
+      "Text": "Brief amici curiae of Professor William Baude, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1021_24-1113_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/385149/20251119135338068_24-1021_24-1113_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1021_24-1113_Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/385149/20251119135416634_24-1021_24-1113_Service%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1021_24-1113_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/385149/20251119135431139_24-1021_24-1113_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 01 2025",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Dec 12 2025",
+      "Text": "Reply of respondent New Jersey Transit Corporation filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Nos. 24-1021 24-1113 NJT Reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/387291/20251212170951397_Nos.%2024-1021%2024-1113%20NJT%20Reply.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1021 24-1113 Office of Attorney General New Jersey COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/387291/20251212171034218_24-1021%2024-1113%20Office%20of%20Attorney%20General%20New%20Jersey%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1021 24-1113 Office of Attorney General New Jersey COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/387291/20251212171040313_24-1021%2024-1113%20Office%20of%20Attorney%20General%20New%20Jersey%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 17 2025",
+      "Text": "Record received from the Supreme Court of Pennsylvania, Eastern District and available with the Clerk (one envelope)."
+    },
+    {
+      "Date": "Jan 14 2026",
+      "Text": "Argued. For New Jersey Transit Corporation, et al.: Michael Zuckerman, Deputy Solicitor General, Trenton, N. J. For Galette and Colt, et al.: Michael B. Kimberly, Washington, D. C. VIDED."
+    },
+    {
+      "Date": "Mar 04 2026",
+      "Text": "Judgment REVERSED and case REMANDED.  Judgment in No. 24-1113 AFFIRMED and case REMANDED.  Sotomayor, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/24-1021_p860.pdf'>opinion</a> for a unanimous Court.  VIDED."
+    },
+    {
+      "Date": "Apr 06 2026",
+      "Text": "Judgment and Mandate Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 24-1021 Rev Rem MANDATE COSTS Pa..pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1021/403687/20260406092606135_EFILING%2024-1021%20Rev%20Rem%20MANDATE%20COSTS%20Pa..pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 05 2026",
+      "Text": "Record returned to the Supreme Court of Pennsylvania, Eastern District."
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioner",
+  "Petitioner": [
+    {
+      "Attorney": "Michael B. Kimberly",
+      "IsCounselofRecord": true,
+      "Title": "McDermott Will & Emery LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 282-5096",
+      "Address": "Winston & Strawn LLP\r\n1901 L Street NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "MKIMBERLY@winston.com",
+      "PartyName": "Cedric Galette"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondent",
+  "Respondent": [
+    {
+      "Attorney": "Jeremy Michael Feigenbaum",
+      "IsCounselofRecord": true,
+      "Title": "Office of the New Jersey Attorney General",
+      "PrisonerId": null,
+      "Phone": "8623505800",
+      "Address": "25 Market Street\r\nBox 080",
+      "City": "Trenton",
+      "State": "NJ",
+      "Zip": "08625",
+      "Email": "JEREMY.FEIGENBAUM@NJOAG.GOV",
+      "PartyName": "New Jersey Transit Corporation"
+    },
+    {
+      "Attorney": "Brian J. Shoot",
+      "IsCounselofRecord": true,
+      "Title": "Sullivan Papain Block McManus Coffinas Cannavo PC",
+      "PrisonerId": null,
+      "Phone": "(212) 732-9000",
+      "Address": "120 Broadway",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10271",
+      "Email": "bshoot@triallaw1.com",
+      "PartyName": "Jeffrey Colt, et al."
+    },
+    {
+      "Attorney": "Easha Anand",
+      "IsCounselofRecord": false,
+      "Title": "Stanford Supreme Court Litigation Clinic",
+      "PrisonerId": null,
+      "Phone": "(650) 724-3345",
+      "Address": "559 Nathan Abbott Way",
+      "City": "Stanford",
+      "State": "CA",
+      "Zip": "94305",
+      "Email": "eanand@law.stanford.edu",
+      "PartyName": "Jeffrey Colt, et al."
+    },
+    {
+      "Attorney": "Jeffrey L. Fisher",
+      "IsCounselofRecord": false,
+      "Title": "Stanford Law School Supreme Court Litigation",
+      "PrisonerId": null,
+      "Phone": "(650) 724-7081",
+      "Address": "559 Nathan Abbott Way",
+      "City": "Stanford",
+      "State": "CA",
+      "Zip": "94305",
+      "Email": null,
+      "PartyName": "Jeffrey Colt, et al."
+    },
+    {
+      "Attorney": "Michael Louis Zuckerman",
+      "IsCounselofRecord": false,
+      "Title": "Office of the New Jersey Attorney General",
+      "PrisonerId": null,
+      "Phone": "6097898684",
+      "Address": "25 Market Street\r\nP.O. Box 080",
+      "City": "Trenton",
+      "State": "NJ",
+      "Zip": "08625",
+      "Email": "Michael.Zuckerman@njoag.gov",
+      "PartyName": "New Jersey Transit Corporation"
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Eric F. Citron",
+      "IsCounselofRecord": true,
+      "Title": "Zimmer, Citron & Clarke LLP",
+      "PrisonerId": null,
+      "Phone": "202-796-4540",
+      "Address": "1629 K Street NW\r\nSuite 300",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "ecitron@zimmercitronclarke.com",
+      "PartyName": "Federal Courts Scholars"
+    },
+    {
+      "Attorney": "Daniel Jacob Feith",
+      "IsCounselofRecord": true,
+      "Title": "Sidley Austin LLP",
+      "PrisonerId": null,
+      "Phone": "2027368511",
+      "Address": "1501 K Street NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20005",
+      "Email": "dfeith@sidley.com",
+      "PartyName": "Higher Education Loan Authority of the State of Missouri"
+    },
+    {
+      "Attorney": "Brianne Jenna Gorod",
+      "IsCounselofRecord": true,
+      "Title": "Constitutional Accountability Center",
+      "PrisonerId": null,
+      "Phone": "202 296 6889",
+      "Address": "1730 Rhode Island Ave. NW\r\nSuite 1200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "BRIANNE@THEUSCONSTITUTION.ORG",
+      "PartyName": "Constitutional Accountability Center"
+    },
+    {
+      "Attorney": "Nathaniel Hemmerick Hunt",
+      "IsCounselofRecord": true,
+      "Title": "Kaplan Kirsch LLP",
+      "PrisonerId": null,
+      "Phone": "(303) 825-7000",
+      "Address": "1675 Broadway, Suite 2300",
+      "City": "Denver",
+      "State": "CO",
+      "Zip": "80202",
+      "Email": "nhunt@kaplankirsch.com",
+      "PartyName": "Commuter Rail Coalition"
+    },
+    {
+      "Attorney": "Michael John Hutter Jr.",
+      "IsCounselofRecord": true,
+      "Title": "Powers & Santola, LLP",
+      "PrisonerId": null,
+      "Phone": "518-465-5995",
+      "Address": "100 Great Oaks Boulevard",
+      "City": "Williamsville",
+      "State": "NY",
+      "Zip": "12203",
+      "Email": "MHUTTER@POWERS-SANTOLA.COM",
+      "PartyName": "New York State Academy of Trial Lawyers"
+    },
+    {
+      "Attorney": "Nandan Maheshchandra Joshi",
+      "IsCounselofRecord": true,
+      "Title": "Public Citizen Litigation Group",
+      "PrisonerId": null,
+      "Phone": "(202) 588-1000",
+      "Address": "1600 20th Street, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20009",
+      "Email": "NJOSHI@CITIZEN.ORG",
+      "PartyName": "Public Citizen"
+    },
+    {
+      "Attorney": "R. Trent McCotter",
+      "IsCounselofRecord": true,
+      "Title": "Separation of Powers Clinic,Columbus School of Law",
+      "PrisonerId": null,
+      "Phone": "202-706-5488",
+      "Address": "3600 John McCormack Rd.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20064",
+      "Email": "mccotter@cua.edu",
+      "PartyName": "National Governors Association"
+    },
+    {
+      "Attorney": "Aaron Lloyd Nielson",
+      "IsCounselofRecord": false,
+      "Title": "Office of the Texas Attorney General",
+      "PrisonerId": null,
+      "Phone": "512-936-1700",
+      "Address": "P.O. Box 12548 (MC-059)",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": "78711-2548",
+      "Email": "aaron.nielson@kirkland.com",
+      "PartyName": "The States of Texas, Alabama, Alaska, Arkansas, Georgia, Idaho, Indiana, Iowa, Kansas, Louisiana, Michigan, Minnesota, Missouri, Montana, Nebraska, North Dakota, Ohio, Oklahoma, Pennsylvania, Tennessee, Virginia, and Wyoming"
+    },
+    {
+      "Attorney": "William Robert Peterson",
+      "IsCounselofRecord": true,
+      "Title": "Office of the Texas Attorney General",
+      "PrisonerId": null,
+      "Phone": "512-936-1700",
+      "Address": "P.O. Box 12548 (MC-059)",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": "78711-2548",
+      "Email": "william.peterson@oag.texas.gov",
+      "PartyName": "The State of Texas"
+    },
+    {
+      "Attorney": "William Robert Peterson",
+      "IsCounselofRecord": true,
+      "Title": "Office of the Texas Attorney General",
+      "PrisonerId": null,
+      "Phone": "512-936-1700",
+      "Address": "P.O. Box 12548 (MC-059)",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": "78711-2548",
+      "Email": "william.peterson@oag.texas.gov",
+      "PartyName": "Texas, Alabama, Alaska, Arkansas, Florida, Georgia, Idaho, Indiana, Iowa, Kansas, Louisiana, Michigan, Minnesota, Mississippi, Nebraska, Nevada, North Dakota, Ohio, Pennsylvania, South Dakota, Tennessee, Virginia, and Wyoming"
+    },
+    {
+      "Attorney": "Stephen Edward Sachs",
+      "IsCounselofRecord": true,
+      "Title": "Harvard Law School",
+      "PrisonerId": null,
+      "Phone": "617-495-5009",
+      "Address": "Lewis 311\r\n1557 Massachusetts Ave.",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02138",
+      "Email": "ssachs@law.harvard.edu",
+      "PartyName": "Professors William Baude and Stephen E. Sachs"
+    },
+    {
+      "Attorney": "Jeffrey Robert White",
+      "IsCounselofRecord": true,
+      "Title": "American Association for Justice",
+      "PrisonerId": null,
+      "Phone": "2026175620",
+      "Address": "777 6th Street NW\r\nSuite 300",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001-3723",
+      "Email": "jeffrey.white@justice.org",
+      "PartyName": "American Association for Justice"
+    }
+  ]
+}

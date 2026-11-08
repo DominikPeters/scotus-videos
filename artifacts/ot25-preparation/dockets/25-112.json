@@ -1,0 +1,1351 @@
+{
+  "CaseNumber": "25-112 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "07/31/2026",
+  "sJsonTerm": "2025",
+  "sJsonCaseNumber": "00112",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Okello T. Chatrie, Petitioner",
+  "RespondentTitle": "United States",
+  "DocketedDate": "July 30, 2025",
+  "LowerCourt": "United States Court of Appeals for the Fourth Circuit",
+  "LowerCourtCaseNumbers": "(22-4489)",
+  "LowerCourtDecision": "April 30, 2025",
+  "QPLink": "../qp/25-00112qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Jul 28 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due August 29, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "USSC Petition for Writ of Certiorari.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/368199/20250728142157250_USSC%20Petition%20for%20Writ%20of%20Certiorari.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/368199/20250728142206656_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/368199/20250728142215802_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 20 2025",
+      "Text": "Motion to extend the time to file a response from August 29, 2025 to September 29, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Extension letter 25-112.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/370191/20250820093205224_Extension%20letter%2025-112.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 21 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including September 29, 2025."
+    },
+    {
+      "Date": "Aug 29 2025",
+      "Text": "Brief amicus curiae of Project for Privacy & Surveillance Accountability, Inc. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112 SCOTUS Amicus Brief of PPSA 2025.08.29.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/373276/20250829194222669_25-112%20SCOTUS%20Amicus%20Brief%20of%20PPSA%202025.08.29.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 25-112 Schaerr Jaffe LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/373276/20250829194242498_No.%2025-112%20Schaerr%20Jaffe%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 25-112 Schaerr Jaffe LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/373276/20250829194233973_No.%2025-112%20Schaerr%20Jaffe%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 29 2025",
+      "Text": "Brief amicus curiae of X Corp. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Chatrie - AC Brief_final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/373265/20250829160043957_Chatrie%20-%20AC%20Brief_final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Chatrie - AC Affidavit of Service_final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/373265/20250829160102203_Chatrie%20-%20AC%20Affidavit%20of%20Service_final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Chatrie - AC Cert of Compliance_final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/373265/20250829160053251_Chatrie%20-%20AC%20Cert%20of%20Compliance_final.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 22 2025",
+      "Text": "Motion to extend the time to file a response from September 29, 2025 to October 29, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Extension Letter 25-112 2nd.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/375565/20250922185930919_Extension%20Letter%2025-112%202nd.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 23 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is further extended to and including October 29, 2025."
+    },
+    {
+      "Date": "Oct 23 2025",
+      "Text": "Motion to extend the time to file a response from October 29, 2025 to November 24, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Extension Letter 25-112 3rd.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/380397/20251023114505393_Extension%20Letter%2025-112%203rd.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 24 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is further extended to and including November 24, 2025."
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief of respondent United States in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Chatrie_Opp_11.24.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/385692/20251124174425288_Chatrie_Opp_11.24.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate - 25-112 - Chatrie v. USA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/385692/20251124174405999_Certificate%20-%2025-112%20-%20Chatrie%20v.%20USA.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 08 2025",
+      "Text": "Reply of petitioner Okello Chatrie filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112 Reply Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/386716/20251208144114311_25-112%20Reply%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-112 COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/386716/20251208144141030_25-112%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-112 word count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/386716/20251208144125134_25-112%20word%20count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 10 2025",
+      "Text": "DISTRIBUTED for Conference of 1/9/2026."
+    },
+    {
+      "Date": "Jan 12 2026",
+      "Text": "DISTRIBUTED for Conference of 1/16/2026."
+    },
+    {
+      "Date": "Jan 16 2026",
+      "Text": "Petition GRANTED limited to Question 1 presented by the petition."
+    },
+    {
+      "Date": "Feb 11 2026",
+      "Text": "SET FOR ARGUMENT on Monday, April 27, 2026."
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Brief of petitioner Okello Chatrie filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112 - Opening Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/397074/20260223160717593_25-112%20-%20Opening%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-211 Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/397074/20260223161001420_25-211%20Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-211 Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/397074/20260223161013359_25-211%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Joint appendix filed.  (Statement of costs filed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112 JA Volume I.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/397082/20260223162205416_25-112%20JA%20Volume%20I.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "25-112 JA Volume II.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/397082/20260223162219442_25-112%20JA%20Volume%20II.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-211 Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/397082/20260223162236075_25-211%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Motion for leave to file Volume III of the joint appendix under seal filed by petitioner Okello Chatrie.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-211 Motion to Seal.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/397087/20260223162603834_25-211%20Motion%20to%20Seal.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-211 Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/397087/20260223162617542_25-211%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Fourth Circuit."
+    },
+    {
+      "Date": "Feb 27 2026",
+      "Text": "Brief amici curiae of Center for Democracy & Technology, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026-02-27-CDT_Amicus Brief_Chatrie_UnitedStates.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399465/20260227091528269_2026-02-27-CDT_Amicus%20Brief_Chatrie_UnitedStates.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2026-02-27-CDT_Certificate of Service_Chatrie_UnitedStates.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399465/20260227091643125_2026-02-27-CDT_Certificate%20of%20Service_Chatrie_UnitedStates.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2026-02-27-CDT_Certificate of Compliance_Chatrie_UnitedStates.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399465/20260227091612997_2026-02-27-CDT_Certificate%20of%20Compliance_Chatrie_UnitedStates.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of Liberty Justice Center filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Chatrie v. US Amicus Brief 2026.03.02 FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399714/20260302151402185_Chatrie%20v.%20US%20Amicus%20Brief%202026.03.02%20FINAL.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Chatrie Word Count Cert FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399714/20260302151432288_Chatrie%20Word%20Count%20Cert%20FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Chatrie Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399714/20260302151441123_Chatrie%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of Institute for Justice filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026.03.02 - Chatrie Institute for Justice Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399644/20260302114403305_2026.03.02%20-%20Chatrie%20Institute%20for%20Justice%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2026.03.02 - Chatrie Amicus Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399644/20260302114423310_2026.03.02%20-%20Chatrie%20Amicus%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2026.03.02 - Chatrie Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399644/20260302114431466_2026.03.02%20-%20Chatrie%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of Eight Law Professors filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026-03-01_Chatrie_AmicusBrief_FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399683/20260302135902733_2026-03-01_Chatrie_AmicusBrief_FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No.25-112 University of Iowa College of Law COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399683/20260302135909575_No.25-112%20University%20of%20Iowa%20College%20of%20Law%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No.25-112 University of Iowa College of Law COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399683/20260302135915308_No.25-112%20University%20of%20Iowa%20College%20of%20Law%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of Americans for Prosperity Foundation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026.3.2.AFPF Amicus.Chatrie v. United States.25.112.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399672/20260302134355393_2026.3.2.AFPF%20Amicus.Chatrie%20v.%20United%20States.25.112.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 25-112 Americans for Prosperity Foundation COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399672/20260302134418687_No.%2025-112%20Americans%20for%20Prosperity%20Foundation%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 25-112 Americans for Prosperity Foundation COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399672/20260302134451116_No.%2025-112%20Americans%20for%20Prosperity%20Foundation%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of New Civil Liberties Alliance filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "3.2.2026 FINAL Chatrie Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399759/20260302163339994_3.2.2026%20FINAL%20Chatrie%20Amicus.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 25-116 New Civil Liberties Alliance COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399759/20260302163347626_No.%2025-116%20New%20Civil%20Liberties%20Alliance%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 25-116 New Civil Liberties Alliance COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399759/20260302163359442_No.%2025-116%20New%20Civil%20Liberties%20Alliance%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of NetChoice filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "NetChoice Amicus ISO Petr - Chatrie.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399736/20260302155108907_NetChoice%20Amicus%20ISO%20Petr%20-%20Chatrie.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "NetChoice Cert of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399736/20260302155114537_NetChoice%20Cert%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "NetChoice Cert of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399736/20260302155119633_NetChoice%20Cert%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of Project for Privacy & Surveillance Accountability, Inc. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112-PPSA merits amicus 2026.03.02.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399797/20260302192234874_25-112-PPSA%20merits%20amicus%202026.03.02.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 25-112 Schaerr Jaffe LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399797/20260302192254112_No.%2025-112%20Schaerr%20Jaffe%20LLP%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 25-112 Schaerr Jaffe LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399797/20260302192309863_No.%2025-112%20Schaerr%20Jaffe%20LLP%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of Constitutional Accountability Center filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Chatrie CAC Brief - FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399640/20260302112951381_Chatrie%20CAC%20Brief%20-%20FINAL.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Chatrie Certificate of Compliance - CAC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399640/20260302113015842_Chatrie%20Certificate%20of%20Compliance%20-%20CAC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Chatrie Proof of Service - CAC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399640/20260302113028996_Chatrie%20Proof%20of%20Service%20-%20CAC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of The Innocence Project and the Center on Race, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399717/20260302151619042_25-112%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-112 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399717/20260302151630492_25-112%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-112 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399717/20260302151640586_25-112%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of X Corp. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Chatrie - AC Merits Brief_FINAL3.2.26.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399624/20260302101249756_Chatrie%20-%20AC%20Merits%20Brief_FINAL3.2.26.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Chatrie - AC Merits Cert of Compliance_final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399624/20260302101306715_Chatrie%20-%20AC%20Merits%20Cert%20of%20Compliance_final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Chatrie - Affidavit of Service_final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399624/20260302101328315_Chatrie%20-%20Affidavit%20of%20Service_final.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of Brian L. Owsley filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112 Chatrie v US amicus Owsley.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399653/20260302121050049_25-112%20Chatrie%20v%20US%20amicus%20Owsley.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Word count certificate 25-112 Chatrie v US amicus Owsley.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399653/20260302121105816_Word%20count%20certificate%2025-112%20Chatrie%20v%20US%20amicus%20Owsley.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Service affidavit 25-112 Chatrie vs US amicus Owsley.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399653/20260302121119884_Service%20affidavit%2025-112%20Chatrie%20vs%20US%20amicus%20Owsley.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of America's Future, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Chatrie v. US amicus brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399760/20260302163344300_Chatrie%20v.%20US%20amicus%20brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Chatrie Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399760/20260302163351425_Chatrie%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Chatrie Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399760/20260302163357259_Chatrie%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of Cato Institute filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Chatrie v. US_Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399667/20260302131132317_Chatrie%20v.%20US_Final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Chatrie_Cert Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399667/20260302131137568_Chatrie_Cert%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Chatrie_Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399667/20260302131141838_Chatrie_Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of Law & Technology, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112-tsac-law-tech-fourth-amendment-scholars.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399799/20260302193818953_25-112-tsac-law-tech-fourth-amendment-scholars.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No.25-112 Electronic Privacy Information Center COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399799/20260302193830042_No.25-112%20Electronic%20Privacy%20Information%20Center%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No.25-112 Electronic Privacy Information Center COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399799/20260302193838683_No.25-112%20Electronic%20Privacy%20Information%20Center%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of Restore the Fourth, Inc. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "260302a AC Brief for efiling.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399779/20260302175332956_260302a%20AC%20Brief%20for%20efiling.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "260302 Certificate of Word Count Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399779/20260302175345939_260302%20Certificate%20of%20Word%20Count%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "260302 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399779/20260302175356448_260302%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of Google LLC filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112 Google Chatrie Amicus.final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399674/20260302134430681_25-112%20Google%20Chatrie%20Amicus.final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-112 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399674/20260302134435789_25-112%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-112 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399674/20260302134441824_25-112%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of American Civil Liberties Union, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399720/20260302152050137_25-112%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-112 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399720/20260302152101191_25-112%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-112 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399720/20260302152110904_25-112%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of The Reporters Committee for Freedom of The Press, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399734/20260302154735311_25-112%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-112 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399734/20260302154810437_25-112%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-112 Word Count Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/399734/20260302154801201_25-112%20Word%20Count%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 03 2026",
+      "Text": "Sealed material received from the United States Court of Appeals for the Fourth Circuit and available with the Clerk. The remainder of the record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Mar 09 2026",
+      "Text": "Motion for leave to file Volume III of the joint appendix under seal GRANTED."
+    },
+    {
+      "Date": "Mar 09 2026",
+      "Text": "Brief amicus curiae of James W. Harper in support of neither party filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400381/20260309134133965_25-112%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-112 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400381/20260309134154645_25-112%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-112 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400381/20260309134216540_25-112%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 09 2026",
+      "Text": "Brief amicus curiae of American Center for Law and Justice in support of neither party filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112 Amicus Brief of The American Center for Law And Justice.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400307/20260309080251562_25-112%20Amicus%20Brief%20of%20The%20American%20Center%20for%20Law%20And%20Justice.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400307/20260309080303690_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400307/20260309080318397_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 09 2026",
+      "Text": "Brief amicus curiae of The Rutherford Institute in support of neither party filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112.brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400442/20260309172600756_25-112.brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-112.service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400442/20260309172657735_25-112.service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-112.compliance revised.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400442/20260310110623871_25-112.compliance%20revised.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 09 2026",
+      "Text": "Brief amicus curiae of Microsoft Corporation in support of neither party filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112 ac Microsoft Corporation.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400444/20260309173458631_25-112%20ac%20Microsoft%20Corporation.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-112 Word Count - ac Microsoft Corporation.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400444/20260309173521770_25-112%20Word%20Count%20-%20ac%20Microsoft%20Corporation.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-112 Proof of Service - ac Microsoft Corporation.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400444/20260309173544659_25-112%20Proof%20of%20Service%20-%20ac%20Microsoft%20Corporation.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 09 2026",
+      "Text": "Brief amici curiae of Technologists in support of neither party filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112_Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400416/20260309154438148_25-112_Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-112_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400416/20260309154457914_25-112_Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-112_Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400416/20260309154728604_25-112_Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 09 2026",
+      "Text": "Brief amicus curiae of The Policing Project at New York University School of Law in support of neither party filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026-03-09 SCT No 25-112 Chatrie - Policing Project NYU Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400403/20260309150942868_2026-03-09%20SCT%20No%2025-112%20Chatrie%20-%20Policing%20Project%20NYU%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2026-03-09 No. 25-112 S. Ct. Policing Project NYU Amicus Brief Cert of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400403/20260309151018294_2026-03-09%20No.%2025-112%20S.%20Ct.%20Policing%20Project%20NYU%20Amicus%20Brief%20Cert%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2026-03-09 No. 25-112 S. Ct. Policing Project NYU Amicus Brief Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400403/20260309151047122_2026-03-09%20No.%2025-112%20S.%20Ct.%20Policing%20Project%20NYU%20Amicus%20Brief%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 09 2026",
+      "Text": "Brief amici curiae of Software & Information Industry Association and Computer & Communications Industry Association in support of neither party filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400411/20260309152713260_25-112%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-112 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400411/20260309152729323_25-112%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-112 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/400411/20260309152720497_25-112%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 16 2026",
+      "Text": "Sealed material electronically received from the United States District Court for the Eastern District of Virginia and available with the Clerk."
+    },
+    {
+      "Date": "Mar 25 2026",
+      "Text": "Brief of respondent United States filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112bsUnitedStates.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/401871/20260325184404433_25-112bsUnitedStates.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate 25-112 rule 29.2.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/401871/20260325184707648_Certificate%2025-112%20rule%2029.2.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amici curiae of Iowa, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Chatrie v US Amicus Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/403419/20260401134214128_Chatrie%20v%20US%20Amicus%20Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-112 Office of Attorney General Iowa COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/403419/20260401134221359_25-112%20Office%20of%20Attorney%20General%20Iowa%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-112 Office of Attorney General Iowa COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/403419/20260401134227910_25-112%20Office%20of%20Attorney%20General%20Iowa%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amicus curiae of Professor Orin S. Kerr filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112acProfessorOrinSKerr.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/403349/20260401133909957_25-112acProfessorOrinSKerr.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-112 Professor Orin S. Kerr COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/403349/20260401133941121_25-112%20Professor%20Orin%20S.%20Kerr%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-112 Professor Orin S. Kerr COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/403349/20260401134028266_25-112%20Professor%20Orin%20S.%20Kerr%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amici curiae of Local Government Legal Center, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-112 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/403417/20260401132109478_25-112%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-112 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/403417/20260401132115578_25-112%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-112 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/403417/20260401132122184_25-112%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 17 2026",
+      "Text": "Reply of Okello Chatrie not accepted for filing. (April 17, 2026 - to be resubmitted)."
+    },
+    {
+      "Date": "Apr 17 2026",
+      "Text": "Reply of petitioner Okello Chatrie filed (April 17, 2026).   (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Reply Brief for Petitioner PDFA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/404764/20260417152749041_Reply%20Brief%20for%20Petitioner%20PDFA.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Chatrie word count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/404764/20260417152759026_Chatrie%20word%20count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Chatrie COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/404764/20260417152807956_Chatrie%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 27 2026",
+      "Text": "Argued. For petitioner: Adam G. Unikowsky, Washington, D. C.  For respondent: Eric J. Feigin, Deputy Solicitor General, Department of Justice, Washington, D. C."
+    },
+    {
+      "Date": "Jun 29 2026",
+      "Text": "Judgment VACATED and case REMANDED.  Kagan, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/25-112_0am4.pdf'>opinion</a> of the Court, in which Roberts, C. J., and Sotomayor, Kavanaugh, and Jackson, JJ., joined. Jackson, J., filed a concurring opinion, in which Sotomayor, J., joined. Gorsuch, J., filed an opinion concurring in the judgment. Alito, J., filed a dissenting opinion, in which Thomas, J., joined as to Part I, and in which Barrett,\r\nJ., joined as to Parts II\u2013B, II\u2013C\u20131, and II\u2013C\u20132. Barrett, J., filed a dissenting opinion."
+    },
+    {
+      "Date": "Jul 31 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 25-112 Vac Rem NO COSTS 4th. Cir. 7.31.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-112/417706/20260731124959256_EFILING%2025-112%20Vac%20Rem%20NO%20COSTS%204th.%20Cir.%207.31.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioner",
+  "Petitioner": [
+    {
+      "Attorney": "Adam G. Unikowsky",
+      "IsCounselofRecord": true,
+      "Title": "Jenner & Block LLP",
+      "PrisonerId": null,
+      "Phone": "202-639-6000",
+      "Address": "1099 New York Avenue, NW\r\nSuite 900",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "AUNIKOWSKY@JENNER.COM",
+      "PartyName": "Okello Chatrie"
+    },
+    {
+      "Attorney": "Michael William Price",
+      "IsCounselofRecord": false,
+      "Title": "National Association of Criminal Defense Lawyers",
+      "PrisonerId": null,
+      "Phone": "(202) 465-7615",
+      "Address": "1660 L St. NW\r\n12th Floor",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "mprice@nacdl.org",
+      "PartyName": "Okello Chatrie"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondent",
+  "Respondent": [
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": true,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "United States"
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Stuart Banner",
+      "IsCounselofRecord": true,
+      "Title": "UCLA School of Law Supreme Court Clinic",
+      "PrisonerId": null,
+      "Phone": "3102068506",
+      "Address": "405 Hilgard Ave.",
+      "City": "Los Angeles",
+      "State": "CA",
+      "Zip": "90095",
+      "Email": "BANNER@LAW.UCLA.EDU",
+      "PartyName": "Brian L. Owsley"
+    },
+    {
+      "Attorney": "Christopher Theodore Bavitz",
+      "IsCounselofRecord": true,
+      "Title": "Cyberlaw Clinic, Harvard Law School",
+      "PrisonerId": null,
+      "Phone": "6173849125",
+      "Address": "1557 Massachusetts Avenue",
+      "City": "Cambridge",
+      "State": "MA",
+      "Zip": "02138",
+      "Email": "CBAVITZ@LAW.HARVARD.EDU",
+      "PartyName": "Technologists"
+    },
+    {
+      "Attorney": "Bruce David Brown",
+      "IsCounselofRecord": true,
+      "Title": "Reporters Committee for Freedom of Press",
+      "PrisonerId": null,
+      "Phone": "202-795-9300",
+      "Address": "1156 15th St. NW #1020",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20005",
+      "Email": "bruce.brown@rcfp.org",
+      "PartyName": "The Reporters Committee for Freedom of The Press, Knight First Amendment Institute at Columbia University, and Foundation for Individual Rights"
+    },
+    {
+      "Attorney": "Alan Jay Butler",
+      "IsCounselofRecord": true,
+      "Title": "Electronic Privacy Information Center",
+      "PrisonerId": null,
+      "Phone": "2024831140",
+      "Address": "1519 New Hampshire Avenue NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "butler@epic.org",
+      "PartyName": "Law & Technology and Fourth Amendment Scholars"
+    },
+    {
+      "Attorney": "Matthew P. Cavedon",
+      "IsCounselofRecord": true,
+      "Title": "Cato Institute",
+      "PrisonerId": null,
+      "Phone": "706-309-2859",
+      "Address": "1000 Massachusetts Ave. NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "mcavedon@cato.org",
+      "PartyName": "Cato Institute"
+    },
+    {
+      "Attorney": "Markham Sterling Chenoweth",
+      "IsCounselofRecord": true,
+      "Title": "New Civil Liberties Alliance",
+      "PrisonerId": null,
+      "Phone": "(202) 869-5210",
+      "Address": "4250 N. Fairfax Dr.\r\nSuite 300",
+      "City": "Arlington",
+      "State": "VA",
+      "Zip": "22203",
+      "Email": "mark.chenoweth@ncla.legal",
+      "PartyName": "New Civil Liberties Alliance"
+    },
+    {
+      "Attorney": "James Connolly Dugan",
+      "IsCounselofRecord": true,
+      "Title": "Willkie Farr & Gallagher, LLP",
+      "PrisonerId": null,
+      "Phone": "212-728-8000",
+      "Address": "787 Seventh Avenue",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10019",
+      "Email": "jdugan@willkie.com",
+      "PartyName": "The Innocence Project and the Center on Race, Inequality, and the Law at New York University School of Law"
+    },
+    {
+      "Attorney": "Brianne Jenna Gorod",
+      "IsCounselofRecord": true,
+      "Title": "Constitutional Accountability Center",
+      "PrisonerId": null,
+      "Phone": "202 296 6889",
+      "Address": "1730 Rhode Island Ave. NW\r\nSuite 1200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "BRIANNE@THEUSCONSTITUTION.ORG",
+      "PartyName": "Constitutional Accountability Center"
+    },
+    {
+      "Attorney": "Megan Kathleen Graham",
+      "IsCounselofRecord": true,
+      "Title": "Technology Law Clinic",
+      "PrisonerId": null,
+      "Phone": "(319) 335-9023",
+      "Address": "University of Iowa College of Law\r\n380 Boyd Law Building",
+      "City": "Iowa City",
+      "State": "IA",
+      "Zip": "52245",
+      "Email": "megan-k-graham@uiowa.edu",
+      "PartyName": "Eight Law Professors"
+    },
+    {
+      "Attorney": "Jennifer Stisa Granick",
+      "IsCounselofRecord": true,
+      "Title": "American Civil Liberties Union Foundation",
+      "PrisonerId": null,
+      "Phone": "212-549-2500",
+      "Address": "425 California Street, Suite 700",
+      "City": "San Francisco",
+      "State": "CA",
+      "Zip": "94104",
+      "Email": "JGRANICK@ACLU.ORG",
+      "PartyName": "American Civil Liberties Union, American Civil Liberties Union of Virginia, Electronic Frontier Foundation, and Center on Privacy & Technology at Georgetown Law"
+    },
+    {
+      "Attorney": "James W. Harper",
+      "IsCounselofRecord": true,
+      "Title": "American Enterprise Institute",
+      "PrisonerId": null,
+      "Phone": "202-862-5800",
+      "Address": "1789 Massachusetts Avenue NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "jimharperdc@earthlink.net",
+      "PartyName": "James W. Harper"
+    },
+    {
+      "Attorney": "Ari Benjamin Asher Holtzblatt",
+      "IsCounselofRecord": true,
+      "Title": "Wilmer Cutler Pickering Hale and Dorr LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 663-6000",
+      "Address": "2100 Pennsylvania Avenue NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20037",
+      "Email": "ARI.HOLTZBLATT@WILMERHALE.COM",
+      "PartyName": "Microsoft Corporation"
+    },
+    {
+      "Attorney": "Scott A. Keller",
+      "IsCounselofRecord": true,
+      "Title": "Lehotsky Keller Cohn LLP",
+      "PrisonerId": null,
+      "Phone": "5126938350",
+      "Address": "200 Massachusetts Avenue, NW\r\nSuite 700",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "scott@lkcfirm.com",
+      "PartyName": "Google LLC"
+    },
+    {
+      "Attorney": "Orin S. Kerr",
+      "IsCounselofRecord": true,
+      "Title": "Orin S. Kerr",
+      "PrisonerId": null,
+      "Phone": "(650)498-8125",
+      "Address": "559 Nathan Abbott Way",
+      "City": "Stanford",
+      "State": "CA",
+      "Zip": "94305",
+      "Email": "orin@orinkerr.com",
+      "PartyName": "Professor Orin S. Kerr"
+    },
+    {
+      "Attorney": "Thomas Ryan McCarthy",
+      "IsCounselofRecord": true,
+      "Title": "Consovoy McCarthy PLLC",
+      "PrisonerId": null,
+      "Phone": "7032439423",
+      "Address": "1600 Wilson Boulevard\r\nSuite 700",
+      "City": "Arlington",
+      "State": "VA",
+      "Zip": "22209",
+      "Email": "TOM@CONSOVOYMCCARTHY.COM",
+      "PartyName": "The Local Government Legal Center"
+    },
+    {
+      "Attorney": "Charles Luther McCloud",
+      "IsCounselofRecord": true,
+      "Title": "Williams & Connolly LLP",
+      "PrisonerId": null,
+      "Phone": "202-434-5586",
+      "Address": "680 Maine Avenue, S.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20024",
+      "Email": "lmccloud@wc.com",
+      "PartyName": "NetChoice"
+    },
+    {
+      "Attorney": "Mark Miller",
+      "IsCounselofRecord": true,
+      "Title": "Pacific Legal Foundation",
+      "PrisonerId": null,
+      "Phone": "561-691-5000",
+      "Address": "4440 PGA Blvd.\r\nSuite 307",
+      "City": "Palm Beach Gardens",
+      "State": "FL",
+      "Zip": "33410",
+      "Email": "mark@pacificlegal.org",
+      "PartyName": "X Corp."
+    },
+    {
+      "Attorney": "William Jeffrey Olson",
+      "IsCounselofRecord": true,
+      "Title": "William J. Olson, P.C.",
+      "PrisonerId": null,
+      "Phone": "7033565070",
+      "Address": "370 Maple Ave. W., Suite 4",
+      "City": "Vienna",
+      "State": "VA",
+      "Zip": "22180",
+      "Email": "WJO@MINDSPRING.COM",
+      "PartyName": "America's Future, Gun Owners of America, Inc., Gun Owners Foundation, Virginia Citizens Defense League, Virginia Citizens Defense Foundation, Tennessee Firearms Association, Tennessee Firearms Foundation, and Conservative Legal Defense and Education Fund"
+    },
+    {
+      "Attorney": "Michael David Pepson",
+      "IsCounselofRecord": true,
+      "Title": "Americans for Prosperity Foundation",
+      "PrisonerId": null,
+      "Phone": "5713294529",
+      "Address": "4201 Wilson Blvd., Ste. 1000",
+      "City": "Arlington",
+      "State": "VA",
+      "Zip": "22203",
+      "Email": "mpepson@afphq.org",
+      "PartyName": "Americans for Prosperity Foundation"
+    },
+    {
+      "Attorney": "Katelyn Nichole Ringrose",
+      "IsCounselofRecord": true,
+      "Title": "McDermott Will & Schulte",
+      "PrisonerId": null,
+      "Phone": "202-756-8176",
+      "Address": "500 North Capitol St NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "kringrose@mwe.com",
+      "PartyName": "Center for Democracy & Technology"
+    },
+    {
+      "Attorney": "Nicholas Robert Rosellini",
+      "IsCounselofRecord": true,
+      "Title": "Lathan & Watkins LLP",
+      "PrisonerId": null,
+      "Phone": "4153958165",
+      "Address": "505 Montgomery Street, Suite 2000",
+      "City": "San Francisco",
+      "State": "CA",
+      "Zip": "94111-6538",
+      "Email": "nick.rosellini@lw.com",
+      "PartyName": "The Policing Project at New York University School of Law"
+    },
+    {
+      "Attorney": "Gene Clayton Schaerr",
+      "IsCounselofRecord": true,
+      "Title": "Schaerr | Jaffe",
+      "PrisonerId": null,
+      "Phone": "202-787-1060",
+      "Address": "1717 K Street NW, Suite 900",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "GSCHAERR@SCHAERR-JAFFE.COM",
+      "PartyName": "Project for Privacy & Surveillance Accountability, Inc."
+    },
+    {
+      "Attorney": "Jeffrey Michael Schwab",
+      "IsCounselofRecord": true,
+      "Title": "Liberty Justice Center",
+      "PrisonerId": null,
+      "Phone": "512-481-4400",
+      "Address": "7500 Rialto Blvd.\r\nSuite 1-250",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": "78735",
+      "Email": "JSchwab@LJC.org",
+      "PartyName": "Liberty Justice Center"
+    },
+    {
+      "Attorney": "Jay Alan Sekulow",
+      "IsCounselofRecord": true,
+      "Title": "American Center for Law and Justice",
+      "PrisonerId": null,
+      "Phone": "2025468890",
+      "Address": "201 Maryland Avenue, N.E.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20002",
+      "Email": "sekulow@aclj.org",
+      "PartyName": "American Center for Law and Justice"
+    },
+    {
+      "Attorney": "Mahesha Padmanabhan Subbaraman",
+      "IsCounselofRecord": true,
+      "Title": "Subbaraman PLLC",
+      "PrisonerId": null,
+      "Phone": "612-315-9210",
+      "Address": "80 S. 8th St., Suite 900",
+      "City": "Minneapolis",
+      "State": "MN",
+      "Zip": "55402",
+      "Email": "MPS@SUBBLAW.COM",
+      "PartyName": "Restore the Fourth, Inc."
+    },
+    {
+      "Attorney": "Ethan Haller Townsend",
+      "IsCounselofRecord": true,
+      "Title": "McDermott Will & Schulte LLP",
+      "PrisonerId": null,
+      "Phone": "202-756-8000",
+      "Address": "500 North Capitol Street NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "EHTOWNSEND@MWE.COM",
+      "PartyName": "The Rutherford Institute"
+    },
+    {
+      "Attorney": "Anne Margaret Voigts",
+      "IsCounselofRecord": true,
+      "Title": "Pillsbury Winthrop Shaw Pittman LLP",
+      "PrisonerId": null,
+      "Phone": "(650) 233-4500",
+      "Address": "2400 Hanover Street",
+      "City": "Palo Alto",
+      "State": "CA",
+      "Zip": "94304",
+      "Email": "anne.voigts@pillsburylaw.com",
+      "PartyName": "Software & Information Industry Association and Computer & Communications Industry Association"
+    },
+    {
+      "Attorney": "Eric Harris Wessan",
+      "IsCounselofRecord": true,
+      "Title": "Iowa Attorney General's Office",
+      "PrisonerId": null,
+      "Phone": "(515) 823- 9117",
+      "Address": "1305 E Walnut St. Second Floor",
+      "City": "Des Moines",
+      "State": "IA",
+      "Zip": "50319",
+      "Email": "wessan.eric@gmail.com",
+      "PartyName": "Iowa, Michigan, 29 States and the District of Columbia"
+    },
+    {
+      "Attorney": "John Gaelen Wrench",
+      "IsCounselofRecord": true,
+      "Title": "Institute for Justice",
+      "PrisonerId": null,
+      "Phone": "(703) 682 9320",
+      "Address": "901 N . Glebe Rd #900",
+      "City": "Arlington",
+      "State": "VA",
+      "Zip": "22203",
+      "Email": "jwrench@ij.org",
+      "PartyName": "Institute for Justice"
+    }
+  ]
+}

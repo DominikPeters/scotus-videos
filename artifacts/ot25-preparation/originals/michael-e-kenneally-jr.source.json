@@ -1,0 +1,15 @@
+{
+  "name": "Michael E. Kenneally, Jr.",
+  "image_url": "https://www.morganlewis.com/-/media/images/people/washington-dc/kenneally_michael_75126_desktop.jpg?rev=2545d478ef604b11baa18cfee1007c9c&hash=7394A21D447AAD764BC582293FCA90ED",
+  "source_url": "https://www.morganlewis.com/bios/michaelkenneally",
+  "identity_evidence": "Docket 23-1209 matches Morgan Lewis email and Washington office. Downloaded observed asset through Chrome pageAssets after HTTP 403. Saved asset is a low-resolution browser preview, not the original JPEG.",
+  "sha256": "b5b18e3d5eece719cf2a53335101e7104c41f8a9cee350fb7cf3c68b77659ca9",
+  "dimensions": [
+    160,
+    160
+  ],
+  "approval": "pending",
+  "path": "artifacts/ot25-preparation/originals/michael-e-kenneally-jr.webp",
+  "asset_type": "low-resolution browser preview",
+  "private_note": "Saved160\u00d7160 WebP was returned by Chrome pageAssets; it is a browser preview, not the original JPEG named by image_url. Original download was blocked. Review quality before use."
+}

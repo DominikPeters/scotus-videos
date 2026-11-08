@@ -1,0 +1,426 @@
+{
+  "CaseNumber": "25-5146 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "07/13/2026",
+  "sJsonTerm": "2025",
+  "sJsonCaseNumber": "05146",
+  "sJsonCaseType": "IFP",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Ahmad Abouammo, Petitioner",
+  "RespondentTitle": "United States",
+  "DocketedDate": "July 18, 2025",
+  "Links": "Linked with 24A1209",
+  "LowerCourt": "United States Court of Appeals for the Ninth Circuit",
+  "LowerCourtCaseNumbers": "(22-10348)",
+  "LowerCourtDecision": "December 4, 2024",
+  "LowerCourtRehearingDenied": "March 18, 2025",
+  "QPLink": "../qp/25-05146qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Jun 05 2025",
+      "Text": "Application (24A1209) to extend the time to file a petition for a writ of certiorari from June 16, 2025 to July 16, 2025, submitted to Justice Kagan.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Abouammo - Extension Motion.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/362367/20250605122507411_Abouammo%20-%20Extension%20Motion.pdf"
+        },
+        {
+          "Description": "Lower Court Orders/Opinions",
+          "File": "Ahmad - Lower Court Orders and Opinions.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/362367/20250605122516986_Ahmad%20-%20Lower%20Court%20Orders%20and%20Opinions.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Ahmad Moet COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/362367/20250605122528617_Ahmad%20Moet%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 09 2025",
+      "Text": "Application (24A1209) granted by Justice Kagan extending the time to file until July 16, 2025."
+    },
+    {
+      "Date": "Jul 16 2025",
+      "Text": "Petition for a writ of certiorari and motion for leave to proceed in forma pauperis filed. (Response due August 18, 2025)",
+      "Links": [
+        {
+          "Description": "Motion for Leave to Proceed in Forma Pauperis",
+          "File": "Abouammo - IFP Motion.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/365352/20250716141053149_Abouammo%20-%20IFP%20Motion.pdf"
+        },
+        {
+          "Description": "Petition",
+          "File": "Abouammo Cert Petition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/365352/20250716141109148_Abouammo%20Cert%20Petition.pdf"
+        },
+        {
+          "Description": "Appendix",
+          "File": "Abouammo Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/365352/20250716141124351_Abouammo%20Appendix.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/365352/20250716141137590_COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/365352/20250716141152621_COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 07 2025",
+      "Text": "Motion to extend the time to file a response from August 18, 2025 to September 17, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Extension Letter 25-5146.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/369098/20250807115744947_Extension%20Letter%2025-5146.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 08 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including September 17, 2025."
+    },
+    {
+      "Date": "Aug 18 2025",
+      "Text": "Brief amicus curiae of National Association of Criminal Defense Lawyers filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-5146 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/370062/20250818172204202_25-5146%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-5146 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/370062/20250818172210802_25-5146%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-5146 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/370062/20250818172216176_25-5146%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 18 2025",
+      "Text": "Brief amicus curiae of Cato Institute filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Abouammo_Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/369982/20250818112547165_Abouammo_Final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Abouammo_Cert Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/369982/20250818112557286_Abouammo_Cert%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Abouammo_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/369982/20250818112602598_Abouammo_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 09 2025",
+      "Text": "Motion to extend the time to file a response from September 17, 2025 to October 17, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Extension Letter 25-5146 2nd.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/374116/20250909134434615_Extension%20Letter%2025-5146%202nd.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 11 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is further extended to and including October 17, 2025."
+    },
+    {
+      "Date": "Oct 17 2025",
+      "Text": "Brief of respondent United States in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Abouammo opp.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/379897/20251017120522185_Abouammo%20opp.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Cert. 25-5146.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/379897/20251017120603679_Cert.%2025-5146.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 05 2025",
+      "Text": "Reply of petitioner Ahmad Abouammo filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Abouammo Cert Reply - Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/383608/20251105105827847_Abouammo%20Cert%20Reply%20-%20Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "COS - Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/383608/20251105105845635_COS%20-%20Final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "COC - Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/383608/20251105105836908_COC%20-%20Final.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 06 2025",
+      "Text": "DISTRIBUTED for Conference of 11/21/2025."
+    },
+    {
+      "Date": "Dec 01 2025",
+      "Text": "DISTRIBUTED for Conference of 12/5/2025."
+    },
+    {
+      "Date": "Dec 05 2025",
+      "Text": "Motion to proceed in forma pauperis granted.  The petition for a writ of certiorari is GRANTED limited to Question 1 presented by the petition."
+    },
+    {
+      "Date": "Jan 20 2026",
+      "Text": "Brief of petitioner Ahmad Abouammo filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 25-5146 - Abouammo v. US - Petitioners Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/392101/20260120114700674_No.%2025-5146%20-%20Abouammo%20v.%20US%20-%20Petitioners%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 25-5146 - Abouammo v. US - Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/392101/20260120114838571_No.%2025-5146%20-%20Abouammo%20v.%20US%20-%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 25-5146 - Abouammo v. US - Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/392101/20260120114723730_No.%2025-5146%20-%20Abouammo%20v.%20US%20-%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 20 2026",
+      "Text": "Joint appendix filed.  (Statement of costs filed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 25-5146 - Abouammo v. US - Joint Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/392104/20260120115047299_No.%2025-5146%20-%20Abouammo%20v.%20US%20-%20Joint%20Appendix.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 25-5146 - Abouammo v. US - Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/392104/20260120115057910_No.%2025-5146%20-%20Abouammo%20v.%20US%20-%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 27 2026",
+      "Text": "Brief amici curiae of National Association of Criminal Defense Lawyers, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 25-5146_Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/392817/20260127152929842_No.%2025-5146_Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 25-5146_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/392817/20260127152940341_No.%2025-5146_Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 25-5146_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/392817/20260127153003834_No.%2025-5146_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 27 2026",
+      "Text": "Brief amicus curiae of Cato Institute filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Abouammo_Mertis_Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/392814/20260127151113023_Abouammo_Mertis_Final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Abouammo_Cert Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/392814/20260127151118281_Abouammo_Cert%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Abouammo_Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/392814/20260127151124446_Abouammo_Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 30 2026",
+      "Text": "SET FOR ARGUMENT on Monday, March 30, 2026."
+    },
+    {
+      "Date": "Feb 05 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Ninth Circuit."
+    },
+    {
+      "Date": "Feb 19 2026",
+      "Text": "Brief of respondent United States filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-5146bsUnitedStates.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/396818/20260219192622991_25-5146bsUnitedStates.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate - 25-5146 - Abouammo v. USA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/396818/20260219192641689_Certificate%20-%2025-5146%20-%20Abouammo%20v.%20USA.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 20 2026",
+      "Text": "Sealed material received electronically from the United States Court of Appeals for the Ninth Circuit. The remainder of the record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Mar 06 2026",
+      "Text": "Record received electronically from the United States District Court for the Northern District of California and available with the Clerk."
+    },
+    {
+      "Date": "Mar 20 2026",
+      "Text": "Reply of petitioner Ahmad Abouammo filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Abouammo Reply - FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/401421/20260320114936521_Abouammo%20Reply%20-%20FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "COS Abouammo v. US.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/401421/20260320115146337_COS%20Abouammo%20v.%20US.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "COC Abouammo v. US.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/401421/20260320115317802_COC%20Abouammo%20v.%20US.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "Argued. For petitioner: Tobias S. Loss-Eaton, Washington, D. C.  For respondent: Anthony A. Yang, Assistant to the Solicitor General, Department of Justice, Washington, D. C."
+    },
+    {
+      "Date": "Jun 11 2026",
+      "Text": "Judgment REVERSED and case REMANDED.  Kagan, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/25-5146_new_kifl.pdf'>opinion</a> for a unanimous Court."
+    },
+    {
+      "Date": "Jul 13 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 25-5146 Rev Rem NO COSTS 9th. Cir. 7.13.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5146/416303/20260713104551032_EFILING%2025-5146%20Rev%20Rem%20NO%20COSTS%209th.%20Cir.%207.13.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioner",
+  "Petitioner": [
+    {
+      "Attorney": "Jodi Linker",
+      "IsCounselofRecord": true,
+      "Title": "Federal Public Defender ND California",
+      "PrisonerId": null,
+      "Phone": "4154367700",
+      "Address": "450 Golden Gate Avenue",
+      "City": "San Francisco",
+      "State": "CA",
+      "Zip": "94102",
+      "Email": "jodi_linker@fd.org",
+      "PartyName": "Ahmad Abouammo"
+    },
+    {
+      "Attorney": "Tobias Samuel Loss-Eaton",
+      "IsCounselofRecord": false,
+      "Title": "Sidley Austin LLP",
+      "PrisonerId": null,
+      "Phone": "2027368427",
+      "Address": "1501 K Street NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20005",
+      "Email": "tlosseaton@sidley.com",
+      "PartyName": "Ahmad Abouammo"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondent",
+  "Respondent": [
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": true,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "United States"
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Matthew P. Cavedon",
+      "IsCounselofRecord": true,
+      "Title": "Cato Institute",
+      "PrisonerId": null,
+      "Phone": "706-309-2859",
+      "Address": "1000 Massachusetts Ave. NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "mcavedon@cato.org",
+      "PartyName": "Cato Institute"
+    },
+    {
+      "Attorney": "Andrew Thomas George",
+      "IsCounselofRecord": true,
+      "Title": "Bourelly, George + Brodey PLLC",
+      "PrisonerId": null,
+      "Phone": "(202) 753-5012",
+      "Address": "1050 30th Street, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20007",
+      "Email": "andrew.george@bgblawyers.com",
+      "PartyName": "The National Association of Criminal Defense Lawyers"
+    }
+  ]
+}

@@ -1,0 +1,1044 @@
+{
+  "CaseNumber": "24-1238 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "06/15/2026",
+  "sJsonTerm": "2024",
+  "sJsonCaseNumber": "01238",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Shawn Montgomery, Petitioner",
+  "RespondentTitle": "Caribe Transport II, LLC, et al.",
+  "DocketedDate": "June 4, 2025",
+  "Links": "Linked with 24A846",
+  "LowerCourt": "United States Court of Appeals for the Seventh Circuit",
+  "LowerCourtCaseNumbers": "(24-1192)",
+  "LowerCourtDecision": "January 3, 2025",
+  "QPLink": "../qp/24-01238qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Feb 27 2025",
+      "Text": "Application (24A846) to extend the time to file a petition for a writ of certiorari from April 3, 2025 to June 2, 2025, submitted to Justice Barrett.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Extension of Time for Petition for Writ of Cert .pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/350825/20250227122724071_Extension%20of%20Time%20for%20Petition%20for%20Writ%20of%20Cert%20.pdf"
+        },
+        {
+          "Description": "Lower Court Orders/Opinions",
+          "File": "de 41- OPINION.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/350825/20250227122735061_de%2041-%20OPINION.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/350825/20250227122742037_Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 04 2025",
+      "Text": "Application (24A846) granted by Justice Barrett extending the time to file until June 2, 2025."
+    },
+    {
+      "Date": "Jun 02 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due July 7, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "No.-_Petition for a Writ of Certiorari.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/362087/20250602133406110_No.-_Petition%20for%20a%20Writ%20of%20Certiorari.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/362087/20250602133453288_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/362087/20250602133752518_Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 07 2025",
+      "Text": "Brief of respondents C.H. Robinson Worldwide, Inc., et al. in support filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1238BriefForRespondentsCHRobinsonWorldwideInc.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/364523/20250707125855609_24-1238BriefForRespondentsCHRobinsonWorldwideInc.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1238 Thompson Coburn COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/364523/20250707125903904_No.%2024-1238%20Thompson%20Coburn%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1238 Thompson Coburn COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/364523/20250707125910135_No.%2024-1238%20Thompson%20Coburn%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 07 2025",
+      "Text": "Brief amicus curiae of National Association of Manufacturers filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Final - NAM Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/364577/20250707161819626_Final%20-%20NAM%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1238 Venable LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/364577/20250707161833498_No.%2024-1238%20Venable%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1238 Venable LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/364577/20250707161843199_No.%2024-1238%20Venable%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 22 2025",
+      "Text": "Reply of petitioner Shawn Montgomery filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Reply in support of petition for a writ of certiorari.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/365757/20250722124600512_Reply%20in%20support%20of%20petition%20for%20a%20writ%20of%20certiorari.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1238 Creed  Gowdy COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/365757/20250722124723727_No.%2024-1238%20Creed%20%20Gowdy%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1238 Creed  Gowdy COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/365757/20250722124700133_No.%2024-1238%20Creed%20%20Gowdy%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 23 2025",
+      "Text": "DISTRIBUTED for Conference of 9/29/2025."
+    },
+    {
+      "Date": "Aug 04 2025",
+      "Text": "Supplemental brief of respondents C.H. Robinson Worldwide, Inc.,  et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1238SupplementalBriefForRespondents.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/368771/20250804142512553_24-1238SupplementalBriefForRespondents.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1238 Thompson Coburn COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/368771/20250804142520214_No.%2024-1238%20Thompson%20Coburn%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1238 Thompson Coburn COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/368771/20250804142527986_No.%2024-1238%20Thompson%20Coburn%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 27 2025",
+      "Text": "Rescheduled."
+    },
+    {
+      "Date": "Sep 10 2025",
+      "Text": "DISTRIBUTED for Conference of 9/29/2025."
+    },
+    {
+      "Date": "Oct 03 2025",
+      "Text": "Petition GRANTED."
+    },
+    {
+      "Date": "Nov 06 2025",
+      "Text": "Motion for an extension of time to file the briefs on the merits filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025-11-06 FINAL Montgomery Extension Request.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/383756/20251106143657035_2025-11-06%20FINAL%20Montgomery%20Extension%20Request.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 13 2025",
+      "Text": "Motion to extend the time to file the briefs on the merits granted.  The time to file the joint appendix and petitioner's brief on the merits is extended to and including December 1, 2025.  The time to file respondents' brief on the merits is extended to and including January 14, 2026."
+    },
+    {
+      "Date": "Dec 01 2025",
+      "Text": "Brief of petitioner Shawn Montgomery filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1238_Brief for Petitioner.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386022/20251201145245920_24-1238_Brief%20for%20Petitioner.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1238_Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386022/20251201145254435_24-1238_Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1238_Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386022/20251201145308301_24-1238_Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 01 2025",
+      "Text": "Joint appendix filed.  (Statement of costs received)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1238_Joint Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386024/20251201145357842_24-1238_Joint%20Appendix.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 02 2025",
+      "Text": "Brief amicus curiae of Institute for Safer Trucking filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Inst for Safer Trucking - Montgomery Merits-Stage Amicus Brief 12-2-25 - final for filing.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386153/20251202143125052_Inst%20for%20Safer%20Trucking%20-%20Montgomery%20Merits-Stage%20Amicus%20Brief%2012-2-25%20-%20final%20for%20filing.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Montgomery - word-count certificate - final - 12.2.2025.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386153/20251202143202785_Montgomery%20-%20word-count%20certificate%20-%20final%20-%2012.2.2025.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1238 AOS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386153/20251202143231472_24-1238%20AOS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 05 2025",
+      "Text": "Brief amicus curiae of American Truckers United filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "AtuMont_Amicus Document December 5 2025 EFILE.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386484/20251205004412595_AtuMont_Amicus%20Document%20December%205%202025%20EFILE.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "AtuMont_Amicus Certificate Word Count December 5 2025 EFILE.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386484/20251205004424085_AtuMont_Amicus%20Certificate%20Word%20Count%20December%205%202025%20EFILE.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "AtuMont_Amicus Certificate Service December 5 2025 EFILE.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386484/20251205004430971_AtuMont_Amicus%20Certificate%20Service%20December%205%202025%20EFILE.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 05 2025",
+      "Text": "Brief amicus curiae of Gergana Franco filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "251202a AC Brief for efiling.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386746/20251208154454350_251202a%20AC%20Brief%20for%20efiling.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "251202 Certificate of Word Count Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386746/20251208154513602_251202%20Certificate%20of%20Word%20Count%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "251202 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386746/20251208154534997_251202%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 08 2025",
+      "Text": "Amici brief of Ohio, et al. not accepted for filing. (To be corrected - December 8, 2025)"
+    },
+    {
+      "Date": "Dec 08 2025",
+      "Text": "Brief amici curiae of Ohio, et al. filed. (Corrected)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Montgomery Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386714/20251208143700687_Montgomery%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Merits Amicus Cert of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386714/20251208143727352_Merits%20Amicus%20Cert%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Merits Amicus Cert of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386714/20251208143734640_Merits%20Amicus%20Cert%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 08 2025",
+      "Text": "Amici brief of Truck Safety Coalition, et al. not accepted for filing. (To be corrected - December 8, 2025)"
+    },
+    {
+      "Date": "Dec 08 2025",
+      "Text": "Brief amici curiae of Truck Safety Coalition, et al. filed. (Corrected)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "TSC Amicus Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386711/20251208143030745_TSC%20Amicus%20Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386711/20251208143052936_Service%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386711/20251208143041931_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 08 2025",
+      "Text": "Brief amicus curiae of Robert Cox filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Cox Amicus Montgomery v Caribe.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386695/20251208130646161_Cox%20Amicus%20Montgomery%20v%20Caribe.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Cox Amicus Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386695/20251208130704399_Cox%20Amicus%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Cox Amicus Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386695/20251208130715321_Cox%20Amicus%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 08 2025",
+      "Text": "Brief amicus curiae of Preemption Scholars filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1238 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386775/20251208172322016_24-1238%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1238 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386775/20251208172330283_24-1238%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1238 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/386775/20251208172458474_24-1238%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 02 2026",
+      "Text": "SET FOR ARGUMENT on Wednesday, March 4, 2026."
+    },
+    {
+      "Date": "Jan 08 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Seventh Circuit."
+    },
+    {
+      "Date": "Jan 14 2026",
+      "Text": "Brief of respondents Caribe Transport II, LLC, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Montgomery - Respondents Br..pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/391718/20260114133856784_Montgomery%20-%20Respondents%20Br..pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Montgomery - Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/391718/20260114133919056_Montgomery%20-%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Montgomery - Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/391718/20260114133949978_Montgomery%20-%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 14 2026",
+      "Text": "Brief amicus curiae of American Honda Motor Co., Inc. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Honda MAIN E FILE Jan 14 26.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/391747/20260114155612253_Honda%20MAIN%20E%20FILE%20Jan%2014%2026.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Honda Cert WC E FILE Jan 14 26.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/391747/20260114155617491_Honda%20Cert%20WC%20E%20FILE%20Jan%2014%2026.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Honda Cert Service E FILE Jan 14 26.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/391747/20260114155625728_Honda%20Cert%20Service%20E%20FILE%20Jan%2014%2026.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amicus curiae of United States filed. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1238bsacUSA_final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392379/20260121162222044_24-1238bsacUSA_final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. 24-1238 amicus brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392379/20260121162256541_certificate.%2024-1238%20amicus%20brief.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amici curiae of Amazon.com, Inc., et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026-01-21 No. 24-1238 Amazon Amicus brief - Montgomery v. Caribe.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392311/20260121132310805_2026-01-21%20No.%2024-1238%20Amazon%20Amicus%20brief%20-%20Montgomery%20v.%20Caribe.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2026-01-21 No. 24-1238 Cert of Service to Amazon Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392311/20260121132405323_2026-01-21%20No.%2024-1238%20Cert%20of%20Service%20to%20Amazon%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2026-01-21 No. 24-1238 Certificate of Compliance to Amazon Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392311/20260121132332527_2026-01-21%20No.%2024-1238%20Certificate%20of%20Compliance%20to%20Amazon%20Amicus%20Brief.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amici curiae of Interested Freight Brokers filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Brooke Caribe Main E FILE Jan 21 2026.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392353/20260121145809503_Brooke%20Caribe%20Main%20E%20FILE%20Jan%2021%202026.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Brooke Caribe Cert WC E FILE Jan 21 2026.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392353/20260121145815461_Brooke%20Caribe%20Cert%20WC%20E%20FILE%20Jan%2021%202026.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Brooke Caribe Cert Svc E FILE Jan 21 2026.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392353/20260121145822479_Brooke%20Caribe%20Cert%20Svc%20E%20FILE%20Jan%2021%202026.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amici curiae of Nebraska, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1238 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392266/20260121105837865_24-1238%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1238 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392266/20260121105849584_24-1238%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1238 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392266/20260121105844358_24-1238%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amicus curiae of Airlines for America filed. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Montgomery v. Caribe Transport II - Amicus Brief FILE.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392291/20260121120819441_Montgomery%20v.%20Caribe%20Transport%20II%20-%20Amicus%20Brief%20FILE.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Montgomery v. Caribe Transport II - Certificate of Compliance FILE.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392291/20260121120832662_Montgomery%20v.%20Caribe%20Transport%20II%20-%20Certificate%20of%20Compliance%20FILE.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Montgomery v. Caribe Transport II - Certificate of Service FILE.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392291/20260121120851414_Montgomery%20v.%20Caribe%20Transport%20II%20-%20Certificate%20of%20Service%20FILE.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amicus curiae of OurBus, Inc. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1238 - Amicus Brief - OurBus Inc.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392368/20260121153651893_24-1238%20-%20Amicus%20Brief%20-%20OurBus%20Inc.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1238  - Certificate - OurBus Inc.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392368/20260121153707687_24-1238%20%20-%20Certificate%20-%20OurBus%20Inc.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1238  - Service - OurBus Inc.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392368/20260121153719624_24-1238%20%20-%20Service%20-%20OurBus%20Inc.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amicus curiae of National Association of Manufacturers filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "NAM Merits Amicus Brief Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392290/20260121120508352_NAM%20Merits%20Amicus%20Brief%20Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1238 Venable COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392290/20260121120517080_24-1238%20Venable%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1238 Venable COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392290/20260121120523719_24-1238%20Venable%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amicus curiae of Washington Legal Foundation filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "WLF Amicus Brief - Montgomery v Caribe 21jan2026.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392295/20260121122104813_WLF%20Amicus%20Brief%20-%20Montgomery%20v%20Caribe%2021jan2026.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1238 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392295/20260121122122477_24-1238%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1238 Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392295/20260121122133316_24-1238%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Amicus brief of Tokio Marine Houston Casualty Company not accepted for filing. (To be corrected - January 23, 2026)"
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amicus curiae of Tokio Marine Houston Casualty Company filed. (Corrected) (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1238 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392617/20260123142727765_24-1238%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1238 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392617/20260123142750249_24-1238%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1238 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392617/20260123142738449_24-1238%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amici curiae of Professor Keith Hylton, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1238 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392384/20260121164608213_24-1238%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1238 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392384/20260121164649203_24-1238%20Service%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1238 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392384/20260121164628020_24-1238%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amicus curiae of Transportation Intermediaries Association, Inc. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1238acTheTransportationIntermediariesAssociationInc.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392277/20260121112212455_24-1238acTheTransportationIntermediariesAssociationInc.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1238 Benesch COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392277/20260121112220883_24-1238%20Benesch%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1238 Benesch COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392277/20260121112228593_24-1238%20Benesch%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Brief amici curiae of Chamber of Commerce of the United States of America, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1238 bsac Chamber.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392316/20260121134721982_24-1238%20bsac%20Chamber.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1238 bsac COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392316/20260121134752169_24-1238%20bsac%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1238 bsac COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392316/20260121134736645_24-1238%20bsac%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1238 Montgomery v. Caribe - USA mot for divided arg.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392380/20260121163312823_24-1238%20Montgomery%20v.%20Caribe%20-%20USA%20mot%20for%20divided%20arg.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. 24-1238. mtn div.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/392380/20260121163545819_certificate.%2024-1238.%20mtn%20div.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 23 2026",
+      "Text": "Record received from the United States Court of Appeals for the Seventh Circuit. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Feb 13 2026",
+      "Text": "Reply of petitioner Shawn Montgomery filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1238 Final Montgomery Reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/396222/20260213122048721_24-1238%20Final%20Montgomery%20Reply.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1238 Clement Murphy COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/396222/20260213122056503_24-1238%20Clement%20Murphy%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1238 Clement Murphy COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/396222/20260213122104975_24-1238%20Clement%20Murphy%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 20 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument GRANTED."
+    },
+    {
+      "Date": "Mar 04 2026",
+      "Text": "Argued. For petitioner: Paul D. Clement, Alexandria, Va. For respondents: Theodore J. Boutrous, Jr., Los Angeles, Cal.; and Sopan Joshi, Assistant to the Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.)"
+    },
+    {
+      "Date": "May 14 2026",
+      "Text": "Judgment REVERSED and case REMANDED.  Barrett, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/24-1238_1b7d.pdf'>opinion</a> for a unanimous Court.  Kavanaugh, J., filed a concurring opinion, in which Alito, J., joined."
+    },
+    {
+      "Date": "Jun 15 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 24-1238 Rev Rem COSTS 7th Cir. 6.15.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1238/413329/20260615154157511_EFILING%2024-1238%20Rev%20Rem%20COSTS%207th%20Cir.%206.15.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioner",
+  "Petitioner": [
+    {
+      "Attorney": "Paul D. Clement",
+      "IsCounselofRecord": true,
+      "Title": "Clement & Murphy, PLLC",
+      "PrisonerId": null,
+      "Phone": "(202) 742-8900",
+      "Address": "706 Duke Street",
+      "City": "Alexandria",
+      "State": "VA",
+      "Zip": "22314",
+      "Email": "PAUL.CLEMENT@CLEMENTMURPHY.COM",
+      "PartyName": "Shawn Montgomery"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondents",
+  "Respondent": [
+    {
+      "Attorney": "Theodore J. Boutrous Jr.",
+      "IsCounselofRecord": true,
+      "Title": "Gibson, Dunn & Crutcher LLP",
+      "PrisonerId": null,
+      "Phone": "(213) 229-7804",
+      "Address": "333 South Grand Ave.",
+      "City": "Los Angeles",
+      "State": "CA",
+      "Zip": "90071",
+      "Email": "TBOUTROUS@GIBSONDUNN.COM",
+      "PartyName": "C.H. Robinson Worldwide, Inc., C.H. Robinson Company, C.H. Robinson Company, Inc., and C.H. Robinson International, Inc."
+    },
+    {
+      "Attorney": "Warren L. Dean Jr.",
+      "IsCounselofRecord": false,
+      "Title": "Thompson Coburn LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 585-6900",
+      "Address": "1909 K Street, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "wdean@thompsoncoburn.com",
+      "PartyName": "C.H. Robinson Worldwide, Inc., C.H. Robinson Company, C.H. Robinson Company, Inc., and C.H. Robinson International, Inc."
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Rosalind Bell Bienvenu",
+      "IsCounselofRecord": true,
+      "Title": "Durham, Pittard & Spalding, LLP",
+      "PrisonerId": null,
+      "Phone": "(505) 629-1756",
+      "Address": "125 Lincoln Avenue, Suite 402",
+      "City": "Santa Fe",
+      "State": "NM",
+      "Zip": "87501",
+      "Email": "rbienvenu@dpslawgroup.com",
+      "PartyName": "American Truckers United"
+    },
+    {
+      "Attorney": "Marc S. Blubaugh",
+      "IsCounselofRecord": true,
+      "Title": "Benesch, Friedlander, Coplan & Aronoff, LLP",
+      "PrisonerId": null,
+      "Phone": "(614) 223-9300",
+      "Address": "41 South High Street\r\nSuite 2600",
+      "City": "Columbus",
+      "State": "OH",
+      "Zip": "43215",
+      "Email": "mblubaugh@beneschlaw.com",
+      "PartyName": "Transportation Intermediaries Association, Inc."
+    },
+    {
+      "Attorney": "Conte Carmelo Cicala",
+      "IsCounselofRecord": true,
+      "Title": "Withers Bergman LLP",
+      "PrisonerId": null,
+      "Phone": "415-872-3234",
+      "Address": "909 Montgomery Street, Suite 300",
+      "City": "San Francisco",
+      "State": "CA",
+      "Zip": "94133",
+      "Email": "conte.cicala@withersworldwide.com",
+      "PartyName": "Tokio Marine Houston Casualty Company"
+    },
+    {
+      "Attorney": "Shay Dvoretzky",
+      "IsCounselofRecord": true,
+      "Title": "Skadden, Arps, Slate, Meagher & Flom LLP",
+      "PrisonerId": null,
+      "Phone": "202-371-7370",
+      "Address": "1440 New York Ave., NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20005",
+      "Email": "SHAY.DVORETZKY@SKADDEN.COM",
+      "PartyName": "Airlines for America"
+    },
+    {
+      "Attorney": "Chantel L. Febus",
+      "IsCounselofRecord": true,
+      "Title": "Dykema Gossett PLLC",
+      "PrisonerId": null,
+      "Phone": "202-906-8680",
+      "Address": "1301 K Street NW\r\nSuite 1100 West",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20005",
+      "Email": "chantelfebus@gmail.com",
+      "PartyName": "American Honda Motor Co., Inc."
+    },
+    {
+      "Attorney": "Noel John Francisco",
+      "IsCounselofRecord": true,
+      "Title": "Jones Day",
+      "PrisonerId": null,
+      "Phone": "(202) 879-3939",
+      "Address": "51 Louisiana Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "NJFRANCISCO@JONESDAY.COM",
+      "PartyName": "Chamber of Commerce of the United States of America, et al."
+    },
+    {
+      "Attorney": "Patricia Lynn Gatling",
+      "IsCounselofRecord": true,
+      "Title": "Windels, Marx, Lane & Mittendorf, LLP",
+      "PrisonerId": null,
+      "Phone": "2122371000",
+      "Address": "156 West 56th Street",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10019",
+      "Email": "plgatling@gmail.com",
+      "PartyName": "OurBus, Inc."
+    },
+    {
+      "Attorney": "Jonathan Lawrence Hilton",
+      "IsCounselofRecord": true,
+      "Title": "Hilton Parker LLC",
+      "PrisonerId": null,
+      "Phone": "6149922277",
+      "Address": "7658 Slate Ridge Blvd.",
+      "City": "Reynoldsburg",
+      "State": "OH",
+      "Zip": "43068",
+      "Email": "jhilton@hiltonparker.com",
+      "PartyName": "Gergana Franco"
+    },
+    {
+      "Attorney": "Hyland Hunt",
+      "IsCounselofRecord": true,
+      "Title": "Deutsch Hunt PLLC",
+      "PrisonerId": null,
+      "Phone": "2028686915",
+      "Address": "300 New Jersey Ave. NW\r\nSuite 300",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "HHUNT@DEUTSCHHUNT.COM",
+      "PartyName": "Truck Safety Coalition, Parents Against Tired Truckers, and Citizens for Reliable and Safe Highways"
+    },
+    {
+      "Attorney": "Ronald Michael Jacobs",
+      "IsCounselofRecord": true,
+      "Title": "Venable LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 344-8215",
+      "Address": "600 Massachusetts Ave., N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "rmjacobs@venable.com",
+      "PartyName": "National Association of Manufacturers"
+    },
+    {
+      "Attorney": "Roman Martinez",
+      "IsCounselofRecord": true,
+      "Title": "Latham & Watkins, LLP",
+      "PrisonerId": null,
+      "Phone": "202-637-2207",
+      "Address": "555 Eleventh Street, NW\r\nSuite 1000",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "ROMAN.MARTINEZ@LW.COM",
+      "PartyName": "Amazon.com, Inc. and Wayfair LLC"
+    },
+    {
+      "Attorney": "Zac Morgan",
+      "IsCounselofRecord": true,
+      "Title": "Washington Legal Foundation",
+      "PrisonerId": null,
+      "Phone": "202-588-0302",
+      "Address": "2009 Massachusetts Avenue, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "zmorgan@wlf.org",
+      "PartyName": "Washington Legal Foundation"
+    },
+    {
+      "Attorney": "Robert Daniel Moseley Jr.",
+      "IsCounselofRecord": true,
+      "Title": "Moseley Marcinak Law Group LLP",
+      "PrisonerId": null,
+      "Phone": "(864) 248-6025",
+      "Address": "4324 Wade Hampton Boulevard, Suite B",
+      "City": "Taylors",
+      "State": "SC",
+      "Zip": "29687",
+      "Email": "rob.moseley@momarlaw.com",
+      "PartyName": "Interested Freight Brokers"
+    },
+    {
+      "Attorney": "Adina H. Rosenbaum",
+      "IsCounselofRecord": true,
+      "Title": "Public Citizen Litigation Group",
+      "PrisonerId": null,
+      "Phone": "202-588-7720",
+      "Address": "1600 20th Street NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20009",
+      "Email": "AROSENBAUM@CITIZEN.ORG",
+      "PartyName": "Robert Cox"
+    },
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": false,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "United States"
+    },
+    {
+      "Attorney": "Mathura Jaya Sridharan",
+      "IsCounselofRecord": true,
+      "Title": "Ohio Attorney General's Office",
+      "PrisonerId": null,
+      "Phone": "4408216380",
+      "Address": "30 E. Broad Street",
+      "City": "Columbus",
+      "State": "OH",
+      "Zip": "43215",
+      "Email": "Mathura.Sridharan@OhioAGO.gov",
+      "PartyName": "State of Ohio, 28 Other States, and the District of Columbia"
+    },
+    {
+      "Attorney": "Martin V. Totaro",
+      "IsCounselofRecord": true,
+      "Title": "Hecker Fink LLP",
+      "PrisonerId": null,
+      "Phone": "212-763-0883",
+      "Address": "1050 K Street NW\r\nSuite 1040",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "mtotaro@heckerfink.com",
+      "PartyName": "Professors Keith Hylton, Michael Greve and Richard Epstein"
+    },
+    {
+      "Attorney": "Brian Wolfman",
+      "IsCounselofRecord": true,
+      "Title": "Georgetown Law Appellate Courts Immersion Clinic",
+      "PrisonerId": null,
+      "Phone": "202-661-6582",
+      "Address": "600 New Jersey Ave.\r\nSuite 312",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "WOLFMANB@GEORGETOWN.EDU",
+      "PartyName": "Institute for Safer Trucking"
+    },
+    {
+      "Attorney": "Frederick Richard Yarger",
+      "IsCounselofRecord": true,
+      "Title": "Wheeler Trigg O'Donnell LLP",
+      "PrisonerId": null,
+      "Phone": "(303) 244-1990",
+      "Address": "370 17th Street\r\nSuite 4500",
+      "City": "Denver",
+      "State": "CO",
+      "Zip": "80202",
+      "Email": "YARGER@WTOTRIAL.COM",
+      "PartyName": "States of Nebraska and Georgia"
+    },
+    {
+      "Attorney": "Ernest A. Young",
+      "IsCounselofRecord": true,
+      "Title": null,
+      "PrisonerId": null,
+      "Phone": "9193607718",
+      "Address": "3208 Fox Terrace Drive.",
+      "City": "Apex",
+      "State": "NC",
+      "Zip": "27502",
+      "Email": "young@law.duke.edu",
+      "PartyName": "Preemption Scholars"
+    }
+  ]
+}

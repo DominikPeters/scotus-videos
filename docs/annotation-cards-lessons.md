@@ -87,7 +87,7 @@ Keep timelines to five events or fewer, because eight events were unreadable at 
 ## 4. Code changes needed in `cloud/`
 
 1. **`cue_for` labels.** Allow `label` on Excerpt and Record cards from an allowlist: "Opinion excerpt", "Complaint excerpt", "Brief excerpt", "Record excerpt", "Transcript excerpt". Update the prompt to match. The local workbench already accepts these (`annotation-trial/cards.py`, `cues()`).
-2. **`normalized()` hyphens.** Line-break hyphens and real hyphens should compare equal; otherwise quotes that cross a line break fail to verify. The local fix is `re.sub(r'-\s*', '', value)`. Also collapse `'Hall , 440'` to `'Hall, 440'`, since stripping tags leaves a space before punctuation.
+2. **`normalized()` hyphens.** Line-break hyphens and real hyphens should compare equal; otherwise quotes that cross a line break fail to verify. The local fix is `re.sub(r'-\s*', '', value)`. Also collapse `'Hall , 440'` to `'Hall, 440'`. Inline tags (`mark`, `i`, `b`) must be stripped without adding a space; only `<br>` becomes a space. This also handles a mark directly against an em-dash (`party</mark>—is`). Implemented in the cloud validator on 3 November; regression checks cover both sides of a dash and markup inside a word. The change is pending the next build batch.
 3. **`cards_exhibit`.** Take a separate highlight phrase, so the crop can show a whole paragraph while only the key words are marked.
 4. **The prompt.** Add:
    - the neutrality rule and its test;

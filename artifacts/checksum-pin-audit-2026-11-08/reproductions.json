@@ -1,0 +1,30 @@
+[
+  {
+    "probe": "portrait_metadata_only_update",
+    "result": "A portrait or provenance already exists; preserve it for review"
+  },
+  {
+    "probe": "resume_identical_exhibit_upload",
+    "result": "Object upload could not start: HTTP 412"
+  },
+  {
+    "probe": "source_revision_identical_text",
+    "metadata_updated": false,
+    "original_updated": false
+  },
+  {
+    "probe": "same_url_audio_replacement",
+    "changed_sent": false,
+    "cloud_reads": 1
+  },
+  {
+    "probe": "renderer_comment_without_manual_manifest_update",
+    "result": "Presentation source checksum differs"
+  },
+  {
+    "probe": "URL_keyed_source_cache",
+    "fetch_calls": 0,
+    "returned_text": "Old evidence text",
+    "returned_hash": "old-content-hash"
+  }
+]

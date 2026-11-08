@@ -1,0 +1,761 @@
+{
+  "CaseNumber": "24-783 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "05/26/2026",
+  "sJsonTerm": "2024",
+  "sJsonCaseNumber": "00783",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Enbridge Energy, LP, et al., Petitioners",
+  "RespondentTitle": "Dana Nessel, Attorney General of Michigan, on Behalf of the People of the State of Michigan",
+  "DocketedDate": "January 23, 2025",
+  "Links": "Linked with 24A410",
+  "LowerCourt": "United States Court of Appeals for the Sixth Circuit",
+  "LowerCourtCaseNumbers": "(23-1671)",
+  "LowerCourtDecision": "June 17, 2024",
+  "LowerCourtRehearingDenied": "August 16, 2024",
+  "QPLink": "../qp/24-00783qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Oct 23 2024",
+      "Text": "Application (24A410) to extend the time to file a petition for a writ of certiorari from November 14, 2024 to January 13, 2025, submitted to Justice Kavanaugh.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Enbridge Application for Extension.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/329044/20241022185250364_Enbridge%20Application%20for%20Extension.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 28 2024",
+      "Text": "Response to application from respondent Dana Nessel, Attorney General of the State of Michigan, on behalf of the People of the State of Michigan filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24A410 Enbridge Resp in Opp to App to Extend A corrected.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/330480/20241028164451877_24A410%20Enbridge%20Resp%20in%20Opp%20to%20App%20to%20Extend%20A%20corrected.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24A410 Enbridge PS A corrected.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/330480/20241028164501021_24A410%20Enbridge%20PS%20A%20corrected.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 28 2024",
+      "Text": "Application (24A410) granted by Justice Kavanaugh extending the time to file until January 13, 2025."
+    },
+    {
+      "Date": "Jan 13 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due February 24, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "No. _________ - Petition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/339594/20250117134254622_No.%20_________%20-%20Petition.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. _________ - Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/339594/20250117134305240_No.%20_________%20-%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. _________ - Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/339594/20250117134331247_No.%20_________%20-%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 11 2025",
+      "Text": "Waiver of right of respondent Dana Nessel, Attorney General of the State of Michigan, on behalf of the People of the State of Michigan to respond filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-783 Enbridge waiver signed.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/342466/20250211115556795_24-783%20Enbridge%20waiver%20signed.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 19 2025",
+      "Text": "DISTRIBUTED for Conference of 3/7/2025."
+    },
+    {
+      "Date": "Feb 19 2025",
+      "Text": "Brief amici curiae of North America's Building Trades Unions, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Enbridge v. Nessel - Brief of Amici NABTU and USW.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/343178/20250219151737110_Enbridge%20v.%20Nessel%20-%20Brief%20of%20Amici%20NABTU%20and%20USW.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Enbridge v. Nessel - Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/343178/20250219151809859_Enbridge%20v.%20Nessel%20-%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Enbridge v. Nessel - Word-Count Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/343178/20250219151755869_Enbridge%20v.%20Nessel%20-%20Word-Count%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 20 2025",
+      "Text": "Brief amicus curiae of Professor Arthur R. Miller filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-783 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/344263/20250220154001933_24-783%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-783 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/344263/20250220154016682_24-783%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-783 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/344263/20250220154009391_24-783%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 27 2025",
+      "Text": "Response Requested. (Due March 31, 2025)"
+    },
+    {
+      "Date": "Mar 21 2025",
+      "Text": "Motion to extend the time to file a response from March 31, 2025 to April 29, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-783 Enbridge Ltr Mot to Ext Time.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/352675/20250321111055555_24-783%20Enbridge%20Ltr%20Mot%20to%20Ext%20Time.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-783 Enbridge PS for Ltr Mot to Ext Time.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/352675/20250321111104686_24-783%20Enbridge%20PS%20for%20Ltr%20Mot%20to%20Ext%20Time.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 24 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including April 29, 2025."
+    },
+    {
+      "Date": "Apr 29 2025",
+      "Text": "Brief of respondent Dana Nessel, Michigan Attorney General in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-783 Enbridge BIO FINAL A.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/357633/20250429112939528_24-783%20Enbridge%20BIO%20FINAL%20A.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-783 Enbridge PS BIO A.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/357633/20250429113013174_24-783%20Enbridge%20PS%20BIO%20A.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-783 Enbridge COC BIO A.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/357633/20250429112952607_24-783%20Enbridge%20COC%20BIO%20A.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 12 2025",
+      "Text": "Reply of petitioners Enbridge Energy, LP, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Final Enbridge Reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/358619/20250512145546114_Final%20Enbridge%20Reply.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-783 Steptoe LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/358619/20250512145554162_24-783%20Steptoe%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-783 Steptoe LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/358619/20250512145601310_24-783%20Steptoe%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 13 2025",
+      "Text": "DISTRIBUTED for Conference of 5/29/2025."
+    },
+    {
+      "Date": "May 29 2025",
+      "Text": "Rescheduled."
+    },
+    {
+      "Date": "Jun 02 2025",
+      "Text": "DISTRIBUTED for Conference of 6/5/2025."
+    },
+    {
+      "Date": "Jun 02 2025",
+      "Text": "Rescheduled."
+    },
+    {
+      "Date": "Jun 09 2025",
+      "Text": "DISTRIBUTED for Conference of 6/12/2025."
+    },
+    {
+      "Date": "Jun 12 2025",
+      "Text": "Rescheduled."
+    },
+    {
+      "Date": "Jun 16 2025",
+      "Text": "DISTRIBUTED for Conference of 6/18/2025."
+    },
+    {
+      "Date": "Jun 23 2025",
+      "Text": "DISTRIBUTED for Conference of 6/26/2025."
+    },
+    {
+      "Date": "Jun 30 2025",
+      "Text": "Petition GRANTED."
+    },
+    {
+      "Date": "Jul 15 2025",
+      "Text": "Motion for an extension of time to file the briefs on the merits filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Extension Letter in SCT.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/365168/20250715012401698_Extension%20Letter%20in%20SCT.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 17 2025",
+      "Text": "Motion to extend the time to file the briefs on the merits granted.  The time to file the joint appendix and petitioners' brief on the merits is extended to and including August 29, 2025.  The time to file respondent's brief on the merits is extended to and including October 14, 2025."
+    },
+    {
+      "Date": "Aug 29 2025",
+      "Text": "Brief of petitioners Enbridge Energy, Limited Partnership, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-783_Petitioners Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373220/20250829124313186_24-783_Petitioners%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-783_Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373220/20250829124326092_24-783_Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-783_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373220/20250829124336353_24-783_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 29 2025",
+      "Text": "Joint appendix filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-783 Joint Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373227/20250829125632854_24-783%20Joint%20Appendix.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-783 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373227/20250829125651847_24-783%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 05 2025",
+      "Text": "Brief amici curiae of North America's Building Trades Unions, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "NABTU USW Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373775/20250905090140546_NABTU%20USW%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "NABTU USW Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373775/20250905090208562_NABTU%20USW%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "NABTU USW Word-Count Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373775/20250905090156214_NABTU%20USW%20Word-Count%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 05 2025",
+      "Text": "Brief amicus curiae of Professor Arthur R. Miller filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "250908a AC Brief for efiling.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373941/20250906140646130_250908a%20AC%20Brief%20for%20efiling.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "250908 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373941/20250906140716927_250908%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "250908 Certificate of Word Count Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373941/20250906140746969_250908%20Certificate%20of%20Word%20Count%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 05 2025",
+      "Text": "Brief amicus curiae of Washington Legal Foundation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "WLF Amicus Brief 5sept2025.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373864/20250905142739707_WLF%20Amicus%20Brief%205sept2025.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-783 Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373864/20250905142807395_24-783%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-783 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373864/20250905142750595_24-783%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 05 2025",
+      "Text": "Brief amici curiae of Chamber of Commerce of the United States of America, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-783_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373789/20250905104522612_24-783_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-783_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373789/20250905104549620_24-783_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-783_Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373789/20250905104538138_24-783_Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 05 2025",
+      "Text": "Brief amici curiae of West Virginia, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Enbridge Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373839/20250905133203750_Enbridge%20Amicus.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Enbridge Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373839/20250905133214216_Enbridge%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Enbridge Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/373839/20250905133208673_Enbridge%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 14 2025",
+      "Text": "Brief of respondent Dana Nessel, Attorney General of the State of Michigan, on behalf of the People of the State of Michigan filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-783 Enbridge Brief of Respondent Final A.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/379565/20251014144257159_24-783%20Enbridge%20Brief%20of%20Respondent%20Final%20A.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-783 Enbridge COC Merits A.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/379565/20251014144313640_24-783%20Enbridge%20COC%20Merits%20A.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-783 Enbridge PS Merits A.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/379565/20251014144326447_24-783%20Enbridge%20PS%20Merits%20A.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 17 2025",
+      "Text": "Brief amicus curiae of Great Lakes Business Network filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-783 - Amicus Brief of the Great Lakes Business Network.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/379881/20251017103906193_24-783%20-%20Amicus%20Brief%20of%20the%20Great%20Lakes%20Business%20Network.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-783 - Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/379881/20251017103942779_24-783%20-%20Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-783 - Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/379881/20251017103958619_24-783%20-%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 20 2025",
+      "Text": "Brief amicus curiae of Center for Litigation and Courts filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Nessel.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/380099/20251020170050917_Nessel.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/380099/20251020170157013_COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/380099/20251020170133811_COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 21 2025",
+      "Text": "Brief amici curiae of Tribal Nations filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-783 Tribal Nations Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/380153/20251021121320107_24-783%20Tribal%20Nations%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-783 Tribal Nations Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/380153/20251021121337246_24-783%20Tribal%20Nations%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-783 Tribal Nations Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/380153/20251021121351462_24-783%20Tribal%20Nations%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 21 2025",
+      "Text": "Brief amici curiae of Minnesota, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-783 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/380235/20251021172652305_24-783%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-783 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/380235/20251021172823442_24-783%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-783 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/380235/20251021172833822_24-783%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 21 2025",
+      "Text": "Brief amici curiae of Federal Courts and Civil Procedure Scholars filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Enbridge v. Nessel - Scholars Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/380191/20251021145728822_Enbridge%20v.%20Nessel%20-%20Scholars%20Amicus.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-783 Enbridge v. Nessel - Scholars - Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/380191/20251021145503016_24-783%20Enbridge%20v.%20Nessel%20-%20Scholars%20-%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-783 Enbridge v. Nessel - Scholars - Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/380191/20251021145443085_24-783%20Enbridge%20v.%20Nessel%20-%20Scholars%20-%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 13 2025",
+      "Text": "Reply of petitioners Enbridge Energy, Limited Partnership, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-783_Reply Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/384416/20251113151635213_No.%2024-783_Reply%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-783_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/384416/20251113151641563_No.%2024-783_Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-783_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/384416/20251113151647844_No.%2024-783_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 02 2026",
+      "Text": "SET FOR ARGUMENT on Tuesday, February 24, 2026."
+    },
+    {
+      "Date": "Jan 06 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Sixth Circuit."
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Record received from the United States Court of Appeals for the Sixth Circuit. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Feb 24 2026",
+      "Text": "Argued. For petitioners: John J. Bursch, Caledonia, Mich. For respondent: Ann M. Sherman, Solicitor General, Lansing, Mich."
+    },
+    {
+      "Date": "Apr 22 2026",
+      "Text": "Adjudged to be AFFIRMED.  Sotomayor, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/24-783_bqm2.pdf'>opinion</a> for a unanimous Court."
+    },
+    {
+      "Date": "May 26 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 24-783 Aff 6th. Cir. 5.26.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-783/409827/20260526154553242_EFILING%2024-783%20Aff%206th.%20Cir.%205.26.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioners",
+  "Petitioner": [
+    {
+      "Attorney": "Alice Loughran",
+      "IsCounselofRecord": true,
+      "Title": "Steptoe & Johnson LLP",
+      "PrisonerId": null,
+      "Phone": "202-429-6202",
+      "Address": "1330 Connecticut Ave., NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036-1795",
+      "Email": "aloughran@steptoe.com",
+      "PartyName": "Enbridge Energy, Limited Partnership, et al."
+    },
+    {
+      "Attorney": "John J. Bursch",
+      "IsCounselofRecord": false,
+      "Title": null,
+      "PrisonerId": null,
+      "Phone": "616-450-4235",
+      "Address": "9339 Cherry Valley Ave. SE, #78",
+      "City": "Caledonia",
+      "State": "MI",
+      "Zip": "49316",
+      "Email": "jbursch@burschlaw.com",
+      "PartyName": "Enbridge Energy, Limited Partnership, et al."
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondent",
+  "Respondent": [
+    {
+      "Attorney": "Ann Maurine Sherman",
+      "IsCounselofRecord": true,
+      "Title": "Michigan Department of Attorney General",
+      "PrisonerId": null,
+      "Phone": "517-335-7628",
+      "Address": "G. Mennen Williams Building\r\nP.O. Box 30212",
+      "City": "Lansing",
+      "State": "MI",
+      "Zip": "48909",
+      "Email": "SHERMANA@MICHIGAN.GOV",
+      "PartyName": "Dana Nessel, Attorney General of the State of Michigan, on behalf of the People of the State of Michigan"
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Andrew Buchsbaum",
+      "IsCounselofRecord": false,
+      "Title": "Buchsbaum and Associates, LLC",
+      "PrisonerId": null,
+      "Phone": "7347173665",
+      "Address": "1715 David Court",
+      "City": "Ann Arbor",
+      "State": "MI",
+      "Zip": "48105",
+      "Email": "buchsbauma@gmail.com",
+      "PartyName": "Great Lakes Business Network"
+    },
+    {
+      "Attorney": "Shannon Grammel Denmark",
+      "IsCounselofRecord": true,
+      "Title": "Lehotsky Keller Cohn LLP",
+      "PrisonerId": null,
+      "Phone": "(512) 693-8350",
+      "Address": "200 Massachusetts Avenue, NW, Suite 700",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "shannon@lkcfirm.com",
+      "PartyName": "The Chamber of Commerce of the United States of America and National Federation of Independent Business Small Business Legal Center, Inc."
+    },
+    {
+      "Attorney": "Scott William Dodson",
+      "IsCounselofRecord": true,
+      "Title": "UC Law, San Francisco",
+      "PrisonerId": null,
+      "Phone": "925-285-1445",
+      "Address": "Professor of Law\r\n200 McAlister Street",
+      "City": "San Francisco",
+      "State": "CA",
+      "Zip": "94102",
+      "Email": "dodsons@uclawsf.edu",
+      "PartyName": "Center for Litigation and Courts"
+    },
+    {
+      "Attorney": "Caroline Anne Flynn",
+      "IsCounselofRecord": true,
+      "Title": "Earthjustice",
+      "PrisonerId": null,
+      "Phone": "202-667-4500",
+      "Address": "1001 G Street NW\r\nSuite 1000",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "cflynn@earthjustice.org",
+      "PartyName": "Tribal Nations"
+    },
+    {
+      "Attorney": "Dana Lydia Kaersvang",
+      "IsCounselofRecord": true,
+      "Title": "Deutsch Hunt PLLC",
+      "PrisonerId": null,
+      "Phone": "2028880404",
+      "Address": "300 New Jersey Ave., NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "dkaersvang@deutschhunt.com",
+      "PartyName": "Federal Courts and Civil Procedure Scholars"
+    },
+    {
+      "Attorney": "Elizabeth Catherine Kramer",
+      "IsCounselofRecord": true,
+      "Title": "Office of the Minnesota Attorney General",
+      "PrisonerId": null,
+      "Phone": "(651) 757-1265",
+      "Address": "445 Minnesota Street\r\nSuite 600",
+      "City": "Saint Paul",
+      "State": "MN",
+      "Zip": "55101",
+      "Email": "LIZ.KRAMER@AG.STATE.MN.US",
+      "PartyName": "Minnesota, Arizona, Colorado, Connecticut, Delaware, Hawai\u2019i, Illinois, Maine, Maryland, Massachusetts, Nevada, New Jersey, New Mexico, New York, Vermont, Washington, and the District of Columbia"
+    },
+    {
+      "Attorney": "Zac Morgan",
+      "IsCounselofRecord": true,
+      "Title": "Washington Legal Foundation",
+      "PrisonerId": null,
+      "Phone": "202-588-0302",
+      "Address": "2009 Massachusetts Avenue, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "zmorgan@wlf.org",
+      "PartyName": "Washington Legal Foundation"
+    },
+    {
+      "Attorney": "Jonathan D Newman",
+      "IsCounselofRecord": true,
+      "Title": "Sherman Dunn, P.C.",
+      "PrisonerId": null,
+      "Phone": "2027859300",
+      "Address": "900 Seventh Street, N.W., Suite 1000",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "newman@shermandunn.com",
+      "PartyName": "North America's Building Trades Unions"
+    },
+    {
+      "Attorney": "Alexander Volokh",
+      "IsCounselofRecord": true,
+      "Title": "Emory Law School",
+      "PrisonerId": null,
+      "Phone": "404-712-5225",
+      "Address": "1301 Clifton Rd NE",
+      "City": "Atlanta",
+      "State": "GA",
+      "Zip": "30322",
+      "Email": "avolokh@emory.edu",
+      "PartyName": "Professor Arthur R. Miller"
+    },
+    {
+      "Attorney": "Bruce T. Wallace",
+      "IsCounselofRecord": true,
+      "Title": "Hooper Hathaway, P.C.",
+      "PrisonerId": null,
+      "Phone": "(734) 662-4426",
+      "Address": "126 South Main Street",
+      "City": "Ann Arbor",
+      "State": "MI",
+      "Zip": "48104",
+      "Email": "bwallace@hooperhathaway.com",
+      "PartyName": "Great Lakes Business Network"
+    },
+    {
+      "Attorney": "Michael Ray Williams",
+      "IsCounselofRecord": true,
+      "Title": "Office of the West Virginia Attorney General",
+      "PrisonerId": null,
+      "Phone": "304-558-2021",
+      "Address": "State Capitol Complex, Bldg. 1, Rm E-26\r\n1900 Kanawha Blvd. E",
+      "City": "Charleston",
+      "State": "WV",
+      "Zip": "25305",
+      "Email": "michael.r.williams@wvago.gov",
+      "PartyName": "State of West Virginia and 9 Other States"
+    }
+  ]
+}

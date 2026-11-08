@@ -1,0 +1,978 @@
+{
+  "CaseNumber": "25-406 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "07/06/2026",
+  "sJsonTerm": "2025",
+  "sJsonCaseNumber": "00406",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [
+    {
+      "RelatedType": "Vide",
+      "DisplayCaseNumber": "25-567"
+    }
+  ],
+  "PetitionerTitle": "Federal Communications Commission, et al., Petitioners",
+  "RespondentTitle": "AT&T, Inc.",
+  "DocketedDate": "October 6, 2025",
+  "LowerCourt": "United States Court of Appeals for the Fifth Circuit",
+  "LowerCourtCaseNumbers": "(24-60223)",
+  "LowerCourtDecision": "August 22, 2025",
+  "QPLink": "../qp/25-00406qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Oct 02 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due November 5, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "FCC v ATT Petition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/378534/20251002153212156_FCC%20v%20ATT%20Petition.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate - FCC v. AT T - pet.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/378534/20251002153307058_Certificate%20-%20FCC%20v.%20AT%20T%20-%20pet.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 24 2025",
+      "Text": "Motion to extend the time to file a response from November 5, 2025 to December 5, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025.10.24 - Letter Request re 30 Day BIO Extension.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/380523/20251024131107471_2025.10.24%20-%20Letter%20Request%20re%2030%20Day%20BIO%20Extension.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 27 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including December 5, 2025."
+    },
+    {
+      "Date": "Dec 05 2025",
+      "Text": "Response to petition from respondent AT&T, Inc. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No._25-406_Response_to_Petition_For_Certiorari.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/386579/20251205150943687_No._25-406_Response_to_Petition_For_Certiorari.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-406 Akin COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/386579/20251205150952004_25-406%20Akin%20COS.pdf"
+        },
+        {
+          "Description": "Other",
+          "File": "25-406 Akin COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/386579/20251205151000177_25-406%20Akin%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 09 2025",
+      "Text": "Waiver of the 14-day waiting period for the distribution of the petition pursuant to Rule 15.5 filed by petitioners.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-406 FCC  - 14 day Waiver letter.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/386872/20251209153833561_25-406%20FCC%20%20-%2014%20day%20Waiver%20letter.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 10 2025",
+      "Text": "DISTRIBUTED for Conference of 1/9/2026."
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Petition GRANTED.  The petition for a writ of certiorari in No. 25-567 is granted.  The cases are consolidated, and a total of one hour is allotted for oral argument.  VIDED."
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Because the Court has consolidated these cases for briefing and oral argument, future filings and activity in the cases will now be reflected on the docket of No. 25-406.  Subsequent filings in these cases must therefore be submitted through the electronic filing system in No. 25-406.  Each document submitted in connection with one or more of these cases must include on its cover the case number and caption for each case in which the filing is intended to be submitted.  Where a filing is submitted in fewer than all of the cases, the docket entry will reflect the case number(s) in which the filing is submitted; a document filed in all of the consolidated cases will be noted as \u201cVIDED.\u201d"
+    },
+    {
+      "Date": "Jan 14 2026",
+      "Text": "Letter of the Solicitor General on behalf of all parties proposing consolidated briefing structure filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Letter 25-406 25-567.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/391660/20260114104750538_Letter%2025-406%2025-567.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 15 2026",
+      "Text": "The parties' proposal for the filing of consolidated briefs is adopted.  Respondent in No. 25-406 and petitioner in No. 25-567 shall file a consolidated opening brief on the merits pursuant to Rule 25.1 and a consolidated reply brief on the merits pursuant to Rule 25.3.  Petitioners in No. 25-406 and respondents in No. 25-567 shall file a consolidated response brief on the merits pursuant to Rule 25.2.    VIDED."
+    },
+    {
+      "Date": "Feb 02 2026",
+      "Text": "Motion to dispense with printing the joint appendix filed by AT&T and Verizon Communications Inc.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "FCC Cases_Motion for Leave to Dispense with JA_vf.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/395191/20260202125752085_FCC%20Cases_Motion%20for%20Leave%20to%20Dispense%20with%20JA_vf.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "FCC Cases_Motion for Leave to Dispense with JA_Certificate of service_vf.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/395191/20260202130106158_FCC%20Cases_Motion%20for%20Leave%20to%20Dispense%20with%20JA_Certificate%20of%20service_vf.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 11 2026",
+      "Text": "SET FOR ARGUMENT on Tuesday, April 21, 2026.  VIDED."
+    },
+    {
+      "Date": "Feb 16 2026",
+      "Text": "Brief amicus curiae of Professor Ilan Wurman in support of neither party filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Public Rights Brief - Wurman FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/396330/20260216160022349_Public%20Rights%20Brief%20-%20Wurman%20FINAL.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 25-406 25-567 University of Minnesota Law School COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/396330/20260216160049061_Nos.%2025-406%2025-567%20University%20of%20Minnesota%20Law%20School%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 25-406 25-567 University of Minnesota Law School COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/396330/20260216160059626_Nos.%2025-406%2025-567%20University%20of%20Minnesota%20Law%20School%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 18 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Fifth Circuit."
+    },
+    {
+      "Date": "Feb 18 2026",
+      "Text": "Opening brief on the merits of AT&T, Inc. and Verizon Communications Inc. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-406 and 25-567 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/396609/20260218142818402_25-406%20and%2025-567%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-406 and 25-567 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/396609/20260218142826235_25-406%20and%2025-567%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-406 and 25-567 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/396609/20260218142832962_25-406%20and%2025-567%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Brief amici curiae of The Manhattan Institute, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-406 Manhattan Institute Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/396969/20260223091113550_25-406%20Manhattan%20Institute%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-406 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/396969/20260223091125614_25-406%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-406 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/396969/20260223091135262_25-406%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amicus curiae of The Buckeye Institute filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-406 25-567 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397291/20260225141510370_25-406%2025-567%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-406 25-567 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397291/20260225141520220_25-406%2025-567%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-406 25-567 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397291/20260225141529792_25-406%2025-567%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amicus curiae of T-Mobile USA, Inc. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "T-Mobile Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397264/20260225131304478_T-Mobile%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "T-Mobile Amicus Brief Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397264/20260225131324545_T-Mobile%20Amicus%20Brief%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "T-Mobile Amicus Brief Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397264/20260225131346199_T-Mobile%20Amicus%20Brief%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amicus curiae of Telnyx LLC filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-406 Amicus Brief of Telnyx LLC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397300/20260225143449065_25-406%20Amicus%20Brief%20of%20Telnyx%20LLC.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397300/20260225143501727_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397300/20260225143512654_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amici curiae of Chamber of Commerce of the United States of America, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-406 25-567 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397320/20260225163002458_25-406%2025-567%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-406 25-567 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397320/20260225163016773_25-406%2025-567%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-406 25-567 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397320/20260225163025810_25-406%2025-567%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amicus curiae of Institute for Justice filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Amicus brief of Institute for Justice.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397255/20260225124511280_Amicus%20brief%20of%20Institute%20for%20Justice.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count - Institute for Justice.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397255/20260225124542347_Certificate%20of%20Word%20Count%20-%20Institute%20for%20Justice.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service - Institute for Justice.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397255/20260225124607901_Proof%20of%20Service%20-%20Institute%20for%20Justice.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amicus curiae of Liberty Justice Center filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "FEC v ATT Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397267/20260225131946357_FEC%20v%20ATT%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "FEC v. ATT Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397267/20260225131957673_FEC%20v.%20ATT%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "FEC v ATT Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397267/20260225132007771_FEC%20v%20ATT%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amici curiae of CTIA - The Wireless Association, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-406 25-567 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397278/20260225134514995_25-406%2025-567%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-406 25-567 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397278/20260225134640980_25-406%2025-567%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-406 25-567 AOS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397278/20260225134646792_25-406%2025-567%20AOS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amicus curiae of TechFreedom filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "tsac TechFreedom Nos 25 406 25 567.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397205/20260225094232418_tsac%20TechFreedom%20Nos%2025%20406%2025%20567.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "TF Cert of Compliance Nos. 25 406 25 567.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397205/20260225094244859_TF%20Cert%20of%20Compliance%20Nos.%2025%20406%2025%20567.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "TF Cert of Service Nos 25 406 25 567.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397205/20260225094259321_TF%20Cert%20of%20Service%20Nos%2025%20406%2025%20567.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amicus curiae of Washington Legal Foundation filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "ATT-Verizon v. FCC - WLF Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397233/20260225113359052_ATT-Verizon%20v.%20FCC%20-%20WLF%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "ATT-Verizon v. FCC - WLF Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397233/20260225113421401_ATT-Verizon%20v.%20FCC%20-%20WLF%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "ATT-Verizon v. FCC - WLF Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397233/20260225113435648_ATT-Verizon%20v.%20FCC%20-%20WLF%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amicus curiae of Cato Institute filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "FCC v. ATT_Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397207/20260225094712137_FCC%20v.%20ATT_Final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "FCC v. ATT_Cert Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397207/20260225094717681_FCC%20v.%20ATT_Cert%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "FCC v. ATT_Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397207/20260225094722503_FCC%20v.%20ATT_Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amici curiae of New Civil Liberties Alliance, et al. filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026.02.25 NCLA Amicus Brief final for filing.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397273/20260225134155366_2026.02.25%20NCLA%20Amicus%20Brief%20final%20for%20filing.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "New Civil Liberties Alliance COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397273/20260225134330336_New%20Civil%20Liberties%20Alliance%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "New Civil Liberties Alliance COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397273/20260225134343716_New%20Civil%20Liberties%20Alliance%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amicus curiae of Pacific Legal Foundation filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "FCC v. ATT Verizon AC Br final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397242/20260225115211620_FCC%20v.%20ATT%20Verizon%20AC%20Br%20final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "FCC v. ATT PLF AC Br Cert of Comp.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397242/20260225115225233_FCC%20v.%20ATT%20PLF%20AC%20Br%20Cert%20of%20Comp.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "FCC v. ATT Verizon AC Br POS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397242/20260225115303492_FCC%20v.%20ATT%20Verizon%20AC%20Br%20POS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amicus curiae of Vaping Industry Stakeholders filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "ATT Amicus Brief printer ready.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397316/20260225160238960_ATT%20Amicus%20Brief%20printer%20ready.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397316/20260225160253357_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/397316/20260225160307336_Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "Brief amicus curiae of National Religious Broadcasters filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-406 Amicus Brief of National Religious Broadcasters.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/399548/20260227153506767_25-406%20Amicus%20Brief%20of%20National%20Religious%20Broadcasters.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/399548/20260227153520939_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/399548/20260227153538211_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Motion to dispense with printing the joint appendix GRANTED.  VIDED."
+    },
+    {
+      "Date": "Mar 17 2026",
+      "Text": "Record received electronically from the Federal Communications Commission and available with the Clerk."
+    },
+    {
+      "Date": "Mar 19 2026",
+      "Text": "Sealed material received electronically from the United States Court of Appeals for the Fifth Circuit and available with the Clerk. The remainder of the record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Mar 20 2026",
+      "Text": "Response brief on the merits of the federal parties filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-406GovtBr.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/401499/20260320171418501_25-406GovtBr.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. 25-406 and 25-567.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/401499/20260320171455416_certificate.%2025-406%20and%2025-567.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amici curiae of Former FCC Chairs, et al. filed. VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-406acFormerFCCChairsAndConsumerAdvocacyGroups.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/403022/20260327114911205_25-406acFormerFCCChairsAndConsumerAdvocacyGroups.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Cert. of Compliance - Verizon Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/403022/20260327114918540_Cert.%20of%20Compliance%20-%20Verizon%20Amicus.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Cert. of Service - Verizon Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/403022/20260327114924497_Cert.%20of%20Service%20-%20Verizon%20Amicus.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amicus curiae of Citizens Utility Board of Illinois filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Nos. 25-406 25-567 FCC v. ATT CUB Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/403027/20260327121033981_Nos.%2025-406%2025-567%20FCC%20v.%20ATT%20CUB%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 25-406 25-567 Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/403027/20260327121243374_Nos.%2025-406%2025-567%20Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 25-406  25-567 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/403027/20260327121100401_Nos.%2025-406%20%2025-567%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amicus curiae of Constitutional Accountability Center filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "CAC FCC Amicus Brief FINAL PDFA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/403020/20260327115324765_CAC%20FCC%20Amicus%20Brief%20FINAL%20PDFA.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "CAC FCC Compliance FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/403020/20260327115333607_CAC%20FCC%20Compliance%20FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "CAC FCC Service FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/403020/20260327115340418_CAC%20FCC%20Service%20FINAL.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Apr 09 2026",
+      "Text": "Reply of Verizon Communications Inc. not accepted for filing. (To be resubmitted April 13, 2026)"
+    },
+    {
+      "Date": "Apr 09 2026",
+      "Text": "Reply of AT&T, Inc. and Verizon Communications Inc. filed (April 13, 2026). (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "ATT Verizon - Combined Reply Brief - for efiling.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/404255/20260413120431246_ATT%20Verizon%20-%20Combined%20Reply%20Brief%20-%20for%20efiling.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "ATT Verizon - Word Count Affidavit for Reply Brief - for efiling.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/404255/20260413120440447_ATT%20Verizon%20-%20Word%20Count%20Affidavit%20for%20Reply%20Brief%20-%20for%20efiling.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "ATT Verizon - Service Affidavit for Reply Brief - for efiling.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/404255/20260413120452026_ATT%20Verizon%20-%20Service%20Affidavit%20for%20Reply%20Brief%20-%20for%20efiling.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 16 2026",
+      "Text": "Letter from counsel for AT&T, Inc. and Verizon Communications Inc. filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026-04-16 Letter to Hon. S. Harris_vf.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/404620/20260416120940801_2026-04-16%20Letter%20to%20Hon.%20S.%20Harris_vf.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Letter to Hon. S. Harris_Certificate of service_vf.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/404620/20260416121136047_Letter%20to%20Hon.%20S.%20Harris_Certificate%20of%20service_vf.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 21 2026",
+      "Text": "Argued. For AT&T, Inc. and Verizon Communications Inc.: Jeffrey B. Wall, Washington, D. C.  For FCC, et al.: Vivek Suri, Assistant to the Solicitor General, Department of Justice, Washington, D. C.  VIDED."
+    },
+    {
+      "Date": "Jun 04 2026",
+      "Text": "Judgment REVERSED and case REMANDED.  No. 25-567, adjudged to be affirmed.  Roberts, C. J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/25-406_nmip.pdf'>opinion</a> of the Court, in which Alito, Sotomayor, Kagan, Gorsuch, Kavanaugh, Barrett, and Jackson, JJ., joined. Thomas, J., filed a dissenting opinion. VIDED."
+    },
+    {
+      "Date": "Jun 29 2026",
+      "Text": "Petition of Verizon Communications Inc. for rehearing submitted.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Verizon - Petition for Rehearing.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/415267/20260629140704002_Verizon%20-%20Petition%20for%20Rehearing.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Verizon - Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/415267/20260629140735140_Verizon%20-%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Verizon - Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/415267/20260629140757688_Verizon%20-%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 06 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 25-406 Rev Rem COSTS 5th. Cir. 7.6.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-406/415702/20260706095902422_EFILING%2025-406%20Rev%20Rem%20COSTS%205th.%20Cir.%207.6.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioners",
+  "Petitioner": [
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": true,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "Federal Communications Commission and United States"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondent",
+  "Respondent": [
+    {
+      "Attorney": "Pratik Arvind Shah",
+      "IsCounselofRecord": true,
+      "Title": "Akin Gump Strauss Hauer & Feld, LLP",
+      "PrisonerId": null,
+      "Phone": "202-887-4210",
+      "Address": "2001 K Street N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "PSHAH@AKINGUMP.COM",
+      "PartyName": "AT&T Inc."
+    },
+    {
+      "Attorney": "Jeffrey B. Wall",
+      "IsCounselofRecord": true,
+      "Title": "Gibson, Dunn & Crutcher LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 955-8533",
+      "Address": "1700 M Street, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "jwall@gibsondunn.com",
+      "PartyName": "Verizon Communications Inc."
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Russell Bernard Balikian",
+      "IsCounselofRecord": false,
+      "Title": "Gibson, Dunn & Crutcher LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 955-8535",
+      "Address": "1700 M Street, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "rbalikian@gibsondunn.com",
+      "PartyName": "T-Mobile USA, Inc."
+    },
+    {
+      "Attorney": "Corbin Knight Barthold",
+      "IsCounselofRecord": true,
+      "Title": "TechFreedom",
+      "PrisonerId": null,
+      "Phone": "7712004997",
+      "Address": "1500 K Street NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20005",
+      "Email": "CBARTHOLD@TECHFREEDOM.ORG",
+      "PartyName": "TechFreedom"
+    },
+    {
+      "Attorney": "Thomas Arthur Berry",
+      "IsCounselofRecord": true,
+      "Title": "Cato Institute",
+      "PrisonerId": null,
+      "Phone": "(443) 254-6330",
+      "Address": "1000 Massachusetts Ave., NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "tberry@cato.org",
+      "PartyName": "Cato Institute"
+    },
+    {
+      "Attorney": "Pooja Ashok Boisture",
+      "IsCounselofRecord": true,
+      "Title": "Democracy Forward Foundation",
+      "PrisonerId": null,
+      "Phone": "(202) 448-9090",
+      "Address": "P.O. Box 34553",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20043",
+      "Email": "pboisture@democracyforward.org",
+      "PartyName": "Former FCC Chairs and Consumer Advocacy Groups"
+    },
+    {
+      "Attorney": "Allison Denise Daniel",
+      "IsCounselofRecord": true,
+      "Title": "Pacific Legal Foundation",
+      "PrisonerId": null,
+      "Phone": "916-419-7111",
+      "Address": "3100 Clarendon Blvd Suite 1000",
+      "City": "Arlington",
+      "State": "VA",
+      "Zip": "22201",
+      "Email": "ADaniel@pacificlegal.org",
+      "PartyName": "Pacific Legal Foundation"
+    },
+    {
+      "Attorney": "Steven Andrew Engel",
+      "IsCounselofRecord": true,
+      "Title": "Dechert LLP",
+      "PrisonerId": null,
+      "Phone": "2022613369",
+      "Address": "1900 K Street, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "STEVEN.ENGEL@DECHERT.COM",
+      "PartyName": "The Chamber of Commerce of the United States of America and Business Roundtable"
+    },
+    {
+      "Attorney": "Michael P. Farris",
+      "IsCounselofRecord": true,
+      "Title": "National Religious Broadcasters",
+      "PrisonerId": null,
+      "Phone": "571-359-6000",
+      "Address": "800 Maryland Ave NE",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20002",
+      "Email": "mfarris@nrb.org",
+      "PartyName": "National Religious Broadcasters"
+    },
+    {
+      "Attorney": "Caroline Anne Flynn",
+      "IsCounselofRecord": true,
+      "Title": "Earthjustice",
+      "PrisonerId": null,
+      "Phone": "202-797-4316",
+      "Address": "1250 Eye St NW\r\nFloor 4",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20005",
+      "Email": "cflynn@earthjustice.org",
+      "PartyName": "Citizens Utility Board of Illinois"
+    },
+    {
+      "Attorney": "Brianne Jenna Gorod",
+      "IsCounselofRecord": true,
+      "Title": "Constitutional Accountability Center",
+      "PrisonerId": null,
+      "Phone": "202 296 6889",
+      "Address": "1730 Rhode Island Ave. NW\r\nSuite 1200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "BRIANNE@THEUSCONSTITUTION.ORG",
+      "PartyName": "Constitutional Accountability Center"
+    },
+    {
+      "Attorney": "Michael Robert Huston",
+      "IsCounselofRecord": true,
+      "Title": "Perkins Coie LLP",
+      "PrisonerId": null,
+      "Phone": "202-434-1630",
+      "Address": "2525 E. Camelback Road\r\nSuite 500",
+      "City": "Phoenix",
+      "State": "AZ",
+      "Zip": "85016",
+      "Email": "mhuston@perkinscoie.com",
+      "PartyName": "Telnyx LLC"
+    },
+    {
+      "Attorney": "Robert Everett Johnson",
+      "IsCounselofRecord": true,
+      "Title": "Institute for Justice",
+      "PrisonerId": null,
+      "Phone": "(703) 682-9320",
+      "Address": "16781 Chagrin Blvd. #256",
+      "City": "Shaker Heights",
+      "State": "OH",
+      "Zip": "44120",
+      "Email": "rejohnson83@gmail.com",
+      "PartyName": "Institute for Justice"
+    },
+    {
+      "Attorney": "Peter Karanjia",
+      "IsCounselofRecord": true,
+      "Title": "DLA Piper LLP",
+      "PrisonerId": null,
+      "Phone": "202-799-4135",
+      "Address": "500 Eighth Street, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "PETER.KARANJIA@DLAPIPER.COM",
+      "PartyName": "The Manhattan Institute and The Rutherford Institute"
+    },
+    {
+      "Attorney": "Russell Gerard Ryan",
+      "IsCounselofRecord": true,
+      "Title": "New Civil Liberties Alliance",
+      "PrisonerId": null,
+      "Phone": "(202) 869-5210",
+      "Address": "4250 N. Fairfax Dr.\r\nSuite 300",
+      "City": "Arlington",
+      "State": "VA",
+      "Zip": "22203",
+      "Email": "russ.ryan@ncla.legal",
+      "PartyName": "New Civil Liberties Alliance"
+    },
+    {
+      "Attorney": "Jeffrey Michael Schwab",
+      "IsCounselofRecord": true,
+      "Title": "Liberty Justice Center",
+      "PrisonerId": null,
+      "Phone": "512-481-4400",
+      "Address": "7500 Rialto Blvd.\r\nSuite 1-250",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": "78735",
+      "Email": "JSchwab@LJC.org",
+      "PartyName": "Liberty Justice Center"
+    },
+    {
+      "Attorney": "J. Gregory Troutman",
+      "IsCounselofRecord": true,
+      "Title": "Troutman Law Office, PLLC.",
+      "PrisonerId": null,
+      "Phone": "502-412-9179",
+      "Address": "4205 Springhurst Boulevard\r\nSuite 201",
+      "City": "Louisville",
+      "State": "KY",
+      "Zip": "40241",
+      "Email": "JGTATTY@YAHOO.COM",
+      "PartyName": "Vaping Industry Stakeholders as Amici Curiae In Support of Petitioners"
+    },
+    {
+      "Attorney": "David Christian Tryon",
+      "IsCounselofRecord": true,
+      "Title": "Porter Wright Morris & Arthur",
+      "PrisonerId": null,
+      "Phone": "6142244422",
+      "Address": "88 East Broad Street, Suite 1300",
+      "City": "Columbus",
+      "State": "OH",
+      "Zip": "43215",
+      "Email": "d.tryon@buckeyeinstitute.org",
+      "PartyName": "The Buckeye Institute"
+    },
+    {
+      "Attorney": "Joshua S. Turner",
+      "IsCounselofRecord": true,
+      "Title": "Wiley Rein LLP",
+      "PrisonerId": null,
+      "Phone": "202-719-7000",
+      "Address": "2050 M Street, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "jturner@wileyrein.com",
+      "PartyName": "CTIA - The Wireless Association, et al."
+    },
+    {
+      "Attorney": "Helgi C. Walker",
+      "IsCounselofRecord": true,
+      "Title": "Gibson, Dunn & Crutcher LLP",
+      "PrisonerId": null,
+      "Phone": "202-887-3599",
+      "Address": "1700 M Street, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "hwalker@gibsondunn.com",
+      "PartyName": "T-Mobile USA, Inc."
+    },
+    {
+      "Attorney": "Joshua Morgan Wesneski",
+      "IsCounselofRecord": true,
+      "Title": "Weil, Gotshal & Manges LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 8873598",
+      "Address": "2001 M Street NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "joshua.wesneski@weil.com",
+      "PartyName": "Washington Legal Foundation"
+    },
+    {
+      "Attorney": "Ilan Wurman",
+      "IsCounselofRecord": true,
+      "Title": "University of Minnesota Law School",
+      "PrisonerId": null,
+      "Phone": "6126248816",
+      "Address": "229 S 19th Ave.",
+      "City": "Minneapolis",
+      "State": "MN",
+      "Zip": "55455",
+      "Email": "iwurman@umn.edu",
+      "PartyName": "Professor Ilan Wurman"
+    }
+  ]
+}

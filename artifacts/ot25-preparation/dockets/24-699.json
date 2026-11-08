@@ -1,0 +1,678 @@
+{
+  "CaseNumber": "24-699 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "07/27/2026",
+  "sJsonTerm": "2024",
+  "sJsonCaseNumber": "00699",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Exxon Mobil Corporation, Petitioner",
+  "RespondentTitle": "Corporaci\u00f3n Cimex, S.A. (Cuba), et al.",
+  "DocketedDate": "December 31, 2024",
+  "Links": "Linked with 24A330",
+  "LowerCourt": "United States Court of Appeals for the District of Columbia Circuit",
+  "LowerCourtCaseNumbers": "(21-7127, 22-7019, 22-7020)",
+  "LowerCourtDecision": "July 30, 2024",
+  "QPLink": "../qp/24-00699qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Oct 03 2024",
+      "Text": "Application (24A330) to extend the time to file a petition for a writ of certiorari from October 28, 2024 to December 27, 2024, submitted to The Chief Justice.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2024.10.03 - Exxon_Supreme Court Extension Application.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/327488/20241003152626274_2024.10.03%20-%20Exxon_Supreme%20Court%20Extension%20Application.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "2024.10.03 - Exxon_Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/327488/20241003152638687_2024.10.03%20-%20Exxon_Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 10 2024",
+      "Text": "Application (24A330) granted by The Chief Justice extending the time to file until December 27, 2024."
+    },
+    {
+      "Date": "Dec 27 2024",
+      "Text": "Petition for a writ of certiorari filed. (Response due January 30, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "Exxon_PETITION FOR A WRIT OF CERTIORARI.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/336043/20241227105128755_Exxon_PETITION%20FOR%20A%20WRIT%20OF%20CERTIORARI.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Exxon_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/336043/20241227105159208_Exxon_Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Exxon_Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/336043/20241227105207077_Exxon_Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 06 2025",
+      "Text": "Motion to extend the time to file a response from January 30, 2025 to March 3, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "01.06.24 Extension Request.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/336584/20250106092030944_01.06.24%20Extension%20Request.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 07 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including March 3, 2025."
+    },
+    {
+      "Date": "Jan 30 2025",
+      "Text": "Brief amici curiae of King Ranch Inc., et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-699 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/341525/20250130160345160_24-699%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-699 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/341525/20250130160416468_24-699%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-699 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/341525/20250130160404268_24-699%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 30 2025",
+      "Text": "Brief amicus curiae of Chamber of Commerce of the United States of America filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-699 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/341529/20250130161945435_24-699%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-699 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/341529/20250130162003425_24-699%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-699 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/341529/20250130161953772_24-699%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 31 2025",
+      "Text": "Motion to extend the time to file a response from March 3, 2025 to April 2, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "01.31.25 Extension Request.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/341551/20250131092352586_01.31.25%20Extension%20Request.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 03 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is further extended to and including April 2, 2025."
+    },
+    {
+      "Date": "Apr 01 2025",
+      "Text": "Brief of respondents Corporaci\u00f3n CIMEX, S.A. (Cuba), et al. in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-699_Brief in Opposition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/354555/20250401154737650_24-699_Brief%20in%20Opposition.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-699_Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/354555/20250401154755225_24-699_Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-699_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/354555/20250401154747648_24-699_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 15 2025",
+      "Text": "Reply of petitioner Exxon Mobil Corporation filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-699 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/355608/20250415123559441_24-699%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-699 Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/355608/20250415123619953_24-699%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-699 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/355608/20250415123627135_24-699%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 16 2025",
+      "Text": "DISTRIBUTED for Conference of 5/2/2025."
+    },
+    {
+      "Date": "May 05 2025",
+      "Text": "The Solicitor General is invited to file a brief in this case expressing the views of the United States."
+    },
+    {
+      "Date": "Aug 27 2025",
+      "Text": "Brief amicus curiae of United States filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-699 Exxon Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/370948/20250827161345705_24-699%20Exxon%20Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Cert 24-699 Exxon Mobil.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/370948/20250827161430226_Cert%2024-699%20Exxon%20Mobil.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 10 2025",
+      "Text": "DISTRIBUTED for Conference of 9/29/2025."
+    },
+    {
+      "Date": "Sep 10 2025",
+      "Text": "Supplemental brief of respondents Corporaci\u00f3n Cimex, S.A. (Cuba), et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-699 Supplemental Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/374201/20250910145544122_24-699%20Supplemental%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-699 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/374201/20250910145559894_24-699%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-699 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/374201/20250910145612405_24-699%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 03 2025",
+      "Text": "Petition GRANTED."
+    },
+    {
+      "Date": "Oct 23 2025",
+      "Text": "Motion for an extension of time to file the briefs on the merits filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025-10-23 Letter to Hon. S.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/380445/20251023175438611_2025-10-23%20Letter%20to%20Hon.%20S.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 31 2025",
+      "Text": "Motion to extend the time to file the briefs on the merits granted.  The time to file the joint appendix and petitioner's brief on the merits is extended to and including November 28, 2025.  The time to file respondents' brief on the merits is extended to and including January 9, 2026."
+    },
+    {
+      "Date": "Nov 10 2025",
+      "Text": "Motion to dispense with printing the joint appendix filed by petitioner Exxon Mobil Corporation.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Exxon_Motion for Leave to Dispense with JA_vf.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/384092/20251110160353056_Exxon_Motion%20for%20Leave%20to%20Dispense%20with%20JA_vf.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Exxon_Motion for Leave to Dispense with JA_Certificate of service_vf.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/384092/20251110160404262_Exxon_Motion%20for%20Leave%20to%20Dispense%20with%20JA_Certificate%20of%20service_vf.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 28 2025",
+      "Text": "Brief of petitioner Exxon Mobil Corporation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-699_Merits Brief_to e-file.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/385940/20251128123944417_24-699_Merits%20Brief_to%20e-file.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-699_Word Count Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/385940/20251128123957415_24-699_Word%20Count%20Cert.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-699_Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/385940/20251128124008219_24-699_Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 01 2025",
+      "Text": "Brief amici curiae of Atlantic Legal Foundation, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-699 Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/385966/20251201102027639_24-699%20Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-699 Cert of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/385966/20251201102048049_24-699%20Cert%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-699 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/385966/20251201102130697_24-699%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 05 2025",
+      "Text": "Brief amicus curiae of United States in support of petitioner filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-699tsacUnitedStates.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/386574/20251205145704706_24-699tsacUnitedStates.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "revised certificate. 24-699.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/386574/20251205145753996_revised%20certificate.%2024-699.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 05 2025",
+      "Text": "Brief amicus curiae of Chamber of Commerce of the United States of America filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-699_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/386513/20251205115633357_No.%2024-699_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-699_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/386513/20251205115641980_No.%2024-699_Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-699_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/386513/20251205115649864_No.%2024-699_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 05 2025",
+      "Text": "Brief amici curiae of King Ranch, Inc., et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-699 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/386577/20251205150758593_24-699%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-699 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/386577/20251205150804476_24-699%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-699 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/386577/20251205150811860_24-699%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 15 2025",
+      "Text": "Motion to dispense with printing the joint appendix filed by petitioner GRANTED."
+    },
+    {
+      "Date": "Jan 02 2026",
+      "Text": "SET FOR ARGUMENT on Monday, February 23, 2026."
+    },
+    {
+      "Date": "Jan 05 2026",
+      "Text": "Record requested from the United States Court of Appeals for the District of Columbia Circuit."
+    },
+    {
+      "Date": "Jan 06 2026",
+      "Text": "Record received electronically from the United States Court of Appeals for the District of Columbia Circuit and available with the Clerk."
+    },
+    {
+      "Date": "Jan 06 2026",
+      "Text": "Record received from the United States District Court for the District of Columbia. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Brief of respondents Corporaci\u00f3n CIMEX, S.A. (Cuba), et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-699 Respondents Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/391287/20260109133437554_24-699%20Respondents%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-699 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/391287/20260109133447728_24-699%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-699 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/391287/20260109133457758_24-699%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 12 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Exxon Divided Argument Motion_To File.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/391458/20260112163937703_Exxon%20Divided%20Argument%20Motion_To%20File.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. 24-699. div. argument.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/391458/20260112163957079_certificate.%2024-699.%20div.%20argument.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 16 2026",
+      "Text": "Brief amici curiae of Foreign Relations and Separation of Powers Scholars filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-699 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/391996/20260116151055668_24-699%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-699 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/391996/20260116151109510_24-699%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-699 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/391996/20260116151118501_24-699%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 16 2026",
+      "Text": "Brief amici curiae of Foreign International Law Scholars, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-699_Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/391932/20260116112725365_24-699_Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-699_Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/391932/20260116112733503_24-699_Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-699_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/391932/20260116112740625_24-699_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 16 2026",
+      "Text": "Brief amici curiae of Foreign Sovereign Immunity Scholars filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-699-Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/391901/20260116085946189_24-699-Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-699-Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/391901/20260116085955777_24-699-Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-699-Word Count Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/391901/20260116090004578_24-699-Word%20Count%20Cert.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Jan 26 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument GRANTED."
+    },
+    {
+      "Date": "Feb 04 2026",
+      "Text": "Reply of petitioner Exxon Mobil Corporation filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Exxon - Merits Reply 2.4.26 - TO E-FILE.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/395440/20260204122814993_Exxon%20-%20Merits%20Reply%202.4.26%20-%20TO%20E-FILE.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Exxon - Merits Reply 2.4.26 - Affidavit of Service - TO E-FILE.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/395440/20260204122833898_Exxon%20-%20Merits%20Reply%202.4.26%20-%20Affidavit%20of%20Service%20-%20TO%20E-FILE.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Exxon - Merits Reply 2.4.26 - Word Count Cert - TO E-FILE.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/395440/20260204122823232_Exxon%20-%20Merits%20Reply%202.4.26%20-%20Word%20Count%20Cert%20-%20TO%20E-FILE.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Argued. For petitioner: Morgan L. Ratner, Washington, D. C.; and Curtis E. Gannon, Deputy Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.) For respondents: Jules L. Lobel, Pittsburgh, Pa."
+    },
+    {
+      "Date": "Jun 23 2026",
+      "Text": "Judgment REVERSED and case REMANDED.  Kavanaugh, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/24-699_f204.pdf'>opinion</a> of the Court, in which Roberts, C. J., and Thomas, Alito, Gorsuch, and Barrett, JJ., joined. Kagan, J., filed a dissenting opinion, in which Sotomayor and Jackson, JJ., joined."
+    },
+    {
+      "Date": "Jul 27 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 24-699 Rev Rem COSTS D.C. Cir. 7.27.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-699/417328/20260727112600643_EFILING%2024-699%20Rev%20Rem%20COSTS%20D.C.%20Cir.%207.27.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioner",
+  "Petitioner": [
+    {
+      "Attorney": "Jeffrey B. Wall",
+      "IsCounselofRecord": true,
+      "Title": "Sullivan & Cromwell LLP",
+      "PrisonerId": null,
+      "Phone": "202-956-7660",
+      "Address": "1700 New York Avenue, NW\r\nSuite 700",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "wallj@sullcrom.com",
+      "PartyName": "Exxon Mobil Corporation"
+    },
+    {
+      "Attorney": "Morgan Lee Ratner",
+      "IsCounselofRecord": false,
+      "Title": "Sullivan & Cromwell LLP",
+      "PrisonerId": null,
+      "Phone": "202-956-7500",
+      "Address": "1700 New York Avenue, NW\r\nSuite 700",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "ratnerm@sullcrom.com",
+      "PartyName": "Exxon Mobil Corporation"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondents",
+  "Respondent": [
+    {
+      "Attorney": "Michael Robert Krinsky",
+      "IsCounselofRecord": true,
+      "Title": "Rabinowitz Boudin Standard Krinsky Lieberman, P.C.",
+      "PrisonerId": null,
+      "Phone": "2122541111",
+      "Address": "320 West 85th Street",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10024",
+      "Email": "mkrinsky@rbskl.com",
+      "PartyName": "Corporaci\u00f3n CIMEX, S.A. (Cuba), Corporaci\u00f3n CIMEX, S.A (Panama), Uni\u00f3n Cuba-Petr\u00f3leo"
+    },
+    {
+      "Attorney": "Jules Lobel",
+      "IsCounselofRecord": false,
+      "Title": null,
+      "PrisonerId": null,
+      "Phone": "(412) 648-1375",
+      "Address": "Center for Constitutional Rights\r\n3900 Forbes Ave.",
+      "City": "Pittsburgh",
+      "State": "PA",
+      "Zip": "15260",
+      "Email": null,
+      "PartyName": "Corporaci\u00f3n CIMEX, S.A. (Cuba), Corporaci\u00f3n CIMEX, S.A (Panama), Uni\u00f3n Cuba-Petr\u00f3leo"
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Jared Robert Butcher",
+      "IsCounselofRecord": true,
+      "Title": "Butcher PLLC",
+      "PrisonerId": null,
+      "Phone": "571-287-0103",
+      "Address": "1750 Tysons Boulevard\r\nSuite 1500",
+      "City": "Tysons",
+      "State": "VA",
+      "Zip": "22102",
+      "Email": "jared@butcherpllc.com",
+      "PartyName": "King Ranch Inc., Vertientes-Camaguey Sugar Company, and Grant Manheim"
+    },
+    {
+      "Attorney": "Jennifer Brooke Condon",
+      "IsCounselofRecord": true,
+      "Title": "Center for Social Justice",
+      "PrisonerId": null,
+      "Phone": "9736428700",
+      "Address": "Seton Hall Law School\r\n833 McCarter Highway",
+      "City": "Newark",
+      "State": "NJ",
+      "Zip": "07102",
+      "Email": "Jenny-Brooke.Condon@shu.edu",
+      "PartyName": "Foreign Relations and Separation of Powers Scholars"
+    },
+    {
+      "Attorney": "Lawrence S. Ebner",
+      "IsCounselofRecord": true,
+      "Title": "Atlantic Legal Foundation",
+      "PrisonerId": null,
+      "Phone": "202-729-6337",
+      "Address": "1701 Pennsylvania Ave NW, Suite 200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "lawrence.ebner@atlanticlegal.org",
+      "PartyName": "Atlantic Legal Foundation & DRI Center for Law and Public Policy"
+    },
+    {
+      "Attorney": "Ilana Hope Eisenstein",
+      "IsCounselofRecord": true,
+      "Title": "DLA Piper LLP (US)",
+      "PrisonerId": null,
+      "Phone": "215-656-3300",
+      "Address": "1650 Market Street\r\nSuite 5000",
+      "City": "Philadelphia",
+      "State": "PA",
+      "Zip": "19103",
+      "Email": "ilana.eisenstein@dlapiper.com",
+      "PartyName": "The Chamber of Commerce of the United States of America"
+    },
+    {
+      "Attorney": "Christina Georgia Hioureas",
+      "IsCounselofRecord": true,
+      "Title": "Foley Hoag LLP",
+      "PrisonerId": null,
+      "Phone": "5103254331",
+      "Address": "1301 Avenue of the Americas\r\n25th Floor",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10019",
+      "Email": "hioureas@gmail.com",
+      "PartyName": "Foreign International Law Scholars and Jurists"
+    },
+    {
+      "Attorney": "Christina Georgia Hioureas",
+      "IsCounselofRecord": true,
+      "Title": "Foley Hoag LLP",
+      "PrisonerId": null,
+      "Phone": "212-812-0400",
+      "Address": "1301 Avenue of the Americas\r\n25th Floor",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10019",
+      "Email": "chioureas@foleyhoag.com",
+      "PartyName": "Foreign Sovereign Immunity Scholars"
+    },
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": false,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "United States"
+    }
+  ]
+}

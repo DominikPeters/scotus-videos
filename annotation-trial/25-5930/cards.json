@@ -1,0 +1,1019 @@
+{
+ "cards": [
+  {
+   "id": "qp",
+   "start_block": 3,
+   "end_block": 5,
+   "recommended": true,
+   "reason": "States the question the Court agreed to decide as Hansford opens.",
+   "cue": {
+    "kind": "Question presented",
+    "heading": "granted June 1, 2026",
+    "text": "Whether a claim regarding application of time credits under the First Step Act of 2018 … seeking accelerated <mark>transfer to a halfway house or home confinement</mark>, can be brought in a habeas petition under 28 U.S.C. § 2241.",
+    "source": "Question as limited by the Court · Supreme Court docket",
+    "highlight": [
+     "home confinement or to a halfway house"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "docket.json",
+     "page": 1,
+     "quote": "Whether a claim regarding application of time credits under the First Step Act of 2018",
+     "claim": "Question granted"
+    },
+    {
+     "source": "docket.json",
+     "page": 1,
+     "quote": "seeking accelerated transfer to a halfway house or home confinement, can be brought in a habeas petition under 28 U. S. C. §2241",
+     "claim": "Question granted"
+    }
+   ]
+  },
+  {
+   "id": "decision-below",
+   "start_block": 5,
+   "end_block": 7,
+   "recommended": true,
+   "reason": "Hansford describes the Fifth Circuit’s ruling; the card shows its actual words.",
+   "cue": {
+    "kind": "Excerpt",
+    "label": "Opinion excerpt",
+    "heading": "Fifth Circuit, <i>Maxwell</i> v. <i>Thomas</i> (2025)",
+    "before": "Here, the nature of Maxwell’s requested relief is transfer to a halfway house or home confinement.",
+    "quote": "… neither form of relief would entitle him to accelerated release, so the relief he seeks is properly brought in a civil rights suit.",
+    "after": "",
+    "source": "Per curiam opinion, Apr. 3, 2025 · Pet. App. 1.2",
+    "highlight": [
+     "The Fifth Circuit dismissed"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "pet-app.pdf",
+     "page": 6,
+     "quote": "Here, the nature of Maxwell’s requested relief is transfer to a halfway house or home confinement.",
+     "claim": "Fifth Circuit"
+    },
+    {
+     "source": "pet-app.pdf",
+     "page": 6,
+     "quote": "neither form of relief would entitle him to accelerated release, so the relief he seeks is properly brought in a civil rights suit.",
+     "claim": "Fifth Circuit holding"
+    }
+   ]
+  },
+  {
+   "id": "review-bar",
+   "start_block": 11,
+   "end_block": 13,
+   "recommended": true,
+   "reason": "Hansford contrasts the government’s “review bar” in § 3621(b) with the First Step Act’s transfer provision; the card shows both texts side by side (idea from the Codex set).",
+   "cue": {
+    "kind": "Comparison",
+    "heading": "The review bar and the transfer provision",
+    "compare": [
+     {
+      "title": "Place of imprisonment",
+      "cite": "18 U.S.C. § 3621(b), last sentence",
+      "text": "Notwithstanding any other provision of law, a designation of a place of imprisonment under this subsection <mark>is not reviewable by any court</mark>."
+     },
+     {
+      "title": "First Step Act time credits",
+      "cite": "18 U.S.C. § 3632(d)(4)(C)",
+      "text": "The Director of the Bureau of Prisons <mark>shall transfer eligible prisoners</mark>, as determined under section 3624(g), into prerelease custody or supervised release."
+     }
+    ],
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+     "3621(b) argument"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "usc-18-3621.txt",
+     "page": 1,
+     "quote": "Notwithstanding any other provision of law, a designation of a place of imprisonment under this subsection is not reviewable by any court.",
+     "claim": "3621(b)"
+    },
+    {
+     "source": "usc-18-3632.txt",
+     "page": 1,
+     "quote": "The Director of the Bureau of Prisons shall transfer eligible prisoners, as determined under section 3624(g), into prerelease custody or supervised release.",
+     "claim": "3632(d)(4)(C)"
+    }
+   ]
+  },
+  {
+   "id": "prerelease-custody",
+   "start_block": 13,
+   "end_block": 15,
+   "recommended": true,
+   "reason": "“Prerelease custody” is the status Maxwell wants; the card says what it is.",
+   "cue": {
+    "kind": "Glossary",
+    "heading": "First Step Act",
+    "glossary": {
+     "term": "Prerelease custody",
+     "expansion": ""
+    },
+    "text": "The final part of a federal prison term, spent in a halfway house (a “residential reentry center”) or in home confinement. Under the First Step Act, earned time credits can move a prisoner there earlier.",
+    "source": "18 U.S.C. § 3624(c), (g) · U.S. Code, 2024 edition",
+    "highlight": [
+     "prerelease custody pursuant to this subsection"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "usc-18-3624.txt",
+     "page": 1,
+     "quote": "spends a portion of the final months of that term",
+     "claim": "Final months"
+    },
+    {
+     "source": "usc-18-3624.txt",
+     "page": 1,
+     "quote": "Residential reentry center",
+     "claim": "Halfway house"
+    },
+    {
+     "source": "usc-18-3624.txt",
+     "page": 1,
+     "quote": "Home confinement",
+     "claim": "Home confinement"
+    },
+    {
+     "source": "usc-18-3624.txt",
+     "page": 1,
+     "quote": "has earned time credits under the risk and needs assessment system",
+     "claim": "Time credits"
+    }
+   ]
+  },
+  {
+   "id": "chafin",
+   "start_block": 18,
+   "end_block": 20,
+   "recommended": true,
+   "reason": "Hansford invokes Chafin for why the case would not become moot.",
+   "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+     "name": "<i>Chafin</i> v. <i>Chafin</i>",
+     "details": "2013"
+    },
+    "text": "A case is not moot as long as the parties keep a concrete interest in its outcome, however small; whether the party will ultimately win does not bear on mootness.",
+    "source": "Summary based on the opinion of the Court (U.S. Reports)",
+    "highlight": [
+     "Chafin versus Chafin"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-568-165.txt",
+     "page": 1,
+     "quote": "As long as the parties have a concrete interest, however small, in the outcome of the litigation, the case is not moot.",
+     "claim": "Holding"
+    },
+    {
+     "source": "cap-568-165.txt",
+     "page": 1,
+     "quote": "his prospects of success are therefore not pertinent to the mootness inquiry",
+     "claim": "Merits irrelevant"
+    }
+   ]
+  },
+  {
+   "id": "ja-17",
+   "start_block": 23,
+   "end_block": 25,
+   "recommended": true,
+   "reason": "Hansford points to Joint Appendix 17 as where Maxwell cited the First Step Act; the card shows that page.",
+   "cue": {
+    "kind": "Record",
+    "label": "Record excerpt",
+    "heading": "Maxwell’s administrative appeal, Jan. 15, 2021",
+    "image": "cards/assets/9ad240888fa8d19644be08b99801e2439fadd43e061b67ec360165e99350e5d8.jpg",
+    "source": "Joint Appendix p. 17",
+    "highlight": [
+     "Joint Appendix 17"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "ja.pdf",
+     "page": 19,
+     "quote": "These include relief under 18 U.S.C. § 3621; § 3624; 34 U.S.C. § 60541; and the modifications made thereto under The CARES ACT of 2020 and the First Step Act of 2018",
+     "claim": "First Step Act cited in the appeal"
+    },
+    {
+     "source": "ja.pdf",
+     "page": 19,
+     "quote": "1/15/2021",
+     "claim": "Date"
+    }
+   ]
+  },
+  {
+   "id": "perttu",
+   "start_block": 25,
+   "end_block": 28,
+   "recommended": true,
+   "reason": "Hansford cites Perttu for a jury trial on the obstruction claims; the card states its holding.",
+   "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+     "name": "<i>Perttu</i> v. <i>Richards</i>",
+     "details": "2025"
+    },
+    "text": "If a dispute over whether a prisoner used the prison grievance process (required by the Prison Litigation Reform Act) is intertwined with the merits of a claim that requires a jury, the parties are entitled to a jury trial on that dispute too.",
+    "source": "Summary based on the syllabus (U.S. Reports)",
+    "highlight": [
+     "under Perttu"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "perttu.txt",
+     "page": 1,
+     "quote": "Parties are entitled to a jury trial on PLRA exhaustion when that issue is intertwined with the merits of a claim that requires a jury trial under the Seventh Amendment.",
+     "claim": "Holding"
+    }
+   ]
+  },
+  {
+   "id": "bivens",
+   "start_block": 30,
+   "end_block": 32,
+   "recommended": true,
+   "reason": "Jackson contrasts habeas with a “Bivens claim”, a term used throughout and never explained.",
+   "cue": {
+    "kind": "Glossary",
+    "heading": "Suing federal officers",
+    "glossary": {
+     "term": "Bivens claim",
+     "expansion": ""
+    },
+    "text": "A suit for money damages against federal officers who violated the Constitution, recognized in <i>Bivens</i> (1971). The Fifth Circuit sends claims like Maxwell’s to such a suit.",
+    "source": "<i>Bivens</i>, 403 U.S. 388 (1971) · Fifth Circuit opinion, Pet. App. 1.1",
+    "highlight": [
+     "Bivens claim"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-403-388.txt",
+     "page": 1,
+     "quote": "petitioner is entitled to recover",
+     "claim": "Bivens"
+    },
+    {
+     "source": "cap-403-388.txt",
+     "page": 1,
+     "quote": "money damages for any injuries he has suffered as a result of the agents’ violation of the Amendment",
+     "claim": "Bivens"
+    },
+    {
+     "source": "pet-app.pdf",
+     "page": 5,
+     "quote": "a civil rights suit under Bivens v. Six",
+     "claim": "Fifth Circuit"
+    }
+   ]
+  },
+  {
+   "id": "two-routes",
+   "start_block": 34,
+   "end_block": 37,
+   "recommended": true,
+   "reason": "Hansford mentions state prisoners’ § 1983 rights; the card lays out the two routes into court the argument is about.",
+   "cue": {
+    "kind": "Comparison",
+    "heading": "Two ways prisoners can sue",
+    "compare": [
+     {
+      "title": "Habeas corpus",
+      "cite": "28 U.S.C. § 2241",
+      "text": "For a prisoner challenging “the very fact or duration of his physical imprisonment” and seeking immediate or speedier release."
+     },
+     {
+      "title": "Civil-rights suit",
+      "cite": "42 U.S.C. § 1983 (state officials) · <i>Bivens</i> (federal)",
+      "text": "For other prisoner claims, such as challenges to conditions of confinement; relief can include damages."
+     }
+    ],
+    "source": "<i>Preiser</i> v. <i>Rodriguez</i>, 411 U.S. 475 (1973)",
+    "highlight": [
+     "1983 rights"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-411-475.txt",
+     "page": 1,
+     "quote": "when a state prisoner is challenging the very fact or duration of his physical imprisonment, and the relief he seeks is a determination that he is entitled to immediate release or a speedier release from that imprisonment, his sole federal remedy is a writ of habeas corpus",
+     "claim": "Habeas"
+    },
+    {
+     "source": "cap-411-475.txt",
+     "page": 1,
+     "quote": "conditions of",
+     "claim": "Conditions claims under 1983"
+    }
+   ]
+  },
+  {
+   "id": "four-requirements",
+   "start_block": 41,
+   "end_block": 45,
+   "recommended": true,
+   "reason": "Alito and Gorsuch refer to the statute’s “four requirements”; the card lists them.",
+   "cue": {
+    "kind": "Statute",
+    "heading": "18 U.S.C. § 3624(g)(1) — who is eligible",
+    "text": "… a prisoner … who— (A) <mark>has earned time credits</mark> … in an amount that is equal to the remainder of the prisoner’s imposed term of imprisonment; (B) … has maintained a minimum or low recidivism risk …; (C) has had the remainder of the prisoner’s imposed term of imprisonment computed …; and (D) … has been determined under the System to be a minimum or low risk to recidivate … or … has had a petition to be transferred to prerelease custody or supervised release approved by the warden …",
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+     "all four of the requirements"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "usc-18-3624.txt",
+     "page": 1,
+     "quote": "has earned time credits under the risk and needs assessment system developed under subchapter D",
+     "claim": "(A)"
+    },
+    {
+     "source": "usc-18-3624.txt",
+     "page": 1,
+     "quote": "in an amount that is equal to the remainder of the prisoner's imposed term of imprisonment;",
+     "claim": "(A)"
+    },
+    {
+     "source": "usc-18-3624.txt",
+     "page": 1,
+     "quote": "(B) has shown through the periodic risk reassessments a demonstrated recidivism risk reduction or has maintained a minimum or low recidivism risk",
+     "claim": "(B)"
+    },
+    {
+     "source": "usc-18-3624.txt",
+     "page": 1,
+     "quote": "(C) has had the remainder of the prisoner's imposed term of imprisonment computed under applicable law; and",
+     "claim": "(C)"
+    },
+    {
+     "source": "usc-18-3624.txt",
+     "page": 1,
+     "quote": "has been determined under the System to be a minimum or low risk to recidivate",
+     "claim": "(D)"
+    },
+    {
+     "source": "usc-18-3624.txt",
+     "page": 1,
+     "quote": "has had a petition to be transferred to prerelease custody or supervised release approved by the warden of the prison",
+     "claim": "(D)(i)(II) warden alternative"
+    }
+   ]
+  },
+  {
+   "id": "quantum-change",
+   "start_block": 58,
+   "end_block": 63,
+   "recommended": true,
+   "reason": "Sotomayor cites Justice Scalia’s “quantum change” language; the card shows the sentence.",
+   "cue": {
+    "kind": "Excerpt",
+    "label": "Opinion excerpt",
+    "heading": "<i>Wilkinson</i> v. <i>Dotson</i> (2005), Scalia, J., concurring",
+    "before": "",
+    "quote": "It is one thing to say that permissible habeas relief, as our cases interpret the statute, includes ordering a “quantum change in the level of custody,” … such as release from incarceration to parole.",
+    "after": "",
+    "source": "544 U.S. 74, 86 (U.S. Reports)",
+    "highlight": [
+     "quantum change"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-544-74.txt",
+     "page": 1,
+     "quote": "It is one thing to say that permissible habeas relief, as our cases interpret the statute, includes ordering a “quantum change in the level of custody,”",
+     "claim": "Scalia"
+    },
+    {
+     "source": "cap-544-74.txt",
+     "page": 1,
+     "quote": "such as release from incarceration to parole.",
+     "claim": "Scalia"
+    }
+   ]
+  },
+  {
+   "id": "circuit-split",
+   "start_block": 73,
+   "end_block": 75,
+   "recommended": true,
+   "reason": "Hansford mentions a split in which two circuits send these claims out of habeas; the map shows which circuits are on each side (idea from the Codex set).",
+   "cue": {
+    "kind": "Circuit split",
+    "heading": "Habeas for a lower level of custody",
+    "map": {
+     "below": "5",
+     "groups": [
+      {
+       "label": "Habeas available",
+       "color": "#6698ba",
+       "circuits": [
+        "1",
+        "2",
+        "3"
+       ]
+      },
+      {
+       "label": "Only if release would be accelerated",
+       "color": "#d07b63",
+       "circuits": [
+        "5",
+        "8"
+       ]
+      }
+     ],
+     "labelOffsets": {}
+    },
+    "source": "As described in Maxwell’s cert-stage reply, p. 3; the government did not dispute the split",
+    "highlight": [
+     "two big circuits"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cert-reply.pdf",
+     "page": 6,
+     "quote": "The First, Second, and Third Circuits hold that a prisoner who seeks to reduce his level of custody without accelerating his release",
+     "claim": "Side 1"
+    },
+    {
+     "source": "cert-reply.pdf",
+     "page": 6,
+     "quote": "The Fifth Circuit and the Eighth Circuit hold the opposite.",
+     "claim": "Side 2"
+    },
+    {
+     "source": "cert-reply.pdf",
+     "page": 6,
+     "quote": "the government does not dispute its existence",
+     "claim": "Undisputed"
+    }
+   ]
+  },
+  {
+   "id": "preiser",
+   "start_block": 81,
+   "end_block": 84,
+   "recommended": true,
+   "reason": "Both sides build on Preiser; Barber says it “squarely controls”. The card states what it decided.",
+   "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+     "name": "<i>Preiser</i> v. <i>Rodriguez</i>",
+     "details": "1973"
+    },
+    "text": "State prisoners suing to restore good-time credits they had lost, which would shorten their time in prison, had to use habeas corpus rather than a civil-rights suit.",
+    "source": "Summary based on the opinion of the Court (U.S. Reports)",
+    "highlight": [
+     "Under Preiser"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-411-475.txt",
+     "page": 1,
+     "quote": "The respondents in this case were state prisoners who were deprived of good-conduct-time credits",
+     "claim": "Facts"
+    },
+    {
+     "source": "cap-411-475.txt",
+     "page": 1,
+     "quote": "his sole federal remedy is a writ of habeas corpus",
+     "claim": "Holding"
+    }
+   ]
+  },
+  {
+   "id": "jones-cunningham",
+   "start_block": 94,
+   "end_block": 95,
+   "recommended": true,
+   "reason": "Barber cites Jones v. Cunningham alongside Preiser; the card says what it held.",
+   "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+     "name": "<i>Jones</i> v. <i>Cunningham</i>",
+     "details": "1963"
+    },
+    "text": "A prisoner released on parole is still “in custody” for habeas purposes, because parole conditions significantly confine and restrain his freedom.",
+    "source": "Summary based on the opinion of the Court (U.S. Reports)",
+    "highlight": [
+     "Jones against Cunningham"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-371-236.txt",
+     "page": 1,
+     "quote": "it imposes conditions which significantly confine and restrain his freedom; this is enough to keep him in the “custody” of the members of the Virginia Parole Board within the meaning of the habeas corpus statute",
+     "claim": "Holding"
+    }
+   ]
+  },
+  {
+   "id": "dig",
+   "start_block": 95,
+   "end_block": 97,
+   "recommended": true,
+   "reason": "“DIG” comes up repeatedly from here on; the card explains it.",
+   "cue": {
+    "kind": "Glossary",
+    "heading": "Supreme Court practice",
+    "glossary": {
+     "term": "DIG",
+     "expansion": "“dismissed as improvidently granted”"
+    },
+    "text": "The Court dismisses a case it agreed to hear, without deciding the question presented. The government suggests this as an alternative here.",
+    "source": "Brief for the United States, p. 15",
+    "highlight": [
+     "DIG the case"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "us-brief.pdf",
+     "page": 28,
+     "quote": "the Court may alternatively wish to dismiss the writ of certiorari as improvidently granted",
+     "claim": "Government suggests a DIG"
+    }
+   ]
+  },
+  {
+   "id": "skinner",
+   "start_block": 109,
+   "end_block": 113,
+   "recommended": true,
+   "reason": "Kagan says the full Court adopted Scalia’s language in Skinner; the card shows the sentence.",
+   "cue": {
+    "kind": "Excerpt",
+    "label": "Opinion excerpt",
+    "heading": "<i>Skinner</i> v. <i>Switzer</i> (2011)",
+    "before": "Switzer has found no case, nor has the dissent,",
+    "quote": "in which the Court has recognized habeas as the sole remedy, or even an available one, where the relief sought would “neither terminat[e] custody, … nor reduc[e] the level of custody.”",
+    "after": "",
+    "source": "562 U.S. 521, 534 (U.S. Reports), quoting <i>Dotson</i> (Scalia, J., concurring)",
+    "highlight": [
+     "picked up by the full Court in Skinner"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-562-521.txt",
+     "page": 1,
+     "quote": "Switzer has found no case, nor has the dissent, in which the Court has recognized habeas as the sole remedy, or even an available one, where the relief sought would “neither terminat[e] custody,",
+     "claim": "Skinner"
+    },
+    {
+     "source": "cap-562-521.txt",
+     "page": 1,
+     "quote": "nor reduc[e] the level of custody.”",
+     "claim": "Skinner"
+    }
+   ]
+  },
+  {
+   "id": "case-history",
+   "start_block": 161,
+   "end_block": 166,
+   "recommended": true,
+   "reason": "Jackson asks how soon Maxwell will be released; the timeline places the argument against BOP’s projected date.",
+   "cue": {
+    "kind": "Timeline",
+    "heading": "Maxwell’s case",
+    "timeline": {
+     "current": 3,
+     "events": [
+      {
+       "date": "2020",
+       "label": "Asks BOP for halfway house or home confinement"
+      },
+      {
+       "date": "Oct 2023",
+       "label": "District court dismisses"
+      },
+      {
+       "date": "Apr 2025",
+       "label": "Fifth Circuit affirms"
+      },
+      {
+       "date": "Nov 2, 2026",
+       "label": "Oral argument"
+      },
+      {
+       "date": "Jan 22, 2027",
+       "label": "BOP’s projected transfer eligibility",
+       "gap": true
+      }
+     ]
+    },
+    "source": "Question presented; Pet. App.; Brief for the United States, p. 13",
+    "highlight": [
+     "the end of January"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "qp.pdf",
+     "page": 1,
+     "quote": "In 2020 Maxwell sought transfer to halfway house or home confinement",
+     "claim": "2020"
+    },
+    {
+     "source": "pet-app.txt",
+     "page": 1,
+     "quote": "Oct. 6, 2023",
+     "claim": "District court"
+    },
+    {
+     "source": "pet-app.pdf",
+     "page": 5,
+     "quote": "April 3, 2025",
+     "claim": "Fifth Circuit"
+    },
+    {
+     "source": "docket.json",
+     "page": 1,
+     "quote": "SET FOR ARGUMENT on Monday, November 2, 2026.",
+     "claim": "Argument"
+    },
+    {
+     "source": "us-brief.pdf",
+     "page": 26,
+     "quote": "he is projected, contingent on his good behavior, to become eligible for transfer to a halfway house on January 22, 2027.",
+     "claim": "Projected"
+    }
+   ]
+  },
+  {
+   "id": "early-supervised-release",
+   "start_block": 192,
+   "end_block": 195,
+   "recommended": true,
+   "reason": "Barber says § 3624(g) lets credits start supervised release early but not shorten it; the card shows the provision (idea from the Codex set).",
+   "cue": {
+    "kind": "Statute",
+    "heading": "18 U.S.C. § 3624(g)(3) — supervised release",
+    "text": "… the Director of the Bureau of Prisons may transfer the prisoner to <mark>begin any such term of supervised release at an earlier date</mark>, not to exceed 12 months, based on the application of time credits under section 3632.",
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+     "an early start to supervised release"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "usc-18-3624.txt",
+     "page": 1,
+     "quote": "the Director of the Bureau of Prisons may transfer the prisoner to begin any such term of supervised release at an earlier date, not to exceed 12 months, based on the application of time credits under section 3632.",
+     "claim": "3624(g)(3)"
+    }
+   ]
+  },
+  {
+   "id": "jgg",
+   "start_block": 201,
+   "end_block": 204,
+   "recommended": true,
+   "reason": "Kavanaugh asks about Trump v. J.G.G.; the card says what it decided.",
+   "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+     "name": "<i>Trump</i> v. <i>J. G. G.</i>",
+     "details": "2025 · per curiam"
+    },
+    "text": "Detainees challenging their removal under the Alien Enemies Act must bring their claims in habeas, in the district where they are confined.",
+    "source": "Summary based on the per curiam opinion (U.S. Reports)",
+    "highlight": [
+     "Trump versus JGG"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "jgg.txt",
+     "page": 1,
+     "quote": "Challenges to removal under the AEA, a statute which largely",
+     "claim": "Habeas"
+    },
+    {
+     "source": "jgg.txt",
+     "page": 1,
+     "quote": "must be brought in habeas",
+     "claim": "Habeas"
+    },
+    {
+     "source": "jgg.txt",
+     "page": 1,
+     "quote": "Venue for challeng",
+     "claim": "Venue"
+    }
+   ]
+  },
+  {
+   "id": "koray",
+   "start_block": 242,
+   "end_block": 245,
+   "recommended": true,
+   "reason": "Barnes relies on Koray for the significance of BOP control; the card states what it held.",
+   "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+     "name": "<i>Reno</i> v. <i>Koray</i>",
+     "details": "1995"
+    },
+    "text": "Time a defendant spent at a community treatment center while released on bail did not count as “official detention”, so it was not credited toward his sentence.",
+    "source": "Summary based on the opinion of the Court (U.S. Reports)",
+    "highlight": [
+     "the Koray case"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-515-50.txt",
+     "page": 1,
+     "quote": "released” him on bail pursuant to the Bail Reform Act of 1984 and ordered him confined to a community treatment center",
+     "claim": "Facts"
+    },
+    {
+     "source": "cap-515-50.txt",
+     "page": 1,
+     "quote": "The question presented is whether respondent was in “official detention,” and thus entitled to a sentence credit under § 3585(b), during the time he spent at the treatment center. We hold that he was not.",
+     "claim": "Holding"
+    }
+   ]
+  },
+  {
+   "id": "parole",
+   "start_block": 245,
+   "end_block": 251,
+   "recommended": true,
+   "reason": "Kagan and Barnes contrast prerelease custody with parole, which no longer exists federally; the card explains what replaced it.",
+   "cue": {
+    "kind": "Glossary",
+    "heading": "Federal sentencing",
+    "glossary": {
+     "term": "Federal parole",
+     "expansion": ""
+    },
+    "text": "Early release from prison decided by a parole board. The Sentencing Reform Act of 1984 abolished it for future federal prisoners. Today a term of <mark>supervised release</mark>, imposed by the sentencing court, follows the prison term.",
+    "source": "Petitioner’s brief, p. 9; 18 U.S.C. § 3583(a)",
+    "highlight": [
+     "doesn't exist in the federal system"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "pet-brief.pdf",
+     "page": 21,
+     "quote": "parole board (through parole) de",
+     "claim": "Parole board"
+    },
+    {
+     "source": "pet-brief.pdf",
+     "page": 21,
+     "quote": "abolishing federal parole for future pris",
+     "claim": "Abolition"
+    },
+    {
+     "source": "usc-18-3583.txt",
+     "page": 1,
+     "quote": "may include as a part of the sentence a requirement that the defendant be placed on a term of supervised release after imprisonment",
+     "claim": "Supervised release"
+    }
+   ]
+  },
+  {
+   "id": "escape",
+   "start_block": 252,
+   "end_block": 254,
+   "recommended": true,
+   "reason": "Barnes points to the federal escape statute; the card shows its text.",
+   "cue": {
+    "kind": "Statute",
+    "heading": "18 U.S.C. § 751(a) — escape",
+    "text": "Whoever escapes or attempts to escape from <mark>the custody of the Attorney General</mark> or his authorized representative, or from any institution or facility in which he is confined by direction of the Attorney General …",
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+     "federal escape statute"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "usc-18-751.txt",
+     "page": 1,
+     "quote": "Whoever escapes or attempts to escape from the custody of the Attorney General or his authorized representative, or from any institution or facility in which he is confined by direction of the Attorney General",
+     "claim": "Escape"
+    }
+   ]
+  },
+  {
+   "id": "meachum",
+   "start_block": 269,
+   "end_block": 271,
+   "recommended": true,
+   "reason": "Barnes and Sotomayor rely on Meachum for transfers between prisons; the card states its holding.",
+   "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+     "name": "<i>Meachum</i> v. <i>Fano</i>",
+     "details": "1976"
+    },
+    "text": "The Due Process Clause does not entitle a state prisoner to a hearing before he is transferred to a prison with substantially less favorable conditions.",
+    "source": "Summary based on the opinion of the Court (U.S. Reports)",
+    "highlight": [
+     "The Meachum case"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-427-215.txt",
+     "page": 1,
+     "quote": "The question here is whether the Due Process Clause of the Fourteenth Amendment entitles a state prisoner to a hearing when he is transferred to a prison the conditions of which are substantially less favorable to the prisoner",
+     "claim": "Question"
+    },
+    {
+     "source": "cap-427-215.txt",
+     "page": 1,
+     "quote": "We hold that it does not.",
+     "claim": "Holding"
+    }
+   ]
+  },
+  {
+   "id": "plra",
+   "start_block": 292,
+   "end_block": 294,
+   "recommended": true,
+   "reason": "Barnes contrasts habeas exhaustion with the PLRA’s statutory requirement; the card shows the statute.",
+   "cue": {
+    "kind": "Statute",
+    "heading": "42 U.S.C. § 1997e(a) — Prison Litigation Reform Act",
+    "text": "No action shall be brought with respect to prison conditions under section 1983 of this title, or any other Federal law, by a prisoner confined in any jail, prison, or other correctional facility <mark>until such administrative remedies as are available are exhausted</mark>.",
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+     "under the PLRA"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "usc-42-1997e.txt",
+     "page": 1,
+     "quote": "No action shall be brought with respect to prison conditions under section 1983 of this title, or any other Federal law, by a prisoner confined in any jail, prison, or other correctional facility until such administrative remedies as are available are exhausted.",
+     "claim": "PLRA"
+    }
+   ]
+  },
+  {
+   "id": "sinochem",
+   "start_block": 314,
+   "end_block": 316,
+   "recommended": false,
+   "reason": "Barnes cites Sinochem for choosing the order of threshold issues; hidden by default as a passing reference.",
+   "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+     "name": "<i>Sinochem Int’l Co.</i> v. <i>Malaysia Int’l Shipping Corp.</i>",
+     "details": "2007"
+    },
+    "text": "A federal court may dismiss a case on one threshold ground (there, forum non conveniens) without first deciding other threshold objections, such as jurisdiction.",
+    "source": "Summary based on the opinion of the Court (U.S. Reports)",
+    "highlight": [
+     "under Sinochem"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-549-422.txt",
+     "page": 1,
+     "quote": "We hold that a district court has discretion to respond at once to a defendant’s forum non conveniens plea, and need not take up first any other threshold objection.",
+     "claim": "Holding"
+    }
+   ]
+  },
+  {
+   "id": "st-cyr",
+   "start_block": 351,
+   "end_block": 353,
+   "recommended": true,
+   "reason": "Hansford invokes the “St. Cyr level of clarity”; the card explains the rule.",
+   "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+     "name": "<i>INS</i> v. <i>St. Cyr</i>",
+     "details": "2001"
+    },
+    "text": "Congress must speak clearly if it means to take away habeas jurisdiction; without a clear statement, the Court will not read a statute that way.",
+    "source": "Summary based on the opinion of the Court (U.S. Reports)",
+    "highlight": [
+     "the St. Cyr level of clarity"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-533-289.txt",
+     "page": 1,
+     "quote": "the longstanding rule requiring a clear statement of congressional intent to repeal habeas jurisdiction",
+     "claim": "Clear statement"
+    }
+   ]
+  },
+  {
+   "id": "medley-bonner",
+   "start_block": 353,
+   "end_block": 354,
+   "recommended": true,
+   "reason": "Hansford closes with two 1890s cases the argument never explains; the card says what each decided.",
+   "cue": {
+    "kind": "Comparison",
+    "heading": "Two habeas cases from the 1890s",
+    "compare": [
+     {
+      "title": "<i>In re Medley</i> (1890)",
+      "cite": "134 U.S. 160",
+      "text": "A prisoner held in solitary confinement under a law passed after his crime was ordered discharged from that confinement."
+     },
+     {
+      "title": "<i>In re Bonner</i> (1894)",
+      "cite": "151 U.S. 242",
+      "text": "A prisoner sentenced to serve a year in a state penitentiary, where the law did not allow it, could obtain habeas relief so the court could correct the sentence."
+     }
+    ],
+    "source": "Opinions of the Court (U.S. Reports)",
+    "highlight": [
+     "Medley, Bonner"
+    ]
+   },
+   "evidence": [
+    {
+     "source": "cap-134-160.txt",
+     "page": 1,
+     "quote": "the further punishment of imprisonment by solitary confinement until the execution",
+     "claim": "Medley"
+    },
+    {
+     "source": "cap-134-160.txt",
+     "page": 1,
+     "quote": "discharge' the prisoner from the wrongful confinement in the penitentiary",
+     "claim": "Medley relief"
+    },
+    {
+     "source": "cap-151-242.txt",
+     "page": 1,
+     "quote": "the court is without jurisdiction to further adjudge that that imprisonment shall take place in a state penitentiary",
+     "claim": "Bonner"
+    },
+    {
+     "source": "cap-151-242.txt",
+     "page": 1,
+     "quote": "may be corrected",
+     "claim": "Bonner relief"
+    }
+   ]
+  }
+ ],
+ "private_notes": [
+  "Reader: Haiku scanned all 359 blocks and the ten main filings and proposed 93 candidates (scan.json, 34 marked uncertain); the editor (Opus) read the full argument independently, sourced, selected and wrote the cards, and only then read the Codex set.",
+  "From the Codex set (read after this set was complete): the circuit-split map (Maxwell’s cert reply p. 3; the government did not dispute the split), the § 3621(b) / § 3632(d)(4)(C) side-by-side (marks rebalanced: one operative phrase per provision rather than two phrases favoring the petitioner), and § 3624(g)(3) at Barber’s mootness answer.",
+  "Not adopted from Codex: Preiser at 0:26 (overlaps the question presented; Preiser is carded at Barber’s “Under Preiser” instead); a Skinner holding card (Kagan’s point concerns its language, so an excerpt is shown); a DIG definition sourced to a dissent (the government’s own brief is used); a § 3624(a) / prerelease comparison at 58:45 (Jackson reads § 3624(a) aloud).",
+  "Read aloud, so not carded: Hansford’s § 2241 and § 3621(b) quotations (wording differs slightly from the statute; the § 3621(b) card shows the exact text), Barber’s Morrissey definition of parole, Jackson’s reading of § 3624(a).",
+  "Hansford’s “3634(d)(4)(C)” is § 3632(d)(4)(C); the card cites the correct section. Her “complete release” paraphrase is not the Fifth Circuit’s test, so the decision-below card quotes the opinion.",
+  "January 22, 2027 is labelled as BOP’s projected date of eligibility for transfer to a halfway house (U.S. brief), not a release date as Barber says.",
+  "Neutrality: the JA 17 record card is the page Hansford cites, shown without comment on whether exhaustion was satisfied; the escape-statute and Koray cards show what Barnes relies on, not whether it is decisive; the case timeline gives dates only.",
+  "Omitted: Wolff, Morrissey, Jones v. Hendrix, Camreta, Rivera-Perez, Osorio-Calderon, Gonzalez v. Herrera (passing references or unverified facts); “capable of repetition”, “voluntary cessation”, “collateral consequences” glossaries (general doctrine not in the filings); Puerto Rico transfer examples (not in the sources).",
+  "Renderer: the subscribe overlay covers the card area during the first two blocks of each later section, so St. Cyr starts at block 351; the workbench now checks this.",
+  "Sinochem is hidden by default as a passing reference."
+ ]
+}

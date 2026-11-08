@@ -1,0 +1,921 @@
+[
+  {
+    "key": "2025/23-1197",
+    "official_authors": [
+      "Gorsuch",
+      "Jackson"
+    ],
+    "model_authors": [
+      "Gorsuch",
+      "Jackson"
+    ],
+    "lead_authors": [
+      "Gorsuch"
+    ],
+    "main_writer": "Gorsuch"
+  },
+  {
+    "key": "2025/23-1209",
+    "official_authors": [
+      "Jackson"
+    ],
+    "model_authors": [
+      "Jackson"
+    ],
+    "lead_authors": [
+      "Jackson"
+    ],
+    "main_writer": "Jackson"
+  },
+  {
+    "key": "2025/24-1021",
+    "official_authors": [
+      "Sotomayor"
+    ],
+    "model_authors": [
+      "Sotomayor"
+    ],
+    "lead_authors": [
+      "Sotomayor"
+    ],
+    "main_writer": "Sotomayor"
+  },
+  {
+    "key": "2025/24-1046",
+    "official_authors": [
+      "Alito",
+      "Barrett",
+      "Jackson",
+      "Kagan"
+    ],
+    "model_authors": [
+      "Alito",
+      "Barrett",
+      "Jackson",
+      "Kagan"
+    ],
+    "lead_authors": [
+      "Alito"
+    ],
+    "main_writer": "Alito"
+  },
+  {
+    "key": "2025/24-1056",
+    "official_authors": [
+      "Alito",
+      "Gorsuch"
+    ],
+    "model_authors": [
+      "Alito",
+      "Gorsuch"
+    ],
+    "lead_authors": [
+      "Gorsuch"
+    ],
+    "main_writer": "Gorsuch"
+  },
+  {
+    "key": "2025/24-1063",
+    "official_authors": [
+      "Barrett",
+      "Gorsuch",
+      "Kagan",
+      "Kavanaugh",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Barrett",
+      "Gorsuch",
+      "Kagan",
+      "Kavanaugh",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Kagan"
+    ],
+    "main_writer": "Kagan"
+  },
+  {
+    "key": "2025/24-1068",
+    "official_authors": [
+      "Jackson",
+      "Kavanaugh",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Jackson",
+      "Kavanaugh",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Kavanaugh"
+    ],
+    "main_writer": "Kavanaugh"
+  },
+  {
+    "key": "2025/24-109",
+    "official_authors": [],
+    "model_authors": [
+      "Alito",
+      "Kagan",
+      "Thomas"
+    ],
+    "lead_authors": [],
+    "main_writer": "Alito"
+  },
+  {
+    "key": "2025/24-1234",
+    "official_authors": [
+      "Alito",
+      "Gorsuch",
+      "Jackson",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Alito",
+      "Gorsuch",
+      "Jackson",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Gorsuch"
+    ],
+    "main_writer": "Gorsuch"
+  },
+  {
+    "key": "2025/24-1238",
+    "official_authors": [
+      "Barrett",
+      "Kavanaugh"
+    ],
+    "model_authors": [
+      "Barrett",
+      "Kavanaugh"
+    ],
+    "lead_authors": [
+      "Barrett"
+    ],
+    "main_writer": "Barrett"
+  },
+  {
+    "key": "2025/24-1260",
+    "official_authors": [
+      "Alito",
+      "Barrett"
+    ],
+    "model_authors": [
+      "Alito",
+      "Barrett"
+    ],
+    "lead_authors": [
+      "Barrett"
+    ],
+    "main_writer": "Barrett"
+  },
+  {
+    "key": "2025/24-1287",
+    "official_authors": [
+      "Barrett",
+      "Gorsuch",
+      "Jackson",
+      "Kagan",
+      "Kavanaugh",
+      "Roberts",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Barrett",
+      "Gorsuch",
+      "Jackson",
+      "Kagan",
+      "Kavanaugh",
+      "Roberts",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Roberts"
+    ],
+    "main_writer": "Roberts"
+  },
+  {
+    "key": "2025/24-171",
+    "official_authors": [
+      "Sotomayor",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Sotomayor",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Thomas"
+    ],
+    "main_writer": "Thomas"
+  },
+  {
+    "key": "2025/24-345",
+    "official_authors": [
+      "Barrett",
+      "Jackson",
+      "Kagan"
+    ],
+    "model_authors": [
+      "Barrett",
+      "Jackson",
+      "Kagan"
+    ],
+    "lead_authors": [
+      "Barrett"
+    ],
+    "main_writer": "Barrett"
+  },
+  {
+    "key": "2025/24-351",
+    "official_authors": [
+      "Sotomayor",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Sotomayor",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Thomas"
+    ],
+    "main_writer": "Thomas"
+  },
+  {
+    "key": "2025/24-43",
+    "official_authors": [
+      "Gorsuch",
+      "Jackson",
+      "Kavanaugh",
+      "Sotomayor",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Gorsuch",
+      "Jackson",
+      "Kavanaugh",
+      "Sotomayor",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Kavanaugh"
+    ],
+    "main_writer": null
+  },
+  {
+    "key": "2025/24-440",
+    "official_authors": [
+      "Barrett",
+      "Jackson"
+    ],
+    "model_authors": [
+      "Barrett",
+      "Jackson"
+    ],
+    "lead_authors": [
+      "Barrett"
+    ],
+    "main_writer": "Barrett"
+  },
+  {
+    "key": "2025/24-482",
+    "official_authors": [
+      "Kavanaugh",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Kavanaugh",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Kavanaugh"
+    ],
+    "main_writer": "Kavanaugh"
+  },
+  {
+    "key": "2025/24-539",
+    "official_authors": [
+      "Gorsuch",
+      "Jackson",
+      "Kagan"
+    ],
+    "model_authors": [
+      "Gorsuch",
+      "Jackson",
+      "Kagan"
+    ],
+    "lead_authors": [
+      "Gorsuch"
+    ],
+    "main_writer": "Gorsuch"
+  },
+  {
+    "key": "2025/24-5438",
+    "official_authors": [
+      "Gorsuch",
+      "Jackson",
+      "Sotomayor"
+    ],
+    "model_authors": [
+      "Gorsuch",
+      "Jackson",
+      "Sotomayor"
+    ],
+    "lead_authors": [
+      "Sotomayor"
+    ],
+    "main_writer": "Sotomayor"
+  },
+  {
+    "key": "2025/24-556",
+    "official_authors": [
+      "Barrett",
+      "Jackson",
+      "Sotomayor"
+    ],
+    "model_authors": [
+      "Barrett",
+      "Jackson",
+      "Sotomayor"
+    ],
+    "lead_authors": [
+      "Barrett"
+    ],
+    "main_writer": "Barrett"
+  },
+  {
+    "key": "2025/24-557",
+    "official_authors": [
+      "Alito",
+      "Jackson",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Alito",
+      "Jackson",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Jackson"
+    ],
+    "main_writer": "Jackson"
+  },
+  {
+    "key": "2025/24-568",
+    "official_authors": [
+      "Barrett",
+      "Jackson",
+      "Roberts"
+    ],
+    "model_authors": [
+      "Barrett",
+      "Jackson",
+      "Roberts"
+    ],
+    "lead_authors": [
+      "Roberts"
+    ],
+    "main_writer": "Roberts"
+  },
+  {
+    "key": "2025/24-5774",
+    "official_authors": [
+      "Gorsuch",
+      "Jackson"
+    ],
+    "model_authors": [
+      "Gorsuch",
+      "Jackson"
+    ],
+    "lead_authors": [
+      "Jackson"
+    ],
+    "main_writer": "Jackson"
+  },
+  {
+    "key": "2025/24-621",
+    "official_authors": [
+      "Kagan",
+      "Kavanaugh"
+    ],
+    "model_authors": [
+      "Kagan",
+      "Kavanaugh"
+    ],
+    "lead_authors": [
+      "Kavanaugh"
+    ],
+    "main_writer": "Kavanaugh"
+  },
+  {
+    "key": "2025/24-624",
+    "official_authors": [
+      "Gorsuch",
+      "Kagan",
+      "Sotomayor"
+    ],
+    "model_authors": [
+      "Gorsuch",
+      "Kagan",
+      "Sotomayor"
+    ],
+    "lead_authors": [
+      "Kagan"
+    ],
+    "main_writer": "Kagan"
+  },
+  {
+    "key": "2025/24-699",
+    "official_authors": [
+      "Kagan",
+      "Kavanaugh"
+    ],
+    "model_authors": [
+      "Kagan",
+      "Kavanaugh"
+    ],
+    "lead_authors": [
+      "Kavanaugh"
+    ],
+    "main_writer": "Kavanaugh"
+  },
+  {
+    "key": "2025/24-724",
+    "official_authors": [
+      "Sotomayor",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Sotomayor",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Sotomayor"
+    ],
+    "main_writer": "Sotomayor"
+  },
+  {
+    "key": "2025/24-7351",
+    "official_authors": [
+      "Gorsuch",
+      "Kavanaugh"
+    ],
+    "model_authors": [
+      "Gorsuch",
+      "Kavanaugh"
+    ],
+    "lead_authors": [
+      "Kavanaugh"
+    ],
+    "main_writer": "Kavanaugh"
+  },
+  {
+    "key": "2025/24-758",
+    "official_authors": [
+      "Alito",
+      "Kagan",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Alito",
+      "Kagan",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Kagan"
+    ],
+    "main_writer": "Kagan"
+  },
+  {
+    "key": "2025/24-777",
+    "official_authors": [
+      "Jackson"
+    ],
+    "model_authors": [
+      "Jackson"
+    ],
+    "lead_authors": [
+      "Jackson"
+    ],
+    "main_writer": "Jackson"
+  },
+  {
+    "key": "2025/24-781",
+    "official_authors": [
+      "Gorsuch"
+    ],
+    "model_authors": [
+      "Gorsuch"
+    ],
+    "lead_authors": [
+      "Gorsuch"
+    ],
+    "main_writer": "Gorsuch"
+  },
+  {
+    "key": "2025/24-783",
+    "official_authors": [
+      "Sotomayor"
+    ],
+    "model_authors": [
+      "Sotomayor"
+    ],
+    "lead_authors": [
+      "Sotomayor"
+    ],
+    "main_writer": "Sotomayor"
+  },
+  {
+    "key": "2025/24-808",
+    "official_authors": [
+      "Alito",
+      "Sotomayor"
+    ],
+    "model_authors": [
+      "Alito",
+      "Sotomayor"
+    ],
+    "lead_authors": [
+      "Alito"
+    ],
+    "main_writer": "Alito"
+  },
+  {
+    "key": "2025/24-813",
+    "official_authors": [
+      "Jackson",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Jackson",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Thomas"
+    ],
+    "main_writer": "Thomas"
+  },
+  {
+    "key": "2025/24-820",
+    "official_authors": [
+      "Barrett",
+      "Sotomayor"
+    ],
+    "model_authors": [
+      "Barrett",
+      "Sotomayor"
+    ],
+    "lead_authors": [
+      "Barrett"
+    ],
+    "main_writer": "Barrett"
+  },
+  {
+    "key": "2025/24-856",
+    "official_authors": [
+      "Barrett",
+      "Jackson",
+      "Sotomayor"
+    ],
+    "model_authors": [
+      "Barrett",
+      "Jackson",
+      "Sotomayor"
+    ],
+    "lead_authors": [
+      "Barrett"
+    ],
+    "main_writer": null
+  },
+  {
+    "key": "2025/24-872",
+    "official_authors": [
+      "Alito",
+      "Sotomayor",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Alito",
+      "Sotomayor",
+      "Thomas"
+    ],
+    "lead_authors": [],
+    "main_writer": null
+  },
+  {
+    "key": "2025/24-889",
+    "official_authors": [
+      "Jackson"
+    ],
+    "model_authors": [
+      "Jackson"
+    ],
+    "lead_authors": [
+      "Jackson"
+    ],
+    "main_writer": "Jackson"
+  },
+  {
+    "key": "2025/24-924",
+    "official_authors": [
+      "Alito",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Alito",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Thomas"
+    ],
+    "main_writer": "Thomas"
+  },
+  {
+    "key": "2025/24-935",
+    "official_authors": [
+      "Gorsuch"
+    ],
+    "model_authors": [
+      "Gorsuch"
+    ],
+    "lead_authors": [
+      "Gorsuch"
+    ],
+    "main_writer": "Gorsuch"
+  },
+  {
+    "key": "2025/24-983",
+    "official_authors": [
+      "Kagan",
+      "Sotomayor",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Kagan",
+      "Sotomayor",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Thomas"
+    ],
+    "main_writer": "Thomas"
+  },
+  {
+    "key": "2025/24-993",
+    "official_authors": [
+      "Kagan"
+    ],
+    "model_authors": [
+      "Kagan"
+    ],
+    "lead_authors": [
+      "Kagan"
+    ],
+    "main_writer": "Kagan"
+  },
+  {
+    "key": "2025/25-1083",
+    "official_authors": [
+      "Alito",
+      "Kagan",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Alito",
+      "Kagan",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Alito"
+    ],
+    "main_writer": "Alito"
+  },
+  {
+    "key": "2025/25-112",
+    "official_authors": [
+      "Alito",
+      "Barrett",
+      "Gorsuch",
+      "Jackson",
+      "Kagan"
+    ],
+    "model_authors": [
+      "Alito",
+      "Barrett",
+      "Gorsuch",
+      "Jackson",
+      "Kagan"
+    ],
+    "lead_authors": [
+      "Kagan"
+    ],
+    "main_writer": "Kagan"
+  },
+  {
+    "key": "2025/25-197",
+    "official_authors": [
+      "Barrett",
+      "Sotomayor",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Barrett",
+      "Sotomayor",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Sotomayor"
+    ],
+    "main_writer": "Sotomayor"
+  },
+  {
+    "key": "2025/25-332",
+    "official_authors": [
+      "Gorsuch",
+      "Roberts",
+      "Sotomayor"
+    ],
+    "model_authors": [
+      "Gorsuch",
+      "Roberts",
+      "Sotomayor"
+    ],
+    "lead_authors": [
+      "Roberts"
+    ],
+    "main_writer": "Roberts"
+  },
+  {
+    "key": "2025/25-365",
+    "official_authors": [
+      "Alito",
+      "Gorsuch",
+      "Jackson",
+      "Kavanaugh",
+      "Roberts",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Alito",
+      "Gorsuch",
+      "Jackson",
+      "Kavanaugh",
+      "Roberts",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Roberts"
+    ],
+    "main_writer": "Roberts"
+  },
+  {
+    "key": "2025/25-406",
+    "official_authors": [
+      "Roberts",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Roberts",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Roberts"
+    ],
+    "main_writer": "Roberts"
+  },
+  {
+    "key": "2025/25-429",
+    "official_authors": [
+      "Jackson",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Jackson",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Thomas"
+    ],
+    "main_writer": "Thomas"
+  },
+  {
+    "key": "2025/25-466",
+    "official_authors": [
+      "Gorsuch",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Gorsuch",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Gorsuch"
+    ],
+    "main_writer": "Gorsuch"
+  },
+  {
+    "key": "2025/25-5",
+    "official_authors": [
+      "Alito",
+      "Jackson",
+      "Sotomayor",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Alito",
+      "Jackson",
+      "Sotomayor",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Alito"
+    ],
+    "main_writer": "Alito"
+  },
+  {
+    "key": "2025/25-5146",
+    "official_authors": [
+      "Kagan"
+    ],
+    "model_authors": [
+      "Kagan"
+    ],
+    "lead_authors": [
+      "Kagan"
+    ],
+    "main_writer": "Kagan"
+  },
+  {
+    "key": "2025/25-6",
+    "official_authors": [
+      "Jackson",
+      "Sotomayor",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Jackson",
+      "Sotomayor",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Jackson"
+    ],
+    "main_writer": "Jackson"
+  },
+  {
+    "key": "2025/25-83",
+    "official_authors": [
+      "Sotomayor"
+    ],
+    "model_authors": [
+      "Sotomayor"
+    ],
+    "lead_authors": [
+      "Sotomayor"
+    ],
+    "main_writer": "Sotomayor"
+  },
+  {
+    "key": "2025/25-95",
+    "official_authors": [
+      "Alito",
+      "Sotomayor",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Alito",
+      "Sotomayor",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Alito"
+    ],
+    "main_writer": "Alito"
+  },
+  {
+    "key": "2025/25A312",
+    "official_authors": [
+      "Alito",
+      "Barrett",
+      "Jackson",
+      "Kavanaugh",
+      "Roberts",
+      "Thomas"
+    ],
+    "model_authors": [
+      "Alito",
+      "Barrett",
+      "Jackson",
+      "Kavanaugh",
+      "Roberts",
+      "Thomas"
+    ],
+    "lead_authors": [
+      "Roberts"
+    ],
+    "main_writer": "Roberts"
+  }
+]

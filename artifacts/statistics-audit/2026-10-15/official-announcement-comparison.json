@@ -1,0 +1,582 @@
+[
+  {
+    "key": "2025/23-1197",
+    "name": "Landor v. Louisiana Department of Corrections",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/23-1197.json",
+    "decision_date": "2026-06-23",
+    "announcement_date_matched": true,
+    "source_writer": "Gorsuch",
+    "model_writer": "Gorsuch",
+    "announcement": "Adjudged to be AFFIRMED.  Gorsuch, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Alito, Kavanaugh, and Barrett, JJ., joined.  Jackson, J., filed a dissenting opinion, in which Sotomayor and Kagan, JJ., joined."
+  },
+  {
+    "key": "2025/23-1209",
+    "name": "M & K Employee Solutions, LLC v. Trustees of the IAM National Pension Fund",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/23-1209.json",
+    "decision_date": "2026-05-21",
+    "announcement_date_matched": true,
+    "source_writer": "Jackson",
+    "model_writer": "Jackson",
+    "announcement": "Adjudged to be AFFIRMED.  Jackson, J., delivered the opinion for a unanimous Court."
+  },
+  {
+    "key": "2025/24-1021",
+    "name": "Galette v. New Jersey Transit  Corp.",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-1021.json",
+    "decision_date": "2026-03-04",
+    "announcement_date_matched": true,
+    "source_writer": "Sotomayor",
+    "model_writer": "Sotomayor",
+    "announcement": "Judgment REVERSED and case REMANDED.  Judgment in No. 24-1113 AFFIRMED and case REMANDED.  Sotomayor, J., delivered the opinion for a unanimous Court.  VIDED."
+  },
+  {
+    "key": "2025/24-1046",
+    "name": "Wolford v. Lopez",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-1046.json",
+    "decision_date": "2026-06-25",
+    "announcement_date_matched": true,
+    "source_writer": "Alito",
+    "model_writer": "Alito",
+    "announcement": "Judgment REVERSED and case REMANDED.  Alito, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Gorsuch, Kavanaugh, and Barrett, JJ., joined. Barrett, J., filed a concurring opinion, in which Thomas and Gorsuch, JJ., joined as to Part II\u2013B. Kagan, J., filed a dissenting opinion. Jackson, J., filed a dissenting opinion, in which Sotomayor, J., joined."
+  },
+  {
+    "key": "2025/24-1056",
+    "name": "Rico v. United States",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-1056.json",
+    "decision_date": "2026-03-25",
+    "announcement_date_matched": true,
+    "source_writer": "Gorsuch",
+    "model_writer": "Gorsuch",
+    "announcement": "Judgment REVERSED and case REMANDED.  Gorsuch, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Sotomayor, Kagan, Kavanaugh, Barrett, and Jackson, JJ., joined. Alito, J., filed a dissenting opinion."
+  },
+  {
+    "key": "2025/24-1063",
+    "name": "Hunter v. United States",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-1063.json",
+    "decision_date": "2026-06-18",
+    "announcement_date_matched": true,
+    "source_writer": "Kagan",
+    "model_writer": "Kagan",
+    "announcement": "Judgment VACATED and case REMANDED.  Kagan, J., delivered the opinion of the Court, in which Roberts, C. J., and Alito, Sotomayor, Gorsuch, Kavanaugh, Barrett, and Jackson, JJ., joined. Gorsuch, J., filed a concurring opinion, in which Sotomayor and Jackson, JJ., joined. Kavanaugh, J., filed a concurring opinion, in which Alito and Barrett, JJ., joined. Barrett, J., filed a concurring\r\nopinion. Thomas, J., filed a dissenting opinion."
+  },
+  {
+    "key": "2025/24-1068",
+    "name": "Monsanto Company v. Durnell",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-1068.json",
+    "decision_date": "2026-06-25",
+    "announcement_date_matched": true,
+    "source_writer": "Kavanaugh",
+    "model_writer": "Kavanaugh",
+    "announcement": "Judgment REVERSED and case REMANDED.  Kavanaugh, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Alito, Sotomayor, Kagan, and Barrett, JJ., joined.  Thomas, J., filed a concurring opinion. Jackson, J., filed a dissenting opinion, in which Gorsuch, J., joined."
+  },
+  {
+    "key": "2025/24-109",
+    "name": "Louisiana v. Callais",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-109.json",
+    "decision_date": "2026-04-29",
+    "announcement_date_matched": true,
+    "source_writer": "Alito",
+    "model_writer": "Alito",
+    "announcement": "Judgment is AFFIRMED and case REMANDED.  Alito, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Gorsuch, Kavanaugh, and Barrett, JJ., joined.  Thomas, J., filed a concurring opinion in which Gorsuch, J., joined.  Kagan, J., filed a dissenting opinion, in which Sotomayor and Jackson, JJ., joined.  VIDED."
+  },
+  {
+    "key": "2025/24-1234",
+    "name": "United States v. Hemani",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-1234.json",
+    "decision_date": "2026-06-18",
+    "announcement_date_matched": true,
+    "source_writer": "Gorsuch",
+    "model_writer": "Gorsuch",
+    "announcement": "Adjudged to be AFFIRMED.  Gorsuch, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Sotomayor, Kavanaugh, Barrett, and Jackson, JJ., joined. Thomas, J., filed a concurring opinion. Jackson, J., filed a concurring opinion, in which Sotomayor, J., joined. Alito, J., filed an opinion concurring in the judgment, in which Kagan, J., joined."
+  },
+  {
+    "key": "2025/24-1238",
+    "name": "Montgomery v. Caribe Transport II, LLC",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-1238.json",
+    "decision_date": "2026-05-14",
+    "announcement_date_matched": true,
+    "source_writer": "Barrett",
+    "model_writer": "Barrett",
+    "announcement": "Judgment REVERSED and case REMANDED.  Barrett, J., delivered the opinion for a unanimous Court.  Kavanaugh, J., filed a concurring opinion, in which Alito, J., joined."
+  },
+  {
+    "key": "2025/24-1260",
+    "name": "Watson v. Republican National Committee",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-1260.json",
+    "decision_date": "2026-06-29",
+    "announcement_date_matched": true,
+    "source_writer": "Barrett",
+    "model_writer": "Barrett",
+    "announcement": "Judgment REVERSED and case REMANDED.  Barrett, J., delivered the opinion of the Court, in which Roberts, C. J., and Sotomayor, Kagan, and Jackson, JJ., joined. Alito, J., filed a dissenting opinion, in which Thomas and Gorsuch, JJ., joined, and in which Kavanaugh, J., joined as to all but Parts II\u2013C\u20132 and III."
+  },
+  {
+    "key": "2025/24-1287",
+    "name": "Learning Resources, Inc. v. Trump",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-1287.json",
+    "decision_date": "2026-02-20",
+    "announcement_date_matched": true,
+    "source_writer": "Roberts",
+    "model_writer": "Roberts",
+    "announcement": "Judgment in No. 24-1287 is VACATED and case REMANDED with instructions to dismiss for lack of jurisdiction; the judgment in No. 25-250 is AFFIRMED.  Roberts, C. J., announced the judgment of the Court and delivered the opinion of the Court with respect to Parts I, II\u2013A\u20131, and II\u2013B, in which Sotomayor, Kagan, Gorsuch, Barrett, and Jackson, JJ., joined, and an opinion with respect to Parts II\u2013A\u20132 and III, in which Gorsuch and Barrett, JJ., joined. Gorsuch, J., and Barrett, J., filed concurring opinions. Kagan, J., filed an opinion concurring in part and concurring in the judgment, in which Sotomayor and Jackson, JJ., joined. Jackson, J., filed an opinion concurring in part and concurring in the judgment.  Thomas, J., filed a dissenting opinion.  Kavanaugh, J., filed a dissenting opinion, in which Thomas and Alito, JJ., joined.  VIDED."
+  },
+  {
+    "key": "2025/24-171",
+    "name": "Cox Communications, Inc. v. Sony Music Entertainment",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-171.json",
+    "decision_date": "2026-03-25",
+    "announcement_date_matched": true,
+    "source_writer": "Thomas",
+    "model_writer": "Thomas",
+    "announcement": "Judgment REVERSED and case REMANDED.  Thomas, J., delivered the opinion of the Court, in which Roberts, C. J., and Alito, Kagan, Gorsuch, Kavanaugh, and Barrett, JJ., joined.  Sotomayor, J., filed an opinion concurring in the judgment, in which Jackson, J., joined."
+  },
+  {
+    "key": "2025/24-345",
+    "name": "FS Credit Opportunities Corp. v. Saba Capital Master Fund, Ltd.",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-345.json",
+    "decision_date": "2026-06-11",
+    "announcement_date_matched": true,
+    "source_writer": "Barrett",
+    "model_writer": "Barrett",
+    "announcement": "Judgment REVERSED and case REMANDED.  Barrett, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Alito, Gorsuch, and Kavanaugh, JJ., joined.  Kagan, J., filed a dissenting opinion.  Jackson, J., filed a dissenting opinion, in which Sotomayor, J., joined, and in which Kagan, J., joined as to Parts I and II."
+  },
+  {
+    "key": "2025/24-351",
+    "name": "United States Postal Service v. Konan",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-351.json",
+    "decision_date": "2026-02-24",
+    "announcement_date_matched": true,
+    "source_writer": "Thomas",
+    "model_writer": "Thomas",
+    "announcement": "Judgment VACATED and case REMANDED.  Thomas, J., delivered the opinion of the Court, in which Roberts, C. J., and Alito, Kavanaugh, and Barrett, JJ., joined. Sotomayor, J., filed a dissenting opinion, in which Kagan, Gorsuch, and Jackson, JJ., joined."
+  },
+  {
+    "key": "2025/24-38",
+    "name": "Little v. Hecox",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-38.json",
+    "decision_date": "2026-06-30",
+    "announcement_date_matched": true,
+    "source_writer": "Kavanaugh",
+    "model_writer": "Kavanaugh",
+    "announcement": "Judgment REVERSED and case REMANDED.  Kavanaugh, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Alito, Gorsuch, and Barrett, JJ., joined. Thomas, J., and Gorsuch, J., filed concurring opinions. Sotomayor, J., filed an opinion concurring in the judgment in part and dissenting in part, in which Kagan and Jackson, JJ., joined. Jackson, J., filed an opinion concurring in the judgment in part and dissenting in part. (Opinion also for No. 24-43).  VIDED."
+  },
+  {
+    "key": "2025/24-43",
+    "name": "West Virginia v. B.P.J.",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-43.json",
+    "decision_date": "2026-06-30",
+    "announcement_date_matched": true,
+    "source_writer": "Kavanaugh",
+    "model_writer": null,
+    "announcement": "Judgment REVERSED and case REMANDED.  Kavanaugh, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Alito, Gorsuch, and Barrett, JJ., joined. Thomas, J., and Gorsuch, J., filed concurring opinions. Sotomayor, J., filed an opinion concurring in the judgment in part and dissenting in part, in which Kagan and Jackson, JJ., joined. Jackson, J., filed an opinion concurring in the judgment in part and dissenting in part. (Opinion also for No. 24-38).  VIDED."
+  },
+  {
+    "key": "2025/24-440",
+    "name": "Berk v. Choy",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-440.json",
+    "decision_date": "2026-01-20",
+    "announcement_date_matched": true,
+    "source_writer": "Barrett",
+    "model_writer": "Barrett",
+    "announcement": "Judgment REVERSED and case REMANDED.  Barrett, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Alito, Sotomayor, Kagan, Gorsuch, and Kavanaugh, JJ., joined. Jackson, J., filed an opinion concurring in the judgment."
+  },
+  {
+    "key": "2025/24-482",
+    "name": "Ellingburg v. United States",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-482.json",
+    "decision_date": "2026-01-20",
+    "announcement_date_matched": true,
+    "source_writer": "Kavanaugh",
+    "model_writer": "Kavanaugh",
+    "announcement": "Judgment REVERSED and case REMANDED.  Kavanaugh, J., delivered the opinion for a unanimous Court.  Thomas, J., filed a concurring opinion, in which Gorsuch, J., joined."
+  },
+  {
+    "key": "2025/24-539",
+    "name": "Chiles v. Salazar",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-539.json",
+    "decision_date": "2026-03-31",
+    "announcement_date_matched": true,
+    "source_writer": "Gorsuch",
+    "model_writer": "Gorsuch",
+    "announcement": "Judgment REVERSED and case REMANDED.  Gorsuch, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Alito, Sotomayor, Kagan, Kavanaugh, and Barrett, JJ., joined.  Kagan, J., filed a concurring opinion in which Sotomayor, J., joined.  Jackson, J., filed a dissenting opinion."
+  },
+  {
+    "key": "2025/24-5438",
+    "name": "Bowe v. United States",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-5438.json",
+    "decision_date": "2026-01-09",
+    "announcement_date_matched": true,
+    "source_writer": "Sotomayor",
+    "model_writer": "Sotomayor",
+    "announcement": "Judgment VACATED and case REMANDED.  Sotomayor, J., delivered the opinion of the Court, in which Roberts, C. J., and Kagan, Kavanaugh and Jackson, JJ., joined. Jackson, J., filed a concurring opinion. Gorsuch, J., filed a dissenting opinion, in which Thomas and Alito, JJ., joined, and in which Barrett, J., joined as to Part I."
+  },
+  {
+    "key": "2025/24-556",
+    "name": "Fernandez v. United States",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-556.json",
+    "decision_date": "2026-05-28",
+    "announcement_date_matched": true,
+    "source_writer": "Barrett",
+    "model_writer": "Barrett",
+    "announcement": "Adjudged to be AFFIRMED.  Barrett, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Alito, Gorsuch, and Kavanaugh, JJ., joined.\r\nSotomayor, J., filed an opinion concurring in the judgment, in which\r\nKagan, J., joined. Jackson, J., filed a dissenting opinion."
+  },
+  {
+    "key": "2025/24-557",
+    "name": "Villarreal v. Texas",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-557.json",
+    "decision_date": "2026-02-25",
+    "announcement_date_matched": true,
+    "source_writer": "Jackson",
+    "model_writer": "Jackson",
+    "announcement": "Adjudged to be AFFIRMED.  Jackson, J., delivered the opinion of the Court, in which Roberts, C. J., and Alito, Sotomayor, Kagan, Kavanaugh, and Barrett, JJ., joined. Alito, J., filed a concurring opinion. Thomas, J., filed an opinion concurring in the judgment, in which Gorsuch, J., joined."
+  },
+  {
+    "key": "2025/24-568",
+    "name": "Bost v. Illinois State Board of Elections",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-568.json",
+    "decision_date": "2026-01-14",
+    "announcement_date_matched": true,
+    "source_writer": "Roberts",
+    "model_writer": "Roberts",
+    "announcement": "Judgment REVERSED and case REMANDED.  Roberts, C. J., delivered the opinion of the Court, in which Thomas, Alito, Gorsuch, and Kavanaugh, JJ., joined. Barrett, J., filed an opinion concurring in the judgment, in which Kagan, J., joined. Jackson, J., filed a dissenting opinion, in which Sotomayor, J., joined."
+  },
+  {
+    "key": "2025/24-5774",
+    "name": "Barrett v. United States",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-5774.json",
+    "decision_date": "2026-01-14",
+    "announcement_date_matched": true,
+    "source_writer": "Jackson",
+    "model_writer": "Jackson",
+    "announcement": "Adjudged to be REVERSED IN PART and case REMANDED.  Jackson, J., delivered the opinion of the Court with respect to Parts I, II, III, IV-A, and IV-B, and an opinion with respect to Part IV-C, in which Roberts, C. J., and Sotomayor and Kagan, JJ., joined.  Gorsuch, J., filed an opinion concurring in part."
+  },
+  {
+    "key": "2025/24-621",
+    "name": "National Republican Senatorial Committee v. Federal Election Commission",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-621.json",
+    "decision_date": "2026-06-30",
+    "announcement_date_matched": true,
+    "source_writer": "Kavanaugh",
+    "model_writer": "Kavanaugh",
+    "announcement": "Judgment REVERSED and case REMANDED.  Kavanaugh, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Alito, Gorsuch, and Barrett, JJ., joined.  Kagan, J., filed a dissenting opinion, in which Sotomayor and Jackson, JJ., joined."
+  },
+  {
+    "key": "2025/24-624",
+    "name": "Case v. Montana",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-624.json",
+    "decision_date": "2026-01-14",
+    "announcement_date_matched": true,
+    "source_writer": "Kagan",
+    "model_writer": "Kagan",
+    "announcement": "Adjudged to be AFFIRMED.  Kagan, J., delivered the opinion for a unanimous Court.  Sotomayor, J., and Gorsuch, J., filed concurring opinions."
+  },
+  {
+    "key": "2025/24-699",
+    "name": "Exxon Mobil Corp. v. Corporaci\u00f3n Cimex, S.A. (Cuba)",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-699.json",
+    "decision_date": "2026-06-23",
+    "announcement_date_matched": true,
+    "source_writer": "Kavanaugh",
+    "model_writer": "Kavanaugh",
+    "announcement": "Judgment REVERSED and case REMANDED.  Kavanaugh, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Alito, Gorsuch, and Barrett, JJ., joined. Kagan, J., filed a dissenting opinion, in which Sotomayor and Jackson, JJ., joined."
+  },
+  {
+    "key": "2025/24-724",
+    "name": "Hain Celestial Group, Inc. v. Palmquist",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-724.json",
+    "decision_date": "2026-02-24",
+    "announcement_date_matched": true,
+    "source_writer": "Sotomayor",
+    "model_writer": "Sotomayor",
+    "announcement": "Judgment is AFFIRMED and case REMANDED.  Sotomayor, J., delivered the opinion for a unanimous Court.  Thomas, J., filed a concurring opinion."
+  },
+  {
+    "key": "2025/24-7351",
+    "name": "Pitchford v. Cain",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-7351.json",
+    "decision_date": "2026-05-28",
+    "announcement_date_matched": true,
+    "source_writer": "Kavanaugh",
+    "model_writer": "Kavanaugh",
+    "announcement": "Judgment REVERSED and case REMANDED.  Kavanaugh, J., delivered the opinion of the Court, in which Roberts, C. J., and Sotomayor, Kagan, and Jackson, JJ., joined. Gorsuch, J., filed a dissenting opinion, in which Thomas, Alito, and Barrett, JJ., joined."
+  },
+  {
+    "key": "2025/24-758",
+    "name": "The GEO Group, Inc. v. Menocal",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-758.json",
+    "decision_date": "2026-02-25",
+    "announcement_date_matched": true,
+    "source_writer": "Kagan",
+    "model_writer": "Kagan",
+    "announcement": "Judgment is AFFIRMED and case REMANDED.  Kagan, J., delivered the opinion of the Court, in which Roberts, C. J., and Sotomayor, Gorsuch, Kavanaugh, Barrett, and Jackson, JJ., joined, and in which Thomas, J., joined as to Parts I and III. Thomas, J., filed an opinion concurring in part and concurring in the judgment. Alito, J., filed an opinion concurring in the judgment."
+  },
+  {
+    "key": "2025/24-777",
+    "name": "Urias-Orellana v. Bondi",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-777.json",
+    "decision_date": "2026-03-04",
+    "announcement_date_matched": true,
+    "source_writer": "Jackson",
+    "model_writer": "Jackson",
+    "announcement": "Adjudged to be AFFIRMED.  Jackson, J., delivered the opinion for a unanimous Court."
+  },
+  {
+    "key": "2025/24-781",
+    "name": "First Choice Women's Resource Centers, Inc. v. Platkin",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-781.json",
+    "decision_date": "2026-04-29",
+    "announcement_date_matched": true,
+    "source_writer": "Gorsuch",
+    "model_writer": "Gorsuch",
+    "announcement": "Judgment REVERSED and case REMANDED.  Gorsuch, J., delivered the opinion for a unanimous Court."
+  },
+  {
+    "key": "2025/24-783",
+    "name": "Enbridge Energy, LP v. Nessel",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-783.json",
+    "decision_date": "2026-04-22",
+    "announcement_date_matched": true,
+    "source_writer": "Sotomayor",
+    "model_writer": "Sotomayor",
+    "announcement": "Adjudged to be AFFIRMED.  Sotomayor, J., delivered the opinion for a unanimous Court."
+  },
+  {
+    "key": "2025/24-808",
+    "name": "Coney Island Auto Parts Unlimited, Inc. v. Burton",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-808.json",
+    "decision_date": "2026-01-20",
+    "announcement_date_matched": true,
+    "source_writer": "Alito",
+    "model_writer": "Alito",
+    "announcement": "Adjudged to be AFFIRMED.   Alito, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Kagan, Gorsuch, Kavanaugh, Barrett, and Jackson, JJ., joined. Sotomayor, J., filed an opinion concurring in the judgment."
+  },
+  {
+    "key": "2025/24-813",
+    "name": "Chevron USA Inc. v. Plaquemines Parish, Louisiana",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-813.json",
+    "decision_date": "2026-04-17",
+    "announcement_date_matched": true,
+    "source_writer": "Thomas",
+    "model_writer": "Thomas",
+    "announcement": "Judgment VACATED and case REMANDED.  Thomas, J., delivered the opinion of the Court, in which Roberts, C. J., and Sotomayor, Kagan, Gorsuch, Kavanaugh, and Barrett, JJ., joined. Jackson, J., filed an opinion concurring in the judgment. Alito, J., took no part in the decision of the case."
+  },
+  {
+    "key": "2025/24-820",
+    "name": "Rutherford v. United States",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-820.json",
+    "decision_date": "2026-05-28",
+    "announcement_date_matched": true,
+    "source_writer": "Barrett",
+    "model_writer": "Barrett",
+    "announcement": "Adjudged to be AFFIRMED.  Barrett, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Alito, Gorsuch, and Kavanaugh, JJ., joined.  Sotomayor, J., filed a dissenting opinion, in which Kagan and Jackson, JJ., joined. VIDED."
+  },
+  {
+    "key": "2025/24-856",
+    "name": "Cisco Systems, Inc. v. Doe I",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-856.json",
+    "decision_date": "2026-06-23",
+    "announcement_date_matched": true,
+    "source_writer": "Barrett",
+    "model_writer": null,
+    "announcement": "Judgment REVERSED and case REMANDED.  Barrett, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Alito, Gorsuch, and Kavanaugh, JJ., joined.  Jackson, J., filed an opinion concurring in part and dissenting in part, in which Kagan, J., joined. Sotomayor, J., filed a dissenting opinion, in which Kagan and Jackson, JJ., joined as to Parts I\u2013III and V."
+  },
+  {
+    "key": "2025/24-872",
+    "name": "Hamm v. Smith",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-872.json",
+    "decision_date": "2026-05-21",
+    "announcement_date_matched": true,
+    "source_writer": null,
+    "model_writer": null,
+    "announcement": "Writ of certiorari DISMISSED as improvidently granted.  Opinion per curiam.  Justice Sotomayor, with whom Justice Jackson joins, concurring.  Justice Thomas, dissenting.  Justice Alito, with whom Justice Thomas joins, and with whom The Chief Justice and Justice Gorsuch join as to Parts I, III, and IV, dissenting."
+  },
+  {
+    "key": "2025/24-889",
+    "name": "Hikma Pharmaceuticals USA Inc. v. Amarin Pharma, Inc.",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-889.json",
+    "decision_date": "2026-06-04",
+    "announcement_date_matched": true,
+    "source_writer": "Jackson",
+    "model_writer": "Jackson",
+    "announcement": "Judgment REVERSED and case REMANDED.  Jackson, J., delivered the opinion for a unanimous Court."
+  },
+  {
+    "key": "2025/24-924",
+    "name": "Hencely v. Fluor Corporation",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-924.json",
+    "decision_date": "2026-04-22",
+    "announcement_date_matched": true,
+    "source_writer": "Thomas",
+    "model_writer": "Thomas",
+    "announcement": "Judgment VACATED and case REMANDED.  Thomas, J., delivered the opinion of the Court, in which Sotomayor, Kagan, Gorsuch, Barrett, and Jackson, JJ., joined. Alito, J., filed a dissenting opinion, in which Roberts, C. J., and Kavanaugh, J., joined."
+  },
+  {
+    "key": "2025/24-935",
+    "name": "Flower Foods, Inc. v. Brock ",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-935.json",
+    "decision_date": "2026-05-28",
+    "announcement_date_matched": true,
+    "source_writer": "Gorsuch",
+    "model_writer": "Gorsuch",
+    "announcement": "Adjudged to be AFFIRMED.  Gorsuch, J., delivered the opinion for a unanimous Court."
+  },
+  {
+    "key": "2025/24-983",
+    "name": "Havana Docks Corporation v. Royal Caribbean Cruises, Ltd.",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-983.json",
+    "decision_date": "2026-05-21",
+    "announcement_date_matched": true,
+    "source_writer": "Thomas",
+    "model_writer": "Thomas",
+    "announcement": "Judgment VACATED and case REMANDED.  Thomas, J., delivered the opinion of the Court, in which Roberts, C. J., and Alito, Sotomayor, Gorsuch, Kavanaugh, Barrett, and Jackson, JJ., joined. Sotomayor, J., filed a concurring opinion, in which Kavanaugh, J., joined. Kagan, J., filed a dissenting opinion."
+  },
+  {
+    "key": "2025/24-993",
+    "name": "Olivier v. City of Brandon, Mississippi",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/24-993.json",
+    "decision_date": "2026-03-20",
+    "announcement_date_matched": true,
+    "source_writer": "Kagan",
+    "model_writer": "Kagan",
+    "announcement": "Judgment REVERSED and case REMANDED.  Kagan, J., delivered the opinion for a unanimous Court."
+  },
+  {
+    "key": "2025/25-1083",
+    "name": "Mullin v. Doe",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/25-1083.json",
+    "decision_date": "2026-06-25",
+    "announcement_date_matched": true,
+    "source_writer": "Alito",
+    "model_writer": "Alito",
+    "announcement": "Judgment REVERSED and case REMANDED.  Alito, J., announced the judgment of the Court and delivered the opinion of the Court except as to Part III\u2013A. Roberts, C. J., and Thomas and Kavanaugh, JJ., joined that opinion in full, and Gorsuch and Barrett, JJ., joined except for Part III\u2013A. Thomas, J., filed a concurring opinion.  Kagan, J., filed a dissenting opinion, in which Sotomayor and Jackson, JJ., joined. VIDED."
+  },
+  {
+    "key": "2025/25-112",
+    "name": "Chatrie v. United States",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/25-112.json",
+    "decision_date": "2026-06-29",
+    "announcement_date_matched": true,
+    "source_writer": "Kagan",
+    "model_writer": "Kagan",
+    "announcement": "Judgment VACATED and case REMANDED.  Kagan, J., delivered the opinion of the Court, in which Roberts, C. J., and Sotomayor, Kavanaugh, and Jackson, JJ., joined. Jackson, J., filed a concurring opinion, in which Sotomayor, J., joined. Gorsuch, J., filed an opinion concurring in the judgment. Alito, J., filed a dissenting opinion, in which Thomas, J., joined as to Part I, and in which Barrett,\r\nJ., joined as to Parts II\u2013B, II\u2013C\u20131, and II\u2013C\u20132. Barrett, J., filed a dissenting opinion."
+  },
+  {
+    "key": "2025/25-197",
+    "name": "T. M. v. University of Maryland Medical System Corporation",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/25-197.json",
+    "decision_date": "2026-06-18",
+    "announcement_date_matched": true,
+    "source_writer": "Sotomayor",
+    "model_writer": "Sotomayor",
+    "announcement": "Adjudged to be AFFIRMED.  Sotomayor, J., delivered the opinion of the Court, in which Thomas, Alito, Kavanaugh, and Jackson, JJ., joined. Thomas, J., filed a concurring opinion. Barrett, J., filed a dissenting opinion, in which Roberts, C. J., and Kagan and Gorsuch, JJ., joined."
+  },
+  {
+    "key": "2025/25-332",
+    "name": "Trump v. Slaughter",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/25-332.json",
+    "decision_date": "2026-06-29",
+    "announcement_date_matched": true,
+    "source_writer": "Roberts",
+    "model_writer": "Roberts",
+    "announcement": "Judgment REVERSED and case REMANDED.  Roberts, C. J., delivered the opinion of the Court, in which Alito, Gorsuch, Kavanaugh, and Barrett, JJ., joined, and in which Thomas, J., joined as to all but Part III\u2013B. Gorsuch, J., filed a concurring opinion.  Sotomayor, J., filed a dissenting opinion, in which Kagan and Jackson, JJ., joined."
+  },
+  {
+    "key": "2025/25-365",
+    "name": "Trump v. Barbara",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/25-365.json",
+    "decision_date": "2026-06-30",
+    "announcement_date_matched": true,
+    "source_writer": "Roberts",
+    "model_writer": "Roberts",
+    "announcement": "Adjudged to be AFFIRMED.  Roberts, C. J., delivered the opinion of the Court, in which Sotomayor, Kagan, Barrett, and Jackson, JJ., joined. Jackson, J., filed a concurring opinion, in which Sotomayor, J., joined as to the introduction and Part I. Kavanaugh, J., filed an opinion concurring in the\r\njudgment and dissenting in part. Thomas, J., filed a dissenting opinion, in which Gorsuch, J., joined. Alito, J., and Gorsuch, J., filed dissenting opinions."
+  },
+  {
+    "key": "2025/25-406",
+    "name": "Federal Communications Commission v. AT&T, Inc.",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/25-406.json",
+    "decision_date": "2026-06-04",
+    "announcement_date_matched": true,
+    "source_writer": "Roberts",
+    "model_writer": "Roberts",
+    "announcement": "Judgment REVERSED and case REMANDED.  No. 25-567, adjudged to be affirmed.  Roberts, C. J., delivered the opinion of the Court, in which Alito, Sotomayor, Kagan, Gorsuch, Kavanaugh, Barrett, and Jackson, JJ., joined. Thomas, J., filed a dissenting opinion. VIDED."
+  },
+  {
+    "key": "2025/25-429",
+    "name": "Blanche v. Lau ",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/25-429.json",
+    "decision_date": "2026-06-23",
+    "announcement_date_matched": true,
+    "source_writer": "Thomas",
+    "model_writer": "Thomas",
+    "announcement": "Judgment VACATED and case REMANDED.  Thomas, J., delivered the opinion of the Court, in which Roberts, C. J., and Alito, Gorsuch, Kavanaugh, and Barrett, JJ., joined.  Jackson, J., filed a dissenting opinion, in which Sotomayor and Kagan, JJ., joined."
+  },
+  {
+    "key": "2025/25-466",
+    "name": "Sripetch v. SEC",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/25-466.json",
+    "decision_date": "2026-06-04",
+    "announcement_date_matched": true,
+    "source_writer": "Gorsuch",
+    "model_writer": "Gorsuch",
+    "announcement": "Adjudged to be AFFIRMED.  Gorsuch, J., delivered the opinion for a unanimous Court. Thomas, J., filed a concurring opinion."
+  },
+  {
+    "key": "2025/25-5",
+    "name": "Noem v. Al Otro Lado",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/25-5.json",
+    "decision_date": "2026-06-25",
+    "announcement_date_matched": true,
+    "source_writer": "Alito",
+    "model_writer": "Alito",
+    "announcement": "Judgment REVERSED and case REMANDED.  Alito, J., delivered the opinion of the Court, in which Roberts, C. J., and Thomas, Gorsuch, Kavanaugh, and Barrett, JJ., joined. Thomas, J., filed a concurring opinion. Sotomayor, J., filed a dissenting opinion, in which Kagan and Jackson, JJ., joined. Jackson, J., filed a dissenting opinion."
+  },
+  {
+    "key": "2025/25-5146",
+    "name": "Abouammo v. United States",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/25-5146.json",
+    "decision_date": "2026-06-11",
+    "announcement_date_matched": true,
+    "source_writer": "Kagan",
+    "model_writer": "Kagan",
+    "announcement": "Judgment REVERSED and case REMANDED.  Kagan, J., delivered the opinion for a unanimous Court."
+  },
+  {
+    "key": "2025/25-6",
+    "name": "Keathley v. Buddy Ayers Construction, Incorporated",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/25-6.json",
+    "decision_date": "2026-06-11",
+    "announcement_date_matched": true,
+    "source_writer": "Jackson",
+    "model_writer": "Jackson",
+    "announcement": "Judgment VACATED and case REMANDED.  Jackson, J., delivered the opinion for a unanimous Court.  Thomas, J., filed a concurring opinion, in which Gorsuch, J., joined.  Sotomayor, J., filed a concurring opinion."
+  },
+  {
+    "key": "2025/25-83",
+    "name": "Jules v. Andre Balazs Properties",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/25-83.json",
+    "decision_date": "2026-05-14",
+    "announcement_date_matched": true,
+    "source_writer": "Sotomayor",
+    "model_writer": "Sotomayor",
+    "announcement": "Adjudged to be AFFIRMED.  Sotomayor, J., delivered the opinion for a unanimous Court."
+  },
+  {
+    "key": "2025/25-95",
+    "name": "Pung v. Isabella County",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/25-95.json",
+    "decision_date": "2026-06-23",
+    "announcement_date_matched": true,
+    "source_writer": "Alito",
+    "model_writer": "Alito",
+    "announcement": "Judgment VACATED and case REMANDED.  Alito, J., delivered the opinion of the Court, in which Roberts, C. J., and Sotomayor, Kagan, Gorsuch, Kavanaugh, Barrett, and Jackson, JJ., joined, and in which Thomas, J., joined except as to Part II\u2013B.  Sotomayor, J., filed a concurring opinion, in which Gorsuch and Jackson, JJ., joined. Thomas, J., filed an opinion concurring in part and concurring in the judgment, in which Gorsuch, J., joined except as to n. 1."
+  },
+  {
+    "key": "2025/25A312",
+    "name": "Trump v. Cook",
+    "docket_source": "https://www.supremecourt.gov/RSS/Cases/JSON/25A312.json",
+    "decision_date": "2026-06-29",
+    "announcement_date_matched": true,
+    "source_writer": "Roberts",
+    "model_writer": "Roberts",
+    "announcement": "Application (25A312) denied by the Court.  Roberts, C. J., delivered the opinion of the Court, in which Sotomayor, Kagan, Kavanaugh, and Jackson, JJ., joined. Kavanaugh and Jackson, JJ., filed concurring opinions. Thomas, J., filed a dissenting opinion. Alito, J., filed a dissenting opinion, in which Gorsuch, J., joined. Barrett, J., filed a dissenting opinion."
+  }
+]

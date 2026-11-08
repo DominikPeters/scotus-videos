@@ -1,0 +1,1496 @@
+{
+  "CaseNumber": "24-1068 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "07/27/2026",
+  "sJsonTerm": "2024",
+  "sJsonCaseNumber": "01068",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Monsanto Company, Petitioner",
+  "RespondentTitle": "John L. Durnell",
+  "DocketedDate": "April 9, 2025",
+  "LowerCourt": "Court of Appeals of Missouri, Eastern District",
+  "LowerCourtCaseNumbers": "(ED112410)",
+  "LowerCourtDecision": "February 11, 2025",
+  "DiscretionaryCourtDecision": "April 1, 2025",
+  "QPLink": "../qp/24-01068qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Apr 04 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due May 9, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "No. ___ Petition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/354805/20250404152744625_No.%20___%20Petition.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. ___ Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/354805/20250404152749269_No.%20___%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. ___ Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/354805/20250404152754395_No.%20___%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 29 2025",
+      "Text": "Motion to extend the time to file a response from May 9, 2025 to June 9, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "BIO extension request - Monsanto v. Durnell - No. 24-1068.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/357695/20250429151414690_BIO%20extension%20request%20-%20Monsanto%20v.%20Durnell%20-%20No.%2024-1068.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "cert of service - BIO extension request - Monsanto v. Durnell - No. 24-1068.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/357695/20250429151425292_cert%20of%20service%20-%20BIO%20extension%20request%20-%20Monsanto%20v.%20Durnell%20-%20No.%2024-1068.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 30 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including June 9, 2025."
+    },
+    {
+      "Date": "May 01 2025",
+      "Text": "Brief amicus curiae of Atlantic Legal Foundation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/357866/20250501085534714_24-1068%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/357866/20250501085604680_24-1068%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/357866/20250501085547371_24-1068%20Certificate.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 07 2025",
+      "Text": "Brief amicus curiae of Croplife America filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/358274/20250507141614361_24-1068_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068_Word Count Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/358274/20250507141623393_24-1068_Word%20Count%20Cert.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068_Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/358274/20250507141635250_24-1068_Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 09 2025",
+      "Text": "Brief amici curiae of American Farm Bureau Federation, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068_Brief Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/358517/20250509164200219_24-1068_Brief%20Amicus.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/358517/20250509164221355_24-1068_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/358517/20250509164210171_24-1068_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "May 09 2025",
+      "Text": "Brief amici curiae of Chamber of Commerce of the United States of America, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Monsanto -- Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/358452/20250509125723435_Monsanto%20--%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Monsanto -- Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/358452/20250509125741527_Monsanto%20--%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Monsanto -- Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/358452/20250509125732250_Monsanto%20--%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 09 2025",
+      "Text": "Brief of respondent John L. Durnell in opposition filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Durnell BIO - App.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/362678/20250609152753839_Durnell%20BIO%20-%20App.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "cert of word count - Durnell BIO - No. 24-1068.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/362678/20250609152809163_cert%20of%20word%20count%20-%20Durnell%20BIO%20-%20No.%2024-1068.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "cert of service - Durnell BIO - No. 24-1068.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/362678/20250609152946236_cert%20of%20service%20-%20Durnell%20BIO%20-%20No.%2024-1068.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 09 2025",
+      "Text": "Waiver of the 14-day waiting period for the distribution of the petition pursuant to Rule 15.5 filed by petitioner.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "6.2.2025 Letter Waiving 14-Day.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/362685/20250609154602784_6.2.2025%20Letter%20Waiving%2014-Day.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 10 2025",
+      "Text": "DISTRIBUTED for Conference of 6/26/2025."
+    },
+    {
+      "Date": "Jun 16 2025",
+      "Text": "Reply of petitioner Monsanto Company filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025-6-16 Final Monsanto Durnell cert reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/363286/20250616135059403_2025-6-16%20Final%20Monsanto%20Durnell%20cert%20reply.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1068 Clement Murphy COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/363286/20250616135111242_No.%2024-1068%20Clement%20Murphy%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1068 Clement Murphy COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/363286/20250616135105380_No.%2024-1068%20Clement%20Murphy%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 30 2025",
+      "Text": "The Solicitor General is invited to file a brief in this case expressing the views of the United States."
+    },
+    {
+      "Date": "Dec 01 2025",
+      "Text": "Brief amicus curiae of United States filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 -- Monsanto v. Durnell.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/386073/20251201170732560_24-1068%20--%20Monsanto%20v.%20Durnell.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. 24-1068.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/386073/20251201170813328_certificate.%2024-1068.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 16 2025",
+      "Text": "DISTRIBUTED for Conference of 1/9/2026."
+    },
+    {
+      "Date": "Dec 16 2025",
+      "Text": "Supplemental brief of respondent John L. Durnell filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "suppl. brief - Monsanto v. Durnell - No. 24-1068.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/387565/20251216100549526_suppl.%20brief%20-%20Monsanto%20v.%20Durnell%20-%20No.%2024-1068.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "cert of word count - Durnell suppl. brief - No. 24-1068.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/387565/20251216100604040_cert%20of%20word%20count%20-%20Durnell%20suppl.%20brief%20-%20No.%2024-1068.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "cert of service - Durnell suppl. brief - No. 24-1068.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/387565/20251216100618413_cert%20of%20service%20-%20Durnell%20suppl.%20brief%20-%20No.%2024-1068.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 12 2026",
+      "Text": "DISTRIBUTED for Conference of 1/16/2026."
+    },
+    {
+      "Date": "Jan 16 2026",
+      "Text": "Petition GRANTED limited to the following Question:  Whether the Federal Insecticide, Fungicide, and Rodenticide Act preempts a label-based failure-to-warn claim where EPA has not required the warning."
+    },
+    {
+      "Date": "Feb 11 2026",
+      "Text": "SET FOR ARGUMENT on Monday, April 27, 2026."
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Record requested from the Court of Appeals of Missouri, Eastern District."
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Brief of petitioner Monsanto Company filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Final Monsanto Co. v Durnell merits opening brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/397048/20260223143047764_24-1068%20Final%20Monsanto%20Co.%20v%20Durnell%20merits%20opening%20brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/397048/20260223143057359_24-1068%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/397048/20260223143125725_24-1068%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Joint appendix filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Final Monsanto v Durnell JA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/397049/20260223143213285_24-1068%20Final%20Monsanto%20v%20Durnell%20JA.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 24 2026",
+      "Text": "Brief amicus curiae of Atlantic Legal Foundation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/397107/20260224085226144_24-1068%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/397107/20260224085253652_24-1068%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Certificate of Compliance for Monsanto Company v Durnell.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/397107/20260224085240399_24-1068%20Certificate%20of%20Compliance%20for%20Monsanto%20Company%20v%20Durnell.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 24 2026",
+      "Text": "Record received from the Court of Appeals of Missouri, Eastern District. The record is electronic and is available on the Court's web docket."
+    },
+    {
+      "Date": "Feb 27 2026",
+      "Text": "Brief amicus curiae of Croplife America filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399518/20260227135109756_24-1068%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Word Count Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399518/20260227135115952_24-1068%20Word%20Count%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399518/20260227135121433_24-1068%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of National Agricultural Associations filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399678/20260302134814130_24-1068%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Crowell Moring COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399678/20260302134852271_24-1068%20Crowell%20Moring%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Crowell Moring COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399678/20260302134837085_24-1068%20Crowell%20Moring%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of Agricultural Retailers Association, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-1068 ARA NAAA Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399807/20260303093825358_No.%2024-1068%20ARA%20NAAA%20Amicus.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1068 Faegre Drinker Biddle Reath LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399807/20260303094041860_No.%2024-1068%20Faegre%20Drinker%20Biddle%20Reath%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1068 Faegre Drinker Biddle Reath LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399807/20260303094022861_No.%2024-1068%20Faegre%20Drinker%20Biddle%20Reath%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of Retail Litigation Center, Inc. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026-03-02 RLC Monsanto v Durnell Merits Amicus.a.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399727/20260302154359492_2026-03-02%20RLC%20Monsanto%20v%20Durnell%20Merits%20Amicus.a.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 King Spalding COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399727/20260302154432999_24-1068%20King%20Spalding%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 King Spalding COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399727/20260302154439036_24-1068%20King%20Spalding%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of American Tort Reform Association, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399754/20260302161930442_24-1068%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399754/20260302161940622_24-1068%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399754/20260302161951850_24-1068%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of Farm Bureau Organizations of California, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "NCFBF Roundup Brief final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399751/20260302160659386_NCFBF%20Roundup%20Brief%20final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1068 Winston Strawn COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399751/20260302160745074_No.%2024-1068%20Winston%20Strawn%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1068 Winston Strawn COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399751/20260302160755536_No.%2024-1068%20Winston%20Strawn%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of American Free Enterprise Chamber of Commerce filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "FINAL Monsanto amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399700/20260302143436908_FINAL%20Monsanto%20amicus.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399700/20260302143501498_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "FINAL Monsanto Word count compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399700/20260302143449720_FINAL%20Monsanto%20Word%20count%20compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of Missouri State Senator Jason Bean, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-1068_Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399697/20260302142953480_No.%2024-1068_Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-1068_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399697/20260302143007383_No.%2024-1068_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-1068_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399697/20260302143001251_No.%2024-1068_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of Chamber of Commerce of the United States of America, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Monsanto v. Durnell_US Chamber Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399775/20260302174051263_Monsanto%20v.%20Durnell_US%20Chamber%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Monsanto v. Durnell_US Chamber Amicus Brief -- Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399775/20260302174109157_Monsanto%20v.%20Durnell_US%20Chamber%20Amicus%20Brief%20--%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Monsanto v. Durnell_US Chamber Amicus Brief -- Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399775/20260302174100761_Monsanto%20v.%20Durnell_US%20Chamber%20Amicus%20Brief%20--%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of Nebraska, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399704/20260302144919501_24-1068%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399704/20260302145003472_24-1068%20Service%20Affidavit.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399704/20260302144952989_24-1068%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of the United States filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Monsanto tsac.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399785/20260302183259184_24-1068%20Monsanto%20tsac.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. 24-1068. amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/399785/20260302183319096_certificate.%2024-1068.%20amicus.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 25 2026",
+      "Text": "Brief of respondent John L. Durnell filed. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/401848/20260325162306480_24-1068%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/401848/20260325162312620_24-1068%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/401848/20260325162317950_24-1068%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 26 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Monsanto Divided Argument Motion.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/402972/20260326174150107_Monsanto%20Divided%20Argument%20Motion.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. 24-1068. mtn for div. argument.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/402972/20260326174346587_certificate.%2024-1068.%20mtn%20for%20div.%20argument.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Mar 31 2026",
+      "Text": "Brief amici curiae of Roundup and Paraquat MDL Court-appointed Leadership filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "MDL Leadership merits amicus brief - Monsanto v. Durnell - No. 24-1068.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403336/20260331190556497_MDL%20Leadership%20merits%20amicus%20brief%20-%20Monsanto%20v.%20Durnell%20-%20No.%2024-1068.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "cert of word count - MDL Leadership merits amicus brief - Monsanto v. Durnell - No. 24-1068.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403336/20260331190609319_cert%20of%20word%20count%20-%20MDL%20Leadership%20merits%20amicus%20brief%20-%20Monsanto%20v.%20Durnell%20-%20No.%2024-1068.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "cert of service - MDL Leadership merits amicus brief - Monsanto v. Durnell - No. 24-1068.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403336/20260331190619982_cert%20of%20service%20-%20MDL%20Leadership%20merits%20amicus%20brief%20-%20Monsanto%20v.%20Durnell%20-%20No.%2024-1068.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 31 2026",
+      "Text": "Motion of Roundup and Paraquat MDL Court-appointed Leadership for leave to participate in oral argument as amici curiae and for divided argument filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "MDL Leadership mot. for divided argument - Monsanto v. Durnell - No. 24-1068.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403337/20260331191652402_MDL%20Leadership%20mot.%20for%20divided%20argument%20-%20Monsanto%20v.%20Durnell%20-%20No.%2024-1068.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "cert of service - MDL Leadership mot. for divided argument - Monsanto v. Durnell - No. 24-1068.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403337/20260331191702117_cert%20of%20service%20-%20MDL%20Leadership%20mot.%20for%20divided%20argument%20-%20Monsanto%20v.%20Durnell%20-%20No.%2024-1068.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amici curiae of New Mexico, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Amici Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403365/20260401105735777_24-1068%20Amici%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403365/20260401105745471_24-1068%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 AOS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403365/20260401105752131_24-1068%20AOS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amici curiae of Farmworker Justice, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Farmworkers Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403413/20260401130540867_24-1068%20Farmworkers%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403413/20260401130549545_24-1068%20Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403413/20260401130557047_24-1068%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amici curiae of Professor Naomi Oreskes, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403360/20260401103037663_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403360/20260401103052657_Certificate%20of%20Word%20Count%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403360/20260401103101442_Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amici curiae of 36 State Legislators filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Monsanto v. Durnell - Amicus for filing.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403455/20260401153938853_Monsanto%20v.%20Durnell%20-%20Amicus%20for%20filing.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403455/20260401154026602_COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403455/20260401154100792_COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amicus curiae of United States Senator Cory Booker filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Amicus Brief of Senator Booker Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403423/20260401135526093_Amicus%20Brief%20of%20Senator%20Booker%20Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Clarkson Law Firm COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403423/20260401135533690_24-1068%20Clarkson%20Law%20Firm%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Clarkson Law Firm COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403423/20260401135542838_24-1068%20Clarkson%20Law%20Firm%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amicus curiae of Heartland Health Research Alliance filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Amicus_HHRA_final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403385/20260401114519272_Amicus_HHRA_final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Willamette Law Group PC COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403385/20260401131810260_24-1068%20Willamette%20Law%20Group%20PC%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Willamette Law Group PC COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403385/20260401131826982_24-1068%20Willamette%20Law%20Group%20PC%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amici curiae of Farmer and Farmworker Groups filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Monsanto Amicus Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403405/20260401124244153_Monsanto%20Amicus%20Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 FarmSTAND COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403405/20260401124251736_24-1068%20FarmSTAND%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 FarmSTAND COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403405/20260401124257979_24-1068%20FarmSTAND%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amicus curiae of Public Citizen filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Public Citizen Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403425/20260401140627753_24-1068%20Public%20Citizen%20Amicus.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Public Citizen Amicus Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403425/20260401140649399_24-1068%20Public%20Citizen%20Amicus%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Public Citizen Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403425/20260401140714308_24-1068%20Public%20Citizen%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amici curiae of Center for Food Safety, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026-04-01 Durnell CFS et al Amicus FOR PRINTERS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403469/20260401162034490_2026-04-01%20Durnell%20CFS%20et%20al%20Amicus%20FOR%20PRINTERS.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Center for Food Safety COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403469/20260401162046228_24-1068%20Center%20for%20Food%20Safety%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Center for Food Safety COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403469/20260401162054491_24-1068%20Center%20for%20Food%20Safety%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amicus curiae of Children\u2019s Health Defense filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403463/20260401155223717_24-1068%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403463/20260401155229228_24-1068%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403463/20260401155235356_24-1068%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amici curiae of American Association for Justice, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "AAJ Durnell amicus brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403484/20260402105149515_AAJ%20Durnell%20amicus%20brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Durnell COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403484/20260401172430017_Durnell%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Durnell COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403484/20260401172440249_Durnell%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amici curiae of Texas, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403409/20260401125538641_24-1068%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Word Count Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403409/20260401125550208_24-1068%20Word%20Count%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403409/20260401125601346_24-1068%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amici curiae of Former EPA Officials, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Monsanto v Durnell exEPA officials amicus pdf FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403452/20260401152421539_Monsanto%20v%20Durnell%20exEPA%20officials%20amicus%20pdf%20FINAL.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Monsanto Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403452/20260401152454506_Monsanto%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "120980_Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403452/20260401152518468_120980_Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amici curiae of Dr. Philip Landrigan, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Durnell v. Monsanto Co. - Amicus Brief_Gray.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403443/20260401145353012_Durnell%20v.%20Monsanto%20Co.%20-%20Amicus%20Brief_Gray.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count - Durnell Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403443/20260401145408961_Certificate%20of%20Word%20Count%20-%20Durnell%20Amicus.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate of Service - Durnell Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403443/20260401145418456_Certificate%20of%20Service%20-%20Durnell%20Amicus.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amicus curiae of Veterans of Foreign Wars of the United States filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "VFW Amicus Brief_Monsanto v Durnell_Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403432/20260401142837859_VFW%20Amicus%20Brief_Monsanto%20v%20Durnell_Final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "VFW Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403432/20260401142844452_VFW%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "VFW Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403432/20260401142932833_VFW%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Amicus brief of Stand for Health Freedom not accepted for filing. (To be corrected - April 07, 2026)"
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amicus curiae of Stand for Health Freedom filed. (Corrected - April 7, 2026)  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "SHF Durnell Amicus Br. FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403495/20260407142133432_SHF%20Durnell%20Amicus%20Br.%20FINAL.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "SHF Durnell AC Br. Cert. of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403495/20260407142149720_SHF%20Durnell%20AC%20Br.%20Cert.%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "SHF Durnell AC Br. Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403495/20260407142211892_SHF%20Durnell%20AC%20Br.%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amici curiae of Local Government Legal Center, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-1068 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403459/20260401153929047_24-1068%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-1068 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403459/20260401153934931_24-1068%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-1068 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/403459/20260401153942444_24-1068%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 17 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument GRANTED."
+    },
+    {
+      "Date": "Apr 17 2026",
+      "Text": "Motion of Roundup and Paraquat MDL Court-appointed Leadership for leave to participate in oral argument as amici curiae and for divided argument DENIED."
+    },
+    {
+      "Date": "Apr 17 2026",
+      "Text": "Reply of petitioner Monsanto Company filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "1. 2026-04-17 Monsanto v. Durnell Reply Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/404756/20260417143840724_1.%202026-04-17%20Monsanto%20v.%20Durnell%20Reply%20Final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "2. 24-1068 Clement Murphy COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/404756/20260417143934393_2.%2024-1068%20Clement%20Murphy%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "3. 24-1068 Clement Murphy COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/404756/20260417143941760_3.%2024-1068%20Clement%20Murphy%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 27 2026",
+      "Text": "Argued. For petitioner: Paul D. Clement, Alexandria, Va.; and Sarah M. Harris, Principal Deputy Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.)  For respondent: Ashley C. Keller, Chicago, Ill."
+    },
+    {
+      "Date": "Jun 25 2026",
+      "Text": "Judgment REVERSED and case REMANDED.  Kavanaugh, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/24-1068_n7ip.pdf'>opinion</a> of the Court, in which Roberts, C. J., and Thomas, Alito, Sotomayor, Kagan, and Barrett, JJ., joined.  Thomas, J., filed a concurring opinion. Jackson, J., filed a dissenting opinion, in which Gorsuch, J., joined."
+    },
+    {
+      "Date": "Jul 27 2026",
+      "Text": "Judgment and Mandate Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 24-1068 Rev Rem MANDATE COSTS Mo. App. E.D..pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-1068/417323/20260727103042801_EFILING%2024-1068%20Rev%20Rem%20MANDATE%20COSTS%20Mo.%20App.%20E.D..pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioner",
+  "Petitioner": [
+    {
+      "Attorney": "Paul D. Clement",
+      "IsCounselofRecord": true,
+      "Title": "Clement & Murphy, PLLC",
+      "PrisonerId": null,
+      "Phone": "(202) 742-8900",
+      "Address": "706 Duke Street",
+      "City": "Alexandria",
+      "State": "VA",
+      "Zip": "22314",
+      "Email": "PAUL.CLEMENT@CLEMENTMURPHY.COM",
+      "PartyName": "Monsanto Company"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondent",
+  "Respondent": [
+    {
+      "Attorney": "Ashley Conrad Keller",
+      "IsCounselofRecord": true,
+      "Title": "Keller Postman LLC",
+      "PrisonerId": null,
+      "Phone": "(312) 351-3330",
+      "Address": "150 N. Riverside Plaza, Suite 4100",
+      "City": "Chicago",
+      "State": "IL",
+      "Zip": "60606",
+      "Email": "ack@kellerpostman.com",
+      "PartyName": "John L. Durnell"
+    },
+    {
+      "Attorney": "Jonathan F. Mitchell",
+      "IsCounselofRecord": false,
+      "Title": "Mitchell Law PLLC",
+      "PrisonerId": null,
+      "Phone": "(512) 686-3940",
+      "Address": "111 Congress Avenue\r\nSuite 400",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": "78701",
+      "Email": "jonathan@mitchell.law",
+      "PartyName": "John L. Durnell"
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Cody Steven Barnett",
+      "IsCounselofRecord": true,
+      "Title": "Nebraska Department of Justice",
+      "PrisonerId": null,
+      "Phone": "4024712683",
+      "Address": "1445 K Street\r\nRoom 2115",
+      "City": "Lincoln",
+      "State": "NE",
+      "Zip": "68508",
+      "Email": "cody.barnett@nebraska.gov",
+      "PartyName": "Nebraska, Iowa, Missouri, and 12 Other States"
+    },
+    {
+      "Attorney": "William Peter Barnette",
+      "IsCounselofRecord": true,
+      "Title": "King & Spalding LLP",
+      "PrisonerId": null,
+      "Phone": "(404) 572-4729",
+      "Address": "1180 Peachtree Street NE\r\nSuite 1600",
+      "City": "Atlanta",
+      "State": "GA",
+      "Zip": "30309",
+      "Email": "wbarnette@kslaw.com",
+      "PartyName": "Retail Litigation Center, Inc."
+    },
+    {
+      "Attorney": "James Bopp Jr.",
+      "IsCounselofRecord": true,
+      "Title": "The Bopp Law Firm, PC",
+      "PrisonerId": null,
+      "Phone": "8122322434",
+      "Address": "The National Building\r\n1 South Sixth Street",
+      "City": "Terre Haute",
+      "State": "IN",
+      "Zip": "47807",
+      "Email": "jboppjr@aol.com",
+      "PartyName": "Stand for Health Freedom"
+    },
+    {
+      "Attorney": "Jesse Allen Buss",
+      "IsCounselofRecord": true,
+      "Title": "Willamette Law Group, PC",
+      "PrisonerId": null,
+      "Phone": "503-656-4884",
+      "Address": "411 Fifth St.",
+      "City": "Oregon City",
+      "State": "OR",
+      "Zip": "97045-2224",
+      "Email": "jesse@WLGpnw.com",
+      "PartyName": "Heartland Health Research Alliance"
+    },
+    {
+      "Attorney": "David Yolun Chung",
+      "IsCounselofRecord": true,
+      "Title": "Crowell & Moring, LLP",
+      "PrisonerId": null,
+      "Phone": "202-624-2500",
+      "Address": "1001 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004-2595",
+      "Email": "dchung@crowell.com",
+      "PartyName": "National Agricultural Associations"
+    },
+    {
+      "Attorney": "Shannen Wayne Coffin",
+      "IsCounselofRecord": true,
+      "Title": "Steptoe LLP",
+      "PrisonerId": null,
+      "Phone": "202-429-3000",
+      "Address": "1330 Connecticut Avenue NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "scoffin@steptoe.com",
+      "PartyName": "Croplife America"
+    },
+    {
+      "Attorney": "James Ryan Conde",
+      "IsCounselofRecord": true,
+      "Title": "Boyden Gray PLLC",
+      "PrisonerId": null,
+      "Phone": "202 955 0620",
+      "Address": "800 Connecticut Avenue\r\nSuit 900",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "jconde@boydengray.com",
+      "PartyName": "American Free Enterprise Chamber of Commerce"
+    },
+    {
+      "Attorney": "Glenn Ari Danas",
+      "IsCounselofRecord": true,
+      "Title": "Clarkson Law Firm, P.C.",
+      "PrisonerId": null,
+      "Phone": "213-788-4050",
+      "Address": "22525 Pacific Coast Highway",
+      "City": "Malibu",
+      "State": "CA",
+      "Zip": "90265",
+      "Email": "GDANAS@CLARKSONLAWFIRM.COM",
+      "PartyName": "United States Senator Cory Booker"
+    },
+    {
+      "Attorney": "Lawrence S. Ebner",
+      "IsCounselofRecord": true,
+      "Title": "Atlantic Legal Foundation",
+      "PrisonerId": null,
+      "Phone": "202-729-6337",
+      "Address": "1701 Pennsylvania Ave NW, Suite 200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "lawrence.ebner@atlanticlegal.org",
+      "PartyName": "Atlantic Legal Foundation"
+    },
+    {
+      "Attorney": "David C. Frederick",
+      "IsCounselofRecord": true,
+      "Title": "Kellogg, Hansen, Todd, Figel & Frederick, P.L.L.C.",
+      "PrisonerId": null,
+      "Phone": "202-326-7900",
+      "Address": "1615 M Street, NW, Suite 400",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036-3209",
+      "Email": "DFREDERICK@KELLOGGHANSEN.COM",
+      "PartyName": "Roundup and Paraquat MDL Leadership"
+    },
+    {
+      "Attorney": "Alani Golanski",
+      "IsCounselofRecord": true,
+      "Title": "Weitz & Luxenberg, P.C.",
+      "PrisonerId": null,
+      "Phone": "212-558-5866",
+      "Address": "700 Broadway",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10003",
+      "Email": "alanigolanski@gmail.com",
+      "PartyName": "Philip Landrigan, MD, MSc, Lianne Sheppard, PhD, Christopher Portier, PhD, Dennis Weisenburger, MD, and Bruce P. Lanphear, MD, MPH"
+    },
+    {
+      "Attorney": "Patti A. Goldman",
+      "IsCounselofRecord": true,
+      "Title": "Earthjustice",
+      "PrisonerId": null,
+      "Phone": "206-578-5868",
+      "Address": "810 Third Avenue\r\nSuite 610",
+      "City": "Seattle",
+      "State": "WA",
+      "Zip": "98104",
+      "Email": "PGOLDMAN@EARTHJUSTICE.ORG",
+      "PartyName": "Farmworker Justice, Farmworker Association of Florida, California Rural Legal Assistance Foundation, Migrant Clinicians Network, Alianza Nacional de Campesinas, and Pesticide Action & Agroecology Network"
+    },
+    {
+      "Attorney": "Edward Dean Greim",
+      "IsCounselofRecord": true,
+      "Title": "Graves Garrett Greim LLC",
+      "PrisonerId": null,
+      "Phone": "(816) 256-3181",
+      "Address": "1100 Main Street, Suite 2700",
+      "City": "Kansas City",
+      "State": "MO",
+      "Zip": "64105",
+      "Email": "edgreim@gravesgarrett.com",
+      "PartyName": "Missouri State Senator Jason Bean, 33 Elected Officials, The Missouri Soybean Association, and Seven State Agriculture Organizations"
+    },
+    {
+      "Attorney": "Mary Holland",
+      "IsCounselofRecord": true,
+      "Title": "Children's Health Defense",
+      "PrisonerId": null,
+      "Phone": "(202) 417-6971",
+      "Address": "852 Franklin Avenue\r\nSuite 511",
+      "City": "Franklin Lakes",
+      "State": "NJ",
+      "Zip": "07417",
+      "Email": "MARY.HOLLAND@CHILDRENSHEALTHDEFENSE.ORG",
+      "PartyName": "Children\u2019s Health Defense"
+    },
+    {
+      "Attorney": "William McGinley Jay",
+      "IsCounselofRecord": true,
+      "Title": "Goodwin Procter, LLP",
+      "PrisonerId": null,
+      "Phone": "2023464000",
+      "Address": "1900 N Street, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "WJAY@GOODWINLAW.COM",
+      "PartyName": "Chamber of Commerce of the United States of America, American Chemistry Council, Pharmaceutical Research and Manufacturers of America, Product Liability Advisory Council, and Washington Legal Foundation"
+    },
+    {
+      "Attorney": "William McGinley Jay",
+      "IsCounselofRecord": true,
+      "Title": "Goodwin Procter LLP",
+      "PrisonerId": null,
+      "Phone": "2023464000",
+      "Address": "1900 N Street, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "WJAY@GOODWINLAW.COM",
+      "PartyName": "Chamber of Commerce of the United States of America, American Tort Reform Association, Product Liability Advisory Council, and Washington Legal Foundation"
+    },
+    {
+      "Attorney": "Dana Lydia Kaersvang",
+      "IsCounselofRecord": true,
+      "Title": "Deutsch Hunt PLLC",
+      "PrisonerId": null,
+      "Phone": "2028880404",
+      "Address": "300 New Jersey Ave. NW, Suite 300",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "dkaersvang@deutschhunt.com",
+      "PartyName": "Former EPA Officials and Environmental Protection Network"
+    },
+    {
+      "Attorney": "Michael B. Kimberly",
+      "IsCounselofRecord": true,
+      "Title": "Winston & Strawn LLP",
+      "PrisonerId": null,
+      "Phone": "202-282-5096",
+      "Address": "1901 L Street NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "mkimberly@winston.com",
+      "PartyName": "Farm Bureau Organizations of California, Florida, Kansas, Ohio, Oklahoma, Oregon, Missouri, North Carolina, Tennessee, Texas, and Virginia, the Indiana Agricultural Law Foundation, and the North Carolina Chamber Legal Institute"
+    },
+    {
+      "Attorney": "George Andreas Kimbrell",
+      "IsCounselofRecord": true,
+      "Title": "Center For Food Safety",
+      "PrisonerId": null,
+      "Phone": "(971) 271-7372",
+      "Address": "2009 NE Alberta Street\r\nSuite 207",
+      "City": "Portland",
+      "State": "OR",
+      "Zip": "97211",
+      "Email": "gkimbrell@centerforfoodsafety.org",
+      "PartyName": "Center for Food Safety, Consumer Federation of America, Breast Cancer Prevention Partners, Rural Coalition, Alliance of Nurses For Healthy Environments, Center for Biological Diversity, Beyond Pesticides, and Food & Water Watch"
+    },
+    {
+      "Attorney": "Jeffrey Alan Lamken",
+      "IsCounselofRecord": true,
+      "Title": "MoloLamken LLP",
+      "PrisonerId": null,
+      "Phone": "2025562010",
+      "Address": "The Watergate, Suite 500\r\n600 New Hampshire Ave., N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20037",
+      "Email": "JLAMKEN@MOLOLAMKEN.COM",
+      "PartyName": "36 State Legislators"
+    },
+    {
+      "Attorney": "Scott P. Lewis",
+      "IsCounselofRecord": true,
+      "Title": "Anderson & Kreiger LLP",
+      "PrisonerId": null,
+      "Phone": "6176216500",
+      "Address": "50 Milk Street\r\n21st Floor",
+      "City": "Boston",
+      "State": "MA",
+      "Zip": "02109",
+      "Email": "lewis@andersonkreiger.com",
+      "PartyName": "Naomi Oreskes and Alexander A. Kaurov"
+    },
+    {
+      "Attorney": "Nathan Daniel Leys",
+      "IsCounselofRecord": true,
+      "Title": "FarmSTAND",
+      "PrisonerId": null,
+      "Phone": "(202) 595-8816",
+      "Address": "712 H St. NE, Suite 2534",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20002",
+      "Email": "nathan@farmstand.org",
+      "PartyName": "Farmer and Farmworker Groups"
+    },
+    {
+      "Attorney": "Robert S. Peck",
+      "IsCounselofRecord": true,
+      "Title": "Center for Constitutional Litigation, PC",
+      "PrisonerId": null,
+      "Phone": "2029442874",
+      "Address": "6817 Vianda Court",
+      "City": "Carlsbad",
+      "State": "CA",
+      "Zip": "92009",
+      "Email": "ROBERT.PECK@CCLFIRM.COM",
+      "PartyName": "The Local Government Legal Center, National Association of Counties, National League of Cities, and International Municipal Lawyers Association"
+    },
+    {
+      "Attorney": "William Robert Peterson",
+      "IsCounselofRecord": true,
+      "Title": "Office of the Texas Attorney General",
+      "PrisonerId": null,
+      "Phone": "512-936-1700",
+      "Address": "P.O. Box 12548 (MC-059)",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": "78711-2548",
+      "Email": "william.peterson@oag.texas.gov",
+      "PartyName": "States of Texas, Florida and Ohio"
+    },
+    {
+      "Attorney": "John Lucas Rockenbach",
+      "IsCounselofRecord": true,
+      "Title": "Faegre Drinker Biddle and Reath",
+      "PrisonerId": null,
+      "Phone": "612-766-7000",
+      "Address": "90 South Seventh St.\r\n2200 Wells Fargo Center",
+      "City": "Minneapolis",
+      "State": "MN",
+      "Zip": "55402",
+      "Email": "John.Rockenbach@faegredrinker.com",
+      "PartyName": "Agricultural Retailers Association and National Agricultural Aviation Association"
+    },
+    {
+      "Attorney": "Adina H. Rosenbaum",
+      "IsCounselofRecord": true,
+      "Title": "Public Citizen Litigation Group",
+      "PrisonerId": null,
+      "Phone": "202-588-7720",
+      "Address": "1600 20th Street NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20009",
+      "Email": "AROSENBAUM@CITIZEN.ORG",
+      "PartyName": "Public Citizen"
+    },
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": false,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "United States of America"
+    },
+    {
+      "Attorney": "Cary Silverman",
+      "IsCounselofRecord": true,
+      "Title": "Shook, Hardy and Bacon LLP",
+      "PrisonerId": null,
+      "Phone": "2027838400",
+      "Address": "1800 K Street NW\r\nSuite 1000",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "csilverman@shb.com",
+      "PartyName": "American Tort Reform Association, Toxicology Excellence for Risk Assessment, Center for Truth in Science, International Society for Regulatory Toxicology and Pharmacology, Civil Justice Association of California, Pennsylvania Coalition for Civil Justice Reform, New Jersey Civil Justice Institute, Florida Justice Reform Institute, and Illinois Coalition for Legal Reform"
+    },
+    {
+      "Attorney": "Scott Burnett Smith",
+      "IsCounselofRecord": true,
+      "Title": "Bradley Arant Boult Cummings, LLP",
+      "PrisonerId": null,
+      "Phone": "256-517-5198",
+      "Address": "200 Clinton Avenue West, Suite 900",
+      "City": "Huntsville",
+      "State": "AL",
+      "Zip": "35801",
+      "Email": "ssmith@bradley.com",
+      "PartyName": "American Farm Bureau Federation, American Soybean Association, American Sugarbeet Growers Association, Cherry Marketing Institute, Florida Fruit and Vegetable Association, International Fresh Produce Association, National Association of Wheat Growers, National Corn Growers Association, National Cotton Council of America, National Sorghum Producers, North American Blueberry Council, and Western Growers"
+    },
+    {
+      "Attorney": "Gerson H. Smoger",
+      "IsCounselofRecord": true,
+      "Title": "Smoger & Associates, PC",
+      "PrisonerId": null,
+      "Phone": "5105314529",
+      "Address": "4228 Hallmark Drive",
+      "City": "Dallas",
+      "State": "TX",
+      "Zip": "75229",
+      "Email": "smogerlaw@gmail.com",
+      "PartyName": "Veterans of Foreign Wars of the United States"
+    },
+    {
+      "Attorney": "Alexander William Tucker",
+      "IsCounselofRecord": true,
+      "Title": "New Mexico Department of Justice",
+      "PrisonerId": null,
+      "Phone": "505-948-8244",
+      "Address": "201 3rd Street, NW, Suite 300",
+      "City": "Alburquerque",
+      "State": "NM",
+      "Zip": "87102",
+      "Email": "atucker@nmdoj.gov",
+      "PartyName": "New Mexico and Seventeen Other States"
+    },
+    {
+      "Attorney": "Matthew W.H. Wessler",
+      "IsCounselofRecord": true,
+      "Title": "Gupta Wessler LLP",
+      "PrisonerId": null,
+      "Phone": "2028881741",
+      "Address": "2001 K Street NW\r\nSuite 850 North",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "MATT@GUPTAWESSLER.COM",
+      "PartyName": "American Association for Justice and Public Justice"
+    }
+  ]
+}

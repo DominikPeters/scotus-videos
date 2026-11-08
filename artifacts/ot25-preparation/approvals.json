@@ -1,0 +1,72 @@
+{
+  "jules_lobel": {
+    "source_sha256": "9ac6dbfce3b776f39168f9ccefdfdcb909e7f2071d29e16e5371bd31087f6aa5",
+    "approved_at": "2026-10-15T15:56:33.539951+00:00",
+    "basis": "Owner approved remaining images"
+  },
+  "geoffrey_m_pipoly": {
+    "source_sha256": "cc3b755f76eabc6e8548067479eb2f0688cba6bf6dc2fddeea3ca875dd05504b",
+    "approved_at": "2026-10-15T15:56:33.539951+00:00",
+    "basis": "Owner approved remaining images"
+  },
+  "tobias_s_loss_eaton": {
+    "source_sha256": "60a2ccc5b56bf85fdc1cd9e42100de9f4f431bf34075e9ec3d3bea958bb067d8",
+    "approved_at": "2026-10-15T15:56:33.539951+00:00",
+    "basis": "Owner approved remaining images"
+  },
+  "alan_a_beck": {
+    "source_sha256": "75ca81c1143674666f5bbd523ce6da78eda9d6429678b6f4bb7906050a7fbb27",
+    "approved_at": "2026-10-15T15:56:33.539951+00:00",
+    "basis": "Owner supplied replacement"
+  },
+  "charles_b_klein": {
+    "source_sha256": "7993c7193da05b8e2e52a95bd67848ea7d871668123851f544a010e1ce122b38",
+    "approved_at": "2026-10-15T15:56:33.539951+00:00",
+    "basis": "Owner approved remaining images"
+  },
+  "joseph_j_perkovich": {
+    "source_sha256": "92cfec4621a8c03beae23adf03d58b1aedafcb0b1f6f768ef75e02c0bd978647",
+    "approved_at": "2026-10-15T15:56:33.539951+00:00",
+    "basis": "Owner approved remaining images"
+  },
+  "emily_m_ferguson": {
+    "source_sha256": "a206ab1d059d898c725798970e5c42e24516fc90ae1fbd04df6b3dfb08cbd8af",
+    "approved_at": "2026-10-15T15:56:33.539951+00:00",
+    "basis": "Owner supplied replacement"
+  },
+  "michael_zuckerman": {
+    "source_sha256": "bb9a1b41b39e5ad9dcc0db094143e6ee953fc762fabb7dd2cb4c319753d00544",
+    "approved_at": "2026-10-15T15:56:33.539951+00:00",
+    "basis": "Owner approved remaining images"
+  },
+  "philip_l_ellison": {
+    "source_sha256": "32cb894b0e6b1e952c9b1cde017c0c2035616d3d1b23bd144bbb878a2bb5a826",
+    "approved_at": "2026-10-15T15:56:33.539951+00:00",
+    "basis": "Owner approved remaining images"
+  },
+  "matthew_t_nelson": {
+    "source_sha256": "3be9784952b5fbb9f0ac6ef521b6115a866cf2a282fb9c2fb87150e787b35146",
+    "approved_at": "2026-10-15T15:56:33.539951+00:00",
+    "basis": "Owner approved remaining images"
+  },
+  "erin_e_murphy": {
+    "source_sha256": "d3ae87241366255f1912d2850ddf4c8e310cafb95229f41aaa032ed497c2ebe0",
+    "approved_at": "2026-10-15T15:56:33.539951+00:00",
+    "basis": "Owner approved remaining images"
+  },
+  "richard_d_klingler": {
+    "source_sha256": "71aa990868ef84e1c0d459ead754e8bcc6c5653315692e6f161632c35770648a",
+    "approved_at": "2026-10-15T15:56:33.539951+00:00",
+    "basis": "Owner approved remaining images"
+  },
+  "michael_e_kenneally_jr": {
+    "source_sha256": "22de195b56d39a2053925f0b346cc4b57a6011a5c33ef316b5e64b647349b592",
+    "approved_at": "2026-10-15T15:56:33.539951+00:00",
+    "basis": "Owner supplied replacement"
+  },
+  "john_e_roberts": {
+    "source_sha256": "93cd81afb917a7a6c2055d61df78800db86332fe60a1cbf1fa11ed1333b38fdc",
+    "approved_at": "2026-10-15T15:56:33.539951+00:00",
+    "basis": "Owner approved remaining images"
+  }
+}

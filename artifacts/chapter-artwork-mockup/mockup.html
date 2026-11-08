@@ -1,0 +1,227 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Chapter artwork mockups</title>
+<!-- Mockups only: 600x600 chapter images for 25-170, using the video palette and card content. -->
+<style>
+@font-face{font-family:myriad;src:url('../../myriadpro/MYRIADPRO-REGULAR.OTF');font-weight:400}
+@font-face{font-family:myriad;src:url('../../myriadpro/MYRIADPRO-SEMIBOLD.OTF');font-weight:600}
+@font-face{font-family:myriad;src:url('../../myriadpro/Myriad Pro Italic.ttf');font-style:italic}
+*{box-sizing:border-box}
+body{margin:0;background:#ddd;font-family:myriad,sans-serif;color:#111}
+body.gallery{display:flex;flex-wrap:wrap;gap:40px;padding:40px}
+body.single{background:none}
+body.single figure{margin:0}
+body.single figcaption{display:none}
+figure{margin:0}
+figcaption{font:16px/1.3 -apple-system,sans-serif;color:#333;margin-top:8px;width:600px}
+.art{width:600px;height:600px;position:relative;overflow:hidden;background:hsl(43,45%,99%);--beige:hsl(43,45%,82%);--paper:hsl(43,45%,96%);--gold:hsl(43,75%,30%);--blue:rgb(137,195,246)}
+
+/* shared pieces */
+.seal{position:absolute;top:10px;right:14px;width:62px;height:62px}
+.case-line{font-size:22px;color:#555;text-align:center;letter-spacing:-.2px}
+.case-line b{color:#111;font-weight:600}
+.arch{position:relative;overflow:hidden;border-top-left-radius:999px;border-top-right-radius:999px;background:var(--blue);box-shadow:inset 0 0 100px #fff}
+.arch img{position:absolute;bottom:0;left:50%;height:100%;transform:translateX(-50%)}
+.photo{object-fit:cover;display:block}
+.photo.framed{border:3px solid hsl(208,86%,80%);box-shadow:0 0 12px hsl(208,86%,84%),0 0 6px hsl(208,86%,84%),0 0 3px rgb(24,61,93)}
+.avatar{border-radius:50%;object-fit:cover;background:radial-gradient(circle,hsl(43,60%,85%) 0%,hsl(43,60%,75%) 70%)}
+.avatar.cut{object-position:50% 12%}
+.kicker{font-size:19px;color:var(--gold);font-weight:600;letter-spacing:.6px;text-transform:uppercase}
+
+/* 1. opening */
+.opening .bench{width:600px;height:171px;display:block}
+.opening .who{display:flex;gap:26px;align-items:center;padding:34px 34px 0}
+.opening .who img{width:210px;height:210px}
+.opening .name{font-size:42px;font-weight:600;line-height:1.02;letter-spacing:-.6px;margin:8px 0 10px}
+.opening .role{font-size:24px;color:#444;line-height:1.15}
+.opening .foot{position:absolute;left:0;right:0;bottom:0;height:120px;display:flex;flex-direction:column;justify-content:center;border-top:2px solid #111;margin:0 34px}
+.opening .foot .t{font-size:34px;font-weight:600;text-align:center;letter-spacing:-.5px;line-height:1.05}
+.opening .foot .d{font-size:20px;color:#666;text-align:center;margin-top:6px}
+
+/* 2. opening with QP */
+.qp{background:var(--beige)}
+.qp .top{display:flex;align-items:center;gap:18px;padding:26px 30px 0}
+.qp .top img{width:112px;height:112px}
+.qp .top .name{font-size:32px;font-weight:600;letter-spacing:-.4px;line-height:1.05}
+.qp .top .role{font-size:21px;color:#444}
+.qp .label{padding:26px 40px 8px;font-size:22px;color:#555}
+.qp .label b{color:#222;font-weight:600}
+.qp .body{margin:0 28px;background:var(--paper);border-radius:25px;padding:26px 30px;font-size:35px;line-height:1.22;color:#222}
+.qp .src{padding:10px 40px;font-size:18px;color:#333}
+.qp .case{position:absolute;bottom:22px;left:0;right:0}
+
+/* 3. duet */
+.duet{background:var(--paper)}
+.duet .case-line{padding:28px 90px 0}
+.duet .pair{display:flex;justify-content:center;align-items:flex-start;gap:24px;margin-top:30px}
+.duet .pair>div{width:262px;text-align:center}
+.duet .arch{width:262px;height:262px}
+.duet .photo{width:262px;height:262px}
+.duet .n{font-size:30px;font-weight:600;margin-top:14px;letter-spacing:-.3px;line-height:1.05}
+.duet .r{font-size:20px;color:#555;margin-top:4px}
+.duet .band{position:absolute;bottom:0;left:0;right:0;height:86px;background:var(--beige);display:flex;align-items:center;gap:8px;padding:0 24px}
+.duet .seg{flex:1;text-align:center;font-size:19px;color:#6b5e3c;padding-top:10px;border-top:6px solid hsl(43,45%,72%)}
+.duet .seg.on{color:#111;font-weight:600;border-color:hsl(43,90%,55%)}
+
+/* 4. bench pan */
+.pan .row{position:absolute;top:0;left:50%;height:300px;width:1px}
+.pan .fig{position:absolute;bottom:0;transform:translateX(-50%)}
+.pan .fig img{display:block;height:100%;width:auto}
+.pan .fig.side{height:200px;opacity:.45;filter:grayscale(1)}
+.pan .fig.side img{margin:0 -70px}
+.pan .fig.on{height:282px;z-index:2}
+.pan .fig.on .arch{width:280px;height:282px}
+.pan .cap{position:absolute;top:262px;left:0;right:0;text-align:center;font-size:26px;color:#fff;z-index:3;text-shadow:0 0 6px rgba(0,0,0,.6),0 0 4px rgba(0,0,0,.9),0 0 2px #000}
+.pan .rail{position:absolute;top:300px;left:0;right:0;height:10px;background:#111}
+.pan .panel{position:absolute;top:310px;left:0;right:0;bottom:0;background:var(--beige);display:flex;align-items:center;gap:22px;padding:0 30px 46px}
+.pan .panel img{width:176px;height:176px}
+.pan .panel .name{font-size:36px;font-weight:600;letter-spacing:-.4px;line-height:1.05}
+.pan .panel .role{font-size:22px;color:#333;margin-top:6px}
+.pan .case-line{position:absolute;bottom:18px;left:0;right:0;font-size:20px}
+
+/* 5-9. cards */
+.card{background:var(--beige);display:flex;flex-direction:column;padding-bottom:22px}
+.card .who{display:flex;align-items:center;gap:12px;padding:20px 26px 0;font-size:22px;color:#333}
+.card .who .avatar{width:64px;height:64px}
+.card .who .names{line-height:1.15}
+.card .who .names b{font-weight:600;color:#111}
+.card .who .time{margin-left:auto;font-size:20px;color:#555;align-self:flex-start;padding-top:8px}
+.card .label{padding:22px 38px 8px;font-size:22px;color:#555;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .label b{color:#222;font-weight:600}
+.card .body{margin:0 24px;background:var(--paper);border-radius:25px;padding:22px 28px;font-size:31px;line-height:1.24;color:#222;flex:1;overflow:hidden}
+.card .body mark{background:hsl(43,75%,78%);color:#111;border-radius:3px;-webkit-box-decoration-break:clone}
+.card .body .cn{font-size:36px;font-weight:600;line-height:1.12;letter-spacing:-.3px}
+.card .body .cd{font-size:25px;color:#666;margin:4px 0 12px}
+.card .src{padding:10px 38px 0;font-size:18px;color:#333}
+.card .ep{display:flex;justify-content:space-between;padding:6px 38px 0;font-size:17px;color:#6b5e3c}
+
+/* split: faces on top, card below */
+.split .faces{display:flex;justify-content:center;align-items:flex-end;gap:16px;padding-top:18px;height:196px;background:var(--paper)}
+.split .faces .arch{width:170px;height:170px}
+.split .faces .photo{width:150px;height:150px}
+.split .faces .tag{font-size:19px;text-align:center;margin-top:4px;color:#333}
+.split .faces .tag b{font-weight:600;color:#111}
+.split .faces>div{display:flex;flex-direction:column;align-items:center}
+.split .body{font-size:28px}
+.split .body .cn{font-size:31px}
+
+/* timeline, vertical for the square */
+.tl{position:relative;padding-left:46px}
+.tl:before{content:"";position:absolute;left:14px;top:14px;bottom:20px;width:3px;background:hsl(43,45%,78%)}
+.tl .ev{position:relative;margin-bottom:14px}
+.tl .ev:before{content:"";position:absolute;left:-40px;top:8px;width:16px;height:16px;border-radius:50%;background:hsl(43,45%,72%)}
+.tl .ev .dt{font-size:22px;color:#666;font-weight:600}
+.tl .ev .lb{font-size:25px;line-height:1.16}
+
+/* comparison */
+.cmp{display:flex;gap:18px;height:100%}
+.cmp>div{flex:1;border-top:4px solid hsl(43,45%,72%);padding-top:12px}
+.cmp .h{font-size:27px;font-weight:600}
+.cmp .c{font-size:18px;color:#666;margin:2px 0 10px}
+.cmp .x{font-size:25px;line-height:1.2}
+</style>
+<body class="gallery">
+
+<!-- 1 -->
+<figure><section class="art opening" id="opening">
+ <img class="bench" src="../../cloud/presentation/podcast/bench.jpg"><img class="seal" src="../../seal.svg">
+ <div class="who"><img class="photo" src="../../annotation-trial/25-170/preview/advocates/advocate_25_170_kannon_k_shanmugam.jpg">
+  <div><div class="kicker">Opening argument</div><div class="name">Kannon K. Shanmugam</div><div class="role">for the Petitioners</div></div></div>
+ <div class="foot"><div class="t">Suncor Energy v. Boulder County</div><div class="d">No. 25-170 · argued October 5, 2026</div></div>
+</section><figcaption><b>1 · Advocate opening.</b> Chapter “Kannon K. Shanmugam (for the Petitioners)”. Reuses the episode-art bench so the advocate chapters feel like part of the same cover.</figcaption></figure>
+
+<!-- 2 -->
+<figure><section class="art qp" id="opening-qp">
+ <div class="top"><img class="photo framed" src="../../annotation-trial/25-170/preview/advocates/advocate_25_170_kannon_k_shanmugam.jpg">
+  <div><div class="name">Kannon K. Shanmugam</div><div class="role">for the Petitioners</div></div></div>
+ <div class="label">Question presented · <b>granted Feb. 23, 2026</b></div>
+ <div class="body">Does federal law bar state-law claims for injuries allegedly caused by interstate and international greenhouse-gas emissions?</div>
+ <div class="src">Question presented, shortened · Supreme Court docket</div>
+ <div class="case-line case"><b>Suncor Energy v. Boulder County</b> · No. 25-170</div>
+</section><figcaption><b>2 · Advocate opening + Question presented card.</b> Same chapter, but the first advocate’s chapter carries the QP card the video opens with.</figcaption></figure>
+
+<!-- 3 -->
+<figure><section class="art duet" id="duet">
+ <div class="case-line"><b>Suncor Energy v. Boulder County</b></div>
+ <div class="pair">
+  <div><div class="arch"><img src="../../justices/Kavanaugh-thumb.png"></div><div class="n">Justice Kavanaugh</div><div class="r">&nbsp;</div></div>
+  <div><img class="photo" src="../../annotation-trial/25-170/preview/advocates/advocate_25_170_kannon_k_shanmugam.jpg"><div class="n">Kannon K. Shanmugam</div><div class="r">for the Petitioners</div></div>
+ </div>
+ <div class="band"><div class="seg on">Shanmugam</div><div class="seg">Harris</div><div class="seg">Russell</div><div class="seg">Rebuttal</div></div>
+</section><figcaption><b>3 · Exchange, “duet”.</b> Chapter “Shanmugam - Justice Kavanaugh”. Justice in the video’s blue active-speaker arch, advocate as the square portrait. The strip shows where in the argument this is.</figcaption></figure>
+
+<!-- 4 -->
+<figure><section class="art pan" id="pan">
+ <div class="row">
+  <div class="fig side" style="left:-235px"><img src="../../justices/elena_kagan.thumb.png"></div>
+  <div class="fig side" style="left:235px"><img src="../../justices/thumbnail_ketanji_brown_jackson.png"></div>
+  <div class="fig on" style="left:0"><div class="arch"><img src="../../justices/Kavanaugh-thumb.png"></div></div>
+ </div>
+ <div class="cap">Justice Kavanaugh</div>
+ <div class="rail"></div>
+ <div class="panel"><img class="photo framed" src="../../annotation-trial/25-170/preview/advocates/advocate_25_170_kannon_k_shanmugam.jpg">
+  <div><div class="name">Kannon K. Shanmugam</div><div class="role">for the Petitioners</div></div></div>
+ <div class="case-line"><b>Suncor Energy v. Boulder County</b> · No. 25-170</div>
+</section><figcaption><b>4 · Exchange, “bench crop”.</b> Same chapter as a crop of the video frame: the bench zoomed on the questioning justice (seat neighbours faded), advocate in the beige side panel.</figcaption></figure>
+
+<!-- 5 -->
+<figure><section class="art card" id="card-case">
+ <div class="who"><img class="avatar cut" src="../../justices/elena_kagan.thumb.png"><img class="avatar" src="../../annotation-trial/25-170/preview/advocates/advocate_25_170_kannon_k_shanmugam.jpg">
+  <div class="names"><b>Justice Kagan</b><br>Kannon K. Shanmugam</div><div class="time">12:20</div></div>
+ <div class="label">Case</div>
+ <div class="body"><div class="cn"><i>American Electric Power Co.</i> v. <i>Connecticut</i></div><div class="cd">2011</div>The Court held that the Clean Air Act displaced federal common-law nuisance claims seeking limits on power-plant greenhouse-gas emissions.</div>
+ <div class="src">Syllabus · U.S. Reports</div>
+</section><figcaption><b>5 · Card, avatar strip.</b> AEP case card during Kagan–Shanmugam. Speakers shrink to the video’s transcript avatars; the card is the art.</figcaption></figure>
+
+<!-- 6 -->
+<figure><section class="art card split" id="card-split">
+ <div class="faces">
+  <div><div class="arch"><img src="../../justices/elena_kagan.thumb.png"></div><div class="tag"><b>Justice Kagan</b></div></div>
+  <div><img class="photo" src="../../annotation-trial/25-170/preview/advocates/advocate_25_170_kannon_k_shanmugam.jpg"><div class="tag">Shanmugam</div></div>
+ </div>
+ <div class="label">Case</div>
+ <div class="body"><div class="cn"><i>American Electric Power Co.</i> v. <i>Connecticut</i></div><div class="cd">2011</div>The Court held that the Clean Air Act displaced federal common-law nuisance claims seeking limits on power-plant greenhouse-gas emissions.</div>
+ <div class="src">Syllabus · U.S. Reports</div>
+</section><figcaption><b>6 · Card, split.</b> Same card with the exchange faces kept on top, so a card chapter still reads as “Kagan questioning Shanmugam”.</figcaption></figure>
+
+<!-- 7 -->
+<figure><section class="art card" id="card-timeline">
+ <div class="who"><img class="avatar cut" src="../../justices/Kavanaugh-thumb.png"><img class="avatar" src="../../annotation-trial/25-170/preview/advocates/advocate_25_170_kannon_k_shanmugam.jpg">
+  <div class="names"><b>Justice Kavanaugh</b><br>Kannon K. Shanmugam</div><div class="time">30:42</div></div>
+ <div class="label">Timeline · <b>Interstate pollution: four precedents</b></div>
+ <div class="body"><div class="tl">
+  <div class="ev"><div class="dt">1972</div><div class="lb"><i>Milwaukee I</i>: federal common law governs interstate pollution</div></div>
+  <div class="ev"><div class="dt">1981</div><div class="lb"><i>Milwaukee II</i>: Clean Water Act displaces it</div></div>
+  <div class="ev"><div class="dt">1987</div><div class="lb"><i>Ouellette</i>: source state’s law may apply, affected state’s may not</div></div>
+  <div class="ev"><div class="dt">2011</div><div class="lb"><i>AEP</i>: Clean Air Act displaces federal common law on power-plant emissions</div></div>
+ </div></div>
+ <div class="src">Opinions of the Court (U.S. Reports)</div>
+</section><figcaption><b>7 · Timeline card.</b> Kavanaugh’s “four precedents”. The video’s horizontal timeline turned vertical to suit the square.</figcaption></figure>
+
+<!-- 8 -->
+<figure><section class="art card" id="card-statute">
+ <div class="who"><img class="avatar cut" src="../../justices/neil_gorsuch.thumb__0.png"><img class="avatar" src="../../annotation-trial/25-170/preview/advocates/advocate_25_170_kannon_k_shanmugam.jpg">
+  <div class="names"><b>Justice Gorsuch</b><br>Kannon K. Shanmugam</div><div class="time">9:15</div></div>
+ <div class="label">Statute · <b>42 U.S.C. § 7416 — saving clause</b></div>
+ <div class="body">… nothing in this chapter shall <mark>preclude or deny the right of any State</mark> or political subdivision thereof to adopt or enforce (1) any standard or limitation respecting emissions of air pollutants or (2) any requirement respecting control or abatement of air pollution; …</div>
+ <div class="src">United States Code, 2024 edition (govinfo.gov)</div>
+</section><figcaption><b>8 · Statute card.</b> Clean Air Act saving clause during Gorsuch–Shanmugam, with the video’s gold highlight.</figcaption></figure>
+
+<!-- 9 -->
+<figure><section class="art card" id="card-compare">
+ <div class="who"><img class="avatar cut" src="../../justices/Kavanaugh-thumb.png"><img class="avatar" src="../../annotation-trial/25-170/preview/advocates/advocate_25_170_kevin_k_russell.jpg">
+  <div class="names"><b>Justice Kavanaugh</b><br>Kevin K. Russell</div><div class="time">1:15:09</div></div>
+ <div class="label">Comparison · <b>The disputed starting point</b></div>
+ <div class="body"><div class="cmp">
+  <div><div class="h">Suncor and Exxon</div><div class="c">Petitioners’ brief · p. 29</div><div class="x">Congress’s displacement of federal common law did not authorize state law to replace it.</div></div>
+  <div><div class="h">Boulder</div><div class="c">Respondents’ brief · p. 29</div><div class="x">After displacement, state-law preemption turns on ordinary statutory interpretation.</div></div>
+ </div></div>
+ <div class="src">Parties’ merits briefs · opposing positions</div>
+</section><figcaption><b>9 · Comparison card.</b> Kavanaugh–Russell, both sides side by side.</figcaption></figure>
+
+<script>
+// ?f=<id> isolates one frame for headless screenshots.
+const f=new URLSearchParams(location.search).get('f');
+if(f){document.body.className='single';for(const s of document.querySelectorAll('figure'))if(!s.querySelector('#'+CSS.escape(f)))s.remove();}
+</script>
+</body>

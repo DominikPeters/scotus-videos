@@ -1,0 +1,692 @@
+{
+  "CaseNumber": "25-466 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "07/06/2026",
+  "sJsonTerm": "2025",
+  "sJsonCaseNumber": "00466",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Ongkaruck Sripetch, Petitioner",
+  "RespondentTitle": "Securities and Exchange Commission",
+  "DocketedDate": "October 16, 2025",
+  "LowerCourt": "United States Court of Appeals for the Ninth Circuit",
+  "LowerCourtCaseNumbers": "(24-3830)",
+  "LowerCourtDecision": "September 3, 2025",
+  "QPLink": "../qp/25-00466qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Oct 14 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due November 17, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "sripetch -- cert. petition -- FILED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/379516/20251014115810135_sripetch%20--%20cert.%20petition%20--%20FILED.pdf"
+        },
+        {
+          "Description": "Appendix",
+          "File": "sripetch -- petition appendix -- FILED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/379516/20251014115821481_sripetch%20--%20petition%20appendix%20--%20FILED.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "sripetch -- cert. petition -- certificate of word count -- FILED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/379516/20251014115837441_sripetch%20--%20cert.%20petition%20--%20certificate%20of%20word%20count%20--%20FILED.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "sripetch -- cert. petition -- proof of service -- FILED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/379516/20251014115849104_sripetch%20--%20cert.%20petition%20--%20proof%20of%20service%20--%20FILED.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 14 2025",
+      "Text": "Motion to extend the time to file a response from November 17, 2025 to December 17, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Extension Letter 25-466.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/384598/20251114155913684_Extension%20Letter%2025-466.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 15 2025",
+      "Text": "Brief amicus curiae of California Alternative Investments Association filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "CalALTs Amicus Br. in Supp. of Pet..pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/384643/20251115122348758_CalALTs%20Amicus%20Br.%20in%20Supp.%20of%20Pet..pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/384643/20251115122400333_Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/384643/20251115122406353_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amicus curiae of Cato Institute filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Brief of The Cato Institute as Amicus Curiae in Support of Petitioner.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/384690/20251117115044854_Brief%20of%20The%20Cato%20Institute%20as%20Amicus%20Curiae%20in%20Support%20of%20Petitioner.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/384690/20251117115121382_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/384690/20251117115113490_Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Amicus brief of Brenda Barry, et al. not accepted for filing. (To be corrected - December 1, 2025)"
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief amicus curiae of Brenda Barry, et al. filed. (Corrected)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No 25-466 - Sripetch Amicus Brief - Updated.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/386422/20251204134511220_No%2025-466%20-%20Sripetch%20Amicus%20Brief%20-%20Updated.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-466 Paul Hastings COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/386422/20251204134520528_25-466%20Paul%20Hastings%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-466 Paul Hastings COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/386422/20251204134531099_25-466%20Paul%20Hastings%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 18 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including December 17, 2025."
+    },
+    {
+      "Date": "Dec 17 2025",
+      "Text": "Waiver of the 14-day waiting period for the distribution of the petition pursuant to Rule 15.5 filed by petitioners.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "sripetch v. sec -- ltr to clerk waiving 14-day waiting period -- FILED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/387788/20251217171455189_sripetch%20v.%20sec%20--%20ltr%20to%20clerk%20waiving%2014-day%20waiting%20period%20--%20FILED.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 17 2025",
+      "Text": "Brief of Federal Respondents filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-466SripetchResponse.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/387740/20251217144305709_25-466SripetchResponse.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certficate. 25-466.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/387740/20251217144355197_certficate.%2025-466.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 23 2025",
+      "Text": "DISTRIBUTED for Conference of 1/9/2026."
+    },
+    {
+      "Date": "Jan 09 2026",
+      "Text": "Petition GRANTED."
+    },
+    {
+      "Date": "Jan 27 2026",
+      "Text": "Motion to dispense with printing the joint appendix filed by petitioner Ongkaruck Sripetch.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "sripetch v. sec -- motion to dispense with JA -- FILED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/392816/20260127152656933_sripetch%20v.%20sec%20--%20motion%20to%20dispense%20with%20JA%20--%20FILED.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "sripetch v. sec -- motion to dispense with the JA -- proof of service -- FILED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/392816/20260127152707925_sripetch%20v.%20sec%20--%20motion%20to%20dispense%20with%20the%20JA%20--%20proof%20of%20service%20--%20FILED.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 11 2026",
+      "Text": "SET FOR ARGUMENT on Monday, April 20, 2026."
+    },
+    {
+      "Date": "Feb 18 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Ninth Circuit."
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Motion to dispense with printing the joint appendix filed by petitioner GRANTED."
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Brief of petitioner Ongkaruck Sripetch filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-466 ts.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/397105/20260223230227953_25-466%20ts.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-466 ts -- certificate of word count -- FILED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/397105/20260223230239351_25-466%20ts%20--%20certificate%20of%20word%20count%20--%20FILED.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-466 ts -- proof of service -- FILED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/397105/20260223230249708_25-466%20ts%20--%20proof%20of%20service%20--%20FILED.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-466 ts POS-- REVISED 2.27.2026.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/397105/20260303144330849_25-466%20ts%20POS--%20REVISED%202.27.2026.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of Chamber of Commerce filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "tsac 25-466 Chamber of Commerce.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399703/20260302144231186_tsac%2025-466%20Chamber%20of%20Commerce.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "CERTIFICATE OF SERVICE Sripetch 25-466.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399703/20260302144317812_CERTIFICATE%20OF%20SERVICE%20Sripetch%2025-466.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "CERTIFICATE OF WORD COUNT Sripetch 25-466.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399703/20260302144307717_CERTIFICATE%20OF%20WORD%20COUNT%20Sripetch%2025-466.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of Investor Choice Advocates Network filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026.03.02 ICAN Amicus Brief Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399755/20260302162504709_2026.03.02%20ICAN%20Amicus%20Brief%20Final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 25-466 Quinn Emanuel Urquhart Sullivan COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399755/20260302162520468_No.%2025-466%20Quinn%20Emanuel%20Urquhart%20Sullivan%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 25-466 Quinn Emanuel Urquhart Sullivan COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399755/20260302162512357_No.%2025-466%20Quinn%20Emanuel%20Urquhart%20Sullivan%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of The Cato Institute filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Cato Institute - Merits Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399623/20260302100404636_Cato%20Institute%20-%20Merits%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Cato Institute - Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399623/20260302100418834_Cato%20Institute%20-%20Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Cato Institute - Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399623/20260302100412731_Cato%20Institute%20-%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of Kalistratos Kabilafkas, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-466 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399708/20260302150044902_25-466%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-466 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399708/20260302150159226_25-466%20Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-466 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399708/20260302150141089_25-466%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of Washington Legal Foundation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "WLF Amicus Brief - Sripetch v SEC 2mar2026.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399740/20260302155541481_WLF%20Amicus%20Brief%20-%20Sripetch%20v%20SEC%202mar2026.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-466 Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399740/20260302155558173_25-466%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-466 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399740/20260302155550798_25-466%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amicus curiae of California Alternative Investments Association filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Brief amicus curiae of CalALTs.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399772/20260302173155451_Brief%20amicus%20curiae%20of%20CalALTs.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof_of_Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399772/20260302173203872_Proof_of_Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of Pacific Legal Foundation, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Sriptech - Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399645/20260302114619310_Sriptech%20-%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Sriptech - Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399645/20260302114646624_Sriptech%20-%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Sriptech - USSC Cert of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399645/20260302114631559_Sriptech%20-%20USSC%20Cert%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Brief amici curiae of Former Securities and Exchange Commission Attorneys filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Sripetch Former SEC Attorneys Amicus Brief FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399761/20260302163925308_Sripetch%20Former%20SEC%20Attorneys%20Amicus%20Brief%20FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "no. 25-466 Paul Hastings COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399761/20260302163943888_no.%2025-466%20Paul%20Hastings%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "no. 25-466 Paul Hastings COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/399761/20260302164044719_no.%2025-466%20Paul%20Hastings%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 20 2026",
+      "Text": "Sealed material received electronically from the United States Court of Appeals for the Ninth Circuit and available with the Clerk. The remainder of the record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Mar 25 2026",
+      "Text": "Brief of respondent not accepted for filing. (To be resubmitted - March 27, 2026)"
+    },
+    {
+      "Date": "Mar 25 2026",
+      "Text": "Brief of respondent filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-466_Sripetch_bs.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/403099/20260327170542544_25-466_Sripetch_bs.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate - 25-466 - Sripetch v. SEC - Rule 29.2.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/403099/20260327171734917_Certificate%20-%2025-466%20-%20Sripetch%20v.%20SEC%20-%20Rule%2029.2.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amici curiae of Remedies and Restitution Scholar Douglas Laycock, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Sripetch v. SEC CAC Brief FINAL FOR FILING.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/403372/20260401110048212_Sripetch%20v.%20SEC%20CAC%20Brief%20FINAL%20FOR%20FILING.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Sripetch Certificate of Compliance FINAL FOR FILING.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/403372/20260401110058698_Sripetch%20Certificate%20of%20Compliance%20FINAL%20FOR%20FILING.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Sripetch Certificate of Service FINAL FOR FILING.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/403372/20260401110106503_Sripetch%20Certificate%20of%20Service%20FINAL%20FOR%20FILING.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amicus curiae of Consumer Federation of America filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-466 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/403356/20260401095440038_25-466%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-466 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/403356/20260401095455449_25-466%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-466 AOS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/403356/20260401095501613_25-466%20AOS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 01 2026",
+      "Text": "Brief amicus curiae of Better Markets, Inc. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-466acBetterMarketsInc.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/403407/20260401125004348_25-466acBetterMarketsInc.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-466 Better Markets COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/403407/20260401125012041_25-466%20Better%20Markets%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-466 Better Markets COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/403407/20260401125018659_25-466%20Better%20Markets%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 10 2026",
+      "Text": "Reply of petitioner Ongkaruck Sripetch filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-466 rb.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/404142/20260410135751288_25-466%20rb.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-466 rb -- certificate of word count -- FILED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/404142/20260410135809752_25-466%20rb%20--%20certificate%20of%20word%20count%20--%20FILED.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-466 rb -- reprinted proof of service -- FILED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/404142/20260410135823557_25-466%20rb%20--%20reprinted%20proof%20of%20service%20--%20FILED.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-466 rb -- proof of service -- FILED.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/404142/20260410135834307_25-466%20rb%20--%20proof%20of%20service%20--%20FILED.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 20 2026",
+      "Text": "Argued. For petitioner: Daniel L. Geyser, Dallas, Tex.  For respondent: Malcolm L. Stewart, Deputy Solicitor General, Department of Justice, Washington, D. C."
+    },
+    {
+      "Date": "Jun 04 2026",
+      "Text": "Adjudged to be AFFIRMED.  Gorsuch, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/25-466_5i26.pdf'>opinion</a> for a unanimous Court. Thomas, J., filed a concurring opinion."
+    },
+    {
+      "Date": "Jul 06 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 25-466 Aff 9th. Cir. 7.6.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-466/415706/20260706101151792_EFILING%2025-466%20Aff%209th.%20Cir.%207.6.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioner",
+  "Petitioner": [
+    {
+      "Attorney": "Daniel L. Geyser",
+      "IsCounselofRecord": true,
+      "Title": "Haynes and Boone, LLP",
+      "PrisonerId": null,
+      "Phone": "303-382-6219",
+      "Address": "2801 N. Harwood Street, Ste. 2300",
+      "City": "Dallas",
+      "State": "TX",
+      "Zip": "75201",
+      "Email": "DANIEL.GEYSER@HAYNESBOONE.COM",
+      "PartyName": "Ongkaruck Sripetch"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondent",
+  "Respondent": [
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": true,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "Securities and Exchange Commission"
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Keri Curtis Axel",
+      "IsCounselofRecord": true,
+      "Title": "Waymaker LLP",
+      "PrisonerId": null,
+      "Phone": "4246527800",
+      "Address": "515 S. Flower Street, Suite 3500",
+      "City": "Los Angeles",
+      "State": "CA",
+      "Zip": "90071",
+      "Email": "kaxel@waymakerlaw.com",
+      "PartyName": "California Alternative Investments Association"
+    },
+    {
+      "Attorney": "Hampton Hunter Bruton",
+      "IsCounselofRecord": true,
+      "Title": "Smith Anderson",
+      "PrisonerId": null,
+      "Phone": "919-821-1220",
+      "Address": "P.O. Box 2611",
+      "City": "Raleigh",
+      "State": "NC",
+      "Zip": "27602",
+      "Email": "hbruton@smithlaw.com",
+      "PartyName": "The Cato Institute"
+    },
+    {
+      "Attorney": "Oliver James Dunford",
+      "IsCounselofRecord": true,
+      "Title": "Pacific Legal Foundation",
+      "PrisonerId": null,
+      "Phone": "916.503.9060",
+      "Address": "4440 PGA Boulevard\r\nSuite 307",
+      "City": "Palm Beach Gardens",
+      "State": "FL",
+      "Zip": "33410",
+      "Email": "ODUNFORD@PACIFICLEGAL.ORG",
+      "PartyName": "Pacific Legal Foundation, Matthias O'Meara, Choice Advisors, LLC"
+    },
+    {
+      "Attorney": "Matthew Aaron Ford",
+      "IsCounselofRecord": true,
+      "Title": "Ford O'Brien Landy LLP",
+      "PrisonerId": null,
+      "Phone": "512-212-5283",
+      "Address": "3700 Ranch Road 620 South\r\nSuite B",
+      "City": "Austin",
+      "State": "TX",
+      "Zip": "78738",
+      "Email": "mford@fordobrien.com",
+      "PartyName": "Kalistratos Kabilafkas and Timoleon Kabilafkas"
+    },
+    {
+      "Attorney": "Dominick V. Freda",
+      "IsCounselofRecord": true,
+      "Title": "Better Markets, Inc.",
+      "PrisonerId": null,
+      "Phone": "(202) 618-6464",
+      "Address": "2000 Pennsylvania Avenue, N.W.\r\nSuite 4008",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "dfreda@bettermarkets.org",
+      "PartyName": "Better Markets, Inc."
+    },
+    {
+      "Attorney": "Brianne Jenna Gorod",
+      "IsCounselofRecord": true,
+      "Title": "Constitutional Accountability Center",
+      "PrisonerId": null,
+      "Phone": "202 296 6889",
+      "Address": "1730 Rhode Island Ave. NW\r\nSuite 1200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "BRIANNE@THEUSCONSTITUTION.ORG",
+      "PartyName": "Remedies and Restitution Scholars Douglas Laycock, Colleen P. Murphy, Caprice L. Roberts, Chaim Saiman, and Michael Traynor"
+    },
+    {
+      "Attorney": "Nicolas Morgan",
+      "IsCounselofRecord": true,
+      "Title": "Investor Choice Advocates Network",
+      "PrisonerId": null,
+      "Phone": "(310) 849-0384",
+      "Address": "453 S. Spring Street\r\nSuite 400",
+      "City": "Los Angeles",
+      "State": "CA",
+      "Zip": "90013",
+      "Email": "nicolas.morgan@icanlaw.org",
+      "PartyName": "Former Securities and Exchange Commission Attorneys"
+    },
+    {
+      "Attorney": "Zac Morgan",
+      "IsCounselofRecord": true,
+      "Title": "Washington Legal Foundation",
+      "PrisonerId": null,
+      "Phone": "202-588-0302",
+      "Address": "2009 Massachusetts Avenue, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "zmorgan@wlf.org",
+      "PartyName": "Washington Legal Foundation"
+    },
+    {
+      "Attorney": "Rachel Frank Quinton",
+      "IsCounselofRecord": true,
+      "Title": "Quinn Emanuel Urquhart & Sullivan, LLP",
+      "PrisonerId": null,
+      "Phone": "2025388000",
+      "Address": "555 13th Street NW, Suite 600",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "rachelquinton@quinnemanuel.com",
+      "PartyName": "Investor Choice Advocates Network"
+    },
+    {
+      "Attorney": "Victor Edward Suthammanont",
+      "IsCounselofRecord": true,
+      "Title": "Kostelanetz LLP",
+      "PrisonerId": null,
+      "Phone": "2127192649",
+      "Address": "7 World Trade Center, 34th Floor",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10007",
+      "Email": "vsuthammanont@kostelanetz.com",
+      "PartyName": "Consumer Federation of America"
+    },
+    {
+      "Attorney": "Adam G. Unikowsky",
+      "IsCounselofRecord": true,
+      "Title": "Jenner & Block LLP",
+      "PrisonerId": null,
+      "Phone": "202-639-6000",
+      "Address": "1099 New York Avenue, NW\r\nSuite 900",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "AUNIKOWSKY@JENNER.COM",
+      "PartyName": "Chamber of Commerce"
+    }
+  ]
+}

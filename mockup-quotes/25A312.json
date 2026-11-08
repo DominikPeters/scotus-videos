@@ -1,0 +1,564 @@
+{
+  "note": "Mockup data. Times and quotations come from artifacts/output/25A312/manifest.json (checked against the filed PDFs); context sentences are taken from the same PDF pages.",
+  "cues": [
+    {
+      "id": "m001",
+      "start": 194.82,
+      "end": 214.84,
+      "kind": "Statute",
+      "heading": "12 U.S.C. § 242 — terms of office of Board members",
+      "text": "… and thereafter each member shall hold office for a term of fourteen years from the expiration of the term of his predecessor, <mark>unless sooner removed for cause by the President</mark>. …",
+      "source": "United States Code, 2024 edition (govinfo.gov)",
+      "date": "",
+      "highlight": [
+        "removable for cause by the President"
+      ]
+    },
+    {
+      "id": "m002",
+      "start": 245.64,
+      "end": 261.03,
+      "kind": "Removal letter",
+      "heading": "The President’s letter removing Governor Cook",
+      "before": "The American people must be able to have full confidence in the honesty of the members entrusted with setting policy and overseeing the Federal Reserve. In light of your deceitful and potentially criminal conduct in a financial matter, they cannot and I do not have such confidence in your integrity.",
+      "quote": "At a minimum, the conduct at issue exhibits the sort of gross negligence in financial transactions that calls into question your competence and trustworthiness as a financial regulator.",
+      "after": "",
+      "source": "As quoted by the district court, Appendix to Application, p. 29a",
+      "date": "Sep 18, 2025",
+      "highlight": [
+        "removal order",
+        "gross negligence"
+      ]
+    },
+    {
+      "id": "case-250-u-s-163",
+      "start": 347.61,
+      "end": 359.61,
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>Dakota Central Telephone Co.</i> v. <i>South Dakota ex rel. Payne</i>",
+        "details": "1919"
+      },
+      "text": "The Court held that whether the President’s wartime takeover of telephone lines was justified by existing conditions or proper motives involved executive discretion beyond judicial review.",
+      "source": "Summary based on the official syllabus (U.S. Reports)",
+      "date": "",
+      "highlight": [
+        "Payne"
+      ],
+      "block": "s0t10b2",
+      "evidence": "beyond Payne and so forth",
+      "speaker": "D. John Sauer",
+      "citation": "250 U.S. 163",
+      "source_url": "https://static.case.law/us/250/cases/0163-01.json",
+      "basis": "DAKOTA CENTRAL TELEPHONE COMPANY ET AL. v. STATE OF SOUTH DAKOTA EX REL. PAYNE, ATTORNEY GENERAL, ET AL. ERROR TO THE SUPREME COURT OF THE STATE OF SOUTH ■ DAKOTA. No. 967. Argued May 5, 6, 1919. Decided June 2, 1919. The Joint Resolution of July 16,1918, c. 154, 40 Stat. 904, authorizing the President during the continuance of the present war, whenever he shall deem it necessary for the national security or defense, to take possession and assume control, inter alia, of any telephone line or any part thereof, and operate it as may be needful or desirable for the duration of the war, is within the war power of Congress. P. 183. Northern Pacific By. Co. v. North Dakota, ante, 135. Whether the exercise of the power so conferred was justified by the conditions at the time, or was actuated by proper motives, are questions of executive discretion not within the cognizance of the judiciary, under the Constitution. Pp. 184, 187. The Joint Resolution, supra, authorized the complete possession, control and operation of telephone lines by the United States, including the fixing of rates for local service, as brought about through the President’s Proclamation of July 22, 1918, and the action of the Postmaster General thereunder, whereby the United States, under contracts with the owning companies, took over their entire business and became entitled to the revenues therefrom, and fixed the rates; and this was subsequently recognized by the Act of October 30, 1918, c. 197,40 Stat. 1017. P. 184. The Joint Resolution, supra, provides that nothing therein “shall be construed to amend, repeal, impair, or affect existing laws or powers of the States in relation to taxation ” or their “lawful police regulations . . . , except wherein such laws, powers, or regulations may affect the transmission of Government communications, or the issue of stocks and bonds by such system or systems.” Held, that police power here reserved does .not include the authority to make local rates, which the resolution as a whole by clear implication transfers to the United States; and that the provision as to stocks and bonds does not justify a contrary construction. P. 185. There can be no presumption that the state rate-making power was to continue after the telephone lines and business, including the revenues, were completely taken over by the United States and were being operated as federal instrumentalities, under the war power. P. 187. Northern Pacific Ry. Co. v. North Dakota, ante, 135. An err",
+      "confidence": 0.96,
+      "reviewed": false
+    },
+    {
+      "id": "case-470-u-s-532",
+      "start": 434.5,
+      "end": 446.5,
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>Cleveland Board of Education</i> v. <i>Loudermill</i>",
+        "details": "1985 · decided 8–1"
+      },
+      "text": "The Court held that civil servants with property rights in their employment were entitled to notice and an opportunity to respond before termination.",
+      "source": "Summary based on Oyez (oyez.org)",
+      "date": "",
+      "highlight": [
+        "Loudermill"
+      ],
+      "block": "s0t18b0",
+      "evidence": "under Loudermill",
+      "speaker": "D. John Sauer",
+      "citation": "470 U.S. 532",
+      "source_url": "https://api.oyez.org/cases/1984/83-1362",
+      "basis": "Question: Can a state remove a civil servant's property rights to employment before providing an opportunity for that worker to respond to the charges offered for his termination?\nConclusion: No. Justice Byron White authored the opinion for an 8-1 court. The Ohio statute clearly grants civil servants property rights to their employment. In order to lawfully remove this property, the Due Process Clause requires a procedure that carefully weighs the interests of the government in removing the property against the interests of the private party in retaining the property. This procedure must incorporate the \"essential requirements of due process,\" which \"are notice and an opportunity to respond.\" There was no strong reason to delay the opportunity to respond until after termination. The Court found that \"affording the employee an opportunity to respond prior to termination would impose neither a significant administrative burden nor intolerable delays.\" Accordingly, the significant interests of the employees to retain their jobs outweighed the interests of the state to remove employees quickly.",
+      "confidence": 0.99,
+      "reviewed": false
+    },
+    {
+      "id": "case-124-u-s-200",
+      "start": 709.73,
+      "end": 721.73,
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>In re Sawyer</i>",
+        "details": "1888"
+      },
+      "text": "The Court held that a court of equity lacked jurisdiction to restrain removal of a public officer, rendering the injunction and resulting contempt commitments void.",
+      "source": "Summary based on the official syllabus (U.S. Reports)",
+      "date": "",
+      "highlight": [
+        "Sawyer"
+      ],
+      "block": "s0t24b1",
+      "evidence": "in Sawyer, this Court held that a preliminary injunction was not available to restore an officer",
+      "speaker": "D. John Sauer",
+      "citation": "124 U.S. 200",
+      "source_url": "https://static.case.law/us/124/cases/0200-01.json",
+      "basis": "IN RE SAWYER and Others. ORIGINAL. Argued December 12, 1887. Decided January 9, 1888. A court of equity has no jurisdiction of a bill to stay criminal proceedings. A court of equity' has no jurisdiction of a bill to restrain the removal of a public officer. The Circuit Court of the United States has no jurisdiction or authority to entertain a bill in equity to restrain the mayor and committee of a city in Nebraska from removing a city officer upon charges filed against him for malfeasance in office; and an injunction issued upon such a bill, as well as an order committing the defendants for contempt in disregarding the injunction, is absolutely void, and they are entitled to be discharged on habeas corpus. This was a petition for a writ of habeas corpus, in behalf of the mayor and eleven members of the city council of the city of Lincoln in the State of Nebraska, detained and imprisoned in the jail at Omaha in that ■ state by the marshal of. the United States for the .District of Nebraska, under an order of attachment for contempt, made by the Circuit Court of the United States for that district, under the following circumstances : On September 24, 1887, Albert F. Parsons presented to the Circuit- Judge a bill in equity against said mayor and councilmen, the whole of which, except the title, the address and the' signature, was as follows: “Tour petitioner is, and for more than fifteen years last past has been, a citizen of the.United States, and a resident! and citizen of the State of Nebraska, and as such citizen has been and is entitled to'the equal protection of the laws, and to life, liberty and property; nor could he be deprived thereof' without due process of law, nor denied the saíne within the jurisdiction of the United States or of the State of Nebraska. “ On tijie-day of April, 1886, this complainant was duly and legally elected to the office of police judge of the city of Lincoln,'in Iancaster County, Nebraska, and soon thereafter did duly qua ify and enter into the discharge of his duties as! such police judge; and ever since, and yet at this time, complainant has held and exercised all the functions and performed all the duties of the said office; and for the last six months and more all of the respondents except the said Andrew J. Sawyer have been and yet are the duly elected, qualified and acting councilmen of the said city, and the said Sawyer has been and yet is the duly elected, qualified and acting mayor of 4he said city. “ On the-day of",
+      "confidence": 0.99,
+      "reviewed": false
+    },
+    {
+      "id": "case-140-u-s-586",
+      "start": 744.28,
+      "end": 756.28,
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>In re Delgado</i>",
+        "details": "1891"
+      },
+      "text": "The Court held that mandamus could compel recognition of a de facto municipal officer during a disputed election until the parties’ rights could be determined through quo warranto.",
+      "source": "Summary based on the official syllabus (U.S. Reports)",
+      "date": "",
+      "highlight": [
+        "Delgado"
+      ],
+      "block": "s0t26b0",
+      "evidence": "the Court's referring to the Delgado case, and in that particular",
+      "speaker": "D. John Sauer",
+      "citation": "140 U.S. 586",
+      "source_url": "https://static.case.law/us/140/cases/0586-01.json",
+      "basis": "In re DELGADO, Petitioner. APPEAL FROM THE SUPREME COURT OF THE TERRITORY OF NEW MEXICO. ■ No. 1648. Argued April 22, 1891. Decided May 25, 1891. A Statute providing that “ for the purpose of hearing application for and issuing writs of mandamus,” the court “ shall be regarded-as open at all times ” authorizes a hearing on the réturn of the alternative writ, and the issue of a peremptory writ in vacation. A statute limiting the fine to be imposed for violation of a peremptory writ of mandamus, and providing that, when paid, it shall be a bar to an action for any penalty incurred by reason of refusal or neglect to perform the duty, does not deprive the court of power to punish for disobedience of the writ, or to compel obedience by imprisonment. In case of a disputed election to a municipal office, mandamus may issue to compel the recognition of the defacto officer until the rights of the parties can be determined on quo warranto. The case is stated in the opinion. Mr. William M. Springer and Mr. Thomas Smith for petitioner. Mr. G. H. Gildersleeve was also on the brief. . Mr. John H. Knaebal opposing. Mr. E. L. Bartlett, Solicitor General of New Mexico, was also on the brief.",
+      "confidence": 0.96,
+      "reviewed": false
+    },
+    {
+      "id": "case-556-u-s-418",
+      "start": 959.27,
+      "end": 971.27,
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>Nken</i> v. <i>Holder</i>",
+        "details": "2009 · decided 7–2"
+      },
+      "text": "The Court held that the traditional stay factors governed a court of appeals’ authority to stay an alien’s removal pending judicial review.",
+      "source": "Summary based on Oyez (oyez.org)",
+      "date": "",
+      "highlight": [
+        "Nken"
+      ],
+      "block": "s0t45b1",
+      "evidence": "traditional Nken stay factors",
+      "speaker": "D. John Sauer",
+      "citation": "556 U.S. 418",
+      "source_url": "https://api.oyez.org/cases/2008/08-681",
+      "basis": "Question: Is the decision of a court of appeals to stay an alien's removal pending consideration of the alien's petition for review governed by the standard set forth in section 242(g)(2) of the Immigration and Nationality Act, 8 U.S.C. Section 1252(f)(2), or instead is it governed by the traditional test?\nConclusion: The Supreme Court held that the traditional factors govern a court of appeals' authority to stay an alien's removal pending judicial review. With Chief Justice John G. Roberts writing for the majority and joined by Justices John Paul Stevens, Antonin G. Scalia, Anthony M. Kennedy, David H. Souter, Ruth Bader Ginsburg, and Stephen G. Breyer, the Court elucidated the four factors that govern stays. First, there must be more than a mere possibility that relief will be granted. Second, irreparable injury must be more than a mere possibility. The third and fourth factors, which respectively determine whether the stay will injure the other party and where the public interest lies, merge when the Government is the opposing party, as in this case. Consequently, the Court vacated the order in Mr. Nken's case and remanded it to the Fourth Circuit for review in light of its decision. Justice Kennedy, joined by Justice Scalia, wrote a separate concurring opinion. He emphasized that stays are an extraordinary remedy and should not be granted lightly. Justice Samuel A. Alito dissented and was joined by Justice Clarence Thomas. He argued that the majority decision nullified statutory provisions adopted by Congress in 1996 that stated immigration removal orders were \"self-executing\" and \"not dependent upon judicial enforcement.\"",
+      "confidence": 0.99,
+      "reviewed": false
+    },
+    {
+      "id": "t-dispute",
+      "start": 1169.0,
+      "end": 1186.0,
+      "kind": "Timeline",
+      "heading": "Governor Cook’s removal and this case",
+      "timeline": {
+        "current": 2,
+        "events": [
+          {
+            "date": "Aug 15, 2025",
+            "label": "FHFA director’s criminal referral"
+          },
+          {
+            "date": "Aug 20",
+            "label": "Referral made public; “Cook must resign”"
+          },
+          {
+            "date": "Aug 25",
+            "label": "Removal letter posted"
+          },
+          {
+            "date": "Aug 28",
+            "label": "Cook sues"
+          },
+          {
+            "date": "Sep 9",
+            "label": "Preliminary injunction"
+          },
+          {
+            "date": "Sep 15",
+            "label": "D.C. Cir. denies stay, 2–1"
+          },
+          {
+            "date": "Sep 18",
+            "label": "Stay application filed"
+          },
+          {
+            "date": "Jan 21, 2026",
+            "label": "Oral argument",
+            "gap": true
+          }
+        ]
+      },
+      "source": "Dates from the application, the response and the D.C. Circuit order",
+      "date": "",
+      "highlight": [
+        "removal order",
+        "Truth Social post",
+        "August 25th letter"
+      ]
+    },
+    {
+      "id": "x-removal-clauses",
+      "start": 1290.4,
+      "end": 1306.0,
+      "kind": "Statutes compared",
+      "heading": "Removal clauses enacted in 1935",
+      "compare": [
+        {
+          "title": "Federal Reserve Act",
+          "cite": "12 U.S.C. § 242 · Aug 1935",
+          "text": "… each member shall hold office for a term of fourteen years …, unless sooner removed <mark>for cause</mark> by the President."
+        },
+        {
+          "title": "National Labor Relations Act",
+          "cite": "29 U.S.C. § 153(a) · July 1935",
+          "text": "Any member of the Board may be removed by the President, <mark>upon notice and hearing</mark>, for neglect of duty or malfeasance in office, but for no other cause."
+        }
+      ],
+      "source": "United States Code, 2024 edition (govinfo.gov)",
+      "date": "",
+      "highlight": [
+        "NLRA"
+      ]
+    },
+    {
+      "id": "case-189-u-s-311",
+      "start": 1426.23,
+      "end": 1438.23,
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>Shurtleff</i> v. <i>United States</i>",
+        "details": "1903"
+      },
+      "text": "The Court held that the President could remove general appraisers for reasons beyond the statutory grounds because Congress had not expressly withdrawn his general removal power.",
+      "source": "Summary based on the official syllabus (U.S. Reports)",
+      "date": "",
+      "highlight": [
+        "Shurtleff"
+      ],
+      "block": "s0t105b1",
+      "evidence": "In both Shurtleff and Reagan",
+      "speaker": "D. John Sauer",
+      "citation": "189 U.S. 311",
+      "source_url": "https://static.case.law/us/189/cases/0311-01.json",
+      "basis": "SHURTLEFF v. UNITED STATES. APPEAL FROM THE COURT OF CLAIMS. No. 76. Argued January 20, 1903. Decided April 6, 1903. Where Congress creates an office and provides for the removal of the incumbent at any time for inefficiency, neglect of duty, or malfeasance in office, if the removal of the officer is sought to be made for any of those causes he is entitled to notice and a hearing; but if the President removes him without giving him notice and an opportunity to defend himself, it must be presumed that the removal was not made for any of the causes assigned in the statute. In the absence of constitutional or statutory provision the President can, by virtue of his general power of appointment, remove an officer, even though he were appointed by and with the advice and consent of the Senate. This power (assuming, but not deciding, that Congress could deprive the President of the right to exercise it in such a case as this) cannot be taken away by mere inference or implication, and'in the absence of plain language in the statute Congress will not be presumed to have taken it away. Under section 12 of the Customs Administrative Act of June 10, 189Q, . providing for the appointment of general appraisers and their removal by the President for inefficiency, neglect or malfeasance in office, the President may also remove such officers without any of the causes specified, under his general power of removal. . The appellant seeks to review a judgment of. the Court of Claims denying his right to be paid the salary pertaining to the office of a general appraiser of merchandise and accruing between May 15 and November 1, 1899. The court ref used to decree payment of the claim on the ground that he was not one of the appraisers during the time for which he demanded such salary. The facts, as they appear in the findings of the Court of Claims, are that the appellant was nominated on. July It, 1890, to be one of the general appraisers of merchandise under the act of June 10, 1890, chapter 401, 26 Stat. 131, and that nomination was consented to on. the following day by the Senate, and the appellant was thereupon commissioned ;to be such general appraiser of merchandise. He accepted that office and took the oath required on J uly 24, 1890, and remained in such office and was paid the salary attached thereto up to May 15, 1899. On May 3 of that year he received the following communication from the President: “Executive Mansion, “ Washington, D. C., May 3, 1899. “Sir: You are h",
+      "confidence": 0.98,
+      "reviewed": false
+    },
+    {
+      "id": "g-inm",
+      "start": 1439.9,
+      "end": 1452.0,
+      "kind": "Glossary",
+      "heading": "",
+      "glossary": {
+        "term": "INM",
+        "expansion": "inefficiency, neglect of duty, or malfeasance in office"
+      },
+      "text": "A standard list of grounds for removing an officer, e.g. for members of the Federal Trade Commission (15 U.S.C. § 41). The Federal Reserve Act says only “for cause”.",
+      "source": "",
+      "date": "",
+      "highlight": [
+        "INM"
+      ]
+    },
+    {
+      "id": "case-272-u-s-52",
+      "start": 1541.14,
+      "end": 1553.14,
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>Myers</i> v. <i>United States</i>",
+        "details": "1926"
+      },
+      "text": "The Court held that the Act unconstitutionally restricted the President’s removal power because the power to remove appointed officers was vested in the President alone.",
+      "source": "Summary based on Oyez (oyez.org)",
+      "date": "",
+      "highlight": [
+        "Myers"
+      ],
+      "block": "s0t115b0",
+      "evidence": "all the opinions in Myers",
+      "speaker": "D. John Sauer",
+      "citation": "272 U.S. 52",
+      "source_url": "https://api.oyez.org/cases/1900-1940/272us52",
+      "basis": "Question: Did the Act unconstitutionally restrict the President's power to remove appointed officials?\nConclusion: Yes. After tracing legislative debate of the First Congress in 1789 which dealt with the interpretation of the President's appointment power, Chief Justice Taft concluded that the power to remove appointed officers is vested in the President alone. According to Taft, to deny the President that power would not allow him to \"discharge his own constitutional duty of seeing that the laws be faithfully executed.\"",
+      "confidence": 0.99,
+      "reviewed": false
+    },
+    {
+      "id": "case-357-u-s-349",
+      "start": 1555.81,
+      "end": 1567.81,
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>Wiener</i> v. <i>United States</i>",
+        "details": "1958 · unanimous"
+      },
+      "text": "The Court held that the President lacked authority to remove members of the War Claims Commission at will because Congress intended its adjudication of claims to remain free from executive influence.",
+      "source": "Summary based on Oyez (oyez.org)",
+      "date": "",
+      "highlight": [
+        "Wiener"
+      ],
+      "block": "s0t115b1",
+      "evidence": "It's alluded to in Wiener and so forth, recognizing the President's power of interim or suspensory removals.",
+      "speaker": "D. John Sauer",
+      "citation": "357 U.S. 349",
+      "source_url": "https://api.oyez.org/cases/1957/52",
+      "basis": "Question: Did President Eisenhower have the authority to terminate Wiener's membership on the Commission?\nConclusion: In a unanimous opinion, the Court held that the President did not have the authority to remove individuals from the War Claims Commission at will. The Court found that Congress had intended to create a body that was \"'entirely free from the control or coercive influence, direct or indirect,' of either the Executive or the Congress.\" The \"intrinsic judicial character\" of the Commission's duties required that it be able to adjudicate claims solely on the merits of each claim free of external Executive pressure.\" Congress did not wish to have hand over the Commission the Damocles' sword of removal by the President for no reason other than that he preferred to have on that Commission men of his own choosing.\"",
+      "confidence": 0.99,
+      "reviewed": false
+    },
+    {
+      "id": "case-542-u-s-367",
+      "start": 2315.8,
+      "end": 2327.8,
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>Cheney</i> v. <i>United States District Court for the District of Columbia</i>",
+        "details": "2004 · decided 7–2"
+      },
+      "text": "The Court held that the appellate court should have considered separation-of-powers objections to broad discovery and had wrongly concluded it lacked authority to order that discovery stopped.",
+      "source": "Summary based on Oyez (oyez.org)",
+      "date": "",
+      "highlight": [
+        "Cheney"
+      ],
+      "block": "s0t166b0",
+      "evidence": "the standard in Cheney, clear and indisputable right",
+      "speaker": "D. John Sauer",
+      "citation": "542 U.S. 367",
+      "source_url": "https://api.oyez.org/cases/2003/03-475",
+      "basis": "Question: Does the Federal Advisory Committee Act authorize judicial review of executive branch deliberations through a broad discovery process that allows a private organization to review internal documents of high-level advisors to the President? If such review is authorized by FACA, does it violate the Constitutional doctrine of separation of powers?\nConclusion: In a 7-2 opinion delivered by Justice Anthony Kennedy, the Court sent the case back to the D.C. Court of Appeals, arguing that the appellate court should have considered separation-of-powers claims and was wrong to conclude it lacked authority to order District Court discovery to stop. Such an order (mandamus) to stop discovery proceedings should be considered because those proceedings, \"by virtue of their overbreadth,\" could interfere with presidential activity. Further, the appellate court misinterpreted U.S. v. Nixon to mean that the government needed to assert executive privilege for separation-of-powers objections to be considered.",
+      "confidence": 0.98,
+      "reviewed": false
+    },
+    {
+      "id": "m006",
+      "start": 2604.3,
+      "end": 2650.0,
+      "kind": "Amicus brief",
+      "heading": "Former Federal Reserve Governors",
+      "before": "So would acceptance of the Applicant’s submission that his removal cannot be tested in any proceeding, depriving an accused Board member of a forum for clearing her name.",
+      "quote": "Worse, the Applicant’s standard creates incentives for a President intent on asserting control over the Board to use the vast resources of the Executive Branch to conduct targeted searches for potential improprieties committed prior to service.",
+      "after": "",
+      "source": "Brief of Former Members of the Board of Governors as amici curiae, p. 7",
+      "date": "Oct 29, 2025",
+      "highlight": [
+        "former Governors of the Federal Reserve"
+      ]
+    },
+    {
+      "id": "case-603-u-s-593",
+      "start": 2670.32,
+      "end": 2682.32,
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>Trump</i> v. <i>United States</i>",
+        "details": "2024 · decided 6–3"
+      },
+      "text": "The Court held that former Presidents had absolute criminal immunity for acts within their exclusive constitutional authority, at least presumptive immunity for other official acts, and no immunity for unofficial acts.",
+      "source": "Summary based on Oyez (oyez.org)",
+      "date": "",
+      "highlight": [
+        "Trump against United States"
+      ],
+      "block": "s0t189b0",
+      "evidence": "Trump against United States",
+      "speaker": "D. John Sauer",
+      "citation": "603 U.S. 593",
+      "source_url": "https://api.oyez.org/cases/2023/23-939",
+      "basis": "Question: Does a former president enjoy presidential immunity from criminal prosecution for conduct alleged to involve official acts during his tenure in office, and if so, to what extent?\nConclusion: A former U.S. President has absolute immunity from criminal prosecution for actions within his conclusive and preclusive constitutional authority, at least presumptive immunity from prosecution for all his official acts, and no immunity for unofficial acts. Chief Justice Roberts, writing for the Court majority, concluded that a former President has some immunity from criminal prosecution for official acts during his tenure in office. This immunity stems primarily from constitutional separation of powers principles and precedents recognizing similar immunities in civil contexts. The President has absolute immunity from prosecution for actions taken pursuant to his exclusive constitutional powers, such as pardoning offenses or removing executive officers. This absolute immunity exists because Congress cannot criminalize, and courts cannot review, the President’s exercise of these core constitutional authorities. For official actions outside the President’s exclusive constitutional powers, there is at least a presumptive immunity from prosecution. This presumptive immunity is rooted in the need to ensure the President can perform his duties without undue caution or distraction, as established in cases like Nixon v. Fitzgerald. The government may attempt to rebut this presumption by demonstrating that prosecution would not unduly intrude on executive functions. However, evidence of immune official acts cannot be used to prove liability for unofficial acts, as this would undermine the purpose of the immunity. Finally, drawing on Clinton v. Jones, the Court affirmed that the President has no immunity for actions taken in an unofficial or personal capacity. To apply this framework, courts must carefully analyze alleged conduct to determine whether it qualifies as official or unofficial. The Court rejected both Trump’s argument for broader immunity absent impeachment and conviction, and the government’s contention that the President has no immunity from criminal prosecution whatsoever. Instead, it established a nuanced approach requiring case-by-case analysis of presidential conduct to determine the applicable level of immunity, if any. Justice Clarence Thomas wrote a separate concurrence to highlight that he believes the Special Counsel’s prosecution of Trump may be unconstitutional because there are serious questions about whether the office of the Special Counsel was properly “established by Law” as required by the Constitution’s Appointments Clause. Justice Amy Coney Barrett wrote a separate opinion concurring in part to argue that rather than framing the issue as “immunity,” the Court should have adopted a two-step analysis for assessing the validity of criminal charges against a President for official acts: first determining if the relevant statute applies to the President's conduct, and then evaluating whether prosecuting the President under that statute would unconstitutionally intrude on executive power. Justice Sonia Sotomayor dissented because she believes the majority’s decision to grant former Presidents broad immunity from criminal prosecution for official acts is unjustified by constitutional text, history, or precedent, and dangerously places the President above the law. Justice Ketanji Brown Jackson dissented because she believes the majority’s creation of a new “Presidential accountability model” that sometimes exempts Presidents from criminal law for official acts fundamentally alters the balance of power, undermines the rule of law, and risks incentivizing presidential abuses of power.",
+      "confidence": 0.99,
+      "reviewed": false
+    },
+    {
+      "id": "case-487-u-s-654",
+      "start": 2699.46,
+      "end": 2711.46,
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>Morrison</i> v. <i>Olson</i>",
+        "details": "1988 · decided 7–1"
+      },
+      "text": "The Court held that the independent counsel law did not violate separation of powers because it did not impermissibly interfere with Executive Branch functions.",
+      "source": "Summary based on Oyez (oyez.org)",
+      "date": "",
+      "highlight": [
+        "Morrison"
+      ],
+      "block": "s0t190b0",
+      "evidence": "Justice Scalia's dissent in Morrison",
+      "speaker": "Brett M. Kavanaugh",
+      "citation": "487 U.S. 654",
+      "source_url": "https://api.oyez.org/cases/1987/87-1279",
+      "basis": "Question: Did the Act violate the constitutional principal of separation of powers?\nConclusion: The Court addressed a number of constitutional issues in this case and upheld the law. The near-unanimous Court held that the means of selecting the independent counsel did not violate the Appointments Clause; the powers allocated to the special court did not violate Article III; and the Act was not offensive to the separation of powers doctrine since it did not impermissibly interfere with the functions of the Executive Branch.",
+      "confidence": 0.99,
+      "reviewed": false
+    },
+    {
+      "id": "m008",
+      "start": 3127.41,
+      "end": 3142.59,
+      "kind": "Applicant’s brief",
+      "heading": "Supplemental brief, page 9, footnote 4",
+      "before": "Here, there was no uniform or settled rule in 1935 (or any other time) that removals for “cause” required notice and a hearing.",
+      "quote": "Amicus Professor Manners cites (Br. 6-12) cases imposing such a requirement, but many courts disagreed, instead reasoning that “the omission from [a for-cause removal provision] of any requirement of notice or hearing” indicates that “neither notice [n]or hearing is a necessary condition precedent to a valid removal.” <i>State ex rel. Ulrick</i> v. <i>Sanchez</i>, 255 P. 1077, 1086-1087 (N.M. 1926).<sup>4</sup>",
+      "after": "<sup>4</sup> See, <i>e.g.</i>, <i>Patton</i> v. <i>Vaughan</i>, 39 Ark. 211, 215 (1882); <i>In re Carter</i>, 74 P. 997, 998 (Cal. 1903); <i>Trimble</i> v. <i>People</i>, 34 P. 981, 985-986 (Colo. 1893); …",
+      "source": "Supplemental brief of applicant Donald J. Trump, p. 9",
+      "date": "Nov 19, 2025",
+      "highlight": [
+        "supplemental brief, page 9, Footnote 4"
+      ]
+    },
+    {
+      "id": "case-295-u-s-602",
+      "start": 4017.6,
+      "end": 4029.6,
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>Humphrey's Executor</i> v. <i>United States</i>",
+        "details": "1935"
+      },
+      "text": "The Court held that the FTC Act’s restrictions on presidential removal were constitutional and that Humphrey’s dismissal on policy grounds was unjustified.",
+      "source": "Summary based on Oyez (oyez.org)",
+      "date": "",
+      "highlight": [
+        "Executor",
+        "Humphrey's"
+      ],
+      "block": "s1t23b1",
+      "evidence": "whatever you think of Humphrey's Executor",
+      "speaker": "Paul D. Clement",
+      "citation": "295 U.S. 602",
+      "source_url": "https://api.oyez.org/cases/1900-1940/295us602",
+      "basis": "Question: Did section 1 of the Federal Trade Commission Act unconstitutionally interfere with the executive power of the President?\nConclusion: The unanimous Court found that the FTC Act was constitutional and that Humphrey's dismissal on policy grounds was unjustified. The Court reasoned that the Constitution had never given \"illimitable power of removal\" to the president. Justice Sutherland dismissed the government's main line of defense in this case which relied heavily on the Court's decision in Myers v. United States (1926). In that case the Court upheld the president's right to remove officers who were \"units of the executive department.\" The FTC was different, argued Sutherland, because it was a body created by Congress to perform quasi-legislative and judicial functions. The Myers precedent, therefore, did not apply in this situation.",
+      "confidence": 0.99,
+      "reviewed": false
+    },
+    {
+      "id": "case-506-u-s-224",
+      "start": 4078.09,
+      "end": 4090.09,
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>Nixon</i> v. <i>United States</i>",
+        "details": "1993 · unanimous"
+      },
+      "text": "The Court held that Nixon’s challenge to the Senate’s impeachment trial rule was nonjusticiable because the Constitution committed the sole power to try impeachments to the Senate.",
+      "source": "Summary based on Oyez (oyez.org)",
+      "date": "",
+      "highlight": [
+        "Nixon"
+      ],
+      "block": "s1t34b0",
+      "evidence": "the Walter Nixon case says that there's no judicial review of the impeachment determination",
+      "speaker": "Paul D. Clement",
+      "citation": "506 U.S. 224",
+      "source_url": "https://api.oyez.org/cases/1992/91-740",
+      "basis": "Question: Is Nixon's claim -- that Senate Rule XI violates the Impeachment Trial Clause -- justiciable, i.e., appropriate for judicial resolution?\nConclusion: No. A unanimous Court held that the question of whether or not the Senate rule violated the U.S. Constitution was nonjusticiable since the Impeachment clause expressly granted that the \"Senate shall have sole Power to try any impeachments.\" The clause laid out specific regulations that were to be followed and as long as those guidelines were observed the courts would not rule upon the validity of other Senate procedures regarding impeachments. Chief Justice William Rehnquist observed that while the Supreme Court was the \"ultimate intrepreter of the Constitution,\" a matter would be deemed nonjusticiable when there was \"a constitutional commitment of the issue to a coordinate political department.\"",
+      "confidence": 0.99,
+      "reviewed": false
+    },
+    {
+      "id": "case-603-u-s-369",
+      "start": 4678.43,
+      "end": 4690.43,
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>Loper Bright Enterprises</i> v. <i>Raimondo</i>",
+        "details": "2024 · decided 6–2"
+      },
+      "text": "The Court held that the Administrative Procedure Act required independent judicial judgment on agency statutory authority and prohibited deference merely because a statute was ambiguous, overruling Chevron.",
+      "source": "Summary based on Oyez (oyez.org)",
+      "date": "",
+      "highlight": [
+        "Loper"
+      ],
+      "block": "s1t82b2",
+      "evidence": "in a post-Loper world, there's no deference to the legal questions",
+      "speaker": "Paul D. Clement",
+      "citation": "603 U.S. 369",
+      "source_url": "https://api.oyez.org/cases/2023/22-451",
+      "basis": "Question: 1. Does the Magnuson-Stevens Act authorize the National Marine Fisheries Service to promulgate a rule that would require industry to pay for at-sea monitoring programs? 2. Should the Court overrule Chevron v. Natural Resources Defense Council or at least clarify whether statutory silence on controversial powers creates an ambiguity requiring deference to the agency?\nConclusion: The Administrative Procedure Act requires courts to exercise their independent judgment in deciding whether an agency has acted within its statutory authority, and courts may not defer to an agency interpretation of the law simply because a statute is ambiguous. Chevron U.S.A. Inc. v. Natural Resources Defense Council, Inc., 467 U.S. 837, is overruled. Chief Justice John Roberts authored the majority opinion of the Court (which also decided the consolidated case, Relentless, Inc. v. Department of Commerce, No. 22-1219). The Administrative Procedure Act (APA) of 1946 requires courts to \"decide all relevant questions of law\" when reviewing agency actions. This means courts should use their own judgment to interpret laws, not defer to agencies' interpretations. The Chevron doctrine, established in the 1984 case Chevron U.S.A. v. Natural Resources Defense Council, Inc., 467 U.S. 837, contradicts this principle. Chevron required courts to defer to agency interpretations of ambiguous statutes if those interpretations were reasonable. Chevron was based on a flawed assumption that Congress intends to delegate interpretive authority to agencies whenever a law is ambiguous. This assumption doesn't reflect reality and goes against the traditional role of courts. Chevron has been difficult to apply consistently and has led to confusion in lower courts. It has also been gradually limited by subsequent Supreme Court decisions. Thus, Chevron should be overruled because it contradicts the APA, is based on faulty reasoning, has proven unworkable in practice, and hasn't created the kind of settled expectations that would justify keeping it in place. However, this decision does not necessarily overturn the specific outcomes of past cases that used Chevron. Those outcomes would need to be challenged separately. Justices Clarence Thomas and Neil Gorsuch each filed concurring opinions. Justice Elena Kagan authored a dissenting opinion, in which Justice Sonia Sotomayor joined, and Justice Ketanji Brown Jackson joined as to No. 22-1219. Justice Jackson took no part in the consideration or decision of No. 22-451.",
+      "confidence": 0.99,
+      "reviewed": false
+    },
+    {
+      "id": "m009",
+      "start": 6616.39,
+      "end": 6660.0,
+      "kind": "Amicus brief",
+      "heading": "Professor Jane Manners — the meaning of “for cause”",
+      "before": "",
+      "quote": "Courts explained that “[t]he phrase ‘for cause’ does not mean the arbitrary will of the appointing power, for that might be the outgrowth of mere whim, caprice, prejudice, or passion, which would, in reality, be no cause at all.” <i>Williams</i>, 53 A. at 925; <i>ibid.</i> (“[T]he phrase ‘for cause’ must mean some cause affecting or concerning the ability or fitness of the incumbent to perform the duty imposed upon him. * * * Hence [‘for cause’] must be inefficiency, incompetency, or other kindred disqualification.”)",
+      "after": "",
+      "source": "Brief of Professor Jane Manners as amicus curiae, p. 21",
+      "date": "Oct 29, 2025",
+      "highlight": [
+        "Hagertown",
+        "Hagerstown"
+      ]
+    },
+    {
+      "id": "case-594-u-s-220",
+      "start": 6893.68,
+      "end": 6905.68,
+      "kind": "Case",
+      "label": "",
+      "heading": "",
+      "case": {
+        "name": "<i>Collins</i> v. <i>Yellen</i>",
+        "details": "2021"
+      },
+      "text": "The Court held that statutory restrictions on the President’s power to remove the Federal Housing Finance Agency’s Director violated separation of powers.",
+      "source": "Summary based on Oyez (oyez.org)",
+      "date": "",
+      "highlight": [
+        "Collins against Yellen"
+      ],
+      "block": "s2t0b2",
+      "evidence": "Collins against Yellen",
+      "speaker": "D. John Sauer",
+      "citation": "594 U.S. 220",
+      "source_url": "https://api.oyez.org/cases/2020/19-422",
+      "basis": "Question: 1. Did the shareholders of Fannie Mae and Freddie Mac properly bring a claim under the Housing and Economic Recovery Act of 2008? 2. Does the Federal Housing Finance Agency’s (FHFA) structure violate the separation of powers? 3. If FHFA’s structure violates the separation of powers, what is the proper remedy for a final agency action that FHFA took when it was unconstitutionally structured?\nConclusion: 1. Because the FHFA did not exceed its authority under the Recovery Act as a conservator of Fannie Mae and Freddie Mac, the anti-injunction provisions of the Recovery Act bar the statutory claim brought by shareholders of those entities. 2. The structure of the Housing and Economic Recovery Act of 2008, which restricts the President’s power to remove the Federal Housing Finance Agency (FHFA) Director, violates the separation of powers. 3. It is unnecessary to set aside the entire Third Amendment, but the case is remanded for the lower court to determine the proper remedy based on the harms suffered. Justice Samuel Alito authored the majority opinion of the Court. The Court first considered whether the shareholders were barred from bringing their statutory claim. The Recovery Act contains a provision known as the anti-injunction provision, stating that unless review is specifically authorized by a provision or requested by the Director, “no court may take any action to restrain or affect the exercise of powers or functions of the Agency as a conservator or a receiver.” This provision applies only when the FHFA exercised its “powers or functions” “as a conservator or a receiver,” and not when it exceeds those powers or functions. When the FHFA agreed to the Third Amendment, it was acting in the best interests of the regulated entity or the Agency, as required by statute, and thus it was exercising authority granted to it by the Recovery Act. As such, the shareholders are barred from bringing their statutory claim. The Court then considered the shareholders’ constitutional claim—that the Recovery Act violated the separation of powers by restricting the President’s power to remove the Director. As a threshold matter, the Court determined that the shareholders had standing to bring their claim and that their claim is not moot. Turning to the merits, the Court noted that its decision in Seila Law is “all but dispositive”; there, the Court held Congress could not limit the President’s power to remove the single director of an independent agency (the Consumer Financial Protection Bureau, in that case). Just as the CFPB was in Seila Law, the FHFA is led by a single director, so Congress similarly cannot limit the President’s power to remove the director of the FHFA. Finally, the Court considered the relief to which shareholders were entitled based on the success of their constitutional claim. Because the head of the FHFA apparently had the authority to carry out the functions of the office, the Court declined to hold that the Third Amendment must be completely undone and differentiated directors unconstitutionally appointed from those unconstitutionally insulated from removal. The parties disputed whether the unconstitutional restriction caused harm, so the Court remanded the issue for the lower courts to resolve. Justice Clarence Thomas joined the majority opinion in full but authored a concurring opinion to clarify that “the government does not necessarily act unlawfully even if a removal restriction is unlawful in the abstract.” Justice Neil Gorsuch joined the majority opinion except as to the question of retrospective relief. In his concurring opinion, Justice Gorsuch argued that the Court should vacate the judgment below with instructions requiring the appellate court to set aside the Director’s ultra vires actions as “contrary to constitutional right” and criticized the Court’s attempt to differentiate unconstitutionally appointed directors from those unconstitutionally insulated. Justice Elena Kagan authored an opinion concurring in part and concurring in the judgment, joined by Justice Stephen Breyer and Sonia Sotomayor. Justice Kagan agreed with the majority that the FHFA acted within its statutory authority but argued that the Court could have reached the conclusion that the FHFA’s for-cause removal provision violates the Constitution on stare decisis alone, rather than using “faulty theoretical premises” that go “further than it needs to.” Justice Sotomayor authored an opinion concurring in part and dissenting in part, which Justice Breyer joined. Justice Sotomayor pointed out that the Court’s decision in Seila Law expressly distinguished the FHFA from the CFPB on the ground that the FHFA does not possess “regulatory or enforcement authority remotely comparable to that exercised by the CFPB.” As such, Seila Law should not determine the outcome in this case.",
+      "confidence": 0.99,
+      "reviewed": false
+    }
+  ]
+}

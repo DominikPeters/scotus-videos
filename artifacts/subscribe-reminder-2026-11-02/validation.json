@@ -1,0 +1,28 @@
+{
+  "subscribe_reminder": {
+    "start_seconds": 600,
+    "end_seconds": 608,
+    "minimum_gap_seconds": 15,
+    "basis": "actual rendered card visibility including transitions"
+  },
+  "selected_claude_cards": 26,
+  "browser": {
+    "screenshots": 6,
+    "card_overlap": false,
+    "within_sidebar": true,
+    "parallel_reminder_pixels_identical": true,
+    "section_popup_removed": true
+  },
+  "presentation_replay": {
+    "pixel_checks": 8,
+    "scroll_checks": 2244,
+    "section_transitions": 3
+  },
+  "python_tests": {
+    "run": 284,
+    "skipped": 3,
+    "passed": true
+  },
+  "builds_submitted": 0,
+  "deployed": false
+}

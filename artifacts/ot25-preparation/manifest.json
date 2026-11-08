@@ -1,0 +1,681 @@
+{
+  "term": 2025,
+  "scope": "Calendar-2026 OT25 arguments; coverage checked against the Court audio index and current Oyez listing.",
+  "counts": {
+    "cases": 31,
+    "unique_advocates": 58,
+    "existing_portraits": 43,
+    "new_candidates": 14,
+    "approved": 14,
+    "square_crops": 14,
+    "unresolved": 1
+  },
+  "metadata_summary": "Fresh Oyez metadata and official Court dockets are saved for all 31 arguments. All have case descriptions, questions presented and advocate information; 28 have decision metadata.",
+  "advocates": [
+    {
+      "id": "jules_lobel",
+      "name": "Jules L. Lobel",
+      "existing_image": null,
+      "cases": [
+        "24-699"
+      ],
+      "status": "approved",
+      "candidate": {
+        "name": "Jules L. Lobel",
+        "cases": [
+          "24-699"
+        ],
+        "image_url": "https://www.law.pitt.edu/sites/default/files/person-img/Jules%20Lobel%2024.jpg",
+        "source_url": "https://www.law.pitt.edu/people/jules-lobel",
+        "identity_source_url": "https://www.law.pitt.edu/people/jules-lobel",
+        "kind": "photo",
+        "approval": "approved",
+        "original_file": "originals/jules_lobel.jpg",
+        "width": 3710,
+        "height": 2636,
+        "sha256": "9ac6dbfce3b776f39168f9ccefdfdcb909e7f2071d29e16e5371bd31087f6aa5",
+        "identity_evidence": "Official Court argued entry confirms name and city; professional profile matches name, practice and location. See cached docket and profile."
+      },
+      "crop": {
+        "source_file": "originals/jules_lobel.jpg",
+        "source_sha256": "9ac6dbfce3b776f39168f9ccefdfdcb909e7f2071d29e16e5371bd31087f6aa5",
+        "box": [
+          537,
+          0,
+          3173,
+          2636
+        ],
+        "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+        "output_file": "square/jules_lobel.jpg",
+        "width": 1024,
+        "height": 1024,
+        "sha256": "4a12c515f6f7f6cc8b8f898bce7541ee6ec0dd462ed44782360b94b92845c8f1"
+      },
+      "private_notes": "",
+      "docket_evidence": [
+        {
+          "docket": "24-699",
+          "text": "Argued. For petitioner: Morgan L. Ratner, Washington, D. C.; and Curtis E. Gannon, Deputy Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.) For respondents: Jules L. Lobel, Pittsburgh, Pa."
+        }
+      ]
+    },
+    {
+      "id": "geoffrey_m_pipoly",
+      "name": "Geoffrey M. Pipoly",
+      "existing_image": null,
+      "cases": [
+        "25-1083"
+      ],
+      "status": "approved",
+      "candidate": {
+        "name": "Geoffrey M. Pipoly",
+        "cases": [
+          "25-1083"
+        ],
+        "image_url": "https://www.bclplaw.com/a/web/oWp5dkhZvBRg5veRvR73fa/a8LZtV/9em_web_pipoly_geoff.jpg",
+        "source_url": "https://www.bclplaw.com/en-US/people/geoffrey-m-pipoly.html",
+        "identity_source_url": "https://www.bclplaw.com/en-US/people/geoffrey-m-pipoly.html",
+        "kind": "photo",
+        "approval": "approved",
+        "original_file": "originals/geoffrey_m_pipoly.jpg",
+        "width": 2560,
+        "height": 1333,
+        "sha256": "cc3b755f76eabc6e8548067479eb2f0688cba6bf6dc2fddeea3ca875dd05504b",
+        "identity_evidence": "Official Court argued entry confirms name and city; professional profile matches name, practice and location. See cached docket and profile."
+      },
+      "crop": {
+        "source_file": "originals/geoffrey_m_pipoly.jpg",
+        "source_sha256": "cc3b755f76eabc6e8548067479eb2f0688cba6bf6dc2fddeea3ca875dd05504b",
+        "box": [
+          1240,
+          0,
+          2090,
+          850
+        ],
+        "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+        "output_file": "square/geoffrey_m_pipoly.jpg",
+        "width": 850,
+        "height": 850,
+        "sha256": "c7196c1b18969d2b2fbb56c72f04ef10cc691d8298ca3987a1f4a430b41dc5a5"
+      },
+      "private_notes": "",
+      "docket_evidence": [
+        {
+          "docket": "25-1083",
+          "text": "Argued. For petitioners: D. John Sauer, Solicitor General, Department of Justice, Washington, D. C.  For respondents in 25-1083: Ahilan T. Arulanantham, Los Angeles, Cal. For respondents in 25-1084: Geoffrey M. Pipoly, Chicago, Ill.  VIDED."
+        }
+      ]
+    },
+    {
+      "id": "tobias_s_loss_eaton",
+      "name": "Tobias S. Loss-Eaton",
+      "existing_image": null,
+      "cases": [
+        "25-5146"
+      ],
+      "status": "approved",
+      "candidate": {
+        "name": "Tobias S. Loss-Eaton",
+        "cases": [
+          "25-5146"
+        ],
+        "source_url": "https://www.sidley.com/en/people/l/losseaton-tobias-s",
+        "identity_source_url": "https://www.sidley.com/en/people/l/losseaton-tobias-s",
+        "image_url": "https://www.sidley.com/-/jssmedia/images/people/l/losseaton-tobias-s/lowresolutionimage/tlosseaton.jpg?h=525&iar=0&w=375&rev=c9cc3b80794944c49c13089a201e1274&sc_lang=en&hash=AFFC92AA32805D8768411FDF291708F5",
+        "original_file": "originals/tobias_s_loss_eaton.jpg",
+        "width": 375,
+        "height": 525,
+        "sha256": "60a2ccc5b56bf85fdc1cd9e42100de9f4f431bf34075e9ec3d3bea958bb067d8",
+        "kind": "photo",
+        "approval": "approved",
+        "identity_evidence": "Official docket Argued entry matches name and location. Firm profile inspected in Chrome confirms professional identity."
+      },
+      "crop": {
+        "source_file": "originals/tobias_s_loss_eaton.jpg",
+        "source_sha256": "60a2ccc5b56bf85fdc1cd9e42100de9f4f431bf34075e9ec3d3bea958bb067d8",
+        "box": [
+          0,
+          0,
+          375,
+          375
+        ],
+        "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+        "output_file": "square/tobias_s_loss_eaton.jpg",
+        "width": 375,
+        "height": 375,
+        "sha256": "37d89a671d435c7aff0443d911b10ac4d72c859ab3d98d399f571fcf1532ce02"
+      },
+      "private_notes": "",
+      "docket_evidence": [
+        {
+          "docket": "25-5146",
+          "text": "Argued. For petitioner: Tobias S. Loss-Eaton, Washington, D. C.  For respondent: Anthony A. Yang, Assistant to the Solicitor General, Department of Justice, Washington, D. C."
+        }
+      ]
+    },
+    {
+      "id": "alan_a_beck",
+      "name": "Alan A. Beck",
+      "existing_image": null,
+      "cases": [
+        "24-1046 "
+      ],
+      "status": "approved",
+      "candidate": {
+        "image_url": "https://mtifirm.com/wp-content/uploads/2023/08/alan-beck.jpg",
+        "original_file": "replacements/alan_a_beck.jpg",
+        "width": 567,
+        "height": 850,
+        "sha256": "75ca81c1143674666f5bbd523ce6da78eda9d6429678b6f4bb7906050a7fbb27",
+        "identity_evidence": "Image supplied by the owner for this advocate.",
+        "source_url": "https://mtifirm.com/wp-content/uploads/2023/08/alan-beck.jpg",
+        "asset_type": "owner-selected source image",
+        "name": "Alan A. Beck",
+        "approval": "approved"
+      },
+      "crop": {
+        "source_file": "replacements/alan_a_beck.jpg",
+        "source_sha256": "75ca81c1143674666f5bbd523ce6da78eda9d6429678b6f4bb7906050a7fbb27",
+        "box": [
+          0,
+          0,
+          567,
+          567
+        ],
+        "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+        "output_file": "square/alan_a_beck.jpg",
+        "width": 567,
+        "height": 567,
+        "sha256": "c5c8da2719a163b339d8e2187f316fc3e2057e2fa1d8eea561589a2fa745754c"
+      },
+      "private_notes": "",
+      "docket_evidence": [
+        {
+          "docket": "24-1046",
+          "text": "Argued. For petitioners: Alan A. Beck, San Diego, Cal.; and Sarah M. Harris, Principal Deputy Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.) For respondent: Neal K. Katyal, Washington, D. C."
+        }
+      ]
+    },
+    {
+      "id": "charles_b_klein",
+      "name": "Charles B. Klein",
+      "existing_image": null,
+      "cases": [
+        "24-889 "
+      ],
+      "status": "approved",
+      "candidate": {
+        "name": "Charles B. Klein",
+        "cases": [
+          "24-889 "
+        ],
+        "image_url": "https://www.winstontaylor.com/img/fbe72de6-f17f-496b-81d6-9b90a53e8a23/klein-charles-bw-2.jpg",
+        "source_url": "https://www.winstontaylor.com/people/charles-b-klein",
+        "identity_source_url": "https://www.winstontaylor.com/people/charles-b-klein",
+        "kind": "photo",
+        "approval": "approved",
+        "original_file": "originals/charles_b_klein.jpg",
+        "width": 1500,
+        "height": 2000,
+        "sha256": "7993c7193da05b8e2e52a95bd67848ea7d871668123851f544a010e1ce122b38",
+        "identity_evidence": "Official Court argued entry confirms name and city; professional profile matches name, practice and location. See cached docket and profile."
+      },
+      "crop": {
+        "source_file": "originals/charles_b_klein.jpg",
+        "source_sha256": "7993c7193da05b8e2e52a95bd67848ea7d871668123851f544a010e1ce122b38",
+        "box": [
+          200,
+          70,
+          1400,
+          1270
+        ],
+        "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+        "output_file": "square/charles_b_klein.jpg",
+        "width": 1024,
+        "height": 1024,
+        "sha256": "4bb738e0048ae187be39eb358f092be9168bfde1eddb1008189728d801e7b388"
+      },
+      "private_notes": "",
+      "docket_evidence": [
+        {
+          "docket": "24-889",
+          "text": "Argued. For petitioners: Charles B. Klein, Washington, D. C.; and Malcolm L. Stewart, Deputy Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.)  For respondents: Michael R. Huston, Phoenix, Ariz."
+        }
+      ]
+    },
+    {
+      "id": "joseph_j_perkovich",
+      "name": "Joseph J. Perkovich",
+      "existing_image": null,
+      "cases": [
+        "24-7351"
+      ],
+      "status": "approved",
+      "candidate": {
+        "name": "Joseph J. Perkovich",
+        "image_url": "https://law.washu.edu/wp-content/uploads/2025/07/Unknown-e1590609520986-1.png",
+        "source_url": "https://law.washu.edu/directory/profile/joseph-perkovich/",
+        "identity_evidence": "Official university biography identifies founding principal of Phillips Black, matching docket 24-7351.",
+        "sha256": "92cfec4621a8c03beae23adf03d58b1aedafcb0b1f6f768ef75e02c0bd978647",
+        "dimensions": [
+          480,
+          480
+        ],
+        "approval": "approved",
+        "path": "artifacts/ot25-preparation/originals/joseph-j-perkovich.png",
+        "original_file": "originals/joseph-j-perkovich.png",
+        "width": 480,
+        "height": 480
+      },
+      "crop": {
+        "source_file": "originals/joseph-j-perkovich.png",
+        "source_sha256": "92cfec4621a8c03beae23adf03d58b1aedafcb0b1f6f768ef75e02c0bd978647",
+        "box": [
+          0,
+          0,
+          480,
+          480
+        ],
+        "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+        "output_file": "square/joseph_j_perkovich.jpg",
+        "width": 480,
+        "height": 480,
+        "sha256": "7a2cd3fbd7bd02ab6675631895669027bbc7f03f531f68d9e7ce333f73b99062"
+      },
+      "private_notes": "",
+      "docket_evidence": [
+        {
+          "docket": "24-7351",
+          "text": "Argued. For petitioner: Joseph J. Perkovich, New York, N. Y. (Appointed by this Court.)  For respondents: Scott G. Stewart, Solicitor General, Jackson, Miss.; and Emily M. Ferguson, Assistant to the Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.)"
+        }
+      ]
+    },
+    {
+      "id": "emily_m_ferguson",
+      "name": "Emily M. Ferguson",
+      "existing_image": null,
+      "cases": [
+        "24-7351"
+      ],
+      "status": "approved",
+      "candidate": {
+        "image_url": "https://media.licdn.com/dms/image/v2/C4E03AQFbBZYO4pM6pA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1553559662666?e=1793836800&v=beta&t=FvziTNUc5zlKMsyL9x-xOQOMDh7RAA_HflNLu1NPbJI",
+        "original_file": "replacements/emily_m_ferguson.jpg",
+        "width": 800,
+        "height": 800,
+        "sha256": "a206ab1d059d898c725798970e5c42e24516fc90ae1fbd04df6b3dfb08cbd8af",
+        "identity_evidence": "Image supplied by the owner for this advocate.",
+        "source_url": "https://media.licdn.com/dms/image/v2/C4E03AQFbBZYO4pM6pA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1553559662666?e=1793836800&v=beta&t=FvziTNUc5zlKMsyL9x-xOQOMDh7RAA_HflNLu1NPbJI",
+        "asset_type": "owner-selected source image",
+        "name": "Emily M. Ferguson",
+        "approval": "approved"
+      },
+      "crop": {
+        "source_file": "replacements/emily_m_ferguson.jpg",
+        "source_sha256": "a206ab1d059d898c725798970e5c42e24516fc90ae1fbd04df6b3dfb08cbd8af",
+        "box": [
+          0,
+          0,
+          800,
+          800
+        ],
+        "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+        "output_file": "square/emily_m_ferguson.jpg",
+        "width": 800,
+        "height": 800,
+        "sha256": "623fd59b7fd4ddb19d6157d83e62adeb0ff72aa98ad4c37539f8e64d8da0b98e"
+      },
+      "private_notes": "",
+      "docket_evidence": [
+        {
+          "docket": "24-7351",
+          "text": "Argued. For petitioner: Joseph J. Perkovich, New York, N. Y. (Appointed by this Court.)  For respondents: Scott G. Stewart, Solicitor General, Jackson, Miss.; and Emily M. Ferguson, Assistant to the Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.)"
+        }
+      ]
+    },
+    {
+      "id": "michael_zuckerman",
+      "name": "Michael Zuckerman",
+      "existing_image": null,
+      "cases": [
+        "24-1021"
+      ],
+      "status": "approved",
+      "candidate": {
+        "name": "Michael Zuckerman",
+        "cases": [
+          "24-1021"
+        ],
+        "image_url": "https://www.njoag.gov/wp-content/uploads/2024/03/Michael-Zuckerman_8x10_2024-scaled.jpg",
+        "source_url": "https://www.njoag.gov/about/leadership/michael-zuckerman-bio/",
+        "identity_source_url": "https://www.njoag.gov/about/leadership/michael-zuckerman-bio/",
+        "kind": "photo",
+        "approval": "approved",
+        "original_file": "originals/michael_zuckerman.jpg",
+        "width": 2048,
+        "height": 2560,
+        "sha256": "bb9a1b41b39e5ad9dcc0db094143e6ee953fc762fabb7dd2cb4c319753d00544",
+        "identity_evidence": "Official Court argued entry confirms name and city; authoritative professional profile matches name, firm/agency and location. Profile inspected in Chrome where direct request was blocked."
+      },
+      "crop": {
+        "source_file": "originals/michael_zuckerman.jpg",
+        "source_sha256": "bb9a1b41b39e5ad9dcc0db094143e6ee953fc762fabb7dd2cb4c319753d00544",
+        "box": [
+          0,
+          0,
+          2048,
+          2048
+        ],
+        "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+        "output_file": "square/michael_zuckerman.jpg",
+        "width": 1024,
+        "height": 1024,
+        "sha256": "fe50e65ea4c68bbf6e521ca931fa3ca0d5294cc4d1480b288820f25be9520fa7"
+      },
+      "private_notes": "",
+      "docket_evidence": [
+        {
+          "docket": "24-1021",
+          "text": "Argued. For New Jersey Transit Corporation, et al.: Michael Zuckerman, Deputy Solicitor General, Trenton, N. J. For Galette and Colt, et al.: Michael B. Kimberly, Washington, D. C. VIDED."
+        }
+      ]
+    },
+    {
+      "id": "philip_l_ellison",
+      "name": "Philip L. Ellison",
+      "existing_image": null,
+      "cases": [
+        "25-95"
+      ],
+      "status": "approved",
+      "candidate": {
+        "name": "Philip L. Ellison",
+        "cases": [
+          "25-95"
+        ],
+        "image_url": "https://img1.wsimg.com/isteam/ip/7da5daa7-28ee-4c1d-9be2-f2195774697a/a00e261d-1f50-4f7f-b101-546e434b6c1c.jpeg",
+        "source_url": "https://michigansupremecourtattorney.com/meet-attorney-ellison",
+        "identity_source_url": "https://michigansupremecourtattorney.com/meet-attorney-ellison",
+        "kind": "photo",
+        "approval": "approved",
+        "original_file": "originals/philip_l_ellison.jpg",
+        "width": 686,
+        "height": 960,
+        "sha256": "32cb894b0e6b1e952c9b1cde017c0c2035616d3d1b23bd144bbb878a2bb5a826",
+        "identity_evidence": "Official Court argued entry confirms name and city; professional profile matches name, practice and location. See cached docket and profile."
+      },
+      "crop": {
+        "source_file": "originals/philip_l_ellison.jpg",
+        "source_sha256": "32cb894b0e6b1e952c9b1cde017c0c2035616d3d1b23bd144bbb878a2bb5a826",
+        "box": [
+          0,
+          35,
+          686,
+          721
+        ],
+        "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+        "output_file": "square/philip_l_ellison.jpg",
+        "width": 686,
+        "height": 686,
+        "sha256": "bc5e5d6e17d253e277eed74e97a2ee6b0a031a1db3520bcbe1991ba4cde41459"
+      },
+      "private_notes": "",
+      "docket_evidence": [
+        {
+          "docket": "25-95",
+          "text": "Argued. For petitioner: Philip L. Ellison, Hemlock, Mich. For United States, as amicus curiae: Frederick Liu, Assistant to the Solicitor General, Department of Justice, Washington, D. C. For respondent: Matthew T. Nelson, Grand Rapids, Mich."
+        }
+      ]
+    },
+    {
+      "id": "matthew_t_nelson",
+      "name": "Matthew T. Nelson",
+      "existing_image": null,
+      "cases": [
+        "25-95"
+      ],
+      "status": "approved",
+      "candidate": {
+        "name": "Matthew T. Nelson",
+        "cases": [
+          "25-95"
+        ],
+        "image_url": "https://admin.wnj.com/wp-content/uploads/2021/11/Nelson_Matt_PR-819x1024.jpg",
+        "source_url": "https://www.wnj.com/people/matthew-t-nelson/",
+        "identity_source_url": "https://www.wnj.com/people/matthew-t-nelson/",
+        "kind": "photo",
+        "approval": "approved",
+        "original_file": "originals/matthew_t_nelson.jpg",
+        "width": 819,
+        "height": 1024,
+        "sha256": "3be9784952b5fbb9f0ac6ef521b6115a866cf2a282fb9c2fb87150e787b35146",
+        "identity_evidence": "Official Court argued entry confirms name and city; authoritative professional profile matches name, firm/agency and location. Profile inspected in Chrome where direct request was blocked."
+      },
+      "crop": {
+        "source_file": "originals/matthew_t_nelson.jpg",
+        "source_sha256": "3be9784952b5fbb9f0ac6ef521b6115a866cf2a282fb9c2fb87150e787b35146",
+        "box": [
+          0,
+          0,
+          819,
+          819
+        ],
+        "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+        "output_file": "square/matthew_t_nelson.jpg",
+        "width": 819,
+        "height": 819,
+        "sha256": "594b7abc6489b7f832e3a81933cf1f071f2eec99db6b567f703fcff44b32a313"
+      },
+      "private_notes": "",
+      "docket_evidence": [
+        {
+          "docket": "25-95",
+          "text": "Argued. For petitioner: Philip L. Ellison, Hemlock, Mich. For United States, as amicus curiae: Frederick Liu, Assistant to the Solicitor General, Department of Justice, Washington, D. C. For respondent: Matthew T. Nelson, Grand Rapids, Mich."
+        }
+      ]
+    },
+    {
+      "id": "erin_e_murphy",
+      "name": "Erin E. Murphy",
+      "existing_image": null,
+      "cases": [
+        "24-1234"
+      ],
+      "status": "approved",
+      "candidate": {
+        "name": "Erin E. Murphy",
+        "cases": [
+          "24-1234"
+        ],
+        "image_url": "https://www.clementmurphy.com/wp-content/uploads/Erin-E.-Murphy.jpg",
+        "source_url": "https://www.clementmurphy.com/who-we-are/erin-murphy/",
+        "identity_source_url": "https://www.clementmurphy.com/who-we-are/erin-murphy/",
+        "kind": "photo",
+        "approval": "approved",
+        "original_file": "originals/erin_e_murphy.jpg",
+        "width": 400,
+        "height": 400,
+        "sha256": "d3ae87241366255f1912d2850ddf4c8e310cafb95229f41aaa032ed497c2ebe0",
+        "identity_evidence": "Official Court argued entry confirms name and city; authoritative professional profile matches name, firm/agency and location. Profile inspected in Chrome where direct request was blocked."
+      },
+      "crop": {
+        "source_file": "originals/erin_e_murphy.jpg",
+        "source_sha256": "d3ae87241366255f1912d2850ddf4c8e310cafb95229f41aaa032ed497c2ebe0",
+        "box": [
+          0,
+          0,
+          400,
+          400
+        ],
+        "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+        "output_file": "square/erin_e_murphy.jpg",
+        "width": 400,
+        "height": 400,
+        "sha256": "d8c1a9894a543a6ece3362c7ac095f399b936481a3e4a18f12f3dbf92221e90f"
+      },
+      "private_notes": "",
+      "docket_evidence": [
+        {
+          "docket": "24-1234",
+          "text": "Argued. For petitioner: Sarah M. Harris, Principal Deputy Solicitor General, Department of Justice, Washington, D. C. For respondent: Erin E. Murphy, Alexandria, Va."
+        }
+      ]
+    },
+    {
+      "id": "aaron_z_roper",
+      "name": "Aaron Z. Roper",
+      "existing_image": null,
+      "cases": [
+        "24-813"
+      ],
+      "status": "unresolved",
+      "candidate": null,
+      "crop": null,
+      "private_notes": "Official docket identifies DOJ Assistant to Solicitor General. Search found no verified portrait; similarly named lawyers were rejected. DOJ seal is possible fallback, not selected.",
+      "docket_evidence": [
+        {
+          "docket": "24-813",
+          "text": "Argued. For petitioners: Paul D. Clement, Alexandria, Va.; and Aaron Z. Roper, Assistant to the Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.) For respondents: J. Benjamin Agui\u00f1aga, Solicitor General, Baton Rouge, La."
+        }
+      ]
+    },
+    {
+      "id": "richard_d_klingler",
+      "name": "Richard D. Klingler",
+      "existing_image": null,
+      "cases": [
+        "24-983"
+      ],
+      "status": "approved",
+      "candidate": {
+        "name": "Richard D. Klingler",
+        "cases": [
+          "24-983"
+        ],
+        "source_url": "https://georgellp.com/attorneys/richard-klingler/",
+        "identity_source_url": "https://georgellp.com/attorneys/richard-klingler/",
+        "image_url": "https://georgellp.com/wp-content/uploads/2021/10/Klinger-700x980-1.jpg",
+        "original_file": "originals/richard_d_klingler.jpg",
+        "width": 700,
+        "height": 980,
+        "sha256": "71aa990868ef84e1c0d459ead754e8bcc6c5653315692e6f161632c35770648a",
+        "kind": "photo",
+        "approval": "approved",
+        "identity_evidence": "Official docket Argued entry matches name and location. Firm profile inspected in Chrome confirms professional identity."
+      },
+      "crop": {
+        "source_file": "originals/richard_d_klingler.jpg",
+        "source_sha256": "71aa990868ef84e1c0d459ead754e8bcc6c5653315692e6f161632c35770648a",
+        "box": [
+          0,
+          0,
+          700,
+          700
+        ],
+        "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+        "output_file": "square/richard_d_klingler.jpg",
+        "width": 700,
+        "height": 700,
+        "sha256": "b2c34a1d10215dde34e91eb0debf4e128afd438153237906daf7e54f1e9b8fb6"
+      },
+      "private_notes": "",
+      "docket_evidence": [
+        {
+          "docket": "24-983",
+          "text": "Argued. For petitioner: Richard D. Klingler, Washington, D. C.; and Aimee Brown, Assistant to the Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.) For respondents: Paul D. Clement, Alexandria, Va."
+        }
+      ]
+    },
+    {
+      "id": "michael_e_kenneally_jr",
+      "name": "Michael E. Kenneally, Jr.",
+      "existing_image": null,
+      "cases": [
+        "23-1209 "
+      ],
+      "status": "approved",
+      "candidate": {
+        "image_url": "https://media.licdn.com/dms/image/v2/D4E03AQFyHltdIr7C-w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1695952461704?e=1793836800&v=beta&t=2N4rX71j-SR-jqbcyUox1u6cs0OyW1dphVgy8mBpAp8",
+        "original_file": "replacements/michael_e_kenneally_jr.jpg",
+        "width": 560,
+        "height": 560,
+        "sha256": "22de195b56d39a2053925f0b346cc4b57a6011a5c33ef316b5e64b647349b592",
+        "identity_evidence": "Image supplied by the owner for this advocate.",
+        "source_url": "https://media.licdn.com/dms/image/v2/D4E03AQFyHltdIr7C-w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1695952461704?e=1793836800&v=beta&t=2N4rX71j-SR-jqbcyUox1u6cs0OyW1dphVgy8mBpAp8",
+        "asset_type": "owner-selected source image",
+        "name": "Michael E. Kenneally, Jr.",
+        "approval": "approved"
+      },
+      "crop": {
+        "source_file": "replacements/michael_e_kenneally_jr.jpg",
+        "source_sha256": "22de195b56d39a2053925f0b346cc4b57a6011a5c33ef316b5e64b647349b592",
+        "box": [
+          0,
+          0,
+          560,
+          560
+        ],
+        "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+        "output_file": "square/michael_e_kenneally_jr.jpg",
+        "width": 560,
+        "height": 560,
+        "sha256": "0a73d2423489a7736a1986106fd8e8586a3e6ec41f84a5fa018857fe9c5cea1b"
+      },
+      "private_notes": "",
+      "docket_evidence": [
+        {
+          "docket": "23-1209",
+          "text": "Argued. For petitioners: Michael E. Kenneally, Jr., Washington, D. C. For respondent: John E. Roberts, Providence, R. I., and Kevin J. Barber, Assistant to the Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.)"
+        }
+      ]
+    },
+    {
+      "id": "john_e_roberts",
+      "name": "John E. Roberts",
+      "existing_image": null,
+      "cases": [
+        "23-1209 "
+      ],
+      "status": "approved",
+      "candidate": {
+        "name": "John E. Roberts",
+        "image_url": "https://prfirmpwwwcdn0001.azureedge.net/azstgacctpwwwct0001/uploads/professionals/687/mobile_small/stapler-px2U68.jpg",
+        "source_url": "https://www.proskauer.com/professionals/john-roberts",
+        "identity_evidence": "Docket 23-1209 names John Edward Roberts, Proskauer, Boston; profile same email/phone 617.526.9813.",
+        "sha256": "93cd81afb917a7a6c2055d61df78800db86332fe60a1cbf1fa11ed1333b38fdc",
+        "dimensions": [
+          646,
+          524
+        ],
+        "approval": "approved",
+        "path": "artifacts/ot25-preparation/originals/john-e-roberts.jpg",
+        "original_file": "originals/john-e-roberts.jpg",
+        "width": 646,
+        "height": 524
+      },
+      "crop": {
+        "source_file": "originals/john-e-roberts.jpg",
+        "source_sha256": "93cd81afb917a7a6c2055d61df78800db86332fe60a1cbf1fa11ed1333b38fdc",
+        "box": [
+          61,
+          0,
+          585,
+          524
+        ],
+        "method": "Crop box chosen after visual inspection; no generated or stretched pixels",
+        "output_file": "square/john_e_roberts.jpg",
+        "width": 524,
+        "height": 524,
+        "sha256": "8720389b710994c980fd252e3816d039941e39c399ba684a91a2c1933dbb510f"
+      },
+      "private_notes": "",
+      "docket_evidence": [
+        {
+          "docket": "23-1209",
+          "text": "Argued. For petitioners: Michael E. Kenneally, Jr., Washington, D. C. For respondent: John E. Roberts, Providence, R. I., and Kevin J. Barber, Assistant to the Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.)"
+        }
+      ]
+    }
+  ],
+  "approval": "Owner approvals are tied to source-image hashes. Crops use visually selected boxes; originals are preserved."
+}

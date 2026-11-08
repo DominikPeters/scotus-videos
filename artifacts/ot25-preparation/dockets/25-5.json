@@ -1,0 +1,773 @@
+{
+  "CaseNumber": "25-5 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "08/06/2026",
+  "sJsonTerm": "2025",
+  "sJsonCaseNumber": "00005",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Markwayne Mullin, Secretary of Homeland Security, et al., Petitioners",
+  "RespondentTitle": "Al Otro Lado, a California Corporation, et al.",
+  "DocketedDate": "July 1, 2025",
+  "LowerCourt": "United States Court of Appeals for the Ninth Circuit",
+  "LowerCourtCaseNumbers": "(22-55988, 22-56036)",
+  "LowerCourtDecision": "May 14, 2025",
+  "QPLink": "../qp/25-00005qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Jul 01 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due July 31, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "Al_Otro_Lado_Petition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/364238/20250701145005805_Al_Otro_Lado_Petition.pdf"
+        },
+        {
+          "Description": "Appendix",
+          "File": "Al Otro Lado Pet App.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/364238/20250701145016985_Al%20Otro%20Lado%20Pet%20App.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate - Noem v. Al Otro Lado - pet.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/364238/20250701145028013_Certificate%20-%20Noem%20v.%20Al%20Otro%20Lado%20-%20pet.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 30 2025",
+      "Text": "Waiver of right of respondent Al Otro Lado, et al. to respond filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Waiver.7.30.25.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/368445/20250730153421727_Waiver.7.30.25.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 31 2025",
+      "Text": "Brief amici curiae of U.S. Senator Ted Cruz, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-5 Amicus Brief of US Senator Ted Cruz et al..pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/368510/20250731123439900_25-5%20Amicus%20Brief%20of%20US%20Senator%20Ted%20Cruz%20et%20al..pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/368510/20250731123452222_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/368510/20250731123446352_Certificate%20of%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jul 31 2025",
+      "Text": "Brief amicus curiae of America's Future filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Noem v. AOL amicus brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/368552/20250731145535382_Noem%20v.%20AOL%20amicus%20brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Noem v. AOL Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/368552/20250731145555800_Noem%20v.%20AOL%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Noem v. AOL Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/368552/20250731145546942_Noem%20v.%20AOL%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 06 2025",
+      "Text": "DISTRIBUTED for Conference of 9/29/2025."
+    },
+    {
+      "Date": "Aug 07 2025",
+      "Text": "Response Requested. (Due September 8, 2025)"
+    },
+    {
+      "Date": "Aug 08 2025",
+      "Text": "Motion to extend the time to file a response from September 8, 2025 to October 8, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Noem v. AOL No 25-5 BIO extension letter 8.8.25.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/369262/20250808152803436_Noem%20v.%20AOL%20No%2025-5%20BIO%20extension%20letter%208.8.25.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 11 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including October 8, 2025, for all respondents."
+    },
+    {
+      "Date": "Oct 08 2025",
+      "Text": "Brief of respondents Al Otro Lado, et al. in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Noem v. AOL Brief in Opposition for Filing 10.8.25.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/379160/20251008162551261_Noem%20v.%20AOL%20Brief%20in%20Opposition%20for%20Filing%2010.8.25.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Georgetown Law No. 25-5 COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/379160/20251008162627229_Georgetown%20Law%20No.%2025-5%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Georgetown Law No. 25-5 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/379160/20251008162605188_Georgetown%20Law%20No.%2025-5%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 22 2025",
+      "Text": "DISTRIBUTED for Conference of 11/7/2025."
+    },
+    {
+      "Date": "Oct 23 2025",
+      "Text": "Reply of petitioners Kristi Noem, Secretary of Homeland Security, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-5 -- Noem v. Al Otro Lado.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/380440/20251023161944528_25-5%20--%20Noem%20v.%20Al%20Otro%20Lado.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate - 25-5 - Noem v. Al Otro Lado.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/380440/20251023162007753_Certificate%20-%2025-5%20-%20Noem%20v.%20Al%20Otro%20Lado.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 10 2025",
+      "Text": "DISTRIBUTED for Conference of 11/14/2025."
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Petition GRANTED."
+    },
+    {
+      "Date": "Dec 19 2025",
+      "Text": "Motion for an extension of time to file the briefs on the merits filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Extension Letter 25-5 merit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/390030/20251219172428085_Extension%20Letter%2025-5%20merit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 29 2025",
+      "Text": "Motion to extend the time to file the briefs on the merits granted.  The time to file the joint appendix and petitioners' brief on the merits is extended to and including January 6, 2026.  The time to file respondents' brief on the merits is extended to and including February 10, 2026."
+    },
+    {
+      "Date": "Jan 06 2026",
+      "Text": "Brief of petitioners Kristi Noem, Secretary of Homeland Security, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-5AlOtroLadoPetBr.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/390940/20260106152523401_25-5AlOtroLadoPetBr.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate - 25-5 - Noem v. Al Otro Lado -merit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/390940/20260106152541541_Certificate%20-%2025-5%20-%20Noem%20v.%20Al%20Otro%20Lado%20-merit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 06 2026",
+      "Text": "Joint appendix filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Noem v. Al Otro Lado J.A..pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/390942/20260106153943107_Noem%20v.%20Al%20Otro%20Lado%20J.A..pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate - 25-5 - Noem v. Al Otro Lado - JA.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/390942/20260106154030906_Certificate%20-%2025-5%20-%20Noem%20v.%20Al%20Otro%20Lado%20-%20JA.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 13 2026",
+      "Text": "Brief amici curiae of U.S. Senator Ted Cruz, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Noem v Al Otro Lado - Merits Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/391556/20260113120807412_Noem%20v%20Al%20Otro%20Lado%20-%20Merits%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/391556/20260113120831308_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/391556/20260113120820441_Certificate%20of%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 13 2026",
+      "Text": "Brief amici curiae of America's Future, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Noem v AOL Merits Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/391566/20260113133340267_Noem%20v%20AOL%20Merits%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-5 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/391566/20260113133402467_25-5%20Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-5 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/391566/20260113133353125_25-5%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 13 2026",
+      "Text": "Brief amicus curiae of Federation for American Immigration Reform filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-5 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/391604/20260113154520499_25-5%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-5 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/391604/20260113154532281_25-5%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-5 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/391604/20260113154546190_25-5%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 30 2026",
+      "Text": "SET FOR ARGUMENT on Tuesday, March 24, 2026."
+    },
+    {
+      "Date": "Feb 04 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Ninth Circuit."
+    },
+    {
+      "Date": "Feb 10 2026",
+      "Text": "Brief of respondents Al Otro Lado, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No 25-5 Noem v Al Otro Lado Respondents Merits Brief to Printer.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/395932/20260210135039024_No%2025-5%20Noem%20v%20Al%20Otro%20Lado%20Respondents%20Merits%20Brief%20to%20Printer.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-5 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/395932/20260210135052771_25-5%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-5 COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/395932/20260210135111235_25-5%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amicus curiae of Constitutional Accountability Center filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Al Otro Lado CAC Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396358/20260217102317195_Al%20Otro%20Lado%20CAC%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Al Otro Lado CAC Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396358/20260217102326887_Al%20Otro%20Lado%20CAC%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Al Otro Lado CAC Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396358/20260217102335443_Al%20Otro%20Lado%20CAC%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amici curiae of Global Strategic Litigation Council, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-5 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396520/20260217171814327_25-5%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-5 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396520/20260217171825869_25-5%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-5 Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396520/20260217171839318_25-5%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amicus curiae of HIAS, Inc. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 25-5_HIAS Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396376/20260217112126124_No.%2025-5_HIAS%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 25-5_Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396376/20260217112136220_No.%2025-5_Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 25-5_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396376/20260217112144092_No.%2025-5_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amici curiae of Members of Congress filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-5 bsac Members of Congress.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396472/20260217151307097_25-5%20bsac%20Members%20of%20Congress.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "CERTIFICATE OF WORD COUNT Members of Cong 25-5.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396472/20260217151317662_CERTIFICATE%20OF%20WORD%20COUNT%20Members%20of%20Cong%2025-5.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "CERTIFICATE OF SERVICE Members of Cong 25-5.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396472/20260217151327033_CERTIFICATE%20OF%20SERVICE%20Members%20of%20Cong%2025-5.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amici curiae of Immigration Law Professors filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-5 bsac Immigration Law Professors.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396513/20260217165217353_25-5%20bsac%20Immigration%20Law%20Professors.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-5 Word Count - bsac Immigration Law Professors.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396513/20260217165228825_25-5%20Word%20Count%20-%20bsac%20Immigration%20Law%20Professors.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-5 Proof of Service -bsac Immigration Law Professors.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396513/20260217165241544_25-5%20Proof%20of%20Service%20-bsac%20Immigration%20Law%20Professors.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amici curiae of Amnesty International USA, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-5-Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396466/20260217145926020_25-5-Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-5_Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396466/20260217145936779_25-5_Affidavit%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-5-Word Count Cert.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396466/20260217145946493_25-5-Word%20Count%20Cert.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amici curiae of Bipartisan Former Officials of the Departments of Homeland Security, State, and Justice, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Noem v. Al Otro Lado Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396512/20260217165434608_Noem%20v.%20Al%20Otro%20Lado%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-5 Cooley LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396512/20260217165443820_25-5%20Cooley%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-5 Cooley LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396512/20260217165449272_25-5%20Cooley%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amicus curiae of United States Conference of Catholic Bishops filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Al Otro Lado - USCCB Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396457/20260217144755719_Al%20Otro%20Lado%20-%20USCCB%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Al Otro Lado - USCCB Amicus Brief - Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396457/20260217144806050_Al%20Otro%20Lado%20-%20USCCB%20Amicus%20Brief%20-%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Al Otro Lado - USCCB Amicus Brief - Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/396457/20260217144817143_Al%20Otro%20Lado%20-%20USCCB%20Amicus%20Brief%20-%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Amici brief of Kairos Center for Religions, et al. not accepted for filing. (To be corrected - February 20, 2026)"
+    },
+    {
+      "Date": "Feb 17 2026",
+      "Text": "Brief amici curiae of Kairos Center for Religions, et al. filed. (Corrected) (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Kairos Center et al. Amicus Brief Corrected.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/397089/20260223164230484_Kairos%20Center%20et%20al.%20Amicus%20Brief%20Corrected.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-5 Hogan Lovells COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/397089/20260223164238192_25-5%20Hogan%20Lovells%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-5 Hogan Lovells COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/397089/20260223164246179_25-5%20Hogan%20Lovells%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 25 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Mar 02 2026",
+      "Text": "Sealed material received electronically from the United States Court of Appeals for the Ninth Circuit and available with the Clerk. The remainder of the record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Mar 09 2026",
+      "Text": "Reply of petitioners Kristi Noem, Secretary of Homeland Security, et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-5AlOtroReply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/400424/20260309155818752_25-5AlOtroReply.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. 25-5.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/400424/20260309155906195_certificate.%2025-5.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 24 2026",
+      "Text": "Argued. For petitioners: Vivek Suri, Assistant to the Solicitor General, Department of Justice, Washington, D. C. For respondents: Kelsi B. Corkran, Washington, D. C."
+    },
+    {
+      "Date": "Jun 25 2026",
+      "Text": "Judgment REVERSED and case REMANDED.  Alito, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/25-5_86qd.pdf'>opinion</a> of the Court, in which Roberts, C. J., and Thomas, Gorsuch, Kavanaugh, and Barrett, JJ., joined. Thomas, J., filed a concurring opinion. Sotomayor, J., filed a dissenting opinion, in which Kagan and Jackson, JJ., joined. Jackson, J., filed a dissenting opinion."
+    },
+    {
+      "Date": "Jul 27 2026",
+      "Text": "Judgment Issued."
+    },
+    {
+      "Date": "Aug 06 2026",
+      "Text": "Amended Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING AMENDED 25-5 Rev Rem COSTS 9th Cir. 7.27.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-5/418296/20260806122718725_EFILING%20AMENDED%2025-5%20Rev%20Rem%20COSTS%209th%20Cir.%207.27.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioners",
+  "Petitioner": [
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": true,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "Kristi Noem, Secretary of Homeland Security, et al."
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondents",
+  "Respondent": [
+    {
+      "Attorney": "Kelsi Brown Corkran",
+      "IsCounselofRecord": true,
+      "Title": "Institute for Constitutional Advocacy & Protection",
+      "PrisonerId": null,
+      "Phone": "202-661-6728",
+      "Address": "600 New Jersey Ave NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "KBC74@GEORGETOWN.EDU",
+      "PartyName": "Al Otro Lado, et al."
+    },
+    {
+      "Attorney": "Melissa Ellen Crow",
+      "IsCounselofRecord": false,
+      "Title": "Center for Gender & Refugee Studies",
+      "PrisonerId": null,
+      "Phone": "2023554471",
+      "Address": "1901 Pennsylvania Avenue, NW\r\nSuite 900, PMB 228",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "crowmelissa@uclawsf.edu",
+      "PartyName": "Al Otro Lado, et al."
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "James Ryan Conde",
+      "IsCounselofRecord": false,
+      "Title": "Boyden Gray PLLC",
+      "PrisonerId": null,
+      "Phone": "202 955 0620",
+      "Address": "800 Connecticut Ave. NW, Suite 900",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "jconde@boydengray.com",
+      "PartyName": "U.S. Senator Ted Cruz, Representative Darrell Issa, and Senators Ted Budd, Mike Lee, Kevin Cramer, and Josh Hawley"
+    },
+    {
+      "Attorney": "William Eugene Evans",
+      "IsCounselofRecord": true,
+      "Title": "Goodwin Procter LLP",
+      "PrisonerId": null,
+      "Phone": "6175701309",
+      "Address": "100 Northern Avenue",
+      "City": "Boston",
+      "State": "MA",
+      "Zip": "02210",
+      "Email": "WEvans@goodwinlaw.com",
+      "PartyName": "United States Conference of Catholic Bishops"
+    },
+    {
+      "Attorney": "Brianne Jenna Gorod",
+      "IsCounselofRecord": true,
+      "Title": "Constitutional Accountability Center",
+      "PrisonerId": null,
+      "Phone": "202 296 6889",
+      "Address": "1730 Rhode Island Ave. NW\r\nSuite 1200",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "BRIANNE@THEUSCONSTITUTION.ORG",
+      "PartyName": "Constitutional Accountability Center"
+    },
+    {
+      "Attorney": "Christopher J. Hajec",
+      "IsCounselofRecord": true,
+      "Title": "Federation for American Immigration Reform",
+      "PrisonerId": null,
+      "Phone": "202-328-7004",
+      "Address": "25 Massachusetts Avenue NW, Suite 330",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "chajec@fairus.org",
+      "PartyName": "Federation for American Immigration Reform"
+    },
+    {
+      "Attorney": "Lindsay C. Harrison",
+      "IsCounselofRecord": true,
+      "Title": "Jenner & Block LLP",
+      "PrisonerId": null,
+      "Phone": "(202)-639-6000",
+      "Address": "1099 New York Avenue, NW\r\nSuite 900",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "LHARRISON@JENNER.COM",
+      "PartyName": "Members of Congress"
+    },
+    {
+      "Attorney": "Alexandra Mansbach",
+      "IsCounselofRecord": true,
+      "Title": "Deutsch Hunt PLLC",
+      "PrisonerId": null,
+      "Phone": "(202) 868-6915",
+      "Address": "300 New Jersey Ave NW\r\nSuite 900",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "lmansbach@deutschhunt.com",
+      "PartyName": "HIAS, Inc."
+    },
+    {
+      "Attorney": "R. Trent McCotter",
+      "IsCounselofRecord": true,
+      "Title": "Boyden Gray PLLC",
+      "PrisonerId": null,
+      "Phone": "202-706-5488",
+      "Address": "800 Connecticut Ave. NW\r\nSuite 900",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "tmccotter@boydengray.com",
+      "PartyName": "U.S. Senator Ted Cruz, Representative Darrell Issa, and Senators Ted Budd, Mike Lee, Kevin Cramer, and Josh Hawley"
+    },
+    {
+      "Attorney": "William Jeffrey Olson",
+      "IsCounselofRecord": true,
+      "Title": "William J. Olson, P.C.",
+      "PrisonerId": null,
+      "Phone": "7033565070",
+      "Address": "370 Maple Ave. W., Suite 4",
+      "City": "Vienna",
+      "State": "VA",
+      "Zip": "22180",
+      "Email": "WJO@MINDSPRING.COM",
+      "PartyName": "America's Future"
+    },
+    {
+      "Attorney": "William Jeffrey Olson",
+      "IsCounselofRecord": true,
+      "Title": "William J. Olson, P.C.",
+      "PrisonerId": null,
+      "Phone": "7033565070",
+      "Address": "370 Maple Ave. W., Suite 4",
+      "City": "Vienna",
+      "State": "VA",
+      "Zip": "22180",
+      "Email": "WJO@MINDSPRING.COM",
+      "PartyName": "America's Future, Citizens United, and Conservative Legal Defense and Education Fund"
+    },
+    {
+      "Attorney": "Sarah H. Paoletti",
+      "IsCounselofRecord": true,
+      "Title": "Transnational Legal Clinic, Univ. of Penn. Law Sch",
+      "PrisonerId": null,
+      "Phone": "215-898-1097",
+      "Address": "3501 Sansom Street",
+      "City": "Philadelphia",
+      "State": "PA",
+      "Zip": "19104",
+      "Email": "paoletti@law.upenn.edu",
+      "PartyName": "Global Strategic Litigation Council, et al."
+    },
+    {
+      "Attorney": "Erica Lauren Ross",
+      "IsCounselofRecord": true,
+      "Title": "Willkie Farr & Gallagher LLP",
+      "PrisonerId": null,
+      "Phone": "202-303-1000",
+      "Address": "1875 K. Street, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006-1238",
+      "Email": "eross@willkie.com",
+      "PartyName": "Amnesty International USA, Human Rights First, Human Rights Watch, and Physicians For Human Rights"
+    },
+    {
+      "Attorney": "Alan Evan Schoenfeld",
+      "IsCounselofRecord": true,
+      "Title": "Wilmer, Cutler, Pickering, Hale and Dorr, LLP",
+      "PrisonerId": null,
+      "Phone": "(212) 230-8800",
+      "Address": "7 World Trade Center\r\n250 Greenwich Street",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10007",
+      "Email": "alan.schoenfeld@wilmerhale.com",
+      "PartyName": "Immigration Law Professors"
+    },
+    {
+      "Attorney": "Catherine Emily Stetson",
+      "IsCounselofRecord": true,
+      "Title": "Hogan Lovells US LLP",
+      "PrisonerId": null,
+      "Phone": "2026375491",
+      "Address": "555 13th Street, N.W.",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004-1109",
+      "Email": "CATE.STETSON@HOGANLOVELLS.COM",
+      "PartyName": "Kairos Center for Religions, Rights and Social Justice and Religious Organizations"
+    },
+    {
+      "Attorney": "Raymond Patrick Tolentino",
+      "IsCounselofRecord": true,
+      "Title": "Cooley LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 842-7800",
+      "Address": "1299 Pennsylvania Ave., N.W., Suite 700",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "rtolentino@cooley.com",
+      "PartyName": "Bipartisan Former Officials of the Departments of Homeland Security, State, and Justice and the Immigration and Naturalization Service"
+    }
+  ]
+}

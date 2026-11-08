@@ -1,0 +1,3239 @@
+[
+  {
+    "key": "2025/23-1197",
+    "name": "Landor v. Louisiana Department of Corrections",
+    "decision": {
+      "majorityVoters": [
+        "Gorsuch",
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "minorityVoters": [
+        "Jackson",
+        "Sotomayor",
+        "Kagan"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Gorsuch",
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "dissentingWriters": [
+        "Jackson"
+      ],
+      "type": "majority",
+      "majorityWriter": "Gorsuch",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": null,
+    "differences": []
+  },
+  {
+    "key": "2025/23-1209",
+    "name": "M & K Employee Solutions, LLC v. Trustees of the IAM National Pension Fund",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous",
+      "majorityWriter": "Jackson",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/23-1209.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Jackson",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Sotomayor",
+            "Kagan",
+            "Barrett",
+            "Gorsuch",
+            "Kavanaugh"
+          ]
+        },
+        "writers": [
+          "Jackson"
+        ],
+        "dissentingWriters": [],
+        "description": "Under ERISA, pension plans may calculate an employer's withdrawal liability using actuarial assumptions selected after the statutory measurement date."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-05-21"
+    ]
+  },
+  {
+    "key": "2025/24-1021",
+    "name": "Galette v. New Jersey Transit  Corp.",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous",
+      "majorityWriter": "Sotomayor",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-1021.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Sotomayor",
+            "Roberts",
+            "Kagan",
+            "Thomas",
+            "Alito",
+            "Gorsuch",
+            "Kavanaugh",
+            "Barrett",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Sotomayor"
+        ],
+        "dissentingWriters": [],
+        "description": "The New Jersey Transit Corporation is not an arm of the State of New Jersey for interstate sovereign immunity purposes."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-03-04"
+    ]
+  },
+  {
+    "key": "2025/24-1046",
+    "name": "Wolford v. Lopez",
+    "decision": {
+      "majorityVoters": [
+        "Alito",
+        "Roberts",
+        "Thomas",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "minorityVoters": [
+        "Kagan",
+        "Jackson",
+        "Sotomayor"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Alito",
+        "Roberts",
+        "Thomas",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "dissentingWriters": [
+        "Kagan",
+        "Jackson"
+      ],
+      "type": "majority",
+      "majorityWriter": "Alito",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-1046.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": [
+      "2026-06-25"
+    ]
+  },
+  {
+    "key": "2025/24-1056",
+    "name": "Rico v. United States",
+    "decision": {
+      "majorityVoters": [
+        "Gorsuch",
+        "Roberts",
+        "Thomas",
+        "Sotomayor",
+        "Kagan",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [
+        "Alito"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Gorsuch",
+        "Roberts",
+        "Thomas",
+        "Sotomayor",
+        "Kagan",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [
+        "Alito"
+      ],
+      "type": "majority",
+      "majorityWriter": "Gorsuch",
+      "majoritySize": 8,
+      "minoritySize": 1,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-1056.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Gorsuch",
+            "Thomas",
+            "Roberts",
+            "Sotomayor",
+            "Kagan",
+            "Barrett",
+            "Kavanaugh",
+            "Jackson"
+          ],
+          "minority": [
+            "Alito"
+          ]
+        },
+        "writers": [
+          "Gorsuch"
+        ],
+        "dissentingWriters": [
+          "Alito"
+        ],
+        "description": "The Sentencing Reform Act does not permit a defendant's term of supervised release to automatically extend when the defendant absconds."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-03-25"
+    ]
+  },
+  {
+    "key": "2025/24-1063",
+    "name": "Hunter v. United States",
+    "decision": {
+      "majorityVoters": [
+        "Kagan",
+        "Roberts",
+        "Alito",
+        "Sotomayor",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [
+        "Thomas"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Kagan",
+        "Roberts",
+        "Alito",
+        "Sotomayor",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [
+        "Thomas"
+      ],
+      "type": "majority",
+      "majorityWriter": "Kagan",
+      "majoritySize": 8,
+      "minoritySize": 1,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-1063.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Kagan",
+            "Roberts",
+            "Alito",
+            "Sotomayor",
+            "Gorsuch",
+            "Kavanaugh",
+            "Barrett",
+            "Jackson"
+          ],
+          "minority": [
+            "Thomas"
+          ]
+        },
+        "writers": [
+          "Kagan"
+        ],
+        "dissentingWriters": [
+          "Thomas"
+        ],
+        "description": "When a criminal defendant signs an appeal waiver as part of a plea agreement, that waiver becomes unenforceable if enforcing it would produce a miscarriage of justice."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-06-18"
+    ]
+  },
+  {
+    "key": "2025/24-1068",
+    "name": "Monsanto Company v. Durnell",
+    "decision": {
+      "majorityVoters": [
+        "Kavanaugh",
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Barrett"
+      ],
+      "minorityVoters": [
+        "Jackson",
+        "Gorsuch"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Kavanaugh",
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Barrett"
+      ],
+      "dissentingWriters": [
+        "Jackson"
+      ],
+      "type": "majority",
+      "majorityWriter": "Kavanaugh",
+      "majoritySize": 7,
+      "minoritySize": 2,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-1068.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": [
+      "2026-06-25"
+    ]
+  },
+  {
+    "key": "2025/24-109",
+    "name": "Louisiana v. Callais",
+    "decision": {
+      "majorityVoters": [
+        "Alito",
+        "Roberts",
+        "Thomas",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "minorityVoters": [
+        "Kagan",
+        "Sotomayor",
+        "Jackson"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Alito",
+        "Roberts",
+        "Thomas",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "dissentingWriters": [
+        "Kagan"
+      ],
+      "type": "majority",
+      "majorityWriter": "Alito",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-109.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Alito",
+            "Roberts",
+            "Thomas",
+            "Gorsuch",
+            "Kavanaugh",
+            "Barrett"
+          ],
+          "minority": [
+            "Kagan",
+            "Sotomayor",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Alito"
+        ],
+        "dissentingWriters": [
+          "Kagan"
+        ],
+        "description": "Because the Voting Rights Act of 1965, 52 U. S. C. \u00a710301 et seq., did not require Louisiana to create an additional majority-minority district, no compelling interest justified the State\u2019s use of race in creating SB8, and that map is an unconstitutional racial gerrymander."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-04-29"
+    ]
+  },
+  {
+    "key": "2025/24-1234",
+    "name": "United States v. Hemani",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Gorsuch",
+        "Roberts",
+        "Thomas",
+        "Sotomayor",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous judgment",
+      "majorityWriter": "Gorsuch",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-1234.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Gorsuch",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Kagan",
+            "Sotomayor",
+            "Kavanaugh",
+            "Barrett",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Gorsuch"
+        ],
+        "dissentingWriters": [],
+        "description": "The federal law that prohibits the possession of firearms by a person who \u201cis an unlawful user of or addicted to any controlled substance\u201d violates the Second Amendment as applied to the respondent."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-06-18"
+    ]
+  },
+  {
+    "key": "2025/24-1238",
+    "name": "Montgomery v. Caribe Transport II, LLC",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "majority",
+      "majorityWriter": "Barrett",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-1238.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Kavanaugh",
+            "Alito",
+            "Barrett",
+            "Roberts",
+            "Thomas",
+            "Sotomayor",
+            "Kagan",
+            "Gorsuch",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Barrett"
+        ],
+        "dissentingWriters": [],
+        "description": "The FAAAA does not preempt state negligent-hiring lawsuits against transportation brokers, because those claims fall within the law's built-in safety exception preserving state authority to regulate motor vehicle safety."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-05-14"
+    ]
+  },
+  {
+    "key": "2025/24-1260",
+    "name": "Watson v. Republican National Committee",
+    "decision": {
+      "majorityVoters": [
+        "Barrett",
+        "Roberts",
+        "Sotomayor",
+        "Kagan",
+        "Jackson"
+      ],
+      "minorityVoters": [
+        "Alito",
+        "Thomas",
+        "Gorsuch",
+        "Kavanaugh"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Barrett",
+        "Roberts",
+        "Sotomayor",
+        "Kagan",
+        "Jackson"
+      ],
+      "dissentingWriters": [
+        "Alito"
+      ],
+      "type": "majority",
+      "majorityWriter": "Barrett",
+      "majoritySize": 5,
+      "minoritySize": 4,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-1260.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": [
+      "2026-06-29"
+    ]
+  },
+  {
+    "key": "2025/24-1287",
+    "name": "Learning Resources, Inc. v. Trump",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [
+        "Thomas",
+        "Alito",
+        "Kavanaugh"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Gorsuch",
+        "Barrett"
+      ],
+      "dissentingWriters": [
+        "Thomas",
+        "Kavanaugh"
+      ],
+      "type": "majority in part; plurality in part",
+      "majorityWriter": "Roberts",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-1287.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Roberts",
+            "Sotomayor",
+            "Kagan",
+            "Gorsuch",
+            "Barrett",
+            "Jackson"
+          ],
+          "minority": [
+            "Thomas",
+            "Kavanaugh",
+            "Alito"
+          ]
+        },
+        "writers": [
+          "Roberts"
+        ],
+        "dissentingWriters": [
+          "Thomas",
+          "Kavanaugh"
+        ],
+        "description": "The International Emergency Economic Powers Act (IEEPA) does not authorize the President of the United States to impose tariffs."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-02-20"
+    ]
+  },
+  {
+    "key": "2025/24-171",
+    "name": "Cox Communications, Inc. v. Sony Music Entertainment",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Thomas",
+        "Roberts",
+        "Alito",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "dissentingWriters": [],
+      "type": "Unanimous judgment with concurrence in the judgment",
+      "majorityWriter": "Thomas",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-171.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Thomas",
+            "Sotomayor",
+            "Jackson",
+            "Roberts",
+            "Alito",
+            "Kagan",
+            "Barrett",
+            "Kavanaugh",
+            "Gorsuch"
+          ]
+        },
+        "writers": [
+          "Thomas"
+        ],
+        "dissentingWriters": [],
+        "description": "Internet service provider Cox Communications neither induced its users\u2019 infringement of copyrighted works nor provided a service tailored to infringement, and accordingly Cox is not contributorily liable for the infringement of Sony\u2019s copyrights."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-03-25"
+    ]
+  },
+  {
+    "key": "2025/24-345",
+    "name": "FS Credit Opportunities Corp. v. Saba Capital Master Fund, Ltd.",
+    "decision": {
+      "majorityVoters": [
+        "Barrett",
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Gorsuch",
+        "Kavanaugh"
+      ],
+      "minorityVoters": [
+        "Kagan",
+        "Jackson",
+        "Sotomayor"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Barrett",
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Gorsuch",
+        "Kavanaugh"
+      ],
+      "dissentingWriters": [
+        "Kagan",
+        "Jackson"
+      ],
+      "type": "majority",
+      "majorityWriter": "Barrett",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-345.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": []
+  },
+  {
+    "key": "2025/24-351",
+    "name": "United States Postal Service v. Konan",
+    "decision": {
+      "majorityVoters": [
+        "Thomas",
+        "Roberts",
+        "Alito",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "minorityVoters": [
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Jackson"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Thomas",
+        "Roberts",
+        "Alito",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "dissentingWriters": [
+        "Sotomayor"
+      ],
+      "type": "majority",
+      "majorityWriter": "Thomas",
+      "majoritySize": 5,
+      "minoritySize": 4,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-351.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Thomas",
+            "Roberts",
+            "Alito",
+            "Kavanaugh",
+            "Barrett"
+          ],
+          "minority": [
+            "Sotomayor",
+            "Kagan",
+            "Gorsuch",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Thomas"
+        ],
+        "dissentingWriters": [
+          "Sotomayor"
+        ],
+        "description": "The FTCA's postal exception shields the United States from liability even when postal workers intentionally fail to deliver mail."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-02-24"
+    ]
+  },
+  {
+    "key": "2025/24-38",
+    "name": "Little v. Hecox",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "minorityVoters": [
+        "Sotomayor",
+        "Kagan",
+        "Jackson"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Kavanaugh",
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Gorsuch",
+        "Barrett"
+      ],
+      "dissentingWriters": [
+        "Sotomayor",
+        "Jackson"
+      ],
+      "type": "majority",
+      "majorityWriter": "Kavanaugh",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-38.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": [
+      "2026-06-30"
+    ]
+  },
+  {
+    "key": "2025/24-43",
+    "name": "West Virginia v. B.P.J.",
+    "decision": null,
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-43.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": [
+      "2026-06-30"
+    ]
+  },
+  {
+    "key": "2025/24-440",
+    "name": "Berk v. Choy",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Barrett",
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh"
+      ],
+      "dissentingWriters": [],
+      "type": "Unanimous judgment with separate concurrence in the judgment",
+      "majorityWriter": "Barrett",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-440.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Barrett",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Sotomayor",
+            "Kagan",
+            "Gorsuch",
+            "Kavanaugh",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Barrett"
+        ],
+        "dissentingWriters": [],
+        "description": "Del. Code, Tit. 18, \u00a76853(a)(1), conflicts with a valid Federal Rule of Civil Procedure and does not apply in federal court."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-01-20"
+    ]
+  },
+  {
+    "key": "2025/24-482",
+    "name": "Ellingburg v. United States",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous",
+      "majorityWriter": "Kavanaugh",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": null,
+    "differences": []
+  },
+  {
+    "key": "2025/24-539",
+    "name": "Chiles v. Salazar",
+    "decision": {
+      "majorityVoters": [
+        "Gorsuch",
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "minorityVoters": [
+        "Jackson"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Gorsuch",
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "dissentingWriters": [
+        "Jackson"
+      ],
+      "type": "majority",
+      "majorityWriter": "Gorsuch",
+      "majoritySize": 8,
+      "minoritySize": 1,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-539.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Gorsuch",
+            "Thomas",
+            "Roberts",
+            "Sotomayor",
+            "Kagan",
+            "Kavanaugh",
+            "Barrett",
+            "Alito"
+          ],
+          "minority": [
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Gorsuch"
+        ],
+        "dissentingWriters": [
+          "Jackson"
+        ],
+        "description": "The Colorado law applying a conversion therapy ban to a licensed counselor who uses only talk therapy violates the First Amendment."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-03-31"
+    ]
+  },
+  {
+    "key": "2025/24-5438",
+    "name": "Bowe v. United States",
+    "decision": {
+      "majorityVoters": [
+        "Sotomayor",
+        "Roberts",
+        "Kagan",
+        "Kavanaugh",
+        "Jackson"
+      ],
+      "minorityVoters": [
+        "Gorsuch",
+        "Thomas",
+        "Alito",
+        "Barrett"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Sotomayor",
+        "Roberts",
+        "Kagan",
+        "Kavanaugh",
+        "Jackson"
+      ],
+      "dissentingWriters": [
+        "Gorsuch"
+      ],
+      "type": "majority",
+      "majorityWriter": "Sotomayor",
+      "majoritySize": 5,
+      "minoritySize": 4,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-5438.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Sotomayor",
+            "Roberts",
+            "Kagan",
+            "Jackson",
+            "Kavanaugh"
+          ],
+          "minority": [
+            "Gorsuch",
+            "Thomas",
+            "Alito",
+            "Barrett"
+          ]
+        },
+        "writers": [
+          "Sotomayor"
+        ],
+        "dissentingWriters": [
+          "Gorsuch"
+        ],
+        "description": "The statutory bar in 28 U.S.C. \u00a7 2244(b)(3)(E) that prohibits certiorari review of court of appeals decisions on second or successive habeas applications does not apply to federal prisoners, and \u00a7 2244(b)(1)\u2019s bar on claims previously presented does not apply to federal prisoners\u2019 motions under \u00a7 2255(h)."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-01-09"
+    ]
+  },
+  {
+    "key": "2025/24-556",
+    "name": "Fernandez v. United States",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "minorityVoters": [
+        "Jackson"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "dissentingWriters": [
+        "Jackson"
+      ],
+      "type": "majority",
+      "majorityWriter": "Barrett",
+      "majoritySize": 8,
+      "minoritySize": 1,
+      "source": "codex"
+    },
+    "oyez_path": null,
+    "differences": []
+  },
+  {
+    "key": "2025/24-557",
+    "name": "Villarreal v. Texas",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "Unanimous judgment with concurrence in the judgment",
+      "majorityWriter": "Jackson",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-557.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Jackson",
+            "Roberts",
+            "Thomas",
+            "Gorsuch",
+            "Alito",
+            "Sotomayor",
+            "Kavanaugh",
+            "Kagan",
+            "Barrett"
+          ]
+        },
+        "writers": [
+          "Jackson"
+        ],
+        "dissentingWriters": [],
+        "description": "A trial judge may order a defendant's lawyers not to coach or manage ongoing testimony during a midtestimony overnight recess, so long as the order permits all other discussion with their client."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-02-25"
+    ]
+  },
+  {
+    "key": "2025/24-568",
+    "name": "Bost v. Illinois State Board of Elections",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Kagan"
+      ],
+      "minorityVoters": [
+        "Jackson",
+        "Sotomayor"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Gorsuch",
+        "Kavanaugh"
+      ],
+      "dissentingWriters": [
+        "Jackson"
+      ],
+      "type": "majority",
+      "majorityWriter": "Roberts",
+      "majoritySize": 7,
+      "minoritySize": 2,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-568.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Kagan",
+            "Barrett",
+            "Gorsuch",
+            "Kavanaugh"
+          ],
+          "minority": [
+            "Jackson",
+            "Sotomayor"
+          ]
+        },
+        "writers": [
+          "Roberts"
+        ],
+        "dissentingWriters": [
+          "Jackson"
+        ],
+        "description": "A candidate for elected office has standing under Article III of the Constitution to challenge election rules that govern the counting of votes in his election, regardless of whether those rules harm his electoral prospects or increase the cost of his campaign."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-01-14"
+    ]
+  },
+  {
+    "key": "2025/24-5774",
+    "name": "Barrett v. United States",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Sotomayor",
+        "Kagan",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous judgment; opinion of the Court except Part IV-C",
+      "majorityWriter": "Jackson",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-5774.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Jackson",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Kagan",
+            "Sotomayor",
+            "Gorsuch",
+            "Kavanaugh",
+            "Barrett"
+          ]
+        },
+        "writers": [
+          "Jackson"
+        ],
+        "dissentingWriters": [],
+        "description": "A defendant who commits a single act that violates both 18 U.S.C. \u00a7 924(c)(1)(A)(i) and \u00a7 924(j) may be convicted under only one of those provisions, not both."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-01-14"
+    ]
+  },
+  {
+    "key": "2025/24-621",
+    "name": "National Republican Senatorial Committee v. Federal Election Commission",
+    "decision": {
+      "majorityVoters": [
+        "Kavanaugh",
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Gorsuch",
+        "Barrett"
+      ],
+      "minorityVoters": [
+        "Kagan",
+        "Sotomayor",
+        "Jackson"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Kavanaugh",
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Gorsuch",
+        "Barrett"
+      ],
+      "dissentingWriters": [
+        "Kagan"
+      ],
+      "type": "majority",
+      "majorityWriter": "Kavanaugh",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-621.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": []
+  },
+  {
+    "key": "2025/24-624",
+    "name": "Case v. Montana",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous",
+      "majorityWriter": "Kagan",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-624.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Kagan",
+            "Sotomayor",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Gorsuch",
+            "Kavanaugh",
+            "Barrett",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Kagan"
+        ],
+        "dissentingWriters": [],
+        "description": "Law enforcement may enter a home without a search warrant when they have an objectively reasonable basis for believing that an occupant is seriously injured or faces imminent serious injury."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-01-14"
+    ]
+  },
+  {
+    "key": "2025/24-699",
+    "name": "Exxon Mobil Corp. v. Corporaci\u00f3n Cimex, S.A. (Cuba)",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "minorityVoters": [
+        "Sotomayor",
+        "Kagan",
+        "Jackson"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "dissentingWriters": [
+        "Kagan"
+      ],
+      "type": "majority",
+      "majorityWriter": "Kavanaugh",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-699.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Kavanaugh",
+            "Roberts",
+            "Thomas",
+            "Gorsuch",
+            "Barrett",
+            "Alito"
+          ],
+          "minority": [
+            "Sotomayor",
+            "Kagan",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Kavanaugh"
+        ],
+        "dissentingWriters": [
+          "Kagan"
+        ],
+        "description": "The Helms-Burton Act strips Cuban government agencies and instrumentalities of their foreign sovereign immunity without requiring plaintiffs to separately satisfy any exception under the Foreign Sovereign Immunities Act (FSIA)."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-06-23"
+    ]
+  },
+  {
+    "key": "2025/24-724",
+    "name": "Hain Celestial Group, Inc. v. Palmquist",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous",
+      "majorityWriter": "Sotomayor",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-724.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Sotomayor",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Kagan",
+            "Gorsuch",
+            "Kavanaugh",
+            "Barrett",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Sotomayor"
+        ],
+        "dissentingWriters": [],
+        "description": "A federal court cannot create jurisdiction over a lawsuit through its own erroneous ruling, and when an appellate court reverses a district court's mistaken dismissal of a party who destroyed complete diversity, any trial verdict must be thrown out."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-02-24"
+    ]
+  },
+  {
+    "key": "2025/24-7351",
+    "name": "Pitchford v. Cain",
+    "decision": {
+      "majorityVoters": [
+        "Kavanaugh",
+        "Roberts",
+        "Sotomayor",
+        "Kagan",
+        "Jackson"
+      ],
+      "minorityVoters": [
+        "Gorsuch",
+        "Thomas",
+        "Alito",
+        "Barrett"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Kavanaugh",
+        "Roberts",
+        "Sotomayor",
+        "Kagan",
+        "Jackson"
+      ],
+      "dissentingWriters": [
+        "Gorsuch"
+      ],
+      "type": "majority",
+      "majorityWriter": "Kavanaugh",
+      "majoritySize": 5,
+      "minoritySize": 4,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-7351.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Kavanaugh",
+            "Roberts",
+            "Sotomayor",
+            "Kagan",
+            "Jackson"
+          ],
+          "minority": [
+            "Gorsuch",
+            "Thomas",
+            "Alito",
+            "Barrett"
+          ]
+        },
+        "writers": [
+          "Kavanaugh"
+        ],
+        "dissentingWriters": [
+          "Gorsuch"
+        ],
+        "description": "The Mississippi Supreme Court unreasonably decided\u2014under the standards set by federal habeas law\u2014that Terry Pitchford gave up his right to argue that the prosecutor\u2019s explanations for striking four Black jurors were false or racially biased."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-05-28"
+    ]
+  },
+  {
+    "key": "2025/24-758",
+    "name": "The GEO Group, Inc. v. Menocal",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Kagan",
+        "Roberts",
+        "Sotomayor",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "majority",
+      "majorityWriter": "Kagan",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-758.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Kagan",
+            "Roberts",
+            "Alito",
+            "Thomas",
+            "Sotomayor",
+            "Gorsuch",
+            "Barrett",
+            "Jackson",
+            "Kavanaugh"
+          ]
+        },
+        "writers": [
+          "Kagan"
+        ],
+        "dissentingWriters": [],
+        "description": "A pretrial order denying a government contractor's claim to Yearsley protection is not immediately appealable."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-02-25"
+    ]
+  },
+  {
+    "key": "2025/24-777",
+    "name": "Urias-Orellana v. Bondi",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous",
+      "majorityWriter": "Jackson",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": null,
+    "differences": []
+  },
+  {
+    "key": "2025/24-781",
+    "name": "First Choice Women's Resource Centers, Inc. v. Platkin",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous",
+      "majorityWriter": "Gorsuch",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-781.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Gorsuch",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Sotomayor",
+            "Kagan",
+            "Kavanaugh",
+            "Barrett",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Gorsuch"
+        ],
+        "dissentingWriters": [],
+        "description": "First Choice established a present injury to its First Amendment associational rights sufficient to confer Article III standing."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-04-29"
+    ]
+  },
+  {
+    "key": "2025/24-783",
+    "name": "Enbridge Energy, LP v. Nessel",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous",
+      "majorityWriter": "Sotomayor",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-783.json",
+    "differences": [
+      {
+        "field": "majorityVoters",
+        "ours": [
+          "Roberts",
+          "Thomas",
+          "Alito",
+          "Sotomayor",
+          "Kagan",
+          "Gorsuch",
+          "Kavanaugh",
+          "Barrett",
+          "Jackson"
+        ],
+        "oyez": [
+          "Sotomayor",
+          "Roberts",
+          "Thomas",
+          "Alito",
+          "Kagan",
+          "Jackson",
+          "Kavanaugh",
+          "Gorsuch",
+          "Jackson"
+        ]
+      }
+    ],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Sotomayor",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Kagan",
+            "Jackson",
+            "Kavanaugh",
+            "Gorsuch",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Sotomayor"
+        ],
+        "dissentingWriters": [],
+        "description": "The thirty-day deadline for moving a lawsuit from state court to federal court is a mandatory rule that judges cannot extend for fairness reasons."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-04-22"
+    ]
+  },
+  {
+    "key": "2025/24-808",
+    "name": "Coney Island Auto Parts Unlimited, Inc. v. Burton",
+    "decision": {
+      "majorityVoters": [
+        "Alito",
+        "Roberts",
+        "Thomas",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson",
+        "Sotomayor"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Alito",
+        "Roberts",
+        "Thomas",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "Unanimous judgment with separate concurrence in the judgment",
+      "majorityWriter": "Alito",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-808.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Alito",
+            "Roberts",
+            "Thomas",
+            "Sotomayor",
+            "Kagan",
+            "Gorsuch",
+            "Kavanaugh",
+            "Barrett",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Alito"
+        ],
+        "dissentingWriters": [],
+        "description": "A motion to set aside a judgment as void under Federal Rule of Civil Procedure 60(b)(4) must be filed within a \"reasonable time\" as required by Rule 60(c)(1)."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-01-20"
+    ]
+  },
+  {
+    "key": "2025/24-813",
+    "name": "Chevron USA Inc. v. Plaquemines Parish, Louisiana",
+    "decision": {
+      "majorityVoters": [
+        "Thomas",
+        "Roberts",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [
+        "Alito"
+      ],
+      "majorityJoiners": [
+        "Thomas",
+        "Roberts",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "dissentingWriters": [],
+      "type": "majority",
+      "majorityWriter": "Thomas",
+      "majoritySize": 8,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-813.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Thomas",
+            "Roberts",
+            "Sotomayor",
+            "Kagan",
+            "Kavanaugh",
+            "Gorsuch",
+            "Barrett",
+            "Jackson"
+          ],
+          "none": [
+            "Alito"
+          ]
+        },
+        "writers": [
+          "Thomas"
+        ],
+        "dissentingWriters": [],
+        "description": "The federal officer removal statute allows a defendant to move a state-court suit to federal court if the challenged conduct has a plausible and close relationship to the performance of federal duties."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-04-17"
+    ]
+  },
+  {
+    "key": "2025/24-820",
+    "name": "Rutherford v. United States",
+    "decision": {
+      "majorityVoters": [
+        "Barrett",
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Gorsuch",
+        "Kavanaugh"
+      ],
+      "minorityVoters": [
+        "Sotomayor",
+        "Kagan",
+        "Jackson"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Barrett",
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Gorsuch",
+        "Kavanaugh"
+      ],
+      "dissentingWriters": [
+        "Sotomayor"
+      ],
+      "type": "majority",
+      "majorityWriter": "Barrett",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-820.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": []
+  },
+  {
+    "key": "2025/24-856",
+    "name": "Cisco Systems, Inc. v. Doe I",
+    "decision": null,
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-856.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Barrett",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Kavanaugh",
+            "Gorsuch"
+          ],
+          "minority": [
+            "Sotomayor",
+            "Kagan",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Barrett"
+        ],
+        "dissentingWriters": [
+          "Sotomayor",
+          "Jackson"
+        ],
+        "description": "Courts may not create judicially implied causes of action for aiding and abetting violations of international law under the Alien Tort Statute."
+      },
+      {
+        "votes": {
+          "majority": [
+            "Barrett",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Kagan",
+            "Jackson",
+            "Gorsuch",
+            "Kavanaugh"
+          ],
+          "minority": [
+            "Sotomayor"
+          ]
+        },
+        "writers": [
+          "Barrett"
+        ],
+        "dissentingWriters": [
+          "Sotomayor"
+        ],
+        "description": "The Torture Victim Protection Act's \"subjects\" language does not encompass aiding-and-abetting liability."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-06-23"
+    ]
+  },
+  {
+    "key": "2025/24-872",
+    "name": "Hamm v. Smith",
+    "decision": null,
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-872.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": []
+  },
+  {
+    "key": "2025/24-889",
+    "name": "Hikma Pharmaceuticals USA Inc. v. Amarin Pharma, Inc.",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous",
+      "majorityWriter": "Jackson",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-889.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Jackson",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Sotomayor",
+            "Kagan",
+            "Gorsuch",
+            "Kavanaugh",
+            "Barrett"
+          ]
+        },
+        "writers": [
+          "Jackson"
+        ],
+        "dissentingWriters": [],
+        "description": "A generic drug manufacturer does not actively induce patent infringement under 35 U.S.C. \u00a7271(b) when its communications consist only of legally required labeling, standard industry language, omissions, and vague statements that lack any affirmative purpose of encouraging the patented use."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-06-04"
+    ]
+  },
+  {
+    "key": "2025/24-924",
+    "name": "Hencely v. Fluor Corporation",
+    "decision": {
+      "majorityVoters": [
+        "Thomas",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [
+        "Alito",
+        "Roberts",
+        "Kavanaugh"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Thomas",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [
+        "Alito"
+      ],
+      "type": "majority",
+      "majorityWriter": "Thomas",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-924.json",
+    "differences": [
+      {
+        "field": "majorityVoters",
+        "ours": [
+          "Thomas",
+          "Sotomayor",
+          "Kagan",
+          "Gorsuch",
+          "Barrett",
+          "Jackson"
+        ],
+        "oyez": [
+          "Thomas",
+          "Sotomayor",
+          "Kagan",
+          "Jackson",
+          "Jackson",
+          "Barrett"
+        ]
+      }
+    ],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Thomas",
+            "Sotomayor",
+            "Kagan",
+            "Jackson",
+            "Jackson",
+            "Barrett"
+          ],
+          "minority": [
+            "Roberts",
+            "Alito",
+            "Kavanaugh"
+          ]
+        },
+        "writers": [
+          "Thomas"
+        ],
+        "dissentingWriters": [
+          "Alito"
+        ],
+        "description": "Federal law does not block state-law lawsuits against military contractors for actions that the government neither ordered nor authorized."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-04-22"
+    ]
+  },
+  {
+    "key": "2025/24-935",
+    "name": "Flower Foods, Inc. v. Brock ",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous",
+      "majorityWriter": "Gorsuch",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-935.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Gorsuch",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Sotomayor",
+            "Kagan",
+            "Barrett",
+            "Kavanaugh",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Gorsuch"
+        ],
+        "dissentingWriters": [],
+        "description": "A worker who transports goods on an intrastate leg of an interstate journey qualifies for the Federal Arbitration Act's Section 1 exemption even if they never cross state lines or interact with vehicles that do."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-05-28"
+    ]
+  },
+  {
+    "key": "2025/24-983",
+    "name": "Havana Docks Corporation v. Royal Caribbean Cruises, Ltd.",
+    "decision": {
+      "majorityVoters": [
+        "Thomas",
+        "Roberts",
+        "Alito",
+        "Sotomayor",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [
+        "Kagan"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Thomas",
+        "Roberts",
+        "Alito",
+        "Sotomayor",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [
+        "Kagan"
+      ],
+      "type": "majority",
+      "majorityWriter": "Thomas",
+      "majoritySize": 8,
+      "minoritySize": 1,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/24-983.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Thomas",
+            "Sotomayor",
+            "Kavanaugh",
+            "Roberts",
+            "Alito",
+            "Gorsuch",
+            "Barrett",
+            "Jackson"
+          ],
+          "minority": [
+            "Kagan"
+          ]
+        },
+        "writers": [
+          "Thomas"
+        ],
+        "dissentingWriters": [
+          "Kagan"
+        ],
+        "description": "Under Title III of the Helms-Burton Act, a company whose property was confiscated by Cuba can sue anyone who later \"traffics\" in that property, even if the company's original ownership interest would have already expired."
+      }
+    ],
+    "oyez_decided_dates": []
+  },
+  {
+    "key": "2025/24-993",
+    "name": "Olivier v. City of Brandon, Mississippi",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous",
+      "majorityWriter": "Kagan",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/24-993.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Kagan",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Sotomayor",
+            "Gorsuch",
+            "Kavanaugh",
+            "Barrett",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Kagan"
+        ],
+        "dissentingWriters": [],
+        "description": "A person previously convicted under a law may use 42 U.S.C. \u00a7 1983 to seek a court order blocking that law's future enforcement."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-03-20"
+    ]
+  },
+  {
+    "key": "2025/25-1083",
+    "name": "Mullin v. Doe",
+    "decision": {
+      "majorityVoters": [
+        "Alito",
+        "Roberts",
+        "Thomas",
+        "Kavanaugh",
+        "Gorsuch",
+        "Barrett"
+      ],
+      "minorityVoters": [
+        "Kagan",
+        "Sotomayor",
+        "Jackson"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Alito",
+        "Roberts",
+        "Thomas",
+        "Kavanaugh"
+      ],
+      "dissentingWriters": [
+        "Kagan"
+      ],
+      "type": "majority in part; plurality in part",
+      "majorityWriter": "Alito",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/25-1083.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": [
+      "2026-06-25"
+    ]
+  },
+  {
+    "key": "2025/25-112",
+    "name": "Chatrie v. United States",
+    "decision": {
+      "majorityVoters": [
+        "Kagan",
+        "Roberts",
+        "Sotomayor",
+        "Kavanaugh",
+        "Jackson",
+        "Gorsuch"
+      ],
+      "minorityVoters": [
+        "Alito",
+        "Thomas",
+        "Barrett"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Kagan",
+        "Roberts",
+        "Sotomayor",
+        "Kavanaugh",
+        "Jackson"
+      ],
+      "dissentingWriters": [
+        "Alito",
+        "Barrett"
+      ],
+      "type": "majority",
+      "majorityWriter": "Kagan",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/25-112.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": [
+      "2026-06-29"
+    ]
+  },
+  {
+    "key": "2025/25-197",
+    "name": "T. M. v. University of Maryland Medical System Corporation",
+    "decision": {
+      "majorityVoters": [
+        "Sotomayor",
+        "Thomas",
+        "Alito",
+        "Kavanaugh",
+        "Jackson"
+      ],
+      "minorityVoters": [
+        "Barrett",
+        "Roberts",
+        "Kagan",
+        "Gorsuch"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Sotomayor",
+        "Thomas",
+        "Alito",
+        "Kavanaugh",
+        "Jackson"
+      ],
+      "dissentingWriters": [
+        "Barrett"
+      ],
+      "type": "majority",
+      "majorityWriter": "Sotomayor",
+      "majoritySize": 5,
+      "minoritySize": 4,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/25-197.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Sotomayor",
+            "Thomas",
+            "Alito",
+            "Kavanaugh",
+            "Jackson"
+          ],
+          "minority": [
+            "Barrett",
+            "Roberts",
+            "Kagan",
+            "Gorsuch"
+          ]
+        },
+        "writers": [
+          "Sotomayor"
+        ],
+        "dissentingWriters": [
+          "Barrett"
+        ],
+        "description": "The Rooker-Feldman doctrine applies even when the state-court judgment under attack remains subject to an ongoing appeal in state court."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-06-18"
+    ]
+  },
+  {
+    "key": "2025/25-332",
+    "name": "Trump v. Slaughter",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "minorityVoters": [
+        "Sotomayor",
+        "Kagan",
+        "Jackson"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Alito",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "dissentingWriters": [
+        "Sotomayor"
+      ],
+      "type": "majority",
+      "majorityWriter": "Roberts",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": "/Users/dominik/GitHub/scotusstats/data-pipeline/oyez/2025/25-332.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": []
+  },
+  {
+    "key": "2025/25-365",
+    "name": "Trump v. Barbara",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Sotomayor",
+        "Kagan",
+        "Barrett",
+        "Jackson",
+        "Kavanaugh"
+      ],
+      "minorityVoters": [
+        "Thomas",
+        "Alito",
+        "Gorsuch"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Sotomayor",
+        "Kagan",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [
+        "Kavanaugh",
+        "Thomas",
+        "Alito",
+        "Gorsuch"
+      ],
+      "type": "majority",
+      "majorityWriter": "Roberts",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/25-365.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": [
+      "2026-06-30"
+    ]
+  },
+  {
+    "key": "2025/25-406",
+    "name": "Federal Communications Commission v. AT&T, Inc.",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [
+        "Thomas"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [
+        "Thomas"
+      ],
+      "type": "majority",
+      "majorityWriter": "Roberts",
+      "majoritySize": 8,
+      "minoritySize": 1,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/25-406.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Roberts",
+            "Alito",
+            "Sotomayor",
+            "Kagan",
+            "Gorsuch",
+            "Kavanaugh",
+            "Barrett",
+            "Jackson"
+          ],
+          "minority": [
+            "Thomas"
+          ]
+        },
+        "writers": [
+          "Roberts"
+        ],
+        "dissentingWriters": [
+          "Thomas"
+        ],
+        "description": "The Seventh Amendment's right to a jury trial does not require the FCC to involve a jury when issuing forfeiture orders."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-06-04"
+    ]
+  },
+  {
+    "key": "2025/25-429",
+    "name": "Blanche v. Lau ",
+    "decision": {
+      "majorityVoters": [
+        "Thomas",
+        "Roberts",
+        "Alito",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "minorityVoters": [
+        "Jackson",
+        "Sotomayor",
+        "Kagan"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Thomas",
+        "Roberts",
+        "Alito",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "dissentingWriters": [
+        "Jackson"
+      ],
+      "type": "majority",
+      "majorityWriter": "Thomas",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/25-429.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Thomas",
+            "Roberts",
+            "Alito",
+            "Gorsuch",
+            "Kavanaugh",
+            "Barrett"
+          ],
+          "minority": [
+            "Jackson",
+            "Kagan",
+            "Sotomayor"
+          ]
+        },
+        "writers": [
+          "Thomas"
+        ],
+        "dissentingWriters": [
+          "Jackson"
+        ],
+        "description": "The Immigration and Nationality Act (INA) does not require a border officer to possess clear and convincing evidence that a lawful permanent resident has committed a crime involving moral turpitude before treating that resident as an applicant for admission rather than someone already admitted to the country."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-06-23"
+    ]
+  },
+  {
+    "key": "2025/25-466",
+    "name": "Sripetch v. SEC",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous",
+      "majorityWriter": "Gorsuch",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/25-466.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Gorsuch",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Sotomayor",
+            "Kagan",
+            "Kavanaugh",
+            "Barrett",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Gorsuch"
+        ],
+        "dissentingWriters": [],
+        "description": "The SEC may seek equitable disgorgement under 15 U.S.C. \u00a7\u00a7 78u(d)(5) and (d)(7) without showing investors suffered pecuniary harm."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-06-04"
+    ]
+  },
+  {
+    "key": "2025/25-5",
+    "name": "Noem v. Al Otro Lado",
+    "decision": {
+      "majorityVoters": [
+        "Alito",
+        "Roberts",
+        "Thomas",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "minorityVoters": [
+        "Sotomayor",
+        "Kagan",
+        "Jackson"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Alito",
+        "Roberts",
+        "Thomas",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett"
+      ],
+      "dissentingWriters": [
+        "Sotomayor",
+        "Jackson"
+      ],
+      "type": "majority",
+      "majorityWriter": "Alito",
+      "majoritySize": 6,
+      "minoritySize": 3,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/25-5.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": [
+      "2026-06-25"
+    ]
+  },
+  {
+    "key": "2025/25-5146",
+    "name": "Abouammo v. United States",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous",
+      "majorityWriter": "Kagan",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/25-5146.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Kagan",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Gorsuch",
+            "Kavanaugh",
+            "Sotomayor",
+            "Barrett",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Kagan"
+        ],
+        "dissentingWriters": [],
+        "description": "Venue is proper only in the district where the alleged offense took place, not in the district where the targeted investigation was located."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-06-11"
+    ]
+  },
+  {
+    "key": "2025/25-6",
+    "name": "Keathley v. Buddy Ayers Construction, Incorporated",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous",
+      "majorityWriter": "Jackson",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/25-6.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Jackson",
+            "Roberts",
+            "Thomas",
+            "Alito",
+            "Sotomayor",
+            "Kagan",
+            "Gorsuch",
+            "Kavanaugh",
+            "Barrett"
+          ]
+        },
+        "writers": [
+          "Jackson"
+        ],
+        "dissentingWriters": [],
+        "description": "Judicial estoppel does not automatically bar a debtor's undisclosed civil claim based solely on a potential motive to conceal it; courts must look to the totality of the circumstances to distinguish between an inadvertent mistake and intentional bad faith."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-06-11"
+    ]
+  },
+  {
+    "key": "2025/25-83",
+    "name": "Jules v. Andre Balazs Properties",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous",
+      "majorityWriter": "Sotomayor",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/25-83.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": []
+  },
+  {
+    "key": "2025/25-95",
+    "name": "Pung v. Isabella County",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Thomas",
+        "Alito",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "minorityVoters": [],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Alito",
+        "Roberts",
+        "Sotomayor",
+        "Kagan",
+        "Gorsuch",
+        "Kavanaugh",
+        "Barrett",
+        "Jackson"
+      ],
+      "dissentingWriters": [],
+      "type": "unanimous judgment; majority opinion with partial concurrence",
+      "majorityWriter": "Alito",
+      "majoritySize": 9,
+      "minoritySize": 0,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/25-95.json",
+    "differences": [],
+    "oyez_decisions": [
+      {
+        "votes": {
+          "majority": [
+            "Alito",
+            "Roberts",
+            "Thomas",
+            "Sotomayor",
+            "Kagan",
+            "Gorsuch",
+            "Kavanaugh",
+            "Barrett",
+            "Jackson"
+          ]
+        },
+        "writers": [
+          "Alito"
+        ],
+        "dissentingWriters": [],
+        "description": "When the government sells a property at a tax foreclosure auction, the Fifth Amendment's Takings Clause entitles the former owner only to the surplus proceeds, not the property's hypothetical fair market value."
+      }
+    ],
+    "oyez_decided_dates": [
+      "2026-06-23"
+    ]
+  },
+  {
+    "key": "2025/25A312",
+    "name": "Trump v. Cook",
+    "decision": {
+      "majorityVoters": [
+        "Roberts",
+        "Sotomayor",
+        "Kagan",
+        "Kavanaugh",
+        "Jackson"
+      ],
+      "minorityVoters": [
+        "Thomas",
+        "Alito",
+        "Gorsuch",
+        "Barrett"
+      ],
+      "abstainers": [],
+      "majorityJoiners": [
+        "Roberts",
+        "Sotomayor",
+        "Kagan",
+        "Kavanaugh",
+        "Jackson"
+      ],
+      "dissentingWriters": [
+        "Thomas",
+        "Alito",
+        "Barrett"
+      ],
+      "type": "majority",
+      "majorityWriter": "Roberts",
+      "majoritySize": 5,
+      "minoritySize": 4,
+      "source": "codex"
+    },
+    "oyez_path": "artifacts/ot25-preparation/metadata/25A312.json",
+    "differences": [],
+    "oyez_decisions": [],
+    "oyez_decided_dates": []
+  }
+]

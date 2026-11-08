@@ -1,0 +1,988 @@
+{
+  "candidates": [
+    {
+      "id": "kontrick-ryan",
+      "blocks": [
+        3,
+        3
+      ],
+      "time": "0:12",
+      "speaker": "Eric Schnapper",
+      "exact_words": "Kontrick held that ordinarily, under the civil rules, a defense is lost if it's not included in an amended complaint",
+      "kind": "case",
+      "identification": "Kontrick v. Ryan, 540 U.S. 443 (2004), a bankruptcy case about the 60-day Rule 4004(a) deadline for objecting to discharge. The Court held the debtor forfeited the time-limit objection by not raising it before the bankruptcy court reached the merits. The sentence Schnapper paraphrases is in the opinion: 'Ordinarily, under the Bankruptcy Rules as under the Civil Rules, a defense is lost if it is not included in the answer or amended answer.' (Source text from CAP; the opinion's words are 'answer or amended answer', not 'amended complaint'.) Petitioner's reply cites this sentence at 540 U.S. at 459 (it also cites 458 elsewhere).",
+      "where_in_sources": "sources/cap-540-443.txt (CAP text, no star paging). Pin cite 459 comes from pet-reply.txt PDF p.10.",
+      "source_file": "sources/cap-540-443.txt",
+      "why_viewer_needs_it": "Viewer hears 'Kontrick' with no context and needs to know it is a bankruptcy case about forfeiting a time limit, not a pleading case.",
+      "caution": "Schnapper's paraphrase says 'amended complaint'; the opinion says 'answer or amended answer'. Card should quote the opinion, not the paraphrase. Kontrick is a bankruptcy-rule case, so do not describe it as a general Rule 8 holding.",
+      "uncertain": false
+    },
+    {
+      "id": "hassan-11th-cir",
+      "blocks": [
+        4,
+        6
+      ],
+      "time": "0:38",
+      "speaker": "Eric Schnapper",
+      "exact_words": "The Eleventh Circuit's Hassan decision improperly permits a defendant to invoke an affirmative defense which it has never pled.",
+      "kind": "case",
+      "identification": "Hassan v. U.S. Postal Service, 842 F.2d 260 (11th Cir. 1988) (Fay, J.). Holding (from CAP text): an unpleaded affirmative defense may be considered when the plaintiff was not unfairly surprised or prejudiced; 'the general rule is that ... a party waives its right' but the liberal pleading rules mean that 'when the failure to raise an affirmative defense does not prejudice the plaintiff, it is not error for the trial court to hear evidence on the issue.' The Eleventh Circuit quotes this at 842 F.2d at 263 (App. 9-10 of the petition appendix).",
+      "where_in_sources": "sources/cap-f2d-842-260.txt (CAP; no star paging). The quotation as applied in the opinion: sources/pet-app-ocr.txt, PDF p.9-10 (App. 9a-10a). Petition's own treatment: petition.txt.",
+      "source_file": "sources/cap-f2d-842-260.txt",
+      "why_viewer_needs_it": "This is the Eleventh Circuit rule the petitioner asks the Court to reject; viewers need to know it is a 'no-prejudice' rule for unpleaded defenses.",
+      "caution": "Hassan is the rule being challenged; a card should describe it as the Eleventh Circuit's rule without saying it is wrong. Schnapper later calls it 'four decades after Hassan' (block 34), but Hassan is from 1988 (about 38 years before argument).",
+      "uncertain": false
+    },
+    {
+      "id": "harris-dc-cir",
+      "blocks": [
+        24,
+        25
+      ],
+      "time": "4:50",
+      "speaker": "Eric Schnapper",
+      "exact_words": "Chief Judge Edwards made in the Harris decision many years ago",
+      "kind": "case",
+      "identification": "Harris v. Secretary, U.S. Dep't of Veterans Affairs, 126 F.3d 339 (D.C. Cir. 1997) (Edwards, C.J., for the court). Verified: the CAP opinion is by Chief Judge Edwards. Holding (CAP text): 'Rule 8(c) means what it says: a party must first raise its affirmative defenses in a responsive pleading before it can raise them in a dispositive motion'; the court also rejects a no-prejudice rule because it 'reduces the multifarious reasons for denying leave to amend envisioned by the Court in Foman to the single, non-exhaustive factor of prejudice.' (pin cite 126 F.3d at 345, as cited in the briefs).",
+      "where_in_sources": "sources/cap-f3d-126-339.txt (CAP; no star paging). Briefs quoting it: pet-brief.txt (PDF p.48, 'reduces the multifarious reasons') and resp-brief.txt (Harris quoted on Rule 8(c)).",
+      "source_file": "sources/cap-f3d-126-339.txt",
+      "why_viewer_needs_it": "Harris is the D.C. Circuit rule that a defendant must amend or plead before raising an affirmative defense in a dispositive motion, which is the strict end of the comparison.",
+      "caution": "Schnapper's attribution is verified, but he is describing Harris as a case that 'made that point' (block 84), not as binding. Harris is a D.C. Circuit decision and is not binding in the Eleventh Circuit.",
+      "uncertain": false
+    },
+    {
+      "id": "foman-v-davis",
+      "blocks": [
+        25,
+        28
+      ],
+      "time": "5:01",
+      "speaker": "Amy Coney Barrett",
+      "exact_words": "The undue prejudice portion of the argument would have been the same under Foman.",
+      "kind": "case",
+      "identification": "Foman v. Davis, 371 U.S. 178, 182 (1962). Leave to amend 'shall be freely given when justice so requires'; denial needs a reason such as 'undue delay, bad faith or dilatory motive on the part of the movant, repeated failure to cure deficiencies by amendments previously allowed, undue prejudice to the opposing party by virtue of allowance of the amendment, futility of amendment, etc.' (CAP text, cap-371-178.txt). The 'Foman factors' are these listed reasons.",
+      "where_in_sources": "sources/cap-371-178.txt (CAP; no star paging; 182 is the pin cite used in the briefs and Ahmad). Quoted in Harris and Ahmad; pet-brief.txt also quotes Foman.",
+      "source_file": "sources/cap-371-178.txt",
+      "why_viewer_needs_it": "The 'Foman factors' appear in at least five exchanges; viewers need to know that prejudice is one of several listed reasons, not the only one.",
+      "caution": "Whether the Foman factors govern a summary-judgment motion treated as a motion to amend is the disputed question. Sotomayor (block 275) says the Court granted review on that point; Petrany disputes it (block 278). Do not state what was granted beyond the question-presented text.",
+      "uncertain": false
+    },
+    {
+      "id": "day-v-mcdonough",
+      "blocks": [
+        330,
+        331
+      ],
+      "time": "42:58",
+      "speaker": "Stephen J. Petrany",
+      "exact_words": "Day, Milyard, and elsewhere, is more like forfeiture. It's not like waiver.",
+      "kind": "case",
+      "identification": "Day v. McDonough, 547 U.S. 198, 202 (2006). Text (CAP): 'Ordinarily in civil litigation, a statutory time limitation is forfeited if not raised in a defendant's answer or in an amendment thereto' (citing Fed. R. Civ. P. 8(c), 12(b), and 15(a)). Habeas case about a state's failure to raise the statute of limitations.",
+      "where_in_sources": "sources/cap-547-198.txt (CAP; no star paging; 202 is the pin cite quoted in Wood v. Milyard).",
+      "source_file": "sources/cap-547-198.txt",
+      "why_viewer_needs_it": "Petrany's 'forfeiture, not waiver' point depends on Day; viewers hear 'Day' and 'Milyard' together without the holding.",
+      "caution": "Day and Milyard are habeas cases. Petrany's characterization that the Court 'acknowledged' failure to plead is 'more like forfeiture' is his reading. The quoted sentence is 'forfeited', so card wording should use that word.",
+      "uncertain": false
+    },
+    {
+      "id": "wood-v-milyard",
+      "blocks": [
+        330,
+        331
+      ],
+      "time": "42:58",
+      "speaker": "Stephen J. Petrany",
+      "exact_words": "Day, Milyard, and elsewhere",
+      "kind": "case",
+      "identification": "Wood v. Milyard, 566 U.S. 463 (2012). Text (CAP): 'An affirmative defense, once forfeited, is \"exclu[ded] from the case,\"' and 'Ordinarily in civil litigation, a statutory time limitation is forfeited if not raised in a defendant's answer or in an amendment thereto' (quoting Day, 547 U.S. at 202). The Court also recognized an exception allowing a court to consider a forfeited timeliness defense in a habeas case (Granberry).",
+      "where_in_sources": "sources/cap-566-463.txt (CAP; no star paging).",
+      "source_file": "sources/cap-566-463.txt",
+      "why_viewer_needs_it": "Milyard is the second case in Petrany's forfeiture argument; the viewer needs to know it treats forfeited affirmative defenses as excluded from the case, which cuts against Petrany's point.",
+      "caution": "Milyard itself quotes the 'excluded from the case' language; the editor should check that Petrany's reading ('more like forfeiture', 'not something you can't come back from') matches the opinion before quoting him.",
+      "uncertain": false
+    },
+    {
+      "id": "encino-ED-FLSA",
+      "blocks": [
+        108,
+        108
+      ],
+      "time": "17:56",
+      "speaker": "Eric Schnapper",
+      "exact_words": "This Court's decision in I believe it's ED a number of years ago about exemptions from the Fair Labor Standards Act say they're all affirmative defenses.",
+      "kind": "case",
+      "identification": "Probably Encino Motorcars, LLC v. Navarro, 584 U.S. 79 (2018) (FLSA overtime exemption for car-dealership service advisors; decided Apr. 2, 2018; docket No. 16-1362). The garbled 'ED' is the transcript's mishearing. Identification is inferred from the 'exemptions from the FLSA' description and the 584 U.S. 79 citation confirmed by the Supreme Court's preliminary print; uncertain.",
+      "where_in_sources": "sources/encino-584-79.txt (official preliminary print of vol. 584, PDF pages 121-143 of that file). The opinion text does not contain the phrase 'affirmative defense' (checked).",
+      "source_file": "sources/encino-584-79.txt",
+      "why_viewer_needs_it": "Schnapper says the Court has already said FLSA exemptions are affirmative defenses. A viewer needs to know whether that is in the opinion.",
+      "caution": "Schnapper's claim is not in the Encino text we have. Encino rejected a narrow-construction rule for FLSA exemptions and did not discuss pleading. Do not repeat Schnapper's characterization as a holding. The identification is uncertain: other FLSA exemption cases exist.",
+      "uncertain": true
+    },
+    {
+      "id": "fair-labor-standards-act",
+      "blocks": [
+        107,
+        108
+      ],
+      "time": "17:40",
+      "speaker": "Eric Schnapper",
+      "exact_words": "exemptions from the Fair Labor Standards Act",
+      "kind": "statute",
+      "identification": "Fair Labor Standards Act (29 U.S.C. § 201 et seq.); the exemption Schnapper has in mind is not named, and the probable case (Encino, 584 U.S. 79) concerns 29 U.S.C. § 213(b)(10)(A). Not downloaded.",
+      "where_in_sources": "transcript only; no FLSA text in sources/. See encino-584-79.txt for the Encino opinion.",
+      "source_file": "sources/encino-584-79.txt",
+      "why_viewer_needs_it": "Viewer hears 'Fair Labor Standards Act' once and has no context for the analogy.",
+      "caution": "Analogy offered by Schnapper, not a point of law in this case. Do not present as a holding.",
+      "uncertain": true
+    },
+    {
+      "id": "tenth-circuit-construe-sj-motion",
+      "blocks": [
+        39,
+        42
+      ],
+      "time": "7:29",
+      "speaker": "Amy Coney Barrett",
+      "exact_words": "we'll construe this summary judgment motion as a motion under Rule 15 and Rule 16",
+      "kind": "case",
+      "identification": "Probably Ahmad v. Furlong, 435 F.3d 1196 (10th Cir. 2006) (Hartz, J.): a summary-judgment motion raising an unpled defense is treated under the Rule 15 standards for motions to amend 'without a strict requirement that the answer be amended.' Barrett does not name the case; Schnapper (block 42) describes the Tenth Circuit view as treating an unpled affirmative defense as 'a motion for leave to add that'. Minter v. Prime Equip. Co., 451 F.3d 1196 (10th Cir. 2006) is also cited in the briefs for this practice; not downloaded.",
+      "where_in_sources": "sources/cap-f3d-435-1196.txt (CAP; no star paging). Quotes: 'courts should not permit a party to circumvent these other restrictions on amendments simply by filing a dispositive motion rather than a motion to amend ... But that concern can be obviated without a strict requirement that the answer be amended.' Briefs: pet-brief.txt (PDF p.43-48); resp-brief.txt.",
+      "source_file": "sources/cap-f3d-435-1196.txt",
+      "why_viewer_needs_it": "The 'Tenth Circuit' is the middle approach in the argument: treat the summary-judgment motion as a motion to amend and apply the same standards, without a separate formal motion.",
+      "caution": "Identification is inferred; Barrett did not name a case. Ahmad says the Rule 15 standards apply, and does not say Rule 16(b)(4) good cause applies. Do not state that Ahmad requires a formal motion; it does not.",
+      "uncertain": true
+    },
+    {
+      "id": "second-circuit-unidentified",
+      "blocks": [
+        42,
+        43
+      ],
+      "time": "8:25",
+      "speaker": "Eric Schnapper",
+      "exact_words": "The Second Circuit, as I believe, says that's permissible.",
+      "kind": "case",
+      "identification": "Second Circuit case not identified. The downloaded briefs do not name the Second Circuit decision Schnapper means. Padovani v. Bruchhausen, 293 F.2d 546 (2d Cir. 1961) and Rosen v. Dick, 639 F.2d 82 (2d Cir. 1980) are cited by respondent for other points (pleading facts; 'issue' in Rule 15(b)); they do not on their face address this question. Not verified; do not cite.",
+      "where_in_sources": "No source identifies it. Respondent's brief: resp-brief.txt (Padovani at about printed p.22; Rosen at about printed p.23).",
+      "source_file": "",
+      "why_viewer_needs_it": "The viewer hears 'Second Circuit' as one of three approaches; a card for the split would need its case.",
+      "caution": "Schnapper's statement is uncertain and he says he is not sure ('as I believe'). A card should not name a Second Circuit case unless the editor finds one.",
+      "uncertain": true
+    },
+    {
+      "id": "laurie-six-factors",
+      "blocks": [
+        19,
+        19
+      ],
+      "time": "3:30",
+      "speaker": "Eric Schnapper",
+      "exact_words": "was subject in this case to a six-part test",
+      "kind": "case",
+      "identification": "Laurie v. Alabama Court of Criminal Appeals, 88 F. Supp. 2d 1334, 1338 (M.D. Ala. 2000), aff'd, 256 F.3d 1266 (11th Cir. 2001). Six factors: (1) plenary powers of appointment and removal; (2) personal accountability to only that official; (3) representing the official to the public; (4) official's control over the position; (5) level in the chain of command; (6) actual intimacy of the working relationship. The Eleventh Circuit applied them and 'assume[d] without deciding' they are the test (App. 15-17).",
+      "where_in_sources": "sources/pet-app-ocr.txt, PDF p.15-17 (Eleventh Circuit opinion, App. 15a-17a). Also petition.txt (same opinion in the appendix).",
+      "source_file": "sources/pet-app-ocr.txt",
+      "why_viewer_needs_it": "The 'six-part test' is the test for who is 'personal staff'; viewers need the six factors to follow the record discussion.",
+      "caution": "Schnapper says 'a third of the factors' showed the test was not met (block 19). The Eleventh Circuit found five of six factors favored the exemption and the appointment factor 'neutral' (App. 29). Show the factors, not who won them. The court did not decide that Laurie binds it.",
+      "uncertain": false
+    },
+    {
+      "id": "personal-staff-2000e-f",
+      "blocks": [
+        385,
+        385
+      ],
+      "time": "49:52",
+      "speaker": "Stephen J. Petrany",
+      "exact_words": "you fail under 2000e(f)",
+      "kind": "statute",
+      "identification": "42 U.S.C. § 2000e(f). The first sentence excludes from 'employee' any person elected to public office, and 'any person chosen by such officer to be on such officer's personal staff, or an appointee on the policy making level or an immediate adviser with respect to the exercise of the constitutional or legal powers of the office.'",
+      "where_in_sources": "sources/usc-42-2000e.txt (govinfo U.S. Code 2024; text extracted from HTML). Quoted by the Eleventh Circuit at App. 2a n.1 and App. 7a-8a (pet-app-ocr.txt, PDF p.2, 7-8).",
+      "source_file": "sources/usc-42-2000e.txt",
+      "why_viewer_needs_it": "The exemption that the DA's Office raised late; viewers need the statute text to know what 'personal staff' refers to.",
+      "caution": "Petrany's 'seven words' count is his argument about the cost of amending the answer. The statute also includes 'policy making level' appointees (block 327), which the Eleventh Circuit did not reach.",
+      "uncertain": false
+    },
+    {
+      "id": "gera-forum-vs-title-vii",
+      "blocks": [
+        94,
+        95
+      ],
+      "time": "14:46",
+      "speaker": "Eric Schnapper",
+      "exact_words": "that claim is adjudicated before the EEOC under the Government Employee Rights Act",
+      "kind": "comparison",
+      "identification": "Two routes for a personal-staff claim: Title VII (42 U.S.C. § 2000e et seq.; claim in federal district court after EEOC right-to-sue) vs the Government Employee Rights Act (GERA), 42 U.S.C. § 2000e-16b and § 2000e-16c(a)(1) (claim adjudicated by the EEOC, with limited review in the Federal Circuit).",
+      "where_in_sources": "sources/usc-42-2000e-16c.txt (GERA text); sources/usc-42-2000e-16.txt; pet-brief.txt PDF p.22 ('subject to limited judicial review by the Federal Circuit'); petition.txt pp. 6-7 (Factual Background, GERA forum argument).",
+      "source_file": "sources/usc-42-2000e-16c.txt",
+      "why_viewer_needs_it": "Schnapper says the 'right forum' question is at the center of the case: a plaintiff who is personal staff has a different route. Viewers need the two routes side by side.",
+      "caution": "Whether Younge was personal staff is disputed; a card that says she 'belonged in' GERA takes a side. Present the two routes only.",
+      "uncertain": false
+    },
+    {
+      "id": "gera-180-days",
+      "blocks": [
+        291,
+        294
+      ],
+      "time": "37:07",
+      "speaker": "Sonia Sotomayor / Stephen J. Petrany",
+      "exact_words": "So the statute of limitations is 180 days.",
+      "kind": "statute",
+      "identification": "42 U.S.C. § 2000e-16c(b)(1) (GERA administrative complaint 'not later than 180 days after the occurrence of the alleged violation,' filed with the EEOC). Petrany's 180-day figure matches GERA, not Title VII's charge deadline (which is in 42 U.S.C. § 2000e-5(e)(1), downloaded but the 180/300-day text was not located by search).",
+      "where_in_sources": "sources/usc-42-2000e-16c.txt (statute text); petition.txt Appendix F (118a) reproduces § 2000e-16c. Filing dates: petition.txt PDF p.140 (App. 90a: Younge filed EEOC complaints 'after the July 15th termination meeting'; no date given).",
+      "source_file": "sources/usc-42-2000e-16c.txt",
+      "why_viewer_needs_it": "Sotomayor asks whether Younge could still have gone to the EEOC; Petrany answers 180 days. A viewer needs the deadline and which statute it comes from.",
+      "caution": "The date of Younge's EEOC charge and of the first amended complaint are not in our sources, so Petrany's timing claim cannot be checked. Do not state the 180-day period was missed. Sotomayor's question (block 291) is conditional ('if you had raised your defense earlier').",
+      "uncertain": true
+    },
+    {
+      "id": "scheduling-order-local-rule",
+      "blocks": [
+        151,
+        153
+      ],
+      "time": "23:16",
+      "speaker": "Samuel A. Alito, Jr. / Eric Schnapper",
+      "exact_words": "The district court's scheduling order said that the parties have to comply with the time limits set forth in the Federal Rules of Civil Procedure -- that's Rule 15 -- and this court's local rules.",
+      "kind": "record",
+      "identification": "Scheduling Order (Apr. 27, 2021) and N.D. Ga. Local Rule 84.1(c). Petition: amendments 'must be sought within thirty days of the parties' Joint Preliminary Report and Discovery Plan' (JPR filed Apr. 26, 2021), so the deadline was May 26, 2021 (petition.txt, PDF p.20; App. B-12). Schnapper (block 153): 'the local rules have -- require motions to be filed within 30 days. That's why we ended up with the deadline in this case.'",
+      "where_in_sources": "sources/petition.txt PDF p.20 (Factual Background; Scheduling Order and Case Management Instructions, App. B-12 cited there). The order itself is not in the sources.",
+      "source_file": "sources/petition.txt",
+      "why_viewer_needs_it": "Viewer needs to know what the deadline was and where it came from; Alito's and Schnapper's accounts differ.",
+      "caution": "Alito describes the order as incorporating the Federal Rules and the local rules; the petition describes it as incorporating the Local Rules (30 days from the JPR). Alito's paraphrase cannot be checked against the order. Schnapper says the defendant on remand 'could argue it didn't' apply (block 175), so whether the deadline applied is disputed.",
+      "uncertain": true
+    },
+    {
+      "id": "deadline-compliance-question",
+      "blocks": [
+        379,
+        381
+      ],
+      "time": "48:43",
+      "speaker": "Amy Coney Barrett / Stephen J. Petrany",
+      "exact_words": "would -- would an amendment here even violate the scheduling order?",
+      "kind": "fact",
+      "identification": "Question whether a late amendment would have violated the scheduling order. Petrany (block 381): 'my understanding is that there were -- that there was a 30-day -- after the scheduling order, a 30-day deadline for amending. If there's something hidden in the record that says otherwise, I haven't found it.' Same record as scheduling-order-local-rule.",
+      "where_in_sources": "petition.txt PDF p.20 and PDF p.132 (App. 81a-82a, the district court's account of the April 2022 dispositive-motion deadline). Scheduling order not in sources.",
+      "source_file": "sources/petition.txt",
+      "why_viewer_needs_it": "Viewer hears that the deadline may not have been violated and needs the baseline facts.",
+      "caution": "Contested fact; do not state whether the amendment would have been timely. Attribute both views.",
+      "uncertain": true
+    },
+    {
+      "id": "docket-132-quote",
+      "blocks": [
+        178,
+        178
+      ],
+      "time": "25:35",
+      "speaker": "Samuel A. Alito, Jr.",
+      "exact_words": "District Court Docket 132 at 8, you wrote, \"This Court's local rules do not address the deadline for amending pleadings.\"",
+      "kind": "record",
+      "identification": "Docket 132 is Younge's objections to the magistrate judge's R&R (petition App. B, 45a-46a, citing '[Doc. 132 at 5, 19]'; the R&R objections list at App. B; see also petition.txt PDF p.95-96). The quoted sentence was NOT found in any downloaded filing (searched petition, pet-brief, resp-brief, bio, pet-reply, cert-reply).",
+      "where_in_sources": "petition.txt PDF p.95-96 (Doc. 132 references). The quoted sentence is not in sources/.",
+      "source_file": "sources/petition.txt",
+      "why_viewer_needs_it": "Alito reads a quote from the record; a card that repeats it needs the exact text and page.",
+      "caution": "Unverified quote. Do not use until the editor finds Docket 132 at page 8 (D. Ct. docket). Alito says 'I am told' (block 178), so the quote came from someone else. Also Petrany: Schnapper 'I don't have it in front of me' (block 181).",
+      "uncertain": true
+    },
+    {
+      "id": "answer-did-not-plead",
+      "blocks": [
+        204,
+        204
+      ],
+      "time": "26:54",
+      "speaker": "Stephen J. Petrany",
+      "exact_words": "the DA's office mistakenly failed to plead this defense in its answer",
+      "kind": "record",
+      "identification": "The answer to the amended complaint (filed March 24, 2021 per petition.txt PDF p.20) did not plead the personal-staff exemption. Eleventh Circuit: 'In its answer, the DA's Office asserted several affirmative defenses, but did not assert that Younge was personal staff' (App. 5a-6a) and 'The DA's Office did not plead the personal-staff exemption in its answer' (App. 11a). Respondent conceded this in the Eleventh Circuit (cert-reply.txt, quoting Response Br. of Appellee at 11).",
+      "where_in_sources": "sources/pet-app-ocr.txt PDF p.5-6 and p.11; petition.txt PDF p.20; cert-reply.txt, section A ('Respondent Conceded In The Court of Appeals') quoting Response Br. of Appellee at 11.",
+      "source_file": "sources/pet-app-ocr.txt",
+      "why_viewer_needs_it": "The question is what the answer pleaded. The viewer hears 'the answer' many times and needs the answer's actual content.",
+      "caution": "Respondent's BIO says the answer did plead it (see answer-admitted-personal-staff). Petrany's 'mistakenly failed to plead' is a concession that the Court can rely on, but the answer's contents are contested. Show both positions.",
+      "uncertain": false
+    },
+    {
+      "id": "answer-admitted-personal-staff",
+      "blocks": [
+        18,
+        19
+      ],
+      "time": "3:24",
+      "speaker": "Clarence Thomas",
+      "exact_words": "I thought it was admitted that she was a member of his personal staff.",
+      "kind": "record",
+      "identification": "Respondent's position: the answer's paragraph 33 response (ECF No. 53 at 10) says 'Defendant admits that as Deputy Chief of Staff to the District Attorney Plaintiff was a member of the District Attorney's executive and/or personal staff' (quoted in cert-reply.txt, PDF p.13). BIO p.1-2 calls the admission 'express and unequivocal' and says the answer 'expressly stated' she was personal staff (bio.txt PDF p.2). Petitioner's reply says 'executive and/or' was dropped from respondent's quotation.",
+      "where_in_sources": "sources/cert-reply.txt PDF p.13 (answer text and reply's 'executive and/or' point); sources/bio.txt PDF p.2 (BIO's 'ECF No. 53 at 10' citation).",
+      "source_file": "sources/cert-reply.txt",
+      "why_viewer_needs_it": "Thomas's question shows the answer's wording is central. The viewer needs both quotations and the words 'executive and/or'.",
+      "caution": "Disputed record question. Quote both the BIO and the reply; do not state whether the answer 'admitted' or pleaded the defense. Petition App. 5a-6a and 11a say it did not assert the exemption.",
+      "uncertain": true
+    },
+    {
+      "id": "discovery-sought-denied",
+      "blocks": [
+        16,
+        21
+      ],
+      "time": "2:58",
+      "speaker": "Eric Schnapper",
+      "exact_words": "We proposed to do discovery about that. The judge wouldn't let us do that.",
+      "kind": "fact",
+      "identification": "The discovery Younge says she would have sought on the personal-staff question: (a) whether the public regarded her as speaking for the DA (public poll); (b) discovery from the chief of staff on how far he supervised her. The Eleventh Circuit says Younge 'proposed to identify, subpoena, and depose various members of the public' but 'failed to identify any particular people', calling it a 'mere fishing expedition', and says discovery on regulations 'is legal research, not fact discovery' (App. 13 n.7). It also says Younge 'never moved to reopen discovery despite the magistrate judge's willingness to do so' (App. 12).",
+      "where_in_sources": "sources/pet-app-ocr.txt PDF p.12-13 (text and n.7). BIO p.1-2 says the magistrate offered to reopen discovery (bio.txt PDF p.2-3).",
+      "source_file": "sources/pet-app-ocr.txt",
+      "why_viewer_needs_it": "Prejudice is the Eleventh Circuit's test; viewers need to know what discovery was said to be lost and whether it was refused.",
+      "caution": "Schnapper says the judge 'wouldn't let us' do discovery; the Eleventh Circuit says Younge did not move to reopen discovery. The district court's discovery rulings are not in our sources. Do not say discovery was refused unless the editor confirms it.",
+      "uncertain": true
+    },
+    {
+      "id": "prejudice-three-arguments",
+      "blocks": [
+        215,
+        219
+      ],
+      "time": "29:07",
+      "speaker": "Stephen J. Petrany",
+      "exact_words": "The Eleventh Circuit identified three arguments that Petitioner made on prejudice.",
+      "kind": "fact",
+      "identification": "The three prejudice arguments as the Eleventh Circuit described them: (1) more analysis of the regulations (court: 'legal research', App. 13 n.7); (2) that after pregnancy disclosure she was no longer personal staff (App. 27-29); (3) polling members of the public about whether she spoke for the DA (App. 13 n.7).",
+      "where_in_sources": "sources/pet-app-ocr.txt PDF p.12-13 (App. 12-13 and n.7) and PDF p.27-29 (App. 27-29).",
+      "source_file": "sources/pet-app-ocr.txt",
+      "why_viewer_needs_it": "Petrany lists the three claimed prejudices; a viewer can follow the argument only with the list.",
+      "caution": "Petrany describes the court's reasoning (e.g. 'that's a legal question'). The court treated the regulation point as legal research (n.7) and treated the demotion point under the intimacy factor (App. 26-29). Attribute the reasoning to the court and quote the opinion, not Petrany.",
+      "uncertain": false
+    },
+    {
+      "id": "pregnancy-demotion-argument",
+      "blocks": [
+        217,
+        217
+      ],
+      "time": "29:22",
+      "speaker": "Stephen J. Petrany",
+      "exact_words": "after the pregnancy was disclosed, she was no longer treated as personal staff",
+      "kind": "fact",
+      "identification": "Younge's argument that after her pregnancy announcement (about July 1, 2019) Howard had effectively demoted her out of personal staff, so she was no longer personal staff when fired on July 15, 2019 (pet-app-ocr.txt App. 27-29; petition.txt Factual Background). The Eleventh Circuit rejected it, saying 'Howard never demoted Younge' and relying on Townsend v. Shook, 323 F. App'x 245 (4th Cir. 2009) (App. 27-29).",
+      "where_in_sources": "sources/pet-app-ocr.txt PDF p.27-29 (App. 27a-29a) and fn. 11 (Cromer v. Brown distinguished).",
+      "source_file": "sources/pet-app-ocr.txt",
+      "why_viewer_needs_it": "Viewer hears this as an argument about timing (before or after pregnancy), which is a key fact in the personal-staff dispute.",
+      "caution": "Petrany says the Eleventh Circuit 'said that's a legal question' (block 217). The opinion treats the argument under the intimacy factor as a factual matter on the record (App. 27-29). Quote the opinion. Whether Younge was still personal staff after July 1 is contested.",
+      "uncertain": false
+    },
+    {
+      "id": "policymaking-appointee",
+      "blocks": [
+        327,
+        327
+      ],
+      "time": "42:02",
+      "speaker": "Stephen J. Petrany",
+      "exact_words": "the policymaking appointee exception",
+      "kind": "term",
+      "identification": "The 'policymaking appointee' exemption: 42 U.S.C. § 2000e(f) (an appointee on the policy making level, or an immediate adviser on the exercise of the constitutional or legal powers of the office). A separate defense the DA's Office raised in the district court; the magistrate treated it as not decided (petition.txt PDF p.83 and p.90: 'Defendant also argued that the \"policymaking appointee\" exemption applied to Plaintiff [Doc. 104 at 15-17]...').",
+      "where_in_sources": "sources/usc-42-2000e.txt (text); sources/petition.txt PDF p.83 and p.90 (district court and R&R references). The Eleventh Circuit did not discuss it.",
+      "source_file": "sources/usc-42-2000e.txt",
+      "why_viewer_needs_it": "Petrany uses it as an example of a defense that needed more record facts (so an amendment was needed). The viewer needs to know it is a different exemption from personal staff.",
+      "caution": "Petrany says 'the court said' an amendment was needed; the opinion text we have does not say this. Verify before quoting. Respondent's treatment at the district court is not in our sources.",
+      "uncertain": true
+    },
+    {
+      "id": "rule-8-and-12-must-plead",
+      "blocks": [
+        5,
+        5
+      ],
+      "time": "0:49",
+      "speaker": "Eric Schnapper",
+      "exact_words": "any affirmative defense and every affirmative defense must be pled",
+      "kind": "rule",
+      "identification": "Fed. R. Civ. P. 8(c)(1) ('In responding to a pleading, a party must affirmatively state any avoidance or affirmative defense') and Fed. R. Civ. P. 12(b) ('Every defense to a claim for relief in any pleading must be asserted in the responsive pleading if one is required'). Schnapper's wording ('every affirmative defense must be pled') paraphrases both.",
+      "where_in_sources": "sources/frcp-8.txt (subdivision (c)(1)); sources/frcp-12.txt (subdivision (b)).",
+      "source_file": "sources/frcp-8.txt",
+      "why_viewer_needs_it": "The QP and the whole dispute turn on 'must' in Rule 8(c)(1); viewers need the exact words of Rule 8 and Rule 12.",
+      "caution": "Rule 12(b) says 'every defense' (not 'every affirmative defense'). Show the text; do not use Schnapper's paraphrase as the rule.",
+      "uncertain": false
+    },
+    {
+      "id": "rule-12b-second-sentence",
+      "blocks": [
+        409,
+        410
+      ],
+      "time": "54:54",
+      "speaker": "Eric Schnapper",
+      "exact_words": "in the second sentence of Rule 12(b), after saying, every affirmative defense must be pled, it says: But you can raise a defense by motion.",
+      "kind": "rule",
+      "identification": "Fed. R. Civ. P. 12(b), second sentence: 'But a party may assert the following defenses by motion:' followed by the list (1)-(7), including (6) 'failure to state a claim upon which relief can be granted'. Schnapper reads the 'But' as an exception.",
+      "where_in_sources": "sources/frcp-12.txt (subdivision (b)).",
+      "source_file": "sources/frcp-12.txt",
+      "why_viewer_needs_it": "Respondent says Rule 12 shows some affirmative defenses need not be pled; Schnapper answers that the 'But' is an exception to the pleading rule. The viewer needs the words 'But a party may assert...'.",
+      "caution": "Schnapper's reading is contested (Petrany relies on the same provisions). Present the text, not the reading. He also says 'every affirmative defense' where the text says 'every defense'.",
+      "uncertain": false
+    },
+    {
+      "id": "rule-15a2-justice-so-requires",
+      "blocks": [
+        7,
+        7
+      ],
+      "time": "1:33",
+      "speaker": "Eric Schnapper",
+      "exact_words": "Rules 15(a)(2) and 16(b)(4) establish the standard for nonetheless raising that affirmative defense.",
+      "kind": "rule",
+      "identification": "Fed. R. Civ. P. 15(a)(2): 'The court should freely give leave when justice so requires.' Full text in sources/frcp-15.txt.",
+      "where_in_sources": "sources/frcp-15.txt (subdivision (a)(2)).",
+      "source_file": "sources/frcp-15.txt",
+      "why_viewer_needs_it": "Rule 15(a)(2) is the first rule on the table; the viewer needs its text.",
+      "caution": "Schnapper says the defendant 'inadvertently omitted' the defense; that is his characterization of the facts. Whether Rule 15 applies to summary-judgment motions is the question presented.",
+      "uncertain": false
+    },
+    {
+      "id": "rule-16b4-good-cause",
+      "blocks": [
+        6,
+        7
+      ],
+      "time": "1:07",
+      "speaker": "Eric Schnapper",
+      "exact_words": "a defendant would normally have to meet the good cause standard in Rule 16(b)(4)",
+      "kind": "rule",
+      "identification": "Fed. R. Civ. P. 16(b)(4): 'A schedule may be modified only for good cause and with the judge's consent.' Full text in sources/frcp-16.txt.",
+      "where_in_sources": "sources/frcp-16.txt (subdivision (b)(4)).",
+      "source_file": "sources/frcp-16.txt",
+      "why_viewer_needs_it": "The QP asks whether the defendant can raise the defense 'even if an amendment ... would be barred by Rule 16(b)(4)'; viewers need the good-cause text.",
+      "caution": "Whether Rule 16(b)(4) applies at all is disputed: Alito (block 151) 'I don't see why 16(b)(4) is in this case at all'; Kagan (block 190) 'you're not asking us to decide whether Rule 16 is applicable'; Kagan (block 229) 'Rule 16 might not even apply to this case'. Do not say Rule 16 applies.",
+      "uncertain": false
+    },
+    {
+      "id": "rule-15b2-tried-by-consent",
+      "blocks": [
+        329,
+        329
+      ],
+      "time": "42:33",
+      "speaker": "Stephen J. Petrany",
+      "exact_words": "Rule 15(b)(2) even allows factual issues when tried by consent to then be part of the case, even if the pleadings are not amended.",
+      "kind": "rule",
+      "identification": "Fed. R. Civ. P. 15(b)(2): issues not raised by the pleadings but tried by the parties' express or implied consent are treated as raised. Full text in sources/frcp-15.txt.",
+      "where_in_sources": "sources/frcp-15.txt (subdivision (b)(2)).",
+      "source_file": "sources/frcp-15.txt",
+      "why_viewer_needs_it": "Petrany uses 15(b)(2) to say pleadings need not match the case; Schnapper (block 412) reads it as confirming that defenses are ordinarily pleaded.",
+      "caution": "Both sides read 15(b)(2) in opposite directions. Present the text only. Petrany's 'factual issues' paraphrase is narrower than the text ('an issue not raised by the pleadings').",
+      "uncertain": false
+    },
+    {
+      "id": "rule-54c-relief-not-demanded",
+      "blocks": [
+        329,
+        329
+      ],
+      "time": "42:33",
+      "speaker": "Stephen J. Petrany",
+      "exact_words": "Rule 54 allows plaintiffs to get the entitlements -- or the -- the relief to which they're entitled even if they didn't ask for it.",
+      "kind": "rule",
+      "identification": "Fed. R. Civ. P. 54(c): 'Every other final judgment should grant the relief to which each party is entitled, even if the party has not demanded that relief in its pleadings.'",
+      "where_in_sources": "sources/frcp-54.txt (subdivision (c)).",
+      "source_file": "sources/frcp-54.txt",
+      "why_viewer_needs_it": "Petrany cites Rule 54 as another example of relief not in the pleadings; the viewer needs the exact sentence.",
+      "caution": "Rule 54(c) is about the relief in a judgment, not about affirmative defenses. Petrany's use is an analogy.",
+      "uncertain": false
+    },
+    {
+      "id": "rule-61-harmless-error",
+      "blocks": [
+        73,
+        73
+      ],
+      "time": "12:00",
+      "speaker": "Neil Gorsuch",
+      "exact_words": "first sentence of Rule 61 kind of circumstance, which applies to trials",
+      "kind": "rule",
+      "identification": "Fed. R. Civ. P. 61 (Harmless Error), first sentence: 'Unless justice requires otherwise, no error in admitting or excluding evidence--or any other error by the court or a party--is ground for granting a new trial, for setting aside a verdict, or for vacating, modifying, or otherwise disturbing a judgment or order.'",
+      "where_in_sources": "sources/frcp-61.txt.",
+      "source_file": "sources/frcp-61.txt",
+      "why_viewer_needs_it": "Gorsuch uses Rule 61 by analogy to explain the Eleventh Circuit's prejudice test; viewers need the rule's first sentence.",
+      "caution": "Gorsuch says Rule 61 'applies to trials'; this is his analogy. Petrany also cites Rule 61 (block 206). The Eleventh Circuit does not cite Rule 61 in the opinion text we have.",
+      "uncertain": false
+    },
+    {
+      "id": "petrany-rule-list-12h-71.1-72a",
+      "blocks": [
+        206,
+        206
+      ],
+      "time": "27:33",
+      "speaker": "Stephen J. Petrany",
+      "exact_words": "like bars on raising arguments from 12(h) to 71.1, 72(a)",
+      "kind": "rule",
+      "identification": "Petrany's examples of rules that set specific consequences for late arguments: Fed. R. Civ. P. 12(h) (waiver of certain defenses), 71.1 (condemnation answers), and 72(a) (14-day objections to magistrate orders). The phrase 'from 12(h) to 71.1, 72(a)' is a range he does not fully spell out.",
+      "where_in_sources": "sources/frcp-12.txt (12(h)); sources/frcp-71.1.txt (71.1(e)(2) 21-day answer); sources/frcp-72.txt (72(a) 14-day objections).",
+      "source_file": "sources/frcp-12.txt",
+      "why_viewer_needs_it": "Viewer hears three rule numbers in a row with no context.",
+      "caution": "Petrany's list is not spelled out in the transcript; the specific provisions he means are uncertain. Do not present the list as a complete set of waiver rules.",
+      "uncertain": true
+    },
+    {
+      "id": "rule-12h-waiver",
+      "blocks": [
+        359,
+        359
+      ],
+      "time": "46:37",
+      "speaker": "Stephen J. Petrany",
+      "exact_words": "Rule 12(h) specifically lays out --",
+      "kind": "rule",
+      "identification": "Fed. R. Civ. P. 12(h)(1): 'A party waives any defense listed in Rule 12(b)(2)-(5) by: (A) omitting it from a motion in the circumstances described in Rule 12(g)(2); or (B) failing to either: (i) make it by motion under this rule; or (ii) include it in a responsive pleading...'",
+      "where_in_sources": "sources/frcp-12.txt (subdivision (h)(1)).",
+      "source_file": "sources/frcp-12.txt",
+      "why_viewer_needs_it": "Petrany says Rule 12(h) has specific waiver rules, so silence elsewhere means no general waiver. Viewer needs to see that 12(h) covers only four defenses.",
+      "caution": "Rule 12(h)(1) lists only personal jurisdiction, venue, process, and service (12(b)(2)-(5)); it does not cover failure to state a claim or the Title VII exemption. Petrany's point is an argument about structure.",
+      "uncertain": false
+    },
+    {
+      "id": "rule-history-1963-1966",
+      "blocks": [
+        207,
+        207
+      ],
+      "time": "27:55",
+      "speaker": "Stephen J. Petrany",
+      "exact_words": "the rules used to provide that a defendant waives all defenses and objections not included in the answer. But that was removed in 1966.",
+      "kind": "timeline",
+      "identification": "The pre-1966 text of Rule 12(h) provided that a defense not raised in the answer was waived. Respondent's brief says the 1966 amendments 'removed the phrase \"all defenses and objections\"'. Petrany also says (block 351) that in 1963 'any defense or objection not included in an answer was waived.'",
+      "where_in_sources": "sources/resp-brief.txt PDF p.34 (printed about p.20; 1966 amendment discussion; TOA lists Fed. R. Civ. P. 12 (1963) and (1966)).",
+      "source_file": "sources/resp-brief.txt",
+      "why_viewer_needs_it": "The viewer hears 'in 1966' and 'in 1963' with no explanation; the rule history is the strongest argument that the no-waiver rule is current.",
+      "caution": "The pre-1966 text was not downloaded; the 1963 and 1966 versions should be checked against the Advisory Committee notes before quoting. Petrany's claim is his own reading.",
+      "uncertain": true
+    },
+    {
+      "id": "affirmative-defense-vs-element",
+      "blocks": [
+        96,
+        97
+      ],
+      "time": "15:31",
+      "speaker": "Samuel A. Alito, Jr.",
+      "exact_words": "it makes it very important to determine whether something is, in fact, an affirmative defense or an element of the claim",
+      "kind": "term",
+      "identification": "'Affirmative defense' (a defense the defendant must plead and prove, which Rule 8(c) lists) vs 'element of the claim' (which the plaintiff must prove). Whether the personal-staff exemption is one or the other is the question. Fourth Circuit (Curl v. Reavis, 740 F.2d 1323, 1327 n.2 (4th Cir. 1984)): employee status is an element of a Title VII claim. Fifth Circuit (Oden v. Oktibbeha County, 246 F.3d 458, 467 (5th Cir. 2001)): the personal-staff exception is an affirmative defense. Eleventh Circuit: 'We assume without deciding that Title VII's personal-staff exemption is an affirmative defense' (App. 8-9).",
+      "where_in_sources": "sources/pet-app-ocr.txt PDF p.8-9 (App. 8-9); sources/cap-f2d-740-1323.txt (Curl text: 'employee status is an element'); sources/cap-f3d-246-458.txt (Oden: personal staff exception 'allows the defendant to avoid liability even if the plaintiff meets his burden of proof').",
+      "source_file": "sources/pet-app-ocr.txt",
+      "why_viewer_needs_it": "The whole case depends on whether personal staff is a pleaded affirmative defense; the viewer needs to know the term and the split.",
+      "caution": "Alito says this question is not before the Court (block 97) and 'I don't know that this is an affirmative defense' (block 97). The card must not say which side is right. The Eleventh Circuit did not decide it.",
+      "uncertain": false
+    },
+    {
+      "id": "forfeiture-vs-waiver-kagan",
+      "blocks": [
+        53,
+        53
+      ],
+      "time": "9:43",
+      "speaker": "Elena Kagan",
+      "exact_words": "this is never waived in the sense of which some things are waived when you don't timely file",
+      "kind": "term",
+      "identification": "Waiver vs forfeiture in federal civil procedure: a waived right is gone; a forfeited right can be raised later in some circumstances. Day v. McDonough, 547 U.S. at 202 (forfeited if not raised in the answer; cap-547-198.txt); Wood v. Milyard, 566 U.S. 463 (forfeited; cap-566-463.txt). The Eleventh Circuit's Hassan opinion uses 'waives' (App. 9-10). Pre-1966 Rule 12(h) used 'waived' (see rule-history-1963-1966).",
+      "where_in_sources": "sources/cap-547-198.txt; sources/cap-566-463.txt; sources/pet-app-ocr.txt PDF p.9-10.",
+      "source_file": "sources/cap-547-198.txt",
+      "why_viewer_needs_it": "Two lawyers and several justices use 'waiver' and 'forfeiture' as if they were the same thing; they are not in these cases.",
+      "caution": "Kagan (block 53) and Petrany (block 330) use the terms to make different points. Define the terms neutrally and do not say which one applies.",
+      "uncertain": false
+    },
+    {
+      "id": "good-cause-term",
+      "blocks": [
+        164,
+        166
+      ],
+      "time": "24:24",
+      "speaker": "Brett M. Kavanaugh",
+      "exact_words": "do you think good cause is a requirement or not?",
+      "kind": "term",
+      "identification": "'Good cause' under Fed. R. Civ. P. 16(b)(4) (frcp-16.txt): 'A schedule may be modified only for good cause and with the judge's consent.' The Eleventh Circuit's distinction: unpleaded defenses need no prejudice; late motions to amend need good cause (App. 13 n.8, citing Sosa v. Airprint Systems, Inc., 133 F.3d 1417 (11th Cir. 1998)). Kavanaugh's gloss ('better than \"my bad\"', block 166) is informal.",
+      "where_in_sources": "sources/frcp-16.txt; sources/pet-app-ocr.txt PDF p.13 n.8. Sosa quoted in pet-brief.txt (PDF p.14).",
+      "source_file": "sources/frcp-16.txt",
+      "why_viewer_needs_it": "'Good cause' appears in at least six exchanges; the viewer needs the rule's words and the Eleventh Circuit's distinction.",
+      "caution": "Kavanaugh's 'my bad' remark drew laughter (block 167) and is not a legal definition. Whether good cause applies is disputed (see rule-16b4-good-cause).",
+      "uncertain": false
+    },
+    {
+      "id": "standards-hassan-vs-15-16",
+      "blocks": [
+        6,
+        7
+      ],
+      "time": "1:07",
+      "speaker": "Eric Schnapper",
+      "exact_words": "Hassan substitutes a no-prejudice standard for that.",
+      "kind": "comparison",
+      "identification": "Three standards: (1) Eleventh Circuit (Hassan): unpleaded affirmative defense allowed absent prejudice; (2) Rule 15(a)(2): leave 'freely given when justice so requires' (Foman factors); (3) Rule 16(b)(4): good cause for changes to a scheduling-order deadline. The Eleventh Circuit: 'The former requires a showing of no prejudice, while the latter requires a showing of good cause' (App. 13 n.8).",
+      "where_in_sources": "sources/pet-app-ocr.txt PDF p.13 n.8; sources/frcp-15.txt; sources/frcp-16.txt; sources/cap-f2d-842-260.txt.",
+      "source_file": "sources/pet-app-ocr.txt",
+      "why_viewer_needs_it": "The question is which of these standards applies; a three-column comparison is the clearest way to show it.",
+      "caution": "Schnapper's view is that the Eleventh Circuit standard is different from both Rules. Petrany says his standard is 'strict' prejudice and 'tougher' than Rule 15 (block 237). Present the standards as stated in the sources and attribute the characterizations.",
+      "uncertain": false
+    },
+    {
+      "id": "three-approaches-split",
+      "blocks": [
+        129,
+        131
+      ],
+      "time": "21:07",
+      "speaker": "Sonia Sotomayor",
+      "exact_words": "There are three different approaches. The D.C. Circuit says you can't file a motion for summary judgment adding an affirmative defense. You have to first file a motion to amend.",
+      "kind": "comparison",
+      "identification": "Three approaches to an unpleaded defense raised at summary judgment: (a) D.C. Circuit (Harris, 126 F.3d at 345): must first raise it in a pleading; (b) Tenth Circuit (Ahmad, 435 F.3d at 1201-02): treat the summary-judgment motion as a motion to amend and apply the same standards, without a strict formal-amendment requirement; (c) Eleventh Circuit (Hassan, 842 F.2d at 263): allowed absent prejudice. Second Circuit: Schnapper says 'permissible' (block 43), case unidentified.",
+      "where_in_sources": "sources/cap-f3d-126-339.txt; sources/cap-f3d-435-1196.txt; sources/cap-f2d-842-260.txt; sources/pet-app-ocr.txt PDF p.9-10.",
+      "source_file": "sources/cap-f3d-126-339.txt",
+      "why_viewer_needs_it": "This is the core of the argument: three circuits, three rules, and the Court's choice. A side-by-side card is the most useful thing in the transcript.",
+      "caution": "Schnapper declines to take a position on whether the D.C. Circuit's rule is required (block 132), and Sotomayor asks if it is 'required' (block 131). Do not say any approach is required. Second Circuit is unidentified.",
+      "uncertain": false
+    },
+    {
+      "id": "construe-sj-as-motion-to-amend",
+      "blocks": [
+        62,
+        64
+      ],
+      "time": "10:29",
+      "speaker": "Elena Kagan",
+      "exact_words": "construe your motion for summary judgment as a motion to amend",
+      "kind": "term",
+      "identification": "A practice in which a court treats a summary-judgment motion raising an unpled defense as a motion to amend the answer (Tenth Circuit practice; Ahmad v. Furlong, 435 F.3d 1196, 1201-02). Schnapper says the Court can permit it but should not require it (blocks 66-67). Pet-brief says the Tenth Circuit 'treats a summary judgment motion based on an unpled affirmative defense as a motion to amend' (pet-brief.txt, PDF p.43).",
+      "where_in_sources": "sources/cap-f3d-435-1196.txt; sources/pet-brief.txt PDF p.43 and p.48.",
+      "source_file": "sources/cap-f3d-435-1196.txt",
+      "why_viewer_needs_it": "Several justices propose this approach as a middle ground; the viewer needs the term.",
+      "caution": "Schnapper says 'I wouldn't advise the Court to tell people -- judges they have to do that' (block 67). Do not present the practice as required.",
+      "uncertain": false
+    },
+    {
+      "id": "circuit-split-personal-staff-affirmative-defense",
+      "blocks": [
+        105,
+        106
+      ],
+      "time": "17:21",
+      "speaker": "Samuel A. Alito, Jr. / Eric Schnapper",
+      "exact_words": "Four of the circuits have held it is an affirmative defense. The only circuit to the contrary is from 1982.",
+      "kind": "comparison",
+      "identification": "Whether the personal-staff exemption is an affirmative defense. The Eleventh Circuit cites only two sister circuits: the Fourth Circuit (Curl v. Reavis, 740 F.2d 1323, 1327 n.2 (4th Cir. 1984)): an element of the claim; the Fifth Circuit (Oden v. Oktibbeha County, 246 F.3d 458, 467 (5th Cir. 2001)): an affirmative defense (App. 8). Schnapper's count of 'five circuits' and his date 'from 1982' are not verified in any source. The Fourth Circuit case cited as the contrary view is from 1984, not 1982.",
+      "where_in_sources": "sources/pet-app-ocr.txt PDF p.8; sources/cap-f2d-740-1323.txt; sources/cap-f3d-246-458.txt. Gordon v. National Youth Work Alliance, 675 F.2d 356 (D.C. Cir. 1982) (sources/cap-f2d-675-356.txt) is a Title VII 90-day filing-limit case, not about this exemption.",
+      "source_file": "sources/pet-app-ocr.txt",
+      "why_viewer_needs_it": "Alito and Schnapper argue about which view is correct; the viewer needs the two cases, their years, and the Eleventh Circuit's 'assume without deciding'.",
+      "caution": "Do not repeat 'four circuits' or 'from 1982' unless verified. The 1982 circuit is probably Curl misdated, but this is an inference. Alito's question is not a holding.",
+      "uncertain": true
+    },
+    {
+      "id": "eleventh-three-lines-of-cases",
+      "blocks": [
+        34,
+        35
+      ],
+      "time": "6:42",
+      "speaker": "Eric Schnapper",
+      "exact_words": "There are -- there are three lines of cases at least.",
+      "kind": "comparison",
+      "identification": "Schnapper's three lines of Eleventh Circuit cases on what 'prejudice' means for unpleaded defenses: (1) lack of prejudice whenever discovery can be reopened; (2) closed discovery alone bars the defense; (3) an intermediate test asking what discovery would have shown. The three lines are not named in the sources. The Eleventh Circuit cites its own decisions: Pensacola Motor Sales (2012), Proctor v. Fluor (2007), Grant v. Preferred Research (1989), Mitchell (1991), Easterwood (1991) (App. 10-11).",
+      "where_in_sources": "sources/pet-app-ocr.txt PDF p.10-11 (App. 10-11, list of cases).",
+      "source_file": "sources/pet-app-ocr.txt",
+      "why_viewer_needs_it": "Schnapper says the Eleventh Circuit is divided internally; a viewer would need the three approaches named.",
+      "caution": "Schnapper's characterization is advocacy and no case is identified. Do not present the three lines as established without citations. Schnapper also calls Hassan 'four decades' old; Hassan is 1988.",
+      "uncertain": true
+    },
+    {
+      "id": "undue-delay-vs-prejudice",
+      "blocks": [
+        89,
+        92
+      ],
+      "time": "13:52",
+      "speaker": "Samuel A. Alito, Jr.",
+      "exact_words": "Isn't the question whether delay was undue very closely related in most instances to whether there was prejudice?",
+      "kind": "comparison",
+      "identification": "Whether 'undue delay' (a Foman factor, 371 U.S. at 182) is separate from 'undue prejudice' (another Foman factor). Foman lists them separately: 'undue delay, bad faith or dilatory motive ...' and 'undue prejudice to the opposing party by virtue of allowance of the amendment' (cap-371-178.txt).",
+      "where_in_sources": "sources/cap-371-178.txt; sources/cap-f3d-126-339.txt (Harris: 'undue delay, bad faith or dilatory motive ...').",
+      "source_file": "sources/cap-371-178.txt",
+      "why_viewer_needs_it": "Alito asks whether delay matters without prejudice; Schnapper answers that Foman describes them as different standards (block 93).",
+      "caution": "Alito's question expresses a view ('there could be such cases ... a sliver' block 92). Attribute to Alito, do not state as a rule.",
+      "uncertain": false
+    },
+    {
+      "id": "question-presented-framing",
+      "blocks": [
+        274,
+        277
+      ],
+      "time": "35:59",
+      "speaker": "Sonia Sotomayor",
+      "exact_words": "We granted cert on whether you have to -- in making a motion to amend, whether it's now independent from a motion for summary judgment or a part of summary judgment, that you have to essentially comply with the Foman factors",
+      "kind": "record",
+      "identification": "Question presented as printed (sources/qp.txt): (1) whether a defendant who answered without pleading an affirmative defense may assert it as the basis for summary judgment without amending or seeking to amend; (2) whether it may do so even if an amendment would be barred by Rule 16(b)(4). Cert granted 3/30/2026. The QP does not mention the Foman factors or Rule 15. Alito (block 387) reads the first part as a Rule 15 question.",
+      "where_in_sources": "sources/qp.txt (full text).",
+      "source_file": "sources/qp.txt",
+      "why_viewer_needs_it": "Justices disagree about what was granted; the viewer needs the printed QP.",
+      "caution": "Sotomayor's description (Foman) and Petrany's reading (Rule 16(b)(4), block 278) differ from the printed QP's words. Show the printed QP and do not state what was granted beyond it.",
+      "uncertain": true
+    },
+    {
+      "id": "timeline-case-history",
+      "blocks": [
+        292,
+        294
+      ],
+      "time": "37:18",
+      "speaker": "Stephen J. Petrany",
+      "exact_words": "She didn't even file the first amended complaint until after that.",
+      "kind": "timeline",
+      "identification": "Procedural sequence (from petition.txt and pet-app-ocr.txt, unless noted): Younge hired Apr. 2019 (App. 33a per BIO); pregnancy notice July 1, 2019; fired July 15, 2019; complaint 2020 (No. 1:20-cv-00684-WMR; petition says 2020, pet-brief says 2019); answer filed Mar. 24, 2021; Joint Preliminary Report Apr. 26, 2021; Scheduling Order Apr. 27, 2021; amendment deadline May 26, 2021 (30 days, N.D. Ga. LR 84.1(c)); discovery closed Jan. 5, 2022; Mar. 14, 2022 hearing where the defense was first mentioned; dispositive-motion deadline Apr. 8, 2022 (Doc. 88); summary-judgment motion May 16, 2022 (petition p.7); magistrate R&R; district court grants SJ; Eleventh Circuit affirms Apr. 1, 2025 (rehearing denied May 23, 2025); cert granted Mar. 30, 2026; argued Nov. 2, 2026.",
+      "where_in_sources": "sources/petition.txt PDF p.20-22 (Factual Background, Proceedings Below, App. 81a-82a on the Apr. 2022 filings); sources/pet-app-ocr.txt PDF p.1, 5-6; sources/qp.txt; sources/docket.json (filing dates and rehearing denied May 23, 2025); sources/pet-brief.txt PDF p.23 (2019 date).",
+      "source_file": "sources/petition.txt",
+      "why_viewer_needs_it": "The timeline shows the gap between the answer (March 2021), the deadline (May 2021), and the defense (March/May 2022). It is the easiest way to show what happened when.",
+      "caution": "Unresolved: petition App. 81a-82a says Defendant filed a summary-judgment motion on Apr. 8, 2022 and an amended one on Apr. 11, 2022, which the court struck, and the refiled motion came later; the 'May 16, 2022' date is from the petition's statement of facts. The EEOC charge date and the first amended complaint date are not in our sources. Complaint year conflicts (2019 vs 2020).",
+      "uncertain": true
+    },
+    {
+      "id": "eeoc-alternative-remedy",
+      "blocks": [
+        287,
+        288
+      ],
+      "time": "36:49",
+      "speaker": "Sonia Sotomayor / Stephen J. Petrany",
+      "exact_words": "is there any remedy that she had, alternative remedy?",
+      "kind": "fact",
+      "identification": "Whether Younge had an administrative remedy (EEOC under GERA) if she was personal staff. Petrany (block 288): 'Well, she could have gone through the EEOC for sure.' Petrany (block 292): 180-day deadline (see gera-180-days).",
+      "where_in_sources": "sources/usc-42-2000e-16c.txt; sources/petition.txt PDF p.140 (App. 90a, EEOC charges filed after July 15, 2019).",
+      "source_file": "sources/usc-42-2000e-16c.txt",
+      "why_viewer_needs_it": "Explains why a personal-staff finding matters: the claim goes to a different forum.",
+      "caution": "Petrany's EEOC point is contested by Younge's position that the GERA route was not available in time. Attribute.",
+      "uncertain": true
+    },
+    {
+      "id": "two-years-litigating",
+      "blocks": [
+        319,
+        319
+      ],
+      "time": "40:25",
+      "speaker": "Ketanji Brown Jackson",
+      "exact_words": "counsel on the other side says we spent two years litigating this case",
+      "kind": "fact",
+      "identification": "Jackson paraphrases respondent's point that the case was litigated for about two years before the defense was raised. Filing dates: complaint 2020; answer Mar. 24, 2021; defense raised Mar. 14, 2022 and summary judgment May 2022 (see timeline-case-history).",
+      "where_in_sources": "sources/petition.txt PDF p.20-22; sources/pet-app-ocr.txt PDF p.6.",
+      "source_file": "sources/petition.txt",
+      "why_viewer_needs_it": "The viewer needs to know how long the case ran before the defense was raised.",
+      "caution": "'Two years' is the speaker's figure; the sources show about 14 months from answer to summary judgment, and the litigation ran longer from filing. Attribute and do not restate as fact.",
+      "uncertain": true
+    },
+    {
+      "id": "hypo-1983",
+      "blocks": [
+        111,
+        113
+      ],
+      "time": "18:13",
+      "speaker": "Samuel A. Alito, Jr.",
+      "exact_words": "Suppose a private person is sued under 1983. Is that an affirmative defense?",
+      "kind": "statute",
+      "identification": "42 U.S.C. § 1983 (civil action for deprivation of rights under color of state law). Alito's hypothetical (private citizen sued under § 1983) about whether state-action status is an affirmative defense. Not downloaded.",
+      "where_in_sources": "transcript only.",
+      "source_file": "",
+      "why_viewer_needs_it": "A viewer may wonder what '1983' refers to, but the hypothetical is not part of this dispute.",
+      "caution": "Alito says 'never mind, it's a different issue' (block 113). Low priority; probably reject.",
+      "uncertain": true
+    }
+  ],
+  "read_aloud": [
+    {
+      "blocks": [
+        238,
+        238
+      ],
+      "time": "32:37",
+      "speaker": "Neil Gorsuch",
+      "text": "when justice so requires",
+      "verbatim": true,
+      "note": "Gorsuch quotes Rule 15(a)(2) ('The court should freely give leave when justice so requires') in full at block 238 in the form 'Rule 15, \"when justice so requires.\"' A card repeating the words adds nothing; the rule text is in frcp-15.txt."
+    },
+    {
+      "blocks": [
+        178,
+        178
+      ],
+      "time": "25:35",
+      "speaker": "Samuel A. Alito, Jr.",
+      "text": "District Court Docket 132 at 8, you wrote, \"This Court's local rules do not address the deadline for amending pleadings.\"",
+      "verbatim": true,
+      "note": "Quoted from a filing that is not in our sources; unverified. Do not use until Docket 132 p.8 is checked."
+    },
+    {
+      "blocks": [
+        151,
+        151
+      ],
+      "time": "23:16",
+      "speaker": "Samuel A. Alito, Jr.",
+      "text": "The district court's scheduling order said that the parties have to comply with the time limits set forth in the Federal Rules of Civil Procedure -- that's Rule 15 -- and this court's local rules.",
+      "verbatim": false,
+      "note": "Alito's paraphrase of the scheduling order (not a verbatim reading). Not verifiable: the order is not in sources/."
+    },
+    {
+      "blocks": [
+        387,
+        387
+      ],
+      "time": "50:26",
+      "speaker": "Samuel A. Alito, Jr.",
+      "text": "Is it -- can an affirmative defense provide the basis for summary judgment where there has not, in fact, been a formal amendment of the complaint?",
+      "verbatim": false,
+      "note": "Alito's paraphrase of the first QP question, which in the printed QP (sources/qp.txt) refers to an answer, not the complaint."
+    },
+    {
+      "blocks": [
+        410,
+        410
+      ],
+      "time": "55:03",
+      "speaker": "Eric Schnapper",
+      "text": "in the second sentence of Rule 12(b), after saying, every affirmative defense must be pled, it says: But you can raise a defense by motion.",
+      "verbatim": false,
+      "note": "Schnapper's paraphrase: the Rule says 'Every defense' (not 'every affirmative defense'). Show the text in frcp-12.txt."
+    }
+  ],
+  "sources_downloaded": [
+    {
+      "file": "sources/pet-app-ocr.txt",
+      "what": "OCR of the Eleventh Circuit opinion (pet-app.pdf, 35 scanned pages; pet-app.txt was empty). PDF page N = App. Na in the petition appendix (confirmed by the cert reply's App. citations). Opinion pages 1-30 plus the clerk's memo."
+    },
+    {
+      "file": "sources/frcp-8.txt / .htm",
+      "what": "Fed. R. Civ. P. 8 (current text, Cornell LII; HTML saved as frcp-8.htm)."
+    },
+    {
+      "file": "sources/frcp-12.txt / .htm",
+      "what": "Fed. R. Civ. P. 12 (Cornell LII)."
+    },
+    {
+      "file": "sources/frcp-15.txt / .htm",
+      "what": "Fed. R. Civ. P. 15 (Cornell LII)."
+    },
+    {
+      "file": "sources/frcp-16.txt / .htm",
+      "what": "Fed. R. Civ. P. 16 (Cornell LII)."
+    },
+    {
+      "file": "sources/frcp-54.txt / .htm",
+      "what": "Fed. R. Civ. P. 54 (Cornell LII)."
+    },
+    {
+      "file": "sources/frcp-56.txt / .htm",
+      "what": "Fed. R. Civ. P. 56 (Cornell LII). Not named in the argument; downloaded as requested."
+    },
+    {
+      "file": "sources/frcp-61.txt / .htm",
+      "what": "Fed. R. Civ. P. 61 (Cornell LII)."
+    },
+    {
+      "file": "sources/frcp-71.1.txt / .htm",
+      "what": "Fed. R. Civ. P. 71.1 (Cornell LII)."
+    },
+    {
+      "file": "sources/frcp-72.txt / .htm",
+      "what": "Fed. R. Civ. P. 72 (Cornell LII)."
+    },
+    {
+      "file": "sources/usc-42-2000e.txt / .htm",
+      "what": "42 U.S.C. § 2000e (govinfo, U.S. Code 2024), including (f) personal staff / policy-making appointee exemption."
+    },
+    {
+      "file": "sources/usc-42-2000e-16.txt / .htm",
+      "what": "42 U.S.C. § 2000e-16 (govinfo)."
+    },
+    {
+      "file": "sources/usc-42-2000e-16c.txt / .htm",
+      "what": "42 U.S.C. § 2000e-16c (GERA; 180-day EEOC complaint in (b)(1))."
+    },
+    {
+      "file": "sources/usc-42-2000e-5.txt / .htm",
+      "what": "42 U.S.C. § 2000e-5 (govinfo). Title VII enforcement; search for the 180/300-day text did not match, check manually."
+    },
+    {
+      "file": "sources/cap-540-443.txt",
+      "what": "Kontrick v. Ryan, 540 U.S. 443 (2004), CAP text (no star paging)."
+    },
+    {
+      "file": "sources/cap-371-178.txt",
+      "what": "Foman v. Davis, 371 U.S. 178 (1962), CAP text."
+    },
+    {
+      "file": "sources/cap-547-198.txt",
+      "what": "Day v. McDonough, 547 U.S. 198 (2006), CAP text."
+    },
+    {
+      "file": "sources/cap-566-463.txt",
+      "what": "Wood v. Milyard, 566 U.S. 463 (2012), CAP text."
+    },
+    {
+      "file": "sources/cap-f2d-842-260.txt",
+      "what": "Hassan v. U.S. Postal Service, 842 F.2d 260 (11th Cir. 1988), CAP text."
+    },
+    {
+      "file": "sources/cap-f3d-126-339.txt",
+      "what": "Harris v. Secretary, Dep't of Veterans Affairs, 126 F.3d 339 (D.C. Cir. 1997) (Edwards, C.J.), CAP text."
+    },
+    {
+      "file": "sources/cap-f3d-435-1196.txt",
+      "what": "Ahmad v. Furlong, 435 F.3d 1196 (10th Cir. 2006), CAP text."
+    },
+    {
+      "file": "sources/cap-f2d-740-1323.txt",
+      "what": "Curl v. Reavis, 740 F.2d 1323 (4th Cir. 1984), CAP text."
+    },
+    {
+      "file": "sources/cap-f3d-246-458.txt",
+      "what": "Oden v. Oktibbeha County, 246 F.3d 458 (5th Cir. 2001), CAP text."
+    },
+    {
+      "file": "sources/cap-f2d-675-356.txt",
+      "what": "Gordon v. National Youth Work Alliance, 675 F.2d 356 (D.C. Cir. 1982), CAP text (checked: Title VII 90-day filing case, not the personal-staff question)."
+    },
+    {
+      "file": "sources/encino-584-79.txt",
+      "what": "Encino Motorcars, LLC v. Navarro, 584 U.S. 79 (2018), excerpt from the Supreme Court's official preliminary print of vol. 584 (CAP lacks vol. 584; supremecourt.gov used instead). Contains no 'affirmative defense' phrase."
+    },
+    {
+      "file": "sources/qp.txt (existing)",
+      "what": "Question presented (read, not downloaded)."
+    }
+  ],
+  "notes": [
+    "Physical-page convention: 'PDF p.N' = form feeds before the passage + 1. Printed page numbers were not reliably recoverable from the pdftotext output, so only PDF page numbers are given for briefs and the petition. For the Eleventh Circuit opinion, PDF page = App. page (App. 5a = PDF p.5); confirmed against the cert reply's citations (App. 2a, 5a-6a, 11a).",
+    "CAP texts have no star paging, so U.S. Reports and F.2d/F.3d pin cites are taken from the briefs (e.g. Kontrick 459 from pet-reply.txt; Harris 345, Ahmad 1201-02, Day 202, Foman 182) and must be checked against the bound volumes before quoting with pin cites.",
+    "Kontrick misstatement: Schnapper says a defense is lost if not in 'an amended complaint' (block 3); the opinion says 'answer or amended answer' (cap-540-443.txt).",
+    "Schnapper misspeaks at block 407 ('15(a)(2) and 16(a)(4)'); the rule is 16(b)(4). Do not carry the typo into a card.",
+    "'ED' at block 108 is probably Encino Motorcars (584 U.S. 79); the opinion has no 'affirmative defense' language, so Schnapper's characterization is not supported by it (encino-584-79.txt).",
+    "Schnapper's 'five circuits ... four held ... only circuit to the contrary is from 1982' (block 106) is not verified. The Eleventh Circuit cites Curl (4th Cir. 1984) as the contrary view and Oden (5th Cir. 2001) as the affirmative-defense view. Gordon (D.C. Cir. 1982) is a Title VII filing-limit case, not on this question.",
+    "Docket 132 quote (Alito, block 178) not found in any source. Treat as unverified.",
+    "Answer contents are disputed: petition App. 5a-6a and 11a say the answer did not assert the exemption; BIO says ECF No. 53 at 10 expressly admitted personal staff; reply says respondent's quotation dropped 'executive and/or'.",
+    "Complaint date conflict: petition.txt says 'commenced ... in 2020' (case no. 1:20-cv-00684); pet-brief.txt says 'commenced this action in 2019'. Docket number supports 2020.",
+    "Summary-judgment dates conflict: petition App. 81a-82a describes an April 8, 2022 summary-judgment motion and an April 11, 2022 amended motion that the court struck; the statement of facts gives May 16, 2022 for the motion the court decided. Check the district court docket before stating a date.",
+    "Petrany's '180 days' (block 292) matches GERA's 42 U.S.C. § 2000e-16c(b)(1) (not Title VII). The date of Younge's EEOC charge and of the first amended complaint are not in the sources.",
+    "Eleventh Circuit says it assumes without deciding both (a) that the personal-staff exemption is an affirmative defense (App. 8-9) and (b) that the Laurie six-factor test governs (App. 16-17). The cards should not say the court decided either.",
+    "Rule 16 applicability is disputed in the argument (Alito block 151; Kagan blocks 190, 229, 341; Schnapper block 175). Do not state that Rule 16 applies.",
+    "Petrany's characterization of the Eleventh Circuit's reasoning on the post-pregnancy argument ('a legal question', block 217) differs from the opinion, which treats the point under the intimacy factor (App. 27-29). Quote the opinion.",
+    "Rule 56 is not named in the argument (downloaded as requested). The Eleventh Circuit cites Rule 56(a) at App. 14.",
+    "Not downloaded (named or implied in the argument, lower priority): 42 U.S.C. § 1983 (block 111), FLSA § 213 (block 108), Laurie v. Ala. Ct. of Crim. Appeals (88 F. Supp. 2d 1334), Sosa v. Airprint (133 F.3d 1417, cited by the Eleventh Circuit), Minter (451 F.3d 1196), Second Circuit case (unidentified).",
+    "Johnson v. City of Shelby (574 U.S. 10) and Encino were checked only as needed; CAP does not have vols. 574 or 584 (404 returned). Encino was taken from the supremecourt.gov preliminary print.",
+    "The pet-app.txt file in sources/ was empty (scanned PDF); OCR of its 35 pages is saved as sources/pet-app-ocr.txt. OCR errors are possible in quoted text (e.g. 'Teneyuca', 'Pensacola'); check quotes against the PDF before publication.",
+    "Schnapper's 'Harris decision' attribution to Chief Judge Edwards (block 24) is verified (cap-f3d-126-339.txt).",
+    "Sides-risk spots (do not state either side's view as fact): block 3/406 (whether Rule 8 forfeiture applies), block 96-105 (affirmative defense vs element), block 204 ('undisputably personal staff'), block 217 (demotion), block 278 (what the QP asks), block 331 ('a mistake is never going to be good cause'), block 407-412 (Rule 12(b) and 15(b)(2) readings), block 390 (Petrany says Younge's position changed; disputed)."
+  ]
+}

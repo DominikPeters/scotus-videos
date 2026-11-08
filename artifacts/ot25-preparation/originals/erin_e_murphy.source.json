@@ -1,0 +1,16 @@
+{
+  "name": "Erin E. Murphy",
+  "cases": [
+    "24-1234"
+  ],
+  "image_url": "https://www.clementmurphy.com/wp-content/uploads/Erin-E.-Murphy.jpg",
+  "source_url": "https://www.clementmurphy.com/who-we-are/erin-murphy/",
+  "identity_source_url": "https://www.clementmurphy.com/who-we-are/erin-murphy/",
+  "kind": "photo",
+  "approval": "pending",
+  "original_file": "originals/erin_e_murphy.jpg",
+  "width": 400,
+  "height": 400,
+  "sha256": "d3ae87241366255f1912d2850ddf4c8e310cafb95229f41aaa032ed497c2ebe0",
+  "identity_evidence": "Official Court argued entry confirms name and city; authoritative professional profile matches name, firm/agency and location. Profile inspected in Chrome where direct request was blocked."
+}

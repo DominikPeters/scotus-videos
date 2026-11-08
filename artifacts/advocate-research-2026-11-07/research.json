@@ -1,0 +1,242 @@
+{
+  "checked_on": "2026-11-07",
+  "official_index": "https://www.supremecourt.gov/oral_arguments/calendarsandlists.aspx",
+  "session_start_time": "10:00 America/New_York; second case follows first, no fixed start assumed.",
+  "schedule": [
+    {
+      "date": "2026-11-09",
+      "docket": "25-417",
+      "case": "Nielsen v. Watanabe",
+      "advocates": [
+        {
+          "name": "Lucas M. Walker",
+          "scheduled_speaker": true,
+          "evidence": "https://www.supremecourt.gov/oral_arguments/hearinglists/HearingList-November2026.pdf",
+          "existing_portrait": "advocates/lucas_m_walker.jpg"
+        },
+        {
+          "name": "Vivek Suri",
+          "scheduled_speaker": true,
+          "evidence": "https://www.supremecourt.gov/oral_arguments/hearinglists/HearingList-November2026.pdf",
+          "existing_portrait": "advocates/vivek_suri.jpg"
+        },
+        {
+          "name": "Joshua M. Wesneski",
+          "scheduled_speaker": true,
+          "evidence": "https://www.supremecourt.gov/oral_arguments/hearinglists/HearingList-November2026.pdf"
+        }
+      ],
+      "evidence": "https://www.supremecourt.gov/oral_arguments/hearinglists/HearingList-November2026.pdf"
+    },
+    {
+      "date": "2026-11-09",
+      "docket": "25-159",
+      "case": "Hoffmann v. WBI Energy Transmission, Inc.",
+      "advocates": [
+        {
+          "name": "Robert J. McNamara",
+          "scheduled_speaker": true,
+          "evidence": "https://www.supremecourt.gov/oral_arguments/hearinglists/HearingList-November2026.pdf",
+          "existing_portrait": "advocates/robert_j_mcnamara.jpg"
+        },
+        {
+          "name": "Paul W. Hughes",
+          "scheduled_speaker": true,
+          "evidence": "https://www.supremecourt.gov/oral_arguments/hearinglists/HearingList-November2026.pdf",
+          "existing_portrait": "advocates/paul_w_hughes.jpg"
+        },
+        {
+          "name": "Zoe A. Jacoby",
+          "scheduled_speaker": true,
+          "evidence": "https://www.supremecourt.gov/oral_arguments/hearinglists/HearingList-November2026.pdf",
+          "existing_portrait": "advocates/zoe_a_jacoby.jpg"
+        }
+      ],
+      "evidence": "https://www.supremecourt.gov/oral_arguments/hearinglists/HearingList-November2026.pdf"
+    },
+    {
+      "date": "2026-11-10",
+      "docket": "25-966",
+      "case": "Department of Labor v. Sun Valley Orchards, LLC",
+      "advocates": [
+        {
+          "name": "Sarah M. Harris",
+          "scheduled_speaker": true,
+          "evidence": "https://www.supremecourt.gov/oral_arguments/hearinglists/HearingList-November2026.pdf",
+          "existing_portrait": "advocates/sarah_m_harris.jpg"
+        },
+        {
+          "name": "Robert E. Johnson",
+          "scheduled_speaker": true,
+          "evidence": "https://www.supremecourt.gov/oral_arguments/hearinglists/HearingList-November2026.pdf"
+        }
+      ],
+      "evidence": "https://www.supremecourt.gov/oral_arguments/hearinglists/HearingList-November2026.pdf"
+    },
+    {
+      "date": "2026-11-30",
+      "docket": "25-183",
+      "case": "Crowther v. Board of Regents of University System of Georgia",
+      "advocates": null,
+      "speaker_status": "Hearing list not yet published on official index; counsel of record must not be treated as confirmed oral advocate.",
+      "evidence": "https://www.supremecourt.gov/oral_arguments/argument_calendars/MonthlyArgumentCalDecember2026.pdf"
+    },
+    {
+      "date": "2026-11-30",
+      "docket": "25-842",
+      "case": "Wassily v. Blanche",
+      "advocates": null,
+      "speaker_status": "Hearing list not yet published on official index; counsel of record must not be treated as confirmed oral advocate.",
+      "evidence": "https://www.supremecourt.gov/oral_arguments/argument_calendars/MonthlyArgumentCalDecember2026.pdf"
+    },
+    {
+      "date": "2026-12-01",
+      "docket": "25-246",
+      "case": "Jouppi v. Alaska",
+      "advocates": null,
+      "speaker_status": "Hearing list not yet published on official index; counsel of record must not be treated as confirmed oral advocate.",
+      "evidence": "https://www.supremecourt.gov/oral_arguments/argument_calendars/MonthlyArgumentCalDecember2026.pdf"
+    },
+    {
+      "date": "2026-12-02",
+      "docket": "25-238 & 25-566",
+      "case": "Viramontes v. Cook County / Grant v. Higgins (consolidated)",
+      "advocates": null,
+      "speaker_status": "Hearing list not yet published on official index; counsel of record must not be treated as confirmed oral advocate.",
+      "evidence": "https://www.supremecourt.gov/oral_arguments/argument_calendars/MonthlyArgumentCalDecember2026.pdf"
+    },
+    {
+      "date": "2026-12-07",
+      "docket": "25-840",
+      "case": "International Partners for Ethical Care, Inc. v. Ferguson",
+      "advocates": null,
+      "speaker_status": "Hearing list not yet published on official index; counsel of record must not be treated as confirmed oral advocate.",
+      "evidence": "https://www.supremecourt.gov/oral_arguments/argument_calendars/MonthlyArgumentCalDecember2026.pdf"
+    },
+    {
+      "date": "2026-12-08",
+      "docket": "25-1017",
+      "case": "Republican National Committee v. Mi Familia Vota",
+      "advocates": null,
+      "speaker_status": "Hearing list not yet published on official index; counsel of record must not be treated as confirmed oral advocate.",
+      "evidence": "https://www.supremecourt.gov/oral_arguments/argument_calendars/MonthlyArgumentCalDecember2026.pdf"
+    },
+    {
+      "date": "2026-12-09",
+      "docket": "26-426",
+      "case": "Department of Homeland Security v. D. V. D.",
+      "advocates": null,
+      "speaker_status": "Hearing list not yet published on official index; counsel of record must not be treated as confirmed oral advocate.",
+      "evidence": "https://www.supremecourt.gov/oral_arguments/argument_calendars/MonthlyArgumentCalDecember2026.pdf"
+    },
+    {
+      "date": "2026-12-09",
+      "docket": "25-965",
+      "case": "Grand v. City of University Heights",
+      "advocates": null,
+      "speaker_status": "Hearing list not yet published on official index; counsel of record must not be treated as confirmed oral advocate.",
+      "evidence": "https://www.supremecourt.gov/oral_arguments/argument_calendars/MonthlyArgumentCalDecember2026.pdf"
+    },
+    {
+      "date": "2027-01-11",
+      "docket": "25-1223",
+      "case": "Montoya Palacios v. Liggins",
+      "advocates": null,
+      "speaker_status": "Hearing list not yet published on official index; counsel of record must not be treated as confirmed oral advocate.",
+      "evidence": "https://www.supremecourt.gov/oral_arguments/argument_calendars/MonthlyArgumentCalJanuary2027.pdf"
+    },
+    {
+      "date": "2027-01-11",
+      "docket": "25-1311",
+      "case": "Apple Inc. v. Epic Games, Inc.",
+      "advocates": null,
+      "speaker_status": "Hearing list not yet published on official index; counsel of record must not be treated as confirmed oral advocate.",
+      "evidence": "https://www.supremecourt.gov/oral_arguments/argument_calendars/MonthlyArgumentCalJanuary2027.pdf"
+    },
+    {
+      "date": "2027-01-12",
+      "docket": "24-1016",
+      "case": "Riseandshine Corp. v. PepsiCo, Inc.",
+      "advocates": null,
+      "speaker_status": "Hearing list not yet published on official index; counsel of record must not be treated as confirmed oral advocate.",
+      "evidence": "https://www.supremecourt.gov/oral_arguments/argument_calendars/MonthlyArgumentCalJanuary2027.pdf"
+    },
+    {
+      "date": "2027-01-13",
+      "docket": "25-6623",
+      "case": "Kian v. Florida",
+      "advocates": null,
+      "speaker_status": "Hearing list not yet published on official index; counsel of record must not be treated as confirmed oral advocate.",
+      "evidence": "https://www.supremecourt.gov/oral_arguments/argument_calendars/MonthlyArgumentCalJanuary2027.pdf"
+    },
+    {
+      "date": "2027-01-19",
+      "docket": "25-1349",
+      "case": "Marschner v. Marschner",
+      "advocates": null,
+      "speaker_status": "Hearing list not yet published on official index; counsel of record must not be treated as confirmed oral advocate.",
+      "evidence": "https://www.supremecourt.gov/oral_arguments/argument_calendars/MonthlyArgumentCalJanuary2027.pdf"
+    },
+    {
+      "date": "2027-01-20",
+      "docket": "25-1131",
+      "case": "Missionaries of St. John the Baptist, Inc. v. Frederic",
+      "advocates": null,
+      "speaker_status": "Hearing list not yet published on official index; counsel of record must not be treated as confirmed oral advocate.",
+      "evidence": "https://www.supremecourt.gov/oral_arguments/argument_calendars/MonthlyArgumentCalJanuary2027.pdf"
+    }
+  ],
+  "portraits": [
+    {
+      "name": "Emily M. Ferguson",
+      "file": "emily_m_ferguson.jpg",
+      "status": "Previously owner-selected source recovered from OT25 bundle; submitted as candidate for current recording.",
+      "provenance": "../ot25-preparation/manifest.json",
+      "width": 800,
+      "height": 800,
+      "sha256": "623fd59b7fd4ddb19d6157d83e62adeb0ff72aa98ad4c37539f8e64d8da0b98e"
+    },
+    {
+      "name": "Jeremy Schepers",
+      "file": "jeremy_schepers.grits-original.jpg",
+      "source_url": "https://www.instagram.com/p/DF_ZlW1M-mF/",
+      "status": "Named second portrait from left in GRITS poster; source submitted for cloud crop and review.",
+      "identity_evidence": "Named portrait label and matching Northern District of Texas Capital Habeas Unit Chief biography; current hearing list confirms advocate.",
+      "width": 1350,
+      "height": 1688,
+      "sha256": "54149684a1fef4c96ea5b15b90c4914daa52f21f5d4fdf4886c029d1f5eb4b05"
+    },
+    {
+      "name": "Joshua M. Wesneski",
+      "file": "joshua_m_wesneski.source.jpg",
+      "source_url": "https://www.weil.com/people/joshua-wesneski",
+      "status": "Downloaded and visually checked; pending owner approval for future use.",
+      "identity_evidence": "Official 25-417 docket lists Joshua Morgan Wesneski, Weil, Washington DC and joshua.wesneski@weil.com; exact email, employer and location on named firm biography.",
+      "image_url": "https://www.weil.com/-/media/people/w/wesneski_josh.jpg?h=255&iar=0&w=255&rev=10803f6d22314f48bcda50efacb6c92e&hash=1F0F0203C8AFC32D2C58EA2FC3775C17",
+      "width": 255,
+      "height": 255,
+      "sha256": "51f422cbb9ecf911a054fea1fbfd4325b5eb4330e424823a8382675b9f1a9a93"
+    },
+    {
+      "name": "Robert E. Johnson",
+      "file": "robert_e_johnson.source.jpg",
+      "source_url": "https://ij.org/staff/rjohnson/",
+      "image_url": "https://ij.org/wp-content/uploads/2023/01/robert-johnson-IJ2_8010.jpg",
+      "status": "Downloaded and visually checked; pending crop and owner approval for future use.",
+      "identity_evidence": "Official 25-966 docket lists Robert Everett Johnson, Institute for Justice, Shaker Heights OH and rjohnson@ij.org. Same email and employer on named Rob Johnson biography.",
+      "width": 3343,
+      "height": 4178,
+      "sha256": "037ca11633b044c77cb4f6878eb7a696a4e0942ac52fe257a0019a56d9827373"
+    },
+    {
+      "name": "William R. Peterson",
+      "file": "william_r_peterson.utexas-pasted.png",
+      "width": 320,
+      "height": 400,
+      "sha256": "eaa2490f43bb6bcea76d4d565eba48d31ac39bf23eea4f264aa07dafbb04c37b",
+      "source_url": "https://law.utexas.edu/profiles/photos/wrp64-medium.jpg?1786393726",
+      "identity_source_url": "https://law.utexas.edu/faculty/william-r-peterson/",
+      "status": "Preferred replacement pasted by owner on November 8, 2026; submitted to cloud square crop and review."
+    }
+  ]
+}

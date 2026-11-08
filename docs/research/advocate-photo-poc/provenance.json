@@ -1,0 +1,250 @@
+{
+  "researched_on": "2026-10-11",
+  "result": "verified_higher_resolution_photo_found",
+  "person": {
+    "name": "Anthony J. Dick",
+    "organization": "Jones Day",
+    "location": "Washington, DC",
+    "professional_email": "ajdick@jonesday.com",
+    "missing_cache_check": "No matching Anthony Dick filename in advocates; existing Anthony A. Yang is a different named advocate."
+  },
+  "argument": {
+    "docket_number": "25-5343",
+    "case_name": "Kendrick Jarrell Beaird v. United States",
+    "date": "2026-10-13",
+    "role": "Court-appointed amicus curiae",
+    "hearing_list_url": "https://www.supremecourt.gov/oral_arguments/hearinglists/HearingList-October2026.pdf",
+    "hearing_list_page": 3,
+    "docket_json_url": "https://www.supremecourt.gov/RSS/Cases/JSON/25-5343.json",
+    "docket_json_path": "Other[Attorney == 'Anthony J. Dick']",
+    "evidence_before_argument": true
+  },
+  "identity_method": "Textual association: full name + firm + city + matching professional email in Court docket and official firm biography. Speaker biography attaches selected image to same named Jones Day partner. No face recognition.",
+  "official_firm_profile_url": "https://www.jonesday.com/en/lawyers/d/anthony-dick",
+  "photo_source_page_url": "https://www.jonesday.com/en/lawyers/d/anthony-dick",
+  "photo": {
+    "local_path": "/Users/dominik/GitHub/scotus-videos/docs/research/advocate-photo-poc/anthony_j_dick.jonesday.webp",
+    "url": "https://www.jonesday.com/-/media/images/attorneys/d/ajdick.jpg?rev=91e306a9f7e24734816f42c1f2f61d43&hash=712BA20DA50AF264EF4EEF7124C3EEC2",
+    "url_discovery": "Official Jones Day biography image link and matching existing public Chrome image tab",
+    "dimensions": {
+      "width": 1068,
+      "height": 728
+    },
+    "bytes": 89880,
+    "sha256": "ebdeb9d14f6a7b3c5f58f0c48294cfeb41516f97aca47386a781ede98ed730ce",
+    "actual_format": "WebP",
+    "url_extension": "jpg",
+    "retrieval_method": "Native Chrome ordinary Save Image As; retained the WebP format received from the site",
+    "downloaded_unchanged": true,
+    "visually_inspected": true,
+    "usability": "Clear centered landscape head-and-shoulders portrait with substantially more detail than the 330-pixel speaker image; suitable for a square advocate avatar crop",
+    "crop_needed": true,
+    "crop_performed": false
+  },
+  "cdn_photo": {
+    "local_path": "/Users/dominik/GitHub/scotus-videos/docs/research/advocate-photo-poc/anthony_j_dick.cdn-320.jpg",
+    "url": "https://fedsoc.org/cdn-cgi/image/fit%3Dscale-down%2Cwidth%3D320%2Cformat%3Djpeg/https%3A//fedsoc-cms-public.s3.amazonaws.com/headshots/vyBF1B0kYaN4O1vOkZ8TyeCDAAvxjnMc9ar4vFyc.jpeg",
+    "dimensions": {
+      "width": 320,
+      "height": 320
+    },
+    "bytes": 14336,
+    "sha256": "32201b60fe62db9dba492357852468f2bd98e8f997231d86a28cabe9a92ab28b",
+    "downloaded_unchanged": true,
+    "visually_inspected": true
+  },
+  "unsuccessful_firm_image_download": {
+    "url": "https://www.jonesday.com/-/media/images/attorneys/d/ajdick.jpg?hash=712BA20DA50AF264EF4EEF7124C3EEC2&rev=91e306a9f7e24734816f42c1f2f61d43",
+    "status": "HTTP 403",
+    "action": "Used accessible professional speaker-profile source instead"
+  },
+  "initial_candidate": {
+    "name": "Kevin Joel Page",
+    "organization": "Office of the Federal Public Defender, Northern District of Texas",
+    "location": "Dallas, Texas",
+    "outcome": "No verified usable photograph found within this search budget",
+    "text_search_count": 10,
+    "image_search_count": 2,
+    "sources_rejected": [
+      {
+        "url": "https://www.texasbar.com/am/template.cfm?Template=%2FCustomsource%2FMemberDirectory%2FMemberDirectoryDetail.cfm&contactid=243924&section=Find_a_Lawyer",
+        "reason": "Actual profile HTML avatar has background ProfilePhotoPlaceholder.gif"
+      },
+      {
+        "url": "https://lawyers.justia.com/lawyer/kevin-joel-joel-page-270779",
+        "reason": "Profile image explicitly labelled placeholder"
+      },
+      {
+        "url": "https://www.avvo.com/attorneys/75202-tx-kevin-page-85416.html",
+        "reason": "Search text claims headshot but actual page retrieval returned HTTP 403, so portrait unverified"
+      },
+      {
+        "url": "https://txn.fd.org/Offices/dallas-office",
+        "reason": "Names and employer/address only; no usable portrait found"
+      },
+      {
+        "url": "https://vtdigger.org/2023/02/12/last-page-prosecutor-side-judge-retires-after-four-decades/",
+        "reason": "Namesake: retired Vermont prosecutor/judge"
+      },
+      {
+        "url": "https://www.linkedin.com/in/joel-page-915491234",
+        "reason": "Namesake: Missouri construction worker"
+      },
+      {
+        "url": "https://www.linkedin.com/in/joel-page-3b2038a",
+        "reason": "Namesake: Colorado Interior Department IT professional"
+      }
+    ],
+    "next_pipeline_action": "Use agency logo or initials fallback; cache unsuccessful search result with a revisit policy"
+  },
+  "search_queries": [
+    {
+      "kind": "text",
+      "candidate": "Kevin Joel Page",
+      "query": "\"Kevin Joel Page\" photo Dallas defender"
+    },
+    {
+      "kind": "text",
+      "candidate": "Kevin Joel Page",
+      "query": "\"Kevin Page\" \"Federal Public Defender\" photo"
+    },
+    {
+      "kind": "text",
+      "candidate": "Kevin Joel Page",
+      "query": "\"Joel Page\" defender photo"
+    },
+    {
+      "kind": "text",
+      "candidate": "Kevin Joel Page",
+      "query": "\"Joel Page\" Dallas attorney speaker biography"
+    },
+    {
+      "kind": "image",
+      "candidate": "Kevin Joel Page",
+      "query": "\"Kevin Joel Page\""
+    },
+    {
+      "kind": "image",
+      "candidate": "Kevin Joel Page",
+      "query": "\"Joel Page\" \"Federal Public Defender\""
+    },
+    {
+      "kind": "text",
+      "candidate": "Kevin Joel Page",
+      "query": "\"Joel Page\" \"photo\" Dallas lawyer -gettyimages -vtdigger"
+    },
+    {
+      "kind": "text",
+      "candidate": "Kevin Joel Page",
+      "query": "\"Joel Page\" \"federal\" headshot"
+    },
+    {
+      "kind": "text",
+      "candidate": "Kevin Joel Page",
+      "query": "\"Joel Page\" site:linkedin.com/in/"
+    },
+    {
+      "kind": "text",
+      "candidate": "Kevin Joel Page",
+      "query": "\"Joel Page\" \"Dallas\" -site:govinfo.gov -site:supremecourt.gov -site:gettyimages.co.uk"
+    },
+    {
+      "kind": "text",
+      "candidate": "Kevin Joel Page",
+      "query": "\"Joel Page\" site:txn.fd.org"
+    },
+    {
+      "kind": "text",
+      "candidate": "Kevin Joel Page",
+      "query": "\"Kevin Joel Page\" photograph OR portrait OR headshot"
+    },
+    {
+      "kind": "text",
+      "candidate": "Anthony J. Dick",
+      "query": "Anthony J. Dick Jones Day attorney photo"
+    },
+    {
+      "kind": "text",
+      "candidate": "Anthony J. Dick",
+      "query": "\"Anthony J. Dick\" \"Beaird\""
+    },
+    {
+      "kind": "image",
+      "candidate": "Anthony J. Dick",
+      "query": "\"Anthony J. Dick\" Jones Day portrait"
+    }
+  ],
+  "elapsed_time_estimate_minutes": 10,
+  "elapsed_time_note": "Rough estimate including source verification and downloads; not a measured model-runtime benchmark.",
+  "scope": {
+    "user_credentials_used": false,
+    "logged_in_profiles_used": false,
+    "contacted_anyone": false,
+    "production_advocate_cache_modified": false,
+    "images_edited_or_generated": false
+  },
+  "followup_on": "2026-10-12",
+  "initial_photo": {
+    "local_path": "/Users/dominik/GitHub/scotus-videos/docs/research/advocate-photo-poc/anthony_j_dick.source.jpg",
+    "url": "https://fedsoc-cms-public.s3.amazonaws.com/headshots/vyBF1B0kYaN4O1vOkZ8TyeCDAAvxjnMc9ar4vFyc.jpeg",
+    "url_discovery": "Decoded original public URL embedded in the speaker profile's observed CDN image URL",
+    "dimensions": {
+      "width": 330,
+      "height": 330
+    },
+    "bytes": 29255,
+    "sha256": "22025a1093e5d28cb28834721ef151d6e2e98ba962591baa1cc0ad037697d079",
+    "downloaded_unchanged": true,
+    "visually_inspected": true,
+    "usability": "Clear centered square professional portrait suitable for small advocate avatar; limited to 330 pixels natively.",
+    "crop_needed": false
+  },
+  "initial_photo_source_page_url": "https://fedsoc.org/bio/anthony-dick",
+  "higher_resolution_followup": {
+    "requested_by_user": true,
+    "outcome": "Successfully downloaded verified firm image via ordinary public browser retrieval",
+    "direct_client_diagnostic": {
+      "url": "https://www.jonesday.com/-/media/images/attorneys/d/ajdick.jpg?rev=91e306a9f7e24734816f42c1f2f61d43&hash=712BA20DA50AF264EF4EEF7124C3EEC2",
+      "status": 403,
+      "content_type": "text/html; charset=UTF-8",
+      "server": "cloudflare",
+      "cf_mitigated": null,
+      "html_title": "Attention Required! | Cloudflare",
+      "contains_cloudflare": true,
+      "contains_challenge": false
+    },
+    "attempts": [
+      {
+        "method": "Python urllib initial direct profile/image GETs",
+        "outcome": "HTTP 403"
+      },
+      {
+        "method": "curl exact rev-first image URL",
+        "outcome": "HTTP 403, text/html"
+      },
+      {
+        "method": "In-app browser",
+        "outcome": "Unavailable"
+      },
+      {
+        "method": "Chrome extension getTab",
+        "outcome": "Timed out at 30 and 60 seconds; srcset not inspected"
+      },
+      {
+        "method": "Native Chrome existing public image tab, Save Image As",
+        "outcome": "Success, 1068 by 728 WebP image"
+      }
+    ],
+    "diagnosis": "Simple HTTP clients received a Cloudflare block page. Native Chrome had the public image available and saved the original received bytes. The exact blocking rule is unknown.",
+    "dimensions_verified_with": [
+      "Chrome image-tab title",
+      "macOS sips"
+    ],
+    "identity_verification": "Same ajdick asset URL attached to the named official Jones Day profile; existing Court and firm textual identity evidence retained. No face recognition.",
+    "no_sign_in_or_credential_extraction": true,
+    "captcha_interaction": false,
+    "images_edited": false,
+    "production_cache_modified": false,
+    "performance_note": "Chrome extension calls timed out and the initial native app binding took roughly ten minutes. Not a research throughput benchmark."
+  }
+}

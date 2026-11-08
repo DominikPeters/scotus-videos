@@ -1,0 +1,310 @@
+{
+  "scope": "Local Git index and advocate research/preparation directories; no remote GitHub or cloud-only asset inventory.",
+  "tracked_archive_images": 490,
+  "approved_ot25": [
+    {
+      "name": "Jules L. Lobel",
+      "local_copy": "artifacts/ot25-preparation/square/jules_lobel.jpg",
+      "tracked_identical_copies": [
+        "advocates/jules_lobel.jpg"
+      ],
+      "in_cloud_catalog": false
+    },
+    {
+      "name": "Geoffrey M. Pipoly",
+      "local_copy": "artifacts/ot25-preparation/square/geoffrey_m_pipoly.jpg",
+      "tracked_identical_copies": [
+        "advocates/geoffrey_m_pipoly.jpg"
+      ],
+      "in_cloud_catalog": false
+    },
+    {
+      "name": "Tobias S. Loss-Eaton",
+      "local_copy": "artifacts/ot25-preparation/square/tobias_s_loss_eaton.jpg",
+      "tracked_identical_copies": [
+        "advocates/tobias_s_loss_eaton.jpg"
+      ],
+      "in_cloud_catalog": false
+    },
+    {
+      "name": "Alan A. Beck",
+      "local_copy": "artifacts/ot25-preparation/square/alan_a_beck.jpg",
+      "tracked_identical_copies": [
+        "advocates/alan_a_beck.jpg"
+      ],
+      "in_cloud_catalog": false
+    },
+    {
+      "name": "Charles B. Klein",
+      "local_copy": "artifacts/ot25-preparation/square/charles_b_klein.jpg",
+      "tracked_identical_copies": [
+        "advocates/charles_b_klein.jpg"
+      ],
+      "in_cloud_catalog": false
+    },
+    {
+      "name": "Joseph J. Perkovich",
+      "local_copy": "artifacts/ot25-preparation/square/joseph_j_perkovich.jpg",
+      "tracked_identical_copies": [
+        "advocates/joseph_j_perkovich.jpg"
+      ],
+      "in_cloud_catalog": false
+    },
+    {
+      "name": "Emily M. Ferguson",
+      "local_copy": "artifacts/ot25-preparation/square/emily_m_ferguson.jpg",
+      "tracked_identical_copies": [
+        "advocates/emily_m_ferguson.jpg"
+      ],
+      "in_cloud_catalog": false
+    },
+    {
+      "name": "Michael Zuckerman",
+      "local_copy": "artifacts/ot25-preparation/square/michael_zuckerman.jpg",
+      "tracked_identical_copies": [
+        "advocates/michael_zuckerman.jpg"
+      ],
+      "in_cloud_catalog": false
+    },
+    {
+      "name": "Philip L. Ellison",
+      "local_copy": "artifacts/ot25-preparation/square/philip_l_ellison.jpg",
+      "tracked_identical_copies": [
+        "advocates/philip_l_ellison.jpg"
+      ],
+      "in_cloud_catalog": false
+    },
+    {
+      "name": "Matthew T. Nelson",
+      "local_copy": "artifacts/ot25-preparation/square/matthew_t_nelson.jpg",
+      "tracked_identical_copies": [
+        "advocates/matthew_t_nelson.jpg"
+      ],
+      "in_cloud_catalog": false
+    },
+    {
+      "name": "Erin E. Murphy",
+      "local_copy": "artifacts/ot25-preparation/square/erin_e_murphy.jpg",
+      "tracked_identical_copies": [
+        "advocates/erin_e_murphy.jpg"
+      ],
+      "in_cloud_catalog": false
+    },
+    {
+      "name": "Richard D. Klingler",
+      "local_copy": "artifacts/ot25-preparation/square/richard_d_klingler.jpg",
+      "tracked_identical_copies": [
+        "advocates/richard_d_klingler.jpg"
+      ],
+      "in_cloud_catalog": false
+    },
+    {
+      "name": "Michael E. Kenneally, Jr.",
+      "local_copy": "artifacts/ot25-preparation/square/michael_e_kenneally_jr.jpg",
+      "tracked_identical_copies": [
+        "advocates/michael_e_kenneally_jr.jpg"
+      ],
+      "in_cloud_catalog": false
+    },
+    {
+      "name": "John E. Roberts",
+      "local_copy": "artifacts/ot25-preparation/square/john_e_roberts.jpg",
+      "tracked_identical_copies": [
+        "advocates/john_e_roberts.jpg"
+      ],
+      "in_cloud_catalog": false
+    }
+  ],
+  "other_untracked_images": [
+    {
+      "file": "advocates/cecillia_d_wang.jpg",
+      "sha256": "5d3c72df378624f3f669c6c8e8f1798c3ff00117a97b20a9a807eb37d0bbffcc",
+      "tracked_identical_copies": []
+    },
+    {
+      "file": "cloud/work/photos/beaird-25-5343/kevin_joel_page.agency-seal.square.jpg",
+      "sha256": "f9b97ef688dc396e4424658865169a45ee52b062906e4e05eca89b86af5ed434",
+      "tracked_identical_copies": [
+        "advocates/kevin_joel_page.jpg"
+      ]
+    },
+    {
+      "file": "cloud/work/photos/beaird-25-5343/anthony_j_dick.square.jpg",
+      "sha256": "014da667e3eb8e819edb97bfac974fc326a0f218248cbd38f0cc5d23a371c9f3",
+      "tracked_identical_copies": []
+    },
+    {
+      "file": "cloud/work/photos/beaird-25-5343/joel_page.writer-candidate.original.jpg",
+      "sha256": "8766b885550a1f492a3351490b7eba558a841fc5ea0c9ad41ee5de62cfc1b457",
+      "tracked_identical_copies": []
+    },
+    {
+      "file": "cloud/work/photos/beaird-25-5343/kevin_joel_page.agency-logo.original.png",
+      "sha256": "015d826da6d7a6364642ecd5b08e94a0e9684056b8f6b56271be832a47cfdc0a",
+      "tracked_identical_copies": []
+    },
+    {
+      "file": "cloud/work/photos/beaird-25-5343/eric_j_feigin.jpg",
+      "sha256": "4c1cf47b6b5dddb30e0c91c666b597e757cb2ec832c471c793b7fce7fed21634",
+      "tracked_identical_copies": [
+        "advocates/eric_j_feigin.jpg"
+      ]
+    },
+    {
+      "file": "cloud/work/photos/beaird-25-5343/anthony_j_dick.jonesday.webp",
+      "sha256": "ebdeb9d14f6a7b3c5f58f0c48294cfeb41516f97aca47386a781ede98ed730ce",
+      "tracked_identical_copies": []
+    },
+    {
+      "file": "cloud/work/photos/beaird-25-5343/joel_page.writer-candidate.square.jpg",
+      "sha256": "eb7d4d600fc28c0a8f00f92ce78c54bd0b2c5f4b190573009a77eea8bb372643",
+      "tracked_identical_copies": []
+    },
+    {
+      "file": "docs/research/advocate-photo-poc/anthony_j_dick.cdn-320.jpg",
+      "sha256": "32201b60fe62db9dba492357852468f2bd98e8f997231d86a28cabe9a92ab28b",
+      "tracked_identical_copies": []
+    },
+    {
+      "file": "docs/research/advocate-photo-poc/anthony_j_dick.source.jpg",
+      "sha256": "22025a1093e5d28cb28834721ef151d6e2e98ba962591baa1cc0ad037697d079",
+      "tracked_identical_copies": []
+    },
+    {
+      "file": "docs/research/advocate-photo-poc/anthony_j_dick.jonesday.webp",
+      "sha256": "ebdeb9d14f6a7b3c5f58f0c48294cfeb41516f97aca47386a781ede98ed730ce",
+      "tracked_identical_copies": []
+    },
+    {
+      "file": "artifacts/advocate-research-2026-11-07/jeremy_schepers.grits-original.jpg",
+      "sha256": "54149684a1fef4c96ea5b15b90c4914daa52f21f5d4fdf4886c029d1f5eb4b05",
+      "tracked_identical_copies": []
+    },
+    {
+      "file": "artifacts/advocate-research-2026-11-07/emily_m_ferguson.jpg",
+      "sha256": "623fd59b7fd4ddb19d6157d83e62adeb0ff72aa98ad4c37539f8e64d8da0b98e",
+      "tracked_identical_copies": [
+        "advocates/emily_m_ferguson.jpg"
+      ]
+    },
+    {
+      "file": "artifacts/advocate-research-2026-11-07/joshua_m_wesneski.source.jpg",
+      "sha256": "51f422cbb9ecf911a054fea1fbfd4325b5eb4330e424823a8382675b9f1a9a93",
+      "tracked_identical_copies": []
+    },
+    {
+      "file": "artifacts/advocate-research-2026-11-07/william_r_peterson.utexas-pasted.png",
+      "sha256": "eaa2490f43bb6bcea76d4d565eba48d31ac39bf23eea4f264aa07dafbb04c37b",
+      "tracked_identical_copies": []
+    },
+    {
+      "file": "artifacts/advocate-research-2026-11-07/robert_e_johnson.source.jpg",
+      "sha256": "037ca11633b044c77cb4f6878eb7a696a4e0942ac52fe257a0019a56d9827373",
+      "tracked_identical_copies": []
+    },
+    {
+      "file": "artifacts/vertical-cloud-test/bundle/advocates/advocate_25_459_paul_d_clement.jpg",
+      "sha256": "8a31c55c470aa783023f0b859cc89637aae8743d095c67b90cba465684dcbb56",
+      "tracked_identical_copies": [
+        "advocates/paul_d_clement.jpg"
+      ]
+    },
+    {
+      "file": "artifacts/vertical-cloud-test/bundle/advocates/advocate_25_459_joshua_i_hammack.jpg",
+      "sha256": "610655b58701f83af64d339c665fd3515823c9b3ea8a8a939d903200ab072272",
+      "tracked_identical_copies": []
+    },
+    {
+      "file": "annotation-trial/25-352/preview/advocates/advocate_25_352_eric_schnapper.jpg",
+      "sha256": "2b31eb4a61f7eaf7cf910cead0ab843f0cead59b0de21f7f54c04e67aa68917f",
+      "tracked_identical_copies": [
+        "advocates/eric_schnapper.jpg"
+      ]
+    },
+    {
+      "file": "annotation-trial/25-352/preview/advocates/advocate_25_352_stephen_j_petrany.jpg",
+      "sha256": "7eb70d92fe60f6b175115e26a2908aa1d39cad337d1e250b27c5c85106240e75",
+      "tracked_identical_copies": [
+        "advocates/stephen_j_petrany.jpg"
+      ]
+    },
+    {
+      "file": "annotation-trial/25-170/cloud/bundle/bundle/advocates/advocate_25_170_kevin_k_russell.jpg",
+      "sha256": "6b2e082d84913eb8edc430804369bc80ebc85ff5d7cf48288b0b602f6232f0d8",
+      "tracked_identical_copies": [
+        "advocates/kevin_k_russell.jpg"
+      ]
+    },
+    {
+      "file": "annotation-trial/25-170/cloud/bundle/bundle/advocates/advocate_25_170_kannon_k_shanmugam.jpg",
+      "sha256": "52ca00da97db69d399b440377d398946e98a391b847a6120285682777d52a5b2",
+      "tracked_identical_copies": [
+        "advocates/kannon_k_shanmugam.jpg"
+      ]
+    },
+    {
+      "file": "annotation-trial/25-170/cloud/bundle/bundle/advocates/advocate_25_170_sarah_m_harris.jpg",
+      "sha256": "d7c37c1ff119bde14d7b6a11f7de2a93943483e439ac09ef459f97aaf2c344e1",
+      "tracked_identical_copies": [
+        "advocates/sarah_m_harris.jpg"
+      ]
+    },
+    {
+      "file": "annotation-trial/25-170/preview/advocates/advocate_25_170_kevin_k_russell.jpg",
+      "sha256": "6b2e082d84913eb8edc430804369bc80ebc85ff5d7cf48288b0b602f6232f0d8",
+      "tracked_identical_copies": [
+        "advocates/kevin_k_russell.jpg"
+      ]
+    },
+    {
+      "file": "annotation-trial/25-170/preview/advocates/advocate_25_170_kannon_k_shanmugam.jpg",
+      "sha256": "52ca00da97db69d399b440377d398946e98a391b847a6120285682777d52a5b2",
+      "tracked_identical_copies": [
+        "advocates/kannon_k_shanmugam.jpg"
+      ]
+    },
+    {
+      "file": "annotation-trial/25-170/preview/advocates/advocate_25_170_sarah_m_harris.jpg",
+      "sha256": "d7c37c1ff119bde14d7b6a11f7de2a93943483e439ac09ef459f97aaf2c344e1",
+      "tracked_identical_copies": [
+        "advocates/sarah_m_harris.jpg"
+      ]
+    },
+    {
+      "file": "annotation-trial/25-5930/preview/advocates/advocate_25_5930_kevin_j_barber.jpg",
+      "sha256": "4171b06cff096e56e96f0c6c60a3c25be7b8f87a4e12983d7ec422e48e8c2232",
+      "tracked_identical_copies": [
+        "advocates/kevin_j_barber.jpg"
+      ]
+    },
+    {
+      "file": "annotation-trial/25-5930/preview/advocates/advocate_25_5930_brian_w_barnes.jpg",
+      "sha256": "53005cd9af5cd4e001b7a6de2432a0f4a0c88ba9c31e6167449e4d523c791536",
+      "tracked_identical_copies": []
+    },
+    {
+      "file": "annotation-trial/25-5930/preview/advocates/advocate_25_5930_masha_g_hansford.jpg",
+      "sha256": "ba15a0881585d335c91d5139ed7e11122c51a91a83630d3e12596f7838ff12ab",
+      "tracked_identical_copies": [
+        "advocates/masha_g_hansford.jpg"
+      ]
+    }
+  ],
+  "warning": "Earlier chat incorrectly claimed Ferguson was absent from Git. Exact approved image is committed as advocates/emily_m_ferguson.jpg in 49fdb95 on 2026-10-15. Cloud catalog last changed 2026-10-13 and omits all 14 approved OT25 additions.",
+  "remote_followup": {
+    "finding": "The 14 approved OT25 portraits existed in local commit 49fdb95 but had not been pushed. Five later cloud-published portraits were present remotely under case-scoped filenames.",
+    "published_approved_batch": {
+      "commit": "350d03baa7455a4082182b087ba17c29f5fef1c4",
+      "url": "https://github.com/DominikPeters/scotus-videos/commit/350d03baa7455a4082182b087ba17c29f5fef1c4",
+      "added_files": 28
+    },
+    "already_present_remotely": [
+      "Anthony J. Dick",
+      "Joshua I. Hammack",
+      "Brian W. Barnes",
+      "Nicholas R. Reaves",
+      "Helen Norton"
+    ],
+    "live_lookup_verified_all_14": true
+  }
+}

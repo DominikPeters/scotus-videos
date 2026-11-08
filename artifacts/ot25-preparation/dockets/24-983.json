@@ -1,0 +1,623 @@
+{
+  "CaseNumber": "24-983 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "08/05/2026",
+  "sJsonTerm": "2024",
+  "sJsonCaseNumber": "00983",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [],
+  "PetitionerTitle": "Havana Docks Corporation, Petitioner",
+  "RespondentTitle": "Royal Caribbean Cruises, Ltd., et al.",
+  "DocketedDate": "March 13, 2025",
+  "LowerCourt": "United States Court of Appeals for the Eleventh Circuit",
+  "LowerCourtCaseNumbers": "(23-10151, 23-10171)",
+  "LowerCourtDecision": "October 22, 2024",
+  "LowerCourtRehearingDenied": "December 20, 2024",
+  "QPLink": "../qp/24-00983qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Mar 06 2025",
+      "Text": "Petition for a writ of certiorari filed. (Response due April 14, 2025)",
+      "Links": [
+        {
+          "Description": "Petition",
+          "File": "Final Petition Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/351416/20250311122008726_Final%20Petition%20Appendix.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "signed_COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/351416/20250306162208901_signed_COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "signed_COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/351416/20250306162214823_signed_COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 14 2025",
+      "Text": "Brief amici curiae of Representative Mario D\u00edaz-Balart, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Amicus brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/352187/20250314161008345_Amicus%20brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/352187/20250314161029943_Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of word count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/352187/20250314161019650_Certificate%20of%20word%20count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 17 2025",
+      "Text": "Waiver of right of respondents Royal Caribbean Cruises, Ltd., et al. to respond filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Bio Waiver form.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/352253/20250317140713620_Bio%20Waiver%20form.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 19 2025",
+      "Text": "DISTRIBUTED for Conference of 4/4/2025."
+    },
+    {
+      "Date": "Mar 25 2025",
+      "Text": "Response Requested. (Due April 24, 2025)"
+    },
+    {
+      "Date": "Apr 02 2025",
+      "Text": "Motion to extend the time to file a response from April 24, 2025 to May 23, 2025, submitted to The Clerk.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025-4-2 Royal Caribbean BIO extension letter.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/354635/20250402153216033_2025-4-2%20Royal%20Caribbean%20BIO%20extension%20letter.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 03 2025",
+      "Text": "Motion to extend the time to file a response is granted and the time is extended to and including May 23, 2025."
+    },
+    {
+      "Date": "May 23 2025",
+      "Text": "Brief of respondents Royal Caribbean Cruises, Ltd., et al. in opposition filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-983-Brief in Opposition.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/359562/20250523131325431_24-983-Brief%20in%20Opposition.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-983-Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/359562/20250523131334581_24-983-Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-983- Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/359562/20250523131343155_24-983-%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 06 2025",
+      "Text": "Reply of petitioner Havana Docks Corporation filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "updated_FINAL_HDC Cert Reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/362503/20250606123238307_updated_FINAL_HDC%20Cert%20Reply.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-983 Ellis George COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/362503/20250606123248951_No.%2024-983%20Ellis%20George%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-983 Ellis George COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/362503/20250606123255068_No.%2024-983%20Ellis%20George%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 10 2025",
+      "Text": "DISTRIBUTED for Conference of 6/26/2025."
+    },
+    {
+      "Date": "Jun 30 2025",
+      "Text": "The Solicitor General is invited to file a brief in this case expressing the views of the United States."
+    },
+    {
+      "Date": "Aug 13 2025",
+      "Text": "Supplemental brief of petitioner Havana Docks Corporation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Final Supplemental Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/369619/20250813151350377_Final%20Supplemental%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-983 Ellis George Cipollone COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/369619/20250813151357097_No.%2024-983%20Ellis%20George%20Cipollone%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-983 Ellis George Cipollone COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/369619/20250813151403517_No.%2024-983%20Ellis%20George%20Cipollone%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 27 2025",
+      "Text": "Brief amicus curiae of United States filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-983 _Havana_Docks_CVSG.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/370934/20250827152318382_24-983%20_Havana_Docks_CVSG.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate 24-983.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/370934/20250827152338289_Certificate%2024-983.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Sep 10 2025",
+      "Text": "DISTRIBUTED for Conference of 9/29/2025."
+    },
+    {
+      "Date": "Sep 10 2025",
+      "Text": "Supplemental brief of respondents Royal Caribbean Cruises, Ltd., et al. filed.  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2025-9-10 Final RCCL et al supp br.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/374226/20250910120958478_2025-9-10%20Final%20RCCL%20et%20al%20supp%20br.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-983 Clement Murphy COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/374226/20250910121004826_No.%2024-983%20Clement%20Murphy%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-983 Clement Murphy COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/374226/20250910121012768_No.%2024-983%20Clement%20Murphy%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Oct 03 2025",
+      "Text": "Petition GRANTED."
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Brief of petitioner Havana Docks Corporation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "11172025 HDC merits opening final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/384887/20251117201826400_11172025%20HDC%20merits%20opening%20final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-983 Ellis George Cipollone OBrien COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/384887/20251117202031674_24-983%20Ellis%20George%20Cipollone%20OBrien%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-983 Ellis George Cipollone OBrien COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/384887/20251117202045123_24-983%20Ellis%20George%20Cipollone%20OBrien%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 17 2025",
+      "Text": "Joint appendix filed. (Statement of cost filed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "No. 24-983 Joint Appendix Volume I.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/384888/20251117202302251_No.%2024-983%20Joint%20Appendix%20Volume%20I.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "No. 24-983 Joint Appendix Volume II.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/384888/20251117202318926_No.%2024-983%20Joint%20Appendix%20Volume%20II.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-983 Ellis George Cipollone OBrien COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/384888/20251117202343379_24-983%20Ellis%20George%20Cipollone%20OBrien%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amicus curiae of United States filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-983tsacUnitedStates.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/385611/20251124141544143_24-983tsacUnitedStates.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate 24-983 brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/385611/20251124141600167_Certificate%2024-983%20brief.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amici curiae of Representative Mario D\u00edaz-Balart, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Amicus brief on merits.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/385651/20251124152346558_Amicus%20brief%20on%20merits.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate of service for merits brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/385651/20251124152504790_Certificate%20of%20service%20for%20merits%20brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of word count for merits brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/385651/20251124152416524_Certificate%20of%20word%20count%20for%20merits%20brief.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Nov 24 2025",
+      "Text": "Brief amicus curiae of Daniel W. Fisk filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-983_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/385821/20251125231351031_24-983_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-983_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/385821/20251125231433905_24-983_Proof%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-983_Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/385821/20251125231417242_24-983_Certificate%20of%20Word%20Count.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 17 2025",
+      "Text": "Brief of respondents Royal Caribbean Cruises, Ltd., et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "24-983 Brief for Respondents.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/387708/20251217131041802_24-983%20Brief%20for%20Respondents.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "24-983 Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/387708/20251217131051487_24-983%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "24-983 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/387708/20251217131101556_24-983%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 22 2025",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Havana Docks Divided Argument Motion.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/390130/20251222144912945_Havana%20Docks%20Divided%20Argument%20Motion.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. mtn. div. argument. 24-983.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/390130/20251222144933098_certificate.%20mtn.%20div.%20argument.%2024-983.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 24 2025",
+      "Text": "Brief amici curiae of U.S. Travel Association, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Travel Associations Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/390339/20251224102005263_Travel%20Associations%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Travel Associations Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/390339/20251224102025246_Travel%20Associations%20Certificate%20of%20Service.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Travel Associations Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/390339/20251224102015845_Travel%20Associations%20Certificate%20of%20Compliance.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Dec 29 2025",
+      "Text": "Brief amicus curiae of Cruise Lines International Association filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Havana Docks v. Royal Caribbean - Amicus Brief FILE.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/390393/20251229105928130_Havana%20Docks%20v.%20Royal%20Caribbean%20-%20Amicus%20Brief%20FILE.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Havana Docks v. Royal Caribbean - Certificate of Service FILE.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/390393/20251229105950815_Havana%20Docks%20v.%20Royal%20Caribbean%20-%20Certificate%20of%20Service%20FILE.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Havana Docks v. Royal Caribbean - Certificate of Compliance FILE.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/390393/20251229105938783_Havana%20Docks%20v.%20Royal%20Caribbean%20-%20Certificate%20of%20Compliance%20FILE.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 02 2026",
+      "Text": "SET FOR ARGUMENT on Monday, February 23, 2026."
+    },
+    {
+      "Date": "Jan 05 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Eleventh Circuit."
+    },
+    {
+      "Date": "Jan 12 2026",
+      "Text": "Motion of the Solicitor General for leave to participate in oral argument as amicus curiae and for divided argument GRANTED."
+    },
+    {
+      "Date": "Jan 15 2026",
+      "Text": "Record received from the United States District Court for the Southern District of Florida and available with the Clerk (one envelope)."
+    },
+    {
+      "Date": "Jan 16 2026",
+      "Text": "Reply of petitioner Havana Docks Corporation filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026.01.16 HDC.Reply.final.v3.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/391927/20260116112045156_2026.01.16%20HDC.Reply.final.v3.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "No. 24-983 Ellis George LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/391927/20260116112141162_No.%2024-983%20Ellis%20George%20LLP%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "No. 24-983 Ellis George LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/391927/20260116112147073_No.%2024-983%20Ellis%20George%20LLP%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jan 21 2026",
+      "Text": "CIRCULATED"
+    },
+    {
+      "Date": "Jan 23 2026",
+      "Text": "Record received from the United States Court of Appeals for the Eleventh Circuit. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Feb 23 2026",
+      "Text": "Argued. For petitioner: Richard D. Klingler, Washington, D. C.; and Aimee Brown, Assistant to the Solicitor General, Department of Justice, Washington, D. C. (for United States, as amicus curiae.) For respondents: Paul D. Clement, Alexandria, Va."
+    },
+    {
+      "Date": "May 21 2026",
+      "Text": "Judgment VACATED and case REMANDED.  Thomas, J., delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/24-983_c07d.pdf'>opinion</a> of the Court, in which Roberts, C. J., and Alito, Sotomayor, Gorsuch, Kavanaugh, Barrett, and Jackson, JJ., joined. Sotomayor, J., filed a concurring opinion, in which Kavanaugh, J., joined. Kagan, J., filed a dissenting opinion."
+    },
+    {
+      "Date": "Jun 22 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 24-983 Vac Rem COSTS 11th Cir. 6.22.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/24/24-983/413806/20260622163339908_EFILING%2024-983%20Vac%20Rem%20COSTS%2011th%20Cir.%206.22.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Aug 05 2026",
+      "Text": "Record returned to the United States District Court for the Southern District of Florida."
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioner",
+  "Petitioner": [
+    {
+      "Attorney": "Richard D. Klingler",
+      "IsCounselofRecord": true,
+      "Title": "Ellis George LLP",
+      "PrisonerId": null,
+      "Phone": "202 492-4678",
+      "Address": "4401-A Connecticut Ave. NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20008",
+      "Email": "rklingler@ellisgeorge.com",
+      "PartyName": "Havana Docks Corporation"
+    },
+    {
+      "Attorney": "Christopher Landau",
+      "IsCounselofRecord": false,
+      "Title": "Ellis George LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 249-6900",
+      "Address": "1201 Connecticut Ave. N.W.\r\nSuite 513",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "clandau@ellisgeorge.com",
+      "PartyName": "Havana Docks Corporation"
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondents",
+  "Respondent": [
+    {
+      "Attorney": "Paul D. Clement",
+      "IsCounselofRecord": true,
+      "Title": "Clement & Murphy, PLLC",
+      "PrisonerId": null,
+      "Phone": "(202) 742-8900",
+      "Address": "706 Duke Street",
+      "City": "Alexandria",
+      "State": "VA",
+      "Zip": "22314",
+      "Email": "PAUL.CLEMENT@CLEMENTMURPHY.COM",
+      "PartyName": "Royal Caribbean Cruises, Ltd., et al."
+    },
+    {
+      "Attorney": "E. Joshua Rosenkranz",
+      "IsCounselofRecord": true,
+      "Title": "Orrick, Herrington & Sutcliffe LLP",
+      "PrisonerId": null,
+      "Phone": "212-506-5380",
+      "Address": "51 West 52nd Street",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10019",
+      "Email": "JROSENKRANZ@ORRICK.COM",
+      "PartyName": "MSC Cruises S.A., and MSC Cruises (USA), Inc."
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Bradley Joseph Bondi",
+      "IsCounselofRecord": true,
+      "Title": "Paul Hastings LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 551-1700",
+      "Address": "2050 M Street, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "bradbondi@paulhastings.com",
+      "PartyName": "U.S. Travel Association, U.S. Tour Operators Association, and American Society of Travel Advisors"
+    },
+    {
+      "Attorney": "Shay Dvoretzky",
+      "IsCounselofRecord": true,
+      "Title": "Skadden, Arps, Slate, Meagher & Flom LLP",
+      "PrisonerId": null,
+      "Phone": "202-371-7000",
+      "Address": "1440 New York Ave., NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20005",
+      "Email": "SHAY.DVORETZKY@SKADDEN.COM",
+      "PartyName": "Cruise Lines International Association"
+    },
+    {
+      "Attorney": "Bryan S. Gowdy",
+      "IsCounselofRecord": true,
+      "Title": "Creed & Gowdy, P.A.",
+      "PrisonerId": null,
+      "Phone": "9043500075",
+      "Address": "865 May Street",
+      "City": "Jacksonville",
+      "State": "FL",
+      "Zip": "32204",
+      "Email": "BGOWDY@APPELLATE-FIRM.COM",
+      "PartyName": "Rep. Mario D\u00edaz-Balart, Rep. Debbie Wasserman Schultz,  Rep. Mar\u00eda Elvira Salazar, Rep. Carlos Antonio Gim\u00e9nez, Rep. Lois Frankel, and Rep. Nicole Malliotakis"
+    },
+    {
+      "Attorney": "Bryan S. Gowdy",
+      "IsCounselofRecord": true,
+      "Title": "Creed & Gowdy, P.A.",
+      "PrisonerId": null,
+      "Phone": "9043500075",
+      "Address": "865 May Street",
+      "City": "Jacksonville",
+      "State": "FL",
+      "Zip": "32204",
+      "Email": "BGOWDY@APPELLATE-FIRM.COM",
+      "PartyName": "Rep. Mario D\u00edaz-Balart, Sen. Rick Scott, Rep. Debbie Wasserman Schultz, Rep. Mar\u00eda Elvira Salazar, and Rep. Carlos Antonio Gim\u00e9nez"
+    },
+    {
+      "Attorney": "Marcos Daniel Jimenez",
+      "IsCounselofRecord": true,
+      "Title": "Leon Cosgrove Jimenez, LLP",
+      "PrisonerId": null,
+      "Phone": "305-570-3249",
+      "Address": "255 Alhambra Circle\r\n8th Floor",
+      "City": "Miami",
+      "State": "FL",
+      "Zip": "33134",
+      "Email": "mjimenez@leoncosgrove.com",
+      "PartyName": "Daniel W. Fisk"
+    },
+    {
+      "Attorney": "Dimitrios Alexandros Peteves",
+      "IsCounselofRecord": false,
+      "Title": "Creed & Gowdy, P.A.",
+      "PrisonerId": null,
+      "Phone": "904.350.0075",
+      "Address": "865 May Street",
+      "City": "Jacksonville",
+      "State": "FL",
+      "Zip": "32204",
+      "Email": "dpeteves@appellate-firm.com",
+      "PartyName": "Rep. Mario D\u00edaz-Balart, Rep. Debbie Wasserman Schultz,  Rep. Mar\u00eda Elvira Salazar, Rep. Carlos Antonio Gim\u00e9nez, Rep. Lois Frankel, and Rep. Nicole Malliotakis"
+    },
+    {
+      "Attorney": "Dimitrios Alexandros Peteves",
+      "IsCounselofRecord": false,
+      "Title": "Creed & Gowdy, P.A.",
+      "PrisonerId": null,
+      "Phone": "904.350.0075",
+      "Address": "865 May Street",
+      "City": "Jacksonville",
+      "State": "FL",
+      "Zip": "32204",
+      "Email": "dpeteves@appellate-firm.com",
+      "PartyName": "Rep. Mario D\u00edaz-Balart, Sen. Rick Scott, Rep. Debbie Wasserman Schultz, Rep. Mar\u00eda Elvira Salazar, and Rep. Carlos Antonio Gim\u00e9nez"
+    },
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": false,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "United States"
+    }
+  ]
+}

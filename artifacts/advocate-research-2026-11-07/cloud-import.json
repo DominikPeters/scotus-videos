@@ -1,0 +1,21 @@
+{
+  "recording": "2026-11-04-25-1003-argument-1",
+  "candidates": [
+    {
+      "person": "advocate_25_1003_emily_m_ferguson",
+      "candidate": "623fd59b7fd4ddb19d6157d8",
+      "sha256": "623fd59b7fd4ddb19d6157d83e62adeb0ff72aa98ad4c37539f8e64d8da0b98e",
+      "saved": {
+        "saved": true
+      }
+    },
+    {
+      "person": "advocate_25_1003_jeremy_schepers",
+      "candidate": "54149684a1fef4c96ea5b15b",
+      "sha256": "54149684a1fef4c96ea5b15b90c4914daa52f21f5d4fdf4886c029d1f5eb4b05",
+      "saved": {
+        "saved": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,1470 @@
+{
+  "CaseNumber": "25-1083 ",
+  "bCapitalCase": false,
+  "sJsonCreationDate": "07/27/2026",
+  "sJsonTerm": "2025",
+  "sJsonCaseNumber": "01083",
+  "sJsonCaseType": "Paid",
+  "RelatedCaseNumber": [
+    {
+      "RelatedType": "Vide",
+      "DisplayCaseNumber": "25-1084"
+    }
+  ],
+  "PetitionerTitle": "Markwayne Mullin, Secretary, Department of Homeland Security, et al., Petitioners",
+  "RespondentTitle": "Dahlia Doe, et al.",
+  "DocketedDate": "March 16, 2026",
+  "Links": "Linked with 25A952",
+  "LowerCourt": "United States Court of Appeals for the Second Circuit",
+  "LowerCourtCaseNumbers": "(25-2995)",
+  "LowerCourtDecision": "February 17, 2026",
+  "QPLink": "../qp/25-01083qp.pdf",
+  "ProceedingsandOrder": [
+    {
+      "Date": "Feb 26 2026",
+      "Text": "Application (25A952) for a stay pending appeal, submitted to Justice Sotomayor.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Noem v. Doe Application_final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/397345/20260226084504693_Noem%20v.%20Doe%20Application_final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate - 25A - Noem v. Doe.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/397345/20260226084524777_Certificate%20-%2025A%20-%20Noem%20v.%20Doe.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Feb 26 2026",
+      "Text": "Response to application (25A952) requested by Justice Sotomayor, due by 4:00 p.m. (EST) on March 5, 2026."
+    },
+    {
+      "Date": "Mar 04 2026",
+      "Text": "Brief amicus curiae of Federation for American Immigration Reform filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "FAIR Amicus Brief Dalhia Doe S.Ct. stay.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/399933/20260304113619282_FAIR%20Amicus%20Brief%20Dalhia%20Doe%20S.Ct.%20stay.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "FAIR Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/399933/20260304113619214_FAIR%20Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 05 2026",
+      "Text": "Response to application from respondent Dahlia Doe, et al. filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Dahlia Doe SCOTUS Opp.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/400103/20260305154052891_Dahlia%20Doe%20SCOTUS%20Opp.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "Dahlia Doe Supplemental Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/400103/20260305154115053_Dahlia%20Doe%20Supplemental%20Appendix.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Dahlia Doe COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/400103/20260305154123643_Dahlia%20Doe%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 05 2026",
+      "Text": "Brief amicus curiae of Former Federal and State Judges filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Amicus Brief of Former Judges re Dahlia Doe_FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/400077/20260305142419318_Amicus%20Brief%20of%20Former%20Judges%20re%20Dahlia%20Doe_FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate of Service_FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/400077/20260305142444552_Certificate%20of%20Service_FINAL.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 06 2026",
+      "Text": "Reply of applicant Kristi Noem, Secretary of Homeland Security, et al. filed.",
+      "Links": [
+        {
+          "Description": "Reply",
+          "File": "Noem v. Doe Stay Reply final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/400239/20260306154000492_Noem%20v.%20Doe%20Stay%20Reply%20final.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate - 25A982 - Noem v. Doe - Reply.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/400239/20260306154101869_Certificate%20-%2025A982%20-%20Noem%20v.%20Doe%20-%20Reply.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 06 2026",
+      "Text": "Brief amicus curiae of Haitian TPS Holders filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25A952_Stay Amicus--Haitian TPS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/400140/20260306000233722_25A952_Stay%20Amicus--Haitian%20TPS.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/400140/20260306000317320_Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 09 2026",
+      "Text": "Letter from Applicant filed.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Noem v. Doe letter to file.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/400332/20260309113309766_Noem%20v.%20Doe%20letter%20to%20file.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 16 2026",
+      "Text": "Application (25A952) referred to the Court."
+    },
+    {
+      "Date": "Mar 16 2026",
+      "Text": "Consideration of the application for stay (25A952) presented to Justice Sotomayor and by her referred to the Court is deferred. Consideration of the application for stay (25A999) presented to The Chief Justice and by him referred to the Court is also deferred. The applications are also treated as petitions for a writ of certiorari before judgment (25-1083, 25-1084), and the petitions are GRANTED. The cases are consolidated, and a total of one hour is allotted for oral argument. The cases will be heard during the second week of the April 2026 argument session. Petitioners\u2019 brief on the merits, and any amicus curiae briefs in support or in support of neither party, are to be filed on or before Monday March 30, 2026. Respondents\u2019 briefs on the merits and any amicus curiae briefs in support, are to be filed on or before Monday, April 13, 2026. The reply brief, if any, is to be filed on or before Monday, April 20, 2026."
+    },
+    {
+      "Date": "Mar 16 2026",
+      "Text": "Because the Court has consolidated these cases for briefing and oral argument, future filings and activity in the cases will now be reflected on the docket of No. 25-1083.  Subsequent filings in these cases must therefore be submitted through the electronic filing system in No. 25-1083.  Each document submitted in connection with one or more of these cases must include on its cover the case number and caption for each case in which the filing is intended to be submitted.  Where a filing is submitted in fewer than all of the cases, the docket entry will reflect the case number(s) in which the filing is submitted; a document filed in all of the consolidated cases will be noted as \u201cVIDED.\u201d"
+    },
+    {
+      "Date": "Mar 23 2026",
+      "Text": "Motion for leave to file the joint appendix in an 8 1/2- by 11-inch format filed by petitioners.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083 25-1084 Doe_Miot JA letter.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/401579/20260323133152375_25-1083%2025-1084%20Doe_Miot%20JA%20letter.pdf"
+        },
+        {
+          "Description": "Other",
+          "File": "25-1083 J.A. Vol I.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/401579/20260401174744170_25-1083%20J.A.%20Vol%20I.pdf"
+        },
+        {
+          "Description": "Other",
+          "File": "25-1084 J.A. Vol II.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/401579/20260401174911236_25-1084%20J.A.%20Vol%20II.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 24 2026",
+      "Text": "Record requested from the United States Court of Appeals for the Second Circuit."
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Record received electronically from the United States Court of Appeals for the Second Circuit and available with the Clerk."
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "SET FOR ARGUMENT on Wednesday, April 29, 2026.  VIDED."
+    },
+    {
+      "Date": "Mar 27 2026",
+      "Text": "Brief amicus curiae of Federation for American Immigration Reform filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083 25-1084 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403104/20260327171838315_25-1083%2025-1084%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1083 25-1084 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403104/20260327171843464_25-1083%2025-1084%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1083 25-1084 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403104/20260327171847594_25-1083%2025-1084%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "Brief of petitioners filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083tsUnitedStates.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403273/20260330193346837_25-1083tsUnitedStates.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. 25-1083 and 25-1084. revisedbrief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403273/20260330193408088_certificate.%2025-1083%20and%2025-1084.%20revisedbrief.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "Joint appendix (2 volumes) filed.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "J.A. Volume 1 to file. mullin.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403274/20260330194636310_J.A.%20Volume%201%20to%20file.%20mullin.pdf"
+        },
+        {
+          "Description": "Main Document",
+          "File": "J.A. Volume 2 to file. mullin.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403274/20260330194659857_J.A.%20Volume%202%20to%20file.%20mullin.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "certificate. revised. 25-1083 and 25-1084. ja.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403274/20260330194736600_certificate.%20revised.%2025-1083%20and%2025-1084.%20ja.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "Record notification received from the United States District Court for the Southern District of New York. The record is electronic and is available on PACER."
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "Brief amicus curiae of Senator Ted Cruz filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Mullin v. Doe Amicus FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403209/20260330140642377_Mullin%20v.%20Doe%20Amicus%20FINAL.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Mullin v. Doe Amicus Word Count FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403209/20260330140657003_Mullin%20v.%20Doe%20Amicus%20Word%20Count%20FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403209/20260330140706336_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "Brief amici curiae of Iowa, et al. filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "03.21.26 - Trump v. Miot - Supreme Court.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403198/20260330133658118_03.21.26%20-%20Trump%20v.%20Miot%20-%20Supreme%20Court.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 25-1083 25-1084 Office of Attorney General Iowa COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403198/20260330133724076_Nos.%2025-1083%2025-1084%20Office%20of%20Attorney%20General%20Iowa%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 25-1083 25-1084 Office of Attorney General Iowa COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403198/20260330133730526_Nos.%2025-1083%2025-1084%20Office%20of%20Attorney%20General%20Iowa%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "Amicus brief of Sinai Residences and LeadingAge Southeast not accepted for filing. (March 30, 2026 - Incorrect submission.)"
+    },
+    {
+      "Date": "Mar 30 2026",
+      "Text": "Brief amici curiae of America's Future, et al. filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Mullin v. Doe Amicus Brief Final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403217/20260330144105818_Mullin%20v.%20Doe%20Amicus%20Brief%20Final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Mullin Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403217/20260330144123023_Mullin%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Mullin Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403217/20260330144140831_Mullin%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 02 2026",
+      "Text": "CIRCULATED."
+    },
+    {
+      "Date": "Apr 07 2026",
+      "Text": "Motion for divided argument and for enlargement of time for oral argument filed by respondents.  VIDED.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25 1083 and 24 1084 motion to divide and enlarge time FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403809/20260407130622930_25%201083%20and%2024%201084%20motion%20to%20divide%20and%20enlarge%20time%20FINAL.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "motion to divide and enlarge COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/403809/20260407130949467_motion%20to%20divide%20and%20enlarge%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 09 2026",
+      "Text": "Any motion pertaining to the oral argument in these cases shall be filed on or before Monday, April 13, 2026.  VIDED."
+    },
+    {
+      "Date": "Apr 09 2026",
+      "Text": "Letter regarding discovery documents of Fritz Emmanuel Lesly Miot, et al. not accepted for filing. (April 09, 2026 - Corrected filing and type to be submitted.)"
+    },
+    {
+      "Date": "Apr 09 2026",
+      "Text": "Proposal of respondents to lodge copies of material produced by the government during discovery in a related case cited to in respondents' brief on the merits filed (as to 25-1084).  (Corrected - April 9, 2026).  (Distributed)",
+      "Links": []
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief of respondents Dahlia Doe, et al. filed (as to 25-1083).  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404319/20260413153027211_25-1083%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1083 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404319/20260413153038776_25-1083%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1083 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404319/20260413153047690_25-1083%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief of Fritz Emmanuel Lesly Miot, et al. not accepted for filing. (To be resubmitted - April 16, 2026)"
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief of respondents Fritz Emmanuel Lesly Miot, et al. filed (as to 25-1084).  (Resubmitted).  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Miot 25-1084 SCOTUS merits brief - FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404638/20260416131303542_Miot%2025-1084%20SCOTUS%20merits%20brief%20-%20FINAL.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1084 Bryan Cave LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404638/20260417160757303_25-1084%20Bryan%20Cave%20LLP%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1084 Bryan Cave LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404638/20260417160815376_25-1084%20Bryan%20Cave%20LLP%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Lodging proposal approved by the Clerk.  Letter and attached material consisting of emails produced during discovery in related case received by the Clerk and lodged (as to 24-1084).  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Respondents Lodging in 24-1084.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404240/20260413152220287_Respondents%20Lodging%20in%2024-1084.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Amicus brief of Haitian Lawyers Association not accepted for filing. (To be corrected - April 14, 2026)"
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Amicus brief of Haitian Lawyers Association filed (Corrected). (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Amicus Brief 4.14.2026.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404526/20260415121303663_Amicus%20Brief%204.14.2026.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Nos. 25-1083 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404526/20260415121358841_Nos.%2025-1083%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Nos. 25-1083  COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404526/20260415121407263_Nos.%2025-1083%20%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of Syrian Justice, et al. filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083 Brief of Amici Curiae Syrian Justice and Accountability Centre et al..pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404229/20260413104331762_25-1083%20Brief%20of%20Amici%20Curiae%20Syrian%20Justice%20and%20Accountability%20Centre%20et%20al..pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404229/20260413104342217_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404229/20260413104350692_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amicus curiae of Haitian Women for Haitian Refugees filed (as to 25-1084). (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "20260413 Trump v Miot HWHR Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404340/20260413162144079_20260413%20Trump%20v%20Miot%20HWHR%20Amicus.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1084 Hogan Lovells COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404340/20260413162506330_25-1084%20Hogan%20Lovells%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1084 Hogan Lovells COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404340/20260413162515777_25-1084%20Hogan%20Lovells%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of Former Ohio State Attorneys General filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Trump v. Miot - Ohio AG Amicus Brief_Mosby.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404256/20260413152635612_Trump%20v.%20Miot%20-%20Ohio%20AG%20Amicus%20Brief_Mosby.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "Trump v. Miot Certificate of Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404256/20260413152647556_Trump%20v.%20Miot%20Certificate%20of%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Trump v. Miot Certificate of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404256/20260413152658349_Trump%20v.%20Miot%20Certificate%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amicus curiae of Medecins Sans Frontieres USA, Inc. d/b/a Doctors Without Borders USA filed (as to 25-1084). (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1084 Brief of MSF as Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404367/20260413173142752_25-1084%20Brief%20of%20MSF%20as%20Amicus.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1084 Covington and Burling COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404367/20260413173153094_25-1084%20Covington%20and%20Burling%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1084 Covington and Burling COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404367/20260413173206049_25-1084%20Covington%20and%20Burling%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of Haitian American Lawyers Association of Illinois, et al. filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404350/20260413163758684_25-1083_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1083_Certificate of Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404350/20260413163803678_25-1083_Certificate%20of%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1083_Proof of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404350/20260413163809397_25-1083_Proof%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of Local Governments, et al. filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083 25-1084 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404361/20260413171600038_25-1083%2025-1084%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1083 25-1084 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404361/20260413171630458_25-1083%2025-1084%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1083 25-1084 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404361/20260413171640704_25-1083%2025-1084%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of American Federation of Labor & Congress of Industrial Organizations, et al. filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "AFL-CIO_Brief_FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404232/20260413104324343_AFL-CIO_Brief_FINAL.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "26.04.13 CertofWordCount.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404232/20260413104336660_26.04.13%20CertofWordCount.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "26.04.13 CertofService.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404232/20260413104346699_26.04.13%20CertofService.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of National TPS Alliance, et al. filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "TPS - Haiti.Syria - Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404344/20260413161157718_TPS%20-%20Haiti.Syria%20-%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "CoC - Haiti.Syria Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404344/20260413161210155_CoC%20-%20Haiti.Syria%20Amicus.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "CoS - Haiti.Syria Amicus.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404344/20260413161218565_CoS%20-%20Haiti.Syria%20Amicus.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of Howard University School of Law Civil Rights Clinic, et al. filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083 25-1084acHowardSchoolOfLawCivilRightsClinic.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404286/20260413140544717_25-1083%2025-1084acHowardSchoolOfLawCivilRightsClinic.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1083 25-1084 Quinn Emanuel Urquhart Sullivan LLP COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404286/20260413140719289_25-1083%2025-1084%20Quinn%20Emanuel%20Urquhart%20Sullivan%20LLP%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1083 25-1084 Quinn Emanuel Urquhart Sullivan LLP COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404286/20260413140726197_25-1083%2025-1084%20Quinn%20Emanuel%20Urquhart%20Sullivan%20LLP%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of Administrative Law Professor Adam B. Cox, et al. filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "SCOTUS TPS Amicus Brief Draft 2026.04.13 11am.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404332/20260413155248241_SCOTUS%20TPS%20Amicus%20Brief%20Draft%202026.04.13%2011am.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1083 and 25-1084 Weil Gotshal COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404332/20260413155301531_25-1083%20and%2025-1084%20Weil%20Gotshal%20COS.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1083 and 25-1084 Weil Gotshal COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404332/20260413155307779_25-1083%20and%2025-1084%20Weil%20Gotshal%20COC.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of Massachusetts, et al. filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083 25-1084 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404303/20260413145759284_25-1083%2025-1084%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1083 25-1084 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404303/20260413145827624_25-1083%2025-1084%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1083 25-1084 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404303/20260413145840094_25-1083%2025-1084%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of American Immigration Lawyers Association, et al. filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083 VIDED bsac AmericanImmigrationLawyers_and_ImmigrationLawScholars.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404248/20260413114710348_25-1083%20VIDED%20bsac%20AmericanImmigrationLawyers_and_ImmigrationLawScholars.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1083 VIDED Word Count - bsac AmericanImmigrationLawyers_and_ImmigrationLawScholars.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404248/20260413114733720_25-1083%20VIDED%20Word%20Count%20-%20bsac%20AmericanImmigrationLawyers_and_ImmigrationLawScholars.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1083 VIDED Proof of Service - bsac AmericanImmigrationLawyers_and_ImmigrationLawScholars.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404248/20260413114759093_25-1083%20VIDED%20Proof%20of%20Service%20-%20bsac%20AmericanImmigrationLawyers_and_ImmigrationLawScholars.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of Immigration Law Scholars filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083 25-1084 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404360/20260413171426150_25-1083%2025-1084%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1083 25-1084 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404360/20260413171443976_25-1083%2025-1084%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1083 25-1084 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404360/20260413171451299_25-1083%2025-1084%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of Members of Congress filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "MiotCongress_Amici Document     April 13 2026 EFile.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404231/20260413110419518_MiotCongress_Amici%20Document%20%20%20%20%20April%2013%202026%20EFile.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "MiotCongress_Amici Certificate Word Count April 13 2026 EFile.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404231/20260413110429763_MiotCongress_Amici%20Certificate%20Word%20Count%20April%2013%202026%20EFile.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "MiotCongress_Amici Certificate Service April 13 2026 EFile.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404231/20260413110435814_MiotCongress_Amici%20Certificate%20Service%20April%2013%202026%20EFile.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of NAACP Legal Defense and Educational Fund, Inc., et al. filed (as to 25-1084).  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1084 Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404300/20260413144024516_25-1084%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1084 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404300/20260413144038252_25-1084%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1084 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404300/20260413144105129_25-1084%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amicus curiae of Project Rousseau filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083_Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404372/20260413174528188_25-1083_Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1083 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404372/20260413174539938_25-1083%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1083 Rousseau POS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404372/20260414115350886_25-1083%20Rousseau%20POS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of Economists filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083 Economists Corrected Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404374/20260414135131767_25-1083%20Economists%20Corrected%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1083 COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404374/20260413181521684_25-1083%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1083 AOS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404374/20260413181528307_25-1083%20AOS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of National Immigration Law Center, et al. filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083 25-1084 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404352/20260413164509447_25-1083%2025-1084%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1083 25-1084 Certificate.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404352/20260413164519715_25-1083%2025-1084%20Certificate.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1083 25-1084 Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404352/20260413164532082_25-1083%2025-1084%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of Faith in Action, et al. filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "260406a AC Brief for efiling.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404330/20260413154200176_260406a%20AC%20Brief%20for%20efiling.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "260406 Certificate of Word Count Compliance.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404330/20260413154213006_260406%20Certificate%20of%20Word%20Count%20Compliance.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "260406 Affidavit of Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404330/20260413154225734_260406%20Affidavit%20of%20Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Amicus brief of Springfield Neighbors United not accepted for filing. (April 17, 2026 - To be corrected.)"
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amicus curiae of Springfield Neighbors United filed (as to 25-1084). (Corrected) (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1084 Amicus Brief.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404901/20260420171317419_25-1084%20Amicus%20Brief.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1084 Word Count.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404901/20260420171330599_25-1084%20Word%20Count.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1084 Service Affidavit.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404901/20260420171342111_25-1084%20Service%20Affidavit.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of Sinai Residences, et al. filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083 and 1084 Sinai Residences et al. ACB Corrected.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404204/20260416163804454_25-1083%20and%201084%20Sinai%20Residences%20et%20al.%20ACB%20Corrected.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "E-Filing_Proof_of_Service.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404204/20260413085709031_E-Filing_Proof_of_Service.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Amicus brief of Former Senior Government Officials not accepted for filing. (April 20, 2026 - To be resubmitted.)"
+    },
+    {
+      "Date": "Apr 13 2026",
+      "Text": "Brief amici curiae of Former Senior Government Officials filed. (Resubmitted) VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "2026.04.13_Mullin v. Doe - AC Brief of Fmr Gov Officials ISO Respondents_final.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404894/20260420162815824_2026.04.13_Mullin%20v.%20Doe%20-%20AC%20Brief%20of%20Fmr%20Gov%20Officials%20ISO%20Respondents_final.pdf"
+        },
+        {
+          "Description": "Certificate of Word Count",
+          "File": "25-1083 and 25-1084  Kaplan Grady LLC COC.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404894/20260420162828897_25-1083%20and%2025-1084%20%20Kaplan%20Grady%20LLC%20COC.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "25-1083 and 25-1084  Kaplan Grady LLC COS.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404894/20260420162841076_25-1083%20and%2025-1084%20%20Kaplan%20Grady%20LLC%20COS.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 17 2026",
+      "Text": "Motion for leave to file the joint appendix in an 8 1/2- by 11-inch format GRANTED."
+    },
+    {
+      "Date": "Apr 17 2026",
+      "Text": "Motion of respondents for divided argument and for enlargement of time for oral argument GRANTED IN PART, a total of 80 minutes is allotted, and the time is divided as follows:  40 minutes for petitioners, 20 minutes for respondents in No. 25-1083, and 20 minutes for respondents in No. 25-1084.  VIDED."
+    },
+    {
+      "Date": "Apr 20 2026",
+      "Text": "Reply of petitioners filed.  VIDED. (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "25-1083rbUnitedStates.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404848/20260420134959762_25-1083rbUnitedStates.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate - 25-1083 25-1084 - Mullin v. Doe - Trump v. Miot.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/404848/20260420135849526_Certificate%20-%2025-1083%2025-1084%20-%20Mullin%20v.%20Doe%20-%20Trump%20v.%20Miot.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Apr 29 2026",
+      "Text": "Argued. For petitioners: D. John Sauer, Solicitor General, Department of Justice, Washington, D. C.  For respondents in 25-1083: Ahilan T. Arulanantham, Los Angeles, Cal. For respondents in 25-1084: Geoffrey M. Pipoly, Chicago, Ill.  VIDED."
+    },
+    {
+      "Date": "Jun 16 2026",
+      "Text": "Motion to dismiss the writ of certiorari as improvidently granted filed by respondents Fritz Emmanuel Lesly Miot, et al. (as to 25-1084).  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Miot 251084 Motion to Dismiss Writ as Improvidently Granted.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/413365/20260616120501897_Miot%20251084%20Motion%20to%20Dismiss%20Writ%20as%20Improvidently%20Granted.pdf"
+        },
+        {
+          "Description": "Other",
+          "File": "Miot - DIG Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/413365/20260616120523022_Miot%20-%20DIG%20Appendix.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 17 2026",
+      "Text": "Response to motion from petitioners Markwayne Mullin, et al. filed (as to 25-1084).  (Distributed)",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Miot_DIG_response.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/413530/20260617182851409_Miot_DIG_response.pdf"
+        },
+        {
+          "Description": "Proof of Service",
+          "File": "Certificate 25-1083 25-1084 - Mullin v. Doe - Trump v. Miot - resp. to mot. to dismiss.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/413530/20260617183009600_Certificate%2025-1083%2025-1084%20-%20Mullin%20v.%20Doe%20-%20Trump%20v.%20Miot%20-%20resp.%20to%20mot.%20to%20dismiss.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 19 2026",
+      "Text": "Reply in support of motion to dismiss the writ as improvidently granted filed (as to 25-1084).",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "Miot - Reply iso Motion to Dismiss Writ as Improvidently Granted - FINAL.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/413678/20260619122016283_Miot%20-%20Reply%20iso%20Motion%20to%20Dismiss%20Writ%20as%20Improvidently%20Granted%20-%20FINAL.pdf"
+        },
+        {
+          "Description": "Other",
+          "File": "Supplemental Appendix.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/413678/20260619122034820_Supplemental%20Appendix.pdf"
+        }
+      ]
+    },
+    {
+      "Date": "Jun 25 2026",
+      "Text": "Judgment REVERSED and case REMANDED.  Alito, J., announced the judgment of the Court and delivered the <a href = 'https://www.supremecourt.gov/opinions/25pdf/25-1083_f204.pdf'>opinion</a> of the Court except as to Part III\u2013A. Roberts, C. J., and Thomas and Kavanaugh, JJ., joined that opinion in full, and Gorsuch and Barrett, JJ., joined except for Part III\u2013A. Thomas, J., filed a concurring opinion.  Kagan, J., filed a dissenting opinion, in which Sotomayor and Jackson, JJ., joined. VIDED."
+    },
+    {
+      "Date": "Jun 25 2026",
+      "Text": "Motion to dismiss the writ of certiorari as improvidently granted DENIED (as to 25-1084)."
+    },
+    {
+      "Date": "Jun 30 2026",
+      "Text": "Application for stay denied as moot."
+    },
+    {
+      "Date": "Jul 27 2026",
+      "Text": "Judgment Issued.",
+      "Links": [
+        {
+          "Description": "Main Document",
+          "File": "EFILING 25-1083 Rev Rem COSTS 2d. Cir. 7.27.pdf",
+          "DocumentUrl": "https://www.supremecourt.gov/DocketPDF/25/25-1083/417351/20260727130301319_EFILING%2025-1083%20Rev%20Rem%20COSTS%202d.%20Cir.%207.27.pdf"
+        }
+      ]
+    }
+  ],
+  "AttorneyHeaderPetitioner": "Attorneys for Petitioners",
+  "Petitioner": [
+    {
+      "Attorney": "D. John Sauer",
+      "IsCounselofRecord": true,
+      "Title": "Solicitor General",
+      "PrisonerId": null,
+      "Phone": "202-514-2217",
+      "Address": "United States Department of Justice\r\n950 Pennsylvania Avenue, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20530-0001",
+      "Email": "SUPREMECTBRIEFS@USDOJ.GOV",
+      "PartyName": "Markwayne Mullin, et al."
+    }
+  ],
+  "AttorneyHeaderRespondent": "Attorneys for Respondents",
+  "Respondent": [
+    {
+      "Attorney": "Ahilan T. Arulanantham",
+      "IsCounselofRecord": true,
+      "Title": "UCLA SCHOOL OF LAW",
+      "PrisonerId": null,
+      "Phone": "(310) 825-1029",
+      "Address": "385 Charles E. Young Dr. East",
+      "City": "Los Angeles",
+      "State": "CA",
+      "Zip": "90095",
+      "Email": "ARULANANTHAM@LAW.UCLA.EDU",
+      "PartyName": "Dahlia Doe, et al."
+    },
+    {
+      "Attorney": "Andrew Tauber",
+      "IsCounselofRecord": true,
+      "Title": "Bryan Cave Leighton Paisner LLP",
+      "PrisonerId": null,
+      "Phone": "202-508-6111",
+      "Address": "1155 F St NW\r\nSuite 700",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20008",
+      "Email": "andrew.tauber@bclplaw.com",
+      "PartyName": "Fritz Emmanuel Lesly Miot, et al."
+    },
+    {
+      "Attorney": "Guadalupe Victoria Aguirre",
+      "IsCounselofRecord": false,
+      "Title": "International Refugee Assistance Project",
+      "PrisonerId": null,
+      "Phone": "9292460154",
+      "Address": "One Battery Park Plaza\r\nFl 33",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10004",
+      "Email": "laguirre@refugeerights.org",
+      "PartyName": "Dahlia Doe, et al."
+    },
+    {
+      "Attorney": "Jessica Karp Bansal",
+      "IsCounselofRecord": false,
+      "Title": "National Day Laborer Organizing Network",
+      "PrisonerId": null,
+      "Phone": "(626) 214-5689",
+      "Address": "1030 S. Arroyo Parkway, Suite 106",
+      "City": "Pasadena",
+      "State": "CA",
+      "Zip": "91105",
+      "Email": "jessica@ndlon.org",
+      "PartyName": "Dahlia Doe, et al."
+    },
+    {
+      "Attorney": "Megan McLaughlin Hauptman",
+      "IsCounselofRecord": false,
+      "Title": "International Refugee Assistance Project (IRAP)",
+      "PrisonerId": null,
+      "Phone": "6469397329",
+      "Address": "650 Massachusetts Ave, Ste 600",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "mhauptman@refugeerights.org",
+      "PartyName": "Dahlia Doe, et al."
+    },
+    {
+      "Attorney": "Melissa S. Keaney",
+      "IsCounselofRecord": false,
+      "Title": "Muslim Advocates",
+      "PrisonerId": null,
+      "Phone": "2792692362",
+      "Address": "1032 15th Street NW, #362",
+      "City": "Washington, D.C.",
+      "State": "DC",
+      "Zip": "10004",
+      "Email": "melissa@muslimadvocates.org",
+      "PartyName": "Dahlia Doe, et al."
+    },
+    {
+      "Attorney": "Geoffrey Mitchell Pipoly",
+      "IsCounselofRecord": false,
+      "Title": "Bryan Cave Leighton Paisner LLP",
+      "PrisonerId": null,
+      "Phone": "513-262-6233",
+      "Address": "161 N. Clark Street, Suite 4300",
+      "City": "Chicago",
+      "State": "IL",
+      "Zip": "60601",
+      "Email": "GEOFF.PIPOLY@BCLPLAW.COM",
+      "PartyName": "Fritz Emmanuel Lesly Miot, et al."
+    },
+    {
+      "Attorney": "Ghita R. Schwarz",
+      "IsCounselofRecord": false,
+      "Title": "International Refugee Assistance Project",
+      "PrisonerId": null,
+      "Phone": "646-939-9169",
+      "Address": "1 Battery Park Plaza\r\nFloor 33",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10004",
+      "Email": "gschwarz@refugeerights.org",
+      "PartyName": "Dahlia Doe, et al."
+    }
+  ],
+  "AttorneyHeaderOther": "Other",
+  "Other": [
+    {
+      "Attorney": "Steven Edwards Art",
+      "IsCounselofRecord": true,
+      "Title": "Loevy & Loevy",
+      "PrisonerId": null,
+      "Phone": "312-243-5900",
+      "Address": "311 N. Aberdeen St., 3rd Fl.",
+      "City": "Chicago",
+      "State": "IL",
+      "Zip": "60607",
+      "Email": "steve@loevy.com",
+      "PartyName": "Haitian Lawyers Association"
+    },
+    {
+      "Attorney": "Baher Azmy",
+      "IsCounselofRecord": true,
+      "Title": "Center for Constitutional Rights",
+      "PrisonerId": null,
+      "Phone": "2126146464",
+      "Address": "666 Broadway\r\n7th Floor",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10012",
+      "Email": "BAzmy@ccrjustice.org",
+      "PartyName": "The National TPS Alliance, The Haitian Bridge Alliance & Communities United for Status and Protection"
+    },
+    {
+      "Attorney": "Tasha Joy Bahal",
+      "IsCounselofRecord": true,
+      "Title": "Massachusetts Attorney General's Office",
+      "PrisonerId": null,
+      "Phone": "6179632066",
+      "Address": "One Ashburton Place\r\nFloor 20",
+      "City": "Boston",
+      "State": "MA",
+      "Zip": "02108",
+      "Email": "Tasha.Bahal@mass.gov",
+      "PartyName": "Massachusetts, et al."
+    },
+    {
+      "Attorney": "Brittany Christine Carter",
+      "IsCounselofRecord": true,
+      "Title": "NAACP Legal Defense and Educational Fund, Inc.",
+      "PrisonerId": null,
+      "Phone": "646-761-0596",
+      "Address": "40 Rector Street, 5th Floor",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10006",
+      "Email": "bcarter@naacpldf.org",
+      "PartyName": "NAACP Legal Defense and Educational Fund, Inc. and the National Association for the Advancement of Colored People"
+    },
+    {
+      "Attorney": "Cassandra Charles",
+      "IsCounselofRecord": true,
+      "Title": "National Immigration Law Center",
+      "PrisonerId": null,
+      "Phone": "(213) 674-2907",
+      "Address": "P.O. Box 34573",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20043",
+      "Email": "charles@nilc.org",
+      "PartyName": "National Immigration Law Center and 26 Nonprofit Organizations"
+    },
+    {
+      "Attorney": "James Ryan Conde",
+      "IsCounselofRecord": true,
+      "Title": "Boyden Gray PLLC",
+      "PrisonerId": null,
+      "Phone": "202 955 0620",
+      "Address": "800 Connecticut Ave. NW\r\nSuite 900",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "jconde@boydengray.com",
+      "PartyName": "Senator Ted Cruz"
+    },
+    {
+      "Attorney": "Chris Cooper Gair",
+      "IsCounselofRecord": true,
+      "Title": "Gair Gallo Eberhard LLP",
+      "PrisonerId": null,
+      "Phone": "3126004900",
+      "Address": "1 E Wacker Dr., Suite 2600",
+      "City": "Chicago",
+      "State": "IL",
+      "Zip": "60601",
+      "Email": "cgair@gairgallo.com",
+      "PartyName": "Syrian Justice And Accountability Centre and Tahrir Institute For Middle East Policy"
+    },
+    {
+      "Attorney": "Jed Wolf Glickstein",
+      "IsCounselofRecord": true,
+      "Title": "Kaplan & Grady LLC",
+      "PrisonerId": null,
+      "Phone": "312-254-8628",
+      "Address": "2071 N. Southport Ave\r\nSuite 205",
+      "City": "Chicago",
+      "State": "IL",
+      "Zip": "60614",
+      "Email": "jglickstein@kaplangrady.com",
+      "PartyName": "Former Senior Government Officials"
+    },
+    {
+      "Attorney": "Christopher J. Hajec",
+      "IsCounselofRecord": true,
+      "Title": "Immigration Reform Law Institute",
+      "PrisonerId": null,
+      "Phone": "202-328-7004",
+      "Address": "25 Massachusetts Avenue NW, Suite 335",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "chajec@fairus.org",
+      "PartyName": "Federation for American Immigration Reform"
+    },
+    {
+      "Attorney": "Andrew Carl Heinrich",
+      "IsCounselofRecord": true,
+      "Title": "Project Rousseau",
+      "PrisonerId": null,
+      "Phone": "(917) 734-7219",
+      "Address": "1560 Broadway, Suite 805",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10036",
+      "Email": "andrew.heinrich@projectrousseau.org",
+      "PartyName": "Project Rousseau"
+    },
+    {
+      "Attorney": "Kathleen Caroline Kersh",
+      "IsCounselofRecord": true,
+      "Title": "Advocates for Basic Legal Equality, Inc.",
+      "PrisonerId": null,
+      "Phone": "4192550814",
+      "Address": "130 West 2nd Street, Suite 700 East",
+      "City": "Dayton",
+      "State": "OH",
+      "Zip": "45402",
+      "Email": "kkersh@ablelaw.org",
+      "PartyName": "Springfield Neighbors United"
+    },
+    {
+      "Attorney": "Vincent Gregory Levy",
+      "IsCounselofRecord": true,
+      "Title": "Holwell Shuster & Goldberg, LLP",
+      "PrisonerId": null,
+      "Phone": "6468375120",
+      "Address": "425 Lexington Avenue\r\n14th Floor",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10017",
+      "Email": "VLEVY@HSGLLP.COM",
+      "PartyName": "Economists"
+    },
+    {
+      "Attorney": "Andrew Lyubarsky",
+      "IsCounselofRecord": true,
+      "Title": "AFL-CIO",
+      "PrisonerId": null,
+      "Phone": "2026375115",
+      "Address": "815 Sixteenth Street, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20006",
+      "Email": "ALYUBARSKY@AFLCIO.ORG",
+      "PartyName": "American Federation of Labor & Congress of Industrial Organizations (AFL-CIO)"
+    },
+    {
+      "Attorney": "Jenny Suhjin Ma",
+      "IsCounselofRecord": true,
+      "Title": "Public Rights Project",
+      "PrisonerId": null,
+      "Phone": "3105955668",
+      "Address": "490 43rd Street, Suite 115",
+      "City": "Oakland",
+      "State": "CA",
+      "Zip": "94609",
+      "Email": "jenny@publicrightsproject.org",
+      "PartyName": "AMICI CURIAE LOCAL GOVERNMENTS AND LOCAL GOVERNMENT LEADERS IN SUPPORT OF RESPONDENTS"
+    },
+    {
+      "Attorney": "Richard W. Mark",
+      "IsCounselofRecord": true,
+      "Title": "Gibson, Dunn & Crutcher LLP",
+      "PrisonerId": null,
+      "Phone": "(212) 351-4000",
+      "Address": "200 Park Avenue",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10166",
+      "Email": "RMark@gibsondunn.com",
+      "PartyName": "Former Ohio State Attorneys General"
+    },
+    {
+      "Attorney": "William Jeffrey Olson",
+      "IsCounselofRecord": true,
+      "Title": "William J. Olson, P.C.",
+      "PrisonerId": null,
+      "Phone": "7033565070",
+      "Address": "370 Maple Ave. W., Suite 4",
+      "City": "Vienna",
+      "State": "VA",
+      "Zip": "22180",
+      "Email": "WJO@MINDSPRING.COM",
+      "PartyName": "America's Future, Citizens United, and Conservative Legal Defense and Education Fund"
+    },
+    {
+      "Attorney": "Rodney L Pepe-Souvenir",
+      "IsCounselofRecord": true,
+      "Title": "Haitian American Lawyers Association of New York",
+      "PrisonerId": null,
+      "Phone": "(770) 910-3336",
+      "Address": "271 Cadman Plaza East, #23325",
+      "City": "Brooklyn",
+      "State": "NY",
+      "Zip": "11201",
+      "Email": "rpepesouvenir@gmail.com",
+      "PartyName": "The Haitian American Lawyers Association of Illinois and The Haitian American Lawyers Association of New York"
+    },
+    {
+      "Attorney": "Jaya Ramji-Nogales",
+      "IsCounselofRecord": true,
+      "Title": "Temple University, Beasley School of Law",
+      "PrisonerId": null,
+      "Phone": "2152046430",
+      "Address": "1719 N. Broad Street",
+      "City": "Philadelphia",
+      "State": "PA",
+      "Zip": "19122",
+      "Email": "jaya.ramji-nogales@temple.edu",
+      "PartyName": "Immigration Law Scholars"
+    },
+    {
+      "Attorney": "Jo-Ann Tamila Sagar",
+      "IsCounselofRecord": true,
+      "Title": "Hogan Lovells US LLP",
+      "PrisonerId": null,
+      "Phone": "202-637-5600",
+      "Address": "555 Thirteenth Street, NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20004",
+      "Email": "jo-ann.sagar@hoganlovells.com",
+      "PartyName": "Haitian Women for Haitian Refugees"
+    },
+    {
+      "Attorney": "Jeffrey Eric Sandberg",
+      "IsCounselofRecord": true,
+      "Title": "Covington & Burling LLP",
+      "PrisonerId": null,
+      "Phone": "2026625158",
+      "Address": "850 10th Street NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20001",
+      "Email": "jsandberg@cov.com",
+      "PartyName": "M\u00c9DECINS SANS FRONTI\u00c8RES USA, INC. D/B/A DOCTORS WITHOUT BORDERS USA"
+    },
+    {
+      "Attorney": "Andrew H. Schapiro",
+      "IsCounselofRecord": true,
+      "Title": "Quinn Emanuel Urquhart & Sullivan, LLP",
+      "PrisonerId": null,
+      "Phone": "(312) 705-7403",
+      "Address": "191 N. Wacker Dr.\r\nSuite 2700",
+      "City": "Chicago",
+      "State": "IL",
+      "Zip": "60606",
+      "Email": "ANDREWSCHAPIRO@QUINNEMANUEL.COM",
+      "PartyName": "Howard University School of Law Civil Rights Clinic and 38 Professors"
+    },
+    {
+      "Attorney": "Alan Evan Schoenfeld",
+      "IsCounselofRecord": true,
+      "Title": "Wilmer, Cutler, Pickering, Hale and Dorr, LLP",
+      "PrisonerId": null,
+      "Phone": "(212) 230-8800",
+      "Address": "7 World Trade Center\r\n250 Greenwich Street",
+      "City": "New York",
+      "State": "NY",
+      "Zip": "10007",
+      "Email": "alan.schoenfeld@wilmerhale.com",
+      "PartyName": "American Immigration Lawyers Association and Immigration Law Scholars"
+    },
+    {
+      "Attorney": "Robert E. Shapiro",
+      "IsCounselofRecord": true,
+      "Title": "Barack Ferrazzano Kirschbaum & Nagelberg LLP",
+      "PrisonerId": null,
+      "Phone": "3129843100",
+      "Address": "200 W. Madison Street\r\nSuite 3900",
+      "City": "Chicago",
+      "State": "IL",
+      "Zip": "60606",
+      "Email": "rob.shapiro@bfkn.com",
+      "PartyName": "Faith in Action, et al."
+    },
+    {
+      "Attorney": "Stephen James van Stempvoort",
+      "IsCounselofRecord": true,
+      "Title": "Miller Johnson",
+      "PrisonerId": null,
+      "Phone": "(616) 831-1700",
+      "Address": "45 Ottawa Avenue SW., Suite 1100",
+      "City": "Grand Rapids",
+      "State": "MI",
+      "Zip": "49503",
+      "Email": "vanstempvoorts@millerjohnson.com",
+      "PartyName": "Members of Congress"
+    },
+    {
+      "Attorney": "Joshua Morgan Wesneski",
+      "IsCounselofRecord": true,
+      "Title": "Weil, Gotshal & Manges LLP",
+      "PrisonerId": null,
+      "Phone": "(202) 682-7000",
+      "Address": "2001 M Street NW",
+      "City": "Washington",
+      "State": "DC",
+      "Zip": "20036",
+      "Email": "joshua.wesneski@weil.com",
+      "PartyName": "Administrative Law Professors Adam B. Cox, Roderick M. Hills, Jr., and Emma Kaufman"
+    },
+    {
+      "Attorney": "Eric Harris Wessan",
+      "IsCounselofRecord": true,
+      "Title": "Iowa Attorney General's Office",
+      "PrisonerId": null,
+      "Phone": "(515) 823- 9117",
+      "Address": "1305 E Walnut Street",
+      "City": "Des Moines",
+      "State": "IA",
+      "Zip": "50319",
+      "Email": "wessan.eric@gmail.com",
+      "PartyName": "Iowa and 21 Other States"
+    },
+    {
+      "Attorney": "Sarah Stevens Wilson",
+      "IsCounselofRecord": true,
+      "Title": "Colombo & Hurd PL",
+      "PrisonerId": null,
+      "Phone": "407-478-1111",
+      "Address": "301 E. Pine St., Ste 450",
+      "City": "Orlando",
+      "State": "FL",
+      "Zip": "32801",
+      "Email": "swilson@colombohurd.com",
+      "PartyName": "Sinai Residences and LeadingAge Southeast"
+    }
+  ]
+}

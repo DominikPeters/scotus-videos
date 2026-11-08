@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SCOTUS argument · document preview</title>
+  <link rel="stylesheet" href="artifacts/player.css">
+</head>
+<body>
+  <header class="controls">
+    <div><strong>Argument + source documents</strong><span id="status">Loading…</span></div>
+    <audio id="audio" controls preload="metadata"></audio>
+    <button id="toggle-review">References</button>
+  </header>
+  <main id="viewport"><div id="frame">
+    <div class="case-header">
+      <div><div class="eyebrow">SUPREME COURT OF THE UNITED STATES</div><h1 id="case-name"></h1><div id="case-subtitle"></div></div>
+      <img src="seal.svg" alt="Supreme Court seal">
+    </div>
+    <div id="bench"></div>
+    <div class="argument-body">
+      <section class="conversation">
+        <div class="section-caption"><span>ORAL ARGUMENT</span><span id="clock"></span></div>
+        <div id="transcript"></div>
+      </section>
+      <aside id="document-panel">
+        <div id="speaker-card"><img id="speaker-image" alt=""><div class="eyebrow">NOW SPEAKING</div><h2 id="speaker-name"></h2><p id="speaker-role"></p></div>
+        <div id="excerpt" hidden>
+          <div class="document-heading"><span id="artifact-kind"></span><h2 id="artifact-title"></h2></div>
+          <a id="document-image-link" target="_blank" rel="noopener"><img id="document-image" alt="Original PDF passage, with the relevant words highlighted"></a>
+          <div class="document-source"><span class="source-label">SOURCE DOCUMENT</span><p id="source-title"></p><a id="source-link" target="_blank" rel="noopener"></a></div>
+        </div>
+      </aside>
+    </div>
+    <footer><span>Transcript and audio: Oyez / supplied alignment · CC BY-NC</span><span id="footer-case"></span></footer>
+  </div></main>
+  <aside id="review" hidden><h2>Document references</h2><p id="review-note"></p><div id="cue-list"></div><h3 id="unresolved-heading"></h3><div id="unresolved-list"></div></aside>
+  <p id="error" hidden></p>
+  <script src="artifacts/player.js"></script>
+</body>
+</html>
