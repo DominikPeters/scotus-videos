@@ -1,0 +1,28 @@
+{
+  "identity_verified": true,
+  "name": "William R. Peterson",
+  "docket": "25-1003",
+  "source_url": "https://law.utexas.edu/profiles/photos/wrp64-medium.jpg?1786393726",
+  "identity_source_url": "https://law.utexas.edu/faculty/william-r-peterson/",
+  "kind": "photo",
+  "approval": "owner dashboard approval",
+  "recording": "2026-11-04-25-1003-argument-1",
+  "source_sha256": "eaa2490f43bb6bcea76d4d565eba48d31ac39bf23eea4f264aa07dafbb04c37b",
+  "crop": {
+    "x": 0,
+    "y": 8,
+    "size": 320,
+    "source_width": 320,
+    "source_height": 400,
+    "method": "codex-vision",
+    "model": "gpt-6.1-sol",
+    "preview_box": {
+      "x": 0,
+      "y": 8,
+      "size": 320
+    },
+    "preview_width": 320,
+    "preview_height": 400
+  },
+  "sha256": "7e3a84e66f95819e11bcee67a2082aa4111502becb818593e52a07e6525b4e5a"
+}
