@@ -1,0 +1,20 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "hassan",
+  "kind": "Excerpt",
+  "title": "Eleventh Circuit, <i>Younge</i> (2025)",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Excerpt",
+    "label": "Opinion excerpt",
+    "heading": "Eleventh Circuit, <i>Younge</i> (2025)",
+    "before": "",
+    "quote": "Since Hassan, we have repeatedly reaffirmed that a district court may receive evidence of an unpleaded affirmative defense if the plaintiff was <mark>not “prejudiced”</mark> by the defendant’s failure to plead the defense in its answer.",
+    "after": "",
+    "source": "Opinion of the Court of Appeals, Apr. 1, 2025 · Pet. App. 10a",
+    "highlight": [
+      "Hassan decision"
+    ]
+  }
+}

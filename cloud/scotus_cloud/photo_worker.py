@@ -1,6 +1,7 @@
 """Dedicated, bounded photo revisions that can run alongside alignment."""
 import json,os,tempfile,threading
 from pathlib import Path
+from .secret_store import runtime_settings
 from .google import Google
 from .remote import Dashboard
 from .photos import revise_photo
@@ -8,7 +9,7 @@ from .photos import revise_photo
 def main():
     if not os.environ.get('CLOUD_RUN_JOB'):raise RuntimeError('Cloud photo worker only')
     os.environ['SCOTUS_PRIVATE_CODEX_WORKER']='1'
-    settings=json.loads(Path('/secrets/worker/config.json').read_text())
+    settings=runtime_settings('/secrets/worker/config.json')
     dashboard=Dashboard(settings['dashboard_url'],settings['worker_key'],'enrich');cloud=Google(settings['project'])
     data={'job':os.environ['SCOTUS_JOB_ID'],'request':os.environ['SCOTUS_PHOTO_REQUEST'],'dispatch_token':os.environ['SCOTUS_PHOTO_TOKEN']}
     claim=dashboard.call('photo_claim',**data)

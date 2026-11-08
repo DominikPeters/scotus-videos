@@ -1,0 +1,17 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "rule-56",
+  "kind": "Rule",
+  "title": "Rule 56(a) — Summary judgment",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Rule",
+    "heading": "Rule 56(a) — Summary judgment",
+    "text": "The court shall grant summary judgment if the movant shows that there is <mark>no genuine dispute as to any material fact</mark> and the movant is entitled to judgment as a matter of law.",
+    "source": "Federal Rules of Civil Procedure",
+    "highlight": [
+      "undisputable record"
+    ]
+  }
+}

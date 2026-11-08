@@ -34,7 +34,7 @@
         }
 
         body {
-            background-color: #eee;
+            background-color: hsl(0, 0%, 98%);
             font-family: myriad-pro, "Myriad Pro", sans-serif;
             font-size: 20px;
             box-sizing: border-box;
@@ -42,31 +42,65 @@
             padding: 0;
             height: 100vh;
             visibility: hidden;
-        }
-
-        div.frame {
-            height: 1920px;
-            width: 1080px;
-            background-color: #fff;
-            border: 1px solid #ccc;
-            box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
-            /* transform: scale(0.75) translate(-14%, -14%); */
             overflow: hidden;
         }
 
+        div.frame {
+            /* Reflow inside the measured lateral crop; keep native font sizes and height. */
+            height: 1920px;
+            width: 968px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            background-color: transparent;
+            overflow: visible;
+        }
+
         div.header {
+            /* Clear the Dynamic Island even when the video fills the phone screen. */
+            padding-top: 140px;
+            position: relative;
             background-color: hsl(43, 45%, 94%);
             z-index: -2;
         }
 
+        /* Bleed section backgrounds to the video edges; only content is inset. */
+        div.header::before, div.quote-card::before {
+            content: "";
+            position: absolute;
+            inset: 0 -56px;
+            background: inherit;
+            pointer-events: none;
+            z-index: -1;
+        }
+
         div.title {
+            position: relative;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            align-items: top;
-            height: 100px;
+            align-items: flex-start;
+            min-height: 100px;
             padding: 20px;
             padding-top: 10px;
+        }
+
+        div.title > img {
+            position: absolute;
+            bottom: 12px;
+            right: 20px;
+            width: 170px;
+            height: 170px;
+        }
+
+        /* Contrast for white captions supplied by the social video player. */
+        body::after {
+            content: "";
+            position: fixed;
+            inset: auto 0 0;
+            height: 340px;
+            background: linear-gradient(to bottom, rgb(85 64 39 / 0%), rgb(85 64 39 / 65%) 45%, rgb(85 64 39 / 88%) 75%);
+            z-index: 100;
+            pointer-events: none;
         }
 
         div.title h1 {
@@ -92,12 +126,14 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
+            padding: 0 20px;
         }
 
         div.bench figure {
             display: flex;
             flex-direction: column;
             width: 158px;
+            min-width: 0;
             margin: 0 -20px;
             z-index: 1;
         }
@@ -257,7 +293,7 @@
             width: 100%;
             height: 1660px;
             background-color: hsl(0, 0%, 98%);
-            border-left: 2px solid #ccc;
+            border: 0;
             padding: 15px;
             box-sizing: border-box;
             overflow-y: scroll;
@@ -708,7 +744,7 @@
                     <h1><span class="docket-number" id="docket-number">[17-1104]</span> <span id="case-name">Air and Liquid Systems Corp. v. Devries</span></h1>
                     <p class="subtitle" id="subtitle">Argued on Oct 10, 2018. Decided on Mar 19, 2019.</p>
                 </div>
-                <img src="seal.svg" height="130">
+                <img src="seal.svg" height="170">
             </div>
             <div class="bench" id="bench">
             </div>

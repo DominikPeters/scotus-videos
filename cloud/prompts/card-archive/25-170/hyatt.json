@@ -1,0 +1,22 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "hyatt",
+  "kind": "Case",
+  "title": "<i>Franchise Tax Board of California</i> v. <i>Hyatt</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+      "name": "<i>Franchise Tax Board of California</i> v. <i>Hyatt</i>",
+      "details": "2019 · decided 5–4"
+    },
+    "text": "The Court held that states are immune from private suits in the courts of other states, overruling <i>Nevada</i> v. <i>Hall</i> (1979).",
+    "source": "Summary based on Oyez (oyez.org)",
+    "highlight": [
+      "Franchise Tax Board versus Hyatt"
+    ]
+  }
+}

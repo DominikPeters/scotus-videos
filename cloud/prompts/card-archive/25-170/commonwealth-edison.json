@@ -1,0 +1,22 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "commonwealth-edison",
+  "kind": "Case",
+  "title": "<i>Commonwealth Edison Co.</i> v. <i>Montana</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+      "name": "<i>Commonwealth Edison Co.</i> v. <i>Montana</i>",
+      "details": "1981 · decided 6–3"
+    },
+    "text": "The Court upheld Montana’s severance tax on coal against Commerce Clause and Supremacy Clause challenges.",
+    "source": "Summary based on the opinion of the Court (U.S. Reports)",
+    "highlight": [
+      "Commonwealth Edison versus Montana"
+    ]
+  }
+}

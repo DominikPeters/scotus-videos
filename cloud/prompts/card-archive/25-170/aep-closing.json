@@ -1,0 +1,20 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "aep-closing",
+  "kind": "Excerpt",
+  "title": "<i>American Electric Power Co.</i> v. <i>Connecticut</i> (2011)",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Excerpt",
+    "heading": "<i>American Electric Power Co.</i> v. <i>Connecticut</i> (2011)",
+    "before": "In light of our holding that the Clean Air Act displaces federal common law,",
+    "quote": "the availability vel non of a state lawsuit depends, inter alia, on the preemptive effect of the federal Act.",
+    "after": "… None of the parties have briefed preemption or otherwise addressed the availability of a claim under state nuisance law. We therefore leave the matter open for consideration on remand.",
+    "source": "Opinion of the Court (U.S. Reports)",
+    "highlight": [
+      "closing paragraph of AEP"
+    ],
+    "label": "Opinion excerpt"
+  }
+}

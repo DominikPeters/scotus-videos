@@ -31,12 +31,10 @@ def make_bundle(folder,job,transcript,enrichment,cloud):
             cloud.storage_download(choice['portrait_uri'],target)
             if hashlib.sha256(target.read_bytes()).hexdigest()!=choice['sha256']:raise ValueError('Approved portrait changed')
     catalog=json.loads((RENDERER_ROOT.parent.parent/'speaker-catalog.json').read_text())
-    portrait_credit=False
     for justice in metadata['heard_by'][0]['members']:
         target=root/'justices'/justice['thumbnail']['href'].split('/')[-1];target.parent.mkdir(exist_ok=True)
         local=catalog.get(justice['identifier'])
         uri=local['portrait_uri'] if local else justice.get('portrait_uri') or justice['thumbnail']['href']
-        portrait_credit=portrait_credit or bool(local and 'oyez.org' in local.get('portrait_source',''))
         if uri.startswith('gs://'):cloud.storage_download(uri,target)
         else:
             with urlopen(uri,timeout=30) as response:data=response.read(4194305)
@@ -62,9 +60,6 @@ def make_bundle(folder,job,transcript,enrichment,cloud):
     if cards_oyez and not enrichment['oyez_content_used']:
         interactions['youtube_description']+='\nAnnotation sources include Oyez.org, licensed under CC BY-NC 4.0 (https://creativecommons.org/licenses/by-nc/4.0/).'
         (root/'json'/f'{job["id"]}-interactions.json').write_text(json.dumps(interactions,ensure_ascii=False))
-    credit='Case information: Oyez.org' if enrichment['oyez_content_used'] or cards_oyez else ('Justice portraits: Oyez.org' if portrait_credit else '')
-    if portrait_credit and not enrichment['oyez_content_used']:
-        interactions['youtube_description']=interactions['youtube_description'].replace('Not affiliated with oyez.org or the Supreme Court.', 'Justice portraits from oyez.org, licensed under a CC-BY-NC License (https://creativecommons.org/licenses/by-nc/4.0/).\nNot affiliated with oyez.org or the Supreme Court.')
-        (root/'json'/f'{job["id"]}-interactions.json').write_text(json.dumps(interactions,ensure_ascii=False))
+    credit='Case information: Oyez.org' if enrichment['oyez_content_used'] or cards_oyez else ''
     (root/'credit.json').write_text(json.dumps({'text':credit}))
     return interactions

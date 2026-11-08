@@ -1,0 +1,209 @@
+{
+  "recorded_at": "2026-11-02T23:30:20.532101+00:00",
+  "project": "possible-cycle-237715",
+  "recording": "2026-11-02-25-352-argument-1",
+  "status": "alignment_recovered",
+  "root_cause": "Cached Court PDF was replaced; the superseded source does not follow the audio through the respondent section",
+  "old_pdf_url": "https://www.supremecourt.gov/oral_arguments/argument_transcripts/2026/25-352_1971.pdf",
+  "old_pdf_sha256": "394de5b13bb05d337baa3db3e4aa5c95029fa4892b62690f51ba32b9fdeabed8",
+  "old_url_http_status": 404,
+  "source_refresh": {
+    "operation": "projects/possible-cycle-237715/locations/us-central1/operations/baa4d723-3bf7-44fc-9955-0934b60c8d34",
+    "job": "2026-11-02-25-352-argument-1",
+    "new_pdf_url": "https://www.supremecourt.gov/oral_arguments/argument_transcripts/2026/25-352_p8k0.pdf",
+    "new_pdf_sha256": "4a6bad3af26cae4096c4aa454ab9029ef784ba009b53619e54d3d903c8691543",
+    "new_expected_words": 10338,
+    "source_refresh_action": "776f68a2c77b1ec13db2927ee7352388872edb3b78edd7b3e878b8755d81732d",
+    "align_reservation_action": "b105d594b2c91161b3acb004b6a4f8fbcf6c7f428820864a42676524b583211f",
+    "prepare_reserve_usd": 0.082,
+    "align_reserve_usd": 0.3268,
+    "matcher": "original",
+    "image_builds": 0
+  },
+  "audio_excerpt_comparison": {
+    "cached": {
+      "exact_coarse_matched_words": 142,
+      "largest_anchor_gap_seconds": 607.96,
+      "first_match": 1640.12,
+      "last_match": 2309.7,
+      "source_words": 10479
+    },
+    "current": {
+      "exact_coarse_matched_words": 1500,
+      "largest_anchor_gap_seconds": 8.7,
+      "first_match": 1640.12,
+      "last_match": 2309.7,
+      "source_words": 10338
+    },
+    "excerpt_recognized_words": 2026
+  },
+  "matching_patch_experiment": {
+    "baseline_and_bootstrap_mismatch_resolved": true,
+    "current_image_test_count": 288,
+    "current_image_tests_skipped": 4,
+    "actual_attempt_4": "Still exceeded the normal window guard; not promoted or copied into repository source"
+  },
+  "validation": {
+    "words_preserved": 10338,
+    "paragraphs": 416,
+    "source_text_unchanged": true,
+    "paragraph_times_monotone": true,
+    "duration_seconds": 3343.752,
+    "two_responses_word_index": 6980,
+    "two_responses_time_seconds": 2296.74,
+    "coarse_audit": {
+      "coarse_anchored_words": 7261,
+      "source_words": 10338,
+      "largest_anchor_gap_seconds": 13.019999999999982,
+      "warnings": []
+    },
+    "warnings": [
+      {
+        "kind": "stage_direction",
+        "paragraph": 167
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 1,
+        "max_start_difference": 0.9200000000000159
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 2,
+        "max_start_difference": 0.6199999999999477
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 3,
+        "max_start_difference": 0.7599999999999909
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 4,
+        "max_start_difference": 0.7599999999999909
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 5,
+        "max_start_difference": 0.7999999999999545
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 7,
+        "max_start_difference": 0.8199999999999363
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 9,
+        "max_start_difference": 0.9200000000000728
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 10,
+        "max_start_difference": 0.8999999999998636
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 11,
+        "max_start_difference": 0.900000000000091
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 12,
+        "max_start_difference": 0.9200000000000728
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 13,
+        "max_start_difference": 0.9199999999998454
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 14,
+        "max_start_difference": 0.8600000000001273
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 15,
+        "max_start_difference": 0.8400000000001455
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 16,
+        "max_start_difference": 0.9200000000000728
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 17,
+        "max_start_difference": 0.7199999999997999
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 18,
+        "max_start_difference": 0.7600000000002183
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 19,
+        "max_start_difference": 0.8599999999996726
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 20,
+        "max_start_difference": 0.8600000000001273
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 21,
+        "max_start_difference": 1.4400000000000546
+      },
+      {
+        "kind": "overlap_disagreement",
+        "chunk": 22,
+        "max_start_difference": 0.9200000000000728
+      }
+    ],
+    "configuration": {
+      "model": "facebook/wav2vec2-base-960h",
+      "cpu_threads": 4,
+      "revision": "22aad52d435eb6dbaf354bdad9b0da84ce7d6156",
+      "star_frequency": "segment"
+    }
+  },
+  "result": {
+    "transcript_uri": "gs://possible-cycle-237715-scotus-video-media/scratch/2026-11-02-25-352-argument-1/align/attempt-5/5cb91ef18ad7484abe7c749f7b716c50/aligned.json",
+    "words_uri": "gs://possible-cycle-237715-scotus-video-media/scratch/2026-11-02-25-352-argument-1/align/attempt-5/5cb91ef18ad7484abe7c749f7b716c50/words.json",
+    "warnings": 21
+  },
+  "resolved_state": {
+    "job": "2026-11-02-25-352-argument-1",
+    "status": "running",
+    "align_status": "complete",
+    "recovery_status": "repaired",
+    "enrich_status": "running",
+    "paused": false,
+    "budget_days": {
+      "2026-10-13": 0.9232,
+      "2026-10-14": 0.30544,
+      "2026-10-15": 0.22936,
+      "2026-11-02": 0.72904,
+      "2026-11-03": 0.8684
+    }
+  },
+  "resume_dispatch": {
+    "ok": true,
+    "result": {
+      "message": "0 cloud execution(s) started.",
+      "launched": []
+    }
+  },
+  "image_builds_submitted": 0,
+  "validation_and_resource_limits_unchanged": true,
+  "source_integrity": {
+    "audio_sha256_unchanged": true,
+    "old_duration_seconds": 3343.752,
+    "new_duration_seconds": 3343.752,
+    "old_pdf_sha256": "394de5b13bb05d337baa3db3e4aa5c95029fa4892b62690f51ba32b9fdeabed8",
+    "new_pdf_sha256": "4a6bad3af26cae4096c4aa454ab9029ef784ba009b53619e54d3d903c8691543"
+  }
+}

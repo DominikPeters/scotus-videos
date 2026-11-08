@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-03",
+  "status": "deployed_and_verified",
+  "cause": "Storage HTTP 408 on 27 October was saved as needs_review, turning a technical exception into an owner question and suppressing retries.",
+  "case": "2026/25-498",
+  "build": {
+    "job": "scotus-statistics",
+    "image": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/statistics@sha256:6e675f7df673d07d69f65b1849712add3d981cd31746db0737d02bf0e6f6d2c1",
+    "build": "5fadabfb-85c8-44f3-a499-6532a91e7cb6"
+  },
+  "checks": {
+    "cloud_statistics_tests_passed": 19,
+    "php_statistics_fixture": "passed",
+    "browser": "passed including real owner question and technical retry separation"
+  },
+  "resolution": {
+    "count": 756,
+    "questions": 0,
+    "technical_errors": 0,
+    "pending": 0,
+    "case": "2026/25-498",
+    "research": {
+      "checked_date": "2026-11-03",
+      "status": "awaiting_opinion",
+      "opinion_url": null
+    },
+    "changed_record_fields": {},
+    "public_matches_canonical": true,
+    "published_at": "2026-11-03T18:20:48+00:00",
+    "model_invocations": 0,
+    "run_log": [
+      {
+        "at": "2026-11-03T18:20:43+00:00",
+        "message": "Reading official material for 25-498"
+      },
+      {
+        "at": "2026-11-03T18:20:48+00:00",
+        "message": "Statistics published"
+      }
+    ]
+  },
+  "retry_policy": {
+    "maximum_attempts": 3,
+    "backoff_seconds": [
+      300,
+      600
+    ],
+    "terminal_status": "failed (technical repair, not owner question)"
+  },
+  "registry_retention_refreshed": true,
+  "local_receipts_directory": "/private/tmp/scotus-statistics-nov3"
+}

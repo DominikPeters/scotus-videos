@@ -43,7 +43,7 @@ function workBlock(state) {
       : 'On. New arguments are discovered and processed automatically; you are notified when something needs you.'),
     h('div.actions',
       button(state.paused ? 'Resume automatic work' : 'Pause automatic work',
-        () => api('command', {command: state.paused ? 'resume' : 'pause'}), {primary: state.paused}),
+        () => api('command', {command: state.paused ? 'resume' : 'pause'})),
       button('Check for work now', async () => (await api('dispatch')).message || 'Work checked.')));
 }
 
@@ -90,7 +90,7 @@ function connectionsBlock() {
     button(name === 'github' && s.configured ? 'Check' : s.configured ? 'Reconnect' : 'Connect', () => connect(name), {small: true}))) : [];
   return block('Connections',
     conn.error ? h('p.problem', conn.error) : !data ? h('p.note', 'Checking connections…')
-      : h('p.note', data.workers_enabled ? 'Cloud workers are enabled.' : 'Cloud connected. Video workers are not enabled.'),
+      : h('p', data.workers_enabled ? 'Cloud workers are enabled.' : 'Cloud connected. Video workers are not enabled.'),
     rows.length && h('ul.plain', rows),
     conn.guide && h('div.guide', {'aria-live': 'polite'}, h('h3', conn.guide.title), h('p', conn.guide.text), conn.guide.body?.()),
     importForm());
@@ -292,5 +292,9 @@ function statisticsBlock(state) {
       return h('div', h('h3', key), h('p', question), answer,
         button('Send answer', () => api('command', {command: 'stats_answer', case: key, answer: answer.value}), {done: 'Answer queued for Codex.'}));
     }),
+    Object.entries(stats.technical_errors || {}).map(([key, error]) =>
+      h('div', h('h3', key),
+        h('p', error.status === 'retry_pending' ? 'Automatic retry queued' : 'Statistics update needs repair'),
+        h('p.note', error.notes))),
     disclosure('statistics-log', 'Update log', (stats.log || []).slice().reverse().map(item => h('p', h('span.note', dateTime(item.at) + ' · '), item.message))));
 }

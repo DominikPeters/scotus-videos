@@ -6,13 +6,17 @@ source_ids array for every field marked keep. The application will preserve thos
 Oyez fields itself. Output the supplied schema, not a whole YouTube description.
 
 Read input/case.json, input/oyez.json, input/materials.json, input/source-index.json
-and, when present, input/research.json. Use the supplied source IDs. The research
-packet is a draft, not an authority: check its
-key claims and framing against the supplied primary passages or source links.
+and, when present, input/research.json. Use the supplied source IDs. Reuse the completed research. Distinguish verified source passages from the researcher’s interpretations and open questions. Focus your own checks on claims that determine the public description, disputed framing and unresolved gaps; do not repeat the bulk reading. You remain responsible for the final claims.
 The materials file contains selected passages, not the full bulk research input.
 excerpt_check indicates whether an excerpt matched supplied text or needs a
 focused source-link check. Do not treat a research-model excerpt as independently
 verified merely because it is present in the packet.
+Treat `supplied_source_text`, `matched_supplied_text` and `supplied_oyez_field`
+as completed text/provenance checks; those passages need no blanket re-fetch.
+`check_source_link` identifies a passage still needing verification. Background
+summaries and legal characterizations are the researcher's interpretations;
+`private_caveats` identifies open questions. Check consequential meaning and scope
+without repeating the completed source collection.
 Further focused browsing may verify those sources. Do not silently base the final
 text on a new, unrecorded source; record any newly used source with a unique ID
 and supporting passage in additional_sources.

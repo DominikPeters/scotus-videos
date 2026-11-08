@@ -1,0 +1,39 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "circuit-split",
+  "kind": "Circuit split",
+  "title": "Habeas for a lower level of custody",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Circuit split",
+    "heading": "Habeas for a lower level of custody",
+    "map": {
+      "below": "5",
+      "groups": [
+        {
+          "label": "Habeas available",
+          "color": "#6698ba",
+          "circuits": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "label": "Only if release would be accelerated",
+          "color": "#d07b63",
+          "circuits": [
+            "5",
+            "8"
+          ]
+        }
+      ],
+      "labelOffsets": {}
+    },
+    "source": "As described in Maxwell’s cert-stage reply, p. 3; the government did not dispute the split",
+    "highlight": [
+      "two big circuits"
+    ]
+  }
+}

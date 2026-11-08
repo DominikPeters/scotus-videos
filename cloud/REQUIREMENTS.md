@@ -14,6 +14,12 @@ thumbnail, splash, conclusion and supported argument/opinion transitions.
 Parallelization belongs in screenshot/render scheduling and other workflow code.
 Do not replace the presentation with cloud/render's simplified prototype.
 
+The owner approved replacing the old section-triggered subscribe image with
+Claude's reminder pill: once, for eight seconds, in the first card-free gap of at
+least fifteen seconds after ten minutes; skip it if no such gap exists. This is
+an explicit exception to preserving the old subscribe overlay. See
+`docs/subscribe-reminder.md` for deterministic capture and rollout status.
+
 Reuse the existing preprocess.py / self-aligned-preprocess.py data shapes and
 YouTube formatters, upload-video.py thumbnail/playlist behavior, and
 add_timestamp_comment.py formatting. Keep title style, description sections,

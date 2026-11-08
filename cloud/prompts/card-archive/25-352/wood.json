@@ -1,0 +1,20 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "wood",
+  "kind": "Excerpt",
+  "title": "<i>Wood</i> v. <i>Milyard</i> (2012)",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Excerpt",
+    "label": "Opinion excerpt",
+    "heading": "<i>Wood</i> v. <i>Milyard</i> (2012)",
+    "before": "We note here the distinction between defenses that are “waived” and those that are “forfeited.”",
+    "quote": "A waived claim or defense is one that a party has <mark>knowingly and intelligently relinquished</mark>; a forfeited plea is one that a party has <mark>merely failed to preserve</mark>.",
+    "after": "",
+    "source": "Opinion of the Court · 566 U.S. 463, 470",
+    "highlight": [
+      "Day, Milyard"
+    ]
+  }
+}

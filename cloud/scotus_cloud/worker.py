@@ -15,6 +15,7 @@ import uuid
 import tarfile
 
 from .alignment import align_recording, AlignmentReview
+from .secret_store import runtime_settings
 from .google import Google
 from .model import plan_video, digest_json
 from .prepare import prepare_transcript, audio_duration, sha256
@@ -213,7 +214,10 @@ def stage_run(stage, job, settings, cloud, lease, folder, task, local_video=None
 def main():
     if not os.environ.get('CLOUD_RUN_JOB'):
         raise SystemExit('Cloud media workers run on Cloud Run; local media transfers are disabled.')
-    settings = json.loads(Path('/secrets/worker/config.json').read_text())
+    if os.environ.get('SCOTUS_CARD_IMPORT_ID'):
+        from .card_import_worker import main as import_cards
+        import_cards();return
+    settings = runtime_settings('/secrets/worker/config.json')
     stage = os.environ['SCOTUS_STAGE']; task = int(os.environ.get('CLOUD_RUN_TASK_INDEX', 0))
     if stage=='render' and os.environ.get('SCOTUS_RENDER_TASKS'):task=json.loads(os.environ['SCOTUS_RENDER_TASKS'])[task]
     if stage=='enrich':os.environ['SCOTUS_PRIVATE_CODEX_WORKER']='1'
@@ -241,10 +245,12 @@ def main():
 
 def run_sequence(stage,claimed,settings,cloud,lease,task=0):
     local_video=None;local_transcript=None;thread=None
+    card_deadline=time.monotonic()+2400
     try:
         with tempfile.TemporaryDirectory(prefix='scotus-') as directory:
             folder=Path(directory)
             while True:
+                lease.card_deadline=card_deadline
                 lease.data['lease']=claimed['lease'];lease.last_heartbeat=time.monotonic()
                 thread=threading.Thread(target=lease.run,daemon=True);thread.start()
                 if stage=='enrich':os.environ['SCOTUS_PRIVATE_CODEX_WORKER']='1'
@@ -253,9 +259,9 @@ def run_sequence(stage,claimed,settings,cloud,lease,task=0):
                 lease.check();lease.stopped.set();thread.join(timeout=5)
                 extra={}
                 if stage=='assemble' and os.environ.get('SCOTUS_CONTINUE_UPLOAD')=='1' and settings.get('upload_worker_key') and not os.environ.get('SCOTUS_WORKFLOW_RELEASE_URI'):
-                    extra={'continue_upload':True,'handoff_id':uuid.uuid4().hex,'baseline_sha256':settings.get('workflow_baseline_sha256','')}
+                    extra={'continue_upload':True,'handoff_id':uuid.uuid4().hex,'release_id':(__import__('scotus_cloud.releases',fromlist=['image_release']).image_release('/app') or {}).get('id',settings.get('workflow_baseline_sha256',''))}
                 if stage=='prepare' and os.environ.get('SCOTUS_CONTINUE_ENRICH')=='1' and settings.get('enrich_worker_key') and not os.environ.get('SCOTUS_WORKFLOW_RELEASE_URI'):
-                    extra={'continue_enrich':True,'handoff_id':uuid.uuid4().hex,'baseline_sha256':settings.get('workflow_baseline_sha256','')}
+                    extra={'continue_enrich':True,'handoff_id':uuid.uuid4().hex,'release_id':(__import__('scotus_cloud.releases',fromlist=['image_release']).image_release('/app') or {}).get('id',settings.get('workflow_baseline_sha256',''))}
                 finished=lease.call('finish',result=result,**extra)
                 if not isinstance(finished,dict) or not finished.get('next'):return
                 following=finished['next'];stage=following.get('stage','upload')
@@ -266,9 +272,18 @@ def run_sequence(stage,claimed,settings,cloud,lease,task=0):
                 claimed=lease.claim()
                 if not claimed or claimed.get('complete') or claimed.get('cancelled'):return
     except Exception as error:
+        from .research_errors import ResearchUnavailable
+        if isinstance(error,ResearchUnavailable) and stage=='enrich':
+            lease.call('research_defer',kind=error.kind,message=str(error),retry_after=error.retry_after,phase=error.phase)
+            return
         category = 'alignment_review' if isinstance(error, AlignmentReview) else 'worker_failed'
         if isinstance(error, ValueError) and not isinstance(error, AlignmentReview): category = 'invalid_inputs'
         if getattr(error, 'category', None):category=error.category
+        from .remote import DashboardTransportError
+        chain=error
+        while chain:
+            if isinstance(chain,(DashboardTransportError,TimeoutError,URLError)):category='transport';break
+            chain=chain.__cause__
         try:
             diagnostic=failure_report(error,claimed['job'],stage,task,category,settings,lease.data,
                                       claimed['job']['stages'].get('upload',{}).get('checkpoint',{}))

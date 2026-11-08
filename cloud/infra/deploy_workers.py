@@ -4,6 +4,11 @@ Private profile adds worker_keys and real pinned image digests to the example.
 Run without --apply to review resource names, hardware and permissions first.
 """
 
+try:
+    from managed_secrets import run_gcloud
+except ModuleNotFoundError:
+    from infra.managed_secrets import run_gcloud
+
 from registry_cleanup import refresh as refresh_registry
 import argparse
 import json
@@ -46,7 +51,7 @@ def main():
 
     def call(*command, optional=False):
         if command[:3]==('storage','buckets','add-iam-policy-binding') and not any(c.startswith('--condition=') for c in command):command=(*command,'--condition=None')
-        r = subprocess.run([args.gcloud, *command, '--project=' + p['project'], '--quiet'],
+        r = run_gcloud([args.gcloud, *command, '--project=' + p['project'], '--quiet'],
                            capture_output=True, text=True, timeout=180)
         if r.returncode and not optional: raise RuntimeError(r.stderr[-1200:])
         return r.returncode == 0
@@ -65,10 +70,12 @@ def main():
         config = {k: p[k] for k in ('project', 'region', 'bucket', 'dashboard_url', 'youtube_secret', 'chunk_seconds')}
         config['worker_key'] = p['worker_keys'][stage]
         if item['job']==p.get('delivery_job'):
-            config['upload_worker_key']=p['worker_keys']['upload'];config['workflow_baseline_sha256']=p.get('workflow_baseline_sha256','')
+            config['upload_worker_key']=p['worker_keys']['upload']
         if item['job']==p.get('research_job'):
-            config['enrich_worker_key']=p['worker_keys']['enrich'];config['workflow_baseline_sha256']=p.get('workflow_baseline_sha256','')
+            config['enrich_worker_key']=p['worker_keys']['enrich']
         config.update({k:p[k] for k in ('codex_secret','title_history_uri','youtube_channel_id','playlists','linkedin_secret','annotation_cards_enabled') if k in p and (k!='linkedin_secret' or stage=='enrich' or item['job']==p.get('research_job'))})
+        if stage=='enrich' or item['job']==p.get('research_job'):
+            config.update({k:p[k] for k in ('claude_secret','annotation_cards_backend','annotation_cards_profile') if k in p})
         with tempfile.NamedTemporaryFile(mode='w') as file:
             json.dump(config, file); file.flush()
             call('secrets', 'versions', 'add', secret, '--data-file=' + file.name)

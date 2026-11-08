@@ -1,0 +1,22 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "jgg",
+  "kind": "Case",
+  "title": "<i>Trump</i> v. <i>J. G. G.</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+      "name": "<i>Trump</i> v. <i>J. G. G.</i>",
+      "details": "2025 · per curiam"
+    },
+    "text": "Detainees challenging their removal under the Alien Enemies Act must bring their claims in habeas, in the district where they are confined.",
+    "source": "Summary based on the per curiam opinion (U.S. Reports)",
+    "highlight": [
+      "Trump versus JGG"
+    ]
+  }
+}

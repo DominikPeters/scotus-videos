@@ -1,0 +1,20 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "aep-academic",
+  "kind": "Excerpt",
+  "title": "<i>American Electric Power Co.</i> v. <i>Connecticut</i> (2011)",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Excerpt",
+    "label": "Opinion excerpt",
+    "heading": "<i>American Electric Power Co.</i> v. <i>Connecticut</i> (2011)",
+    "before": "",
+    "quote": "For it is an academic question whether, in the absence of the Clean Air Act and the EPA actions the Act authorizes, the plaintiffs could state a federal common-law claim for curtailment of greenhouse gas emissions because of their contribution to global warming.",
+    "after": "",
+    "source": "Opinion of the Court, 564 U.S. at 423 (U.S. Reports)",
+    "highlight": [
+      "held open under AEP"
+    ]
+  }
+}

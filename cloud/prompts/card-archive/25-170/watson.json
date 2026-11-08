@@ -1,0 +1,22 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "watson",
+  "kind": "Case",
+  "title": "<i>Watson</i> v. <i>Employers Liability Assurance Corp.</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+      "name": "<i>Watson</i> v. <i>Employers Liability Assurance Corp.</i>",
+      "details": "1954"
+    },
+    "text": "The Court held that Louisiana could let a woman injured there by an Illinois company’s product sue the company’s insurer directly.",
+    "source": "Summary based on the opinion of the Court (U.S. Reports)",
+    "highlight": [
+      "Watson versus Employer Liability"
+    ]
+  }
+}

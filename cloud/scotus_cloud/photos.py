@@ -1,16 +1,21 @@
 """Vision-selected square assets; retained originals and owner feedback."""
 import hashlib,io,json
 from pathlib import Path
+from urllib.error import HTTPError,URLError
 from PIL import Image,ImageOps,ImageDraw,ImageFont
 from .codex_auth import run_codex
 
 ROOT=Path(__file__).resolve().parents[1]
 
 def decoded(data):
-    Image.MAX_IMAGE_PIXELS=16000000
+    Image.MAX_IMAGE_PIXELS=40000000
     im=Image.open(io.BytesIO(data))
-    if im.width*im.height>16000000:raise ValueError('Image is too large')
-    im.load();return ImageOps.exif_transpose(im).convert('RGB')
+    if im.width*im.height>40000000:raise ValueError('Image exceeds the 40-megapixel portrait limit')
+    # JPEG decoding can reduce resolution before allocating the full pixel array.
+    # Retain the original bytes separately; crops need at most a 1024px output.
+    im.draft('RGB',(2048,2048))
+    im.load();im=ImageOps.exif_transpose(im);im.thumbnail((4096,4096))
+    return im.convert('RGB')
 
 def jpeg(im,edge=1024):
     im=im.copy();im.thumbnail((edge,edge));out=io.BytesIO();im.save(out,'JPEG',quality=90,optimize=True);return out.getvalue()
@@ -69,7 +74,7 @@ def synthetic_initials(text):
     return jpeg(im)
 
 def revise_photo(request,job,settings,cloud,dashboard,folder):
-    from .enrichment import fetch
+    from .enrichment import fetch, store_photo
     person=request['person'];item=job['review']['photos'][person]
     context=(dashboard,cloud,settings,job,person)
     if request['action']=='recrop':
@@ -82,6 +87,26 @@ def revise_photo(request,job,settings,cloud,dashboard,folder):
         result=square_asset(data,evidence,context,folder,previous=candidate.get('crop'),hint=request.get('hint',''),rejected_preview=rejected)
         if result['sha256']==candidate['sha256']:raise ValueError('Codex returned the rejected crop again; provide a more specific hint.')
         return [result]
+    hint=request.get('hint','').strip()
+    if request['action']=='different' and hint.startswith('https://') and not any(c.isspace() for c in hint):
+        # An explicit source supplied by the owner needs cropping, not rediscovery.
+        # fetch retains the existing public-network and bounded-transfer checks.
+        try:data=fetch(hint,4194304)
+        except HTTPError as error:raise ValueError('Supplied image URL returned HTTP '+str(error.code)) from None
+        except (URLError,TimeoutError):raise ValueError('Supplied image URL could not be downloaded; retry or upload the image file.') from None
+        evidence={'url':hint,'source_url':hint,'identity_source_url':'','kind':'photo','name':item['name'],
+                  'origin':'owner_url','private_note':'Portrait source explicitly supplied by the owner.'}
+        return [square_asset(data,evidence,context,folder,hint=hint)]
+    if request['action']=='different':
+        from .photo_discovery import archive_listing, saved_portrait
+        rejected=[c for c in item['candidates'] if c.get('rejected')]
+        excluded={c.get(key) for c in rejected for key in ('url','source_url')}
+        saved=saved_portrait(item['name'],archive_listing(fetch),fetch,excluded)
+        if saved:
+            data=fetch(saved['uri'],4194304)
+            if not any(hashlib.sha256(data).hexdigest() in (c.get('source_sha256'),c.get('sha256')) for c in rejected):
+                return [store_photo(cloud,settings['bucket'],job['id'],person,data,
+                    {**saved,'origin':'curated_cache','square_asset':True},folder,preserve=True)]
     schema={'type':'object','additionalProperties':False,'properties':{'candidates':{'type':'array','maxItems':3,'items':{'type':'object','additionalProperties':False,
         'properties':{k:{'type':'string'} for k in ('url','source_url','identity_source_url','kind','initials','private_note')},
         'required':['url','source_url','identity_source_url','kind','initials','private_note']}},'private_note':{'type':'string'}},'required':['candidates','private_note']}
@@ -93,7 +118,7 @@ def revise_photo(request,job,settings,cloud,dashboard,folder):
         model='gpt-6-luna',inputs={'input/request.json':json.dumps({k:request.get(k) for k in ('action','hint','candidate')}),'input/advocate.json':json.dumps({'name':item['name'],'identity_evidence':item.get('identity_evidence'),
             'rejected_candidates':[{k:c.get(k) for k in ('source_url','url','private_note','rejection')} for c in item['candidates'] if c.get('rejected')]}),'input/docket.txt':docket},timeout_seconds=240,
         tools=tools,tool_handler=access.invoke if tools else None)
-    candidates=[]
+    candidates=[];failures=[]
     for c in result['candidates']:
         if request['action']=='synthetic' and c['kind'] not in ('initials','logo'):continue
         if request['action']=='different' and c['kind'] not in ('photo','logo'):continue
@@ -104,6 +129,9 @@ def revise_photo(request,job,settings,cloud,dashboard,folder):
             choice=square_asset(data,evidence,context,folder,hint=request.get('hint',''))
             if request['action']=='different' and any(choice['source_sha256']==(old.get('source_sha256') or old.get('sha256')) for old in item['candidates'] if old.get('rejected')):continue
             candidates.append(choice)
-        except Exception:continue
-    if not candidates:raise ValueError('No usable replacement was found. Add a hint or choose another action.')
+        except Exception as error:
+            failures.append(str(error)[:250] if isinstance(error,ValueError) else type(error).__name__)
+    if not candidates:
+        detail='; '.join(dict.fromkeys(failures)) or result.get('private_note','')[:250]
+        raise ValueError('No usable replacement was found.'+(' '+detail if detail else ' Add a hint or choose another action.'))
     return candidates

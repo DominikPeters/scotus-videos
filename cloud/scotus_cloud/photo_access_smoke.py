@@ -1,6 +1,7 @@
 """Bounded cloud-only protocol/profile probe; no photo approval or job mutations."""
 import json,os
 from pathlib import Path
+from .secret_store import runtime_settings
 from .google import Google
 from .remote import Dashboard
 from .codex_auth import run_codex
@@ -9,7 +10,7 @@ from .photo_access import PhotoAccess
 def main():
  if not os.environ.get('CLOUD_RUN_JOB'):raise RuntimeError('Cloud-only profile probe')
  os.environ['SCOTUS_PRIVATE_CODEX_WORKER']='1'
- settings=json.loads(Path('/secrets/worker/config.json').read_text());cloud=Google(settings['project'])
+ settings=runtime_settings('/secrets/worker/config.json');cloud=Google(settings['project'])
  dashboard=Dashboard(settings['dashboard_url'],settings['worker_key'],'enrich');access=PhotoAccess(cloud,settings);observed=[]
  def invoke(name,args):
   value=access.invoke(name,args);observed.append(value);return value

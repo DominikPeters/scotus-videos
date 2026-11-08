@@ -4,6 +4,11 @@ Private runtime config is added directly to Secret Manager, outside build contex
 The expensive video-worker images are separate and are not launched here.
 """
 
+try:
+    from managed_secrets import run_gcloud
+except ModuleNotFoundError:
+    from infra.managed_secrets import run_gcloud
+
 from registry_cleanup import refresh as refresh_registry
 import argparse
 import json
@@ -32,7 +37,7 @@ def main():
         args.state.write_text(json.dumps(state, indent=2) + '\n')
 
     def call(*command, parse=False, optional=False):
-        result = subprocess.run([args.gcloud, *command, '--project=' + project, '--quiet',
+        result = run_gcloud([args.gcloud, *command, '--project=' + project, '--quiet',
                                  *(['--format=json'] if parse else [])], capture_output=True, text=True, timeout=180)
         if result.returncode:
             if optional: return None
@@ -51,6 +56,7 @@ def main():
         if call('storage', 'buckets', 'describe', 'gs://' + bucket, optional=True) is None:
             call('storage', 'buckets', 'create', 'gs://' + bucket, '--location=' + region,
                  '--uniform-bucket-level-access', '--public-access-prevention', '--soft-delete-duration=0s')
+        call('storage','buckets','update','gs://'+bucket,'--lifecycle-file='+str(Path(__file__).with_name('build-retention.json')))
         for role in ('roles/storage.objectAdmin', 'roles/storage.legacyBucketReader'):
             call('storage', 'buckets', 'add-iam-policy-binding', 'gs://' + bucket,
                  '--member=serviceAccount:' + builder, '--role=' + role)
@@ -79,12 +85,12 @@ def main():
             shutil.copy2(source / 'Dockerfile.control', context / 'Dockerfile')
             shutil.copy2(source / 'requirements-control.txt', context)
             (context / 'scotus_cloud').mkdir()
-            for file in ('__init__.py', 'control.py', 'google.py', 'model.py', 'remote.py', 'connections.py','notifications.py','webpush.py','clip_control.py','statistics_control.py','recovery_control.py','recovery_evidence.py','diagnostics.py','repair_policy.py','discovery.py','enrichment.py','case_descriptions.py','editorial.py','codex_auth.py','podcast.py','chunk_cleanup.py','spotify.py'):
+            for file in ('__init__.py', 'control.py', 'releases.py','attempts.py','maintenance.py','card_import.py', 'google.py','secret_store.py', 'model.py', 'remote.py', 'connections.py','notifications.py','webpush.py','clip_control.py','statistics_control.py','recovery_control.py','recovery_evidence.py','diagnostics.py','repair_policy.py','discovery.py','enrichment.py','case_descriptions.py','editorial.py','codex_auth.py','podcast.py','chunk_cleanup.py','spotify.py'):
                 shutil.copy2(source / 'scotus_cloud' / file, context / 'scotus_cloud' / file)
             size = sum(p.stat().st_size for p in context.rglob('*') if p.is_file())
-            if size > 192 * 1024: raise ValueError('Control build source exceeds metered-transfer cap')
+            if size > 384 * 1024: raise ValueError('Control build source exceeds metered-transfer cap')
             result = call('builds', 'submit', str(context), '--tag=' + image, '--region=' + region,
-                          '--timeout=300s', '--machine-type=e2-standard-2', '--async',
+                          '--timeout=300s', '--async',
                           '--service-account=projects/' + project + '/serviceAccounts/' + builder,
                           '--gcs-source-staging-dir=gs://' + bucket + '/source',
                           '--gcs-log-dir=gs://' + bucket + '/logs', parse=True)

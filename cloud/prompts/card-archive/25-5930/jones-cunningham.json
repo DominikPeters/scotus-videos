@@ -1,0 +1,22 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "jones-cunningham",
+  "kind": "Case",
+  "title": "<i>Jones</i> v. <i>Cunningham</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+      "name": "<i>Jones</i> v. <i>Cunningham</i>",
+      "details": "1963"
+    },
+    "text": "A prisoner released on parole is still “in custody” for habeas purposes, because parole conditions significantly confine and restrain his freedom.",
+    "source": "Summary based on the opinion of the Court (U.S. Reports)",
+    "highlight": [
+      "Jones against Cunningham"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "displacement",
+  "kind": "Glossary",
+  "title": "Displacement vs. preemption",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Glossary",
+    "heading": "Displacement vs. preemption",
+    "glossary": {
+      "term": "Federal common law",
+      "expansion": ""
+    },
+    "text": "Federal rules developed by courts for particular subjects of national concern.<br><br><mark>Displacement</mark> occurs when Congress legislates on a question those rules governed. Whether a statute also <mark>preempts state law</mark> is a separate inquiry.",
+    "source": "<i>American Electric Power Co.</i> v. <i>Connecticut</i> (2011) · syllabus",
+    "highlight": [
+      "enclave of federal common law"
+    ]
+  }
+}

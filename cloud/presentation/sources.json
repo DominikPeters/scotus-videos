@@ -1,11 +1,11 @@
 {
   "renderer/index.html": {
-    "sha256": "342074695d7c8ed8138d08bc9657aaebb2f1680099658badb6c66ee3eafd5c23",
-    "source": "mockup-quotes/index.html (approved production adaptation)"
+    "sha256": "16492bb765777a5b356e6e3316ee26ec80beb5cf04d97da62fb32a9dec8485f7",
+    "source": "Approved production adaptation; Claude subscribe reminder design and owner-requested single-gap timing (2026-11-02)"
   },
   "renderer/script.js": {
-    "sha256": "09afb6c49ccbc97297568ae7008d202141daadfe7f575e2780978198b8061074",
-    "source": "mockup-quotes/script.js (approved production adaptation)"
+    "sha256": "b49b28829766dcb7e58d1e55d72504bf09329a7cd5aa33675d9c3023fd2bb155",
+    "source": "Approved production adaptation; Claude subscribe reminder design and owner-requested single-gap timing (2026-11-02)"
   },
   "reference/preprocess.py": {
     "sha256": "0fe6ecc546b3830008c6a684d47c6b9409c794c3caf7832eaa30a5ae5af7b997",

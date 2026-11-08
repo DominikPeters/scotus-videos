@@ -63,13 +63,13 @@ function reconcile_recoveries(array &$state): void {
             unset($question,$rec['lease'],$rec['dispatch_token'],$rec['expires']);
             recovery_log($state,$id,'validation',$rec['resolution']);
             if(!empty($rec['reusable_release'])){
-                $candidate=$rec['reusable_release'];$baseline=$candidate['baseline_sha256'];
+                $candidate=$rec['reusable_release'];$baseline=$candidate['release_id']??$candidate['baseline_sha256'];
                 foreach($candidate['stages'] ?? [$rec['stage']] as $affected)$state['reusable_repairs'][$baseline][$affected]=[...$candidate,'validated_job'=>$rec['job'],'validated_at'=>$rec['finished_at']];
                 recovery_log($state,$id,'validation','The tested, input-independent fix is now a default for future '.$rec['stage'].' phases on this source version.');
             }
             event($state,$rec['job'],ucfirst($rec['stage']).' recovery resolved');continue;
         }
-        if (in_array($rec['status'],['starting','running'],true) && ($rec['expires'] ?? 0) <= time()) {
+        if (empty($rec['_launch']) && in_array($rec['status'],['starting','running'],true) && ($rec['expires'] ?? 0) <= time()) {
             $rec['status'] = $rec['turns'] < ($rec['authorized_turn_limit'] ?? 2) ? 'queued' : 'unresolved';
             unset($rec['lease'],$rec['dispatch_token']);
             recovery_log($state,$id,'system','The repair worker stopped reporting progress. Saved conversation history will be reused.');
@@ -165,19 +165,21 @@ function recovery_operation(array &$state, array $input, string $role): mixed {
     $op=$input['op']; $id=(string)($input['recovery'] ?? '');
     if ($role==='dispatcher' && $op==='recoveries') { reconcile_recoveries($state); return (object)($state['recoveries'] ?? []); }
     if ($role==='dispatcher' && $op==='recovery_dispatch') {
-        if(photo_active($state))return null;
-        foreach($state['jobs'] as $activeJob)if(in_array($activeJob['stages']['enrich']['status'] ?? '',['starting','running'],true)&&$activeJob['status']!=='cancelled')return null;
-        if(($state['auth_leases']['codex']['expires'] ?? 0)>time())return null;
+        if(!empty($state['deployment_hold']))return null;
         reconcile_recoveries($state); $rec =& $state['recoveries'][$id];
+        if(($state['jobs'][$rec['job']]['maintenance']['status']??'')==='waiting'&&($state['jobs'][$rec['job']]['maintenance']['retry_after']??0)>time())return null;
+        if(codex_work_reserved($state))return null;
         if (!$rec || $rec['status']!=='queued' || !work_enabled($state,$state['jobs'][$rec['job']])) return null;
         if ($rec['turns']>=min(8,$rec['authorized_turn_limit'] ?? 2)) {
             $rec['status']='unresolved';recovery_attention_notifications($state); return null;
         }
-        $key=$id.'-turn-'.($rec['turns']+1);
+        if(($rec['retry_after']??0)>time())return null;
+        $key=$id.'-launch-'.(($rec['launches']??0)+1);
         if (!recovery_budget($state,$key,(float)$input['reserve_usd'],(int)$input['seconds'])) {
             $rec['status']='waiting_for_resource';recovery_attention_notifications($state); recovery_log($state,$id,'system','The $1 daily repair reservation limit has been reached.'); return null;
         }
-        $rec['status']='starting'; $rec['dispatch_token']=bin2hex(random_bytes(24)); $rec['expires']=time()+900; $rec['turns']++;
+        $rec['launches']=($rec['launches']??0)+1;
+        $rec['status']='starting'; $rec['dispatch_token']=bin2hex(random_bytes(24)); $rec['expires']=time()+900;unset($rec['turn_started']);
         return $rec;
     }
     if($role==='dispatcher'&&$op==='recovery_tests_ready'){
@@ -206,11 +208,21 @@ function recovery_operation(array &$state, array $input, string $role): mixed {
         if (!$rec || $rec['status']!=='starting' || $rec['expires']<=time() ||
             !hash_equals($rec['dispatch_token'] ?? '',(string)($input['dispatch_token'] ?? ''))) return null;
         $rec['lease']=bin2hex(random_bytes(24)); $rec['status']='running'; $rec['expires']=time()+180;$rec['claim_id']=$identity;
-        recovery_log($state,$id,'system','Codex repair turn '.$rec['turns'].' started.');
+        recovery_log($state,$id,'system','Repair worker started; reasoning has not begun.');
         return ['recovery'=>$rec,'job'=>public_state(['jobs'=>[$rec['job']=>$state['jobs'][$rec['job']]]])['jobs'][$rec['job']]];
     }
     if (!in_array($role,['dispatcher','recovery'],true)) throw new RuntimeException('Recovery access denied');
     $rec=recovery_lease($state,$input); $saved =& $state['recoveries'][$id];
+    if($op==='recovery_turn_begin'){
+        if(empty($saved['turn_started'])){$saved['turns']++;$saved['turn_started']=true;recovery_log($state,$id,'system','Repair reasoning turn '.$saved['turns'].' started.');}
+        return ['turns'=>$saved['turns']];
+    }
+    if($op==='recovery_defer'){
+        $saved['administrative_retries']=($saved['administrative_retries']??0)+1;
+        $saved['status']=$saved['administrative_retries']>=3?'waiting_for_resource':'queued';$saved['retry_after']=time()+60;
+        recovery_log($state,$id,'system','Repair worker deferred before reasoning; saved work retained.');
+        unset($saved['lease'],$saved['dispatch_token'],$saved['expires']);return true;
+    }
     if ($op==='recovery_check') { $saved['expires']=time()+180; return ['status'=>$saved['status']]; }
     if($op==='recovery_wait'){
         $key=(string)$input['action_id'];
@@ -281,17 +293,38 @@ function recovery_operation(array &$state, array $input, string $role): mixed {
         $job =& $state['jobs'][$rec['job']];
         if ($job['status']!=='failed') throw new RuntimeException('Recording changed');
         if ($rec['error']==='upload_uncertain') throw new RuntimeException('Upload reconciliation is required');
-        $restart=(string)($input['restart_from'] ?? $rec['stage']);$names=array_keys($job['stages']);
+        $restart=(string)($input['restart_from'] ?? $rec['stage']);$names=workflow_stage_order();
         $from=array_search($restart,$names,true);$failed=array_search($rec['stage'],$names,true);
-        if($from===false||$from>$failed)throw new RuntimeException('Invalid upstream restart');
-        if($restart!==$rec['stage']){
-            if(!empty($job['stages']['upload']['checkpoint']))throw new RuntimeException('Existing uploads cannot be rewound');
+        if($from===false||$failed===false||$from>$failed)throw new RuntimeException('Invalid upstream restart');
+        if($restart==='assemble'&&removed_render_chunks($job))throw new RuntimeException('Rendered chunks were removed. Retry from render with a render resource reservation before assembly.');
+        $restoreChunks=!empty($input['restore_render_chunks']);
+        if($restoreChunks&&($restart!=='render'||!removed_render_chunks($job)||in_array('render',$input['release_stages'] ?? [],true)))throw new RuntimeException('Invalid chunk restoration');
+        if($restart!==$rec['stage']||in_array($restart,['prepare','align'],true)){
+            $renderOnly=($job['render_revision']['status']??'')==='queued'&&in_array($restart,['plan','render','assemble'],true)&&in_array($rec['stage'],['plan','render','assemble'],true);
+            if(!empty($job['stages']['upload']['checkpoint'])&&!$renderOnly)throw new RuntimeException('Existing uploads cannot be rewound');
             if($from<=array_search('enrich',$names,true)&&!empty($job['stages']['enrich']['result']['enrichment_uri']))$job['editorial_cache_uri']=$job['stages']['enrich']['result']['enrichment_uri'];
+            $missing=removed_render_chunks($job);
+            if($from<=array_search('assemble',$names,true)&&($job['chunk_cleanup']['expires'] ?? 0)>time())throw new RuntimeException('Wait for chunk cleanup before restarting upstream work');
             foreach(array_slice($names,$from) as $name){
+                if($renderOnly&&$name==='upload')continue;
                 $old=$job['stages'][$name];$job['stages'][$name]=['status'=>'pending','attempt'=>$old['attempt'] ?? 0,'progress'=>0];
+                $previous=$old['recovery_id'] ?? '';
+                if($previous!==$id&&isset($state['recoveries'][$previous])&&!in_array($state['recoveries'][$previous]['status'],['repaired','cancelled'],true)){
+                    $obsolete=&$state['recoveries'][$previous];$obsolete['status']='cancelled';
+                    unset($obsolete['lease'],$obsolete['dispatch_token'],$obsolete['expires']);
+                    foreach($obsolete['questions'] as &$question)if($question['status']==='pending')$question['status']='dismissed';
+                    unset($question,$obsolete);
+                    recovery_log($state,$previous,'system','Superseded by upstream restart from '.$restart.'; dependent work will resume through normal dispatch.');
+                }
+                if($name==='render'&&$restoreChunks){
+                    $job['stages'][$name]['tasks']=$old['tasks'];
+                    foreach($missing as $index)$job['stages'][$name]['tasks'][$index]=['status'=>'pending','progress'=>0];
+                }
             }
+            if($from<=array_search('render',$names,true))unset($job['chunk_cleanup']);
+            if($from<=array_search('enrich',$names,true))unset($job['cards_approved_revision']);
             $job['stages'][$rec['stage']]['recovery_id']=$id;
-            recovery_log($state,$id,'repair','Upstream restart from '.$restart.'; dependent artifacts invalidated. Existing photo approvals and title selection retained.');
+            recovery_log($state,$id,'repair','Restart from '.$restart.'; dependent artifacts invalidated. Existing photo approvals and title selection retained.');
         }
         $release=$input['release'] ?? null;
         if ($release) {

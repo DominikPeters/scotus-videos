@@ -1,0 +1,20 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "colorado-rule-21",
+  "kind": "Excerpt",
+  "title": "Colorado Supreme Court decision (2025)",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Excerpt",
+    "heading": "Colorado Supreme Court decision (2025)",
+    "before": "The exercise of our original jurisdiction under C.A.R. 21 lies within our sole discretion. …",
+    "quote": "An original proceeding under C.A.R. 21 is an extraordinary remedy that is limited in its purpose and availability.",
+    "after": "",
+    "source": "Colorado Supreme Court opinion ¶ 23, Pet. App. 7a · May 12, 2025",
+    "highlight": [
+      "original writ or just an interlocutory appeal"
+    ],
+    "label": "Opinion excerpt"
+  }
+}

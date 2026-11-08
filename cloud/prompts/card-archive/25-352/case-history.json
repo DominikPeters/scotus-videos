@@ -1,0 +1,40 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "case-history",
+  "kind": "Timeline",
+  "title": "Younge’s case",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Timeline",
+    "heading": "Younge’s case",
+    "timeline": {
+      "events": [
+        {
+          "date": "July 15, 2019",
+          "label": "Younge is fired"
+        },
+        {
+          "date": "2020",
+          "label": "Younge sues under Title VII"
+        },
+        {
+          "date": "Mar 24, 2021",
+          "label": "DA’s Office answers, without the personal-staff defense"
+        },
+        {
+          "date": "Mar 14, 2022",
+          "label": "DA’s Office first mentions the exemption, at a hearing"
+        },
+        {
+          "date": "May 16, 2022",
+          "label": "Moves for summary judgment on it"
+        }
+      ]
+    },
+    "source": "Petition for certiorari, pp. 4–7 (citing the record)",
+    "highlight": [
+      "two years litigating this case"
+    ]
+  }
+}

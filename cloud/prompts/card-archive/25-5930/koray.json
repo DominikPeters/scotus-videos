@@ -1,0 +1,22 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "koray",
+  "kind": "Case",
+  "title": "<i>Reno</i> v. <i>Koray</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+      "name": "<i>Reno</i> v. <i>Koray</i>",
+      "details": "1995"
+    },
+    "text": "Time a defendant spent at a community treatment center while released on bail did not count as “official detention”, so it was not credited toward his sentence.",
+    "source": "Summary based on the opinion of the Court (U.S. Reports)",
+    "highlight": [
+      "the Koray case"
+    ]
+  }
+}

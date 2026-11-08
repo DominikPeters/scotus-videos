@@ -1,4 +1,10 @@
 """Deploy manually selected TikTok clip transfers; starts no transfers."""
+
+try:
+    from managed_secrets import run_gcloud
+except ModuleNotFoundError:
+    from infra.managed_secrets import run_gcloud
+from infra.registry_cleanup import refresh as refresh_registry
 import argparse, json, re, subprocess
 
 
@@ -22,10 +28,11 @@ def main():
             raise ValueError('Use a pinned image in this project registry')
 
     def call(*parts, data=None):
-        result = subprocess.run([args.gcloud, *parts, '--project='+project, '--quiet', '--format=json'],
+        result = run_gcloud([args.gcloud, *parts, '--project='+project, '--quiet', '--format=json'],
                                 input=data, capture_output=True, check=True)
         return json.loads(result.stdout) if result.stdout.strip() else None
 
+    refresh_registry(project,args.region,args.gcloud,[args.worker_image,args.controller_image],apply=True)
     control = call('run', 'services', 'describe', 'scotus-video-control', '--region='+args.region)
     signer = control['spec']['template']['spec']['serviceAccountName']
     uploader = call('run', 'jobs', 'describe', 'scotus-video-upload', '--region='+args.region)
@@ -37,12 +44,13 @@ def main():
     call('run', 'jobs', 'add-iam-policy-binding', 'scotus-video-tiktok', '--region='+args.region,
          '--member=serviceAccount:'+signer, '--role=roles/run.jobsExecutorWithOverrides')
     # `--format=json` formats gcloud's response wrapper, not the secret payload.
-    raw = subprocess.run([args.gcloud, 'secrets', 'versions', 'access', 'latest',
+    raw = run_gcloud([args.gcloud, 'secrets', 'versions', 'access', 'latest',
                           '--secret=scotus-video-control-config', '--project='+project],
                          capture_output=True, check=True).stdout
     config = controller_configuration(raw)
     call('secrets', 'versions', 'add', 'scotus-video-control-config', '--data-file=-', data=json.dumps(config).encode())
     call('run', 'services', 'update', 'scotus-video-control', '--region='+args.region, '--image='+args.controller_image)
+    refresh_registry(project,args.region,args.gcloud,apply=True)
     print('TikTok worker and dispatch configured. No transfer started.')
 
 

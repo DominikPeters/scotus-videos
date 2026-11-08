@@ -10,4 +10,11 @@ statistics_operation($s,['op'=>'stats_update','token'=>$claim['token'],'message'
 if(file_get_contents($statisticsPublicDir.'/flattened_records.json')!==$raw)throw new RuntimeException('Published content differs');
 $public=public_state($s);if(isset($public['statistics']['token'])||isset($public['statistics']['data_uri']))throw new RuntimeException('Private fields leaked');
 if(statistics_operation($s,['op'=>'stats_dispatch','index_revision'=>'a'],'dispatcher')!==null)throw new RuntimeException('Unnecessary repeat run');
+$s['statistics']['requested']=true;unset($s['statistics']['retry_after']);
+$claim=statistics_operation($s,['op'=>'stats_dispatch','index_revision'=>'a'],'dispatcher');
+statistics_operation($s,['op'=>'stats_start','token'=>$claim['token']],'stats');
+$before=time();
+statistics_operation($s,['op'=>'stats_update','token'=>$claim['token'],'message'=>'Statistics published; automatic retry queued','publish'=>['gzip_base64'=>base64_encode(gzencode($raw)),'sha256'=>hash('sha256',$raw),'count'=>1],'data_uri'=>'gs://private/stats.gz','index_revision'=>'a','questions'=>[],'technical_errors'=>['2026/25-1'=>['status'=>'retry_pending','notes'=>'HTTP 408']],'pending'=>1,'retry_after_seconds'=>300,'finish'=>true],'stats');
+if(!empty($s['statistics']['questions'])||count($s['statistics']['technical_errors'])!==1)throw new RuntimeException('Technical failure became an owner question');
+if($s['statistics']['retry_after']<$before+300||statistics_operation($s,['op'=>'stats_dispatch','index_revision'=>'a'],'dispatcher')!==null)throw new RuntimeException('Retry backoff ignored');
 echo "Statistics lease, atomic publication and private-field checks passed\n";

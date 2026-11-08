@@ -1,0 +1,17 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "qp-again",
+  "kind": "Question presented",
+  "title": "granted March 30, 2026",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Question presented",
+    "heading": "granted March 30, 2026",
+    "text": "Where a defendant has filed an answer without pleading an affirmative defense, may the defendant nonetheless assert that affirmative defense as the basis for a summary judgment motion, <mark>without amending or seeking to amend its answer</mark> to plead that affirmative defense, and may a defendant do so even if an amendment adding that affirmative defense would be barred by Rule 16(b)(4)?",
+    "source": "Question presented · Supreme Court docket",
+    "highlight": [
+      "the actual question on which review was granted"
+    ]
+  }
+}

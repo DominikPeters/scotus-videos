@@ -1,0 +1,22 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "pork-producers",
+  "kind": "Case",
+  "title": "<i>National Pork Producers Council</i> v. <i>Ross</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+      "name": "<i>National Pork Producers Council</i> v. <i>Ross</i>",
+      "details": "2023 · decided 5–4"
+    },
+    "text": "The Court held that California’s ban on selling pork from pigs confined in ways it prohibits does not violate the dormant Commerce Clause, rejecting an “almost per se” rule against laws with extraterritorial effects.",
+    "source": "Summary based on Oyez (oyez.org)",
+    "highlight": [
+      "National Pork Producers"
+    ]
+  }
+}

@@ -18,11 +18,12 @@ header('X-Content-Type-Options: nosniff');
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="apple-touch-icon" href="icon-180.png?v=2">
   <link rel="icon" href="icon-192.png">
-  <link rel="stylesheet" href="app.css?v=7">
-  <script type="module" src="main.js?v=7"></script>
+  <link rel="stylesheet" href="app.css?v=8">
+  <script type="module" src="main.js?v=8"></script>
 </head>
 <body data-route="loading">
 <header id="topbar" class="topbar"></header>
+<div id="pull" class="pull" role="status" hidden></div>
 <main id="app">
   <section id="signin"></section>
   <nav id="list" aria-label="Recordings"></nav>

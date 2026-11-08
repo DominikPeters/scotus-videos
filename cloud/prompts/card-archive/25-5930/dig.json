@@ -1,0 +1,21 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "dig",
+  "kind": "Glossary",
+  "title": "Supreme Court practice",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Glossary",
+    "heading": "Supreme Court practice",
+    "glossary": {
+      "term": "DIG",
+      "expansion": "“dismissed as improvidently granted”"
+    },
+    "text": "The Court dismisses a case it agreed to hear, without deciding the question presented. The government suggests this as an alternative here.",
+    "source": "Brief for the United States, p. 15",
+    "highlight": [
+      "DIG the case"
+    ]
+  }
+}

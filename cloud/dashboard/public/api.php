@@ -37,7 +37,7 @@ try {
     require $privateDir . '/connections.php';
     $action = $_GET['action'] ?? '';
     $method = $_SERVER['REQUEST_METHOD'];
-    $limit=$action==='worker'?2097152:262144;
+    $limit=in_array($action,['worker','card_import'],true)?2097152:262144;
     $raw = file_get_contents('php://input', false, null, 0, $limit+1);
     if (strlen($raw) > $limit) reply('Request too large', 413);
     $input = $raw === '' ? [] : json_decode($raw, true, 512, JSON_THROW_ON_ERROR);
@@ -91,6 +91,23 @@ try {
         if (empty($_SESSION['signed_in'])) reply('Sign in required', 401);
         session_write_close();
         reply(transaction('state', function (&$state) { if (!$state) $state = initial_state(); reconcile_expired($state); return public_state($state); }));
+    }
+    if ($action === 'asset_image' && $method === 'GET') {
+        if (empty($_SESSION['signed_in'])) reply('Sign in required', 401);
+        session_write_close();
+        require_once $privateDir.'/previews.php';
+        $previewInput=[];
+        foreach(['job','kind','person','candidate','variant'] as $key)if(isset($_GET[$key])){
+            if(!is_string($_GET[$key])||strlen($_GET[$key])>200)throw new InvalidArgumentException('Invalid preview request');
+            $previewInput[$key]=$_GET[$key];
+        }
+        $uri=preview_uri($privateDir,$previewInput);$etag='"'.hash('sha256',$uri.':'.($previewInput['kind']??'')).'"';
+        if(($_SERVER['HTTP_IF_NONE_MATCH']??'')===$etag){header_remove('Content-Type');header('Cache-Control: private, max-age=0, must-revalidate');header('ETag: '.$etag);header('Vary: Cookie');http_response_code(304);exit;}
+        $value=preview_value($privateDir,$config,$uri,$previewInput['kind']??'');
+        if(!in_array($value['mime']??'',['image/png','image/jpeg','image/webp'],true))throw new RuntimeException('Invalid preview type');
+        $image=base64_decode($value['data'],true);if($image===false)throw new RuntimeException('Invalid preview data');
+        header('Cache-Control: private, max-age=0, must-revalidate');header('ETag: '.$etag);header('Vary: Cookie');
+        header('Content-Type: '.$value['mime']);header('Content-Length: '.strlen($image));echo $image;exit;
     }
     if ($method !== 'POST') reply('Method not allowed', 405);
     origin_check($config); csrf_check();
@@ -168,7 +185,7 @@ try {
             if(($input['command'] ?? '')==='retry')command($state,['command'=>'start','job'=>$input['job']]);
             return $result;
         });
-        if(in_array($input['command'] ?? '',['resume','retry','start','stats_check','stats_answer'],true))try{cloud_request($config,'dispatch');}catch(Throwable $error){}
+        if(in_array($input['command'] ?? '',['resume','retry','start','research_resume','stats_check','stats_answer','upload_corrected'],true))try{cloud_request($config,'dispatch');}catch(Throwable $error){}
         reply($result);
     }
     if($action==='review'){
@@ -183,6 +200,7 @@ try {
         reply($result);
     }
     if($action==='clip_download')reply(cloud_request($config,'clip_download',['job'=>$input['job'],'clip'=>$input['clip']]));
+    if($action==='video_download')reply(cloud_request($config,'video_download',['job'=>$input['job']]));
     if($action==='spotify'){
         $result=transaction('state',fn(&$state)=>spotify_command($state,$input));
         try{cloud_request($config,'spotify_dispatch',['job'=>$input['job']]);}catch(Throwable $error){}
@@ -196,28 +214,13 @@ try {
     if($action==='push_subscribe'){$result=transaction('state',fn(&$state)=>push_subscribe($state,$input));kick_controller();reply($result);}
     if($action==='push_unsubscribe')reply(transaction('state',fn(&$state)=>push_unsubscribe($state,$input)));
     if($action==='photo_add')reply(cloud_request($config,'photo_add',$input));
+    if($action==='card_import'){ $result=cloud_request($config,'card_import',$input);kick_controller();reply($result); }
+    if($action==='card_import_cancel'){ $result=cloud_request($config,'card_import_cancel',$input);kick_controller();reply($result); }
+    if($action==='refresh_sources'){ $result=cloud_request($config,'refresh_sources',$input);kick_controller();reply($result); }
     if($action==='asset_data') {
-        $uri=transaction('state',function(&$state)use($input){
-            $job=$state['jobs'][$input['job'] ?? ''] ?? null;
-            if(!$job)throw new InvalidArgumentException('Unknown recording');
-            $kind=$input['kind'] ?? '';$uri=null;
-            if($kind==='photo'){
-                $choices=$job['review']['photos'][$input['person'] ?? '']['candidates'] ?? [];
-                foreach($choices as $choice)if($choice['id']===($input['candidate'] ?? '')){
-                    $uri=($input['variant'] ?? '')==='source'?($choice['source_preview_uri'] ?? $choice['preview_uri'] ?? null):($choice['preview_uri'] ?? null);break;
-                }
-            }elseif($kind==='frame')$uri=$job['stages']['render']['tasks'][0]['result']['preview_uri'] ?? null;
-            elseif($kind==='card'){foreach($job['review']['cards'] ?? [] as $card)if($card['id']===($input['candidate'] ?? ''))$uri=($input['variant'] ?? '')==='frame'?$card['frame_uri']:$card['card_uri'];}
-            elseif($kind==='thumbnail')$uri=$job['stages']['plan']['result']['thumbnail_preview_uri'] ?? null;
-            if(!$uri)throw new InvalidArgumentException('Unknown preview');return $uri;
-        });
-        $cacheDir=$privateDir.'/preview-cache';if(!is_dir($cacheDir))mkdir($cacheDir,0700,true);
-        $cache=$cacheDir.'/'.hash('sha256',$uri).'.json';
-        if(is_file($cache))reply(json_decode(file_get_contents($cache),true,512,JSON_THROW_ON_ERROR));
-        $value=cloud_request($config,'asset_data',['uri'=>$uri,'kind'=>$input['kind']]);
-        $temporary=tempnam($cacheDir,'preview-');chmod($temporary,0600);
-        file_put_contents($temporary,json_encode($value,JSON_THROW_ON_ERROR));rename($temporary,$cache);
-        reply($value);
+        require_once $privateDir.'/previews.php';
+        $uri=preview_uri($privateDir,$input);
+        reply(preview_value($privateDir,$config,$uri,$input['kind']??''));
     }
     if ($action === 'recovery_answer') {
         $result=transaction('state', fn(&$state)=>recovery_answer($state,$input));
@@ -245,6 +248,7 @@ try {
         reply(cloud_request($config, $action, $action === 'github_install' ? [] : $input));
     }
     reply('Unknown action', 404);
-} catch (InvalidArgumentException | JsonException $error) { reply('Invalid request', 400); }
+} catch (WorkflowConflict $error) { reply($error->getMessage(),409); }
+catch (InvalidArgumentException | JsonException $error) { reply('Invalid request', 400); }
 catch (DashboardAuthDenied $error) { reply($error->getMessage(), 403); }
 catch (Throwable $error) { reply('Connection temporarily unavailable; please try again', $action==='worker'?409:503); }

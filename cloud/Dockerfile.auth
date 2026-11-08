@@ -7,5 +7,5 @@ COPY requirements-worker.txt /app/
 RUN pip install --no-cache-dir -r requirements-worker.txt \
     && npm install --global --no-audit --no-fund @openai/codex@0.162.1 \
     && codex --version
-COPY scotus_cloud/__init__.py scotus_cloud/google.py scotus_cloud/remote.py scotus_cloud/codex_login.py /app/scotus_cloud/
+COPY scotus_cloud/__init__.py scotus_cloud/google.py scotus_cloud/secret_store.py scotus_cloud/remote.py scotus_cloud/codex_login.py /app/scotus_cloud/
 CMD ["python", "-m", "scotus_cloud.codex_login"]

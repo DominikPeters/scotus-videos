@@ -1,0 +1,17 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "staff-statute",
+  "kind": "Statute",
+  "title": "42 U.S.C. § 2000e(f) — who is an “employee”",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Statute",
+    "heading": "42 U.S.C. § 2000e(f) — who is an “employee”",
+    "text": "The term “employee” means an individual employed by an employer, except that the term “employee” shall not include any person elected to public office … or <mark>any person chosen by such officer to be on such officer's personal staff</mark>, or an appointee on the policy making level or an immediate adviser with respect to the exercise of the constitutional or legal powers of the office.",
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+      "2000e(f)"
+    ]
+  }
+}

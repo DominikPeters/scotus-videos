@@ -1,0 +1,82 @@
+{
+  "checked_at_utc": "2026-11-03T20:20:41.504450+00:00",
+  "project": "possible-cycle-237715",
+  "report_url": "https://console.cloud.google.com/billing/0184F3-BBB44E-806D45/reports?project=possible-cycle-237715",
+  "period": "November 1–3, 2026; current-month report",
+  "posted_net_cost_gbp_displayed": 0.03,
+  "tax_included": false,
+  "posted_cloud_run_usage_gbp_displayed": 0.54,
+  "posted_cloud_run_savings_gbp_displayed": -0.54,
+  "live_view": {
+    "includes_credits": false,
+    "gross_actual_plus_live_gbp_displayed": 1.3,
+    "new_live_cloud_run_gbp_rounded_sum": 0.73,
+    "cloud_run_cpu_jobs": {
+      "actual": 0.4,
+      "live": 0.57
+    },
+    "cloud_run_memory_jobs": {
+      "actual": 0.08,
+      "live": 0.12
+    },
+    "cloud_run_cpu_services": {
+      "actual": 0.06,
+      "live": 0.04
+    },
+    "disk_capacity_actual": 0.03,
+    "other_skus_displayed_as_zero": [
+      "Build time e2-standard-2",
+      "Secret access operations",
+      "Secret version replica storage",
+      "Artifact Registry Storage",
+      "Cloud Storage storage and operations",
+      "Cloud Scheduler Jobs",
+      "Log Storage cost"
+    ]
+  },
+  "builds": {
+    "count": 20,
+    "elapsed_minutes": 38.53,
+    "machine_overrides": [],
+    "private_pools": false,
+    "all_disk_sizes_at_most_100GB": true,
+    "free_allowance_minutes": 2500
+  },
+  "resources": {
+    "vms": [],
+    "disks": [],
+    "secret_groups": 3,
+    "active_versions_per_group": 1,
+    "cloud_run_services_min_instances": 0,
+    "schedules": [
+      {
+        "name": "projects/possible-cycle-237715/locations/us-central1/jobs/scotus-video-tick",
+        "schedule": "*/10 * * * *",
+        "state": "ENABLED"
+      }
+    ],
+    "buckets": [
+      {
+        "bucket": "possible-cycle-237715-scotus-video-media",
+        "objects": 1675,
+        "bytes": 4490906345,
+        "GiB": 4.182,
+        "complete": true
+      },
+      {
+        "bucket": "possible-cycle-237715-scotus-control-build",
+        "objects": 356,
+        "bytes": 22368229,
+        "GiB": 0.021,
+        "complete": true
+      }
+    ]
+  },
+  "caveats": [
+    "Billing is delayed; this is not a final November invoice.",
+    "Live costs exclude credits and savings and may change.",
+    "All displayed pound amounts are rounded by the console.",
+    "The £9.13 console forecast is a forecast, not an incurred charge; it is too early to assess a post-cleanup month from that forecast."
+  ],
+  "local_receipts_directory": "/private/tmp/scotus-billing-nov3"
+}

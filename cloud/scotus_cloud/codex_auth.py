@@ -42,11 +42,11 @@ def _validated_inputs(inputs):
 
 
 def run_codex(dashboard, cloud, secret_name, prompt, schema, model=None, *, inputs=None,
-              timeout_seconds=900, images=None, tools=None, tool_handler=None, subagent_model=None):
+              timeout_seconds=900, images=None, tools=None, tool_handler=None, subagent_model=None, references=None):
     if os.environ.get('SCOTUS_PRIVATE_CODEX_WORKER') != '1':
         raise RuntimeError('Enable only in the dedicated private Codex worker')
-    if type(timeout_seconds) is not int or not 1 <= timeout_seconds <= 900:
-        raise ValueError('Codex turns need a bounded timeout of at most 900 seconds')
+    if type(timeout_seconds) is not int or not 1 <= timeout_seconds <= 1200:
+        raise ValueError('Codex turns need a bounded timeout of at most 1200 seconds')
     files = _validated_inputs(inputs)
     if bool(tools)!=bool(tool_handler) or (tools and images):
         raise ValueError('Supply paired private tool definitions/handler; image turns use the CLI')
@@ -68,6 +68,9 @@ def run_codex(dashboard, cloud, secret_name, prompt, schema, model=None, *, inpu
         with tempfile.TemporaryDirectory(prefix='private-codex-') as folder:
             root = Path(folder); home, data = root / 'auth', root / 'data'
             home.mkdir(mode=0o700); data.mkdir(mode=0o700)
+            if references is not None:
+                from .card_library import mount_references
+                mount_references(data, references)
             original = cloud.secret(secret_name)
             validate_secret('codex', json.loads(original))
             auth = home / 'auth.json'; auth.write_bytes(original); auth.chmod(0o600)

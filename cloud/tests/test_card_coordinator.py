@@ -69,3 +69,32 @@ class CoordinatorTests(unittest.IsolatedAsyncioTestCase):
     async def test_repeated_invalid_proposals_are_bounded(self):
         with self.assertRaisesRegex(ValueError, 'needs preview'):
             await self.run_session(3)
+
+class DeadlineSteeringTests(unittest.IsolatedAsyncioTestCase):
+    async def test_wrap_up_steers_the_active_turn_once_without_starting_another(self):
+        import asyncio
+        process=Mock(returncode=0)
+        rpc=Mock();ready=asyncio.Event();warned=asyncio.Event()
+        async def request(method,params):
+            if method=='thread/start':return {'thread':{'id':'root'}}
+            if method=='turn/start':
+                ready.set();return {'turn':{'id':'active'}}
+            return {}
+        async def send(message):
+            if message.get('method')=='turn/steer':warned.set()
+        messages=iter([
+            {'method':'item/completed','params':{'threadId':'root','item':{'type':'agentMessage','text':'{"saved":true}'}}},
+            {'method':'turn/completed','params':{'threadId':'root','turn':{'status':'completed'}}},
+        ])
+        async def receive(timeout):
+            await warned.wait();return next(messages)
+        async def advance_warning(seconds):
+            self.assertEqual(seconds,1000);await ready.wait()
+        rpc.request=AsyncMock(side_effect=request);rpc.send=AsyncMock(side_effect=send);rpc.receive=AsyncMock(side_effect=receive)
+        with patch('asyncio.create_subprocess_exec',AsyncMock(return_value=process)),patch('scotus_cloud.recovery_worker.RPC',return_value=rpc),patch('scotus_cloud.codex_tools.asyncio.sleep',side_effect=advance_warning):
+            result=await run_with_tools('/tmp',{},'prompt',{'type':'object'},None,[],lambda n,a:{},1200)
+        self.assertEqual(result,{'saved':True})
+        steering=[c.args[0] for c in rpc.send.call_args_list if c.args[0].get('method')=='turn/steer']
+        self.assertEqual(len(steering),1);self.assertEqual(steering[0]['params']['expectedTurnId'],'active')
+        self.assertEqual(steering[0]['params']['threadId'],'root')
+        self.assertEqual(sum(c.args[0]=='turn/start' for c in rpc.request.call_args_list),1)

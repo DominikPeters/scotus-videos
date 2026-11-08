@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-03",
+  "status": "uploaded_unlisted",
+  "recording": "2026-11-02-25-352-argument-1",
+  "youtube": {
+    "video_id": "tRpp31QsTGM",
+    "video_url": "https://www.youtube.com/watch?v=tRpp31QsTGM",
+    "privacy": "unlisted",
+    "postprocessing_complete": true,
+    "title": "Oral Argument on late defenses to pregnancy discrimination claims: Younge v. Fulton DA's Office",
+    "playlist_skipped": false
+  },
+  "earlier_youtube_url": "https://www.youtube.com/watch?v=lRtV5ymtLZk",
+  "earlier_upload_deleted": false,
+  "corrected_sha256": "c91486d24b10c66e3e8e234b3158832cd023e3e9d3aeff8931aca4e5b46108ff",
+  "unchanged": {
+    "prepare": true,
+    "enrich": true,
+    "align": true,
+    "plan": true,
+    "assemble": true,
+    "review": true,
+    "approved_photos": true,
+    "card_selections": true,
+    "cards_approved_revision": true,
+    "selected_title": true
+  },
+  "additional_container_builds": 0,
+  "upload_attempt": 2,
+  "checks": {
+    "php_rerender_delivery_reviews_statistics": "passed",
+    "exact_host_browser": "passed including duplicate upload prevention and completed correction state"
+  },
+  "host_update": {
+    "updated": [
+      "public/view-case.js",
+      "public/api.php",
+      "public/sw.js",
+      "private/maintenance.php",
+      "private/state.php"
+    ],
+    "configuration_and_passkeys_preserved": true
+  },
+  "local_receipts_directory": "/private/tmp/scotus-younge-corrected-upload-nov3"
+}

@@ -401,16 +401,32 @@
 
         div.subscribe-suggestion {
             position: absolute;
-            bottom: 40px;
-            left: 140px;
-            background: #ffffff;
-            font-size: 25px;
-            padding: 13px 10px 0 10px;
-            border: 3px solid hsl(346, 100%, 30%),;
-            box-shadow: 0.5px 0.5px 5px hsl(346, 20%, 40%);
-            border-radius: 10px;
-            text-align: center;
+            left: 20px;
+            right: 20px;
+            bottom: 18px;
+            z-index: 5;
             display: none;
+            pointer-events: none;
+            opacity: 0;
+        }
+
+        .subscribe-reminder-pill {
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            background: hsl(43, 45%, 96%);
+            border-radius: 25px;
+            padding: 14px 22px;
+            font-size: 25px;
+            color: #222;
+        }
+
+        .subscribe-reminder-icons {
+            display: flex;
+            flex: none;
+            gap: 12px;
+            font-size: 34px;
+            color: hsl(43, 40%, 32%);
         }
 
         /* ---- Quote mockup additions ---- */
@@ -851,13 +867,19 @@
                     <div class="quote-body" id="quote-body"></div>
                     <div class="quote-source" id="quote-source"></div>
                 </div>
+                <div class="subscribe-suggestion" aria-hidden="true">
+                    <div class="subscribe-reminder-pill">
+                        <span>If you find these videos useful, consider liking and subscribing: it helps others find the channel.</span>
+                        <span class="subscribe-reminder-icons">
+                            <svg viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true"><path fill="currentColor" d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z"/></svg>
+                            <svg viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true"><path fill="currentColor" d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.89 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"/></svg>
+                        </span>
+                    </div>
+                </div>
             </div>
             <div class="transcript" id="transcript">
             </div>
-            <div class="subscribe-suggestion">
-                To support this channel, you can:<br>
-                <img src="subscribe.png" width="500" style="margin-top: 4px;">
-            </div>
+
         </div>
     </div>
 

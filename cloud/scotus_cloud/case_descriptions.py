@@ -183,6 +183,7 @@ def build_description_task(stage, case, oyez, materials, actions, profile, *, re
     _validated_inputs(inputs)
     schema = _schema(stage)
     if stage=='case-research' and checking:
+        inputs['input/reference/participation.md']=(ROOT/'prompts/reference/participation.md').read_text()
         from .participation import SCHEMA
         schema['properties']['participation']=SCHEMA;schema['required'].append('participation')
         if request['participation_only']:

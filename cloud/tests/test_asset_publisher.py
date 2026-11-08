@@ -9,8 +9,8 @@ class AssetPublisherTests(unittest.TestCase):
         dashboard=Mock();dashboard.call.side_effect=lambda op,**kw: {'job':job,'lease':'lease'} if op=='asset_publish_claim' else True
         cloud=Mock();cloud.storage_bytes.return_value=image
         cfg={'dashboard_url':'https://example.test','worker_key':'key','project':'project'}
-        with patch.object(asset_publisher,'Path') as path,patch.object(asset_publisher,'Google',return_value=cloud),patch.object(asset_publisher,'Dashboard',return_value=dashboard),patch.dict('os.environ',{'CLOUD_RUN_JOB':'assets','SCOTUS_JOB_ID':'case','SCOTUS_ASSET_TOKEN':'dispatch'}):
-            path.return_value.read_text.return_value=json.dumps(cfg);asset_publisher.main()
+        with patch.object(asset_publisher,'runtime_settings') as settings,patch.object(asset_publisher,'Google',return_value=cloud),patch.object(asset_publisher,'Dashboard',return_value=dashboard),patch.dict('os.environ',{'CLOUD_RUN_JOB':'assets','SCOTUS_JOB_ID':'case','SCOTUS_ASSET_TOKEN':'dispatch'}):
+            settings.return_value=cfg;asset_publisher.main()
         dashboard.call.assert_any_call('asset_portrait_export',job='case',lease='lease',person=person,image_base64=base64.b64encode(image).decode())
         dashboard.call.assert_any_call('asset_publish_finish',job='case',lease='lease',success=True,results=[])
         self.assertFalse(any(call.args[0]=='auth_claim' for call in dashboard.call.call_args_list));cloud.secret.assert_not_called()

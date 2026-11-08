@@ -3,6 +3,11 @@
 This does not start a login. The dashboard starts it only after a passkey sign-in
 and an explicit click. The job has no model-turn or video permissions.
 """
+
+try:
+    from managed_secrets import run_gcloud
+except ModuleNotFoundError:
+    from infra.managed_secrets import run_gcloud
 from registry_cleanup import refresh as refresh_registry
 import argparse
 import json
@@ -21,7 +26,7 @@ def main():
     account = job + '@' + project + '.iam.gserviceaccount.com'
     controller = 'scotus-video-control@' + project + '.iam.gserviceaccount.com'
     def call(*command, optional=False, parse=False):
-        result = subprocess.run([args.gcloud, *command, '--project=' + project, '--quiet', *(['--format=json'] if parse else [])],
+        result = run_gcloud([args.gcloud, *command, '--project=' + project, '--quiet', *(['--format=json'] if parse else [])],
                                 capture_output=True, text=True, timeout=180)
         if result.returncode:
             if optional: return None

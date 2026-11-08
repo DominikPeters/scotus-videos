@@ -2,7 +2,7 @@
 // Replay the existing presentation state, but capture/encode only the selected
 // audio interval. The clip clock is rebased; source transcript timestamps stay intact.
 const fs=require('fs'),path=require('path');
-const {open,action,setupCredit,interactionProgress,chunk}=require('./original');
+const {open,action,setupCredit,interactionProgress,chunk,verticalSafeArea}=require('./original');
 const {splitProgressEvent}=require('./progress');
 function intersect(event,first,end){
  const a=Math.max(first,event.first_frame),b=Math.min(end,event.end_frame);
@@ -36,7 +36,7 @@ async function clipPlan(root,id,start,stop,out){
    if(response.goToNextSection)await op('goToNextSection');else if(response.lastTurn)break;
   }
   if(Math.round(cursor*20)<end||!events.length)throw Error('Clip exceeds available argument');
-  fs.writeFileSync(out,JSON.stringify({schema_version:2,renderer:'original',layout:'vertical',width:1080,height:1920,case_id:id,fps:20,total_frames:end-first,events,chunks:[{index:0,first_frame:0,end_frame:end-first}]}));
+  fs.writeFileSync(out,JSON.stringify({schema_version:2,renderer:'original',layout:'vertical',safe_area:verticalSafeArea,width:1080,height:1920,case_id:id,fps:20,total_frames:end-first,events,chunks:[{index:0,first_frame:0,end_frame:end-first}]}));
  }finally{await browser.close();server.close();}
 }
 module.exports={intersect,clipPlan};

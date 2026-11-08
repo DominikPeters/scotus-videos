@@ -1,4 +1,9 @@
 """Save owner-provided LinkedIn cookies privately; grant only photo/enrich access."""
+
+try:
+    from managed_secrets import run_gcloud
+except ModuleNotFoundError:
+    from infra.managed_secrets import run_gcloud
 import argparse,json,subprocess,tempfile
 from pathlib import Path
 
@@ -13,7 +18,7 @@ def main():
     if args.credentials.stat().st_mode&0o077:raise ValueError('Cookie file must be private (chmod 600)')
     cfg=json.loads(args.config.read_text());project=cfg['project'];secret='scotus-video-linkedin'
     def call(*a,optional=False):
-        r=subprocess.run([args.gcloud,*a,'--project='+project,'--quiet'],capture_output=True,text=True,timeout=90)
+        r=run_gcloud([args.gcloud,*a,'--project='+project,'--quiet'],capture_output=True,text=True,timeout=90)
         if r.returncode and not optional:raise RuntimeError('Photo credential setup failed')
         return r.stdout if not r.returncode else None
     if call('secrets','describe',secret,optional=True) is None:

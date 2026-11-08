@@ -1,0 +1,17 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "rule-12b",
+  "kind": "Rule",
+  "title": "Rule 12(b) — How to present defenses",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Rule",
+    "heading": "Rule 12(b) — How to present defenses",
+    "text": "Every defense to a claim for relief in any pleading must be asserted in the responsive pleading if one is required. <mark>But a party may assert the following defenses by motion</mark>: … (6) failure to state a claim upon which relief can be granted; …",
+    "source": "Federal Rules of Civil Procedure",
+    "highlight": [
+      "second sentence of Rule 12(b)"
+    ]
+  }
+}

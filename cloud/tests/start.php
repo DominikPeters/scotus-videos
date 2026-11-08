@@ -12,7 +12,7 @@ check(count($state['events'])===$events,'Duplicate Start added an event');
 check($state['paused']===true,'Start enabled automatic work');
 check(worker_update($state,['op'=>'discovery_claim'],'dispatcher')===false,'Start enabled discovery');
 check(worker_update($state,['op'=>'dispatch','job'=>$other,'stage'=>'prepare'],'dispatcher')===null,'Unselected recording started');
-foreach(array_keys($state['jobs'][$first]['stages']) as $name){
+foreach(['prepare','align','enrich','plan','render','assemble','upload'] as $name){
     if($name==='render')$state['jobs'][$first]['stages']['plan']['result']['chunks']=2;
     $claim=worker_update($state,['op'=>'dispatch','job'=>$first,'stage'=>$name],'dispatcher');
     check(!empty($claim['dispatch_token']),'Selected recording stopped at '.$name);

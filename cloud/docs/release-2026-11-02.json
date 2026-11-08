@@ -1,0 +1,229 @@
+{
+  "recorded_at": "2026-11-02T22:05:09.375755+00:00",
+  "project": "possible-cycle-237715",
+  "region": "us-central1",
+  "builds": {
+    "control": {
+      "id": "a895ff2b-8fd8-470e-bdcd-d1e9e1b9ee25",
+      "status": "SUCCESS",
+      "createTime": "2026-11-02T21:54:20.848163674Z",
+      "finishTime": "2026-11-02T21:54:47.653991Z",
+      "machine_type_override": null
+    },
+    "pipeline": {
+      "id": "1bc5e219-c197-4a44-b51e-75bcfbb1091c",
+      "status": "SUCCESS",
+      "createTime": "2026-11-02T21:54:24.903811475Z",
+      "finishTime": "2026-11-02T21:56:06.450311Z",
+      "machine_type_override": null
+    }
+  },
+  "images": {
+    "control": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/control@sha256:e8dd21c70ae381e21ce419899b8528977e7a40080ec0061ca675685674448c52",
+    "pipeline": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/pipeline@sha256:5594309850fac1c67061b1a7e811991a11fabecc5d5d190d9fd002c56c838ca3"
+  },
+  "baseline": {
+    "baseline_sha256": "53cab7419c475992e130d18ec7cc43b52a470daa1f14bd6f18f936a69563e051",
+    "configuration_names": [
+      "scotus-video-control-config",
+      "scotus-video-deliver-config",
+      "scotus-video-enrich-config",
+      "scotus-video-research-config"
+    ]
+  },
+  "cards": {
+    "recording": "2026-11-02-25-5930-argument-1",
+    "cards": 26,
+    "selected": 26,
+    "cards_approved": true,
+    "portraits_preserved": true,
+    "status": "queued",
+    "enrich_status": "pending",
+    "paused": true,
+    "source_revision": "16d87d7c9b6f00bcecafebaeba2cdc14d7627740c10183c13c4dd0b09ae75cfb",
+    "assets_verified": 53,
+    "opening_question_and_preiser_timing_retained": true
+  },
+  "verification": {
+    "pipeline_jobs": 13,
+    "controller_ready_revision": "scotus-video-control-00071-n48",
+    "controller_traffic_percent": 100,
+    "legacy_secret_references": 0,
+    "live_secret_versions": {
+      "scotus-internal": [
+        "6"
+      ],
+      "scotus-research": [
+        "2"
+      ],
+      "scotus-publishing": [
+        "2"
+      ]
+    },
+    "secret_status_http": 200
+  },
+  "php_handlers": {
+    "handlers": [
+      {
+        "file": "state.php",
+        "sha256": "35981498482a67e4610480ac31a7af3ad88fdeb2ff3e45bf8c6e00c46febf0f9"
+      },
+      {
+        "file": "photos.php",
+        "sha256": "e4b0442ccb6bece8ac82a7666928334f53d9fdc5206196ac5ec0a04cd1adf50d"
+      },
+      {
+        "file": "statistics.php",
+        "sha256": "afd22db65d25d9aaa385d2b885e23af915f7061ad33781fb5dbd7c465a357816"
+      },
+      {
+        "file": "recovery.php",
+        "sha256": "3fc50c30c2e94081833631521b8b7efff27dac5e09627ddac8c2f394eddb018c"
+      }
+    ]
+  },
+  "isolated_tests": {
+    "passed": true,
+    "tests": 286,
+    "skipped": 4,
+    "temporary_objects_deleted": 2
+  },
+  "remote_php_fixtures": [
+    "research",
+    "stage_dependencies",
+    "recovery_extended",
+    "reviews",
+    "photos",
+    "statistics"
+  ],
+  "restored": {
+    "paused": false,
+    "maxwell": {
+      "status": "queued",
+      "card_count": 26,
+      "selected": 26,
+      "cards_approved": true,
+      "portraits_approved": 3,
+      "stages": {
+        "prepare": {
+          "status": "complete",
+          "attempt": 1
+        },
+        "enrich": {
+          "status": "pending",
+          "attempt": 1
+        },
+        "align": {
+          "status": "complete",
+          "attempt": 1
+        },
+        "plan": {
+          "status": "pending",
+          "attempt": 0
+        },
+        "render": {
+          "status": "pending",
+          "attempt": 0
+        },
+        "assemble": {
+          "status": "pending",
+          "attempt": 0
+        },
+        "upload": {
+          "status": "pending",
+          "attempt": 0
+        }
+      }
+    },
+    "scheduler_state": "ENABLED"
+  },
+  "maxwell_status_after_resume": "running",
+  "younge": {
+    "recording": "2026-11-02-25-352-argument-1",
+    "retired_sha256": "c93073196f7188075a65e75594c8a424bb5768ae96f7852c9937b1b49c53a1f9",
+    "pointers_retired": 3,
+    "job_status": "failed",
+    "recovery_status": "waiting_for_resource",
+    "history_preserved": true
+  },
+  "maxwell_live_plan": {
+    "plan_uri": "gs://possible-cycle-237715-scotus-video-media/scratch/2026-11-02-25-5930-argument-1/plan/attempt-1/1f8b5672f9d548c2a147085baf491aee/plan.json",
+    "subscribe_reminder": {
+      "start": 600,
+      "end": 608
+    },
+    "total_frames": 76921,
+    "chunks": 13,
+    "enrichment_complete": true
+  },
+  "maxwell_post_plan_dispatch": {
+    "ok": true,
+    "result": {
+      "message": "0 cloud execution(s) started.",
+      "launched": []
+    }
+  },
+  "maxwell_final_status": {
+    "paused": false,
+    "status": "running",
+    "run_requested": null,
+    "stages": {
+      "prepare": {
+        "status": "complete",
+        "attempt": 1,
+        "progress": 1,
+        "cloud_operation": "projects/possible-cycle-237715/locations/us-central1/operations/ecd6628b-0a7c-49ca-9105-2feabbd483cd",
+        "cloud_job": "scotus-video-research"
+      },
+      "enrich": {
+        "status": "complete",
+        "attempt": 2,
+        "progress": 1,
+        "cloud_operation": "projects/possible-cycle-237715/locations/us-central1/operations/d881ff68-1430-4b60-896c-44520930e20c",
+        "cloud_job": "scotus-video-enrich"
+      },
+      "align": {
+        "status": "complete",
+        "attempt": 1,
+        "progress": 1,
+        "cloud_operation": "projects/possible-cycle-237715/locations/us-central1/operations/64da8ae9-1e55-42d3-b745-866dcf414817",
+        "cloud_job": "scotus-video-align"
+      },
+      "plan": {
+        "status": "complete",
+        "attempt": 1,
+        "progress": 1,
+        "cloud_operation": "projects/possible-cycle-237715/locations/us-central1/operations/66e428b3-8a5b-443e-972f-0c4016af198f",
+        "cloud_job": "scotus-video-plan"
+      },
+      "render": {
+        "status": "starting",
+        "attempt": 1,
+        "progress": 0,
+        "cloud_operation": "projects/possible-cycle-237715/locations/us-central1/operations/a476bcd1-75ca-4a2f-90ba-f6b5f2d3db07",
+        "cloud_job": "scotus-video-render"
+      },
+      "assemble": {
+        "status": "pending",
+        "attempt": 0,
+        "progress": 0
+      },
+      "upload": {
+        "status": "pending",
+        "attempt": 0,
+        "progress": 0
+      }
+    },
+    "render_tasks": {
+      "pending": 13
+    }
+  },
+  "follow_ups": {
+    "younge": {
+      "date": "2026-11-03",
+      "status": "alignment_recovered",
+      "audit": "younge-repair-2026-11-03.json",
+      "summary": "Refreshed the Court replacement PDF; original matcher passed; annotation preparation resumed. The old-baseline candidate had failed bootstrap, and a current-baseline candidate later failed the audio guard; neither was promoted."
+    }
+  }
+}

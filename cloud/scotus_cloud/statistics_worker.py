@@ -27,6 +27,28 @@ def retry_fixed_error(saved):
     return (saved.get('status')=='needs_review' and saved.get('coding_revision')!=CODING_REVISION
         and saved.get('notes','').startswith(("AttributeError: 'list' object has no attribute 'get'",'ValueError: Invalid justice list')))
 
+MAX_TECHNICAL_ATTEMPTS=3
+
+def legacy_technical_failure(saved):
+    # Older workers incorrectly turned caught implementation/transport exceptions
+    # into owner questions. Model-authored substantive questions remain untouched.
+    return saved.get('status')=='needs_review' and bool(re.match(
+        r'^(?:RuntimeError|ValueError|AttributeError|TypeError|KeyError|Timeout|ReadTimeout|ConnectTimeout|ConnectionError|HTTPError|OSError|CalledProcessError): ',saved.get('notes','')))
+
+def technical_failure(error,saved,now):
+    attempts=saved.get('technical_attempts',0)+1
+    return {'status':'retry_pending' if attempts<MAX_TECHNICAL_ATTEMPTS else 'failed',
+            'notes':type(error).__name__+': '+str(error)[:350],
+            'technical_attempts':attempts,'retry_after':now+min(1800,300*2**(attempts-1))}
+
+def research_work(research,candidate_backlog,now):
+    errors={key:{field:saved[field] for field in ('status','notes','technical_attempts','retry_after') if field in saved}
+            for key,saved in research.items() if saved.get('status') in ('retry_pending','failed')}
+    retries={key for key,saved in research.items() if saved.get('status')=='retry_pending'}
+    pending=set(candidate_backlog)|retries
+    delay=0 if set(candidate_backlog) else min((max(0,research[k]['retry_after']-now) for k in retries),default=0)
+    return errors,len(pending),int(delay)
+
 def official(url):
     if urlsplit(url).hostname not in ('www.supremecourt.gov','supremecourt.gov') or urlsplit(url).scheme!='https':raise ValueError('Official Court source required')
     r=requests.get(url,timeout=25)
@@ -150,19 +172,25 @@ def main():
                 state['opinion_links']=links;state['opinion_check_date']=today
             issues=json.loads((ROOT/'issues.json').read_text());provisions=json.loads((ROOT/'legal-provisions.json').read_text());processed=0
             answers=owner_answers(claim)
+            for saved in research.values():
+                if legacy_technical_failure(saved):
+                    saved.update(status='retry_pending',technical_attempts=0,retry_after=0)
             candidates=[]
             for key,record in sorted(records.items(),reverse=True):
                 if int(record['term'])<2024:continue
                 saved=research.get(key,{})
                 due=not record.get('issue') or not record.get('decision') or (links.get(record['docket_number']) and saved.get('opinion_url')!=links[record['docket_number']] and (record.get('decision') or {}).get('source')!='scdb')
-                retry=retry_fixed_error(saved)
+                retry=retry_fixed_error(saved) or (saved.get('status')=='retry_pending' and saved.get('retry_after',0)<=time.time())
+                if saved.get('status') in ('retry_pending','failed') and not retry and not answers.get(key):continue
                 if saved.get('status')=='needs_review' and not answers.get(key) and not retry:continue
                 if saved.get('checked_date')==today and not answers.get(key) and not retry:continue
                 if due or answers.get(key) or retry:candidates.append((key,record))
             candidates.sort(key=lambda item:(item[0] not in answers,not retry_fixed_error(research.get(item[0],{}))))
+            unfinished={key for key,_ in candidates}
             for key,record in candidates[:cfg.get('max_cases_per_run',4)]:
+                unfinished.discard(key)
                 update('Reading official material for '+record['docket_number'])
-                result=None
+                result=None;saved=research.get(key,{})
                 try:
                     material=opinion_material(record,state.setdefault('documents',{}),links,folder,cloud,cfg['bucket'])
                     if not material:research[key]={'checked_date':today,'status':'source_missing'};continue
@@ -174,6 +202,7 @@ def main():
                     inputs={'input/case.json':json.dumps(material),'input/issues.json':json.dumps(issues),'input/legal-provisions.json':json.dumps(provisions),
                             'input/check_statistics.py':Path(__file__).with_name('statistics_check.py').read_text(),
                             'input/stats_core.py':Path(stats_core.__file__).read_text()}
+                    inputs['input/reference/statistics-taxonomy.md']=(ROOT/'statistics-taxonomy.md').read_text()
                     update('Codex interpreting '+record['docket_number'])
                     result=run_codex(dashboard,cloud,cfg['codex_secret'],prompt,schema(issues,provisions),model=cfg['model'],inputs=inputs,timeout_seconds=180)
                     if key in answers:answered.append(key)
@@ -185,9 +214,10 @@ def main():
                     if result['needs_review']:questions[key]=result['notes']
                     processed+=1;update('Updated coding for '+record['docket_number'])
                 except Exception as error:
-                    if 'credential is already in use' in str(error):update('Waiting for the shared Codex credential');break
-                    research[key]={'checked_date':today,'status':'needs_review','notes':type(error).__name__+': '+str(error)[:350],'coding_revision':CODING_REVISION,'result':result};questions[key]=research[key]['notes'];update('Could not complete coding for '+record['docket_number'])
-            pending=max(0,len(candidates)-min(len(candidates),cfg.get('max_cases_per_run',4)))
+                    if 'credential is already in use' in str(error):
+                        unfinished.add(key);update('Waiting for the shared Codex credential');break
+                    research[key]={'checked_date':today,'coding_revision':CODING_REVISION,'result':result,**technical_failure(error,saved,time.time())};update('Technical failure for '+record['docket_number']+'; '+('automatic retry queued' if research[key]['status']=='retry_pending' else 'retry limit reached'))
+            errors,pending,retry_delay=research_work(research,unfinished,time.time())
             for saved_record in records.values():
                 decision=saved_record.get('decision')
                 if decision and decision.get('source')=='codex':
@@ -196,7 +226,9 @@ def main():
             state['updated_at']=datetime.now(timezone.utc).isoformat();raw=json.dumps(state,ensure_ascii=False,separators=(',',':')).encode();path=folder/'records.gz';path.write_bytes(gzip.compress(raw));uri=f'gs://{cfg["bucket"]}/statistics/records/{fingerprint(raw)}.json.gz';cloud.storage_upload(path,uri)
             output=json.dumps([flatten(r) for r in public_records(records)],ensure_ascii=False,separators=(',',':')).encode();compressed=__import__('base64').b64encode(gzip.compress(output)).decode()
             questions.update({k:v['notes'] for k,v in research.items() if v.get('status')=='needs_review'})
-            update('Statistics published',publish={'gzip_base64':compressed,'sha256':fingerprint(output),'count':len(records)},data_uri=uri,index_revision=fingerprint(index),questions=questions,answered=answered,pending=pending,finish=True)
+            message='Statistics published'
+            if errors:message+='; '+str(len(errors))+' technical update(s) '+('need repair' if any(e['status']=='failed' for e in errors.values()) else 'queued for automatic retry')
+            update(message,publish={'gzip_base64':compressed,'sha256':fingerprint(output),'count':len(records)},data_uri=uri,index_revision=fingerprint(index),questions=questions,technical_errors=errors,answered=answered,pending=pending,retry_after_seconds=retry_delay,finish=True)
         except Exception as error:
             update('Statistics update failed: '+type(error).__name__+': '+str(error)[:400],failed=True,finish=True)
             raise

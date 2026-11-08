@@ -1,0 +1,60 @@
+{
+  "purpose": "Replace static portrait catalog lookups with live GitHub archive discovery.",
+  "release": "worker-20261108-8f8c11e4",
+  "deployment": {
+    "configured": true,
+    "verified": true,
+    "compatibility_applied": true,
+    "released": true
+  },
+  "worker_image": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/pipeline@sha256:8f78062583fec42f246958fdaa9a08897a9763d0007f72ccb07f7313239c8ec6",
+  "controller_image": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/control@sha256:bd64bbf5e92d22c656070b55a15c5325698e084a59a1dbd3024fdd529f5597b6",
+  "updated_jobs": [
+    "scotus-video-align",
+    "scotus-video-align-long",
+    "scotus-video-assemble",
+    "scotus-video-deliver",
+    "scotus-video-enrich",
+    "scotus-video-photos",
+    "scotus-video-plan",
+    "scotus-video-prepare",
+    "scotus-video-recovery",
+    "scotus-video-recovery-test",
+    "scotus-video-render",
+    "scotus-video-research",
+    "scotus-video-upload"
+  ],
+  "cloud_build_id": "83d6226d-340f-4b75-a6df-04bf2a0f8fd7",
+  "worker_source_changes": [
+    "scotus_cloud/enrichment.py",
+    "scotus_cloud/photos.py",
+    "scotus_cloud/photo_discovery.py",
+    "tests/test_photo_discovery.py"
+  ],
+  "cloud_build_tests": {
+    "run": 365,
+    "skipped": 5,
+    "passed": true
+  },
+  "live_cloud_portrait_downloads": [
+    "Anthony J. Dick",
+    "Joshua I. Hammack",
+    "Brian W. Barnes",
+    "Nicholas R. Reaves",
+    "Helen Norton"
+  ],
+  "all_14_approved_portraits_discoverable": true,
+  "archive_publication": {
+    "commit": "350d03baa7455a4082182b087ba17c29f5fef1c4",
+    "url": "https://github.com/DominikPeters/scotus-videos/commit/350d03baa7455a4082182b087ba17c29f5fef1c4",
+    "added_files": 28
+  },
+  "deployment_wait_fix": "Only running jobs using the affected pipeline image delay a pipeline deployment. Statistics jobs run independently.",
+  "deployment_scope_test_passed": true,
+  "billing_check": {
+    "machine_override": null,
+    "posted_report_period": "November 1\u20137, 2026",
+    "posted_month_total_gbp": 0.06,
+    "new_build_cost_not_separately_confirmed": true
+  }
+}

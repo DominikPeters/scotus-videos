@@ -1,5 +1,6 @@
 <?php
 declare(strict_types=1);
+class WorkflowConflict extends RuntimeException {}
 require_once __DIR__ . '/recovery.php';
 require_once __DIR__ . '/reviews.php';
 require_once __DIR__ . '/clips.php';
@@ -9,6 +10,11 @@ require_once __DIR__ . '/statistics.php';
 require_once __DIR__ . '/cleanup.php';
 require_once __DIR__ . '/spotify.php';
 require_once __DIR__ . '/push.php';
+require_once __DIR__ . '/research.php';
+require_once __DIR__ . '/attempts.php';
+require_once __DIR__ . '/maintenance.php';
+require_once __DIR__ . '/card_import.php';
+require_once __DIR__ . '/deployment.php';
 
 /** All worker updates merge under this lock, then replace the JSON atomically. */
 function transaction(string $name, callable $change): mixed {
@@ -39,9 +45,10 @@ function initial_state(): array {
     return ['schema_version' => 1, 'paused' => true, 'jobs' => [], 'events' => [], 'nonces' => []];
 }
 
-function public_state(array $state): array {
+function public_state(array $state,bool $internal=false): array {
     global $config;
     $state = json_decode(json_encode($state, JSON_THROW_ON_ERROR), true, 512, JSON_THROW_ON_ERROR);
+    if(!empty($state['deployment_hold'])){$state['paused']=true;$state['deployment_message']='A deployment is in progress; processing will resume when it completes.';}
     unset($state['nonces'], $state['auth_leases'], $state['credential_logins'], $state['login_starts']);
     unset($state['notifications']);
     unset($state['statistics']['token'],$state['statistics']['data_uri']);
@@ -52,20 +59,35 @@ function public_state(array $state): array {
     $state['spotify_enabled']=!empty($config['spotify_enabled']);
     foreach($state['jobs'] as &$item)if(isset($item['spotify']))unset($item['spotify']['lease'],$item['spotify']['dispatch_token'],$item['spotify']['claim_id'],$item['spotify']['expires']);
     foreach($state['jobs'] as &$item)if(isset($item['asset_publication']))unset($item['asset_publication']['lease'],$item['asset_publication']['dispatch_token']);
-    foreach($state['jobs'] as &$item)if(isset($item['clips']))foreach($item['clips'] as &$clip){unset($clip['lease'],$clip['dispatch_token'],$clip['upload'],$clip['tiktok_checkpoint'],$clip['source_plan'],$clip['audio_uri']);}
+    foreach($state['jobs'] as &$item)if(isset($item['clips']))foreach($item['clips'] as &$clip){if(isset($clip['instagram']))$clip['instagram']['caption_locked']=!empty($clip['instagram_checkpoint']);unset($clip['lease'],$clip['dispatch_token'],$clip['upload'],$clip['tiktok_checkpoint'],$clip['instagram_checkpoint'],$clip['source_plan'],$clip['audio_uri']);}
     foreach($state['jobs'] as &$item)if(isset($item['video_actions']))foreach($item['video_actions'] as &$action)unset($action['lease'],$action['dispatch_token']);
     foreach($state['jobs'] as &$item)if(isset($item['photo_requests']))foreach($item['photo_requests'] as &$request)unset($request['lease'],$request['dispatch_token']);
     if (isset($state['recoveries'])) foreach ($state['recoveries'] as &$rec) {
         unset($rec['lease'],$rec['dispatch_token'],$rec['session_uri'],$rec['rollout_path'],$rec['actions']);
     }
     foreach ($state['jobs'] as &$job) {
+        review_versions($job);
+        unset($job['review']['legacy_revision'],$job['review']['legacy_versions']);
+        unset($job['card_research']);
         unset($job['dispatch_token']);if(isset($job['chunk_cleanup']))unset($job['chunk_cleanup']['lease'],$job['chunk_cleanup']['expires']);
         foreach ($job['stages'] as &$stage) {
             unset($stage['lease'], $stage['dispatch_token'], $stage['checkpoint']);
             if (isset($stage['tasks'])) foreach ($stage['tasks'] as &$task) unset($task['lease']);
         }
     }
-    return $state;
+    // The dispatcher needs launch receipts and import inputs to reconcile crashes.
+    // Browser polling receives only the current import's reviewable status.
+    foreach($state['jobs'] as &$job){
+        if(!$internal&&isset($job['card_import']))$job['card_import']=array_intersect_key($job['card_import'],array_flip(['id','status','card_count','created_at','finished_at','progress','error']));
+    }
+    unset($job);
+    $strip=function(array &$value)use(&$strip,$internal):void{
+        foreach($value as $key=>&$child)if(is_array($child)){
+            if($key==='_launch'){if($internal)unset($child['token_hash']);else unset($value[$key]);}
+            else $strip($child);
+        }
+    };
+    $strip($state);return $state;
 }
 
 function reconcile_expired(array &$state): void {
@@ -86,6 +108,7 @@ function reconcile_expired(array &$state): void {
                 if (($target['status'] ?? '') === 'running' && ($target['lease']['expires'] ?? 0) <= time()) $expired = true;
             }
             if (!$expired) continue;
+            if(!empty($stage['_launch'])||!empty($stage['cloud_operation']))continue;
             $stage['status'] = 'failed'; $stage['error'] = 'worker_failed';
             unset($stage['dispatch_token'], $stage['lease']); $job['status'] = 'failed';
             event($state, $id, $name . ': worker stopped reporting progress');
@@ -93,10 +116,10 @@ function reconcile_expired(array &$state): void {
         }
     }
     foreach($state['jobs'] as $id=>&$job){
-        foreach($job['video_actions'] ?? [] as $aid=>$action)if(in_array($action['status'],['starting','running'],true)&&($action['expires'] ?? 0)<=time()){
+        foreach($job['video_actions'] ?? [] as $aid=>$action)if(empty($action['_launch'])&&in_array($action['status'],['starting','running'],true)&&($action['expires'] ?? 0)<=time()){
             $job['video_actions'][$aid]['status']='failed';unset($job['video_actions'][$aid]['lease'],$job['video_actions'][$aid]['dispatch_token']);event($state,$id,'Video action stopped reporting; review before retry');
         }
-        if(in_array($job['asset_publication']['status'] ?? '',['starting','running'],true)&&($job['asset_publication']['expires'] ?? 0)<=time()){
+        if(empty($job['asset_publication']['_launch'])&&in_array($job['asset_publication']['status'] ?? '',['starting','running'],true)&&($job['asset_publication']['expires'] ?? 0)<=time()){
             $job['asset_publication']['status']='failed';unset($job['asset_publication']['lease'],$job['asset_publication']['dispatch_token']);event($state,$id,'Portrait commit needs review');
         }
     }
@@ -144,7 +167,27 @@ function add_job(array &$state, array $input): array {
 }
 
 function work_enabled(array $state, array $job): bool {
-    return !$state['paused'] || !empty($job['run_requested']);
+    return empty($state['deployment_hold'])&&(!$state['paused'] || !empty($job['run_requested']));
+}
+
+function workflow_stage_order(): array {
+    return ['prepare','align','enrich','plan','render','assemble','upload'];
+}
+
+/** Reserve model access at dispatch, including workers not yet holding auth. */
+function codex_work_reserved(array $state): bool {
+    if(($state['auth_leases']['codex']['expires'] ?? 0)>time()||photo_active($state))return true;
+    foreach($state['jobs'] as $job)if($job['status']!=='cancelled'&&in_array($job['stages']['enrich']['status'] ?? '',['starting','running'],true))return true;
+    foreach($state['recoveries'] ?? [] as $rec)if(in_array($rec['status'],['starting','running'],true)&&($rec['expires'] ?? 0)>time())return true;
+    return in_array($state['statistics']['status'] ?? '',['starting','running'],true)&&($state['statistics']['expires'] ?? 0)>time();
+}
+
+function removed_render_chunks(array $job): array {
+    $deleted=$job['chunk_cleanup']['deleted_indices'] ?? [];$missing=[];
+    foreach($job['stages']['render']['tasks'] ?? [] as $index=>$task){
+        if(!empty($task['result']['video_deleted_at'])||in_array($index,$deleted,true))$missing[]=$index;
+    }
+    return $missing;
 }
 
 function command(array &$state, array $input): array {
@@ -163,7 +206,20 @@ function command(array &$state, array $input): array {
     $id = $input['job'] ?? '';
     if (!isset($state['jobs'][$id])) throw new InvalidArgumentException('Unknown recording');
     $job =& $state['jobs'][$id];
-    if ($action === 'start') {
+    if($action==='upload_corrected')return upload_corrected_recording($state,$id);
+    if($action==='research_resume'){
+        if(empty($job['research_attention'])||$job['stages']['enrich']['status']!=='needs_review')throw new WorkflowConflict('Research is not waiting for a decision');
+        $phase=$job['research_attention']['phase']??'';
+        if(in_array($phase,['haiku','terra','editor','review'],true)&&isset($job['card_research']['checkpoint']['plan']['hybrid'])){
+            $hybrid=&$job['card_research']['checkpoint']['plan']['hybrid'];
+            if($phase==='editor'&&($hybrid['calls']['editor']??0)>0&&empty($input['allow_opus_retry']))throw new WorkflowConflict('Explicitly authorize another Opus pass');
+            $hybrid['calls'][$phase]=0;$hybrid['tool_calls'][$phase]=0;
+            $hybrid['authorized_retries'][$phase]=($hybrid['authorized_retries'][$phase]??0)+1;
+            $job['card_research']['version']++;unset($job['card_research']['operation_id']);
+        }
+        unset($job['research_attention'],$job['stages']['enrich']['retry_after']);$job['stages']['enrich']['status']='pending';$job['status']='queued';$job['run_requested']=true;
+        event($state,$id,'Owner resumed saved card research');
+    } elseif ($action === 'start') {
         if ($job['status'] !== 'queued') throw new InvalidArgumentException('Only queued recordings can be started');
         if (empty($job['run_requested'])) {
             $job['run_requested'] = true;
@@ -179,6 +235,13 @@ function command(array &$state, array $input): array {
     } elseif ($action === 'retry') {
         if (!in_array($job['status'], ['failed', 'cancelled'], true)) throw new InvalidArgumentException('Only failed or cancelled work can be retried');
         if (($job['stages']['upload']['error'] ?? '') === 'upload_uncertain') throw new InvalidArgumentException('Upload needs reconciliation before retry');
+        // A manual retry must restore deleted inputs before attempting assembly.
+        $missing=removed_render_chunks($job);
+        if($job['stages']['assemble']['status']!=='complete'&&$missing){
+            if(($job['chunk_cleanup']['expires'] ?? 0)>time())throw new RuntimeException('Wait for chunk cleanup to finish before retrying');
+            foreach($missing as $index)$job['stages']['render']['tasks'][$index]=['status'=>'pending','progress'=>0];
+            $job['stages']['render']['status']='pending';unset($job['chunk_cleanup']);
+        }
         foreach ($job['stages'] as &$stage) {
             if ($stage['status'] !== 'complete' && !in_array($stage['status'],['starting','running','needs_review'],true)) {
                 $stage['status'] = 'pending'; unset($stage['lease'], $stage['error'], $stage['dispatch_token'],$stage['cloud_operation'],$stage['cloud_operation_recorded_at']);
@@ -195,6 +258,17 @@ function command(array &$state, array $input): array {
 
 function worker_update(array &$state, array $input, string $role): mixed {
     $op = $input['op'] ?? '';
+    if($op==='rerender')return rerender_recording($state,$input,$role);
+    if($op==='deployment_rebase')return deployment_rebase($state,$input,$role);
+    if($role==='dispatcher'&&in_array($op,['deployment_hold','deployment_release'],true)){
+        $id=(string)($input['release_id']??'');if(!preg_match('/^worker-[a-zA-Z0-9-]{1,60}$/D',$id))throw new InvalidArgumentException('Invalid deployment');
+        if(!empty($state['deployment_hold'])&&$state['deployment_hold']['id']!==$id)throw new WorkflowConflict('Another deployment is in progress');
+        if($op==='deployment_hold')$state['deployment_hold']=['id'=>$id];else unset($state['deployment_hold']);return ['held'=>$op==='deployment_hold','user_paused'=>$state['paused']];
+    }
+    if(str_starts_with($op,'card_import_'))return card_import_operation($state,$input,$role);
+    if(str_starts_with($op,'source_refresh_'))return source_refresh_operation($state,$input,$role);
+    if(str_starts_with($op,'launch_'))return launch_operation($state,$input,$role);
+    if(in_array($op,['research_load','research_save'],true))return research_operation($state,$input,$role);
     if(in_array($op,['stats_dispatch','stats_start','stats_update','stats_dispatched','stats_dispatch_failed','stats_execution_closed'],true))return statistics_operation($state,$input,$role);
     if(in_array($op,['chunk_cleanup_claim','chunk_cleanup_result'],true))return chunk_cleanup_operation($state,$input,$role);
     if(in_array($op,['podcast_export','podcast_export_status','transcript_export','podcast_artwork'],true))return podcast_operation($state,$input,$role);
@@ -258,7 +332,7 @@ function worker_update(array &$state, array $input, string $role): mixed {
         $found=false;foreach($state['recoveries'] ?? [] as $rec)if($rec['job']===$job['id']&&($rec['actions'][$input['action_id']]['kind'] ?? '')==='upload_audit')$found=true;
         if(!$found)throw new RuntimeException('Unknown upload audit');return $job;
     }
-    if ($role === 'dispatcher' && $op === 'snapshot') { reconcile_expired($state); return public_state($state); }
+    if ($role === 'dispatcher' && $op === 'snapshot') { reconcile_expired($state); return public_state($state,true); }
     if ($role === 'dispatcher' && $op === 'reserve_control_nonce') {
         $nonce = (string)($input['nonce'] ?? '');
         if (!preg_match('/^[a-f0-9]{32}$/D', $nonce) || isset($state['nonces']['control-' . $nonce])) throw new RuntimeException('Request already used');
@@ -285,8 +359,8 @@ function worker_update(array &$state, array $input, string $role): mixed {
     }
     if (in_array($op, ['auth_claim', 'auth_check', 'auth_release'], true)) {
         $name = $input['name'] ?? '';
-        if (!in_array($name, ['youtube', 'codex', 'github','spotify','instagram','tiktok'], true) ||
-            !($role === 'dispatcher' || ($role==='spotify'&&$name==='spotify') || ($role === 'upload' && in_array($name,['youtube','tiktok'],true)) || ($role==='assets'&&$name==='github') || (in_array($role,['codex','recovery','enrich','stats'],true) && $name === 'codex'))) throw new RuntimeException('Credential access denied');
+        if (!in_array($name, ['youtube', 'codex', 'claude', 'github','spotify','instagram','tiktok'], true) ||
+            !($role === 'dispatcher' || ($role==='enrich'&&$name==='claude') || ($role==='spotify'&&$name==='spotify') || ($role === 'upload' && in_array($name,['youtube','tiktok','instagram'],true)) || ($role==='assets'&&$name==='github') || (in_array($role,['codex','recovery','enrich','stats'],true) && $name === 'codex'))) throw new RuntimeException('Credential access denied');
         $state['auth_leases'] ??= [];
         $saved = $state['auth_leases'][$name] ?? null;
         if ($op === 'auth_claim') {
@@ -327,19 +401,31 @@ function worker_update(array &$state, array $input, string $role): mixed {
     if($role==='dispatcher' && $op==='execution_closed'){
         if(($stage['cloud_operation'] ?? '')!==($input['operation'] ?? '') ||
            !in_array($stage['status'],['starting','running'],true)||$job['status']==='cancelled')return false;
+        if(isset($stage['_launch'])&&(!empty($stage['checkpoint']['video_id'])||empty($stage['checkpoint']['creation_pending']))&&($stage['administrative_retries']??0)<3){
+            $stage['administrative_retries']=($stage['administrative_retries']??0)+1;
+            foreach($stage['tasks']??[] as $n=>$task)if($task['status']!=='complete'){$stage['tasks'][$n]['status']='pending';unset($stage['tasks'][$n]['lease']);}
+            $stage['status']='pending';$job['status']='queued';unset($stage['lease'],$stage['dispatch_token'],$stage['cloud_operation']);
+            event($state,$id,$stageName.': resuming the interrupted attempt; saved results retained');return true;
+        }
         // The cloud execution is closed, so no remaining task can finish safely.
         foreach($stage['tasks'] ?? [] as $n=>$task)if($task['status']!=='complete'){
             $stage['tasks'][$n]['status']='failed';unset($stage['tasks'][$n]['lease']);
         }
-        unset($stage['lease']);$stage['status']='failed';$stage['error']='worker_failed';$job['status']='failed';
+        $error=!empty($stage['checkpoint']['creation_pending'])&&empty($stage['checkpoint']['video_id'])?'upload_uncertain':'worker_failed';
+        unset($stage['lease']);$stage['status']='failed';$stage['error']=$error;$job['status']='failed';
         $job['updated_at']=gmdate('c');
         $message='The cloud execution ended before all phase results were reported. Completed chunks are preserved; only unfinished work needs retry.';
-        $rid=recovery_failure($state,$id,$stageName,'worker_failed',['fingerprint'=>hash('sha256','cloud_execution_closed'),'message'=>$message]);
+        $rid=recovery_failure($state,$id,$stageName,$error,['fingerprint'=>hash('sha256','cloud_execution_closed'),'message'=>$message]);
         notify_event($state,$rid.'-cloud-'.$input['operation'],'recovery',$rid);
         recovery_log($state,$rid,'diagnosis',$message);event($state,$id,$stageName.': cloud execution ended with unfinished work');return true;
     }
     if ($role === 'dispatcher' && $op === 'dispatch') {
-        if($stageName==='enrich'&&(photo_active($state)||($state['auth_leases']['codex']['expires'] ?? 0)>time()))return null;
+        if(($stage['retry_after']??0)>time())return null;
+        if($stageName==='enrich'&&in_array($job['card_import']['status']??'',['queued','starting','running'],true))return null;
+        // Enrichment includes annotation previews, which require aligned timings.
+        if($stageName==='enrich'&&$job['stages']['align']['status']!=='complete')return null;
+        if($stageName==='enrich'&&codex_work_reserved($state))return null;
+        if($stageName==='assemble'&&removed_render_chunks($job))return null;
         if (!work_enabled($state, $job) || in_array($job['status'], ['cancelled', 'failed', 'complete'], true)) return null;
         if ($job['status']==='needs_review' && $stageName!=='align') return null;
         if ($stageName==='align') {
@@ -349,7 +435,7 @@ function worker_update(array &$state, array $input, string $role): mixed {
         foreach ($job['stages'] as $name=>$other) if ($name!==$stageName && in_array($other['status'],['starting','running'],true) && !(in_array($name,['enrich','align'],true)&&in_array($stageName,['enrich','align'],true))) return null;
         if ($stage['status'] !== 'pending') return null;
         unset($stage['cloud_operation'],$stage['cloud_operation_recorded_at'],$stage['cloud_job']);
-        $baseline=(string)($input['baseline_sha256'] ?? '');
+        $baseline=(string)($input['release_id'] ?? $input['baseline_sha256'] ?? '');
         $release=$job['workflow_releases'][$stageName] ?? $state['reusable_repairs'][$baseline][$stageName] ?? $job['workflow_release'] ?? null;
         if($release)$stage['workflow_release']=$release;else unset($stage['workflow_release']);
         $stage['status'] = 'starting'; $stage['attempt']++;
@@ -380,6 +466,16 @@ function worker_update(array &$state, array $input, string $role): mixed {
     }
     $now = time();
     if ($op === 'claim') {
+        // Fence stale launches made before the dependency gate was installed.
+        // Deferring a launch is not a worker failure and must not start recovery.
+        if($stageName==='enrich'&&$job['stages']['align']['status']!=='complete'){
+            if(in_array($target['status'],['starting','running'],true)){
+                $target['status']='pending';
+                unset($target['lease'],$target['dispatch_token'],$target['cloud_operation'],$target['cloud_operation_recorded_at'],$target['cloud_job']);
+                event($state,$id,'Research waiting for completed alignment');
+            }
+            return null;
+        }
         if ($job['status'] === 'failed' && !(in_array($stageName,['enrich','align'],true)&&in_array($target['status'],['starting','running'],true))) return null;
         if ($target['status'] === 'complete') return ['complete' => true, 'result' => $target['result'] ?? null];
         $claimId=(string)($input['claim_id'] ?? '');
@@ -401,6 +497,21 @@ function worker_update(array &$state, array $input, string $role): mixed {
     }
     if (!isset($target['lease']) || $target['lease']['expires'] <= $now ||
         !hash_equals($target['lease']['token'], (string)($input['lease'] ?? ''))) throw new RuntimeException('Worker lease expired or replaced');
+    if(in_array($op,['enrichment_checkpoint','research_defer'],true)){
+        if($stageName!=='enrich'||$role!=='enrich')throw new WorkflowConflict('Card research access denied');
+        if($op==='enrichment_checkpoint'){
+            $uri=(string)($input['enrichment_uri']??'');if(!preg_match('#^gs://[a-z0-9.-]+/enrichment/'.preg_quote($id,'#').'/metadata-[a-f0-9]{64}\.json$#D',$uri))throw new InvalidArgumentException('Invalid editorial checkpoint');
+            $stage['result']['enrichment_uri']=$uri;return true;
+        }
+        $kind=(string)($input['kind']??'provider');$message=mb_substr((string)($input['message']??'Research is waiting'),0,600);
+        $manual=in_array($kind,['auth','setup','decision'],true);
+        $stage['status']=$manual?'needs_review':'pending';$stage['retry_after']=time()+max(60,min(86400,(int)($input['retry_after']??900)));
+        $job['status']=$manual?'needs_review':'queued';
+        if($manual)$job['research_attention']=['kind'=>$kind,'message'=>$message,'phase'=>(string)($input['phase']??''),
+            'another_editor_pass'=>($input['phase']??'')==='editor'&&($job['card_research']['checkpoint']['plan']['hybrid']['calls']['editor']??0)>0];
+        if($manual)notify_event($state,$id.'-research-'.($input['phase']??'setup').'-'.($job['card_research']['version']??0),'case_review',$job['review']['id']??$id.'-review',$id);
+        unset($stage['lease'],$stage['dispatch_token']);event($state,$id,'Card research: '.$message);return true;
+    }
     if ($op === 'heartbeat') {
         $target['lease']['expires'] = $now + 180;
         $target['progress'] = max($target['progress'], min(1, max(0, (float)($input['progress'] ?? 0))));
@@ -418,9 +529,16 @@ function worker_update(array &$state, array $input, string $role): mixed {
             if ($stageName === 'upload') {
                 if(empty($target['result']['postprocessing_complete']))throw new RuntimeException('Upload post-processing incomplete');
                 $job['title']=$target['result']['title'] ?? $job['selected_title'] ?? $job['stages']['enrich']['result']['title'] ?? $job['title'];
+                $privacy=$target['result']['privacy'] ?? 'unlisted';
+                if(in_array($privacy,['public','unlisted','private'],true))$job['privacy']=$privacy;
+                if(!empty($job['render_revision']['upload_requested_at'])&&($job['render_revision']['upload_sha256']??'')===($job['stages']['assemble']['result']['sha256']??''))$job['render_revision']['upload_matches_current']=true;
                 $job['status'] = 'complete';notify_event($state,$id.'-ready-'.($target['result']['video_id'] ?? ''),'ready',$job['review']['id'] ?? '',$id);
             }
             event($state, $id, $stageName . ' complete');
+            if($stageName==='assemble'&&($job['render_revision']['status']??'')==='queued'){
+                $job['render_revision']['status']='complete';$job['render_revision']['finished_at']=gmdate('c');
+                $job['status']='complete';event($state,$id,'Corrected MP4 is ready to download. The existing YouTube upload is unchanged.');
+            }
             reconcile_recoveries($state);
         }
     } elseif ($op === 'note'){
@@ -428,6 +546,10 @@ function worker_update(array &$state, array $input, string $role): mixed {
     } elseif ($op === 'checkpoint' && $stageName === 'upload') {
         $target['checkpoint'] = $input['checkpoint'] ?? [];
     } elseif ($op === 'fail') {
+        if(($input['error']??'')==='transport'&&isset($stage['_launch'])){
+            if(!empty($target['checkpoint']['creation_pending'])&&empty($target['checkpoint']['video_id']))$input['error']='upload_uncertain';
+            else{$target['status']='pending';unset($target['lease']);$stage['status']='running';event($state,$id,$stageName.': connection interrupted; resuming saved work when the execution closes');return true;}
+        }
         // Fixed error categories avoid leaking credentials or model output.
         $allowed = ['auth_required', 'invalid_inputs', 'alignment_review', 'worker_failed', 'upload_uncertain'];
         $error = in_array($input['error'] ?? '', $allowed, true) ? $input['error'] : 'worker_failed';
@@ -437,13 +559,15 @@ function worker_update(array &$state, array $input, string $role): mixed {
     } else { throw new InvalidArgumentException('Unknown worker operation'); }
     $job['updated_at'] = gmdate('c');
     if($op==='finish'&&$handoffStage&&!empty($input['continue_'.$handoffStage])){
+        if(!work_enabled($state,$job))return ['next'=>null];
         $identity=(string)($input['handoff_id'] ?? '');
         if(!preg_match('/^[a-f0-9]{32}$/D',$identity))throw new InvalidArgumentException('Invalid phase handoff');
         $stage['handoff_id']=$identity;$next=&$job['stages'][$handoffStage];
-        $baseline=(string)($input['baseline_sha256'] ?? '');
+        $baseline=(string)($input['release_id'] ?? $input['baseline_sha256'] ?? '');
         $patched=$job['workflow_releases'][$handoffStage] ?? $state['reusable_repairs'][$baseline][$handoffStage] ?? $job['workflow_release'] ?? null;
-        if($next['status']!=='pending'||$patched||($handoffStage==='enrich'&&(photo_active($state)||($state['auth_leases']['codex']['expires'] ?? 0)>time())))return ['next'=>null];
+        if($next['status']!=='pending'||$patched||($handoffStage==='enrich'&&($job['stages']['align']['status']!=='complete'||codex_work_reserved($state))))return ['next'=>null];
         $next['status']='starting';$next['attempt']++;$next['started_at']=gmdate('c');$next['dispatch_token']=bin2hex(random_bytes(24));
+        if(isset($stage['_launch'])){$next['_launch']=$stage['_launch'];$next['_launch']['owner']=['kind'=>'stage','job'=>$id,'stage'=>$handoffStage];}
         if(isset($stage['cloud_operation'])){$next['cloud_operation']=$stage['cloud_operation'];$next['cloud_operation_recorded_at']=gmdate('c');}if(isset($stage['cloud_job']))$next['cloud_job']=$stage['cloud_job'];
         event($state,$id,'Starting '.$handoffStage.' in the '.$stageName.' worker');
         return ['next'=>['stage'=>$handoffStage,'job'=>$job,'dispatch_token'=>$next['dispatch_token']]];

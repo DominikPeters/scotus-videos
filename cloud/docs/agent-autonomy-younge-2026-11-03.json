@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-03",
+  "status": "deployed_and_younge_rerender_complete",
+  "release": "worker-20261103-75c411f7",
+  "images": {
+    "pipeline": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/pipeline@sha256:a15407b0e27ab3d5caa1a02fab7edf8104516ff61433adce80d130497a69d86c",
+    "control": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/control@sha256:bd64bbf5e92d22c656070b55a15c5325698e084a59a1dbd3024fdd529f5597b6",
+    "statistics": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/statistics@sha256:a1ed7f973815fcaf855583077f006d20212545105bd8d7121e8b54b2b9ad7a30"
+  },
+  "builds": {
+    "control": "671f13c9-8e3e-48b4-a6aa-52904094d6f6",
+    "pipeline": "e65ecf6a-c879-490d-8f42-a27b84e930b2",
+    "statistics": "cfc58d30-09b9-4f00-8d34-68f85760454f",
+    "first_attempt_success": true,
+    "machine_override": false
+  },
+  "checks": {
+    "local_worker_tests": 352,
+    "local_worker_skipped": 4,
+    "isolated_release_tests": 354,
+    "isolated_release_skipped": 4,
+    "isolated_release_passed": true,
+    "php_fixtures_passed": 26,
+    "browser": "passed including corrected MP4 and publication-state notice",
+    "dedicated_statistics_tests_passed": 16,
+    "encoded_opening_proof": {
+      "seconds": 8,
+      "frames": 160,
+      "width": 3840,
+      "height": 2160,
+      "fps": 20
+    },
+    "finished_cloud_mp4": {
+      "status": 206,
+      "content_range": "bytes 0-63/221323525",
+      "content_type": "application/octet-stream",
+      "expires_seconds": 900,
+      "mp4_header": true,
+      "cloud_opening_frames_seconds": [
+        4.95,
+        5.5
+      ],
+      "visual_inspection": "Opening facts/question screen still visible at 4.95 seconds; transcript and first card visible at 5.5 seconds."
+    }
+  },
+  "agent_changes": [
+    "outcome-first research/repair authority",
+    "broader workflow and ordinary-test repair scope",
+    "searchable reference lessons and compact starting context",
+    "owned JSON artifact file export and native image diagnostics",
+    "bounded audio extraction, waveform and signal diagnostics (no native audio listening claim)",
+    "1200-second reasoning window, same-turn wrap-up steering and durable checkpoints"
+  ],
+  "younge": {
+    "recording": "2026-11-02-25-352-argument-1",
+    "dashboard": "https://scotusstats.com/youtube/#/case/2026-11-02-25-352-argument-1",
+    "revision": 1,
+    "previous_opening_seconds": 0.05,
+    "corrected_opening_seconds": 5,
+    "total_frames": 66875,
+    "fps": 20,
+    "completed_chunks": 12,
+    "unchanged": {
+      "prepare": true,
+      "align": true,
+      "enrich": true,
+      "upload": true,
+      "review": true,
+      "approved_photos": true,
+      "card_selections": true,
+      "cards_approved_revision": true,
+      "privacy": true
+    },
+    "new_assembly": {
+      "video_uri": "gs://possible-cycle-237715-scotus-video-media/scratch/2026-11-02-25-352-argument-1/assemble/attempt-2/ccaa3114662e401694da37117fb081c4/video.mp4",
+      "sha256": "c91486d24b10c66e3e8e234b3158832cd023e3e9d3aeff8931aca4e5b46108ff",
+      "manifest_uri": null,
+      "frames": 66875,
+      "verification": "mp4_header",
+      "timings_seconds": {
+        "chunks": 3.64,
+        "audio": 0.36,
+        "mux": 3.64,
+        "check": 0.22,
+        "save": 3.66
+      }
+    },
+    "previous_sha256": "03c0c1f5f2c315a5955a6d424b779e0d510432a6936ba6e307df86d75d2f75a2",
+    "existing_youtube_url": "https://www.youtube.com/watch?v=lRtV5ymtLZk",
+    "existing_upload_privacy": "unlisted",
+    "replacement_upload_performed": false,
+    "model_calls_for_rerender": false,
+    "completed_at": "2026-11-03T18:10:56+00:00"
+  },
+  "hybrid_backend": {
+    "code_deployed": true,
+    "provider_switch_performed": false,
+    "credential_import_performed": false,
+    "live_provider_smoke_performed": false
+  },
+  "local_receipts_directory": "/private/tmp/scotus-autonomy-rerender-nov3"
+}

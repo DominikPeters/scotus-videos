@@ -8,6 +8,14 @@ import re
 
 
 STAGES = ('prepare', 'enrich', 'align', 'plan', 'render', 'assemble', 'upload')
+# Execution dependencies differ from the historical dashboard display order.
+STAGE_ORDER = ('prepare', 'align', 'enrich', 'plan', 'render', 'assemble', 'upload')
+
+
+def removed_render_chunks(job):
+    deleted=set(job.get('chunk_cleanup',{}).get('deleted_indices',[]))
+    return {i for i,task in enumerate(job['stages'].get('render',{}).get('tasks',[]))
+            if i in deleted or task.get('result',{}).get('video_deleted_at')}
 
 
 def alignment_cpus(job, cloud=None):

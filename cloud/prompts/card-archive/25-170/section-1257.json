@@ -1,0 +1,17 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "section-1257",
+  "kind": "Statute",
+  "title": "28 U.S.C. § 1257(a) — review of state-court decisions",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Statute",
+    "heading": "28 U.S.C. § 1257(a) — review of state-court decisions",
+    "text": "<mark>Final judgments or decrees</mark> rendered by the highest court of a State in which a decision could be had, may be reviewed by the Supreme Court by writ of certiorari where … any title, right, privilege, or immunity is specially set up or claimed under the Constitution or the treaties or statutes of … the United States.",
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+      "final determination from the state court"
+    ]
+  }
+}

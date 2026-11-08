@@ -146,7 +146,7 @@ def postprocess(session, video_id, job, settings, cloud, lease, checkpoint):
         save(comment_done=True,comment_id=found['id'])
     save(postprocessing_complete=True)
     return {'video_id':video_id,'video_url':'https://www.youtube.com/watch?v='+video_id,
-            'privacy':'unlisted','postprocessing_complete':True,'title':videos[0]['snippet'].get('title',job.get('selected_title') or interactions['youtube_title']),'playlist_skipped':not bool(playlist)}
+            'privacy':videos[0].get('status',{}).get('privacyStatus','unlisted'),'postprocessing_complete':True,'title':videos[0]['snippet'].get('title',job.get('selected_title') or interactions['youtube_title']),'playlist_skipped':not bool(playlist)}
 
 
 def apply_video_action(session,job,action,settings):

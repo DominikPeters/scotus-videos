@@ -1,0 +1,17 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "rule-61",
+  "kind": "Rule",
+  "title": "Rule 61 — Harmless error",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Rule",
+    "heading": "Rule 61 — Harmless error",
+    "text": "Unless justice requires otherwise, <mark>no error</mark> in admitting or excluding evidence—or any other error by the court or a party—is ground for granting a new trial, for setting aside a verdict, or for vacating, modifying, or otherwise disturbing a judgment or order.",
+    "source": "Federal Rules of Civil Procedure, Rule 61, first sentence",
+    "highlight": [
+      "first sentence of Rule 61"
+    ]
+  }
+}

@@ -1,5 +1,5 @@
 // Service worker: Web Push, notification taps, and an offline copy of the app shell.
-const SHELL = 'shell-v9';
+const SHELL = 'shell-v20';
 const FILES = ['./', 'app.css', 'main.js', 'api.js', 'dom.js', 'model.js', 'ui.js', 'push.js',
   'view-list.js', 'view-clips.js', 'view-case.js', 'view-settings.js', 'brand-icons.svg', 'manifest.webmanifest', 'icon-180.png', 'icon-192.png'];
 

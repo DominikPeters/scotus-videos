@@ -66,6 +66,7 @@ function pending_questions(array $state,string $job): array {
 /** What a recording needs from the owner; the dashboard computes the same list in model.js. */
 function attention(array $state,array $job): array {
     $id=$job['id'];$todo=[];
+    if(!empty($job['research_attention']))$todo[]='Card research needs your decision';
     $editable=$job['status']!=='cancelled'&&$job['stages']['plan']['status']==='pending';
     $questions=count(pending_questions($state,$id));
     foreach($state['recoveries'] ?? [] as $rec)if($rec['job']===$id&&($job['stages'][$rec['stage']]['status'] ?? '')!=='complete'){
@@ -73,7 +74,8 @@ function attention(array $state,array $job): array {
         if($rec['status']==='waiting_for_resource')$todo[]='Repair paused: daily budget reached';
     }
     if($questions)$todo[]=$questions===1?'Codex has a question':"Codex has $questions questions";
-    if(($editable||!empty($job['annotation_revision_only']))&&cards_pending($job))$todo[]=count($job['review']['cards']).' annotation '.(count($job['review']['cards'])===1?'card':'cards').' to review';
+    if(in_array($job['card_import']['status']??'',['failed','needs_rebind'],true))$todo[]='Card import needs attention';
+    elseif(($editable||!empty($job['annotation_revision_only']))&&!empty($job['review']['cards'])&&cards_pending($job)&&!in_array($job['card_import']['status']??'',['uploading','queued','starting','running','waiting_for_metadata'],true))$todo[]=count($job['review']['cards']).' annotation '.(count($job['review']['cards'])===1?'card':'cards').' to review';
     $busy=[];foreach($job['photo_requests'] ?? [] as $r)if(in_array($r['status'],['queued','starting','running'],true))$busy[$r['person']]=true;
     $portraits=0;foreach(array_keys($job['review']['photos'] ?? []) as $person)if(empty($job['approved_photos'][$person])&&empty($busy[$person]))$portraits++;
     if($editable&&$portraits)$todo[]=$portraits.' '.($portraits===1?'portrait':'portraits').' to approve';
@@ -101,7 +103,9 @@ function attention(array $state,array $job): array {
 }
 
 function attention_count(array $state): int {
-    return count(array_filter($state['jobs'] ?? [],fn($job)=>(bool)attention($state,$job)));
+    // Publishing may wait deliberately; the badge counts only work held up by the owner.
+    $waiting=['Ready to publish','Ready to publish on Spotify'];
+    return count(array_filter($state['jobs'] ?? [],fn($job)=>(bool)array_diff(attention($state,$job),$waiting)));
 }
 
 /** Title, text and deep link for one outbox entry, or null when it no longer applies. */
@@ -119,9 +123,9 @@ function notification_payload(array $state,array $item): ?array {
     $todo=attention($state,$job);
     switch($item['kind']){
         case 'case_review':case 'photos':
-            if(!array_filter($todo,fn($t)=>str_contains($t,'card')||str_contains($t,'portrait'))&&
+            if(!array_filter($todo,fn($t)=>str_contains($t,'card')||str_contains($t,'portrait')||str_contains($t,'research'))&&
                !array_filter($job['photo_requests'] ?? [],fn($r)=>$r['status']==='failed'))return null;
-            $body=implode(' · ',array_filter($todo,fn($t)=>str_contains($t,'card')||str_contains($t,'portrait')));
+            $body=implode(' · ',array_filter($todo,fn($t)=>str_contains($t,'card')||str_contains($t,'portrait')||str_contains($t,'research')));
             if($body==='')$body='A portrait request failed.';break;
         case 'question':
             $questions=pending_questions($state,$id);

@@ -1,6 +1,7 @@
 """Bounded cloud integration probes; no uploads or public video are created."""
 import asyncio,json,os,tempfile,uuid
 from pathlib import Path
+from .secret_store import runtime_settings
 from .google import Google
 from .remote import Dashboard
 
@@ -77,7 +78,7 @@ def rendering(settings,cloud,folder):
 def main():
     if not os.environ.get('CLOUD_RUN_JOB'):raise RuntimeError('Cloud-only probes')
     kind=os.environ['SCOTUS_SMOKE_KIND'];mount='recovery' if kind=='native' else 'worker'
-    settings=json.loads(Path('/secrets/'+mount+'/config.json').read_text());cloud=Google(settings['project'])
+    settings=runtime_settings('/secrets/'+mount+'/config.json');cloud=Google(settings['project'])
     with tempfile.TemporaryDirectory() as temp:
         folder=Path(temp);report=(native if kind=='native' else rendering)(settings,cloud,folder)
         path=folder/'report.json';path.write_text(json.dumps(report));cloud.storage_upload(path,os.environ['SCOTUS_SMOKE_REPORT'],'application/json');print(json.dumps(report))

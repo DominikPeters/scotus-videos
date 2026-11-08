@@ -50,6 +50,9 @@ class CardTests(unittest.TestCase):
  def test_quotes_normalize_typography_without_inventing_words(self):
   self.assertEqual(normalized('“for cause”'),normalized('"for cause"'))
   self.assertNotEqual(normalized('may remove'),normalized('must remove'))
+  for marked,plain in [('<mark>party</mark>—is','party—is'),('word—<i>next</i>','word—next'),('for<mark>feit</mark>ure','forfeiture'),('a<br>b','a b')]:
+   self.assertEqual(normalized(marked),normalized(plain))
+  self.assertNotEqual(normalized('may <mark>remove</mark>'),normalized('may retain'))
  def test_pdf_double_quote_typography(self):
   self.assertEqual(normalized('The term ‘‘consumer’’ means any renter.'),normalized('The term “consumer” means any renter.'))
   self.assertEqual(normalized('any <mark>person</mark>, in commerce'),normalized('any person, in commerce'))

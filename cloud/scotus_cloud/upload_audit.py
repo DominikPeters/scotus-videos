@@ -3,13 +3,14 @@ import json,os,tempfile
 from pathlib import Path
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import AuthorizedSession
+from .secret_store import runtime_settings
 from .google import Google
 from .remote import Dashboard
 from .youtube import inspect_upload
 
 
 def main():
-    settings=json.loads(Path('/secrets/worker/config.json').read_text());cloud=Google(settings['project'])
+    settings=runtime_settings('/secrets/worker/config.json');cloud=Google(settings['project'])
     dashboard=Dashboard(settings['dashboard_url'],settings['worker_key'],'upload')
     job=dashboard.call('upload_audit_context',job=os.environ['SCOTUS_JOB_ID'],action_id=os.environ['SCOTUS_AUDIT_ACTION'])
     token=dashboard.call('auth_claim',name='youtube')

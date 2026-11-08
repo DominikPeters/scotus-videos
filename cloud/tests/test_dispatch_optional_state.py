@@ -14,6 +14,7 @@ class DispatchOptionalStateTests(unittest.TestCase):
         dashboard=Mock()
         def call(op,**kwargs):
             if op=='snapshot':return snapshot
+            if op=='launch_prepare':return {'id':'run-1','claimed':True}
             if op=='dispatch':return {'job':job,'dispatch_token':'test-token'}
             return None
         dashboard.call.side_effect=call

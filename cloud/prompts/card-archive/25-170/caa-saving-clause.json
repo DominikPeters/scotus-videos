@@ -1,0 +1,17 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "caa-saving-clause",
+  "kind": "Statute",
+  "title": "42 U.S.C. § 7416 — the Clean Air Act’s saving clause",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Statute",
+    "heading": "42 U.S.C. § 7416 — the Clean Air Act’s saving clause",
+    "text": "… nothing in this chapter shall <mark>preclude or deny the right of any State</mark> or political subdivision thereof to adopt or enforce (1) any standard or limitation respecting emissions of air pollutants or (2) any requirement respecting control or abatement of air pollution; …",
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+      "in the saving clause"
+    ]
+  }
+}

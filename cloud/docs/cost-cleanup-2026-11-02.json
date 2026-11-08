@@ -1,0 +1,161 @@
+{
+  "completed_at_utc": "2026-11-01T23:33:30.682670+00:00",
+  "project": "possible-cycle-237715",
+  "region": "us-central1",
+  "deployment": {
+    "services": 3,
+    "jobs": 21,
+    "images": {
+      "control": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/control@sha256:ac520d2e3172cfc92c7b548b6366a3174b985608729dc717f70cdf9a8dc9bf39",
+      "pipeline": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/pipeline@sha256:0a0f42586673f91710ae9f4fc77ee6b39acaef49c9d22f09e6dd334d26b6aa38",
+      "auth": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/auth@sha256:f4701a93bdb071c43067954105c13f9c3be513b82341f6be82994bc665cd35ca",
+      "statistics": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/statistics@sha256:a6b6fea66be85310d34e58eea05b27ce85612721fa69d533002fbf0e35dcf965",
+      "assets": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/assets@sha256:ee17f391e8344913bc3f75b0eaa718dd0dfed1ab3551a6a31de46cf69567051e",
+      "clips": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/clips@sha256:ce425c54626ec6f057b1c89bb514543f0baeb9466ae6be0244587434de5e290e",
+      "tiktok": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/tiktok@sha256:3263f576fb3de66682303a12973ddfb2acbffe41b577780af92fe3c1a7f2bdf9",
+      "actions": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/actions@sha256:adbb7972ea3f020e25c9c1589e7bc6831d14dbcded1bf346b1c40ebf89076f86",
+      "spotify": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/spotify@sha256:1b85dd86b06064cd838d256c5b099f49fb24ddb48b89b87fb05aea19e0da422a"
+    },
+    "workflow_baseline_sha256": "7a6b3bbf9c8847b0e7fb19759d9ab46dcbbf36b5419a4321a823bbc9444497a6",
+    "pipeline_layers": 5
+  },
+  "secrets": {
+    "current_groups": [
+      "scotus-internal",
+      "scotus-publishing",
+      "scotus-research"
+    ],
+    "usable_versions": {
+      "scotus-internal": 1,
+      "scotus-research": 1,
+      "scotus-publishing": 1
+    },
+    "legacy_objects_deleted": 26,
+    "legacy_runtime_references": 0,
+    "unchanged_probe_writes_created_versions": 0,
+    "writer_locks_at_verification": 0
+  },
+  "cleanup": {
+    "obsolete_scheduler_job_deleted": "scotus-beaird-20261013-source-watch",
+    "scratch_objects_deleted": 25,
+    "scratch_bytes_deleted": 8804225,
+    "referenced_scratch_objects_preserved": 84,
+    "temporary_test_objects_removed": 2,
+    "resources_with_unused_secret_volume_definitions_removed": 21,
+    "build_source_and_log_retention_days": 30,
+    "browser_vm_and_disk_absent": true
+  },
+  "verification": {
+    "credential_probe_jobs_passed": 20,
+    "initial_statistics_probe_corrected": "Added missing nonsecret project identifier; retried only that job",
+    "isolated_recovery_tests_run": 277,
+    "isolated_recovery_tests_skipped": 4,
+    "isolated_recovery_suite_passed": true,
+    "post_retirement_services_passed": 3,
+    "protected_current_image_packages": 9
+  },
+  "restored": {
+    "public_controller_access_restored": true,
+    "signed_public_controller_status": 200,
+    "dashboard_paused": false,
+    "scheduler_state": "ENABLED"
+  },
+  "build_submissions": [
+    {
+      "package": "control",
+      "id": "d55fa551-9ee1-46cd-aede-da4561249fd3",
+      "status": "SUCCESS",
+      "machine_override": null,
+      "start": "2026-11-01T22:51:13.938650328Z",
+      "finish": "2026-11-01T22:51:42.946385Z"
+    },
+    {
+      "package": "pipeline",
+      "id": "8580f6bd-fb8e-4811-a2fd-ebb96eefdc27",
+      "status": "FAILURE",
+      "machine_override": null,
+      "start": "2026-11-01T22:51:19.108326054Z",
+      "finish": "2026-11-01T22:53:04.861714Z"
+    },
+    {
+      "package": "pipeline",
+      "id": "dc476725-9ecf-499a-9c0a-7a160db92b8c",
+      "status": "SUCCESS",
+      "machine_override": null,
+      "start": "2026-11-01T22:55:05.455219660Z",
+      "finish": "2026-11-01T23:04:22.815532Z"
+    },
+    {
+      "package": "control",
+      "id": "b5e12030-7dde-457a-9ae9-2c3bd1517e27",
+      "status": "SUCCESS",
+      "machine_override": null,
+      "start": "2026-11-01T22:55:01.376841092Z",
+      "finish": "2026-11-01T22:55:30.659164Z"
+    },
+    {
+      "package": "pipeline",
+      "id": "62e01b85-3739-4a82-9028-c176c0078b35",
+      "status": "SUCCESS",
+      "machine_override": null,
+      "start": "2026-11-01T23:05:22.192469170Z",
+      "finish": "2026-11-01T23:06:32.199389Z"
+    },
+    {
+      "package": "auth",
+      "id": "1a99b0a6-6e63-43aa-8c63-e8a6733d6805",
+      "status": "SUCCESS",
+      "machine_override": null,
+      "start": "2026-11-01T22:51:38.062618673Z",
+      "finish": "2026-11-01T22:53:24.578719Z"
+    },
+    {
+      "package": "statistics",
+      "id": "857cb803-c7b4-422a-8163-c8aff03cfdab",
+      "status": "SUCCESS",
+      "machine_override": null,
+      "start": "2026-11-01T22:51:41.590971591Z",
+      "finish": "2026-11-01T22:54:13.792036Z"
+    },
+    {
+      "package": "assets",
+      "id": "c3da786b-c3a0-463b-8ed0-9e3f671e444d",
+      "status": "SUCCESS",
+      "machine_override": null,
+      "start": "2026-11-01T22:51:44.382812267Z",
+      "finish": "2026-11-01T22:52:11.605961Z"
+    },
+    {
+      "package": "clips",
+      "id": "01e062f5-6a13-43ce-8dae-c64286991f91",
+      "status": "SUCCESS",
+      "machine_override": null,
+      "start": "2026-11-01T22:51:47.117225187Z",
+      "finish": "2026-11-01T22:55:15.462507Z"
+    },
+    {
+      "package": "tiktok",
+      "id": "1ed20d7f-16dd-452f-bdc4-cbd802e6be05",
+      "status": "SUCCESS",
+      "machine_override": null,
+      "start": "2026-11-01T22:52:11.858064980Z",
+      "finish": "2026-11-01T22:56:17.602110Z"
+    },
+    {
+      "package": "actions",
+      "id": "1e34b48c-78ef-43e0-a071-166e22f89545",
+      "status": "SUCCESS",
+      "machine_override": null,
+      "start": "2026-11-01T22:53:24.884215203Z",
+      "finish": "2026-11-01T22:53:45.873384Z"
+    },
+    {
+      "package": "spotify",
+      "id": "112fa4de-6c9e-4c49-b60d-178523a7000b",
+      "status": "SUCCESS",
+      "machine_override": null,
+      "start": "2026-11-01T22:53:05.086296803Z",
+      "finish": "2026-11-01T22:53:27.492414Z"
+    }
+  ]
+}

@@ -7,9 +7,11 @@ from urllib.request import Request,urlopen
 from urllib.error import HTTPError,URLError
 from urllib.parse import urlsplit
 
+from .secret_store import runtime_settings
 from .google import Google
 from .remote import Dashboard,signature
 from .diagnostics import Redactor
+from .releases import image_source,image_release
 from .repair_policy import baseline_files,validate_changes,verify_release,EDITABLE,file_hash,file_stages,changed_files
 from .model import digest_json
 from .control import validate_secret
@@ -31,7 +33,8 @@ def definitions():
         'tests':({},[],'Run isolated regression checks on the candidate patch.'),
         'poll':({'action':{'type':'string'}},['action'],'Inspect an owned test action.'),
         'retry':({'action':{'type':['string','null']},'reusable':{'type':'boolean'},'reuse_reason':{'type':'string'},'restart_from':{'type':['string','null'],'enum':[None,'prepare','enrich','align','plan','render','assemble','upload']}},['action'],'Retry using a tested patch. Set restart_from to an upstream phase when that code caused the downstream failure. Preserve approvals, invalidate its dependent artifacts, and never rewind an existing upload. Mark general fixes reusable with a reason.'),
-        'artifact':({'stage':{'type':'string'},'field':{'type':'string'},'offset':{'type':'integer','minimum':0}},['stage','field','offset'],'Inspect bounded text/JSON artifacts from this recording; no media or arbitrary URLs.'),
+        'artifact':({'stage':{'type':'string'},'field':{'type':'string'},'offset':{'type':'integer','minimum':0},'export_file':{'type':'boolean'}},['stage','field','offset'],'Inspect owned JSON artifacts. export_file=true writes the complete artifact into input/artifacts/ for native search and analysis without loading it into context. Upload state is always redacted.'),
+        'media':({'kind':{'type':'string','enum':['thumbnail','frame','card','audio']},'card_id':{'type':'string'},'start':{'type':'number','minimum':0},'duration':{'type':'number','minimum':1,'maximum':60}},['kind'],'Inspect this recording’s image, or export up to 60 seconds of audio and its waveform into input/media/ for local analysis. No arbitrary URLs or external writes.'),
         'refresh_sources':({},[],'For failed preparation, refresh source links only from the official listing for this same docket and argument date.'),
         'inspect_upload':({},[],'Read matching recent channel uploads using the isolated uploader; returns an action to poll.'),
         'adopt_upload':({'action':{'type':'string'},'video_id':{'type':'string'}},['action','video_id'],'Use a verified existing video only after an operator answer to question upload-identity selects this video ID.'),
@@ -67,12 +70,12 @@ class RPC:
 class RepairTools:
     def __init__(self,settings,dashboard,cloud,rec,workspace,redactor):
         self.settings,self.dashboard,self.cloud,self.rec,self.workspace,self.redactor=settings,dashboard,cloud,rec,workspace,redactor
-        self.baseline=baseline_files(ROOT);self.questions=False;self.waiting=False
+        self.baseline=image_source(ROOT);self.release_id=(image_release(ROOT) or {}).get("id");self.questions=False;self.waiting=False;self.wait_status='waiting_for_tests'
     def call(self,op,**data):return self.dashboard.call(op,recovery=self.rec['id'],lease=self.rec['lease'],**data)
     def broker(self,name,args,call_id):
         path='/v1/recovery';url=self.settings['control_url']+path
         body=json.dumps({'recovery':self.rec['id'],'lease':self.rec['lease'],'tool':name,'arguments':args,'call_id':call_id}).encode()
-        safe=name in ('context','logs','source_info','artifact','poll','reconcile_action')
+        safe=name in ('context','logs','source_info','artifact','media','poll','reconcile_action')
         for attempt in range(3 if safe else 1):
             now=str(int(time.time()));nonce=uuid.uuid4().hex
             headers={'Content-Type':'application/json','X-Scotus-Time':now,'X-Scotus-Nonce':nonce,
@@ -99,16 +102,20 @@ class RepairTools:
         self.call('recovery_check')
         if name=='repair_sync_sources':
             info=self.broker('source_info',{},call_id)
-            baseline=self.cloud.storage_json(info['baseline_uri'],max_bytes=1048576)
-            if digest_json(baseline)!=info['baseline_sha256']:raise ValueError('Source snapshot hash differs')
+            baseline=self.cloud.storage_json(info.get('source_uri',info.get('baseline_uri')),max_bytes=3145728)
+            if not info.get('release_id') and digest_json(baseline)!=info['baseline_sha256']:raise ValueError('Source snapshot hash differs')
             edits=changed_files(self.workspace,self.baseline)
             keep={key:text for key,text in edits.items() if baseline.get(key)==self.baseline.get(key)}
             for key in edits:
                 if key not in keep and key not in baseline:(self.workspace/key).unlink(missing_ok=True)
             for key,text in {**baseline,**keep}.items():
                 p=self.workspace/key;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(text)
-            self.baseline=baseline
-            return {'baseline_sha256':digest_json(baseline),'preserved_edits':list(keep),'discarded_stale_edits':list(set(edits)-set(keep))}
+            self.baseline=baseline;self.release_id=info.get("release_id")
+            return {'release_id':self.release_id,'preserved_edits':list(keep),'discarded_stale_edits':list(set(edits)-set(keep))}
+        if name=='repair_refresh_sources':
+            result=self.broker('refresh_sources',args,call_id)
+            if result.get('status')=='refreshed':self.waiting=True;self.wait_status='waiting_for_stage'
+            return result
         if name=='repair_wait':
             result=self.call('recovery_wait',action_id=args['action']);self.waiting=True
             return {**result,'instruction':'Return waiting_for_tests now; the controller will resume this thread when the report arrives.'}
@@ -116,6 +123,14 @@ class RepairTools:
             if args['path']=='POLICY.md':return {'content':self.baseline['prompts/public-output-policy.md']}
             if args['path'] not in self.baseline and file_stages(args['path'],self.baseline) is None:raise ValueError('Unknown source file')
             return {'content':(self.workspace/args['path']).read_text()}
+        if name=='repair_media':
+            from .recovery_media import inspect_media
+            return inspect_media(self.broker('media',args,call_id),self.cloud,self.workspace)
+        if name=='repair_artifact' and args.get('export_file'):
+            result=self.broker('artifact',args,call_id)
+            if 'uri' not in result:return result
+            from .recovery_media import export_json
+            return export_json(result,self.cloud,self.workspace)
         if name=='repair_write_file':
             if self.questions:raise ValueError('Answer the pending question first')
             validate_changes(self.baseline,{args['path']:args['content']})
@@ -128,7 +143,7 @@ class RepairTools:
             return self.call('recovery_question',question_id=args['question_id'],message=self.redactor.text(args['message'],4000),options=self.redactor.value(args['options']))
         if name=='repair_tests':
             changed=changed_files(self.workspace,self.baseline)
-            release=validate_changes(self.baseline,changed)
+            release=validate_changes(self.baseline,changed,self.release_id)
             path=self.workspace/'release.json';path.write_text(json.dumps(release))
             uri=f"gs://{self.settings['bucket']}/recovery/workspaces/{self.rec['id']}/{uuid.uuid4().hex}.json"
             self.cloud.storage_upload(path,uri,'application/json')
@@ -140,8 +155,10 @@ class RepairTools:
 
 
 def saved_candidate(snapshot,baseline):
-    if snapshot.get('baseline_sha256')!=digest_json(baseline):return {}
     changed=snapshot.get('changed',{})
+    if 'base_files' in snapshot:
+        changed={name:text for name,text in changed.items() if (file_hash(baseline[name]) if name in baseline else None)==snapshot['base_files'].get(name)}
+    elif snapshot.get('baseline_sha256')!=digest_json(baseline):return {}
     if changed:validate_changes(baseline,changed)
     return changed
 
@@ -150,9 +167,9 @@ def checkpoint_session(settings,cloud,rec,home,workspace,tools,thread_id):
     paths=list((home/'sessions').rglob('*'+str(thread_id)+'*.jsonl')) if thread_id else []
     if not paths:return
     rollout=str(paths[0].relative_to(home))
-    snapshot={'thread_id':thread_id,'rollout_path':rollout,'rollout':paths[0].read_text(),'baseline_sha256':digest_json(tools.baseline),
-              'tool_catalog_sha256':digest_json(definitions()),
-              'changed':changed_files(workspace,tools.baseline)}
+    changed=changed_files(workspace,tools.baseline)
+    snapshot={'thread_id':thread_id,'rollout_path':rollout,'rollout':paths[0].read_text(),'release_id':tools.release_id,
+              'tool_catalog_version':3,'base_files':{name:file_hash(tools.baseline[name]) if name in tools.baseline else None for name in changed},'changed':changed}
     path=workspace/'session.json';path.write_text(json.dumps(snapshot))
     if path.stat().st_size>16777216:raise ValueError('Repair session exceeds private storage limit')
     uri=f"gs://{settings['bucket']}/recovery/sessions/{rec['id']}/{uuid.uuid4().hex}.json"
@@ -160,7 +177,8 @@ def checkpoint_session(settings,cloud,rec,home,workspace,tools,thread_id):
     tools.call('recovery_checkpoint',thread_id=thread_id,rollout_path=rollout,session_uri=uri)
 
 
-async def run_turn(settings,dashboard,cloud,rec,job,home,workspace,tools):
+async def run_turn(settings,dashboard,cloud,rec,job,home,workspace,tools,clock=None):
+    clock=clock or time.monotonic
     env=dict(os.environ,CODEX_HOME=str(home))
     for key in ('OPENAI_API_KEY','CODEX_API_KEY','CODEX_ACCESS_TOKEN'):env.pop(key,None)
     process=await asyncio.create_subprocess_exec('codex','app-server',cwd=workspace,env=env,
@@ -178,26 +196,37 @@ async def run_turn(settings,dashboard,cloud,rec,job,home,workspace,tools):
         else:
             params.update(ephemeral=False,dynamicTools=definitions());result=await rpc.request('thread/start',params)
         thread_id=result['thread']['id']
-        prompt={'failure':rec.get('diagnostic'), 'recording':job,'questions':rec.get('questions',{}),
-                'recent_recovery_log':rec.get('log',[])[-12:],'previous_conversation':rec.get('_prior_conversation'),
-                'instructions':'Use the repair tools. Log the cause, changes and validation. A question must end this worker turn. Never claim repaired without a stage retry.'}
-        await rpc.request('turn/start',{'threadId':thread_id,'input':[{'type':'text','text':json.dumps(prompt)}],
+        inputs=workspace/'input';inputs.mkdir(exist_ok=True)
+        (inputs/'failure.json').write_text(json.dumps(rec.get('diagnostic') or {},ensure_ascii=False))
+        if rec.get('_prior_conversation'):(inputs/'previous-conversation.txt').write_text(rec['_prior_conversation'])
+        prompt={'recording':{k:job.get(k) for k in ('id','case_name','docket','argument_date')},'failed_stage':rec.get('stage'),
+                'files':{'recording':'input/recording.json','failure':'input/failure.json','capabilities':'input/capabilities.json',
+                         'previous_conversation':'input/previous-conversation.txt' if rec.get('_prior_conversation') else None},
+                'questions':rec.get('questions',{}),'recent_findings':rec.get('log',[])[-6:],
+                'instructions':'Own restoring the intended workflow. Choose the investigation, use available files/tools, and preserve useful work. Record findings and verification. Ask only for a real owner decision; a question ends this worker turn.'}
+        started=await rpc.request('turn/start',{'threadId':thread_id,'input':[{'type':'text','text':json.dumps(prompt)}],
             'outputSchema':json.loads((ROOT/'schemas/recovery-result.schema.json').read_text())})
-        deadline=time.monotonic()+600;next_check=0;next_checkpoint=time.monotonic()+45
-        while time.monotonic()<deadline:
-            if time.monotonic()>=next_check:
-                tools.call('recovery_check');dashboard.call('auth_check',name='codex',token=settings['_auth_lease']);next_check=time.monotonic()+20
-            if time.monotonic()>=next_checkpoint:
-                await asyncio.to_thread(checkpoint_session,settings,cloud,rec,home,workspace,tools,thread_id);next_checkpoint=time.monotonic()+45
+        active_turn=started.get('turn',{}).get('id');warned=False
+        deadline=clock()+1200;next_check=0;next_checkpoint=clock()+45
+        while clock()<deadline:
+            if not warned and clock()>=deadline-200:
+                warned=True
+                if active_turn:await rpc.send({'id':'repair-wrap-up','method':'turn/steer','params':{'threadId':thread_id,'expectedTurnId':active_turn,
+                    'input':[{'type':'text','text':'About 200 seconds remain. Please wrap up soon: save findings, candidate changes and the next useful step. Finish essential validation or wait for an owned action. Do not start a broad new investigation.'}]}})
+            if clock()>=next_check:
+                tools.call('recovery_check');dashboard.call('auth_check',name='codex',token=settings['_auth_lease']);next_check=clock()+20
+            if clock()>=next_checkpoint:
+                await asyncio.to_thread(checkpoint_session,settings,cloud,rec,home,workspace,tools,thread_id);next_checkpoint=clock()+45
             try:message=await rpc.receive(10)
             except asyncio.TimeoutError:continue
             if message.get('method')=='item/tool/call':
                 p=message['params']
                 try:value=await asyncio.to_thread(tools.invoke,p['tool'],p['arguments'],p['callId']);success=True
                 except Exception as error:value={'error':tools.redactor.text(error,1000)};success=False
-                await rpc.send({'id':message['id'],'result':{'success':success,'contentItems':[{'type':'inputText','text':json.dumps(value)}]}})
+                content=value['contentItems'] if isinstance(value,dict) and set(value)=={'contentItems'} else [{'type':'inputText','text':json.dumps(value)}]
+                await rpc.send({'id':message['id'],'result':{'success':success,'contentItems':content}})
                 if tools.waiting:
-                    final=json.dumps({'status':'waiting_for_tests','private_summary':'Waiting for an isolated action; the saved recovery will resume automatically.',
+                    final=json.dumps({'status':tools.wait_status,'private_summary':'Waiting for the recorded action; normal processing will resume automatically.',
                         'checks':[],'workflow_patch_refs':[],'operator_messages':[]});break
             elif message.get('method')=='item/completed' and message['params']['item']['type']=='agentMessage':
                 final=message['params']['item'].get('text')
@@ -211,7 +240,7 @@ async def run_turn(settings,dashboard,cloud,rec,job,home,workspace,tools):
         if not final:raise RuntimeError('Repair returned no structured result')
         import jsonschema
         result=json.loads(final);jsonschema.validate(result,json.loads((ROOT/'schemas/recovery-result.schema.json').read_text()))
-        if tools.waiting:result['status']='waiting_for_tests'
+        if tools.waiting:result['status']=tools.wait_status
         return result,thread_id
     finally:
         if process.returncode is None:
@@ -227,11 +256,16 @@ def seed_workspace(workspace,baseline,job,stage,cloud):
         path=workspace/name;path.parent.mkdir(parents=True,exist_ok=True);path.write_text(text)
     if 'prompts/public-output-policy.md' in baseline:
         (workspace/'POLICY.md').write_text(baseline['prompts/public-output-policy.md'])
+    inputs=workspace/'input';inputs.mkdir(exist_ok=True)
+    (inputs/'recording.json').write_text(json.dumps(job,ensure_ascii=False))
+    (inputs/'capabilities.json').write_text(json.dumps({'editable_workflow':EDITABLE,
+        'tests':'Ordinary workflow tests may be updated; authority/credential/publication tests remain protected. See repair_policy.py.',
+        'reasoning_seconds':1200,'wrap_up_warning_seconds':200,'recording':job.get('id'),'stage':stage}))
     pointer=job['stages'][stage].get('workflow_release') or job.get('workflow_releases',{}).get(stage) or job.get('workflow_release')
     if pointer:
         release=cloud.storage_json(pointer['uri'],max_bytes=262144)
         if digest_json(release)!=pointer['sha256']:raise ValueError('Active workflow release hash differs')
-        verify_release(baseline,release)
+        verify_release(baseline,release,(image_release(ROOT) or {}).get("id"))
         for name,text in release['files'].items():
             stages=file_stages(name)
             if not stages or stage in stages:
@@ -240,7 +274,7 @@ def seed_workspace(workspace,baseline,job,stage,cloud):
 
 def main():
     if not os.environ.get('CLOUD_RUN_JOB'):raise RuntimeError('Repair workers run only on Cloud Run')
-    settings=json.loads(Path('/secrets/recovery/config.json').read_text());os.umask(0o077)
+    settings=runtime_settings('/secrets/recovery/config.json');os.umask(0o077)
     dashboard=Dashboard(settings['dashboard_url'],settings['dashboard_key'],'recovery');cloud=Google(settings['project'])
     claim=dashboard.call('recovery_claim',recovery=os.environ['SCOTUS_RECOVERY_ID'],dispatch_token=os.environ['SCOTUS_RECOVERY_TOKEN'])
     if not claim:return
@@ -253,11 +287,11 @@ def main():
             root=Path(folder);home=root/'auth';workspace=root/'workflow';home.mkdir();workspace.mkdir()
             original=cloud.secret(settings['codex_secret']);validate_secret('codex',json.loads(original))
             (home/'auth.json').write_bytes(original);(home/'config.toml').write_text('cli_auth_credentials_store = "file"\nforced_login_method = "chatgpt"\nweb_search = "live"\n')
-            baseline=baseline_files(ROOT)
+            baseline=image_source(ROOT)
             seed_workspace(workspace,baseline,job,rec['stage'],cloud)
             if rec.get('session_uri'):
                 snapshot=cloud.storage_json(rec['session_uri'],max_bytes=16777216)
-                if snapshot.get('tool_catalog_sha256')!=digest_json(definitions()):
+                if (snapshot['tool_catalog_version']!=3 if 'tool_catalog_version' in snapshot else snapshot.get('tool_catalog_sha256')!=digest_json(definitions())):
                     rec['_prior_conversation']=Redactor(settings,json.loads(original)).text(snapshot.get('rollout',''),32000)
                     previous=rec.pop('thread_id',None);rec.pop('rollout_path',None)
                     dashboard.call('recovery_log',recovery=rec['id'],lease=rec['lease'],kind='note',
@@ -272,6 +306,8 @@ def main():
                     dashboard.call('recovery_log',recovery=rec['id'],lease=rec['lease'],kind='note',
                         message='Workflow source was updated since the saved turn. Conversation retained; old candidate edits were not restored. Inspect current source before making another patch.')
             tools=RepairTools(settings,dashboard,cloud,rec,workspace,Redactor(settings,json.loads(original)))
+            rec['turns']=dashboard.call('recovery_turn_begin',recovery=rec['id'],lease=rec['lease'])['turns']
+            rec['_reasoning_started']=True
             try:result,thread_id=asyncio.run(run_turn(settings,dashboard,cloud,rec,job,home,workspace,tools))
             finally:
                 updated=(home/'auth.json').read_bytes()
@@ -281,7 +317,9 @@ def main():
                 else:tools.call('recovery_log',kind='note',message=tools.redactor.text(message['message'],4000))
             tools.call('recovery_finish',status=result['status'],summary=tools.redactor.text(result['private_summary'],4000))
     except Exception as error:
-        try:dashboard.call('recovery_finish',recovery=rec['id'],lease=rec['lease'],status='waiting_for_resource',summary=Redactor(settings).text(error,2000))
+        try:
+            if not rec.get('_reasoning_started'):dashboard.call('recovery_defer',recovery=rec['id'],lease=rec['lease'])
+            else:dashboard.call('recovery_finish',recovery=rec['id'],lease=rec['lease'],status='waiting_for_resource',summary=Redactor(settings).text(error,2000))
         except Exception:pass
     finally:
         if auth_lease:

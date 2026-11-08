@@ -1,0 +1,22 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "cox",
+  "kind": "Case",
+  "title": "<i>Cox Broadcasting Corp.</i> v. <i>Cohn</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+      "name": "<i>Cox Broadcasting Corp.</i> v. <i>Cohn</i>",
+      "details": "1975"
+    },
+    "text": "The Court held that it may review a state court’s final ruling on a federal issue while the case continues below, where reversal would end the case and refusing review could seriously erode federal policy.",
+    "source": "Summary based on the opinion of the Court (U.S. Reports)",
+    "highlight": [
+      "the Cox strand"
+    ]
+  }
+}

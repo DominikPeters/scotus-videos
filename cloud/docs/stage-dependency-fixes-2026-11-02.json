@@ -1,0 +1,45 @@
+{
+  "snapshot_scope": "Initial partial deployment before the later approved build batch",
+  "superseded_by": "release-2026-11-02.json",
+  "deployed": [
+    {
+      "file": "state.php",
+      "sha256": "35981498482a67e4610480ac31a7af3ad88fdeb2ff3e45bf8c6e00c46febf0f9"
+    },
+    {
+      "file": "recovery.php",
+      "sha256": "5bbdfe7f9109cab96e5eec9fe77eee918c2bb17249e7b244ebfd606e34d8f324"
+    },
+    {
+      "file": "photos.php",
+      "sha256": "e4b0442ccb6bece8ac82a7666928334f53d9fdc5206196ac5ec0a04cd1adf50d"
+    },
+    {
+      "file": "statistics.php",
+      "sha256": "afd22db65d25d9aaa385d2b885e23af915f7061ad33781fb5dbd7c465a357816"
+    }
+  ],
+  "project": "possible-cycle-237715",
+  "date": "2026-11-02",
+  "builds_submitted": 0,
+  "python_tests": {
+    "run": 283,
+    "skipped": 3,
+    "passed": true
+  },
+  "php_fixtures": {
+    "run": 23,
+    "passed": true
+  },
+  "pending_images": [
+    "control",
+    "pipeline"
+  ],
+  "pending_php": [
+    "recovery.php"
+  ],
+  "live_checks": [
+    "Passed all model-slot reservation orderings on deployed handlers.",
+    "Passed deployed reassembly rejection and manual chunk restoration."
+  ]
+}

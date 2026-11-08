@@ -1,0 +1,43 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "approaches",
+  "kind": "Circuit split",
+  "title": "An unpleaded defense at summary judgment",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Circuit split",
+    "heading": "An unpleaded defense at summary judgment",
+    "map": {
+      "below": "11",
+      "groups": [
+        {
+          "label": "Must amend the answer first",
+          "color": "#d07b63",
+          "circuits": [
+            "DC"
+          ]
+        },
+        {
+          "label": "Treat the motion as a motion to amend",
+          "color": "#6698ba",
+          "circuits": [
+            "10"
+          ]
+        },
+        {
+          "label": "Allowed if no prejudice",
+          "color": "#c9a23f",
+          "circuits": [
+            "11"
+          ]
+        }
+      ],
+      "labelOffsets": {}
+    },
+    "source": "Approaches discussed at argument: <i>Harris</i> (D.C. Cir. 1997), <i>Ahmad</i> (10th Cir. 2006), <i>Hassan</i> (11th Cir. 1988)",
+    "highlight": [
+      "three different approaches"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "qp-jurisdiction",
+  "kind": "Question presented",
+  "title": "added by the Court",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Question presented",
+    "heading": "added by the Court",
+    "text": "In addition to the question presented by the petition, the parties are directed to brief and argue the following question: Whether this Court has <mark>statutory and Article III jurisdiction</mark> to hear this case.",
+    "source": "Order granting certiorari · Feb. 23, 2026",
+    "highlight": [
+      "explain why we have jurisdiction"
+    ]
+  }
+}

@@ -9,6 +9,7 @@ import subprocess
 import tempfile
 import time
 
+from .secret_store import runtime_settings
 from .google import Google
 from .remote import Dashboard
 
@@ -154,7 +155,7 @@ def main():
     if not os.environ.get('CLOUD_RUN_JOB'):
         raise LoginError('sign_in_is_cloud_only')
     os.umask(0o077)
-    settings = json.loads(Path('/secrets/login/config.json').read_text())
+    settings = runtime_settings('/secrets/login/config.json')
     try:
         asyncio.run(asyncio.wait_for(sign_in(settings, os.environ.get('SCOTUS_AUTH_PROBE') == '1'), 850))
     except Exception:

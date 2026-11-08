@@ -11,6 +11,14 @@ import subprocess
 import tempfile
 
 
+def execution_active(execution):
+    status=execution.get('status',{})
+    if status.get('completionTime'):return False
+    # Failed imports can be terminal without startTime or completionTime.
+    completed=next((c for c in status.get('conditions',[]) if c.get('type')=='Completed'),{})
+    return completed.get('status') not in ('True','False')
+
+
 def refresh(project, region, gcloud='gcloud', protect=(), apply=False):
     def call(*args):
         result = subprocess.run([gcloud, *args, '--project='+project, '--format=json'],
@@ -39,7 +47,7 @@ def refresh(project, region, gcloud='gcloud', protect=(), apply=False):
                 if revision:
                     collect(call('run', 'revisions', 'describe', revision, '--region='+region))
     for execution in call('run', 'jobs', 'executions', 'list', '--region='+region):
-        if not execution.get('status', {}).get('completionTime'): collect(execution)
+        if execution_active(execution): collect(execution)
     protected = sorted(image for image in images if image.startswith(prefix))
     if not protected or any('@sha256:' not in image for image in protected):
         raise ValueError('Expected deployed images pinned to immutable digests')

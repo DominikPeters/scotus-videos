@@ -14,8 +14,18 @@ class RecoveryCapabilitiesTests(unittest.TestCase):
   baseline={'scotus_cloud/prepare.py':'x=1'}
   release=validate_changes(baseline,{'scotus_cloud/prepare.py':'x=2','scotus_cloud/repair_ext/prepare_names.py':'x=3','tests/test_repair_case_names.py':'import unittest'})
   self.assertEqual(release['stages'],['prepare'])
-  for path in ('scotus_cloud/control.py','scotus_cloud/repair_policy.py','presentation/renderer/index.html','prompts/public-output-policy.md','tests/test_existing.py','scotus_cloud/repair_ext/../control.py'):
+  for path in ('scotus_cloud/control.py','scotus_cloud/repair_policy.py','presentation/renderer/index.html','prompts/public-output-policy.md','tests/test_secret_store.py','tests/test_recovery_capabilities.py','scotus_cloud/repair_ext/../control.py'):
    with self.assertRaises(ValueError):validate_changes(baseline,{path:'x=2'})
+ def test_card_modules_and_existing_workflow_tests_can_be_repaired_together(self):
+  files={'scotus_cloud/card_pipeline.py':'x=1','scotus_cloud/claude_runner.py':'x=2','tests/test_hybrid_cards.py':'import unittest'}
+  self.assertEqual(validate_changes({},files)['stages'],['enrich'])
+ def test_renderer_bug_fix_requires_matching_manifest(self):
+  import hashlib
+  name='presentation/renderer/script.js';text='// Restores intended rendering behavior\n'
+  files={name:text,'presentation/sources.json':json.dumps({'renderer/script.js':{'sha256':hashlib.sha256(text.encode()).hexdigest()}})}
+  self.assertEqual(validate_changes({},files)['stages'],['plan','render'])
+  files[name]+='// Changed again'
+  with self.assertRaisesRegex(ValueError,'manifest'):validate_changes({},files)
  def test_new_helper_and_regression_files_are_applied_and_checkpointed(self):
   with tempfile.TemporaryDirectory() as folder:
    root=Path(folder);p=root/'scotus_cloud/prepare.py';p.parent.mkdir();p.write_text('x=1')

@@ -1,0 +1,161 @@
+{
+  "recorded_at": "2026-11-03T14:55:23.695450+00:00",
+  "release": "worker-20261103-e9308d07",
+  "status": "deployed",
+  "changes": {
+    "worker_release": "One image-owned identity and generated source; no copied whole-tree hash configuration",
+    "reviews": "Integer versions scoped to cards, titles and individual portraits; existing approvals retained",
+    "research": "Case-owned sources and designs; one current checkpoint with 100 events; transcript rebinding and preview invalidation",
+    "executions": "Durable launch intents and reconciliation for main pipeline/recovery/photo/asset/job video actions; bounded administrative retries and reasoning charged at model start",
+    "owner_operations": "Case-name status/source refresh and card-file import with production previews and explicit owner review",
+    "source_maintenance": "Check current official input before prep/alignment repair; changed inputs regenerate with independent work retained"
+  },
+  "builds": [
+    {
+      "kind": "control",
+      "id": "15743d24-8249-499b-9b84-cfbea91aac20",
+      "source_bytes": 205548,
+      "machine_type_override": null,
+      "status": "SUCCESS"
+    },
+    {
+      "kind": "pipeline",
+      "id": "d82fcf33-dbfd-4fb9-ba71-317efe9d8834",
+      "source_bytes": 2100341,
+      "machine_type_override": null,
+      "status": "SUCCESS"
+    }
+  ],
+  "images": {
+    "pipeline": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/pipeline@sha256:cbfd246ae9acf7ac5fbc7a0ae2885e2e770d933dc2c4bb6b5cbb64a27400e1b5",
+    "control": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/control@sha256:796a431c6191027ae3c6986c765e046ccfe64f3aa33027463578fb7e215dcec3"
+  },
+  "validation": {
+    "local_python_tests": 301,
+    "local_python_skipped": 4,
+    "cloud_python_tests": 303,
+    "cloud_python_skipped": 4,
+    "php_fixtures_local": 24,
+    "php_fixtures_deployed": 24,
+    "browser": "passed, including import-file persistence through rerender",
+    "embedded_source_files": 199,
+    "source_identity_and_denied_credential_access": "passed",
+    "public_frontend": [
+      {
+        "file": "sw.js",
+        "matches": true
+      },
+      {
+        "file": "view-case.js",
+        "matches": true
+      },
+      {
+        "file": "model.js",
+        "matches": true
+      }
+    ],
+    "source_refresh_younge": "current; prepared work retained"
+  },
+  "deployment": {
+    "release": "worker-20261103-e9308d07",
+    "pipeline_jobs": 13,
+    "images_match": true,
+    "control_revision": "scotus-video-control-00072-hxl",
+    "control_ready": true,
+    "signed_case_status": {
+      "recording": "2026-11-02-25-352-argument-1",
+      "case_name": "Younge v. Fulton Judicial Circuit Dist. Attorney’s Office",
+      "status": "needs_review",
+      "stages": {
+        "prepare": {
+          "status": "complete",
+          "attempt": 2
+        },
+        "enrich": {
+          "status": "needs_review",
+          "attempt": 2
+        },
+        "align": {
+          "status": "complete",
+          "attempt": 5
+        },
+        "plan": {
+          "status": "pending",
+          "attempt": 0
+        },
+        "render": {
+          "status": "pending",
+          "attempt": 0
+        },
+        "assemble": {
+          "status": "pending",
+          "attempt": 0
+        },
+        "upload": {
+          "status": "pending",
+          "attempt": 0
+        }
+      },
+      "review_versions": {
+        "cards": 1,
+        "title": 1,
+        "photos": {
+          "advocate_25_352_eric_schnapper": 1,
+          "advocate_25_352_stephen_j_petrany": 1
+        }
+      },
+      "card_import": {}
+    },
+    "one_current_secret_version": {
+      "scotus-internal": 1,
+      "scotus-research": 1,
+      "scotus-publishing": 1
+    },
+    "approval_metadata_preserved_for_cases": 8,
+    "deployment_hold_released": true,
+    "user_paused": false,
+    "scheduler": "ENABLED",
+    "cases": [
+      {
+        "case": "Johnson v. United States Congress",
+        "status": "complete"
+      },
+      {
+        "case": "Anderson v. Intel Corp. Investment Policy Committee",
+        "status": "complete"
+      },
+      {
+        "case": "Suncor Energy (U.S.A.) Inc. v. Commissioners of Boulder County",
+        "status": "complete"
+      },
+      {
+        "case": "Beaird v. United States",
+        "status": "complete"
+      },
+      {
+        "case": "Department of Air Force v. Prutehi Guahan",
+        "status": "complete"
+      },
+      {
+        "case": "Salazar v. Paramount Global",
+        "status": "complete"
+      },
+      {
+        "case": "Maxwell v. Dinis",
+        "status": "complete"
+      },
+      {
+        "case": "Younge v. Fulton Judicial Circuit Dist. Attorney’s Office",
+        "status": "needs_review"
+      }
+    ]
+  },
+  "repair_compatibility": {
+    "updated_references": 0,
+    "superseded_references": 4
+  },
+  "isolated_check_report_path": "Corrected host deployment helper to use existing recovery/tests namespace; first check failed report upload with 403, corrected check passed; no IAM expansion or extra image builds",
+  "processing_resumed": true,
+  "temporary_check_objects_removed": true,
+  "legacy_artifacts": "Historical recovery evidence retained; superseded automatic repair pointers removed from dispatch"
+}

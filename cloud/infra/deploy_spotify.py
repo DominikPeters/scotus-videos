@@ -1,4 +1,9 @@
 """Deploy manual Spotify delivery without launching transfers or enabling automation."""
+
+try:
+    from managed_secrets import run_gcloud
+except ModuleNotFoundError:
+    from infra.managed_secrets import run_gcloud
 import argparse,json,secrets,shlex,shutil,subprocess,tempfile
 from pathlib import Path
 from registry_cleanup import refresh as refresh_registry
@@ -15,7 +20,7 @@ def main():
     account=name+'@'+project+'.iam.gserviceaccount.com';controller='scotus-video-control@'+project+'.iam.gserviceaccount.com'
     def save():args.state.write_text(json.dumps(state,indent=2));args.state.chmod(0o600)
     def call(*argv,parse=False,optional=False):
-        r=subprocess.run([args.gcloud,*argv,'--project='+project,'--quiet',*(['--format=json'] if parse else [])],capture_output=True,text=True,timeout=180)
+        r=run_gcloud([args.gcloud,*argv,'--project='+project,'--quiet',*(['--format=json'] if parse else [])],capture_output=True,text=True,timeout=180)
         if r.returncode:
             if optional:return None
             raise RuntimeError(r.stderr[-1200:])
@@ -50,11 +55,11 @@ def main():
         if not args.base_image or '@sha256:' not in args.base_image:raise ValueError('Pinned small control base required')
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder);(root/'scotus_cloud').mkdir();source=Path(__file__).resolve().parents[1]/'scotus_cloud'
-            for file in ('spotify.py','spotify_service.py','spotify_worker.py','google.py','remote.py'):shutil.copy2(source/file,root/'scotus_cloud'/file)
+            for file in ('spotify.py','spotify_service.py','spotify_worker.py','google.py','secret_store.py','remote.py'):shutil.copy2(source/file,root/'scotus_cloud'/file)
             (root/'Dockerfile').write_text('FROM '+args.base_image+'\nRUN pip install --no-cache-dir PyYAML==6.0.3\nCOPY scotus_cloud /app/scotus_cloud\nCMD ["gunicorn","--bind","0.0.0.0:8080","--workers","1","--threads","1","--timeout","60","scotus_cloud.spotify_service:load_app()"]\n')
             size=sum(p.stat().st_size for p in root.rglob('*') if p.is_file())
             if size>64*1024:raise ValueError('Spotify source exceeds small-transfer cap')
-            receipt=call('builds','submit',str(root),'--region='+region,'--tag='+image+':latest','--timeout=180s','--machine-type=e2-standard-2','--async',
+            receipt=call('builds','submit',str(root),'--region='+region,'--tag='+image+':latest','--timeout=180s','--async',
                          '--service-account=projects/'+project+'/serviceAccounts/scotus-video-builder@'+project+'.iam.gserviceaccount.com',
                          '--gcs-source-staging-dir=gs://'+project+'-scotus-control-build/source','--gcs-log-dir=gs://'+project+'-scotus-control-build/logs',parse=True)
             state.update(build_id=receipt['id'],source_bytes=size);save();print(json.dumps({'build_id':receipt['id'],'source_bytes':size}));return

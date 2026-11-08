@@ -1,0 +1,17 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "gera",
+  "kind": "Statute",
+  "title": "42 U.S.C. § 2000e-16c — Government Employee Rights Act",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Statute",
+    "heading": "42 U.S.C. § 2000e-16c — Government Employee Rights Act",
+    "text": "(a) … The rights, protections, and remedies provided pursuant to section 2000e–16b of this title shall apply with respect to employment of any individual chosen or appointed, by a person elected to public office … (1) to be a member of the elected official's personal staff; … (b) … (1) … Any individual referred to in subsection (a) may file a complaint alleging a violation, <mark>not later than 180 days</mark> after the occurrence of the alleged violation, with the Equal Employment Opportunity Commission …",
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+      "alternative remedy"
+    ]
+  }
+}

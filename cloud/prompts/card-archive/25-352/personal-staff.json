@@ -1,0 +1,21 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "personal-staff",
+  "kind": "Glossary",
+  "title": "Title VII",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Glossary",
+    "heading": "Title VII",
+    "glossary": {
+      "term": "Personal staff",
+      "expansion": ""
+    },
+    "text": "Title VII does not cover people an elected official chooses for their personal staff. Assuming the test applies, the Eleventh Circuit weighed six factors: the official’s power to hire and fire; accountability to the official alone; representing the official to the public; the official’s control over the position; its rank; and how closely the two actually work.",
+    "source": "42 U.S.C. § 2000e(f) · Eleventh Circuit opinion, Pet. App. 15a–16a",
+    "highlight": [
+      "member of his personal staff"
+    ]
+  }
+}

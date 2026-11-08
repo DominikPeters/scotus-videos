@@ -23,6 +23,10 @@ and bounded repairs while automatic work stays paused. **Resume automatic work**
 also enables current-term discovery/backfill. Videos finish unlisted and require
 a dashboard publication action. **Cancel** revokes a recording's start request;
 an owner-requested **Retry** starts its incomplete work again.
+Enrichment includes annotation previews and starts only after alignment completes.
+Pending or failed alignment leaves enrichment pending, without launching its worker
+or creating a downstream recovery. The dashboard enforces this for dispatch,
+prepare-worker handoffs and stale worker claims, including older controller images.
 Photo review holds the video plan but allows prepared audio/transcripts to align.
 New portraits are attached to a multimodal Codex crop task. Its bounded square
 coordinates are applied with Pillow; original files, crop metadata and source
@@ -31,6 +35,12 @@ Each review offers **Find different image**, **Recrop**, and **Switch to synthet
 picture**, with an optional owner hint. A dedicated `scotus-video-photos` worker
 processes these durable requests alongside alignment. Replacements need fresh
 approval. Synthetic alternatives use deterministic initials or verified logos.
+Saved portraits are looked up in the GitHub repository's current default-branch
+`advocates/` directory before searching for a new image. Previously approved cloud
+portraits can be reused immediately. New archive images must be pushed to GitHub;
+they do not require a catalog edit, a commit pin, or a worker rebuild. Optional
+`.source.json` files supply names, source links, and whether an image is a logo.
+The old `advocate-catalog.json` is no longer used for portrait discovery.
 Photo research explicitly permits LinkedIn profile photos and news portraits,
 with docket/employer/location identity checks. The policy is supplied inline;
 photo prompts do not require a separate `POLICY.md`. Web search does not inherit
@@ -167,20 +177,26 @@ checks. The passkey library is `lbuchs/webauthn` 2.2.0, installed privately on t
 server. The private directory also denies HTTP access in case another host alias
 maps a wider webroot.
 
-| Credential | Where it lives | Who receives it |
+The three-group credential layout was deployed and verified on 2026-11-02.
+Only the three current groups remain; legacy secret objects were deleted. See [secret groups and migration](docs/secret-retention.md)
+for the current deployment status, access rules and cutover procedure.
+
+| Secret group | Contents | Readers |
 | --- | --- | --- |
-| Existing YouTube credential | `scotus-video-youtube` in Google Secret Manager | Upload worker only. The control service can add versions and read metadata. |
-| Codex `auth.json` | `scotus-video-codex` in Secret Manager; separate cloud login completed | Enrichment, photo and recovery workers, serialized through a credential lease. |
-| Control/worker HMAC keys | Private PHP configuration; corresponding Google runtime secrets | Only the control service or matching worker role. |
-| Google service identity | Cloud Run's managed service account | No exported Google key on the webhost. |
-| GitHub App private key | `scotus-video-github` in Secret Manager | Controller for installation checks and dedicated image publisher. Never passed to Codex. |
-| YouTube web OAuth client | `scotus-video-youtube-client` in Secret Manager | Controller for browser sign-in exchanges only. |
+| `scotus-internal` | Controller keys and scoped runtime configurations | Controller; each worker receives only its own config through verified Google identity |
+| `scotus-research` | Codex authentication and research browser sessions | Research/sign-in workers and trusted controller |
+| `scotus-publishing` | Publishing credentials, OAuth clients and GitHub App key | Publishing services and trusted controller |
+
+Logical names such as `scotus-video-youtube` remain stable in application settings
+and their values are stored in these three physical secrets. Workers use Cloud
+Run's managed identities; no Google private key is exported to the webhost.
 
 The dashboard's credential form accepts fresh credential JSON over HTTPS and
 forwards it to the control service. The PHP host does not save the YouTube or
 Codex credential. Only configured/last-saved metadata is returned. A credential
-lease prevents replacement during its active use. Secret versions provide an
-audit trail; retire superseded versions under the chosen retention policy.
+lease prevents replacement during its active use. A successful credential replacement verifies the new value and destroys its
+superseded version. Unchanged values create no version; there is no retained
+credential history or scheduled cleanup task.
 
 The uploader persists refreshed Google credentials. The Codex wrapper restores
 the latest cache, runs `codex exec` in a temporary directory containing Court
@@ -389,6 +405,13 @@ deployments do not change the main pipeline image or its repair baseline.
 
 ## Deployment and tests
 
+Finish each related set of code changes and local checks before submitting one
+Cloud Build per affected image. Small edits, commits, and pushes do not require
+individual builds. Rebuild after a failed build only once its cause is fixed.
+Use the default build machine; omit `--machine-type` so builds follow the same
+configuration as the observed free-tier builds. Check billing after the next
+planned build to confirm eligibility.
+
 Build through Google Cloud, not local Docker on the metered connection:
 
 ```sh
@@ -445,3 +468,9 @@ revision adds its recorded build cost. Historical cost receipts were deleted in 
 This excludes small service, storage and secret-version charges and is not an
 invoice. The exploratory total stays within the original $1 authorization. The
 enabled service scales to zero; the reusable images and runtime secrets remain.
+# Routine operations
+
+Use case names and card files with `infra/operate.py`; see
+[workflow operation and deployment](docs/workflow-simplification.md) for card
+import, source refresh, component review versions, and the single worker release.
+

@@ -1,0 +1,20 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "skinner",
+  "kind": "Excerpt",
+  "title": "<i>Skinner</i> v. <i>Switzer</i> (2011)",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Excerpt",
+    "label": "Opinion excerpt",
+    "heading": "<i>Skinner</i> v. <i>Switzer</i> (2011)",
+    "before": "Switzer has found no case, nor has the dissent,",
+    "quote": "in which the Court has recognized habeas as the sole remedy, or even an available one, where the relief sought would “neither terminat[e] custody, … nor reduc[e] the level of custody.”",
+    "after": "",
+    "source": "562 U.S. 521, 534 (U.S. Reports), quoting <i>Dotson</i> (Scalia, J., concurring)",
+    "highlight": [
+      "picked up by the full Court in Skinner"
+    ]
+  }
+}

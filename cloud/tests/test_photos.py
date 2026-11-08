@@ -18,6 +18,35 @@ class PhotoTests(unittest.TestCase):
         for invalid in ({'x':-1,'y':0,'size':50},{'x':0,'y':280,'size':100},{'x':0.5,'y':0,'size':100},{'x':0,'y':0,'size':0}):
             with self.assertRaises(ValueError):crop_pixels(im,invalid,(150,300))
 
+    def test_large_portrait_is_downsampled_for_cropping(self):
+        out=io.BytesIO();Image.new('RGB',(5383,3589),'white').save(out,'JPEG')
+        image=decoded(out.getvalue())
+        self.assertLessEqual(max(image.size),4096)
+        self.assertAlmostEqual(image.width/image.height,5383/3589,places=3)
+
+    @patch('scotus_cloud.photos.square_asset',return_value={'id':'proposed'})
+    @patch('scotus_cloud.enrichment.fetch',return_value=b'owner image')
+    @patch('scotus_cloud.photos.run_codex')
+    def test_explicit_owner_image_goes_straight_to_crop_without_another_search(self,runner,fetch,crop):
+        url='https://example.org/portrait.jpg';job={'id':'fixture','review':{'photos':{'test':{'name':'Test Advocate','candidates':[]}}}}
+        with tempfile.TemporaryDirectory() as folder:
+            choices=revise_photo({'person':'test','action':'different','hint':url},job,{},Mock(),Mock(),Path(folder))
+        fetch.assert_called_once_with(url,4194304);runner.assert_not_called()
+        self.assertEqual(choices,[{'id':'proposed'}]);self.assertEqual(crop.call_args.args[1]['origin'],'owner_url')
+
+    @patch('scotus_cloud.photos.square_asset',side_effect=ValueError('No usable square crop: head outside image'))
+    @patch('scotus_cloud.enrichment.fetch',return_value=b'owner image')
+    def test_explicit_source_keeps_the_useful_crop_error(self,fetch,crop):
+        job={'review':{'photos':{'test':{'name':'Test Advocate'}}}}
+        with tempfile.TemporaryDirectory() as folder,self.assertRaisesRegex(ValueError,'head outside image'):
+            revise_photo({'person':'test','action':'different','hint':'https://example.org/portrait.jpg'},job,{},Mock(),Mock(),Path(folder))
+
+    def test_explicit_source_reports_http_failure(self):
+        from urllib.error import HTTPError
+        job={'review':{'photos':{'test':{'name':'Test Advocate'}}}}
+        with tempfile.TemporaryDirectory() as folder,patch('scotus_cloud.enrichment.fetch',side_effect=HTTPError('https://example.org/image',403,'Forbidden',{},None)),self.assertRaisesRegex(ValueError,'HTTP 403'):
+            revise_photo({'person':'test','action':'different','hint':'https://example.org/image'},job,{},Mock(),Mock(),Path(folder))
+
     @patch('scotus_cloud.photos.run_codex')
     def test_model_sees_photo_and_applies_its_box_while_retaining_original(self,runner):
         runner.return_value={'usable':True,'x':0,'y':0,'size':300,'private_note':'Leave room above the head.'}

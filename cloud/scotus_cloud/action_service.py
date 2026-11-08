@@ -1,6 +1,7 @@
 """Private small HTTP service for explicit owner-requested YouTube metadata actions."""
 import json
 from pathlib import Path
+from .secret_store import runtime_settings
 from .google import Google
 from .remote import Dashboard
 from .youtube import video_action
@@ -32,4 +33,4 @@ def make_app(settings,google_factory=Google):
     return app
 
 
-def load_app():return make_app(json.loads(Path('/secrets/worker/config.json').read_text()))
+def load_app():return make_app(runtime_settings('/secrets/worker/config.json'))

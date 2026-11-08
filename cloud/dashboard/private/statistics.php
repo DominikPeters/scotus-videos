@@ -10,7 +10,9 @@ function statistics_operation(array &$state,array $input,string $role): mixed {
         $stats['status']='failed';$stats['message']=$input['message']??'Statistics worker exited before reporting completion; retry queued.';$stats['retry_after']=time()+60;unset($stats['token']);return true;
     }
     if($input['op']==='stats_dispatch'){
+        if(!empty($state['deployment_hold']))return null;
         if($role!=='dispatcher'||empty($stats['enabled']))return null;
+        if(codex_work_reserved($state))return null;
         if(in_array($stats['status'],['starting','running'],true)&&($stats['expires']??0)>time())return null;
         if(($stats['retry_after']??0)>time())return null;
         if(empty($stats['requested'])&&empty($stats['pending'])&&($stats['index_revision']??'')===$input['index_revision']&&($stats['checked_date']??'')===gmdate('Y-m-d'))return null;
@@ -42,10 +44,12 @@ function statistics_operation(array &$state,array $input,string $role): mixed {
         $stats['data_uri']=$input['data_uri'];$stats['index_revision']=$input['index_revision'];$stats['checked_date']=gmdate('Y-m-d');$stats['pending']=min(2000,max(0,(int)$input['pending']));
         $questions=$input['questions']??[];
         foreach($questions as $key=>$message)if(($stats['questions'][$key]??'')!==$message)notify_event($state,'stats-'.hash('sha256',$key.$message),'statistics',$key);
-        $stats['questions']=$questions;foreach($input['answered']??[] as $key)unset($stats['answers'][$key]);
+        $stats['questions']=$questions;
+        $stats['technical_errors']=$input['technical_errors']??[];
+        foreach($input['answered']??[] as $key)unset($stats['answers'][$key]);
     }
     if(!empty($input['finish'])){
-        $stats['status']=!empty($input['failed'])?'failed':'idle';$stats['finished_at']=gmdate('c');$stats['retry_after']=time()+(!empty($input['failed'])?600:(!empty($stats['pending'])?0:60));unset($stats['token']);
+        $stats['status']=!empty($input['failed'])?'failed':'idle';$stats['finished_at']=gmdate('c');$stats['retry_after']=time()+(!empty($input['failed'])?600:(!empty($stats['pending'])?min(3600,max(0,(int)($input['retry_after_seconds']??0))):60));unset($stats['token']);
         if(!empty($input['failed']))notify_event($state,'stats-failed-'.gmdate('Y-m-d-H'),'statistics','failure');
     }
     return true;

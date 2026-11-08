@@ -75,7 +75,8 @@ transfers to this account and is renewed with the clip heartbeat. Completion
 and failures use the existing immediate dashboard push notifications.
 
 The existing successful cloud test draft is linked to the original 10-second
-Salazar clip. Production publication is enabled, but no TikTok video was
-published during implementation. Publish confirmation, queue transitions,
+Salazar clip. Production publication was enabled without publishing during setup. On October 16, the first requested public Salazar/Kagan clip was successfully posted after adding the observed Studio confirmation handler. Publish confirmation, queue transitions,
 duplicate guards, media preservation and uncertain-operation reconciliation
-are tested; the live public-post action has not yet been exercised.
+are tested; the live public-post action has now been verified with the Salazar/Kagan clip.
+
+October 16 publishing: Studio may show “Continue to post?” after Post while optional checks are still running. The worker handles that specific confirmation in explicit publish mode, keeps the durable pending checkpoint, and normalizes whitespace when matching multiline captions on the content page. Unknown dialogs still stop the transfer. `tests/tiktok-publish.cjs` exercises the observed confirmation and rejection of unknown dialogs against a local fixture.

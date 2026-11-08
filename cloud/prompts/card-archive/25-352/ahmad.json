@@ -1,0 +1,20 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "ahmad",
+  "kind": "Excerpt",
+  "title": "Tenth Circuit, <i>Ahmad</i> v. <i>Furlong</i> (2006)",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Excerpt",
+    "label": "Opinion excerpt",
+    "heading": "Tenth Circuit, <i>Ahmad</i> v. <i>Furlong</i> (2006)",
+    "before": "",
+    "quote": "Rather than demanding that the defendant first move to amend the answer, we need only <mark>apply the same standards that govern motions to amend</mark> when we determine whether the defendant should be permitted to “constructively” amend the answer by means of the summary-judgment motion.",
+    "after": "",
+    "source": "435 F.3d 1196, 1202",
+    "highlight": [
+      "the Tenth Circuit's rule"
+    ]
+  }
+}

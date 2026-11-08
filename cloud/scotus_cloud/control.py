@@ -2,7 +2,8 @@
 
 This small service launches configured jobs, exchanges sign-in codes and writes
 secret versions. It can read application keys for those exchanges; stored
-YouTube/Codex account credentials remain restricted to their private workers.
+The controller is the trusted configuration broker; workers receive only their
+assigned runtime configuration and their research or publishing credential group.
 """
 
 import hmac
@@ -13,9 +14,12 @@ import re
 import time
 import base64
 
+from .secret_store import runtime_settings
 from .google import Google
 from .model import STAGES,alignment_cpus
-from .remote import Dashboard, signature
+from .remote import Dashboard, signature, DashboardConflict
+from .attempts import launch,reconcile as reconcile_attempts
+from .releases import current as current_deployment
 from .connections import (validate_web_client, youtube_authorize, youtube_exchange,
                           github_exchange, github_install, GITHUB_REPOSITORY,
                           validate_instagram_client, instagram_authorize, instagram_exchange, InstagramConnectionError)
@@ -47,7 +51,7 @@ def validate_secret(name, value):
 
 
 def next_stage(job):
-    """Preparation feeds independent enrichment/alignment branches; planning joins them."""
+    """Research includes aligned annotation previews, so alignment must finish first."""
     stages=job['stages']
     if job['status'] in ('failed','cancelled','complete'):return None
     if job['status']=='needs_review' and stages['enrich']['status']!='needs_review':return None
@@ -56,6 +60,7 @@ def next_stage(job):
         return 'prepare' if stages['prepare']['status']=='pending' and not active else None
     if active-{'enrich','align'}:return None
     if stages['align']['status']=='pending':return 'align'
+    if stages['align']['status']!='complete':return None
     if stages['enrich']['status']=='pending':return 'enrich'
     if stages['enrich']['status']!='complete' or stages['align']['status']!='complete' or active:return None
     for name in ('plan','render','assemble','upload'):
@@ -70,7 +75,7 @@ def dispatch_video_action(dashboard,google,settings,job):
     if settings.get('youtube_action_service'):
         result=google.invoke_action_service(settings['youtube_action_service'],{'job':job,'action':action['id'],'token':action['dispatch_token']})
         return {'job':job,'stage':'video_action',**result}
-    operation=google.execute(settings['region'],settings['jobs']['upload'],{'SCOTUS_STAGE':'upload','SCOTUS_JOB_ID':job,'SCOTUS_VIDEO_ACTION':action['id'],'SCOTUS_ACTION_TOKEN':action['dispatch_token']})
+    operation=launch(dashboard,google,settings,{'kind':'video','job':job,'action':action['id']},settings['jobs']['upload'],{'SCOTUS_STAGE':'upload','SCOTUS_JOB_ID':job,'SCOTUS_VIDEO_ACTION':action['id'],'SCOTUS_ACTION_TOKEN':action['dispatch_token']})
     return {'job':job,'stage':'video_action','operation':operation}
 
 
@@ -86,10 +91,15 @@ def dispatch(dashboard,google,settings):
 def _dispatch_work(dashboard, google, settings):
     # A container can exit before claiming a lease. Heartbeats cannot detect that.
     snapshot=dashboard.call('snapshot')
+    reconcile_attempts(dashboard,google,settings,snapshot)
+    if snapshot.get('deployment_hold'):return {'message':'Deployment in progress.','launched':[]}
+    from .maintenance import maintain
+    maintain(dashboard,google,settings,snapshot)
     for job in (snapshot.get('jobs') or {}).values():
         if job['status']=='cancelled':continue
         for stage,value in job['stages'].items():
             operation=value.get('cloud_operation')
+            if value.get('_launch'):continue
             if not operation or value['status'] not in ('starting','running'):continue
             try:status=google.operation_status(operation)
             except Exception:continue # Retain the pointer and retry at the next tick.
@@ -131,24 +141,28 @@ def _dispatch_work(dashboard, google, settings):
         from .clip_control import dispatch_clip
         for clip_job in (snapshot.get('jobs') or {}).values():
             for clip in (clip_job.get('clips') or {}).values():
-                if clip['status'] in ('render_queued','upload_queued','tiktok_draft_queued','tiktok_publish_queued','starting','rendering','uploading'):
+                if clip['status'] in ('render_queued','upload_queued','tiktok_draft_queued','tiktok_publish_queued','instagram_publish_queued','youtube_link_queued','starting','rendering','uploading'):
                     try:dispatch_clip(dashboard,google,settings,clip_job['id'],clip['id'])
                     except Exception:pass
+    from .card_import import dispatch_import
     for job in eligible:
+        if (job.get('card_import') or {}).get('status') in ('uploading','queued'):
+            imported=dispatch_import(dashboard,google,settings,job)
+            if imported:launched.append(imported)
         if job['status']!='cancelled' and settings.get('photo_job'):
             for request in (job.get('photo_requests') or {}).values():
                 if request['status']!='queued':continue
                 claim=dashboard.call('photo_dispatch',job=job['id'],request=request['id'])
                 if not claim:continue
                 try:
-                    operation=google.execute(settings['region'],settings['photo_job'],{'SCOTUS_JOB_ID':job['id'],'SCOTUS_PHOTO_REQUEST':request['id'],'SCOTUS_PHOTO_TOKEN':claim['dispatch_token']})
+                    operation=launch(dashboard,google,settings,{'kind':'photo','job':job['id'],'request':request['id']},settings['photo_job'],{'SCOTUS_JOB_ID':job['id'],'SCOTUS_PHOTO_REQUEST':request['id'],'SCOTUS_PHOTO_TOKEN':claim['dispatch_token']})
                     launched.append({'job':job['id'],'stage':'photo_revision','operation':operation})
-                except Exception:dashboard.call('photo_dispatch_failed',job=job['id'],request=request['id'],dispatch_token=claim['dispatch_token'])
+                except Exception:pass
                 break
         if job['status']!='cancelled' and settings.get('asset_job') and job.get('asset_publication',{}).get('status')=='queued':
             claim=dashboard.call('asset_publish_dispatch',job=job['id'])
             if claim:
-                google.execute(settings['region'],settings['asset_job'],{'SCOTUS_JOB_ID':job['id'],'SCOTUS_ASSET_TOKEN':claim['dispatch_token']})
+                launch(dashboard,google,settings,{'kind':'asset','job':job['id']},settings['asset_job'],{'SCOTUS_JOB_ID':job['id'],'SCOTUS_ASSET_TOKEN':claim['dispatch_token']})
         if job['status']=='complete':
             if settings.get('jobs',{}).get('upload'):
                 action=dispatch_video_action(dashboard,google,settings,job['id'])
@@ -160,7 +174,8 @@ def _dispatch_work(dashboard, google, settings):
         if stage is None:continue
         if stage not in settings.get('jobs', {}):
             continue
-        claimed = dashboard.call('dispatch', job=job['id'], stage=stage,baseline_sha256=settings.get('workflow_baseline_sha256',''))
+        deployment=current_deployment(google,settings)
+        claimed = dashboard.call('dispatch', job=job['id'], stage=stage,release_id=deployment['id'] if deployment else settings.get('workflow_baseline_sha256',''))
         if not claimed:
             continue
         indices=[i for i,item in enumerate(claimed['job']['stages'][stage].get('tasks',[])) if item['status']!='complete'] if stage=='render' else []
@@ -175,7 +190,7 @@ def _dispatch_work(dashboard, google, settings):
             worker_job=settings['jobs'][stage]
             if stage=='prepare' and settings.get('research_job') and not release:
                 worker_job=settings['research_job'];env['SCOTUS_CONTINUE_ENRICH']='1'
-            if stage=='assemble' and settings.get('delivery_job') and not release:
+            if stage=='assemble' and settings.get('delivery_job') and not release and not claimed['job'].get('render_revision',{}).get('status')=='queued':
                 worker_job=settings['delivery_job'];env['SCOTUS_CONTINUE_UPLOAD']='1'
             if stage=='align':
                 cpus=alignment_cpus(claimed['job'],google) if settings.get('alignment_long_job') else 4
@@ -183,10 +198,12 @@ def _dispatch_work(dashboard, google, settings):
                 env['SCOTUS_ALIGN_THREADS']=str(cpus)
             if stage=='upload' and claimed['job']['stages']['upload'].get('checkpoint',{}).get('video_id'):
                 extra['timeout_seconds']=min(300,settings.get('recovery',{}).get('stage_resources',{}).get('upload',[1,2,300])[2])
-            operation = google.execute(settings['region'], worker_job, env, tasks=count,**extra)
+            operation = launch(dashboard,google,settings,{'kind':'stage','job':job['id'],'stage':stage},worker_job,env,tasks=count,**extra)
+            if not operation:continue
         except Exception:
-            dashboard.call('dispatch_failed', job=job['id'], stage=stage,
-                           dispatch_token=claimed['dispatch_token'])
+            # A launch acknowledgement can be lost after commit; its durable
+            # intent is reconciled on the next tick.
+            pass
             continue
         launched.append({'job': job['id'], 'stage': stage, 'operation': operation})
         dashboard.call('execution_record',job=job['id'],stage=stage,
@@ -200,14 +217,37 @@ def _dispatch_work(dashboard, google, settings):
     return {'message': message, 'launched': launched}
 
 
+def runtime_configuration(settings, google, environ):
+    """Google authenticates the worker; the allowlist selects its own config only."""
+    from google.oauth2.id_token import verify_oauth2_token
+    from google.auth.transport.requests import Request as AuthRequest
+    token = environ.get('HTTP_AUTHORIZATION', '').removeprefix('Bearer ')
+    try: claims = verify_oauth2_token(token, AuthRequest(), audience=settings['control_url'])
+    except Exception: raise PermissionError('Invalid worker identity') from None
+    if not claims.get('email_verified'): raise PermissionError('Unverified worker identity')
+    length = int(environ.get('CONTENT_LENGTH') or 0)
+    if not 0 < length <= 2048: raise ValueError('Invalid runtime request')
+    name = json.loads(environ['wsgi.input'].read(length)).get('name')
+    current = json.loads(google.secret('scotus-video-control-config')) if os.environ.get('SCOTUS_SECRET_BUNDLES') == '1' else settings
+    allowed = current.get('runtime_readers', {}).get(claims.get('email'), [])
+    if name == 'scotus-video-control-config' or name not in allowed:
+        raise PermissionError('Runtime configuration is not assigned to this worker')
+    return json.loads(google.secret(name))
+
+
 def make_app(settings, google_factory=Google):
     dashboard = Dashboard(settings['dashboard_url'], settings['dispatcher_key'], 'dispatcher')
 
     def app(environ, start_response):
         status, value = '200 OK', None
         try:
-            if environ.get('REQUEST_METHOD') != 'POST' or environ.get('PATH_INFO') not in ('/v1/request','/v1/recovery','/v1/tick','/v1/watch'):
+            if environ.get('REQUEST_METHOD') != 'POST' or environ.get('PATH_INFO') not in ('/v1/request','/v1/recovery','/v1/tick','/v1/watch','/v1/runtime-config'):
                 raise ValueError('Unknown route')
+            if environ['PATH_INFO'] == '/v1/runtime-config':
+                result = runtime_configuration(settings, google_factory(settings['project']), environ)
+                encoded = json.dumps({'ok':True, 'result':result}).encode()
+                start_response('200 OK', [('Content-Type','application/json'), ('Cache-Control','no-store'), ('Content-Length',str(len(encoded)))])
+                return [encoded]
             if environ['PATH_INFO'] in ('/v1/tick','/v1/watch'):
                 from google.oauth2.id_token import verify_oauth2_token
                 from google.auth.transport.requests import Request as AuthRequest
@@ -223,7 +263,7 @@ def make_app(settings, google_factory=Google):
                 else:value={'ok':True,'result':dispatch(dashboard,google_factory(settings['project']),settings)}
                 encoded=json.dumps(value).encode();start_response('200 OK',[('Content-Type','application/json'),('Content-Length',str(len(encoded)))]);return [encoded]
             length = int(environ.get('CONTENT_LENGTH') or 0)
-            if not 0 < length <= 262144:
+            if not 0 < length <= 2097152:
                 raise ValueError('Invalid request size')
             body = environ['wsgi.input'].read(length)
             timestamp = environ.get('HTTP_X_SCOTUS_TIME', '')
@@ -245,6 +285,30 @@ def make_app(settings, google_factory=Google):
             if route=='/v1/recovery':
                 from .recovery_control import broker
                 value=broker(dashboard,google,settings,request)
+            elif op == 'card_import':
+                from .card_import import create
+                value=create(dashboard,google,settings,data['job'],data['spec'])
+            elif op == 'card_import_cancel':
+                from .card_import import resolve_case
+                value=dashboard.call('card_import_cancel',job=resolve_case(dashboard,data['job'])['id'])
+            elif op == 'refresh_sources':
+                from .maintenance import refresh
+                from .card_import import resolve_case
+                value=refresh(dashboard,google,settings,resolve_case(dashboard,data['job'])['id'],manual=True)
+            elif op == 'case_status':
+                from .card_import import resolve_case
+                job=resolve_case(dashboard,data['job'])
+                value={'recording':job['id'],'case_name':job['case_name'],'status':job['status'],'stages':{k:{'status':v['status'],'attempt':v.get('attempt',0)} for k,v in job['stages'].items()},'review_versions':(job.get('review') or {}).get('versions',{}),'card_import':{k:v for k,v in (job.get('card_import') or {}).items() if k in ('id','status','card_count','error')}}
+                value['render_revision']=job.get('render_revision')
+            elif op == 'case_rerender':
+                from .card_import import resolve_case
+                value=dashboard.call('rerender',job=resolve_case(dashboard,data['job'])['id'])
+            elif op == 'video_download':
+                from .card_import import resolve_case
+                from .clip_control import signed_media_url
+                job=resolve_case(dashboard,data['job']);uri=job['stages']['assemble'].get('result',{}).get('video_uri')
+                if job['stages']['assemble']['status']!='complete' or not uri or not uri.startswith('gs://'+settings['bucket']+'/') or '/'+job['id']+'/' not in uri:raise ValueError('A completed owned video is required')
+                value=signed_media_url(google,settings['clip_signer'],uri,900,job['docket']+'-corrected.mp4')
             elif op == 'secret_status':
                 names = [name for name in ('youtube', 'codex', 'github', 'spotify', 'instagram') if name in settings['secrets']]
                 value = {'workers_enabled': settings.get('workers_enabled', False), 'credentials': {
@@ -365,7 +429,8 @@ def make_app(settings, google_factory=Google):
                 import tempfile
                 from .enrichment import store_photo
                 job=dashboard.call('review_context',job=data['job'])
-                if data['revision']!=job['review']['revision'] or data['person'] not in job['review']['photos']:raise ValueError('Review changed')
+                expected=job['review'].get('versions',{}).get('photos',{}).get(data['person']) if 'version' in data else job['review']['revision']
+                if data.get('version',data.get('revision'))!=expected or data['person'] not in job['review']['photos']:raise ValueError('Portrait options changed')
                 image=base64.b64decode(data['image'],validate=True)
                 if len(image)>131072 or data.get('kind') not in ('photo','logo','initials'):raise ValueError('Invalid image')
                 source=data.get('source_url','')
@@ -373,7 +438,7 @@ def make_app(settings, google_factory=Google):
                 with tempfile.TemporaryDirectory() as folder:
                     choice=store_photo(google,settings['bucket'],job['id'],data['person'],image,
                         {'kind':data['kind'],'source_url':source,'identity_source_url':'','origin':'owner_upload','private_note':data.get('note','')[:2000]},Path(folder),preserve=True)
-                value=dashboard.call('review_candidate_add',job=job['id'],revision=data['revision'],person=data['person'],candidate=choice)
+                value=dashboard.call('review_candidate_add',job=job['id'],**{k:data[k] for k in ('version','revision') if k in data},person=data['person'],candidate=choice)
             elif op=='asset_data' and data.get('uri'):
                 uri=data['uri']
                 if not isinstance(uri,str) or not any(uri.startswith('gs://'+settings['bucket']+'/'+prefix+'/') for prefix in ('scratch','reviews')) or data.get('kind') not in ('photo','frame','thumbnail','card'):
@@ -404,6 +469,9 @@ def make_app(settings, google_factory=Google):
                 if data.get('kind')!='frame':value={'mime':'image/jpeg','data':base64.b64encode(google.storage_bytes(uri)).decode()}
             else:
                 raise ValueError('Unknown operation')
+        except DashboardConflict as error:
+            from .diagnostics import Redactor
+            status,value='409 Conflict',{'ok':False,'error':Redactor(settings).text(error,600)}
         except PermissionError:
             status, value = '401 Unauthorized', {'ok': False, 'error': 'Authentication failed'}
         except (ValueError, KeyError, json.JSONDecodeError) as error:
@@ -411,8 +479,15 @@ def make_app(settings, google_factory=Google):
                 from .diagnostics import Redactor
                 detail=Redactor(settings,locals().get('request',{})).text(error,1500)
                 status,value='400 Bad Request',{'ok':False,'error':'Repair request rejected: '+detail}
+            elif locals().get('op') in ('card_import','card_import_cancel','refresh_sources','case_status','case_rerender','video_download'):
+                from .diagnostics import Redactor
+                status,value='400 Bad Request',{'ok':False,'error':Redactor(settings).text(error,600)}
             else:status, value = '400 Bad Request', {'ok': False, 'error': 'Invalid request or credential currently in use'}
-        except Exception:
+        except Exception as error:
+            # Bounded diagnostics: never include request bodies, headers or credentials.
+            http=re.search(r'HTTP (\d{3})',str(error))
+            print(json.dumps({'control_operation_error':locals().get('op'),'error_type':type(error).__name__,
+                              'http_status':getattr(error,'code',None) or (int(http.group(1)) if http else None)}),flush=True)
             status, value = '503 Service Unavailable', {'ok': False, 'error': 'Cloud operation unavailable'}
         if status == '200 OK':
             value = {'ok': True, 'result': value}
@@ -425,4 +500,4 @@ def make_app(settings, google_factory=Google):
 
 def load_app():
     path = Path(os.environ.get('SCOTUS_CONTROL_CONFIG', '/secrets/control/config.json'))
-    return make_app(json.loads(path.read_text()))
+    return make_app(runtime_settings(path))

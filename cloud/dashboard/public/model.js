@@ -13,6 +13,7 @@ export const STAGES = {
 export const stageName = key => STAGES[key]?.name || key;
 
 const ACTIVE = ['queued', 'starting', 'running'];
+const PUBLISH_READY = ['Ready to publish', 'Ready to publish on Spotify'];
 const REPAIRING = ['queued', 'starting', 'running', 'waiting_for_stage', 'waiting_for_tests'];
 
 export const recoveriesFor = (state, job) =>
@@ -48,6 +49,7 @@ export const publishPending = job =>
 
 export const readyToPublish = job => {
   const upload = uploadResult(job);
+  if (job.render_revision?.upload_matches_current === false) return false;
   return job.stages.upload.status === 'complete' && upload.postprocessing_complete &&
     job.privacy === 'unlisted' && job.status === 'complete';
 };
@@ -88,12 +90,14 @@ function activeLine(job, state) {
  */
 export function describe(job, state) {
   const todo = [];
+  if (job.research_attention) todo.push('Card research needs your decision');
   const recs = recoveriesFor(state, job);
   const questions = recs.flatMap(rec => pendingQuestions(state, rec));
   if (questions.length) todo.push(questions.length === 1 ? 'Codex has a question' : `Codex has ${questions.length} questions`);
   if (recs.some(r => r.status === 'unresolved' && !phasePassed(state, r))) todo.push('Repair stopped; needs your decision');
   if (recs.some(r => r.status === 'waiting_for_resource' && !phasePassed(state, r))) todo.push('Repair paused: daily budget reached');
-  if (cardsPending(job) && (reviewEditable(job) || job.annotation_revision_only)) todo.push(plural(job.review.cards.length, 'annotation card') + ' to review');
+  if (['failed', 'needs_rebind'].includes(job.card_import?.status)) todo.push('Card import needs attention');
+  else if (cardsPending(job) && (reviewEditable(job) || job.annotation_revision_only) && !['uploading', 'queued', 'starting', 'running', 'waiting_for_metadata'].includes(job.card_import?.status)) todo.push(plural(job.review.cards.length, 'annotation card') + ' to review');
   const portraits = missingPortraits(job).filter(person => !photoRequestActive(job, person));
   if (portraits.length && reviewEditable(job)) todo.push(plural(portraits.length, 'portrait') + ' to approve');
   if (Object.values(job.photo_requests || {}).some(r => r.status === 'failed')) todo.push('Portrait request failed');
@@ -114,9 +118,15 @@ export function describe(job, state) {
     if (spotify === 'failed') todo.push('Spotify transfer failed');
   }
 
+  // Publishing can wait deliberately, so ready videos form their own calm group; only
+  // decisions and fixes that hold up work count as needing the owner.
+  const urgent = todo.filter(text => !PUBLISH_READY.includes(text));
   let group, line;
-  if (todo.length) {
+  if (urgent.length) {
     group = 'action';
+    line = todo.join(' · ');
+  } else if (todo.length) {
+    group = 'publish';
     line = todo.join(' · ');
   } else if (job.status === 'cancelled') {
     group = 'done'; line = 'Cancelled';
@@ -130,14 +140,14 @@ export function describe(job, state) {
     const repair = repairing && `Repairing ${stageName(recs.find(r => REPAIRING.includes(r.status)).stage).toLowerCase()}`;
     line = !repair ? base : job.status === 'failed' || !base ? repair : `${base} · repair in progress`;
   }
-  return {job, group, todo, line, progress: progress(job), repairing};
+  return {job, group, todo, urgent, line, progress: progress(job), repairing};
 }
 
 export function groups(state) {
   const all = Object.values(state.jobs || {}).map(job => describe(job, state));
   const byDate = (a, b) => b.job.argument_date.localeCompare(a.job.argument_date) || b.job.created_at.localeCompare(a.job.created_at);
   const pick = name => all.filter(item => item.group === name).sort(byDate);
-  return {action: pick('action'), active: pick('active'), waiting: pick('waiting'), done: pick('done')};
+  return {action: pick('action'), active: pick('active'), publish: pick('publish'), waiting: pick('waiting'), done: pick('done')};
 }
 
 export function upcoming(state) {

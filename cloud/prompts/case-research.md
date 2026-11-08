@@ -1,8 +1,16 @@
 # Research the background and issue before writing a description
 
-Follow POLICY.md. This is the research stage, normally run with Luna. Produce the
-structured research packet in the supplied schema, not viewer-facing prose.
-Do not upload, publish, alter the transcript or change the presentation.
+We publish Supreme Court oral-argument videos for interested non-lawyers. Your
+research will let a writer explain the concrete dispute and the issue the Court
+will decide, in a short introduction. You own producing a useful, grounded packet;
+you choose how to investigate. This stage normally runs with Luna.
+
+Use the supplied materials and source cache first, follow important gaps through
+primary sources, and stop when you can support the background and granted issues.
+You can search files, browse and compare accounts. Routine source choices and
+resolvable discrepancies are yours to handle. Record a consequential uncertainty
+privately; ask the owner only when their knowledge or preference would resolve it.
+Return the structured research packet in the supplied schema. Follow POLICY.md.
 
 Read input/case.json, input/request.json, input/oyez.json, input/materials.json
 and input/source-index.json. Keep the supplied source IDs when using those sources.
@@ -73,24 +81,4 @@ should continue processing with the normal portrait, not stop the recording.
 Never infer recusal solely from silence in the transcript or absence from Oyez's
 heard_by list. Do not put participation caveats into the case description.
 
-Recognize explicit case-wide notices such as Suncor (25-170, Alito) and Seven
-County (23-975, Gorsuch): a Clerk letter saying the justice will not continue to
-participate. Glossip (22-7466) states Gorsuch is recused in a stay-application
-entry. Repeated nonparticipation in the grant and argument-related motions can
-also establish a continuing recusal: Barrett in Drummond (24-394/24-396), Alito
-in EPA v. Calumet (23-1067), and Jackson in Loper Bright (22-451). Assess that
-context instead of discarding all notices phrased as applying to a petition,
-motion or order. A single procedural nonparticipation is not automatically a
-recusal from argument. Respect later changes and the dates of events.
-
-Track expressly named docket numbers. Relentless (22-1219) contains a shared
-judgment mentioning Jackson's recusal ONLY in Loper Bright (22-451); she did
-participate in Relentless. Likewise distinguish Harvard (20-1199) from UNC
-(21-707). Do not spread recusals across companion/consolidated dockets without
-evidence. A final-decision nonparticipation notice alone does not establish
-absence from an earlier argument. For these research packets use evidence
-available by the argument date; do not introduce later holdings into background.
-
-If input/request.json has participation_only=true, inspect participation only.
-Return empty background and issues arrays and a compact docket source record;
-do not re-research the case facts, briefs or description.
+Worked examples of docket scope and participation are in `input/reference/participation.md`. Consult them when they help resolve an ambiguity; they are examples, not evidence about this case.

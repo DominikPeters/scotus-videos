@@ -1,0 +1,28 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "baseline",
+  "kind": "Comparison",
+  "title": "The disputed starting point",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Comparison",
+    "heading": "The disputed starting point",
+    "compare": [
+      {
+        "title": "Suncor and Exxon",
+        "cite": "Petitioners’ brief · p. 29",
+        "text": "Congress’s displacement of federal common law did not authorize state law to replace it."
+      },
+      {
+        "title": "Boulder",
+        "cite": "Respondents’ brief · p. 29",
+        "text": "After displacement, state-law preemption turns on ordinary statutory interpretation."
+      }
+    ],
+    "source": "Parties’ merits briefs · opposing positions",
+    "highlight": [
+      "what burden is on Congress"
+    ]
+  }
+}

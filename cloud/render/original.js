@@ -2,8 +2,12 @@
 // Workflow adapter only. index.html and script.js are the original, hashed files.
 const fs=require('fs'),path=require('path'),http=require('http'),puppeteer=require('puppeteer'),{spawnSync}=require('child_process');
 const {splitProgressEvent}=require('./progress');
+const {reminderWindow,splitReminderEvent}=require('./subscribe');
+const {openingBlock}=require('./intro');
 // Temporary frames favor capture speed over PNG compression; pixels stay lossless.
 const screenshotOptions={type:'png',optimizeForSpeed:true};
+// New phone screenshots confirm the measured ~49px side crop; retain a small buffer.
+const verticalSafeArea={version:4,left:56,top:0,width:968,height:1920,source_width:1080,source_height:1920};
 function serverFor(root){return http.createServer((req,res)=>{
  try{let pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);if(pathname==='/')pathname='/index.html';
  const target=path.resolve(root,'.'+pathname);if(!target.startsWith(root+path.sep)||!fs.statSync(target).isFile())throw Error();
@@ -21,20 +25,20 @@ async function open(root,id,vertical=false){
 async function action(page,op){return page.evaluate(async op=>{
  if(op.name==='fitVertical'){
   const title=document.querySelector('div.title h1'),seal=document.querySelector('div.title > img');
-  const width=1080-40-(seal?.getBoundingClientRect().width||130)-20;
-  let size=60;title.style.fontSize=size+'px';
-  while(title.scrollWidth>width&&size>40){size-=.5;title.style.fontSize=size+'px';}
-  if(title.scrollWidth>width){
-   // Too long for one readable line: two balanced lines rather than shrinking further.
-   const ratio=title.getBoundingClientRect().height/size,lines=()=>Math.round(title.getBoundingClientRect().height/(ratio*size));
-   Object.assign(title.style,{whiteSpace:'normal',textWrap:'balance',maxWidth:width+'px'});
-   document.querySelector('div.title-text').style.minWidth='0';document.querySelector('div.title').style.height='auto';
-   size=50;title.style.fontSize=size+'px';
-   while((lines()>2||title.scrollWidth>width)&&size>18){size-=.5;title.style.fontSize=size+'px';}
-  }
+  const frame=document.querySelector('div.frame');
+  const width=frame.clientWidth-40-(seal?.offsetWidth||130)-20;
+  // Prefer a large two-line title over shrinking the case name to a single line.
+  Object.assign(title.style,{whiteSpace:'normal',textWrap:'balance',maxWidth:width+'px',fontSize:'60px',lineHeight:'1.05'});
+  document.querySelector('div.title').style.height='auto';
+  let size=60;
+  while((title.getBoundingClientRect().height>parseFloat(getComputedStyle(title).lineHeight||size*1.2)*2+2||title.scrollWidth>width)&&size>40){size-=.5;title.style.fontSize=size+'px';}
   document.querySelector('.subtitle').style.visibility='visible';
   document.querySelector('div.title-text').style.minWidth='0';
-  document.getElementById('transcript').style.height=(1920-document.querySelector('div.header').getBoundingClientRect().height)+'px';
+  const transcript=document.getElementById('transcript');
+  transcript.style.height=(frame.clientHeight-document.querySelector('div.header').offsetHeight)+'px';
+  // Allow even the final paragraph to reach the reading position.
+  transcript.style.paddingBottom=transcript.clientHeight+'px';
+  window.scotusVerticalReadingPosition=true;
   return;
  }
  if(op.name==='setInteractionProgress'){
@@ -46,22 +50,36 @@ async function action(page,op){return page.evaluate(async op=>{
   }
   return;
  }
- const allowed={...(typeof setQuoteProgress==='function'?{setQuoteProgress}:{}),showSplash,goToNextSection,nextTextBlock,scrollTranscript,showConclusion,announceNextArgument,announceOpinionAnnouncements,loadNextOpinionAnnouncement};
+ const allowed={...(typeof setQuoteProgress==='function'?{setQuoteProgress}:{}),...(typeof setSubscribeReminderProgress==='function'?{setSubscribeReminderProgress}:{}),showSplash,goToNextSection,nextTextBlock,scrollTranscript,showConclusion,announceNextArgument,announceOpinionAnnouncements,loadNextOpinionAnnouncement};
  const response=allowed[op.name](...(op.args||[]));
+ // Keep the active paragraph near the top in vertical clips, including while
+ // cards enter/leave. Landscape scrolling and source timings remain unchanged.
+ if(window.scotusVerticalReadingPosition&&['nextTextBlock','scrollTranscript','setQuoteProgress'].includes(op.name)){
+  const transcript=document.getElementById('transcript'),current=transcript.querySelector('.current-text');
+  if(current){
+   const target=transcript.getBoundingClientRect().top+parseFloat(getComputedStyle(transcript).paddingTop)+90;
+   transcript.scrollTop+=current.getBoundingClientRect().top-target;
+  }
+ }
+
  if(window.scotusCredit){const ack=document.querySelector('.acknowledgement');ack.textContent=window.scotusCredit.text;ack.style.display=window.scotusCredit.text?'':'none';}
  await document.fonts.ready;
  window.scotusDecodedImages ||= new WeakMap();
  await Promise.all([...document.images].map(image=>{const source=image.src+' '+image.srcset;const cached=window.scotusDecodedImages.get(image);if(cached?.source===source)return cached.ready;const ready=image.decode().catch(()=>{});window.scotusDecodedImages.set(image,{source,ready});return ready;}));
  return response;
 },op);}
-async function setupCredit(page,credit){await page.evaluate(credit=>{window.scotusCredit=credit;},credit);}
-async function interactionProgress(page){return page.evaluate(()=>{
- if(announcementMode||currentInteraction<0||!document.getElementById('conversation').getBoundingClientRect().width)return null;
- const interaction=interactions_data.sections[currentSection].interactions[currentInteraction];
- const image=document.getElementById('interaction-'+currentInteraction)?.children[0];
- if(!interaction||!image)return null;
- return {section:currentSection,interaction:currentInteraction,start:interaction.startTime,end:interaction.endTime,width:image.getBoundingClientRect().width};
-});}
+async function setupCredit(page,credit){credit={...credit};if(/^Justice portraits:/i.test(credit.text||''))credit.text='';await page.evaluate(credit=>{window.scotusCredit=credit;},credit);}
+async function interactionProgress(page,includeCards=false){return page.evaluate(includeCards=>{
+ let info=null;
+ if(!announcementMode&&currentInteraction>=0&&document.getElementById('conversation').getBoundingClientRect().width){
+  const interaction=interactions_data.sections[currentSection].interactions[currentInteraction];
+  const image=document.getElementById('interaction-'+currentInteraction)?.children[0];
+  if(interaction&&image)info={section:currentSection,interaction:currentInteraction,start:interaction.startTime,end:interaction.endTime,width:image.getBoundingClientRect().width};
+ }
+ if(!includeCards)return info;
+ const visible=[...document.querySelectorAll('#quote-card,#quote-card-under')].some(card=>card.classList.contains('visible')&&card.getBoundingClientRect().height>0);
+ return {interaction:info,card_visible:visible};
+},includeCards);}
 async function plan(root,id,out){const {page,browser,server}=await open(root,id);try{
  const credit=JSON.parse(fs.readFileSync(path.join(root,'credit.json')));await setupCredit(page,credit);
  await page.screenshot({...screenshotOptions,path:path.join(root,'thumbnail.png')});
@@ -71,28 +89,36 @@ async function plan(root,id,out){const {page,browser,server}=await open(root,id)
   return response;
  };
  const save=async duration=>{if(!Number.isFinite(duration)||duration<0)throw Error('Invalid original frame duration');const first=Math.round(cursor*20);cursor+=duration;const end=Math.round(cursor*20);
-  const info=await interactionProgress(page);events.push(...splitProgressEvent({ops:pending.splice(0),first_frame:first,end_frame:end},info,audioCursor));audioCursor+=duration;
+  const state=await interactionProgress(page,true);events.push(...splitProgressEvent({ops:pending.splice(0),first_frame:first,end_frame:end},state.interaction,audioCursor).map(event=>({...event,card_visible:state.card_visible})));audioCursor+=duration;
  };
  await op('showSplash');await op('goToNextSection');let first=true;
  while(true){const response=await op('nextTextBlock');if(!response)throw Error('Original renderer ended unexpectedly');
   if(first){
-   // Original intro occupies the first min(5, first block duration) seconds.
-   // Record it separately before applying the first text-block command.
-   const commands=pending.splice(0);events.push({ops:[commands[0]],first_frame:0,end_frame:Math.round(Math.min(5,response.duration)*20)});
-   cursor=Math.min(5,response.duration);audioCursor+=cursor;pending.push(...commands.slice(1));response.duration-=cursor;first=false;
+   const opening=openingBlock(response);
+   const commands=pending.splice(0);events.push({ops:[commands[0]],first_frame:0,end_frame:Math.round(opening.intro*20),card_visible:false});
+   cursor=opening.intro;audioCursor+=cursor;pending.push(...commands.slice(1));
+   // Replay the hidden animation steps at the intro boundary. This reconstructs
+   // the correct state at that audio time without delaying the rest of the video.
+   for(const [amount,,quote]of opening.advance){await op('scrollTranscript',[amount]);if(quote!==undefined&&quote!==null)await op('setQuoteProgress',[quote]);}
+   response.duration=opening.duration;response.frameInfo=opening.frameInfo;first=false;
   }
   await save(response.duration);
   for(const [amount,duration,quote]of response.frameInfo){await op('scrollTranscript',[amount]);if(quote!==undefined&&quote!==null)await op('setQuoteProgress',[quote]);await save(duration);}
   if(response.goToNextSection){const info=await page.evaluate(current=>{const next=current+1;return {different:(sectionsObject[next].argument_index||0)>(sectionsObject[current].argument_index||0),title:sectionsObject[next].argument_title};},response.currentSection||0);if(info.different){await op('announceNextArgument',[info.title]);await save(3);}await op('goToNextSection');}
   else if(response.lastTurn)break;
  }
+ const argumentEnd=cursor;
  // The existing screenshot workflow calls showConclusion without returning its result.
  // Preserve its timeline; the opinion path adds its own concluding frame below.
  await op('showConclusion');
  const interactions=JSON.parse(fs.readFileSync(path.join(root,`json/${id}-interactions.json`)));
  if(interactions.announcements?.length){await op('announceOpinionAnnouncements');await save(8);for(const ignored of interactions.announcements){await op('loadNextOpinionAnnouncement');while(true){const response=await op('nextTextBlock');await save(response.duration);for(const [amount,duration,quote]of response.frameInfo){await op('scrollTranscript',[amount]);if(quote!==undefined&&quote!==null)await op('setQuoteProgress',[quote]);await save(duration);}if(response.goToNextSection)await op('goToNextSection');else if(response.lastTurn)break;}}await op('showConclusion');await save(5);}
  const total=Math.round(cursor*20),size=6000,chunks=[];for(let first=0;first<total;first+=size)chunks.push({index:chunks.length,first_frame:first,end_frame:Math.min(total,first+size)});
- fs.writeFileSync(out,JSON.stringify({schema_version:2,renderer:'original',case_id:id,fps:20,total_frames:total,events,chunks}));
+ const supportsReminder=await page.evaluate(()=>typeof setSubscribeReminderProgress==='function');
+ const occupied=events.filter(event=>event.card_visible&&event.end_frame>event.first_frame&&event.first_frame<argumentEnd*20).map(event=>({start:event.first_frame/20,end:event.end_frame/20}));
+ const reminder=supportsReminder?reminderWindow(occupied,argumentEnd):null;
+ const scheduled=events.flatMap(({card_visible,...event})=>splitReminderEvent(event,reminder,event.first_frame/20));
+ fs.writeFileSync(out,JSON.stringify({schema_version:2,renderer:'original',case_id:id,fps:20,total_frames:total,events:scheduled,chunks,subscribe_reminder:reminder}));
  }finally{await browser.close();server.close();}}
 async function chunk(root,planPath,index,out){const data=JSON.parse(fs.readFileSync(planPath)),part=data.chunks[index],{page,browser,server}=await open(root,data.case_id,data.layout==='vertical');const folder=out+'.frames';fs.mkdirSync(folder,{recursive:true});try{
  await setupCredit(page,JSON.parse(fs.readFileSync(path.join(root,'credit.json'))));const rows=[];let image=0;
@@ -127,7 +153,7 @@ async function cardPreview(root,id,block,out){const {page,browser,server}=await 
  const element=await page.$('#quote-card');const box=await element.boundingBox();await page.screenshot({type:'jpeg',quality:90,path:out+'.card.jpg',clip:box});
  fs.writeFileSync(out+'.json',JSON.stringify(metrics));
  }finally{await browser.close();server.close();}}
-module.exports={open,action,setupCredit,interactionProgress,plan,chunk,cardPreview};
+module.exports={open,action,setupCredit,interactionProgress,plan,chunk,cardPreview,verticalSafeArea};
 if(require.main===module){
  const [mode,rootArg,idOrPlan,indexOrOut,out]=process.argv.slice(2),root=path.resolve(rootArg);
  (mode==='plan'?plan(root,idOrPlan,indexOrOut):mode==='card'?cardPreview(root,idOrPlan,Number(indexOrOut),out):chunk(root,idOrPlan,Number(indexOrOut),out)).catch(error=>{console.error(error.message);process.exitCode=1;});

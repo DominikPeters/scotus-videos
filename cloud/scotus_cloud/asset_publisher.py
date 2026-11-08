@@ -1,6 +1,7 @@
 """Publish owner-approved portraits separately from private Codex research."""
 import base64,hashlib,json,os
 from pathlib import Path
+from .secret_store import runtime_settings
 from .google import Google
 from .remote import Dashboard
 from .github_assets import commit_portrait
@@ -8,7 +9,7 @@ from .github_assets import commit_portrait
 
 def main():
     if not os.environ.get('CLOUD_RUN_JOB'):raise RuntimeError('Cloud asset publisher only')
-    settings=json.loads(Path('/secrets/assets/config.json').read_text())
+    settings=runtime_settings('/secrets/assets/config.json')
     dashboard=Dashboard(settings['dashboard_url'],settings['worker_key'],'assets');cloud=Google(settings['project'])
     context=dashboard.call('asset_publish_claim',job=os.environ['SCOTUS_JOB_ID'],dispatch_token=os.environ['SCOTUS_ASSET_TOKEN'])
     if not context:return

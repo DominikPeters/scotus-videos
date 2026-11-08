@@ -1,0 +1,17 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "qp",
+  "kind": "Question presented",
+  "title": "granted March 30, 2026",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Question presented",
+    "heading": "granted March 30, 2026",
+    "text": "May a defendant seek summary judgment on an affirmative defense omitted from its answer, <mark>without amending the answer</mark>—even if Rule 16(b)(4) would bar an amendment?",
+    "source": "Question presented, shortened · Supreme Court docket",
+    "highlight": [
+      "Pleading an affirmative defense"
+    ]
+  }
+}

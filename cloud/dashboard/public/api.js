@@ -38,21 +38,31 @@ export async function passkey(register) {
   setCsrf(result.csrf);
 }
 
-// Previews come from private storage through the dashboard, at most two at a time.
+// Private binary previews can use the browser's HTTP cache across page reloads.
+// Four requests and a few cards of lookahead keep scrolling ahead of the network.
 const urls = new Map(), pending = new Map(), queue = [];
 let active = 0;
 
 async function slot(task) {
-  if (active >= 2) await new Promise(resolve => queue.push(resolve));
-  active++;
-  try { return await task(); } finally { active--; queue.shift()?.(); }
+  if (active >= 4) await new Promise(resolve => queue.push(resolve)); else active++;
+  try { return await task(); } finally { const next = queue.shift(); if (next) next(); else active--; }
 }
 
-async function fetchPreview(request) {
-  try { return await api('asset_data', request); } catch (error) {
+async function fetchPreview(request, key) {
+  const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(key));
+  const query = new URLSearchParams({action: 'asset_image', ...request, version: encoded(digest)});
+  const fetchImage = async () => {
+    const response = await fetch(`api.php?${query}`, {credentials: 'same-origin'});
+    if (!response.ok) {
+      const body = await response.json().catch(() => ({}));
+      const error = Error(body.error || 'Preview unavailable'); error.status = response.status; throw error;
+    }
+    return response.blob();
+  };
+  try { return await fetchImage(); } catch (error) {
     if (error.status !== 503) throw error;
     await new Promise(resolve => setTimeout(resolve, 600));
-    return api('asset_data', request);
+    return fetchImage();
   }
 }
 
@@ -67,8 +77,7 @@ export function loadPreview(key, request) {
   if (urls.has(key)) return Promise.resolve(urls.get(key));
   if (!pending.has(key)) {
     pending.set(key, slot(async () => {
-      const value = await fetchPreview(request);
-      const blob = new Blob([Uint8Array.from(atob(value.data), c => c.charCodeAt(0))], {type: value.mime});
+      const blob = await fetchPreview(request, key);
       urls.set(key, URL.createObjectURL(blob));
       return urls.get(key);
     }).finally(() => pending.delete(key)));

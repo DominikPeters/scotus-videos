@@ -23,14 +23,14 @@ function photo_request(array &$state,array $input): array {
     if($index!==null){$item['candidates'][$index]['rejected']=true;$item['candidates'][$index]['rejection']=['action'=>$action,'hint'=>$hint];}
     unset($job['approved_photos'][$person]);if($job['status']!=='failed')$job['status']='needs_review';
     if(in_array($job['stages']['enrich']['status'],['complete','pending'],true))$job['stages']['enrich']['status']='needs_review';
-    $job['review']['revision']=hash('sha256',json_encode($job['review']));
+    review_touch($job,'photo',$person);
     event($state,$id,'Photo request queued: '.$item['name'].' ('.$action.')');return $request;
 }
 
 function photo_reconcile(array &$state): void {
     foreach($state['jobs'] as $id=>&$job)foreach($job['photo_requests'] ?? [] as $key=>$request){
         if($job['status']==='cancelled' && in_array($request['status'],['queued','starting','running'],true))$job['photo_requests'][$key]['status']='cancelled';
-        elseif(in_array($request['status'],['starting','running'],true)&&($request['expires'] ?? 0)<=time()){
+        elseif(empty($request['_launch'])&&in_array($request['status'],['starting','running'],true)&&($request['expires'] ?? 0)<=time()){
             $job['photo_requests'][$key]['status']='failed';$job['photo_requests'][$key]['error']='The photo worker stopped reporting. Retry the request.';
             unset($job['photo_requests'][$key]['lease'],$job['photo_requests'][$key]['dispatch_token']);event($state,$id,'Photo revision needs attention');
         }
@@ -44,9 +44,7 @@ function photo_operation(array &$state,array $input,string $role): mixed {
     $request=&$job['photo_requests'][$key];$op=$input['op'];
     if(!$request || $job['status']==='cancelled' || $job['stages']['plan']['status']!=='pending')return null;
     if($op==='photo_dispatch'&&$role==='dispatcher'){
-        if(!work_enabled($state,$job)||$request['status']!=='queued'||photo_active($state)||($state['auth_leases']['codex']['expires'] ?? 0)>time())return null;
-        foreach($state['jobs'] as $j)if(in_array($j['stages']['enrich']['status'],['starting','running'],true))return null;
-        foreach($state['recoveries'] ?? [] as $r)if(in_array($r['status'],['starting','running'],true))return null;
+        if(!work_enabled($state,$job)||$request['status']!=='queued'||codex_work_reserved($state))return null;
         $request['status']='starting';$request['started_at']=gmdate('c');$request['expires']=time()+600;$request['dispatch_token']=bin2hex(random_bytes(24));return $request;
     }
     if($op==='photo_dispatch_failed'&&$role==='dispatcher'){
@@ -70,7 +68,7 @@ function photo_operation(array &$state,array $input,string $role): mixed {
             if(!array_filter($item['candidates'],fn($c)=>$c['id']===$candidate['id']))$item['candidates'][]=$candidate;
         }
         $request['status']='complete';$request['finished_at']=gmdate('c');
-        $job['review']['revision']=hash('sha256',json_encode($job['review']));
+        review_touch($job,'photo',$request['person']);
         event($state,$id,'New photo options ready for '.$item['name']);notify_event($state,$key.'-ready','photos',$job['review']['id']);
     }elseif($op==='photo_fail'){
         $request['status']='failed';$request['error']=mb_substr((string)$input['message'],0,400);event($state,$id,'Photo revision needs attention');

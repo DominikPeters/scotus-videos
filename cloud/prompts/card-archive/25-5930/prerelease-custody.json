@@ -1,0 +1,21 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "prerelease-custody",
+  "kind": "Glossary",
+  "title": "First Step Act",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Glossary",
+    "heading": "First Step Act",
+    "glossary": {
+      "term": "Prerelease custody",
+      "expansion": ""
+    },
+    "text": "The final part of a federal prison term, spent in a halfway house (a “residential reentry center”) or in home confinement. Under the First Step Act, earned time credits can move a prisoner there earlier.",
+    "source": "18 U.S.C. § 3624(c), (g) · U.S. Code, 2024 edition",
+    "highlight": [
+      "prerelease custody pursuant to this subsection"
+    ]
+  }
+}

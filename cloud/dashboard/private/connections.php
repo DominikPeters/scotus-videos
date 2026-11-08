@@ -22,8 +22,10 @@ function cloud_request(array $config, string $operation, array $data = [], int $
         CURLOPT_HTTPHEADER => ['Content-Type: application/json', 'X-Scotus-Time: ' . $timestamp,
             'X-Scotus-Nonce: ' . $nonce, 'X-Scotus-Signature: ' . hash_hmac('sha256', $signed, $config['control_key'])]]);
     $response = curl_exec($curl); $status = curl_getinfo($curl, CURLINFO_RESPONSE_CODE); curl_close($curl);
-    if ($response === false || $status >= 400) throw new RuntimeException('Cloud connection could not be completed');
+    if ($response === false) throw new RuntimeException('Cloud connection could not be completed');
     $decoded = json_decode($response, true, 512, JSON_THROW_ON_ERROR);
+    if(in_array($operation,['card_import','card_import_cancel','refresh_sources','case_status'],true)&&in_array($status,[400,409],true))throw new WorkflowConflict(mb_substr((string)($decoded['error']??'This item changed; refresh'),0,600));
+    if($status>=400)throw new RuntimeException('Cloud connection could not be completed');
     if (!$decoded['ok']) throw new RuntimeException('Cloud connection could not be completed');
     return $decoded['result'];
 }

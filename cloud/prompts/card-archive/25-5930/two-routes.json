@@ -1,0 +1,28 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "two-routes",
+  "kind": "Comparison",
+  "title": "Two ways prisoners can sue",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Comparison",
+    "heading": "Two ways prisoners can sue",
+    "compare": [
+      {
+        "title": "Habeas corpus",
+        "cite": "28 U.S.C. § 2241",
+        "text": "For a prisoner challenging “the very fact or duration of his physical imprisonment” and seeking immediate or speedier release."
+      },
+      {
+        "title": "Civil-rights suit",
+        "cite": "42 U.S.C. § 1983 (state officials) · <i>Bivens</i> (federal)",
+        "text": "For other prisoner claims, such as challenges to conditions of confinement; relief can include damages."
+      }
+    ],
+    "source": "<i>Preiser</i> v. <i>Rodriguez</i>, 411 U.S. 475 (1973)",
+    "highlight": [
+      "1983 rights"
+    ]
+  }
+}

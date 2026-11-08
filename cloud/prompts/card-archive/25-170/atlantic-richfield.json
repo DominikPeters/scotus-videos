@@ -1,0 +1,22 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "atlantic-richfield",
+  "kind": "Case",
+  "title": "<i>Atlantic Richfield Co.</i> v. <i>Christian</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+      "name": "<i>Atlantic Richfield Co.</i> v. <i>Christian</i>",
+      "details": "2020"
+    },
+    "text": "The Court unanimously held that it could review the Montana Supreme Court’s ruling: under Montana law, a supervisory writ proceeding is a self-contained case, not an interlocutory appeal, so it was a final judgment.",
+    "source": "Summary based on Oyez (oyez.org)",
+    "highlight": [
+      "in Atlantic Richfield itself"
+    ]
+  }
+}

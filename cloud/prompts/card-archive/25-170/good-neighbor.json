@@ -1,0 +1,17 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "good-neighbor",
+  "kind": "Statute",
+  "title": "42 U.S.C. § 7410(a)(2)(D) — the “good neighbor” provision",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Statute",
+    "heading": "42 U.S.C. § 7410(a)(2)(D) — the “good neighbor” provision",
+    "text": "Each such plan shall— … contain adequate provisions— (i) prohibiting, consistent with the provisions of this subchapter, any source or other type of emissions activity within the State from emitting any air pollutant in amounts which will— (I) <mark>contribute significantly to nonattainment in, or interfere with maintenance by, any other State</mark> …",
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+      "good neighbor provision"
+    ]
+  }
+}

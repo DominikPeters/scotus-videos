@@ -1,0 +1,21 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "parole",
+  "kind": "Glossary",
+  "title": "Federal sentencing",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Glossary",
+    "heading": "Federal sentencing",
+    "glossary": {
+      "term": "Federal parole",
+      "expansion": ""
+    },
+    "text": "Early release from prison decided by a parole board. The Sentencing Reform Act of 1984 abolished it for future federal prisoners. Today a term of <mark>supervised release</mark>, imposed by the sentencing court, follows the prison term.",
+    "source": "Petitioner’s brief, p. 9; 18 U.S.C. § 3583(a)",
+    "highlight": [
+      "doesn't exist in the federal system"
+    ]
+  }
+}

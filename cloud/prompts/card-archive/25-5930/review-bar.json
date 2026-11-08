@@ -1,0 +1,28 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "review-bar",
+  "kind": "Comparison",
+  "title": "The review bar and the transfer provision",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Comparison",
+    "heading": "The review bar and the transfer provision",
+    "compare": [
+      {
+        "title": "Place of imprisonment",
+        "cite": "18 U.S.C. § 3621(b), last sentence",
+        "text": "Notwithstanding any other provision of law, a designation of a place of imprisonment under this subsection <mark>is not reviewable by any court</mark>."
+      },
+      {
+        "title": "First Step Act time credits",
+        "cite": "18 U.S.C. § 3632(d)(4)(C)",
+        "text": "The Director of the Bureau of Prisons <mark>shall transfer eligible prisoners</mark>, as determined under section 3624(g), into prerelease custody or supervised release."
+      }
+    ],
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+      "3621(b) argument"
+    ]
+  }
+}

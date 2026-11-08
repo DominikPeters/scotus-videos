@@ -3,7 +3,7 @@ require dirname(__DIR__).'/dashboard/private/state.php';
 function check(bool $ok,string $message):void{if(!$ok)throw new RuntimeException($message);}
 function rejected(callable $fn):void{try{$fn();}catch(Throwable $error){return;}throw new RuntimeException('Invalid action accepted');}
 $s=initial_state();$s['paused']=false;$job=add_job($s,['docket'=>'25-735','argument_date'=>'2026-10-05','case_name'=>'Fixture','audio_url'=>'https://www.supremecourt.gov/a.mp3','pdf_url'=>'https://www.supremecourt.gov/t.pdf']);$id=$job['id'];
-$s['jobs'][$id]['stages']['prepare']['status']='complete';
+$s['jobs'][$id]['stages']['prepare']['status']='complete';$s['jobs'][$id]['stages']['align']['status']='complete';
 $start=worker_update($s,['op'=>'dispatch','job'=>$id,'stage'=>'enrich'],'dispatcher');
 $claim=worker_update($s,['op'=>'claim','job'=>$id,'stage'=>'enrich','dispatch_token'=>$start['dispatch_token']],'enrich');
 $revision=str_repeat('b',64);$choice=['id'=>'portrait','portrait_uri'=>'gs://private/photo.jpg','preview_uri'=>'gs://private/preview.jpg','sha256'=>str_repeat('c',64)];
@@ -11,6 +11,8 @@ $review=['id'=>'review','revision'=>$revision,'titles'=>[['title'=>'Recommended'
 $result=worker_update($s,['op'=>'enrichment_review','job'=>$id,'stage'=>'enrich','lease'=>$claim['lease'],'review'=>$review,'result'=>['enrichment_uri'=>'gs://private/enrichment.json']],'enrich');
 check($result['needs_review'],'Missing photo did not stop processing');
 check(count($s['notifications'])===1,'Photo alert missing');
+// Simulate a legacy review created while alignment was still pending.
+$s['jobs'][$id]['stages']['align']['status']='pending';
 $startAlign=worker_update($s,['op'=>'dispatch','job'=>$id,'stage'=>'align'],'dispatcher');
 check(!empty($startAlign['dispatch_token']),'Photo review blocked independent alignment');
 $align=worker_update($s,['op'=>'claim','job'=>$id,'stage'=>'align','dispatch_token'=>$startAlign['dispatch_token']],'align');
@@ -26,12 +28,13 @@ $failure['jobs'][$id]['status']='needs_review';$failure['jobs'][$id]['stages']['
 reconcile_reviews($failure);check($failure['jobs'][$id]['stages']['enrich']['status']==='pending','Saved approvals were not reconciled');
 review_command($s,['job'=>$id,'revision'=>$revision,'command'=>'photo','person'=>'lawyer','candidate'=>'portrait']);
 check($s['jobs'][$id]['status']==='running','Photo approval lost active alignment');
-$resumed=worker_update($s,['op'=>'dispatch','job'=>$id,'stage'=>'enrich'],'dispatcher');check(!empty($resumed['dispatch_token']),'Approval did not resume enrichment alongside alignment');
+check(worker_update($s,['op'=>'dispatch','job'=>$id,'stage'=>'enrich'],'dispatcher')===null,'Approval bypassed unfinished alignment');
 worker_update($s,['op'=>'finish','job'=>$id,'stage'=>'align','dispatch_token'=>$startAlign['dispatch_token'],'lease'=>$align['lease'],'result'=>[]],'align');
 check(worker_update($s,['op'=>'dispatch','job'=>$id,'stage'=>'plan'],'dispatcher')===null,'Plan bypassed unfinished enrichment');
-check($s['jobs'][$id]['stages']['enrich']['status']==='starting','Parallel enrichment reservation was lost');
+$resumed=worker_update($s,['op'=>'dispatch','job'=>$id,'stage'=>'enrich'],'dispatcher');check(!empty($resumed['dispatch_token']),'Completed alignment did not release approved enrichment');
 review_command($s,['job'=>$id,'revision'=>$revision,'command'=>'title','index'=>1]);
 check($s['jobs'][$id]['title']==='Alternative','Title was not selected');
+$revision=$s['jobs'][$id]['review']['revision'];
 rejected(function()use(&$s,$id,$revision){review_command($s,['job'=>$id,'revision'=>$revision,'command'=>'publish']);});
 $s['jobs'][$id]['status']='complete';$s['jobs'][$id]['stages']['upload']=['status'=>'complete','result'=>['video_id'=>'existing','postprocessing_complete'=>true]];
 review_command($s,['job'=>$id,'revision'=>$revision,'command'=>'publish']);review_command($s,['job'=>$id,'revision'=>$revision,'command'=>'publish']);

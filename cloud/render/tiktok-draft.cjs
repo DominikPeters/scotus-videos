@@ -12,6 +12,23 @@ async function checkpoint(value) {
   });
 }
 
+async function finishPublicPost(page) {
+  // Studio sometimes asks whether to post before its optional checks finish.
+  await page.waitForFunction(() => location.pathname.includes('/content') ||
+    (document.body.innerText.includes('Continue to post?') &&
+      [...document.querySelectorAll('button')].some(el => el.innerText.trim() === 'Post now')),
+    {timeout: 60000});
+  if (await page.evaluate(() => location.pathname.includes('/content'))) return;
+  await checkpoint({publish_confirmation_pending: true});
+  await page.evaluate(() => {
+    if (!document.body.innerText.includes('Continue to post?') ||
+        !document.body.innerText.includes("We're still checking your video")) throw Error('Unknown posting confirmation');
+    const matches = [...document.querySelectorAll('button')].filter(el => el.innerText.trim() === 'Post now' && !el.disabled);
+    if (matches.length !== 1) throw Error('Posting confirmation is ambiguous');
+    matches[0].click();
+  });
+}
+
 async function main() {
   const puppeteer = require('puppeteer');
   const [sessionPath, videoPath, captionPath, outputPath, editName, mode = 'draft'] = process.argv.slice(2);
@@ -27,10 +44,11 @@ async function main() {
   const save = () => fs.writeFileSync(outputPath, JSON.stringify(result));
   const complete = async published => {
     await page.waitForFunction((text, isPost) => location.pathname.includes('/content') &&
-      (new URLSearchParams(location.search).get('tab') === 'draft') !== isPost && document.body.innerText.includes(text),
+      (new URLSearchParams(location.search).get('tab') === 'draft') !== isPost &&
+      document.body.innerText.replace(/\s+/g, ' ').includes(text.replace(/\s+/g, ' ').trim()),
       {timeout: 60000}, caption, published);
     result.step = 'complete'; result.published = published; result.saved = !published;
-    await checkpoint({draft_pending: false, publish_pending: false, saved: result.saved, published, caption});
+    await checkpoint({draft_pending: false, publish_pending: false, publish_confirmation_pending: false, saved: result.saved, published, caption});
   };
   try {
     await page.setViewport({width: 1440, height: 1100});
@@ -95,6 +113,7 @@ async function main() {
     await checkpoint(mode === 'publish' ? {publish_pending: true} : {draft_pending: true});
     // Avoid a coordinate click racing Studio's animated scroll to the footer.
     await drafts[0].evaluate(el => el.click());
+    if (mode === 'publish') await finishPublicPost(page);
     await complete(mode === 'publish');
   } catch (error) {
     result.error_type = error.name;
@@ -113,5 +132,5 @@ async function main() {
 function closeCheckpointChannel() {
   if (process.env.SCOTUS_TIKTOK_CHECKPOINTS === '1') process.stdin.destroy();
 }
-module.exports = {checkpoint, closeCheckpointChannel};
+module.exports = {checkpoint, closeCheckpointChannel, finishPublicPost};
 if (require.main === module) main().catch(() => { closeCheckpointChannel(); console.error('TikTok browser worker could not start'); process.exitCode = 1; });

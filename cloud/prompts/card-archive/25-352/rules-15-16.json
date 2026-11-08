@@ -1,0 +1,28 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "rules-15-16",
+  "kind": "Comparison",
+  "title": "Two rules on changing course",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Comparison",
+    "heading": "Two rules on changing course",
+    "compare": [
+      {
+        "title": "Amending a pleading",
+        "cite": "Rule 15(a)(2)",
+        "text": "… a party may amend its pleading only with the opposing party’s written consent or the court’s leave. The court should <mark>freely give leave when justice so requires</mark>."
+      },
+      {
+        "title": "Changing the schedule",
+        "cite": "Rule 16(b)(4)",
+        "text": "A schedule may be modified <mark>only for good cause</mark> and with the judge’s consent."
+      }
+    ],
+    "source": "Federal Rules of Civil Procedure",
+    "highlight": [
+      "good cause standard in Rule 16(b)(4)"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "virginia-uranium",
+  "kind": "Case",
+  "title": "<i>Virginia Uranium, Inc.</i> v. <i>Warren</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+      "name": "<i>Virginia Uranium, Inc.</i> v. <i>Warren</i>",
+      "details": "2019 · decided 6–3"
+    },
+    "text": "The Court held that the federal Atomic Energy Act does not preempt Virginia’s state-law ban on uranium mining.",
+    "source": "Summary based on Oyez (oyez.org)",
+    "highlight": [
+      "Virginia Uranium tells us that"
+    ]
+  }
+}

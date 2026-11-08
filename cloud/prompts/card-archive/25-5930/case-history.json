@@ -1,0 +1,42 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "case-history",
+  "kind": "Timeline",
+  "title": "Maxwell’s case",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Timeline",
+    "heading": "Maxwell’s case",
+    "timeline": {
+      "current": 3,
+      "events": [
+        {
+          "date": "2020",
+          "label": "Asks BOP for halfway house or home confinement"
+        },
+        {
+          "date": "Oct 2023",
+          "label": "District court dismisses"
+        },
+        {
+          "date": "Apr 2025",
+          "label": "Fifth Circuit affirms"
+        },
+        {
+          "date": "Nov 2, 2026",
+          "label": "Oral argument"
+        },
+        {
+          "date": "Jan 22, 2027",
+          "label": "BOP’s projected transfer eligibility",
+          "gap": true
+        }
+      ]
+    },
+    "source": "Question presented; Pet. App.; Brief for the United States, p. 13",
+    "highlight": [
+      "the end of January"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "bivens",
+  "kind": "Glossary",
+  "title": "Suing federal officers",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Glossary",
+    "heading": "Suing federal officers",
+    "glossary": {
+      "term": "Bivens claim",
+      "expansion": ""
+    },
+    "text": "A suit for money damages against federal officers who violated the Constitution, recognized in <i>Bivens</i> (1971). The Fifth Circuit sends claims like Maxwell’s to such a suit.",
+    "source": "<i>Bivens</i>, 403 U.S. 388 (1971) · Fifth Circuit opinion, Pet. App. 1.1",
+    "highlight": [
+      "Bivens claim"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "ouellette",
+  "kind": "Case",
+  "title": "<i>International Paper Co.</i> v. <i>Ouellette</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "case": {
+      "name": "<i>International Paper Co.</i> v. <i>Ouellette</i>",
+      "details": "1987"
+    },
+    "text": "The Court held that the Clean Water Act barred applying an affected State’s nuisance law to an out-of-state source, while leaving source-State law available.",
+    "source": "Syllabus · U.S. Reports",
+    "highlight": [
+      "source state and the affected state"
+    ]
+  }
+}

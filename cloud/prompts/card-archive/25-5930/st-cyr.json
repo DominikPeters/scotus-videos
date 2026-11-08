@@ -1,0 +1,22 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "st-cyr",
+  "kind": "Case",
+  "title": "<i>INS</i> v. <i>St. Cyr</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+      "name": "<i>INS</i> v. <i>St. Cyr</i>",
+      "details": "2001"
+    },
+    "text": "Congress must speak clearly if it means to take away habeas jurisdiction; without a clear statement, the Court will not read a statute that way.",
+    "source": "Summary based on the opinion of the Court (U.S. Reports)",
+    "highlight": [
+      "the St. Cyr level of clarity"
+    ]
+  }
+}

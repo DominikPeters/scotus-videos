@@ -1,0 +1,21 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "aep",
+  "kind": "Case",
+  "title": "<i>American Electric Power Co.</i> v. <i>Connecticut</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "case": {
+      "name": "<i>American Electric Power Co.</i> v. <i>Connecticut</i>",
+      "details": "2011"
+    },
+    "text": "The Court held that the Clean Air Act displaced federal common-law nuisance claims seeking limits on power-plant greenhouse-gas emissions.",
+    "source": "Syllabus · U.S. Reports",
+    "highlight": [
+      "American Electric Power"
+    ]
+  }
+}

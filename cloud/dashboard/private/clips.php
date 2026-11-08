@@ -21,7 +21,18 @@ function clip_command(array &$state,array $input):array{
             'source_plan'=>$job['stages']['plan']['result'],'audio_uri'=>$job['stages']['prepare']['result']['audio_uri'],'progress'=>0];
     }else{
         $key=(string)($input['clip']??'');if(!isset($job['clips'][$key]))throw new RuntimeException('Unknown clip');$clip=&$job['clips'][$key];
-        if(in_array($action,['tiktok_draft','tiktok_publish'],true)){
+        if($action==='youtube_link'){
+            if(!in_array($clip['status'],['ready','uploaded','failed'],true)||empty($clip['youtube']['video_id']))throw new RuntimeException('Wait for the YouTube upload');
+            if(empty($job['stages']['upload']['result']['video_id']))throw new RuntimeException('The full argument has no YouTube upload');
+            $clip['status']='youtube_link_queued';
+        }elseif($action==='instagram_publish'){
+            if(!in_array($clip['status'],['ready','uploaded','failed'],true)||empty($clip['result']['video_uri']))throw new RuntimeException('Render this clip first');
+            if(!empty($clip['instagram']['published']))throw new RuntimeException('This clip is already published on Instagram');
+            $caption=trim((string)($input['caption']??$clip['instagram']['caption']??$clip['title']));
+            if(!$caption||mb_strlen($caption)>2200)throw new RuntimeException('Enter an Instagram caption of at most 2200 characters');
+            if(!empty($clip['instagram_checkpoint'])&&$caption!==($clip['instagram']['caption']??''))throw new RuntimeException('Keep the saved caption while resuming this transfer');
+            $clip['instagram']['caption']=$caption;$clip['status']='instagram_publish_queued';
+        }elseif(in_array($action,['tiktok_draft','tiktok_publish'],true)){
             if(!in_array($clip['status'],['ready','uploaded','failed'],true)||empty($clip['result']['video_uri']))throw new RuntimeException('Wait for this clip to finish');
             if(!empty($clip['tiktok']['published']))throw new RuntimeException('This clip is already published on TikTok');
             if($action==='tiktok_draft'&&!empty($clip['tiktok']['saved']))throw new RuntimeException('This clip already has a TikTok draft');
@@ -35,7 +46,7 @@ function clip_command(array &$state,array $input):array{
             $clip['status']='upload_queued';
         }elseif($action==='retry'){
             if($clip['status']!=='failed')throw new RuntimeException('Only failed clips can be retried');
-            $clip['status']=match($clip['mode']??'render'){'upload'=>'upload_queued','tiktok_draft'=>'tiktok_draft_queued','tiktok_publish'=>'tiktok_publish_queued',default=>'render_queued'};
+            $clip['status']=match($clip['mode']??'render'){'youtube_link'=>'youtube_link_queued','instagram_publish'=>'instagram_publish_queued','upload'=>'upload_queued','tiktok_draft'=>'tiktok_draft_queued','tiktok_publish'=>'tiktok_publish_queued',default=>'render_queued'};
         }else throw new RuntimeException('Unknown clip command');
         unset($clip['error']);
     }
@@ -47,8 +58,9 @@ function clip_operation(array &$state,array $input,string $role):mixed{
     $job=&$state['jobs'][$id];$clip=&$job['clips'][$key];$op=$input['op'];
     if($role==='dispatcher'&&$op==='clip_context')return ['job'=>$job,'clip'=>$clip];
     if($role==='dispatcher'&&$op==='clip_dispatch'){
-        if(!in_array($clip['status'],['render_queued','upload_queued','tiktok_draft_queued','tiktok_publish_queued'],true))return null;
-        $clip['mode']=match($clip['status']){'upload_queued'=>'upload','tiktok_draft_queued'=>'tiktok_draft','tiktok_publish_queued'=>'tiktok_publish',default=>'render'};$clip['status']='starting';$clip['dispatch_token']=bin2hex(random_bytes(24));$clip['expires']=time()+1200;unset($clip['operation']);
+        if(!empty($state['deployment_hold']))return null;
+        if(!in_array($clip['status'],['render_queued','upload_queued','tiktok_draft_queued','tiktok_publish_queued','instagram_publish_queued','youtube_link_queued'],true))return null;
+        $clip['mode']=match($clip['status']){'youtube_link_queued'=>'youtube_link','instagram_publish_queued'=>'instagram_publish','upload_queued'=>'upload','tiktok_draft_queued'=>'tiktok_draft','tiktok_publish_queued'=>'tiktok_publish',default=>'render'};$clip['status']='starting';$clip['dispatch_token']=bin2hex(random_bytes(24));$clip['expires']=time()+1200;unset($clip['operation']);
         return ['token'=>$clip['dispatch_token']];
     }
     if($role==='dispatcher'&&$op==='clip_dispatched'){$clip['operation']=$input['operation'];return true;}
@@ -64,10 +76,12 @@ function clip_operation(array &$state,array $input,string $role):mixed{
     }
     if(($clip['expires']??0)<time()||!hash_equals($clip['lease']??'',(string)($input['lease']??''))||!in_array($clip['status'],['rendering','uploading'],true))throw new RuntimeException('Stale clip worker');
     if($op==='clip_heartbeat'){$clip['expires']=time()+1200;$clip['progress']=min(1,max(0,(float)($input['progress']??0)));return true;}
-    if($op==='clip_checkpoint'){$field=str_starts_with($clip['mode'],'tiktok_')?'tiktok_checkpoint':'upload';$clip[$field]=array_replace($clip[$field]??[],$input['checkpoint']);return true;}
+    if($op==='clip_checkpoint'){$field=$clip['mode']==='instagram_publish'?'instagram_checkpoint':(str_starts_with($clip['mode'],'tiktok_')?'tiktok_checkpoint':'upload');$clip[$field]=array_replace($clip[$field]??[],$input['checkpoint']);return true;}
     if($op==='clip_finish'){
         if(!empty($input['error'])){$clip['status']='failed';$clip['error']=mb_substr((string)$input['error'],0,500);}
+        elseif($clip['mode']==='instagram_publish'){$clip['status']=isset($clip['youtube'])?'uploaded':'ready';$clip['instagram']=array_replace($clip['instagram']??[],$input['result']);}
         elseif(str_starts_with($clip['mode'],'tiktok_')){$clip['status']=isset($clip['youtube'])?'uploaded':'ready';$clip['tiktok']=array_replace($clip['tiktok']??[],$input['result']);}
+        elseif($clip['mode']==='youtube_link'){$clip['status']='uploaded';$clip['youtube']=array_replace($clip['youtube']??[],$input['result']);}
         elseif($clip['mode']==='upload'){$clip['status']='uploaded';$clip['youtube']=$input['result'];}
         else{$clip['status']='ready';$clip['result']=$input['result'];}
         $clip['finished_at']=gmdate('c');$clip['progress']=1;unset($clip['lease'],$clip['dispatch_token']);

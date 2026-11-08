@@ -1,0 +1,17 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "four-requirements",
+  "kind": "Statute",
+  "title": "18 U.S.C. § 3624(g)(1) — who is eligible",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Statute",
+    "heading": "18 U.S.C. § 3624(g)(1) — who is eligible",
+    "text": "… a prisoner … who— (A) <mark>has earned time credits</mark> … in an amount that is equal to the remainder of the prisoner’s imposed term of imprisonment; (B) … has maintained a minimum or low recidivism risk …; (C) has had the remainder of the prisoner’s imposed term of imprisonment computed …; and (D) … has been determined under the System to be a minimum or low risk to recidivate … or … has had a petition to be transferred to prerelease custody or supervised release approved by the warden …",
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+      "all four of the requirements"
+    ]
+  }
+}

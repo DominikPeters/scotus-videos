@@ -5,6 +5,7 @@ from pathlib import Path
 import subprocess
 import sys
 import unittest
+import tempfile
 from unittest.mock import Mock, patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -78,6 +79,19 @@ class CodexInputTests(unittest.TestCase):
         self.dashboard.call.return_value = 'lease-token'
         self.auth = {'auth_mode': 'chatgpt', 'tokens': {'refresh_token': 'original-private-token'}}
         self.cloud.secret.return_value = json.dumps(self.auth).encode()
+
+    @patch.dict(os.environ, {'SCOTUS_PRIVATE_CODEX_WORKER':'1'})
+    def test_reference_files_are_available_without_being_added_to_input_context(self):
+        with tempfile.TemporaryDirectory() as folder:
+            library=Path(folder);(library/'archive').mkdir();(library/'sources').mkdir()
+            (library/'sources/exact.txt').write_text('Exact cached source')
+            def execute(command,*,cwd,**kwargs):
+                self.assertEqual((Path(cwd)/'reference/sources/exact.txt').read_text(),'Exact cached source')
+                self.assertEqual(list((Path(cwd)/'input').iterdir()),[Path(cwd)/'input/case.json'])
+                self.assertEqual(command[-1],'Read supplied case and retrieve source files as needed')
+                (Path(cwd)/'result.json').write_text('{"saved":true}')
+            with patch('scotus_cloud.codex_auth.subprocess.run',side_effect=execute):
+                self.assertEqual(run_codex(self.dashboard,self.cloud,'auth','Read supplied case and retrieve source files as needed',{},inputs={'input/case.json':'{}'},references=library),{'saved':True})
 
     @patch.dict(os.environ, {'SCOTUS_PRIVATE_CODEX_WORKER':'1'})
     def test_vision_cli_attaches_private_image_bytes(self):

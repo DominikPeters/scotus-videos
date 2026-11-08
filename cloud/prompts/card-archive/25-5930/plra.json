@@ -1,0 +1,17 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "plra",
+  "kind": "Statute",
+  "title": "42 U.S.C. § 1997e(a) — Prison Litigation Reform Act",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Statute",
+    "heading": "42 U.S.C. § 1997e(a) — Prison Litigation Reform Act",
+    "text": "No action shall be brought with respect to prison conditions under section 1983 of this title, or any other Federal law, by a prisoner confined in any jail, prison, or other correctional facility <mark>until such administrative remedies as are available are exhausted</mark>.",
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+      "under the PLRA"
+    ]
+  }
+}

@@ -1,4 +1,10 @@
 """Provision fixed auxiliary jobs/timer. No video execution is started."""
+
+try:
+    from managed_secrets import run_gcloud
+except ModuleNotFoundError:
+    from infra.managed_secrets import run_gcloud
+from infra.registry_cleanup import refresh as refresh_registry
 import argparse,json,secrets,shlex,subprocess,tempfile
 from pathlib import Path
 import sys
@@ -13,7 +19,7 @@ def main():
     cfg=json.loads(args.config.read_text());project=cfg['project'];region=cfg['region'];cloudroot=Path(__file__).resolve().parents[1]
     def call(*argv,optional=False,parse=False):
         if argv[:3]==('storage','buckets','add-iam-policy-binding') and not any(c.startswith('--condition=') for c in argv):argv=(*argv,'--condition=None')
-        r=subprocess.run([args.gcloud,*argv,'--project='+project,'--quiet',*(['--format=json'] if parse else [])],capture_output=True,text=True,timeout=180)
+        r=run_gcloud([args.gcloud,*argv,'--project='+project,'--quiet',*(['--format=json'] if parse else [])],capture_output=True,text=True,timeout=180)
         if r.returncode:
             if optional:return None
             raise RuntimeError(r.stderr[-1500:])
@@ -21,6 +27,7 @@ def main():
     build=json.loads(args.build_state.read_text());receipt=call('builds','describe',build['build_id'],'--region='+region,parse=True)
     if receipt['status']!='SUCCESS':raise ValueError('Pipeline build has not succeeded')
     image=build['image'].split(':')[0]+'@'+receipt['results']['images'][0]['digest'];bucket=project+'-scotus-video-media'
+    refresh_registry(project,region,args.gcloud,[image],apply=True)
     dashboard_path=args.config.parent/'dashboard-settings.json';dashboard=json.loads(dashboard_path.read_text())
     for role in (*STAGES,'dispatcher','recovery','assets'):dashboard['worker_keys'].setdefault(role,secrets.token_hex(32))
     cfg.update(bucket=bucket,control_url=dashboard['control_url'],recovery_key=cfg.get('recovery_key') or secrets.token_hex(32))
@@ -50,7 +57,7 @@ def main():
     resources={stage:[int(HARDWARE[stage][0]),float(HARDWARE[stage][1].replace('Gi','')),int(HARDWARE[stage][2].rstrip('s'))] for stage in STAGES}
     cfg['recovery']={'enabled':True,'job':'scotus-video-recovery','test_job':'scotus-video-recovery-test','bucket':bucket,'baseline_uri':f'gs://{bucket}/recovery/baseline.json','stage_resources':resources}
     cfg['asset_job']='scotus-video-assets'
-    for kind,cpu,memory,seconds,module,mount in [('recovery',1,'2Gi',720,'recovery_worker','recovery'),('recovery-test',1,'1Gi',180,'recovery_test_worker',None),('assets',1,'1Gi',300,'asset_publisher','assets')]:
+    for kind,cpu,memory,seconds,module,mount in [('recovery',1,'2Gi',1320,'recovery_worker','recovery'),('recovery-test',1,'1Gi',180,'recovery_test_worker',None),('assets',1,'1Gi',300,'asset_publisher','assets')]:
         print('Provisioning '+kind,flush=True)
         job='scotus-video-'+kind;sa=job+'@'+project+'.iam.gserviceaccount.com'
         if call('iam','service-accounts','describe',sa,optional=True) is None:call('iam','service-accounts','create',job)
@@ -98,6 +105,7 @@ def main():
     call('services','enable','cloudscheduler.googleapis.com')
     name='scotus-video-tick';exists=call('scheduler','jobs','describe',name,'--location='+region,optional=True)
     call('scheduler','jobs','update' if exists is not None else 'create','http',name,'--location='+region,'--schedule=*/10 * * * *','--time-zone=UTC','--uri='+cfg['control_url']+'/v1/tick','--http-method=POST','--message-body={}','--oidc-service-account-email='+cfg['scheduler_account'],'--oidc-token-audience='+cfg['control_url'],'--attempt-deadline=60s')
+    refresh_registry(project,region,args.gcloud,apply=True)
     print(json.dumps({'jobs':[*cfg['jobs'].values(),cfg['asset_job'],cfg['photo_job'],cfg['recovery']['job'],cfg['recovery']['test_job']],'scheduler':name,'workers_configured':True,'executions_started':0,'dashboard_remains_paused':True}))
 
 if __name__=='__main__':main()

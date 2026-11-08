@@ -15,7 +15,8 @@ class DispatchTests(unittest.TestCase):
             if op=='snapshot':return {'paused':paused,'jobs':{j['id']:j for j in jobs},'recoveries':[]}
             if op=='dispatch':return {'job':next(j for j in jobs if j['id']==data['job']),'dispatch_token':'test-token'}
             if op=='photo_dispatch':return {'dispatch_token':'photo-token'}
-            if op=='execution_record':return True
+            if op=='launch_prepare':return {'id':'run-1','claimed':True}
+            if op in ('launch_record','execution_record'):return True
             self.fail('Unexpected dashboard operation '+op)
         dashboard.call.side_effect=call
         with patch('scotus_cloud.notifications.drain_notifications'),patch('scotus_cloud.discovery.discover'),patch('scotus_cloud.recovery_control.dispatch_recoveries',return_value=[]):
@@ -67,10 +68,12 @@ class DispatchTests(unittest.TestCase):
                 held['stages']['align']['status']=status
                 _,google,_=self.run_dispatch([held]);google.execute.assert_not_called()
 
-    def test_approval_resumes_enrichment_in_parallel_with_alignment(self):
+    def test_enrichment_waits_for_completed_alignment(self):
         job=self.job(status='running',run_requested=True)
         job['stages']['prepare']['status']='complete';job['stages']['align']['status']='running'
-        _,google,_=self.run_dispatch([job]);self.assertEqual(google.execute.call_args.args[1],'enrich-worker')
+        for status in ('starting','running','failed'):
+            job['stages']['align']['status']=status
+            _,google,_=self.run_dispatch([job]);google.execute.assert_not_called()
         job['stages']['align']['status']='complete'
         _,google,result=self.run_dispatch([job]);self.assertEqual(result['launched'][0]['stage'],'enrich')
 

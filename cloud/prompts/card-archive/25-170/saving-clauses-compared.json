@@ -1,0 +1,28 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "saving-clauses-compared",
+  "kind": "Comparison",
+  "title": "The two saving clauses",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Comparison",
+    "heading": "The two saving clauses",
+    "compare": [
+      {
+        "title": "Clean Water Act",
+        "cite": "33 U.S.C. § 1370",
+        "text": "… nothing in this chapter shall (1) preclude or deny the right of any State … to adopt or enforce (A) any standard or limitation respecting <mark>discharges of pollutants</mark>, or (B) any requirement respecting control or abatement of pollution …"
+      },
+      {
+        "title": "Clean Air Act",
+        "cite": "42 U.S.C. § 7416",
+        "text": "… nothing in this chapter shall preclude or deny the right of any State … to adopt or enforce (1) any standard or limitation respecting <mark>emissions of air pollutants</mark> or (2) any requirement respecting control or abatement of air pollution …"
+      }
+    ],
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+      "savings clause for the Clean Water Act and the Clean Air Act"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "consent-relief",
+  "kind": "Comparison",
+  "title": "Rules that look past the pleadings",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Comparison",
+    "heading": "Rules that look past the pleadings",
+    "compare": [
+      {
+        "title": "Issues tried by consent",
+        "cite": "Rule 15(b)(2)",
+        "text": "When an issue not raised by the pleadings is tried by the parties’ express or implied consent, it must be <mark>treated in all respects as if raised in the pleadings</mark>. … But failure to amend does not affect the result of the trial of that issue."
+      },
+      {
+        "title": "Relief in a judgment",
+        "cite": "Rule 54(c)",
+        "text": "Every other final judgment should grant the relief to which each party is entitled, <mark>even if the party has not demanded that relief</mark> in its pleadings."
+      }
+    ],
+    "source": "Federal Rules of Civil Procedure",
+    "highlight": [
+      "Rule 15(b)(2)"
+    ]
+  }
+}

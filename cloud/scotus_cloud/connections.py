@@ -75,10 +75,6 @@ def instagram_exchange(data, settings, google):
     if isinstance(permissions, str): permissions = permissions.split(',')
     if permissions is not None and not set(INSTAGRAM_SCOPES) <= set(permissions):
         raise ValueError('Instagram publishing permission was not granted')
-    if settings['secrets'].get('instagram_pending'):
-        google.add_secret_version(settings['secrets']['instagram_pending'], json.dumps({
-            'access_token': short['access_token'], 'permissions': permissions,
-            'expires_at': int(time.time()) + int(short.get('expires_in', 3600))}).encode())
     if int(short.get('expires_in', 0)) >= 172800:
         long = short
     else:

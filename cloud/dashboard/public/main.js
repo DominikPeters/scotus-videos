@@ -115,6 +115,57 @@ async function refresh(force = false) {
 }
 onRefresh(() => refresh(true));
 
+// ---------------------------------------------------------------- pull to refresh
+
+// The Home Screen app has no reload gesture: pulling down at the top fetches the state now.
+const PULL_THRESHOLD = 64;
+let pullStart = null, pullDistance = 0, pullBusy = false;
+
+function atTop(target) {
+  if (target.closest?.('.lightbox')) return false;
+  const inner = target.closest?.('.clip-transcript, textarea');
+  if (inner && inner.scrollTop > 0) return false;
+  const pane = wide.matches ? target.closest?.('#list, #detail') : null;
+  return pane ? pane.scrollTop <= 0 : window.scrollY <= 0;
+}
+
+function showPull(distance, label) {
+  const indicator = $('pull');
+  indicator.hidden = distance <= 0;
+  indicator.style.setProperty('--pull', Math.min(distance, PULL_THRESHOLD * 1.4) + 'px');
+  indicator.dataset.ready = String(distance >= PULL_THRESHOLD);
+  indicator.setAttribute('aria-busy', String(pullBusy));
+  indicator.textContent = label;
+}
+
+function cancelPull() {
+  pullStart = null; pullDistance = 0;
+  if (!pullBusy) showPull(0, '');
+}
+
+document.addEventListener('touchstart', event => {
+  if (event.touches.length !== 1) { cancelPull(); return; }
+  pullDistance = 0;
+  pullStart = state && !pullBusy && event.touches.length === 1 && atTop(event.target) ? event.touches[0].clientY : null;
+}, {passive: true});
+document.addEventListener('touchmove', event => {
+  if (event.touches.length !== 1) { cancelPull(); return; }
+  if (pullStart === null) return;
+  pullDistance = Math.max(0, (event.touches[0].clientY - pullStart) / 2);  // resistance, as in native lists
+  showPull(pullDistance, pullDistance >= PULL_THRESHOLD ? 'Release to refresh' : 'Pull to refresh');
+}, {passive: true});
+document.addEventListener('touchcancel', cancelPull);
+document.addEventListener('touchend', async event => {
+  if (event.touches.length) { cancelPull(); return; }
+  if (pullStart === null) return;
+  pullStart = null;
+  if (pullDistance < PULL_THRESHOLD) { showPull(0, ''); return; }
+  pullBusy = true;
+  showPull(PULL_THRESHOLD, 'Refreshing…');
+  try { await refresh(true); } catch { toast('Could not refresh. Check the connection.', 'error'); }
+  finally { pullBusy = false; showPull(0, ''); }
+});
+
 async function start() {
   session = await api('session', {}, true);
   setCsrf(session.csrf);

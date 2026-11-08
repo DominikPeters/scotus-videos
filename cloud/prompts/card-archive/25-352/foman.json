@@ -1,0 +1,20 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "foman",
+  "kind": "Excerpt",
+  "title": "<i>Foman</i> v. <i>Davis</i> (1962)",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Excerpt",
+    "label": "Opinion excerpt",
+    "heading": "<i>Foman</i> v. <i>Davis</i> (1962)",
+    "before": "",
+    "quote": "In the absence of any apparent or declared reason — such as <mark>undue delay</mark>, bad faith or dilatory motive …, <mark>undue prejudice</mark> to the opposing party …, futility of amendment, etc. — the leave sought should … be “freely given.”",
+    "after": "",
+    "source": "Opinion of the Court · 371 U.S. 178, 182",
+    "highlight": [
+      "same under Foman"
+    ]
+  }
+}

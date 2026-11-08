@@ -1,0 +1,22 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "isla-petroleum",
+  "kind": "Case",
+  "title": "<i>Puerto Rico Dept. of Consumer Affairs</i> v. <i>Isla Petroleum Corp.</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+      "name": "<i>Puerto Rico Dept. of Consumer Affairs</i> v. <i>Isla Petroleum Corp.</i>",
+      "details": "1988 · unanimous"
+    },
+    "text": "The Court held that once Congress ended federal petroleum price controls, Puerto Rico could regulate gasoline prices: the repeal “did not leave behind a pre-emptive grin without a statutory cat.”",
+    "source": "Summary based on the opinion of the Court (U.S. Reports)",
+    "highlight": [
+      "Isla Petroleum case"
+    ]
+  }
+}

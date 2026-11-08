@@ -1,0 +1,17 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "early-supervised-release",
+  "kind": "Statute",
+  "title": "18 U.S.C. § 3624(g)(3) — supervised release",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Statute",
+    "heading": "18 U.S.C. § 3624(g)(3) — supervised release",
+    "text": "… the Director of the Bureau of Prisons may transfer the prisoner to <mark>begin any such term of supervised release at an earlier date</mark>, not to exceed 12 months, based on the application of time credits under section 3632.",
+    "source": "United States Code, 2024 edition (govinfo.gov)",
+    "highlight": [
+      "an early start to supervised release"
+    ]
+  }
+}

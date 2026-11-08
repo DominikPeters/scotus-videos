@@ -1,20 +1,27 @@
 """Repair execution broker. Only fixed jobs, tested releases and owned recordings."""
 import hashlib,json,uuid,re
 from .model import digest_json
-from .repair_policy import reserve_estimate,verify_release,validate_changes
+from .attempts import launch
+from .repair_policy import reserve_estimate,verify_release,validate_changes,file_hash
+from .releases import repair_source,current as current_deployment
 
 
-def current_release(baseline,release,google,profile):
+def current_release(baseline,release,google,profile,release_id=None):
     """Rebase only when every edited file still has exactly its original source."""
+    if release.get('schema_version')==2:
+        if release.get('release_id')==release_id:
+            verify_release(baseline,release,release_id);return release
+        if any((file_hash(baseline[name]) if name in baseline else None)!=old for name,old in release['base_files'].items()):return None
+        return validate_changes(baseline,release['files'],release_id)
     if release.get('baseline_sha256')==digest_json(baseline):
-        verify_release(baseline,release);return release
+        verify_release(baseline,release);return validate_changes(baseline,release["files"],release_id) if release_id else release
     old_hash=release.get('baseline_sha256','')
     if not re.fullmatch('[a-f0-9]{64}',old_hash):raise ValueError('Invalid repair baseline hash')
-    old=google.storage_json(f"gs://{profile['bucket']}/recovery/baselines/{old_hash}.json",max_bytes=1048576)
+    old=google.storage_json(f"gs://{profile['bucket']}/recovery/baselines/{old_hash}.json",max_bytes=2097152)
     if not old or digest_json(old)!=old_hash:return None
     verify_release(old,release)
     if any(baseline.get(name)!=old.get(name) for name in release['files']):return None
-    return validate_changes(baseline,release['files'])
+    return validate_changes(baseline,release['files'],release_id)
 
 
 def safe_upload_checkpoint(saved):
@@ -56,12 +63,12 @@ def dispatch_recoveries(dashboard,google,settings):
     if any(r['status'] in ('starting','running') for r in records.values()):return []
     for rec in records.values():
         if rec['status']!='queued':continue
-        claimed=dashboard.call('recovery_dispatch',recovery=rec['id'],reserve_usd=reserve_estimate(1,2,720),seconds=720)
+        claimed=dashboard.call('recovery_dispatch',recovery=rec['id'],reserve_usd=reserve_estimate(1,2,1320),seconds=1320)
         if not claimed:continue
         try:
-            operation=google.execute(settings['region'],profile['job'],{'SCOTUS_RECOVERY_ID':rec['id'],'SCOTUS_RECOVERY_TOKEN':claimed['dispatch_token']})
+            operation=launch(dashboard,google,settings,{'kind':'recovery','recovery':rec['id']},profile['job'],{'SCOTUS_RECOVERY_ID':rec['id'],'SCOTUS_RECOVERY_TOKEN':claimed['dispatch_token']})
         except Exception:
-            dashboard.call('recovery_dispatch_failed',recovery=rec['id'],dispatch_token=claimed['dispatch_token']);return []
+            return []
         return [{'recovery':rec['id'],'operation':operation}]
     return []
 
@@ -73,6 +80,9 @@ def broker(dashboard,google,settings,data):
     if tool in ('context','logs','source_info'):
         from .recovery_evidence import evidence
         return evidence(tool,args,context,settings,google)
+    if tool=='media':
+        from .recovery_evidence import media_locator
+        return media_locator(args,context,settings)
     if tool=='probe':
         from .recovery_evidence import launch_probe
         return launch_probe(dashboard,google,settings,context,data)
@@ -101,22 +111,19 @@ def broker(dashboard,google,settings,data):
         if field not in ('transcript_uri','words_uri','plan_uri','interactions_uri','enrichment_uri'):raise ValueError('Unknown JSON artifact')
         uri=job['stages'][stage].get('result',{}).get(field)
         if not uri or not uri.startswith('gs://'+profile['bucket']+'/') or not uri.endswith('.json'):raise ValueError('Unowned JSON artifact')
+        if args.get('export_file'):return {'uri':uri,'filename':stage+'-'+field.removesuffix('_uri')+'.json'}
         value=google.storage_json(uri,max_bytes=2097152);offset=max(0,int(args['offset']))
         text=json.dumps(value,ensure_ascii=False)
         return {'text':text[offset:offset+32000],'offset':offset,'total_characters':len(text),'untrusted_source_data':True}
     if tool=='refresh_sources':
-        if rec['stage']!='prepare' or job['stages']['upload'].get('checkpoint'):raise ValueError('Source refresh is only for failed preparation before upload')
-        from .discovery import recordings
-        term=int(job['argument_date'][:4])-(int(job['argument_date'][5:7])<10)
-        matches=[record for record in recordings(term) if record['docket']==job['docket'] and record['argument_date']==job['argument_date']]
-        if len(matches)!=1:raise ValueError('Official source identity is ambiguous or unavailable')
-        return dashboard.call('recovery_sources',recovery=rid,lease=lease,pdf_url=matches[0]['pdf_url'],audio_url=matches[0]['audio_url'])
+        from .maintenance import refresh
+        return refresh(dashboard,google,settings,job['id'],manual=True,keep_recovery=rid,lease=lease)
     if tool=='tests':
-        baseline=google.storage_json(profile['baseline_uri'],max_bytes=1048576)
+        baseline,release_id=repair_source(google,settings)
         uri=args['release_uri']
         if not uri.startswith(f"gs://{profile['bucket']}/recovery/workspaces/{rid}/"):raise ValueError('Unowned release')
         supplied=google.storage_json(uri,max_bytes=262144)
-        release=current_release(baseline,supplied,google,profile)
+        release=current_release(baseline,supplied,google,profile,release_id)
         if release is None:
             return {'status':'source_changed','private_note':'The workflow changed after this repair turn started. No test was launched. Restart recovery against current source; do not overwrite the updated files.'}
         if release!=supplied:
@@ -137,7 +144,7 @@ def broker(dashboard,google,settings,data):
         operation=google.execute(settings['region'],profile['test_job'],{'SCOTUS_PROJECT':settings['project'],
             'SCOTUS_TEST_SOURCE_URI':uri,'SCOTUS_TEST_RESULT_URI':out,
             'SCOTUS_REPAIR_ACTION_ID':key,
-            'SCOTUS_TEST_BASELINE_URI':f"gs://{profile['bucket']}/recovery/baselines/{release['baseline_sha256']}.json"})
+            **({'SCOTUS_TEST_BASELINE_URI':f"gs://{profile['bucket']}/recovery/baselines/{release['baseline_sha256']}.json"} if release.get('schema_version')==1 else {})})
         result['operation']=operation
         dashboard.call('recovery_action_result',recovery=rid,lease=lease,action_id=key,result=result)
         return {'action':key,**result}
@@ -170,27 +177,31 @@ def broker(dashboard,google,settings,data):
         return dashboard.call('recovery_adopt_upload',recovery=rid,lease=lease,video_id=args['video_id'])
     if tool=='retry':
         if not settings.get('workers_enabled'):return {'status':'workers_disabled'}
-        from .model import STAGES
+        from .model import STAGE_ORDER,removed_render_chunks
         restart=args.get('restart_from') or rec['stage']
-        if restart not in STAGES or STAGES.index(restart)>STAGES.index(rec['stage']):raise ValueError('Restart must be this phase or an upstream phase')
-        if restart!=rec['stage'] and job['stages']['upload'].get('checkpoint'):raise ValueError('An existing upload cannot be rewound automatically')
+        if restart not in STAGE_ORDER or STAGE_ORDER.index(restart)>STAGE_ORDER.index(rec['stage']):raise ValueError('Restart must be this phase or an upstream phase')
+        restore_chunks=restart=='assemble' and bool(removed_render_chunks(job))
+        if restore_chunks:restart='render'
+        render_only=job.get('render_revision',{}).get('status')=='queued' and restart in ('plan','render','assemble') and rec['stage'] in ('plan','render','assemble')
+        if restart!=rec['stage'] and job['stages']['upload'].get('checkpoint') and not render_only:raise ValueError('An existing upload cannot be rewound automatically')
         release_pointer=None;release_stages=[];reusable=None
         if args.get('action'):
-            baseline=google.storage_json(profile['baseline_uri'],max_bytes=1048576)
+            baseline,release_id=repair_source(google,settings)
             action=rec['actions'].get(args['action'],{}).get('result',{})
             report=google.storage_json(action['report_uri'],max_bytes=65536)
             if not report or not report.get('passed') or report['release_sha256']!=action['release_sha256']:raise ValueError('Patch has not passed isolated tests')
             release_pointer={'uri':action['release_uri'],'sha256':action['release_sha256']}
             release=google.storage_json(action['release_uri'],max_bytes=262144)
-            if release.get('baseline_sha256')!=digest_json(baseline):
+            if (release.get('schema_version')==2 and release.get('release_id')!=release_id) or (release.get('schema_version')==1 and release.get('baseline_sha256')!=digest_json(baseline)):
                 return {'status':'source_changed','private_note':'Workflow source changed since these tests passed. Test the candidate against current source before requesting a retry.'}
-            verify_release(baseline,release)
+            verify_release(baseline,release,release_id)
             release_stages=release['stages']
-            if any(STAGES.index(s)<STAGES.index(restart) for s in release_stages):raise ValueError('Restart from the earliest phase affected by the tested patch')
+            if any(STAGE_ORDER.index(s)<STAGE_ORDER.index(restart) for s in release_stages):raise ValueError('Restart from the earliest phase affected by the tested patch')
+            if 'render' in release_stages:restore_chunks=False
             if args.get('reusable'):
                 reason=args.get('reuse_reason','').strip()
                 if not reason or len(reason)>2000:raise ValueError('Explain why this repair is input-independent')
-                reusable={**release_pointer,'baseline_sha256':release['baseline_sha256'],'stages':release_stages,'reason':reason,'test_report_uri':action['report_uri']}
+                reusable={**release_pointer,**({'release_id':release_id} if release_id else {'baseline_sha256':release['baseline_sha256']}),'stages':release_stages,'reason':reason,'test_report_uri':action['report_uri']}
         elif args.get('reusable'):raise ValueError('Only tested code changes can become reusable defaults')
         if rec['error']=='upload_uncertain':return {'status':'upload_reconciliation_required'}
         resource=profile.get('stage_resources',{}).get(restart)
@@ -200,8 +211,10 @@ def broker(dashboard,google,settings,data):
             resource=[alignment_cpus(job,google),*resource[1:]]
         if rec['stage']=='upload' and job['stages']['upload'].get('checkpoint',{}).get('video_id'):
             resource=[*resource[:2],min(300,resource[2])]
-        tasks=job['stages'][rec['stage']].get('tasks',[])
-        count=(len(tasks) if release_pointer else sum(item['status']!='complete' for item in tasks)) or 1
+        tasks=job['stages'][restart].get('tasks',[])
+        rerender_all=restart=='render' and (('render' in release_stages) or (restart!=rec['stage'] and not restore_chunks))
+        missing=removed_render_chunks(job) if restart=='render' else set()
+        count=(len(tasks) if rerender_all else sum(item.get('status')!='complete' or i in missing for i,item in enumerate(tasks))) or 1
         estimate=reserve_estimate(*resource,tasks=count)
         if estimate>1:return {'budget_exhausted':True,'conservative_reservation_usd':estimate,'private_note':'This retry exceeds the $1 daily repair cap.'}
         key=hashlib.sha256((rid+data['call_id']).encode()).hexdigest()
@@ -209,8 +222,8 @@ def broker(dashboard,google,settings,data):
             kind='retry',reserve_usd=estimate,seconds=resource[2])
         if 'existing' in claimed:return {'action':key,**claimed['existing']}
         if claimed.get('budget_exhausted'):return {'budget_exhausted':True}
-        dashboard.call('recovery_retry',recovery=rid,lease=lease,release=release_pointer,release_stages=release_stages,reusable=reusable,restart_from=restart)
-        result={'status':'queued','release':release_pointer}
+        dashboard.call('recovery_retry',recovery=rid,lease=lease,release=release_pointer,release_stages=release_stages,reusable=reusable,restart_from=restart,restore_render_chunks=restore_chunks)
+        result={'status':'queued','release':release_pointer,'restart_from':restart}
         dashboard.call('recovery_action_result',recovery=rid,lease=lease,action_id=key,result=result)
         return result
     raise ValueError('Unknown repair execution tool')

@@ -1,0 +1,21 @@
+{
+  "docket": "25-352",
+  "case_name": "Younge v. Fulton Judicial Circuit District Attorney’s Office",
+  "id": "affirmative-defense",
+  "kind": "Glossary",
+  "title": "Pleading",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Glossary",
+    "heading": "Pleading",
+    "glossary": {
+      "term": "Affirmative defense",
+      "expansion": ""
+    },
+    "text": "A reason that defeats a claim even if the plaintiff proves everything the claim requires. Rule 8(c) requires the defendant to state it in the answer. An element, by contrast, is part of what the plaintiff must prove. The Eleventh Circuit assumed, without deciding, that the personal-staff exemption is an affirmative defense.",
+    "source": "Fed. R. Civ. P. 8(c)(1); <i>Oden</i> (5th Cir. 2001); Pet. App. 8a",
+    "highlight": [
+      "an affirmative defense or an element of the claim"
+    ]
+  }
+}

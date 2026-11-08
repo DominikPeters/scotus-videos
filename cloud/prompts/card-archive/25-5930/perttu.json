@@ -1,0 +1,22 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "perttu",
+  "kind": "Case",
+  "title": "<i>Perttu</i> v. <i>Richards</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+      "name": "<i>Perttu</i> v. <i>Richards</i>",
+      "details": "2025"
+    },
+    "text": "If a dispute over whether a prisoner used the prison grievance process (required by the Prison Litigation Reform Act) is intertwined with the merits of a claim that requires a jury, the parties are entitled to a jury trial on that dispute too.",
+    "source": "Summary based on the syllabus (U.S. Reports)",
+    "highlight": [
+      "under Perttu"
+    ]
+  }
+}

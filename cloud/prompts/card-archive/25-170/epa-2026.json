@@ -1,0 +1,34 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "epa-2026",
+  "kind": "Timeline",
+  "title": "EPA and greenhouse gases in 2026",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Timeline",
+    "heading": "EPA and greenhouse gases in 2026",
+    "timeline": {
+      "current": 2,
+      "events": [
+        {
+          "date": "Feb 18, 2026",
+          "label": "Final rule: no authority to set vehicle greenhouse-gas standards"
+        },
+        {
+          "date": "Sep 17, 2026",
+          "label": "Proposed rule: no authority over power-plant greenhouse gases"
+        },
+        {
+          "date": "Oct 5, 2026",
+          "label": "Oral argument",
+          "gap": true
+        }
+      ]
+    },
+    "source": "91 Fed. Reg. 7686 (as described in the U.S. brief, p. 34 n.4); 91 Fed. Reg. 59002 (proposal)",
+    "highlight": [
+      "more recently from stationary sources too"
+    ]
+  }
+}

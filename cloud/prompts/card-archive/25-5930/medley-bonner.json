@@ -1,0 +1,28 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "medley-bonner",
+  "kind": "Comparison",
+  "title": "Two habeas cases from the 1890s",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Comparison",
+    "heading": "Two habeas cases from the 1890s",
+    "compare": [
+      {
+        "title": "<i>In re Medley</i> (1890)",
+        "cite": "134 U.S. 160",
+        "text": "A prisoner held in solitary confinement under a law passed after his crime was ordered discharged from that confinement."
+      },
+      {
+        "title": "<i>In re Bonner</i> (1894)",
+        "cite": "151 U.S. 242",
+        "text": "A prisoner sentenced to serve a year in a state penitentiary, where the law did not allow it, could obtain habeas relief so the court could correct the sentence."
+      }
+    ],
+    "source": "Opinions of the Court (U.S. Reports)",
+    "highlight": [
+      "Medley, Bonner"
+    ]
+  }
+}

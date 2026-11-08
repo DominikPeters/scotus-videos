@@ -1,0 +1,42 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "case-history",
+  "kind": "Timeline",
+  "title": "How this case reached the Court",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Timeline",
+    "heading": "How this case reached the Court",
+    "timeline": {
+      "current": 4,
+      "events": [
+        {
+          "date": "Apr 2018",
+          "label": "Boulder sues in state court"
+        },
+        {
+          "date": "2019–23",
+          "label": "Federal courts send case back to state court"
+        },
+        {
+          "date": "Jun 2024",
+          "label": "Trial court denies motion to dismiss"
+        },
+        {
+          "date": "May 2025",
+          "label": "Colorado Sup. Ct.: not preempted"
+        },
+        {
+          "date": "Oct 5, 2026",
+          "label": "Oral argument",
+          "gap": true
+        }
+      ]
+    },
+    "source": "Dates from the petition, the joint appendix and the Colorado courts’ orders",
+    "highlight": [
+      "really early in this case"
+    ]
+  }
+}

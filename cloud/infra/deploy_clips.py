@@ -1,6 +1,12 @@
 """Provision clip jobs and direct private downloads without queuing work."""
+
+try:
+    from managed_secrets import run_gcloud
+except ModuleNotFoundError:
+    from infra.managed_secrets import run_gcloud
 import json,subprocess,tempfile,os
 from pathlib import Path
+from infra.registry_cleanup import refresh as refresh_registry
 import argparse,re
 parser=argparse.ArgumentParser(description='Deploy explicit owner-selected vertical clip support; starts no media work.')
 parser.add_argument('--project',required=True);parser.add_argument('--region',default='us-central1');parser.add_argument('--gcloud',default='gcloud')
@@ -9,9 +15,10 @@ args=parser.parse_args();p=args.project;region=args.region;g=args.gcloud
 for name,value in [('clips',args.worker_image),('control',args.controller_image)]:
  if not re.fullmatch(re.escape(region+'-docker.pkg.dev/'+p+'/scotus-videos/'+name)+r'@sha256:[a-f0-9]{64}',value):raise ValueError('Supply pinned images in this project registry')
 def call(*args,parse=False):
- r=subprocess.run([g,*args,'--project='+p,'--quiet',*(['--format=json'] if parse else [])],capture_output=True,text=True,check=True)
+ r=run_gcloud([g,*args,'--project='+p,'--quiet',*(['--format=json'] if parse else [])],capture_output=True,text=True,check=True)
  return json.loads(r.stdout) if parse else r.stdout.strip()
 clips=args.worker_image;control=args.controller_image
+refresh_registry(p,region,g,[clips,control],apply=True)
 controller=call('run','services','describe','scotus-video-control','--region='+region,parse=True)
 uploader=call('run','jobs','describe','scotus-video-upload','--region='+region,parse=True)
 signer=controller['spec']['template']['spec']['serviceAccountName'];upload=uploader['spec']['template']['spec']['template']['spec']['serviceAccountName']
@@ -26,4 +33,5 @@ cfg=json.loads(call('secrets','versions','access','latest','--secret=scotus-vide
 with tempfile.NamedTemporaryFile(mode='w',suffix='.json') as f:
  os.chmod(f.name,0o600);json.dump(cfg,f);f.flush();call('secrets','versions','add','scotus-video-control-config','--data-file='+f.name)
 call('run','services','update','scotus-video-control','--region='+region,'--image='+control)
+refresh_registry(p,region,g,apply=True)
 print('Clip worker, controller and scoped download signing deployed.')

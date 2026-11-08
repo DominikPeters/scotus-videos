@@ -503,6 +503,16 @@ function loadNextOpinionAnnouncement() {
     loadOpinionAnnouncement(currentOpinion);
 }
 
+// Offline capture supplies audio-clock progress; no wall-clock timers or CSS animation.
+function setSubscribeReminderProgress(elapsed, duration = 8) {
+    const reminder = document.querySelector('.subscribe-suggestion');
+    const visible = !announcementMode && elapsed >= 0 && elapsed < duration;
+    const fade = Math.max(0, Math.min(1, elapsed / .4, (duration - elapsed) / .4));
+    reminder.style.display = visible ? 'block' : 'none';
+    reminder.style.opacity = visible ? String(easeInOut(fade)) : '0';
+    reminder.style.transform = `translateY(${-12 * (1 - easeInOut(fade))}px)`;
+}
+
 function showSubscibeSuggestion() {
     let subscribe = document.querySelector('.subscribe-suggestion');
     subscribe.style.display = "block";
@@ -542,9 +552,6 @@ function setUpSection(sectionNumber) {
     currentTextBlock = -1;
     currentInteraction = -1;
     reachedLastTextBlock = false;
-    if (sectionNumber >= 1) {
-        showSubscibeSuggestion();
-    }
     document.addEventListener('keydown', function (event) {
         if (event.key == "ArrowRight") {
             nextTextBlock(true); // true = manually triggered
@@ -555,9 +562,6 @@ function setUpSection(sectionNumber) {
 function nextTextBlock(manuallyTriggered = false) {
     if (reachedLastTextBlock) {
         return;
-    }
-    if (currentTurn + currentTextBlock >= 1) {
-        hideSubscibeSuggestion();
     }
     let section = sectionsObject[currentSection];
     let turn = section.turns[currentTurn];

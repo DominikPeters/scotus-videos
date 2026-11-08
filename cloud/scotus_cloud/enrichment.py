@@ -98,16 +98,19 @@ def enrich(job,transcript,settings,cloud,lease,folder):
             lease.update(.65);lease.call('note',message='Checking advocate portraits.');
             titles=[title['result']['recommended'],*title['result']['alternatives']]
             title_notes=title['result']['private_caveats']
-        photos={};registry=json.loads((ROOT/'advocate-catalog.json').read_text())
+        from .photo_discovery import archive_listing, saved_portrait, name_key
+        photos={};archive=None
         for sid,person in transcript['speakers'].items():
             if person['kind']!='advocate':continue
-            cached=next((entry for entry in registry.values() if re.sub(r'\W','',entry['name']).casefold()==re.sub(r'\W','',person['name']).casefold()),None)
             candidates=[];photo_notes=[]
-            approved=next((candidate for name,candidate in library['photos'].items() if re.sub(r'\W','',name).casefold()==re.sub(r'\W','',person['name']).casefold()),None)
+            approved=next((candidate for name,candidate in library['photos'].items() if name_key(name)==name_key(person['name'])),None)
+            cached=None
+            if not approved:
+                if archive is None:archive=archive_listing(fetch)
+                cached=saved_portrait(person['name'],archive,fetch)
             if approved:candidates.append(approved)
             elif cached:
                 image=fetch(cached['uri'],4194304)
-                if cached.get('sha256') and hashlib.sha256(image).hexdigest()!=cached['sha256']:raise ValueError('Approved catalog image changed')
                 candidate=store_photo(cloud,settings['bucket'],job['id'],sid,image,
                     {'source_url':cached.get('source_url',cached['uri']),'identity_source_url':cached.get('identity_source_url',docket_url),'kind':cached.get('kind','photo'),'name':person['name'],'origin':'curated_cache'},folder,preserve=True)
                 candidates.append(candidate)
@@ -148,17 +151,27 @@ def enrich(job,transcript,settings,cloud,lease,folder):
             profile={'shorten_long_oyez':False},check_participation=True)
         result['participation']=checked['participation']
     from .annotation_cards import CARD_WORKFLOW_VERSION
-    if settings.get('annotation_cards_enabled',False) and result.get('annotations',{}).get('workflow_version')!=CARD_WORKFLOW_VERSION:
+    annotations=result.get('annotations',{})
+    backend=settings.get('annotation_cards_backend','codex')
+    current_cards=annotations.get('workflow_version')==CARD_WORKFLOW_VERSION and (backend!='hybrid' or annotations.get('generator')=='claude-opus-sol-v1')
+    if settings.get('annotation_cards_enabled',False) and not job.get('card_import') and not current_cards:
         from .annotation_cards import generate_cards
-        lease.call('note',message='Sol is selecting annotation cards, delegating research to Luna and inspecting production previews.')
+        if backend=='hybrid':
+            # Store completed editorial/portrait work before the potentially long reader phases.
+            path=folder/'editorial-checkpoint.json';path.write_text(json.dumps(result));uri=f'gs://{settings["bucket"]}/enrichment/{job["id"]}/metadata-{digest_json(result)}.json'
+            try:cloud.storage_upload(path,uri,'application/json')
+            except RuntimeError as error:
+                if 'HTTP 412' not in str(error) or cloud.storage_json(uri,max_bytes=1048576)!=result:raise
+            lease.call('enrichment_checkpoint',enrichment_uri=uri)
+        lease.call('note',message='Independent readers are researching candidate moments before Opus editing and Sol review.' if backend=='hybrid' else 'Sol is selecting annotation cards, delegating research to Luna and inspecting production previews.')
         result['annotations']=generate_cards(job,transcript,result,settings,cloud,lease,folder)
     annotations=result.get('annotations',{'cards':[],'assets':{},'private_notes':[]})
     participation=result.get('participation') or {}
     participation_notes=participation.get('private_notes',[])+[p['explanation'] for p in participation.get('justices',[]) if p['status'] in ('recused','uncertain')]
-    review={'id':hashlib.sha256(job['id'].encode()).hexdigest()[:32],'revision':digest_json(result),
+    review={'id':job['id']+'-review',
             'titles':result['titles'],'description':result['description']['fields'],'photos':result['photos'],
             'private_notes':result['private_notes']+annotations['private_notes']+participation_notes,'provenance':result['description']['provenance'],
-            'cards':annotations['cards'],'card_revision':digest_json(annotations['cards'])}
+            'cards':annotations['cards']}
     path=folder/'enrichment.json';path.write_text(json.dumps(result))
     uri=f'gs://{settings["bucket"]}/enrichment/{job["id"]}/{uuid.uuid4().hex}.json';cloud.storage_upload(path,uri,'application/json')
     saved={'enrichment_uri':uri,'title':job.get('selected_title') or result['titles'][0]['title']}

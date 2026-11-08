@@ -1,0 +1,37 @@
+{
+  "job": "2026-11-02-25-352-argument-1",
+  "import_id": "cards-6e75b6ffe267",
+  "status": "complete",
+  "card_count": 17,
+  "evidence_passages": 35,
+  "old_enrichment_uri": "gs://possible-cycle-237715-scotus-video-media/enrichment/2026-11-02-25-352-argument-1/bf396ad677634329b1a80f0a20eaccd3.json",
+  "new_enrichment_uri": "gs://possible-cycle-237715-scotus-video-media/enrichment/2026-11-02-25-352-argument-1/import-cards-6e75b6ffe267.json",
+  "existing_codex_set_preserved": true,
+  "title_and_portraits_preserved": true,
+  "claude_card_content_and_timings_preserved": true,
+  "production_previews": 17,
+  "private_notes_preserved": true,
+  "owner_review_required": true,
+  "builds_submitted": 0,
+  "recorded_at": "2026-11-03T15:10:22.610249+00:00",
+  "local_cards_file": "annotation-trial/25-352/cards.json",
+  "source_manifest": "annotation-trial/25-352/sources/urls.json",
+  "isolated_tests": {
+    "passed": true,
+    "tests": 302,
+    "skipped": 4,
+    "report_uri": "gs://possible-cycle-237715-scotus-video-media/recovery/tests/owner-younge-card-import/3bc12fc8a74539b4f3b5b66a224afa9bc10693e7119e05366b82496306c80518.json"
+  },
+  "execution_patch": {
+    "uri": "gs://possible-cycle-237715-scotus-video-media/recovery/workspaces/owner-younge-card-import/3bc12fc8a74539b4f3b5b66a224afa9bc10693e7119e05366b82496306c80518.json",
+    "worker_release": "worker-20261103-e9308d07",
+    "scope": "single import execution",
+    "change": "Large sources return a bounded page index; source-page and quote verification remain unchanged",
+    "permanent_base_image_update": "Include local source fix in the next planned pipeline build"
+  },
+  "cli_improvement": "Card imports automatically resolve the case sources/urls.json manifest",
+  "generation_provider_switch": "Design exploration only; production provider remains unchanged",
+  "cleanup": {
+    "duplicate_failed_input_deleted": true
+  }
+}

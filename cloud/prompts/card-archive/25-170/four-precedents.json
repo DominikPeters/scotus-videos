@@ -1,0 +1,37 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "four-precedents",
+  "kind": "Timeline",
+  "title": "Interstate pollution: four precedents",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Timeline",
+    "heading": "Interstate pollution: four precedents",
+    "timeline": {
+      "current": -1,
+      "events": [
+        {
+          "date": "1972",
+          "label": "<i>Milwaukee I</i>: federal common law governs interstate pollution"
+        },
+        {
+          "date": "1981",
+          "label": "<i>Milwaukee II</i>: Clean Water Act displaces it"
+        },
+        {
+          "date": "1987",
+          "label": "<i>Ouellette</i>: source state’s law may apply, affected state’s may not"
+        },
+        {
+          "date": "2011",
+          "label": "<i>AEP</i>: Clean Air Act displaces federal common law on power-plant emissions"
+        }
+      ]
+    },
+    "source": "Opinions of the Court (U.S. Reports)",
+    "highlight": [
+      "Milwaukee I, Milwaukee II, Ouellette, and AEP"
+    ]
+  }
+}

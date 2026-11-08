@@ -1,0 +1,20 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "quantum-change",
+  "kind": "Excerpt",
+  "title": "<i>Wilkinson</i> v. <i>Dotson</i> (2005), Scalia, J., concurring",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Excerpt",
+    "label": "Opinion excerpt",
+    "heading": "<i>Wilkinson</i> v. <i>Dotson</i> (2005), Scalia, J., concurring",
+    "before": "",
+    "quote": "It is one thing to say that permissible habeas relief, as our cases interpret the statute, includes ordering a “quantum change in the level of custody,” … such as release from incarceration to parole.",
+    "after": "",
+    "source": "544 U.S. 74, 86 (U.S. Reports)",
+    "highlight": [
+      "quantum change"
+    ]
+  }
+}

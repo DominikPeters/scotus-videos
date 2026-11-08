@@ -17,6 +17,11 @@ COPY presentation /app/presentation
 COPY prompts /app/prompts
 COPY schemas /app/schemas
 COPY tests /app/tests
+COPY infra /app/infra
+COPY claude-code-version.txt /app/claude-code-version.txt
+RUN python /app/infra/install_research_tools.py
 COPY speaker-catalog.json advocate-catalog.json editorial-profile.json /app/
+COPY .workflow-release-id /app/.workflow-release-id
+RUN python -m scotus_cloud.releases stamp /app
 ENV HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1
 ENTRYPOINT ["python", "-m", "scotus_cloud.repair_bootstrap"]

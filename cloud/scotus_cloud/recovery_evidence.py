@@ -4,6 +4,7 @@ from pathlib import Path
 from .diagnostics import Redactor
 from .model import digest_json,alignment_cpus
 from .repair_policy import reserve_estimate
+from .releases import repair_source,current as current_deployment
 
 
 def evidence(tool,args,context,settings,google):
@@ -21,7 +22,9 @@ def evidence(tool,args,context,settings,google):
         if cpus==8:stage_job=settings['alignment_long_job']
         if resource:resource=[cpus,*resource[1:]]
     if tool=='source_info':
-        baseline=google.storage_json(profile['baseline_uri'],max_bytes=1048576)
+        record=current_deployment(google,settings)
+        if record:return {'release_id':record['id'],'source_uri':record['source_uri']}
+        baseline,release_id=repair_source(google,settings)
         digest=digest_json(baseline)
         return {'baseline_sha256':digest,'baseline_uri':f"gs://{profile['bucket']}/recovery/baselines/{digest}.json"}
     if tool=='context':
@@ -48,13 +51,30 @@ def evidence(tool,args,context,settings,google):
     raise ValueError('Unknown recovery evidence tool')
 
 
+def media_locator(args,context,settings):
+    """Select only a known artifact of this recovery's own recording."""
+    job=context['job'];kind=args['kind'];stages=job['stages']
+    if kind=='thumbnail':uri=stages.get('plan',{}).get('result',{}).get('thumbnail_preview_uri')
+    elif kind=='frame':uri=next((t.get('result',{}).get('preview_uri') for t in stages.get('render',{}).get('tasks',[]) if t.get('result',{}).get('preview_uri')),None)
+    elif kind=='card':uri=next((c.get('frame_uri') for c in job.get('review',{}).get('cards',[]) if c['id']==args.get('card_id')),None)
+    elif kind=='audio':uri=stages.get('prepare',{}).get('result',{}).get('audio_uri')
+    else:raise ValueError('Unknown recording media kind')
+    if not uri or not uri.startswith('gs://'+settings['recovery']['bucket']+'/') or '/'+job['id']+'/' not in uri:
+        raise ValueError('No owned recording artifact is available for this selection')
+    start=args.get('start',0);duration=args.get('duration',20)
+    import math
+    if any(isinstance(v,bool) or not isinstance(v,(int,float)) or not math.isfinite(v) for v in (start,duration)) or start<0 or not 1<=duration<=60:
+        raise ValueError('Use a nonnegative audio start and a 1–60 second excerpt')
+    return {'kind':kind,'uri':uri,'start':start,'duration':duration}
+
+
 def launch_probe(dashboard,google,settings,context,data):
     args=data['arguments'];script=args['script']
     if not isinstance(script,str) or not 1<=len(script.encode())<=16000:raise ValueError('Probe script must be bounded Python source')
     compile(script,'probe.py','exec')
     rec,job=context['recovery'],context['job'];rid=data['recovery'];lease=data['lease'];profile=settings['recovery']
     key=hashlib.sha256((rid+data['call_id']).encode()).hexdigest()
-    baseline=google.storage_json(profile['baseline_uri'],max_bytes=1048576)
+    baseline,release_id=repair_source(google,settings)
     redactor=Redactor(settings,job,rec)
     probe={'script':script,'context':redactor.value({'recording':job,'failure':rec.get('diagnostic')}),
            'artifacts':{}}
@@ -75,7 +95,7 @@ def launch_probe(dashboard,google,settings,context,data):
     dashboard.call('recovery_action_result',recovery=rid,lease=lease,action_id=key,result=result)
     operation=google.execute(settings['region'],profile['test_job'],{'SCOTUS_PROJECT':settings['project'],
         'SCOTUS_PROBE_URI':uri,'SCOTUS_TEST_RESULT_URI':out,
-        'SCOTUS_REPAIR_ACTION_ID':key,'SCOTUS_TEST_BASELINE_URI':f"gs://{profile['bucket']}/recovery/baselines/{digest_json(baseline)}.json"})
+        'SCOTUS_REPAIR_ACTION_ID':key,**({'SCOTUS_TEST_BASELINE_URI':f"gs://{profile['bucket']}/recovery/baselines/{digest_json(baseline)}.json"} if not release_id else {})})
     result['operation']=operation
     dashboard.call('recovery_action_result',recovery=rid,lease=lease,action_id=key,result=result)
     return {'action':key,**result}

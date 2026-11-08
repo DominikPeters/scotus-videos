@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-03",
+  "status": "deployed_and_portrait_retry_complete",
+  "release": "worker-20261103-097d4bde",
+  "pipeline_build": "24de7a64-b754-4792-bdc8-632ab1d45e2a",
+  "pipeline_image": "us-central1-docker.pkg.dev/possible-cycle-237715/scotus-videos/pipeline@sha256:a5043e9aa6cb7ccbb6273677e37475b96327fcc2b78e3e049c1994cedba154dd",
+  "control_image_reused": true,
+  "container_builds": 1,
+  "machine_override": false,
+  "dashboard": {
+    "card_review": "open by default, collapsible; state retained across rerender/navigation",
+    "previews": "authenticated binary images, ETag revalidation, shared-lock state reads, four concurrent requests, 1600px prefetch margin rooted in desktop detail scroll pane",
+    "live_verification": {
+      "cards": 15,
+      "loaded": 6,
+      "loaded_below_visible_pane": 4,
+      "errors": 0
+    }
+  },
+  "portrait": {
+    "recording": "2026-11-03-25-581-argument-1",
+    "person": "advocate_25_581_nicholas_r_reaves",
+    "request": "e4ddd5fec5c6a648c1e8a60e92798f19c6baf77a9ef58ef7271f4f7399e20a49",
+    "status": "complete",
+    "url": "https://becketnewsite.s3.amazonaws.com/Nick_Reaves-1.jpg",
+    "original_pixels": [
+      5383,
+      3589
+    ],
+    "old_limit_megapixels": 16,
+    "new_limit_megapixels": 40,
+    "working_image_max_edge": 4096,
+    "source_sha256": "09bacaf781ed4f7a97fa9d909749d8a3c606ff5180d3dea3190193ae05836528",
+    "candidate": "475fafa0a07b38142a278e99",
+    "crop": {
+      "x": 448,
+      "y": 0,
+      "size": 2731,
+      "source_width": 4096,
+      "source_height": 2731,
+      "method": "codex-vision",
+      "model": "gpt-6.1-sol",
+      "preview_box": {
+        "x": 70,
+        "y": 0,
+        "size": 427
+      },
+      "preview_width": 640,
+      "preview_height": 427
+    },
+    "owner_approval_pending": true
+  },
+  "checks": {
+    "local_python_run": 359,
+    "local_python_skipped": 4,
+    "php_passed": 26,
+    "browser": "passed, including auth/ETag/read-only state, collapse persistence, and slow-network desktop scroll-pane lookahead",
+    "isolated_release_run": 361,
+    "isolated_release_skipped": 5,
+    "isolated_release_passed": true,
+    "actual_owner_image_accepted": true
+  },
+  "processing_hold_released": true,
+  "local_receipts_directory": "/private/tmp/scotus-dashboard-cards-portraits-nov3"
+}

@@ -4,10 +4,12 @@ These instructions apply to title, metadata, photo, alignment, rendering,
 upload and recovery tasks.
 
 Preserve the current video presentation and YouTube formats. The production
-renderer is index.html + script.js with the existing fonts and assets, driven
-by screenshot.js. Use the existing preprocessing, thumbnail, description,
-playlist and timestamp-comment behavior. The separate cloud/render renderer
-and reduced cloud uploader are infrastructure prototypes, not the output reference.
+renderer uses the approved index.html + script.js presentation with the existing
+fonts and assets. The cloud harness in render/original.js drives that presentation
+for planning, card previews and final chunks. Use the existing preprocessing,
+thumbnail, description, playlist and timestamp-comment behavior. You may fix a
+workflow or rendering defect while preserving the intended design and wording;
+a redesign or editorial change requires owner direction.
 
 Do not introduce public-facing disclaimers in a video, title, description,
 thumbnail, comment, or other viewer-facing output without Dominik's approval.

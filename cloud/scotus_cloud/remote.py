@@ -13,6 +13,9 @@ import uuid
 class DashboardTransportError(RuntimeError):
     """A temporary failure, distinct from a rejected lease or command."""
 
+class DashboardConflict(RuntimeError):
+    """An actionable state conflict, never a transport retry."""
+
 
 def signature(key, timestamp, nonce, method, path, body):
     digest = hashlib.sha256(body).hexdigest()
@@ -32,12 +35,16 @@ class Dashboard:
         if op in ('auth_claim','recovery_claim'):data.setdefault('claim_id',uuid.uuid4().hex)
         retryable=op in {'snapshot','card_context','discovery_context','recoveries','recovery_context','recovery_check','auth_check','editorial_library',
             'upload_audit_context','review_context','execution_record','checkpoint','auth_claim','recovery_claim','heartbeat'}
-        retryable=retryable or op in {'spotify_context','spotify_heartbeat','spotify_update','spotify_claim'}
+        retryable=retryable or op.startswith('launch_') or op in {'spotify_context','spotify_heartbeat','spotify_update','spotify_claim','research_load','research_save','enrichment_checkpoint','recovery_turn_begin','recovery_defer','card_import_heartbeat','card_import_finish'}
         retryable=retryable or (op=='finish' and (data.get('continue_upload') or data.get('continue_enrich')) and data.get('handoff_id'))
         attempts=3 if retryable else 1
         for attempt in range(attempts):
             try:return self._send(op,data)
             except HTTPError as error:
+                if error.code==409:
+                    try:message=json.loads(error.read(2048)).get('error','This item changed; refresh')
+                    except Exception:message='This item changed; refresh'
+                    raise DashboardConflict(str(message)[:600]) from None
                 if error.code not in (429,502,503,504):raise RuntimeError(f'Dashboard rejected {op}: HTTP {error.code}') from None
             except (URLError,TimeoutError):
                 if op=='claim':raise # Lease.claim owns its idempotent retry loop.

@@ -1,0 +1,22 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "meachum",
+  "kind": "Case",
+  "title": "<i>Meachum</i> v. <i>Fano</i>",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Case",
+    "label": "",
+    "heading": "",
+    "case": {
+      "name": "<i>Meachum</i> v. <i>Fano</i>",
+      "details": "1976"
+    },
+    "text": "The Due Process Clause does not entitle a state prisoner to a hearing before he is transferred to a prison with substantially less favorable conditions.",
+    "source": "Summary based on the opinion of the Court (U.S. Reports)",
+    "highlight": [
+      "The Meachum case"
+    ]
+  }
+}

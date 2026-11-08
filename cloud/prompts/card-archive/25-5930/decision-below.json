@@ -1,0 +1,20 @@
+{
+  "docket": "25-5930",
+  "case_name": "Maxwell v. Dinis",
+  "id": "decision-below",
+  "kind": "Excerpt",
+  "title": "Fifth Circuit, <i>Maxwell</i> v. <i>Thomas</i> (2025)",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Excerpt",
+    "label": "Opinion excerpt",
+    "heading": "Fifth Circuit, <i>Maxwell</i> v. <i>Thomas</i> (2025)",
+    "before": "Here, the nature of Maxwell’s requested relief is transfer to a halfway house or home confinement.",
+    "quote": "… neither form of relief would entitle him to accelerated release, so the relief he seeks is properly brought in a civil rights suit.",
+    "after": "",
+    "source": "Per curiam opinion, Apr. 3, 2025 · Pet. App. 1.2",
+    "highlight": [
+      "The Fifth Circuit dismissed"
+    ]
+  }
+}

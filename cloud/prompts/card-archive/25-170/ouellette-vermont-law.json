@@ -1,0 +1,20 @@
+{
+  "docket": "25-170",
+  "case_name": "Suncor Energy v. Boulder County",
+  "id": "ouellette-vermont-law",
+  "kind": "Excerpt",
+  "title": "<i>International Paper Co.</i> v. <i>Ouellette</i> (1987), footnote 20",
+  "status": "historical trial design, not approval or source evidence",
+  "cue": {
+    "kind": "Excerpt",
+    "heading": "<i>International Paper Co.</i> v. <i>Ouellette</i> (1987), footnote 20",
+    "before": "Although we conclude that New York law generally controls this suit, …",
+    "quote": "We therefore do not agree with the dissent that Vermont nuisance law still may apply if the New York choice-of-law doctrine dictates such a result.",
+    "after": "",
+    "source": "Opinion of the Court, 479 U.S. at 499 n.20 (U.S. Reports)",
+    "highlight": [
+      "Footnote 20"
+    ],
+    "label": "Opinion excerpt"
+  }
+}

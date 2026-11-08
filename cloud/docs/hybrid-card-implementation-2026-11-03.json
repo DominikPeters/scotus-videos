@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-03",
+  "status": "deployed_opt_in_not_activated",
+  "default_backend": "codex",
+  "flow": [
+    "Python preparation and metadata checkpoint",
+    "independent Haiku and Terra readers with web access",
+    "one Opus editorial session with one production contact-sheet inspection",
+    "Sol source and visual review",
+    "existing owner approval"
+  ],
+  "evidence_contract": {
+    "rules_and_statutes": "complete relevant subsection",
+    "opinions": "complete key paragraph and relevant footnotes",
+    "verification": "host checks source text fidelity; Sol checks semantic completeness"
+  },
+  "restart_policy": {
+    "completed_readers": "reused",
+    "committed_editor_result": "reused even if final provider reply is lost",
+    "automatic_second_opus_call": false,
+    "additional_editor_invocation": "explicit owner authorization"
+  },
+  "checks": {
+    "python": {
+      "run": 345,
+      "passed": 342,
+      "skipped": 3,
+      "result": "OK",
+      "live_provider_calls": false
+    },
+    "php_fixtures": {
+      "run": 25,
+      "passed": 25
+    },
+    "browser": "passed including explicit additional Opus authorization",
+    "syntax": {
+      "run": 25,
+      "passed": 25
+    },
+    "curated_build_contexts": [
+      {
+        "mode": "full",
+        "files": 320,
+        "source_bytes": 2302737,
+        "compressed_bytes": 1021180,
+        "required_files_present": true,
+        "build_submitted": false
+      },
+      {
+        "mode": "pinned-base",
+        "files": 320,
+        "source_bytes": 2301774,
+        "compressed_bytes": 1020725,
+        "required_files_present": true,
+        "build_submitted": false
+      }
+    ]
+  },
+  "credential_status": {
+    "dedicated_claude_cloud_credential_configured": false,
+    "credential_import_performed": false
+  },
+  "cloud_builds_submitted": 0,
+  "deployments_performed": 0,
+  "pending": [
+    "interactive dedicated Claude subscription setup",
+    "bounded real provider smoke tests including image MCP delivery and usage-limit behavior"
+  ],
+  "local_receipts_directory": "/private/tmp/scotus-hybrid-cards-nov3",
+  "feedback_changes": {
+    "finish_protocol": "Complete payload saved once through a finish tool; final reply is only {\"saved\":true}. Applies to readers, editor and reviewer. Committed work survives a lost acknowledgement.",
+    "decisions": "Required for reader top lists and legacy pending designs; additional selections and substantive omissions recorded. Ordinary non-top omissions filled by host without model prose.",
+    "phase_seconds": {
+      "reader": 1200,
+      "editor": 1200,
+      "reviewer": 1200
+    },
+    "claude_turn_limits": {
+      "reader": 128,
+      "editor": 64,
+      "configurable_maximum": 200
+    },
+    "tool_limits": {
+      "reader": 180,
+      "editor_and_reviewer": 160,
+      "finish_and_checkpoint_exempt": true
+    },
+    "deadline_warning": {
+      "seconds_before_cutoff": 200,
+      "codex": "same-turn turn/steer, never turn/start",
+      "claude": "notice in next card-tool response; no queued user message that could start another Opus turn"
+    },
+    "tools": "Cached source listing/search in both card backends; full source/page reads, OCR and focused web fallback available to Opus as well as source verification by Sol.",
+    "normalization": "Strip inline markup without inserting spaces; preserve br spacing. Dash-adjacent highlights and intra-word markup verified.",
+    "reader_prompt": "Flag source misstatements and unverified claims privately; prefer accessible text-layer copies before OCR.",
+    "sol_timing": "Allow range adjustments only for cards with a current timing-validator failure; require valid final timings and matching inspected production previews. Other moves remain proposals.",
+    "subscribe_overlay": "Verified current renderer schedules reminder once in a card-free gap; obsolete first-two-block restriction intentionally not reintroduced.",
+    "checks": "337 Python tests OK, 3 skipped; fake CLI/MCP subprocess tests pass without model usage. Both curated build paths fit caps without submission.",
+    "local_receipts_directory": "/private/tmp/scotus-hybrid-feedback-nov3"
+  },
+  "filesystem_library": {
+    "status": "deployed, opt-in, not activated",
+    "roles": [
+      "Haiku",
+      "Terra",
+      "Opus",
+      "Sol"
+    ],
+    "archive": {
+      "trial_cards": 71,
+      "cases": 3,
+      "current_docket_excluded": true,
+      "private_notes_and_evidence_logs_exported": false,
+      "initial_context": "paths only; retrieve selected examples"
+    },
+    "sources": [
+      "URL/source_id/original-byte provenance",
+      "complete extracted text",
+      "individual physical-page text files",
+      "original PDFs"
+    ],
+    "source_download_default": "page 0 and empty query return file paths, not the full document",
+    "updates": "host atomically exports newly downloaded and OCR-updated sources to the same shared tree",
+    "restart": "reconstruct from existing checkpoint and cached originals; validate restored PDF digest",
+    "claude": "native Read/Grep/Glob, separate input directory, outside-directory read blocks, explicit private-config denies, no native editing or shell tools",
+    "codex": "shared library linked into existing read-only workspace",
+    "verification": "packet/display validation continues against cached source text; arbitrary files and examples do not become evidence",
+    "new_persistent_cloud_objects_or_secrets": false,
+    "checks": "345 Python tests OK, 3 skipped, including fake CLI and loopback MCP transport; both build contexts fit existing caps without submission",
+    "local_receipts_directory": "/private/tmp/scotus-reference-workspace-nov3"
+  },
+  "deployment_followup": {
+    "date": "2026-11-03",
+    "release": "worker-20261103-75c411f7",
+    "code_and_filesystem_library_deployed": true,
+    "provider_switch_performed": false,
+    "credential_import_performed": false,
+    "pipeline_build": "e65ecf6a-c879-490d-8f42-a27b84e930b2",
+    "note": "Top-level build and deployment counts above describe the initial local implementation; this follow-up records the later batched rollout."
+  }
+}

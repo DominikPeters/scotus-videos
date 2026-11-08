@@ -26,7 +26,8 @@ class AlignmentResourcesTests(unittest.TestCase):
                 def call(op,**data):
                     if op=='snapshot':return {'paused':True,'jobs':{'case':job},'recoveries':{}}
                     if op=='dispatch':return {'job':job,'dispatch_token':'token'}
-                    if op=='execution_record':return True
+                    if op=='launch_prepare':return {'id':'run-1','claimed':True}
+                    if op in ('launch_record','execution_record'):return True
                     raise AssertionError(op)
                 dashboard.call.side_effect=call
                 with patch('scotus_cloud.notifications.drain_notifications'),patch('scotus_cloud.discovery.discover'),patch('scotus_cloud.recovery_control.dispatch_recoveries',return_value=[]):

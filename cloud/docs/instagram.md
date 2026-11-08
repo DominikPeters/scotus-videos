@@ -71,3 +71,48 @@ should sign URLs in the controller, as clip downloads already do.
 
 Unpublished API containers are not native Instagram drafts. Do not describe
 container creation as saving an editable draft in the Instagram app.
+
+## Cloud clip publication
+
+The dashboard's vertical clip section has a “Publish on Instagram” action with
+an editable caption. It queues `instagram_publish`, dispatches immediately to
+`scotus-video-instagram-clips`, and shows its resulting Reel link. Publication
+requires the owner's action; rendering a clip does not publish it.
+
+The worker converts the stored export to H.264 at 30 fps with AAC at 48 kHz,
+uploads a private copy, signs a one-hour download URL, creates a Reels container,
+waits for `FINISHED`, then publishes. All media and API calls run in Cloud Run;
+no local Chrome or Mac credentials are required. The Instagram token remains
+in Secret Manager and a shared credential lease prevents concurrent renewal.
+
+`instagram_checkpoint` retains the converted URI, container ID and media ID.
+Retries reuse these identities. An uncertain container-creation or publication
+POST stops for reconciliation rather than creating duplicate posts. Private
+checkpoints and signed URLs are not exposed to the dashboard browser. The
+Instagram result does not replace the original clip or its YouTube/TikTok state.
+
+Deploy using `cloud/infra/deploy_instagram_clips.py` with pinned worker and
+controller images. This explicitly grants the controller identity accessor
+permissions on `scotus-video-instagram` and `scotus-video-upload-config` only;
+it already has clip storage and signing permissions. Deployment starts no posts.
+
+## Optional location tagging (not enabled)
+
+The publisher accepts an optional `instagram_location_id` configuration field,
+passed as `location_id` when creating a new Reel container. It must be a numeric
+Facebook place Page ID with location data, not an arbitrary venue name. The
+requested ID is frozen in the container checkpoint so retries cannot change it.
+No location is currently configured: the Supreme Court place needs verification,
+and support on our Instagram Login connection must be tested. Meta's official
+Reels location example uses Facebook Login. Do not assume it proves support on
+the Instagram Login route or that an Instagram location URL uses the required
+Facebook Page ID. Existing posts are unaffected.
+
+The owner's screenshot identifies the intended place as “Supreme Court of the
+United States”, at “1 First St NE”. The strongest candidate is Instagram location `217378728`: signed-in Chrome
+shows the exact name, 182k posts, and the Court’s phone number
+(+1 202-479-3000). The street address and compatibility with the publishing API
+remain unverified. The earlier candidate
+`/explore/locations/332081809/` displays “U.S. Supreme Court Justice” on the web,
+which conflicts with that screenshot; it must not be treated as a confirmed
+match or used for a test of the intended venue. No location is enabled.

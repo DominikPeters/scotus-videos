@@ -2,6 +2,7 @@
 
 import base64
 import json
+import os
 from pathlib import Path
 from urllib.parse import quote
 
@@ -20,16 +21,29 @@ class Google:
             raise RuntimeError(f'Google API request failed: HTTP {r.status_code}')
         return r.json() if r.content else {}
 
+    def credential_store(self):
+        from .secret_store import SecretStore
+        if not hasattr(self, '_credential_store'): self._credential_store = SecretStore(self)
+        return self._credential_store
+
     def secret(self, name):
+        if os.environ.get('SCOTUS_SECRET_BUNDLES') == '1':
+            from .secret_store import runtime_settings
+            if name == os.environ.get('SCOTUS_RUNTIME_CONFIG') and name != 'scotus-video-control-config':
+                return json.dumps(runtime_settings('/secrets/worker/config.json')).encode()
+            return self.credential_store().read(name)
         result = self.request('GET', f'https://secretmanager.googleapis.com/v1/projects/{self.project}/secrets/{name}/versions/latest:access')
         return base64.b64decode(result['payload']['data'])
 
     def add_secret_version(self, name, value):
+        if os.environ.get('SCOTUS_SECRET_BUNDLES') == '1':
+            return self.credential_store().replace(name, value)
         return self.request('POST', f'https://secretmanager.googleapis.com/v1/projects/{self.project}/secrets/{name}:addVersion',
                             json={'payload': {'data': base64.b64encode(value).decode()}})['name']
 
     def retire_secret_versions(self,name,keep):
-        """Spotify token rotation keeps only its newest version active/billable."""
+        """Bundled writes verify and prune within their shared group lock."""
+        if os.environ.get('SCOTUS_SECRET_BUNDLES') == '1': return
         prefix=f'projects/{self.project}/secrets/{name}/versions/'
         if '/secrets/'+name+'/versions/' not in keep:raise ValueError('Wrong credential version')
         result=self.request('GET','https://secretmanager.googleapis.com/v1/'+prefix.rstrip('/'),
@@ -38,6 +52,8 @@ class Google:
             if version['name']!=keep:self.request('POST','https://secretmanager.googleapis.com/v1/'+version['name']+':disable',json={})
 
     def secret_status(self, name):
+        if os.environ.get('SCOTUS_SECRET_BUNDLES') == '1':
+            return self.credential_store().status(name)
         result = self.request('GET', f'https://secretmanager.googleapis.com/v1/projects/{self.project}/secrets/{name}/versions',
                               params={'pageSize': 10, 'filter': 'state:ENABLED'})
         versions = result.get('versions', [])
@@ -51,6 +67,9 @@ class Google:
 
     def operation_status(self,operation):
         import re
+        if re.fullmatch(r'projects/'+re.escape(self.project)+r'/locations/[a-z0-9-]+/jobs/scotus-video-[a-z0-9-]+/executions/scotus-video-[a-z0-9-]+',operation):
+            result=self.request('GET','https://run.googleapis.com/v2/'+operation)
+            return {'done':bool(result.get('completionTime')),'failed':bool(result.get('failedCount')),'execution':operation.rsplit('/',1)[-1]}
         if not re.fullmatch(r'projects/'+re.escape(self.project)+r'/locations/[a-z0-9-]+/operations/[a-zA-Z0-9-]+',operation):
             raise ValueError('Unowned cloud operation')
         result=self.request('GET','https://run.googleapis.com/v2/'+operation)
@@ -75,6 +94,21 @@ class Google:
                 return {'name':execution['name'],'done':bool(execution.get('completionTime')),
                         'failed':bool(execution.get('failedCount'))}
         return None
+
+    def find_attempt_execution(self,region,job,attempt):
+        import re
+        if not re.fullmatch(r'scotus-video-[a-z0-9-]+',job) or not re.fullmatch(r'run-\d+',attempt):raise ValueError('Invalid execution lookup')
+        page=None
+        while True:
+            params={'pageSize':100}
+            if page:params['pageToken']=page
+            value=self.request('GET',f'https://run.googleapis.com/v2/projects/{self.project}/locations/{region}/jobs/{job}/executions',params=params)
+            for execution in value.get('executions',[]):
+                env=[v for c in execution.get('template',{}).get('containers',[]) for v in c.get('env',[])]
+                if any(v.get('name')=='SCOTUS_ATTEMPT_ID' and v.get('value')==attempt for v in env):
+                    return {'name':execution['name'],'done':bool(execution.get('completionTime')),'failed':bool(execution.get('failedCount'))}
+            page=value.get('nextPageToken')
+            if not page:return None
 
     def execution_logs(self,job,execution=None):
         import re

@@ -39,6 +39,7 @@ function spotify_operation(array &$state,array $input,string $role): mixed {
     $id=(string)($input['job'] ?? '');$op=$input['op'];
     if(!isset($state['jobs'][$id]))throw new InvalidArgumentException('Unknown recording');
     $job=&$state['jobs'][$id];
+    if(!empty($state['deployment_hold'])&&in_array($op,['spotify_context','spotify_reserve'],true))throw new WorkflowConflict('Deployment in progress; retry shortly');
     if($op==='spotify_context')return ['id'=>$id,'docket'=>$job['docket'],'argument_date'=>$job['argument_date'],'case_name'=>$job['case_name'],
         'duration_seconds'=>$job['stages']['prepare']['result']['duration_seconds'] ?? 0,
         'video'=>$job['stages']['assemble']['result'] ?? [],'thumbnail_uri'=>$job['stages']['plan']['result']['thumbnail_uri'] ?? null,'spotify'=>$job['spotify'] ?? []];

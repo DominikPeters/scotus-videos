@@ -49,6 +49,16 @@ class UploadRecoveryTests(unittest.TestCase):
         self.assertEqual(session.post.call_args.args[0],'https://www.googleapis.com/upload/youtube/v3/thumbnails/set')
         self.assertEqual(checkpoint['video_id'],'abcdefghijk');self.assertEqual(checkpoint['last_error']['reasons'],['invalidImage'])
 
+    def test_resumed_postprocessing_reports_actual_public_privacy(self):
+        job={'stages':{'plan':{'result':{'interactions_uri':'gs://bucket/meta'}}}}
+        cloud=Mock();cloud.storage_json.return_value={'term':2026,'youtube_title':'Title'};lease=Mock()
+        video={'snippet':{'channelId':'owner','title':'Title'},'status':{'privacyStatus':'public'}}
+        saved={'thumbnail_done':True,'playlist_done':True,'comment_done':True}
+        with patch('scotus_cloud.youtube.owned_channel',return_value='owner'),patch('scotus_cloud.youtube.api',return_value={'items':[video]}) as api:
+            result=postprocess(Mock(),'abcdefghijk',job,{'playlists':{'2026':'playlist'}},cloud,lease,saved)
+        self.assertEqual(result['privacy'],'public')
+        self.assertTrue(all(call.args[1]=='GET' for call in api.call_args_list))
+
     def test_recovery_workspace_has_the_canonical_policy(self):
         with tempfile.TemporaryDirectory() as folder:
             seed_workspace(Path(folder),{'prompts/public-output-policy.md':'Canonical policy'},{'stages':{'upload':{}}},'upload',Mock())

@@ -1,0 +1,12 @@
+import {readFile} from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const source=await readFile(new URL('../../player-data.js', import.meta.url),'utf8');
+const {adaptRecording,selectRecording,sharedRecording,defaultCourt}=await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'));
+const r={schema_version:1,recording_id:'recording',term:'2026',docket:'25-170',argument_date:'2026-10-05',case_name:'Case v. Case',audio:{url:'https://www.supremecourt.gov/a.mp3'},sections:[{start:0,stop:10,turns:[{start:0,stop:10,speaker:{identifier:'jane_doe',name:'Jane Doe',kind:'advocate',role:'for petitioner'},text_blocks:[{start:0,stop:10,text:'A < B & C'}]}]}]};
+const adapted=adaptRecording(r,null,defaultCourt);
+assert.equal(adapted.metadata.heard_by[0].members.length,9);assert.equal(adapted.metadata.advocates.length,1);assert.equal(adapted.transcript.media_file[0].href,r.audio.url);assert.equal(adapted.transcript.transcript.sections[0].turns[0].text_blocks[0].text,'A &lt; B &amp; C');
+const index={recordings:{one:{...r,url:'https://scotusstats.com/podcast/alignment/r.json',revision:Buffer.from(await crypto.subtle.digest('SHA-256',Buffer.from(JSON.stringify(r)))).toString('hex')},other:{...r,recording_id:'other',argument_date:'2026-11-01'}}};
+assert.equal(selectRecording(index,'2026','25-170','recording').recording_id,'recording');assert.equal(selectRecording(index,'2026','25-170').recording_id,'other');assert.equal(selectRecording(index,'2026','25-170','missing'),null);
+let count=0;const fetcher=async()=>++count===1?{ok:true,json:async()=>({recordings:{one:index.recordings.one}})}:{ok:true,arrayBuffer:async()=>new TextEncoder().encode(JSON.stringify(r)).buffer};
+assert.equal((await sharedRecording('2026','25-170','recording',fetcher)).recording_id,'recording');
+console.log('Player adapter, missing metadata, recording selection and checksum checks passed');

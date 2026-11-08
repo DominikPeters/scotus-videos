@@ -10,6 +10,50 @@ import {act, block, button, disclosure, draft, drafts, preview, submitForm} from
 
 const ACTIVE = ['queued', 'starting', 'running'];
 const fullImages = new Set();
+function reviewVersion(review, scope = 'all', person = '') {
+  const value = scope === 'photo' ? review.versions?.photos?.[person] : (review.versions?.[scope] ?? review.version);
+  return Number.isInteger(value) ? {version: value} : {revision: review.revision};
+}
+
+/**
+ * Card previews are too small to read on a phone: a tap shows the image across the whole screen.
+ * A wide image on an upright phone is turned to use the screen's long side.
+ */
+function enlargeable(img) {
+  img.classList.add('enlargeable');
+  img.tabIndex = 0;
+  img.setAttribute('role', 'button');
+  img.setAttribute('aria-label', 'Enlarge ' + img.alt);
+  img.addEventListener('keydown', event => {
+    if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); img.click(); }
+  });
+  img.addEventListener('click', () => {
+    if (!img.src || img.classList.contains('loading')) return;
+    const large = h('img', {src: img.src, alt: img.alt});
+    const hint = h('p.lightbox-hint');
+    const layout = () => {
+      const ratio = img.naturalWidth / img.naturalHeight, upright = innerHeight > innerWidth;
+      const turned = upright && ratio > 1.3;
+      view.classList.toggle('turned', turned);
+      large.style.width = turned ? Math.min(innerHeight - 96, (innerWidth - 16) * ratio) + 'px' : '';
+      hint.textContent = turned ? 'Turn your phone to read · tap to close' : 'Tap to close';
+    };
+    // A native modal makes the rest of the app inert and contains keyboard focus.
+    const closeButton = h('button.lightbox-close', {type: 'button', autofocus: true}, 'Close');
+    const view = h('dialog.lightbox', {'aria-label': img.alt, onclick: () => view.close()}, closeButton, large, hint);
+    view.addEventListener('close', () => {
+      view.remove();
+      removeEventListener('resize', layout);
+      if (img.isConnected) img.focus({preventScroll: true});
+    }, {once: true});
+    layout();
+    addEventListener('resize', layout);
+    document.body.append(view);
+    view.showModal();
+    closeButton.focus({preventScroll: true});
+  });
+  return img;
+}
 
 export function renderCase(state, id) {
   const job = state.jobs?.[id];
@@ -20,27 +64,54 @@ export function renderCase(state, id) {
   const missing = missingPortraits(job);
   return [
     header(job, info),
+    job.render_revision && block('Corrected render',
+      h('p', job.render_revision.upload_matches_current ? 'The corrected MP4 is uploaded to YouTube.' : job.render_revision.upload_requested_at ? 'Uploading the corrected MP4 as a new unlisted video. The earlier upload is retained.' : job.render_revision.status==='complete' ? 'The corrected MP4 is ready. The existing YouTube video is unchanged.' : 'Rendering a corrected MP4 from the approved material. The existing YouTube video is unchanged.'),
+      safeUrl(job.render_revision.existing_youtube_url) && link('View earlier YouTube upload',job.render_revision.existing_youtube_url,'button-link'),
+      job.render_revision.status==='complete' && button('Download corrected MP4',async()=>{const result=await api('video_download',{job:job.id});location.assign(result.url);}),
+      job.render_revision.status==='complete' && !job.render_revision.upload_matches_current && !job.render_revision.upload_requested_at && button('Upload corrected MP4 to YouTube',()=>api('command',{command:'upload_corrected',job:job.id}),{done:'Corrected upload queued.'})),
+    job.research_attention && block('Card research', h('p', job.research_attention.message),
+      button(job.research_attention.another_editor_pass ? 'Authorize another Opus pass' : 'Resume saved research',
+        () => api('command', {job: job.id, command: 'research_resume', allow_opus_retry: !!job.research_attention.another_editor_pass}), {done: 'Saved research queued.'})),
     ...recs.filter(rec => pendingQuestions(state, rec).length).map(rec => questionBlock(state, rec)),
     review?.cards?.length && cardsPending(job) && (editable || job.annotation_revision_only) && cardsBlock(job),
     review && missing.length && portraitsBlock(job, missing, 'Portraits to approve'),
     stoppedBlock(job, recs, state),
     job.asset_publication?.status === 'failed' && block('Portrait commit failed',
       h('p', 'The approved portraits were not saved to GitHub. The video is unaffected; the commit keeps the portrait library current.'),
-      h('div.actions', button('Retry portrait commit', () => api('review', {job: job.id, revision: review.revision, command: 'asset_retry'}),
+      h('div.actions', button('Retry portrait commit', () => api('review', {job: job.id, ...reviewVersion(review), command: 'asset_retry'}),
         {primary: true, done: 'Portrait commit queued.'}))),
     publishBlock(job),
     review && titleBlock(job),
     spotifyBlock(job, state),
     clipsBlock(job),
     progressBlock(job),
+    importBlock(job),
+    !job.stages.upload.checkpoint && (job.stages.prepare.status === 'failed' || job.stages.align.status === 'failed' || job.maintenance?.status === 'waiting') && block('Official sources',
+      h('p', job.maintenance?.status === 'waiting' ? 'Waiting to refresh the official sources.' : 'Check whether the Court has replaced the transcript or recording.'),
+      button('Refresh official sources', () => api('refresh_sources', {job: job.id}), {done: 'Source check requested.'})),
     recs.length && repairsBlock(state, recs),
-    review && backgroundBlock(job, editable, missing),
-    activityBlock(state, job),
+    review ? backgroundBlock(job, editable, missing, activityBlock(state, job)) : activityBlock(state, job),
     manageBlock(job, state),
   ];
 }
 
 // ---------------------------------------------------------------- header
+function importBlock(job) {
+  if (job.stages.align.status !== 'complete' || (job.stages.plan.status !== 'pending' && job.status !== 'complete')) return null;
+  const item = job.card_import, key = `import-file:${job.id}`, file = h('input', {type: 'file', accept: '.json,application/json', 'aria-label': 'Card file'});
+  file.addEventListener('change', () => { if (file.files?.[0]) drafts.set(key, file.files[0]); });
+  return disclosure(`import-${job.id}`, 'Import annotation cards', h('div',
+    item && h('p', item.status === 'failed' ? item.error : `${item.card_count} imported cards: ${item.status.replaceAll('_', ' ')}.`),
+    item && item.status !== 'complete' && button('Cancel import', () => api('card_import_cancel', {job: job.id}), {done: 'Card import cancelled.'}),
+    h('p.note', drafts.get(key)?.name || 'Choose a card JSON file. Production previews will be prepared for your review.'), file,
+    button('Prepare imported cards', async () => {
+      const selected = file.files?.[0] || drafts.get(key);
+      if (!selected) throw new Error('Choose a card file first.');
+      if (selected.size > 1572864) throw new Error('Reduce the exhibit image sizes before importing.');
+      const result = await api('card_import', {job: job.id, spec: JSON.parse(await selected.text())});
+      drafts.delete(key);return result;
+    }, {done: 'Card import queued.'})));
+}
 
 function header(job, info) {
   const upload = uploadResult(job);
@@ -56,8 +127,8 @@ function header(job, info) {
     h('h1', job.case_name),
     h('p.meta', [`No. ${job.docket}`, `argued ${longDate(job.argument_date)}`, seconds && duration(seconds)].filter(Boolean).join(' · ')),
     info.todo.length
-      ? h('ul.todo', info.todo.map(text => h('li', text)))
-      : info.line && h('p.status', info.line),
+      ? h('ul.todo', {dataset: {status: job.status, group: info.group}}, info.todo.map(text => h('li', text)))
+      : info.line && h('p.status', {dataset: {status: job.status, group: info.group}}, info.line),
     links.length && h('p.links', links));
 }
 
@@ -146,19 +217,19 @@ function cardsBlock(job, nested = false) {
     };
     show.addEventListener('click', choose(true)); hide.addEventListener('click', choose(false));
     return h('article.card-item',
-      preview({job: job.id, kind: 'card', candidate: card.id}, card.card_uri, 'Annotation card as rendered', 'card-image'),
-      h('p.card-head', [`${clock(card.start)}–${clock(card.end)}`, cue.kind, cue.label].filter(Boolean).join(' · ')),
+      enlargeable(preview({job: job.id, kind: 'card', candidate: card.id}, card.card_uri, 'Annotation card as rendered', 'card-image')),
+      h('p.card-head', [`${clock(card.start)}–${clock(card.end)}`, cue.label || cue.kind, textFromHtml(cue.heading || cue.case?.name || '')].filter(Boolean).join(' · ')),
       h('p.note', `Recommended: ${card.recommended ? 'show' : 'hide'}. ${card.reason || ''}`),
       h('div.segmented', {role: 'group', 'aria-label': 'Show or hide this card'}, show, hide),
       disclosure(`card-sources-${job.id}-${card.id}`, 'Sources and full frame',
-        preview({job: job.id, kind: 'card', candidate: card.id, variant: 'frame'}, card.frame_uri, 'Card in the full video frame', 'frame-image'),
+        enlargeable(preview({job: job.id, kind: 'card', candidate: card.id, variant: 'frame'}, card.frame_uri, 'Card in the full video frame', 'frame-image')),
         (card.sources || []).map(source => h('div.source',
           safeUrl(source.url) && link(`Source, page ${source.page}`, source.url),
           source.quote && h('blockquote', source.quote)))));
   });
   const approve = h('button.primary', {type: 'button', disabled: !editable}, pending ? 'Approve card selections' : 'Save card selections');
   approve.addEventListener('click', () => act(approve, async () => {
-    await api('review', {job: job.id, revision: review.revision, command: 'cards', selections});
+    await api('review', {job: job.id, ...reviewVersion(review, 'cards'), command: 'cards', selections});
     return 'Card selections saved.';
   }));
   const content = [
@@ -166,7 +237,7 @@ function cardsBlock(job, nested = false) {
     !editable && h('p.note', 'Rendering has started; card selections can no longer change.'),
     items,
     editable && h('div.actions.sticky', summary, approve)];
-  return nested ? h('div', content) : block(pending ? 'Annotation cards to review' : 'Annotation cards', content);
+  return nested ? h('div', content) : block(null, disclosure(`card-review-${job.id}`, pending ? 'Annotation cards to review' : 'Annotation cards', true, ...content));
 }
 
 // ---------------------------------------------------------------- portraits
@@ -186,11 +257,12 @@ function personBlock(job, person, item, compact = false) {
   const actionName = {different: 'finding a different image', recrop: 'recropping', synthetic: 'making an initials or logo image'};
   return h('div.person', {class: compact ? 'portrait-editor' : undefined},
     !compact && h('h3', item.name),
+    !editable && !compact && h('p.note', job.status === 'cancelled' ? 'This recording was cancelled; portraits can no longer change.' : 'Planning has started; portraits can no longer change.'),
     item.identity_evidence && disclosure(`identity-${job.id}-${person}`, 'Advocate details', h('p.note', item.identity_evidence)),
     busy && h('p.status', `Codex is ${actionName[latest.action] || latest.action} (${latest.status}).`),
     requests.filter(r => r.status === 'failed').slice(0, 1).map(r => h('div.problem',
       h('p', 'The last image request failed' + (r.error ? ': ' + r.error : '.')),
-      button('Retry image request', () => api('review', {job: job.id, revision: job.review.revision, command: 'photo_retry', request: r.id})))),
+      button('Retry image request', () => api('review', {job: job.id, ...reviewVersion(job.review, 'photo', r.person), command: 'photo_retry', request: r.id})))),
     usable.length
       ? h('div.candidates', usable.map(c => candidateTile(job, person, item, c, busy, editable)))
       : !busy && h('p', 'No usable image yet. An image is required before this recording can continue.'),
@@ -212,7 +284,7 @@ function candidateTile(job, person, item, candidate, busy, editable) {
     if (full) fullImages.delete(fullKey); else fullImages.add(fullKey);
     toggle.dispatchEvent(new CustomEvent('rerender', {bubbles: true}));
   });
-  const origin = {curated_cache: 'Saved portrait', research: 'Found by Codex', upload: 'Your upload'}[candidate.origin] || '';
+  const origin = {curated_cache: 'Saved portrait', research: 'Found by Codex', owner_url: 'Your image URL', upload: 'Your upload'}[candidate.origin] || '';
   return h('figure.candidate', {class: approved ? 'approved' : undefined},
     image,
     h('figcaption',
@@ -225,7 +297,7 @@ function candidateTile(job, person, item, candidate, busy, editable) {
       approved ? h('p.done', 'Approved')
         : candidate.rejected ? h('p.note', 'Rejected')
         : waitingForCrop ? h('p.note', 'Waiting for the square crop')
-        : button('Approve', () => api('review', {job: job.id, revision: job.review.revision, command: 'photo', person, candidate: candidate.id}),
+        : button('Approve', () => api('review', {job: job.id, ...reviewVersion(job.review, 'photo', person), command: 'photo', person, candidate: candidate.id}),
           {primary: true, disabled: busy || !editable, done: `Portrait approved for ${item.name}.`})));
 }
 
@@ -243,7 +315,7 @@ function requestForm(job, person, candidate, busy) {
     h('div.actions', h('button', {type: 'submit', disabled: busy || enrichRunning}, 'Send to Codex')),
     enrichRunning && h('p.note', 'Available once research finishes.'));
   return disclosure(`request-${job.id}-${person}`, candidate ? 'Ask Codex to change the image' : 'Ask Codex for an image', submitForm(form, async () => {
-    await api('review', {job: job.id, revision: job.review.revision, command: 'photo_request', person,
+    await api('review', {job: job.id, ...reviewVersion(job.review, 'photo', person), command: 'photo_request', person,
       candidate: candidate?.id || '', action: action.value, hint: hint.value});
     drafts.delete(key + ':hint');
     return 'Request sent to Codex.';
@@ -261,7 +333,7 @@ function uploadForm(job, person) {
   return disclosure(`upload-${job.id}-${person}`, 'Upload your own image', submitForm(form, async () => {
     const values = new FormData(form);
     const image = await smallImage(values.get('image'));
-    await api('photo_add', {job: job.id, revision: job.review.revision, person, image,
+    await api('photo_add', {job: job.id, ...reviewVersion(job.review, 'photo', person), person, image,
       kind: values.get('kind'), source_url: values.get('source_url'), note: values.get('note')});
     return 'Image added.';
   }));
@@ -290,7 +362,7 @@ function publishBlock(job) {
   if (!ready && !failures.length) return null;
   const retry = action => button(action.kind === 'publish' ? 'Retry publication' : 'Retry title update', () => {
     const index = review.titles.findIndex(c => c.title === action.title);
-    return api('review', {job: job.id, revision: review.revision, command: action.kind,
+    return api('review', {job: job.id, ...reviewVersion(review, 'title'), command: action.kind,
       ...(action.kind === 'title' ? {title: action.title} : {index})});
   });
   const thumbnail = job.stages.plan.result?.thumbnail_preview_uri;
@@ -301,7 +373,7 @@ function publishBlock(job) {
     pending && h('p.status', 'Publication requested; YouTube updates within a minute.'),
     failures.map(a => h('div.problem', h('p', (a.kind === 'publish' ? 'Publication' : 'Title update') + ' failed.'), retry(a))),
     h('div.actions',
-      ready && !pending && button('Publish on YouTube', () => api('review', {job: job.id, revision: review.revision, command: 'publish'}),
+      ready && !pending && button('Publish on YouTube', () => api('review', {job: job.id, ...reviewVersion(review, 'title'), command: 'publish'}),
         {primary: true, confirm: `Make “${job.title}” public on YouTube?`, done: 'Publication requested.'}),
       safeUrl(upload.video_url) && link('Watch unlisted video', upload.video_url, 'button-link')));
 }
@@ -320,7 +392,7 @@ function titleBlock(job) {
       candidate.private_reason && h('p.note', candidate.private_reason),
       selected ? h('p.done', 'Current title')
         : button(onYouTube ? 'Use and update on YouTube' : 'Use this title',
-          () => api('review', {job: job.id, revision: review.revision, command: 'title', index}),
+          () => api('review', {job: job.id, ...reviewVersion(review, 'title'), command: 'title', index}),
           {disabled: locked, done: onYouTube ? 'Title update requested.' : 'Title saved.'}));
   });
   const key = `title:${job.id}`;
@@ -331,7 +403,7 @@ function titleBlock(job) {
   const form = h('form', h('label', 'Custom title', input),
     h('div.actions', count, h('button', {type: 'submit', disabled: locked}, onYouTube ? 'Update on YouTube' : 'Save title')));
   submitForm(form, async () => {
-    await api('review', {job: job.id, revision: review.revision, command: 'title', title: input.value});
+    await api('review', {job: job.id, ...reviewVersion(review, 'title'), command: 'title', title: input.value});
     drafts.delete(key);
     return onYouTube ? 'Title update requested.' : 'Title saved.';
   });
@@ -433,7 +505,7 @@ function repairsBlock(state, recs) {
 
 // ---------------------------------------------------------------- background material
 
-function backgroundBlock(job, editable, missing) {
+function backgroundBlock(job, editable, missing, activity) {
   const review = job.review;
   const approved = Object.keys(review.photos || {}).filter(person => !missing.includes(person));
   const cardsDone = review.cards?.length && !(cardsPending(job) && (editable || job.annotation_revision_only));
@@ -463,7 +535,8 @@ function backgroundBlock(job, editable, missing) {
       (review.private_notes || []).filter(note => !note.startsWith('Saved opportunity decisions:')).map(note => h('p.note', note)),
       Object.entries(review.provenance || {}).map(([field, record]) => h('div.provenance',
         h('p', h('strong', field.replace(/_/g, ' ')), ' · ', record.method),
-        (record.sources || []).filter(s => safeUrl(s.url)).map(s => link(s.title || 'Source', s.url, 'small'))))));
+        (record.sources || []).filter(s => safeUrl(s.url)).map(s => link(s.title || 'Source', s.url, 'small'))))),
+    activity);
 }
 
 function activityBlock(state, job) {

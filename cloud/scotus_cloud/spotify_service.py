@@ -4,6 +4,7 @@ from pathlib import Path
 import time
 import requests
 
+from .secret_store import runtime_settings
 from .google import Google
 from .remote import Dashboard
 from .spotify import Spotify, SpotifyAuthRequired, SpotifyError, transfer_thumbnail
@@ -108,4 +109,4 @@ def make_app(settings,google_factory=Google):
     return app
 
 
-def load_app():return make_app(json.loads(Path('/secrets/spotify/config.json').read_text()))
+def load_app():return make_app(runtime_settings('/secrets/spotify/config.json'))

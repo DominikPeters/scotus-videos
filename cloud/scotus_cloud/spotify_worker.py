@@ -9,6 +9,7 @@ import time
 from urllib.parse import quote
 import uuid
 
+from .secret_store import runtime_settings
 from .google import Google,split_gs
 from .remote import Dashboard
 from .spotify import Spotify,SpotifyAuthRequired,SpotifyError,transfer_thumbnail
@@ -66,7 +67,7 @@ def transfer(context,client,google,checkpoint,heartbeat):
 
 def main():
     if not os.environ.get('CLOUD_RUN_JOB'):raise RuntimeError('Cloud worker required')
-    settings=json.loads(Path('/secrets/spotify/config.json').read_text());google=Google(settings['project'])
+    settings=runtime_settings('/secrets/spotify/config.json');google=Google(settings['project'])
     dashboard=Dashboard(settings['dashboard_url'],settings['worker_key'],'spotify')
     identity={'job':os.environ['SCOTUS_JOB_ID'],'generation':os.environ['SCOTUS_SPOTIFY_GENERATION']}
     claim=dashboard.call('spotify_claim',**identity,dispatch_token=os.environ['SCOTUS_SPOTIFY_TOKEN'],claim_id=uuid.uuid4().hex)
