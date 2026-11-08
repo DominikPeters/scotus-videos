@@ -149,20 +149,41 @@ def download_case_materials(case):
     return docket
 
 
-def run_convert_to_text(case):
-    """Run the AppleScript to convert PDF to text"""
+def run_convert_to_text(case, extractor="coordinates"):
+    """Extract native PDF text; keep Acrobat available as an explicit fallback."""
     case_dir = BASE_DIR / case
 
     # Find PDF file
-    pdfs = list(case_dir.glob('*.pdf'))
+    pdfs = sorted(case_dir.glob('*.pdf'))
     if not pdfs:
         print("No PDF file found in case folder")
+        return False
+    if len(pdfs) != 1:
+        print("Multiple PDFs found. Use scotus_pdf.py with an explicit PDF path.")
         return False
 
     pdf_path = pdfs[0]
     txt_path = case_dir / f"{case}.txt"
 
     print(f"Converting {pdf_path.name} to text...")
+    if extractor == "coordinates":
+        print("Using native PDF coordinates (Poppler), including paragraph layout.")
+        result = subprocess.run(
+            [sys.executable, str(BASE_DIR / 'scotus_pdf.py'), str(pdf_path),
+             '--output', str(txt_path), '--force'],
+            capture_output=True, text=True
+        )
+        if result.stdout:
+            print(result.stdout.strip())
+        if result.returncode != 0:
+            print(result.stderr.strip())
+            return False
+        return txt_path.exists()
+    if extractor != "adobe":
+        raise ValueError(f"Unknown extractor: {extractor}")
+    if sys.platform != "darwin":
+        print("The Adobe AppleScript fallback requires macOS.")
+        return False
     print("(This will open Adobe Acrobat Reader)")
     script_path = BASE_DIR / 'export-pdf-to-txt.scpt'
 
@@ -181,6 +202,8 @@ def run_convert_to_text(case):
         return False
 
     if txt_path.exists():
+        # A desktop export must not inherit the old coordinate paragraph mode.
+        txt_path.with_suffix('.extraction.json').unlink(missing_ok=True)
         print(f"Saved to: {txt_path}")
         return True
     else:
@@ -193,7 +216,7 @@ def run_parse_transcript(case):
     print(f"Parsing transcript for {case}...")
 
     result = subprocess.run(
-        ['python3', str(BASE_DIR / 'scotus-parser.py'), case],
+        [sys.executable, str(BASE_DIR / 'scotus-parser.py'), case],
         capture_output=True,
         text=True,
         cwd=BASE_DIR
@@ -814,6 +837,7 @@ def main():
                 f"Case {selected_case}{status_str} - Select tool:",
                 choices=[
                     "Convert PDF to text",
+                    "Convert PDF to text with Adobe (fallback)",
                     "Parse transcript",
                     "Run gentle aligner",
                     "Line up",
@@ -829,6 +853,8 @@ def main():
 
             if tool == "Convert PDF to text":
                 run_convert_to_text(selected_case)
+            elif tool == "Convert PDF to text with Adobe (fallback)":
+                run_convert_to_text(selected_case, extractor="adobe")
             elif tool == "Parse transcript":
                 run_parse_transcript(selected_case)
             elif tool == "Run gentle aligner":

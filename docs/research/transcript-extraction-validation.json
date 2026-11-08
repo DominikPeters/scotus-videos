@@ -1,0 +1,836 @@
+{
+  "validated_on": "2026-10-11",
+  "extractor": "poppler-coordinates",
+  "comparison_notes": "Ordered normalized word differences relative to saved TXT, not ground-truth extraction accuracy. Punctuation comparisons use gaps between aligned words; whitespace and apostrophe styles normalized. Paragraphs now follow printed indents instead of uppercase sentence heuristics.",
+  "cases": [
+    {
+      "case": "23-1038",
+      "source_pdf": "self-aligned/23-1038/23-1038_3d94.pdf",
+      "original_txt_sha256": "55b48ea5a50e9e04df3588b891ec48483309c114ed954209e4836694bdf04570",
+      "source_pdf_sha256": "99e3ed918653ec52fc43db3a283c1a4a2999e5c9eb28c4c021c1c79311e9fd55",
+      "native_txt_sha256": "c4b18785caf7cee5ae9b3a614e09d417fe1d958673edef72080dc0c3f731cdff",
+      "pdf_pages": 104,
+      "native_turns": 372,
+      "legacy_turns": 372,
+      "native_paragraphs": 529,
+      "legacy_paragraphs": 573,
+      "same_speaker_sequence": true,
+      "legacy_output_unchanged": true,
+      "comparison": {
+        "reference_tokens": 15418,
+        "native_tokens": 15423,
+        "different_tokens": 10,
+        "word_edits": [
+          {
+            "kind": "replace",
+            "adobe": [
+              "andswitch"
+            ],
+            "native": [
+              "and",
+              "switch"
+            ]
+          },
+          {
+            "kind": "replace",
+            "adobe": [
+              "pointin"
+            ],
+            "native": [
+              "point",
+              "in"
+            ]
+          },
+          {
+            "kind": "replace",
+            "adobe": [
+              "intime"
+            ],
+            "native": [
+              "in",
+              "time"
+            ]
+          },
+          {
+            "kind": "replace",
+            "adobe": [
+              "singlepoint"
+            ],
+            "native": [
+              "single",
+              "point"
+            ]
+          },
+          {
+            "kind": "replace",
+            "adobe": [
+              "intime"
+            ],
+            "native": [
+              "in",
+              "time"
+            ]
+          }
+        ],
+        "punctuation_changes": [
+          {
+            "adobe": "-",
+            "native": "--",
+            "count": 151,
+            "example": {
+              "adobe": "n't clear or you changed the -the \nguidance as time went o",
+              "native": "n't clear or you changed the --\nthe guidance as time went on"
+            }
+          },
+          {
+            "adobe": "-\"",
+            "native": "--\"",
+            "count": 1,
+            "example": {
+              "adobe": " incomes --this is their application -\"\nrelevant questions include the im",
+              "native": "incomes -- this is their application --\n\"relevant questions include the im"
+            }
+          },
+          {
+            "adobe": "",
+            "native": "--",
+            "count": 1,
+            "example": {
+              "adobe": "N: Well, I think, there, the \n\nJUSTICE JACKSON: I mean, a perso",
+              "native": "N: Well, I think, there, the\n--\n\nJUSTICE JACKSON: I mean, a perso"
+            }
+          }
+        ],
+        "word_character_changes": []
+      }
+    },
+    {
+      "case": "23-1122",
+      "source_pdf": "self-aligned/23-1122/23-1122.pdf",
+      "original_txt_sha256": "164c4041bd21cda5106f2c93fdc502aa15bea1680425f9a2583dff5feb64ce57",
+      "source_pdf_sha256": "dbd91fa6c52a452f4cea9c4a15aea57917804bbdd1f7e4c003bea5401cffbf1d",
+      "native_txt_sha256": "62900a8b2ecdbf9a8a74174f1855c5d0e5045b2eec065f3a8be51c9f5449940c",
+      "pdf_pages": 163,
+      "native_turns": 633,
+      "legacy_turns": 633,
+      "native_paragraphs": 870,
+      "legacy_paragraphs": 931,
+      "same_speaker_sequence": true,
+      "legacy_output_unchanged": true,
+      "comparison": {
+        "reference_tokens": 23863,
+        "native_tokens": 23863,
+        "different_tokens": 0,
+        "word_edits": [],
+        "punctuation_changes": [
+          {
+            "adobe": "-",
+            "native": "--",
+            "count": 161,
+            "example": {
+              "adobe": "if we start with \nstrict scrutiny -\n\n\nJUSTICE BARRETT: Counsel, can I ",
+              "native": " if we start with\nstrict scrutiny --\n\nJUSTICE BARRETT: Counsel, can I "
+            }
+          },
+          {
+            "adobe": "--",
+            "native": "---",
+            "count": 2,
+            "example": {
+              "adobe": ": Well, that's an \nunder-inclu--\n\n\nMR. SHAFFER: --that are the",
+              "native": "H: Well, that's an\nunder-inclu- --\n\nMR. SHAFFER: -- that are th"
+            }
+          },
+          {
+            "adobe": "-(",
+            "native": "--(",
+            "count": 2,
+            "example": {
+              "adobe": "ey disagree with you. So what -\n\n\n(Laughter.) \n\nJUSTICE JACKSON: --w",
+              "native": "ey disagree with you. So what --\n\n(Laughter.)\n\nJUSTICE JACKSON: -- w"
+            }
+          },
+          {
+            "adobe": "-\"",
+            "native": "--\"",
+            "count": 1,
+            "example": {
+              "adobe": " think you've conceded --not -\"\nconceded\" is the wrong word, but ",
+              "native": "think you've conceded -- not --\n\"conceded\" is the wrong word, but "
+            }
+          }
+        ],
+        "word_character_changes": []
+      }
+    },
+    {
+      "case": "24-109",
+      "source_pdf": "self-aligned/24-109/24-109_feah.pdf",
+      "original_txt_sha256": "73c20dadb9de09febd3347796bc56180fcbdb870fc110fa50d5fc86510327cfd",
+      "source_pdf_sha256": "baf75324b3575e19c00af9768a5bf157d8549a400346a0d4f9be0fe044c7074b",
+      "native_txt_sha256": "a4adb84693a2b53bfe25e4e52df64d5e7203a4c0afed338159bea165a4220163",
+      "pdf_pages": 176,
+      "native_turns": 612,
+      "legacy_turns": 612,
+      "native_paragraphs": 895,
+      "legacy_paragraphs": 977,
+      "same_speaker_sequence": true,
+      "legacy_output_unchanged": true,
+      "comparison": {
+        "reference_tokens": 25554,
+        "native_tokens": 25554,
+        "different_tokens": 0,
+        "word_edits": [],
+        "punctuation_changes": [
+          {
+            "adobe": "-",
+            "native": "--",
+            "count": 179,
+            "example": {
+              "adobe": "isiana affirmed findings that -sorry. \nSix appellate judges a",
+              "native": "isiana affirmed findings that --\nsorry. Six appellate judges af"
+            }
+          },
+          {
+            "adobe": "-(",
+            "native": "--(",
+            "count": 1,
+            "example": {
+              "adobe": "PAN: Yes and no, right? \nSo -\n\n\n(Laughter.) \n\nJUSTICE KAVANAUGH: T",
+              "native": "PPAN: Yes and no, right?\nSo --\n\n(Laughter.)\n\nJUSTICE KAVANAUGH: Th"
+            }
+          },
+          {
+            "adobe": "",
+            "native": "--",
+            "count": 1,
+            "example": {
+              "adobe": "this side, let alone our position \n\nJUSTICE KAVANAUGH: Just to be fa",
+              "native": "this side, let alone our position\n--\n\nJUSTICE KAVANAUGH: Just to be fa"
+            }
+          }
+        ],
+        "word_character_changes": []
+      }
+    },
+    {
+      "case": "24-38",
+      "source_pdf": "self-aligned/24-38/24-38_n75p.pdf",
+      "original_txt_sha256": "c9cea8ab802093cecaee9261dd6584f9bc585b87c04eba8051d7e3226c0f60cb",
+      "source_pdf_sha256": "309cdf60a587899a8c4089813dfc475fc316c237804b8d29722255bd6397ca3b",
+      "native_txt_sha256": "534e315344422579e11913c60645fa395e774da7d088012e6ecbe875c83cbfb7",
+      "pdf_pages": 148,
+      "native_turns": 480,
+      "legacy_turns": 480,
+      "native_paragraphs": 697,
+      "legacy_paragraphs": 769,
+      "same_speaker_sequence": true,
+      "legacy_output_unchanged": true,
+      "comparison": {
+        "reference_tokens": 21622,
+        "native_tokens": 21623,
+        "different_tokens": 2,
+        "word_edits": [
+          {
+            "kind": "replace",
+            "adobe": [
+              "soi"
+            ],
+            "native": [
+              "so",
+              "i"
+            ]
+          }
+        ],
+        "punctuation_changes": [
+          {
+            "adobe": "-",
+            "native": "--",
+            "count": 137,
+            "example": {
+              "adobe": "ompetition? \n\nMR. HURST: Fairness -\n\n\nJUSTICE SOTOMAYOR: That's the st",
+              "native": "competition?\n\nMR. HURST: Fairness --\n\nJUSTICE SOTOMAYOR: That's the st"
+            }
+          },
+          {
+            "adobe": "",
+            "native": "--",
+            "count": 3,
+            "example": {
+              "adobe": "SOTOMAYOR: Oh, but there is \n\nJUSTICE KAGAN: Are --are -\n\n\nJUS",
+              "native": "SOTOMAYOR: Oh, but there is\n--\n\nJUSTICE KAGAN: Are -- are --\n\nJU"
+            }
+          },
+          {
+            "adobe": "-(",
+            "native": "--(",
+            "count": 1,
+            "example": {
+              "adobe": "ur \nthought, but I think that -\n\n\n(Laughter.)\n\n JUSTICE GORSUCH: Tha",
+              "native": "our\nthought, but I think that --\n\n(Laughter.)\n\nJUSTICE GORSUCH: Than"
+            }
+          }
+        ],
+        "word_character_changes": []
+      }
+    },
+    {
+      "case": "24-43",
+      "source_pdf": "self-aligned/24-43/24-43_n6io.pdf",
+      "original_txt_sha256": "69d2d7b8867ed67f8f7929d498391c2c9dfe7bb5402cdde52b6dbfe772635146",
+      "source_pdf_sha256": "7252a3aec9cb669482421d2b07d6ea813614738ba8a1ce7e53570873900d93a4",
+      "native_txt_sha256": "fafbeba93990d185ab2d90c86598e88d2180b87b3acc112f0634a14dec9a5724",
+      "pdf_pages": 115,
+      "native_turns": 437,
+      "legacy_turns": 435,
+      "native_paragraphs": 614,
+      "legacy_paragraphs": 652,
+      "same_speaker_sequence": false,
+      "legacy_output_unchanged": true,
+      "comparison": {
+        "reference_tokens": 15984,
+        "native_tokens": 15984,
+        "different_tokens": 14,
+        "word_edits": [
+          {
+            "kind": "delete",
+            "adobe": [
+              "justice",
+              "kavanaugh"
+            ],
+            "native": []
+          },
+          {
+            "kind": "insert",
+            "adobe": [],
+            "native": [
+              "justice",
+              "kavanaugh"
+            ]
+          },
+          {
+            "kind": "delete",
+            "adobe": [
+              "justice",
+              "kavanaugh",
+              "deal",
+              "with",
+              "bostock"
+            ],
+            "native": []
+          },
+          {
+            "kind": "insert",
+            "adobe": [],
+            "native": [
+              "justice",
+              "kavanaugh"
+            ]
+          },
+          {
+            "kind": "insert",
+            "adobe": [],
+            "native": [
+              "deal",
+              "with",
+              "bostock"
+            ]
+          }
+        ],
+        "punctuation_changes": [
+          {
+            "adobe": "-",
+            "native": "--",
+            "count": 141,
+            "example": {
+              "adobe": "rgument. \n\nMR. WILLIAMS: So -\n\n\nJUSTICE GORSUCH: And there's an ",
+              "native": "argument.\n\nMR. WILLIAMS: So --\n\nJUSTICE GORSUCH: And there's an\n"
+            }
+          },
+          {
+            "adobe": "-(",
+            "native": "--(",
+            "count": 1,
+            "example": {
+              "adobe": "OR: --destroyed that \nby saying -\n\n\n(Laughter.) \n\nJUSTICE SOTOMAYOR: -",
+              "native": "OR: -- destroyed that\nby saying --\n\n(Laughter.)\n\nJUSTICE SOTOMAYOR: --"
+            }
+          },
+          {
+            "adobe": ".-",
+            "native": ".--",
+            "count": 1,
+            "example": {
+              "adobe": "ell -\n\n\nJUSTICE BARRETT: Mr. -\n\n\nMR. MOOPPAN: Whereas --wher",
+              "native": "ell --\n\nJUSTICE BARRETT: Mr. --\n\nMR. MOOPPAN: Whereas -- whe"
+            }
+          },
+          {
+            "adobe": "",
+            "native": "--",
+            "count": 1,
+            "example": {
+              "adobe": "OOPPAN: Yes. Yes. Yeah --yeah \n\nJUSTICE KAVANAUGH: Okay. \n\nMR. M",
+              "native": "OPPAN: Yes. Yes. Yeah -- yeah\n--\n\nJUSTICE KAVANAUGH: Okay.\n\nMR. MO"
+            }
+          }
+        ],
+        "word_character_changes": []
+      }
+    },
+    {
+      "case": "24-539",
+      "source_pdf": "self-aligned/24-539/24-539_3f14.pdf",
+      "original_txt_sha256": "63cdcd5bea9bf6d6c9a20c0f4211c18af353b58dbc8c5a4993cdc50b294c7e71",
+      "source_pdf_sha256": "b63fc7cbbc712887820592350313432c2f89c608502548e3d8d7d6c67c015e8e",
+      "native_txt_sha256": "de57569277de85e293511579d2cc1f0eae84e176e5cd68877a23d41c0a188566",
+      "pdf_pages": 109,
+      "native_turns": 358,
+      "legacy_turns": 358,
+      "native_paragraphs": 539,
+      "legacy_paragraphs": 581,
+      "same_speaker_sequence": true,
+      "legacy_output_unchanged": true,
+      "comparison": {
+        "reference_tokens": 15260,
+        "native_tokens": 15263,
+        "different_tokens": 6,
+        "word_edits": [
+          {
+            "kind": "replace",
+            "adobe": [
+              "toconduct"
+            ],
+            "native": [
+              "to",
+              "conduct"
+            ]
+          },
+          {
+            "kind": "replace",
+            "adobe": [
+              "integralto"
+            ],
+            "native": [
+              "integral",
+              "to"
+            ]
+          },
+          {
+            "kind": "replace",
+            "adobe": [
+              "andforth"
+            ],
+            "native": [
+              "and",
+              "forth"
+            ]
+          }
+        ],
+        "punctuation_changes": [
+          {
+            "adobe": "-",
+            "native": "--",
+            "count": 113,
+            "example": {
+              "adobe": "TICE SOTOMAYOR: Counsel, you -\n\n\nMR. CAMPBELL: All of that -",
+              "native": "TICE SOTOMAYOR: Counsel, you --\n\nMR. CAMPBELL: All of that -"
+            }
+          }
+        ],
+        "word_character_changes": []
+      }
+    },
+    {
+      "case": "24-656",
+      "source_pdf": "self-aligned/24-656/24-656.pdf",
+      "original_txt_sha256": "fd72bc6e59ac209f1b44600d708babefa833da3acc71f1f93ae610725c000c03",
+      "source_pdf_sha256": "049e26344e4e137e59db4832a889cbcb921261937c593141a6b3d6155e51ee34",
+      "native_txt_sha256": "41e2c4f5a0ea4aa1dc213993d485f9b58d30b15eb9e81aa38d46e063ceca39a0",
+      "pdf_pages": 191,
+      "native_turns": 663,
+      "legacy_turns": 663,
+      "native_paragraphs": 983,
+      "legacy_paragraphs": 1062,
+      "same_speaker_sequence": true,
+      "legacy_output_unchanged": true,
+      "comparison": {
+        "reference_tokens": 28275,
+        "native_tokens": 28276,
+        "different_tokens": 2,
+        "word_edits": [
+          {
+            "kind": "replace",
+            "adobe": [
+              "viewpointand"
+            ],
+            "native": [
+              "viewpoint",
+              "and"
+            ]
+          }
+        ],
+        "punctuation_changes": [
+          {
+            "adobe": "-",
+            "native": "--",
+            "count": 233,
+            "example": {
+              "adobe": "own in Simon & Schuster. There -\n\n\nJUSTICE THOMAS: So you're conver",
+              "native": "own in Simon & Schuster. There --\n\nJUSTICE THOMAS: So you're conver"
+            }
+          },
+          {
+            "adobe": ".-",
+            "native": ".--",
+            "count": 2,
+            "example": {
+              "adobe": "e no. \n\nJUSTICE GORSUCH: Mr. -\n\n\nCHIEF JUSTICE ROBERTS: Congres",
+              "native": "be no.\n\nJUSTICE GORSUCH: Mr. --\n\nCHIEF JUSTICE ROBERTS: Congres"
+            }
+          },
+          {
+            "adobe": "-\"",
+            "native": "--\"",
+            "count": 1,
+            "example": {
+              "adobe": "ongress --and I'll quote this -\"\nto be subject to Chinese la",
+              "native": "ngress -- and I'll quote this --\n\"to be subject to Chinese la"
+            }
+          },
+          {
+            "adobe": "-(",
+            "native": "--(",
+            "count": 1,
+            "example": {
+              "adobe": " think that's \npuzzling. And -\n\n\n(Laughter.) \n\nJUSTICE KAGAN: --and",
+              "native": "u think that's\npuzzling. And --\n\n(Laughter.)\n\nJUSTICE KAGAN: -- and"
+            }
+          },
+          {
+            "adobe": "\"-",
+            "native": "\"--",
+            "count": 1,
+            "example": {
+              "adobe": " hard to avoid the word \"content\" -\n\n\nGENERAL PRELOGAR: I don't -\n\n\nJU",
+              "native": " hard to avoid the word \"content\" --\n\nGENERAL PRELOGAR: I don't --\n\nJU"
+            }
+          }
+        ],
+        "word_character_changes": []
+      }
+    },
+    {
+      "case": "24-813",
+      "source_pdf": "self-aligned/24-813/24-813_5426.pdf",
+      "original_txt_sha256": "94962a8f11d5df6494d89089a88a9140a6acc047890abfeefbf358c8bea06c91",
+      "source_pdf_sha256": "4a15aa1fc6af577216ded94e818d4e3fb84221d927e71f7f82a489c19c82f3df",
+      "native_txt_sha256": "bc7386b666c46196c40eb59af6bd6b5133f3c0d1830bfa22595bebf82992cb6c",
+      "pdf_pages": 104,
+      "native_turns": 215,
+      "legacy_turns": 215,
+      "native_paragraphs": 411,
+      "legacy_paragraphs": 447,
+      "same_speaker_sequence": true,
+      "legacy_output_unchanged": true,
+      "comparison": {
+        "reference_tokens": 15307,
+        "native_tokens": 15307,
+        "different_tokens": 0,
+        "word_edits": [],
+        "punctuation_changes": [
+          {
+            "adobe": "-",
+            "native": "--",
+            "count": 74,
+            "example": {
+              "adobe": "011, but I do think the \nstatute -\n\n\nJUSTICE THOMAS: But you do admit",
+              "native": "2011, but I do think the\nstatute --\n\nJUSTICE THOMAS: But you do admit"
+            }
+          }
+        ],
+        "word_character_changes": []
+      }
+    },
+    {
+      "case": "24A884",
+      "source_pdf": "self-aligned/24A884/24A884.pdf",
+      "original_txt_sha256": "cfb3a080ec466838ee37138855df84ebed29f5bd4b653e1bce9a024c0dd6e80f",
+      "source_pdf_sha256": "8070ea371ef4166c36d910f4fb3485b6a6e6ccc518b7d5e8766bb21e73be67c0",
+      "native_txt_sha256": "e4b98a4c3cc1bf1eb5e1eaaa11b4e6aadb72684934a2155d452e0323432839bc",
+      "pdf_pages": 177,
+      "native_turns": 572,
+      "legacy_turns": 572,
+      "native_paragraphs": 869,
+      "legacy_paragraphs": 919,
+      "same_speaker_sequence": true,
+      "legacy_output_unchanged": true,
+      "comparison": {
+        "reference_tokens": 26291,
+        "native_tokens": 26291,
+        "different_tokens": 0,
+        "word_edits": [],
+        "punctuation_changes": [
+          {
+            "adobe": "-",
+            "native": "--",
+            "count": 195,
+            "example": {
+              "adobe": "s can win anywhere. They invert -invert \nthe ordinary hierarchy ",
+              "native": "s can win anywhere. They invert --\ninvert the ordinary hierarchy o"
+            }
+          },
+          {
+            "adobe": "-(",
+            "native": "--(",
+            "count": 3,
+            "example": {
+              "adobe": "USTICE \nKAGAN: Well, I'm going -(\nLaughter.) \n\n\n\nJUSTICE KAGAN: --I",
+              "native": "JUSTICE KAGAN: Well, I'm going --\n\n(Laughter.)\n\n\n\nJUSTICE KAGAN: -- I"
+            }
+          },
+          {
+            "adobe": ")-",
+            "native": ")--",
+            "count": 2,
+            "example": {
+              "adobe": "Here, we have the (a)(C)(3) -\n\n\nJUSTICE SOTOMAYOR: Well, here, c",
+              "native": "Here, we have the (a)(C)(3) --\n\nJUSTICE SOTOMAYOR: Well, here, c"
+            }
+          },
+          {
+            "adobe": "",
+            "native": "-",
+            "count": 1,
+            "example": {
+              "adobe": "GENERAL SAUER: Yes, we --that \n\n\n\n\nJUSTICE JACKSON: So why --why if",
+              "native": "ENERAL SAUER: Yes, we -- that -\n\n\n\nJUSTICE JACKSON: So why -- why i"
+            }
+          }
+        ],
+        "word_character_changes": []
+      }
+    },
+    {
+      "case": "25-332",
+      "source_pdf": "self-aligned/25-332/25-332_p8k0.pdf",
+      "original_txt_sha256": "98081349aa8eacaf9ceffb7efc9da4fa106b7795afbf23461a703b6db9b31d86",
+      "source_pdf_sha256": "feb2e60dd29108f20dfadfed11e92b1260bb7c02e6a29bb86b30a5e742439e19",
+      "native_txt_sha256": "7e4a4cc6f742389134f9deee1ec276c541b691e39e9c8f2b796c82596ac997b6",
+      "pdf_pages": 192,
+      "native_turns": 571,
+      "legacy_turns": 571,
+      "native_paragraphs": 793,
+      "legacy_paragraphs": 874,
+      "same_speaker_sequence": true,
+      "legacy_output_unchanged": true,
+      "comparison": {
+        "reference_tokens": 27187,
+        "native_tokens": 27188,
+        "different_tokens": 2,
+        "word_edits": [
+          {
+            "kind": "replace",
+            "adobe": [
+              "ofpowers"
+            ],
+            "native": [
+              "of",
+              "powers"
+            ]
+          }
+        ],
+        "punctuation_changes": [
+          {
+            "adobe": "-",
+            "native": "--",
+            "count": 196,
+            "example": {
+              "adobe": "ow there may be separate issues -\n\n\nJUSTICE THOMAS: Okay. Let's say ",
+              "native": "ow there may be separate issues --\n\nJUSTICE THOMAS: Okay. Let's say\n"
+            }
+          },
+          {
+            "adobe": "",
+            "native": "--",
+            "count": 2,
+            "example": {
+              "adobe": "t at issue in Humphrey's or\n\n MR. AGARWAL: Sure.\n\n CHIEF ",
+              "native": "t at issue in Humphrey's or\n--\n\nMR. AGARWAL: Sure.\n\nCHIEF J"
+            }
+          },
+          {
+            "adobe": "-(",
+            "native": "--(",
+            "count": 1,
+            "example": {
+              "adobe": "'s \nlike the not X to my X -\n\n\n(Laughter.)\n\n JUSTICE KAGAN: --you",
+              "native": "t's like the not X to my X --\n\n(Laughter.)\n\nJUSTICE KAGAN: -- you"
+            }
+          },
+          {
+            "adobe": "--",
+            "native": "---",
+            "count": 1,
+            "example": {
+              "adobe": "ission, the Occupational Self--\nSafety and Health Review Commis",
+              "native": "ission, the Occupational Self-\n-- Safety and Health Review Commis"
+            }
+          }
+        ],
+        "word_character_changes": []
+      }
+    },
+    {
+      "case": "25-365",
+      "source_pdf": "self-aligned/25-365/25-365.pdf",
+      "original_txt_sha256": "2f69d80690985bff8cd6bc2d594fb478702c04e7108a86f2abac289de1683d81",
+      "source_pdf_sha256": "2b2928dd2e0b3714daab2775f8c1a418b04f3463eeff7ef6a308b3b99680880c",
+      "native_txt_sha256": "e6af753111a4c449712103633a4adef39f46781b7cbd03d7acdd6f5308e157ac",
+      "pdf_pages": 161,
+      "native_turns": 409,
+      "legacy_turns": 409,
+      "native_paragraphs": 646,
+      "legacy_paragraphs": 700,
+      "same_speaker_sequence": true,
+      "legacy_output_unchanged": true,
+      "comparison": {
+        "reference_tokens": 22820,
+        "native_tokens": 22820,
+        "different_tokens": 0,
+        "word_edits": [],
+        "punctuation_changes": [
+          {
+            "adobe": "-",
+            "native": "--",
+            "count": 143,
+            "example": {
+              "adobe": "t definitions for those? It's -it's \none word, citizens of t",
+              "native": "t definitions for those? It's --\nit's one word, citizens of th"
+            }
+          },
+          {
+            "adobe": "--",
+            "native": "---",
+            "count": 1,
+            "example": {
+              "adobe": "hat -\n\n\nJUSTICE GORSUCH: Well --\n\n\nJUSTICE JACKSON: Ms. -\n\n\nJUSTICE",
+              "native": "hat --\n\nJUSTICE GORSUCH: Well -- -\n\nJUSTICE JACKSON: Ms. --\n\nJUSTICE"
+            }
+          },
+          {
+            "adobe": ".-",
+            "native": ".--",
+            "count": 1,
+            "example": {
+              "adobe": "ll --\n\n\nJUSTICE JACKSON: Ms. -\n\n\nJUSTICE GORSUCH: --Ms. Wang, on ",
+              "native": "l -- -\n\nJUSTICE JACKSON: Ms. --\n\nJUSTICE GORSUCH: -- Ms. Wang, on"
+            }
+          }
+        ],
+        "word_character_changes": []
+      }
+    },
+    {
+      "case": "25A312",
+      "source_pdf": "self-aligned/25A312/25a312_09m1.pdf",
+      "original_txt_sha256": "8c65e72c0ad3d94271d0e4f9b366d02e0dc445dbda1fae04753fe53fe4e52971",
+      "source_pdf_sha256": "9168b1eb7a6efa49992c6680377036a826f0cc744120fe4cf0a58bffabe766aa",
+      "native_txt_sha256": "6b58563fd252800654f84c920cf509039aa2ffda5241f00b2b9adb388550b368",
+      "pdf_pages": 151,
+      "native_turns": 444,
+      "legacy_turns": 444,
+      "native_paragraphs": 704,
+      "legacy_paragraphs": 753,
+      "same_speaker_sequence": true,
+      "legacy_output_unchanged": true,
+      "comparison": {
+        "reference_tokens": 22561,
+        "native_tokens": 22561,
+        "different_tokens": 0,
+        "word_edits": [],
+        "punctuation_changes": [
+          {
+            "adobe": "-",
+            "native": "--",
+            "count": 165,
+            "example": {
+              "adobe": "E THOMAS: General Sauer, the -this \nisn't central to the ca",
+              "native": "E THOMAS: General Sauer, the --\nthis isn't central to the cas"
+            }
+          },
+          {
+            "adobe": "",
+            "native": "--",
+            "count": 3,
+            "example": {
+              "adobe": "TICE GORSUCH: Right, the President \n\nMR. CLEMENT: So it was the ",
+              "native": "TICE GORSUCH: Right, the President\n--\n\nMR. CLEMENT: So it was the "
+            }
+          }
+        ],
+        "word_character_changes": []
+      }
+    },
+    {
+      "case": "63689",
+      "source_pdf": "self-aligned/63689/63689.pdf",
+      "original_txt_sha256": "cdb56f49c964acac044d210a89c27d7276558ed9d2238138d851d47d42124cef",
+      "source_pdf_sha256": "76e4bfd507218d1b96f95495fb62d007035c29724e0be42dab6b786ab0d51567",
+      "native_txt_sha256": "38938a6b975ba04bc4b72512a76608049f3c9dc336cd7ecd5421a6f4c9da95ab",
+      "pdf_pages": 169,
+      "native_turns": 447,
+      "legacy_turns": null,
+      "native_paragraphs": 731,
+      "legacy_paragraphs": null,
+      "same_speaker_sequence": null,
+      "legacy_output_unchanged": null,
+      "comparison": {
+        "excluded": "Saved TXT and PDF are different revisions/page counts"
+      }
+    }
+  ],
+  "totals": {
+    "native_cases": 13,
+    "comparable_cases": 12,
+    "reference_tokens": 260142,
+    "different_tokens": 36,
+    "punctuation_gap_differences": 1924,
+    "matched_word_character_changes": 0
+  },
+  "checks": {
+    "regression_tests_passed": 9,
+    "full_pdf_to_parser_cli_test_passed": true,
+    "interactive_default_selects_native_extractor": true,
+    "all_original_txt_hashes_preserved": true,
+    "all_12_comparable_legacy_outputs_unchanged": true,
+    "actual_four_turn_interruption_order_verified": true
+  },
+  "visual_checks": [
+    {
+      "case": "25-332",
+      "pdf_page": 5,
+      "checked": "Printed paragraph indents, uppercase wrapped sentences and continuation across page edges"
+    },
+    {
+      "case": "23-1122",
+      "pdf_page": 15,
+      "checked": "A word-ending hyphen followed by an interruption double dash"
+    },
+    {
+      "case": "25-365",
+      "pdf_page": 90,
+      "checked": "The printed Well -- - punctuation"
+    },
+    {
+      "case": "24A884",
+      "pdf_page": 19,
+      "checked": "A single trailing hyphen omitted by Adobe"
+    },
+    {
+      "case": "24-43",
+      "pdf_page": 25,
+      "checked": "Printed order of four Sotomayor/Kavanaugh interjections"
+    }
+  ]
+}

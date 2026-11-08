@@ -6,6 +6,10 @@ I do this because I enjoy listening to oral arguments, which feature both judges
 
 The videos are made by rendering the data using HTML/CSS, saving the frames to image files using puppeteer by screenshotting, and encoding the video using ffmpeg. The data is taken from the [Oyez](https://www.oyez.org/) project.
 
+A prototype that detects references to docket materials and shows timed PDF
+excerpts is described in [artifacts/README.md](artifacts/README.md). It includes
+a separate interactive player and local video exporter, using *Trump v. Cook*.
+
 Usage:
 Run
 ```bash
@@ -21,4 +25,4 @@ to build the video. Ensure that puppeteer is available. It will also attempt to 
 
 ## Manual transcript alignment
 
-Starting in the 2024 term, I've also been using the [gentle](https://github.com/lowerquality/gentle) forced aligner to align the audio to the transcript for some cases. This way I don't have to wait for the transcript to be available on Oyez. I do this for a few "hot-button" cases that I want to upload as soon as possible. The code I use for this is in the folder `self-aligned`. This is written specifically for my local machine (in particular using Acrobat Reader to get the plain text from the PDF transcript, which is done with AppleScript, and I'm using the mac binary of gentle since I couldn't get it to work any other way), so it may not be very useful for others, but you can take a look if you're interested. The entry point is `python scotus-tool.py` which leads the user through the different steps (downloading PDF and MP3 from supremecourt.gov, extracting plain text, running gentle, and post-processing the gentle output to get the final transcript format that I use for the videos which I then feed into `self-aligned-preprocess.py`).
+Starting in the 2024 term, I've also been using the [gentle](https://github.com/lowerquality/gentle) forced aligner to align the audio to the transcript for some cases. This way I don't have to wait for the transcript to be available on Oyez. I do this for a few "hot-button" cases that I want to upload as soon as possible. The code I use for this is in the folder `self-aligned`. PDF extraction now uses native word coordinates from Poppler, preserving punctuation and printed paragraph boundaries; it works on macOS and Linux. Adobe Reader with AppleScript remains an optional macOS fallback. The alignment step still uses the local macOS Gentle app. The entry point is `python scotus-tool.py` from that folder, which leads the user through downloading PDF and MP3 from supremecourt.gov, extracting text, running Gentle, and post-processing the alignment into the format used by `self-aligned-preprocess.py`. See [self-aligned/README.md](self-aligned/README.md) for installation and headless extraction commands.

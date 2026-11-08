@@ -1,0 +1,926 @@
+{
+  "evaluated_at": "2026-10-11",
+  "method": "Normalized ordered word-token differences relative to saved text, using difflib SequenceMatcher; not ground-truth extraction error or alignment accuracy. Case 63689 excluded from aggregate because the saved text and PDF page counts differ and its text retains line-number artifacts.",
+  "normalization": "NFKC, case folding, apostrophe normalization; whitespace and punctuation ignored; spoken body only from PROCEEDINGS to Whereupon.",
+  "geometry_filter": "Current fixtures: xMin >= 140 pt; 80 <= yMin <= 730 pt; group by y within 0.1 pt and sort each row by x. Fixed crop requires production validation/adaptation.",
+  "extraction_metrics": [
+    {
+      "reference_tokens": 15418,
+      "candidate_tokens": 15422,
+      "different_tokens": 2306,
+      "difference_percent": 14.9565,
+      "case": "23-1038",
+      "method": "poppler-default",
+      "extraction_seconds": 0.442,
+      "adobe_pages": 104,
+      "pdf_pages": 104
+    },
+    {
+      "reference_tokens": 15418,
+      "candidate_tokens": 15423,
+      "different_tokens": 10,
+      "difference_percent": 0.0649,
+      "case": "23-1038",
+      "method": "poppler-layout",
+      "extraction_seconds": 0.244,
+      "adobe_pages": 104,
+      "pdf_pages": 104
+    },
+    {
+      "reference_tokens": 15418,
+      "candidate_tokens": 15422,
+      "different_tokens": 11,
+      "difference_percent": 0.0713,
+      "case": "23-1038",
+      "method": "poppler-raw",
+      "extraction_seconds": 0.136,
+      "adobe_pages": 104,
+      "pdf_pages": 104
+    },
+    {
+      "reference_tokens": 15418,
+      "candidate_tokens": 15423,
+      "different_tokens": 10,
+      "difference_percent": 0.0649,
+      "case": "23-1038",
+      "method": "poppler-geometry",
+      "extraction_seconds": 0.454,
+      "adobe_pages": 104,
+      "pdf_pages": 104
+    },
+    {
+      "reference_tokens": 23863,
+      "candidate_tokens": 23862,
+      "different_tokens": 3704,
+      "difference_percent": 15.5219,
+      "case": "23-1122",
+      "method": "poppler-default",
+      "extraction_seconds": 0.382,
+      "adobe_pages": 163,
+      "pdf_pages": 163
+    },
+    {
+      "reference_tokens": 23863,
+      "candidate_tokens": 23863,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "23-1122",
+      "method": "poppler-layout",
+      "extraction_seconds": 0.277,
+      "adobe_pages": 163,
+      "pdf_pages": 163
+    },
+    {
+      "reference_tokens": 23863,
+      "candidate_tokens": 23862,
+      "different_tokens": 1,
+      "difference_percent": 0.0042,
+      "case": "23-1122",
+      "method": "poppler-raw",
+      "extraction_seconds": 0.163,
+      "adobe_pages": 163,
+      "pdf_pages": 163
+    },
+    {
+      "reference_tokens": 23863,
+      "candidate_tokens": 23863,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "23-1122",
+      "method": "poppler-geometry",
+      "extraction_seconds": 0.655,
+      "adobe_pages": 163,
+      "pdf_pages": 163
+    },
+    {
+      "reference_tokens": 25554,
+      "candidate_tokens": 25546,
+      "different_tokens": 3648,
+      "difference_percent": 14.2757,
+      "case": "24-109",
+      "method": "poppler-default",
+      "extraction_seconds": 0.247,
+      "adobe_pages": 176,
+      "pdf_pages": 176
+    },
+    {
+      "reference_tokens": 25554,
+      "candidate_tokens": 25554,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "24-109",
+      "method": "poppler-layout",
+      "extraction_seconds": 0.358,
+      "adobe_pages": 176,
+      "pdf_pages": 176
+    },
+    {
+      "reference_tokens": 25554,
+      "candidate_tokens": 25546,
+      "different_tokens": 8,
+      "difference_percent": 0.0313,
+      "case": "24-109",
+      "method": "poppler-raw",
+      "extraction_seconds": 0.212,
+      "adobe_pages": 176,
+      "pdf_pages": 176
+    },
+    {
+      "reference_tokens": 25554,
+      "candidate_tokens": 25554,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "24-109",
+      "method": "poppler-geometry",
+      "extraction_seconds": 1.052,
+      "adobe_pages": 176,
+      "pdf_pages": 176
+    },
+    {
+      "reference_tokens": 21622,
+      "candidate_tokens": 21618,
+      "different_tokens": 3251,
+      "difference_percent": 15.0356,
+      "case": "24-38",
+      "method": "poppler-default",
+      "extraction_seconds": 0.617,
+      "adobe_pages": 148,
+      "pdf_pages": 148
+    },
+    {
+      "reference_tokens": 21622,
+      "candidate_tokens": 21623,
+      "different_tokens": 2,
+      "difference_percent": 0.0092,
+      "case": "24-38",
+      "method": "poppler-layout",
+      "extraction_seconds": 0.198,
+      "adobe_pages": 148,
+      "pdf_pages": 148
+    },
+    {
+      "reference_tokens": 21622,
+      "candidate_tokens": 21618,
+      "different_tokens": 7,
+      "difference_percent": 0.0324,
+      "case": "24-38",
+      "method": "poppler-raw",
+      "extraction_seconds": 0.138,
+      "adobe_pages": 148,
+      "pdf_pages": 148
+    },
+    {
+      "reference_tokens": 21622,
+      "candidate_tokens": 21623,
+      "different_tokens": 2,
+      "difference_percent": 0.0092,
+      "case": "24-38",
+      "method": "poppler-geometry",
+      "extraction_seconds": 0.541,
+      "adobe_pages": 148,
+      "pdf_pages": 148
+    },
+    {
+      "reference_tokens": 15984,
+      "candidate_tokens": 15984,
+      "different_tokens": 2457,
+      "difference_percent": 15.3716,
+      "case": "24-43",
+      "method": "poppler-default",
+      "extraction_seconds": 0.205,
+      "adobe_pages": 115,
+      "pdf_pages": 115
+    },
+    {
+      "reference_tokens": 15984,
+      "candidate_tokens": 15984,
+      "different_tokens": 14,
+      "difference_percent": 0.0876,
+      "case": "24-43",
+      "method": "poppler-layout",
+      "extraction_seconds": 0.18,
+      "adobe_pages": 115,
+      "pdf_pages": 115
+    },
+    {
+      "reference_tokens": 15984,
+      "candidate_tokens": 15984,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "24-43",
+      "method": "poppler-raw",
+      "extraction_seconds": 0.286,
+      "adobe_pages": 115,
+      "pdf_pages": 115
+    },
+    {
+      "reference_tokens": 15984,
+      "candidate_tokens": 15984,
+      "different_tokens": 14,
+      "difference_percent": 0.0876,
+      "case": "24-43",
+      "method": "poppler-geometry",
+      "extraction_seconds": 0.794,
+      "adobe_pages": 115,
+      "pdf_pages": 115
+    },
+    {
+      "reference_tokens": 15260,
+      "candidate_tokens": 15262,
+      "different_tokens": 1963,
+      "difference_percent": 12.8637,
+      "case": "24-539",
+      "method": "poppler-default",
+      "extraction_seconds": 0.244,
+      "adobe_pages": 109,
+      "pdf_pages": 109
+    },
+    {
+      "reference_tokens": 15260,
+      "candidate_tokens": 15263,
+      "different_tokens": 6,
+      "difference_percent": 0.0393,
+      "case": "24-539",
+      "method": "poppler-layout",
+      "extraction_seconds": 0.221,
+      "adobe_pages": 109,
+      "pdf_pages": 109
+    },
+    {
+      "reference_tokens": 15260,
+      "candidate_tokens": 15262,
+      "different_tokens": 7,
+      "difference_percent": 0.0459,
+      "case": "24-539",
+      "method": "poppler-raw",
+      "extraction_seconds": 0.115,
+      "adobe_pages": 109,
+      "pdf_pages": 109
+    },
+    {
+      "reference_tokens": 15260,
+      "candidate_tokens": 15263,
+      "different_tokens": 6,
+      "difference_percent": 0.0393,
+      "case": "24-539",
+      "method": "poppler-geometry",
+      "extraction_seconds": 0.603,
+      "adobe_pages": 109,
+      "pdf_pages": 109
+    },
+    {
+      "reference_tokens": 28275,
+      "candidate_tokens": 28274,
+      "different_tokens": 4497,
+      "difference_percent": 15.9045,
+      "case": "24-656",
+      "method": "poppler-default",
+      "extraction_seconds": 0.48,
+      "adobe_pages": 191,
+      "pdf_pages": 191
+    },
+    {
+      "reference_tokens": 28275,
+      "candidate_tokens": 28276,
+      "different_tokens": 2,
+      "difference_percent": 0.0071,
+      "case": "24-656",
+      "method": "poppler-layout",
+      "extraction_seconds": 0.438,
+      "adobe_pages": 191,
+      "pdf_pages": 191
+    },
+    {
+      "reference_tokens": 28275,
+      "candidate_tokens": 28274,
+      "different_tokens": 4,
+      "difference_percent": 0.0141,
+      "case": "24-656",
+      "method": "poppler-raw",
+      "extraction_seconds": 0.385,
+      "adobe_pages": 191,
+      "pdf_pages": 191
+    },
+    {
+      "reference_tokens": 28275,
+      "candidate_tokens": 28276,
+      "different_tokens": 2,
+      "difference_percent": 0.0071,
+      "case": "24-656",
+      "method": "poppler-geometry",
+      "extraction_seconds": 1.61,
+      "adobe_pages": 191,
+      "pdf_pages": 191
+    },
+    {
+      "reference_tokens": 15307,
+      "candidate_tokens": 15305,
+      "different_tokens": 1869,
+      "difference_percent": 12.2101,
+      "case": "24-813",
+      "method": "poppler-default",
+      "extraction_seconds": 0.309,
+      "adobe_pages": 104,
+      "pdf_pages": 104
+    },
+    {
+      "reference_tokens": 15307,
+      "candidate_tokens": 15307,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "24-813",
+      "method": "poppler-layout",
+      "extraction_seconds": 0.378,
+      "adobe_pages": 104,
+      "pdf_pages": 104
+    },
+    {
+      "reference_tokens": 15307,
+      "candidate_tokens": 15305,
+      "different_tokens": 2,
+      "difference_percent": 0.0131,
+      "case": "24-813",
+      "method": "poppler-raw",
+      "extraction_seconds": 0.152,
+      "adobe_pages": 104,
+      "pdf_pages": 104
+    },
+    {
+      "reference_tokens": 15307,
+      "candidate_tokens": 15307,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "24-813",
+      "method": "poppler-geometry",
+      "extraction_seconds": 0.802,
+      "adobe_pages": 104,
+      "pdf_pages": 104
+    },
+    {
+      "reference_tokens": 26291,
+      "candidate_tokens": 26286,
+      "different_tokens": 3280,
+      "difference_percent": 12.4758,
+      "case": "24A884",
+      "method": "poppler-default",
+      "extraction_seconds": 0.47,
+      "adobe_pages": 177,
+      "pdf_pages": 177
+    },
+    {
+      "reference_tokens": 26291,
+      "candidate_tokens": 26291,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "24A884",
+      "method": "poppler-layout",
+      "extraction_seconds": 0.449,
+      "adobe_pages": 177,
+      "pdf_pages": 177
+    },
+    {
+      "reference_tokens": 26291,
+      "candidate_tokens": 26287,
+      "different_tokens": 4,
+      "difference_percent": 0.0152,
+      "case": "24A884",
+      "method": "poppler-raw",
+      "extraction_seconds": 0.372,
+      "adobe_pages": 177,
+      "pdf_pages": 177
+    },
+    {
+      "reference_tokens": 26291,
+      "candidate_tokens": 26291,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "24A884",
+      "method": "poppler-geometry",
+      "extraction_seconds": 2.268,
+      "adobe_pages": 177,
+      "pdf_pages": 177
+    },
+    {
+      "reference_tokens": 27187,
+      "candidate_tokens": 27186,
+      "different_tokens": 3457,
+      "difference_percent": 12.7156,
+      "case": "25-332",
+      "method": "poppler-default",
+      "extraction_seconds": 0.473,
+      "adobe_pages": 192,
+      "pdf_pages": 192
+    },
+    {
+      "reference_tokens": 27187,
+      "candidate_tokens": 27188,
+      "different_tokens": 2,
+      "difference_percent": 0.0074,
+      "case": "25-332",
+      "method": "poppler-layout",
+      "extraction_seconds": 0.441,
+      "adobe_pages": 192,
+      "pdf_pages": 192
+    },
+    {
+      "reference_tokens": 27187,
+      "candidate_tokens": 27186,
+      "different_tokens": 4,
+      "difference_percent": 0.0147,
+      "case": "25-332",
+      "method": "poppler-raw",
+      "extraction_seconds": 0.364,
+      "adobe_pages": 192,
+      "pdf_pages": 192
+    },
+    {
+      "reference_tokens": 27187,
+      "candidate_tokens": 27188,
+      "different_tokens": 2,
+      "difference_percent": 0.0074,
+      "case": "25-332",
+      "method": "poppler-geometry",
+      "extraction_seconds": 1.335,
+      "adobe_pages": 192,
+      "pdf_pages": 192
+    },
+    {
+      "reference_tokens": 22820,
+      "candidate_tokens": 22819,
+      "different_tokens": 3340,
+      "difference_percent": 14.6363,
+      "case": "25-365",
+      "method": "poppler-default",
+      "extraction_seconds": 0.392,
+      "adobe_pages": 161,
+      "pdf_pages": 161
+    },
+    {
+      "reference_tokens": 22820,
+      "candidate_tokens": 22820,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "25-365",
+      "method": "poppler-layout",
+      "extraction_seconds": 0.451,
+      "adobe_pages": 161,
+      "pdf_pages": 161
+    },
+    {
+      "reference_tokens": 22820,
+      "candidate_tokens": 22819,
+      "different_tokens": 1,
+      "difference_percent": 0.0044,
+      "case": "25-365",
+      "method": "poppler-raw",
+      "extraction_seconds": 0.414,
+      "adobe_pages": 161,
+      "pdf_pages": 161
+    },
+    {
+      "reference_tokens": 22820,
+      "candidate_tokens": 22820,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "25-365",
+      "method": "poppler-geometry",
+      "extraction_seconds": 1.241,
+      "adobe_pages": 161,
+      "pdf_pages": 161
+    },
+    {
+      "reference_tokens": 22561,
+      "candidate_tokens": 22561,
+      "different_tokens": 2956,
+      "difference_percent": 13.1023,
+      "case": "25A312",
+      "method": "poppler-default",
+      "extraction_seconds": 0.416,
+      "adobe_pages": 151,
+      "pdf_pages": 151
+    },
+    {
+      "reference_tokens": 22561,
+      "candidate_tokens": 22561,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "25A312",
+      "method": "poppler-layout",
+      "extraction_seconds": 0.443,
+      "adobe_pages": 151,
+      "pdf_pages": 151
+    },
+    {
+      "reference_tokens": 22561,
+      "candidate_tokens": 22561,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "25A312",
+      "method": "poppler-raw",
+      "extraction_seconds": 0.212,
+      "adobe_pages": 151,
+      "pdf_pages": 151
+    },
+    {
+      "reference_tokens": 22561,
+      "candidate_tokens": 22561,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "25A312",
+      "method": "poppler-geometry",
+      "extraction_seconds": 1.689,
+      "adobe_pages": 151,
+      "pdf_pages": 151
+    },
+    {
+      "reference_tokens": 29286,
+      "candidate_tokens": 25528,
+      "different_tokens": 7298,
+      "difference_percent": 24.9198,
+      "case": "63689",
+      "method": "poppler-default",
+      "extraction_seconds": 0.443,
+      "adobe_pages": 155,
+      "pdf_pages": 169
+    },
+    {
+      "reference_tokens": 29286,
+      "candidate_tokens": 25531,
+      "different_tokens": 3755,
+      "difference_percent": 12.8218,
+      "case": "63689",
+      "method": "poppler-layout",
+      "extraction_seconds": 0.542,
+      "adobe_pages": 155,
+      "pdf_pages": 169
+    },
+    {
+      "reference_tokens": 29286,
+      "candidate_tokens": 25531,
+      "different_tokens": 3755,
+      "difference_percent": 12.8218,
+      "case": "63689",
+      "method": "poppler-raw",
+      "extraction_seconds": 0.257,
+      "adobe_pages": 155,
+      "pdf_pages": 169
+    },
+    {
+      "reference_tokens": 29286,
+      "candidate_tokens": 25531,
+      "different_tokens": 3755,
+      "difference_percent": 12.8218,
+      "case": "63689",
+      "method": "poppler-geometry",
+      "extraction_seconds": 0.876,
+      "adobe_pages": 155,
+      "pdf_pages": 169
+    },
+    {
+      "reference_tokens": 15418,
+      "candidate_tokens": 15422,
+      "different_tokens": 11,
+      "difference_percent": 0.0713,
+      "case": "23-1038",
+      "method": "pypdf",
+      "extraction_seconds": 3.782,
+      "adobe_pages": 104,
+      "pdf_pages": 104
+    },
+    {
+      "reference_tokens": 15418,
+      "candidate_tokens": 15422,
+      "different_tokens": 17,
+      "difference_percent": 0.1103,
+      "case": "23-1038",
+      "method": "pdfminer",
+      "extraction_seconds": 8.335,
+      "adobe_pages": 104,
+      "pdf_pages": 104
+    },
+    {
+      "reference_tokens": 15418,
+      "candidate_tokens": 15423,
+      "different_tokens": 10,
+      "difference_percent": 0.0649,
+      "case": "23-1038",
+      "method": "pdfplumber-crop",
+      "extraction_seconds": 11.055,
+      "adobe_pages": 104,
+      "pdf_pages": 104
+    },
+    {
+      "reference_tokens": 15418,
+      "candidate_tokens": 15423,
+      "different_tokens": 10,
+      "difference_percent": 0.0649,
+      "case": "23-1038",
+      "method": "pdfium-crop",
+      "extraction_seconds": 0.938,
+      "adobe_pages": 104,
+      "pdf_pages": 104
+    },
+    {
+      "reference_tokens": 25554,
+      "candidate_tokens": 25548,
+      "different_tokens": 12,
+      "difference_percent": 0.047,
+      "case": "24-109",
+      "method": "pypdf",
+      "extraction_seconds": 4.318,
+      "adobe_pages": 176,
+      "pdf_pages": 176
+    },
+    {
+      "reference_tokens": 25554,
+      "candidate_tokens": 25546,
+      "different_tokens": 14,
+      "difference_percent": 0.0548,
+      "case": "24-109",
+      "method": "pdfminer",
+      "extraction_seconds": 17.211,
+      "adobe_pages": 176,
+      "pdf_pages": 176
+    },
+    {
+      "reference_tokens": 25554,
+      "candidate_tokens": 25554,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "24-109",
+      "method": "pdfplumber-crop",
+      "extraction_seconds": 26.693,
+      "adobe_pages": 176,
+      "pdf_pages": 176
+    },
+    {
+      "reference_tokens": 25554,
+      "candidate_tokens": 25554,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "24-109",
+      "method": "pdfium-crop",
+      "extraction_seconds": 0.445,
+      "adobe_pages": 176,
+      "pdf_pages": 176
+    },
+    {
+      "reference_tokens": 27187,
+      "candidate_tokens": 27186,
+      "different_tokens": 4,
+      "difference_percent": 0.0147,
+      "case": "25-332",
+      "method": "pypdf",
+      "extraction_seconds": 8.0,
+      "adobe_pages": 192,
+      "pdf_pages": 192
+    },
+    {
+      "reference_tokens": 27187,
+      "candidate_tokens": 27186,
+      "different_tokens": 16,
+      "difference_percent": 0.0589,
+      "case": "25-332",
+      "method": "pdfminer",
+      "extraction_seconds": 12.692,
+      "adobe_pages": 192,
+      "pdf_pages": 192
+    },
+    {
+      "reference_tokens": 27187,
+      "candidate_tokens": 27188,
+      "different_tokens": 2,
+      "difference_percent": 0.0074,
+      "case": "25-332",
+      "method": "pdfplumber-crop",
+      "extraction_seconds": 25.932,
+      "adobe_pages": 192,
+      "pdf_pages": 192
+    },
+    {
+      "reference_tokens": 27187,
+      "candidate_tokens": 27188,
+      "different_tokens": 2,
+      "difference_percent": 0.0074,
+      "case": "25-332",
+      "method": "pdfium-crop",
+      "extraction_seconds": 0.475,
+      "adobe_pages": 192,
+      "pdf_pages": 192
+    },
+    {
+      "reference_tokens": 22820,
+      "candidate_tokens": 22819,
+      "different_tokens": 1,
+      "difference_percent": 0.0044,
+      "case": "25-365",
+      "method": "pypdf",
+      "extraction_seconds": 5.652,
+      "adobe_pages": 161,
+      "pdf_pages": 161
+    },
+    {
+      "reference_tokens": 22820,
+      "candidate_tokens": 22819,
+      "different_tokens": 7,
+      "difference_percent": 0.0307,
+      "case": "25-365",
+      "method": "pdfminer",
+      "extraction_seconds": 9.122,
+      "adobe_pages": 161,
+      "pdf_pages": 161
+    },
+    {
+      "reference_tokens": 22820,
+      "candidate_tokens": 22820,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "25-365",
+      "method": "pdfplumber-crop",
+      "extraction_seconds": 21.674,
+      "adobe_pages": 161,
+      "pdf_pages": 161
+    },
+    {
+      "reference_tokens": 22820,
+      "candidate_tokens": 22820,
+      "different_tokens": 0,
+      "difference_percent": 0.0,
+      "case": "25-365",
+      "method": "pdfium-crop",
+      "extraction_seconds": 0.425,
+      "adobe_pages": 161,
+      "pdf_pages": 161
+    }
+  ],
+  "existing_parser_structure": [
+    {
+      "case": "23-1038",
+      "adobe": {
+        "turns": 372,
+        "paragraphs": 573,
+        "warnings": 0
+      },
+      "geometry": {
+        "turns": 372,
+        "paragraphs": 572,
+        "warnings": 0
+      },
+      "same_speaker_sequence": true
+    },
+    {
+      "case": "23-1122",
+      "adobe": {
+        "turns": 633,
+        "paragraphs": 931,
+        "warnings": 0
+      },
+      "geometry": {
+        "turns": 633,
+        "paragraphs": 930,
+        "warnings": 0
+      },
+      "same_speaker_sequence": true
+    },
+    {
+      "case": "24-109",
+      "adobe": {
+        "turns": 612,
+        "paragraphs": 977,
+        "warnings": 0
+      },
+      "geometry": {
+        "turns": 612,
+        "paragraphs": 976,
+        "warnings": 0
+      },
+      "same_speaker_sequence": true
+    },
+    {
+      "case": "24-38",
+      "adobe": {
+        "turns": 480,
+        "paragraphs": 769,
+        "warnings": 0
+      },
+      "geometry": {
+        "turns": 480,
+        "paragraphs": 769,
+        "warnings": 0
+      },
+      "same_speaker_sequence": true
+    },
+    {
+      "case": "24-43",
+      "adobe": {
+        "turns": 435,
+        "paragraphs": 652,
+        "warnings": 0
+      },
+      "geometry": {
+        "turns": 437,
+        "paragraphs": 653,
+        "warnings": 0
+      },
+      "same_speaker_sequence": false
+    },
+    {
+      "case": "24-539",
+      "adobe": {
+        "turns": 358,
+        "paragraphs": 581,
+        "warnings": 0
+      },
+      "geometry": {
+        "turns": 358,
+        "paragraphs": 581,
+        "warnings": 0
+      },
+      "same_speaker_sequence": true
+    },
+    {
+      "case": "24-656",
+      "adobe": {
+        "turns": 663,
+        "paragraphs": 1062,
+        "warnings": 0
+      },
+      "geometry": {
+        "turns": 663,
+        "paragraphs": 1062,
+        "warnings": 0
+      },
+      "same_speaker_sequence": true
+    },
+    {
+      "case": "24-813",
+      "adobe": {
+        "turns": 215,
+        "paragraphs": 447,
+        "warnings": 0
+      },
+      "geometry": {
+        "turns": 215,
+        "paragraphs": 447,
+        "warnings": 0
+      },
+      "same_speaker_sequence": true
+    },
+    {
+      "case": "24A884",
+      "adobe": {
+        "turns": 572,
+        "paragraphs": 919,
+        "warnings": 0
+      },
+      "geometry": {
+        "turns": 572,
+        "paragraphs": 919,
+        "warnings": 0
+      },
+      "same_speaker_sequence": true
+    },
+    {
+      "case": "25-332",
+      "adobe": {
+        "turns": 571,
+        "paragraphs": 874,
+        "warnings": 0
+      },
+      "geometry": {
+        "turns": 571,
+        "paragraphs": 874,
+        "warnings": 0
+      },
+      "same_speaker_sequence": true
+    },
+    {
+      "case": "25-365",
+      "adobe": {
+        "turns": 409,
+        "paragraphs": 700,
+        "warnings": 0
+      },
+      "geometry": {
+        "turns": 409,
+        "paragraphs": 700,
+        "warnings": 0
+      },
+      "same_speaker_sequence": true
+    },
+    {
+      "case": "25A312",
+      "adobe": {
+        "turns": 444,
+        "paragraphs": 753,
+        "warnings": 0
+      },
+      "geometry": {
+        "turns": 444,
+        "paragraphs": 753,
+        "warnings": 0
+      },
+      "same_speaker_sequence": true
+    }
+  ]
+}

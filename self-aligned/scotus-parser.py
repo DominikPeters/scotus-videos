@@ -1,4 +1,7 @@
 import sys
+import argparse
+import hashlib
+from pathlib import Path
 import re
 import json
 
@@ -105,7 +108,7 @@ def fix_split_speaker_names(text):
 
     return '\n'.join(fixed_lines)
 
-def parse_scotus_transcript(text):
+def _parse_legacy_transcript(text):
     # Fix speaker names that got split across lines in PDF export
     text = fix_split_speaker_names(text)
 
@@ -216,6 +219,105 @@ def parse_scotus_transcript(text):
 
     return turns
 
+def _parse_layout_transcript(text):
+    """Use explicit PDF paragraph boundaries and keep headings out of speech."""
+    # Fix speaker names that got split across lines in PDF export
+    text = fix_split_speaker_names(text.replace('\r\n', '\n').replace('\r', '\n'))
+    # Keep blanks in layout mode; page boundaries are not paragraph boundaries.
+    lines = text.split('\n')
+    proceedings_pattern = re.compile(r'^P\s*R\s*O\s*C\s*E\s*E\s*D\s*I\s*N\s*G\s*S$')
+    for i, line in enumerate(lines):
+        if proceedings_pattern.fullmatch(line.strip()):
+            lines = lines[i+1:]
+            break
+    else:
+        raise ValueError("PROCEEDINGS heading not found in layout transcript.")
+
+    turns = []
+    current_section = "BEGINNING"
+    current_speaker = None
+    current_paragraphs = []
+    current_paragraph = []
+    heading_lines = []
+
+    def save_paragraph():
+        nonlocal current_paragraph
+        if current_paragraph:
+            current_paragraphs.append(' '.join(current_paragraph))
+        current_paragraph = []
+
+    def save_current_turn():
+        nonlocal current_paragraphs
+        save_paragraph()
+        if current_speaker and current_paragraphs:
+            speaker_name = current_speaker.strip(':')
+            turns.append({
+                'speaker': justices.get(speaker_name, speaker_name),
+                'section': current_section,
+                'paragraphs': current_paragraphs
+            })
+        current_paragraphs = []
+
+    speaker_pattern = re.compile(
+        r"^((?:CHIEF JUSTICE|JUSTICE|MR\.|MS\.|THE|GENERAL) [A-Z\u00C0-\u017F][A-Z\u00C0-\u017F'’ .-]*:)"
+    )
+
+    for raw_line in lines:
+        if '\f' in raw_line and not raw_line.replace('\f', '').strip():
+            continue
+        line = clean_line(raw_line.replace('\f', ' '))
+        if not line:
+            if not heading_lines:
+                save_paragraph()
+            continue
+        if ('Heritage Reporting Corporation' in line
+                or 'Subject to Final Review' in line):
+            continue
+
+        conclusion = re.search(r'\(Whereupon\b', line, re.IGNORECASE)
+        if conclusion:
+            if current_speaker and line[:conclusion.start()].strip():
+                current_paragraph.append(line[:conclusion.start()].strip())
+            break
+
+        if line.startswith(('ORAL ARGUMENT OF', 'REBUTTAL ARGUMENT OF')):
+            heading_lines = [line]
+            continue
+        speaker_match = speaker_pattern.match(line)
+        if heading_lines:
+            if not speaker_match:
+                heading_lines.append(line)
+                continue
+            next_section = ' '.join(heading_lines)
+            heading_lines = []
+            # The opening introduction belongs to the first argument section.
+            if current_section == "BEGINNING":
+                current_section = next_section
+            save_current_turn()
+            current_speaker = None
+            current_section = next_section
+
+        if speaker_match:
+            save_current_turn()
+            current_speaker = speaker_match.group(1)
+            line = line[speaker_match.end():].strip()
+        if not current_speaker or not line:
+            continue
+        if line:
+            current_paragraph.append(line)
+
+    save_current_turn()
+    if not turns:
+        raise ValueError("No speaker turns found in transcript.")
+    return turns
+
+def parse_scotus_transcript(text, paragraph_mode="legacy"):
+    if paragraph_mode == "legacy":
+        return _parse_legacy_transcript(text)
+    if paragraph_mode == "layout":
+        return _parse_layout_transcript(text)
+    raise ValueError(f"Unknown paragraph mode: {paragraph_mode}")
+
 def format_transcript(turns):
     return json.dumps(turns, indent=2)
 
@@ -251,16 +353,37 @@ def validate_turns(turns):
 
     return warnings
 
-# Example usage
-if __name__ == "__main__":
-    case = sys.argv[1]
+def paragraph_mode_for_file(txt_path, requested="auto"):
+    if requested != "auto":
+        return requested
+    metadata_path = txt_path.with_suffix('.extraction.json')
+    if not metadata_path.exists():
+        return "legacy"
+    metadata = json.loads(metadata_path.read_text(encoding='utf-8'))
+    if metadata.get('method') != 'poppler-coordinates':
+        return "legacy"
+    digest = hashlib.sha256(txt_path.read_bytes()).hexdigest()
+    if digest != metadata.get('text_sha256'):
+        raise ValueError("TXT differs from its extraction metadata. Re-extract it or explicitly select --paragraph-mode layout/legacy for edited text.")
+    return "layout"
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description="Parse a Supreme Court transcript into turns and alignment text.")
+    parser.add_argument('case', help="Case directory (containing CASE.txt).")
+    parser.add_argument('--paragraph-mode', choices=['auto', 'legacy', 'layout'], default='auto')
+    args = parser.parse_args(argv)
+    case_dir = Path(args.case)
+    case = case_dir.name
+    txt_path = case_dir / f'{case}.txt'
 
     # Read input text
-    with open(f"{case}/{case}.txt", 'r') as f:
-        text = f.read()
-
-    # Parse transcript
-    turns = parse_scotus_transcript(text)
+    try:
+        mode = paragraph_mode_for_file(txt_path, args.paragraph_mode)
+        text = txt_path.read_text(encoding='utf-8')
+        turns = parse_scotus_transcript(text, paragraph_mode=mode)
+    except (OSError, ValueError) as exc:
+        parser.exit(1, f"Parsing failed: {exc}\n")
 
     # Validate and warn about potential parsing issues
     warnings = validate_turns(turns)
@@ -271,9 +394,13 @@ if __name__ == "__main__":
     for turn in turns:
         for paragraph in turn['paragraphs']:
             flat_transcript.append(paragraph)
-    with open(f"{case}/{case}.flat.txt", 'w') as f:
+    with open(case_dir / f"{case}.flat.txt", 'w', encoding='utf-8') as f:
         f.write('\n'.join(flat_transcript))
     
     # Output formatted JSON
-    with open(f"{case}/{case}.json", 'w') as f:
+    with open(case_dir / f"{case}.json", 'w', encoding='utf-8') as f:
         f.write(format_transcript(turns))
+
+
+if __name__ == "__main__":
+    main()
