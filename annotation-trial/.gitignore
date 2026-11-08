@@ -1,0 +1,12 @@
+# Reproducible renders, copied bundles and downloaded evidence caches.
+/*/cloud/
+/*/codex/
+/*/preview/
+/*/renders/
+/*/sources/*
+!/*/sources/urls.json
+/*/*.jpg
+/*/*.png
+/vertical-preview/
+/subscribe-mockups/*.png
+/subscribe-mockups/*.mp4

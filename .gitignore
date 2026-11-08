@@ -28,3 +28,7 @@ __pycache__/
 /artifacts/output/
 /mockup-quotes/clips/
 /videos-vertical/*.mp4
+
+# Local editor projects and generated preview stills; retain their source recipes.
+/videos-vertical/*.llc
+/mockup-quotes/stills/

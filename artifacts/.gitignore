@@ -1,0 +1,17 @@
+output/
+__pycache__/
+
+# Download caches, copied render bundles, and generated screenshots remain local.
+/vertical-cloud-test/
+/scotusstats-website-fixes/
+/statistics-audit/*/source-xml/
+/statistics-audit/*/source-json/
+/statistics-audit/*/*.gz
+/statistics-audit/*/canonical.json
+/statistics-audit/*/repaired-preview.json
+/statistics-audit/*/*.png
+/subscribe-reminder-*/*.png
+/chapter-artwork-mockup/png/
+/chapter-artwork-mockup/sheet.jpg
+/clip-research/*.json
+/advocate-research-*/cloud-review.jpg
