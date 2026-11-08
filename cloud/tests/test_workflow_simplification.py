@@ -8,7 +8,7 @@ from scotus_cloud.repair_bootstrap import apply_release
 from scotus_cloud.recovery_control import current_release
 from scotus_cloud.recovery_worker import saved_candidate
 from scotus_cloud.attempts import launch,reconcile
-from scotus_cloud.maintenance import current_sources,refresh
+from scotus_cloud.maintenance import current_sources,refresh,audio_digest,maintain
 from scotus_cloud.card_import import create,resolve_case
 
 class ReleaseTests(unittest.TestCase):
@@ -56,6 +56,30 @@ class LaunchTests(unittest.TestCase):
   reconcile(dashboard,google,{'region':'test'},self.snapshot());dashboard.call.assert_not_called()
 
 class SourceRefreshTests(unittest.TestCase):
+ def test_same_url_replaced_audio_restarts_preparation_but_identical_bytes_do_not(self):
+  job={'id':'case','pdf_url':'pdf','audio_url':'audio','stages':{'prepare':{'result':{'transcript_uri':'gs://owned/prepared.json'}}}}
+  dashboard=Mock();dashboard.call.side_effect=lambda op,**kw:job if op=='source_refresh_claim' else kw
+  google=Mock();google.storage_json.return_value={'inputs':{'pdf_sha256':'same'},'audio':{'sha256':'original-audio'}}
+  with patch('scotus_cloud.maintenance.current_sources',return_value={'pdf_url':'pdf','audio_url':'audio'}),patch('scotus_cloud.maintenance.pdf_digest',return_value='same'),patch('scotus_cloud.maintenance.audio_digest',return_value='replacement-audio') as digest:
+   self.assertTrue(refresh(dashboard,google,{},'case',manual=True)['changed'])
+   digest.return_value='original-audio'
+   self.assertFalse(refresh(dashboard,google,{},'case',manual=True)['changed'])
+   digest.side_effect=TimeoutError()
+   self.assertEqual(refresh(dashboard,google,{},'case',manual=True)['status'],'waiting_for_source')
+ def test_audio_digest_streams_official_bytes_and_rejects_redirects_and_empty_audio(self):
+  import hashlib,io
+  url='https://www.supremecourt.gov/media/audio/mp3files/case.mp3'
+  class Response(io.BytesIO):pass
+  response=Response(b'ID3audio');response.url=url
+  with patch('scotus_cloud.maintenance.urlopen',return_value=response):self.assertEqual(audio_digest(url),hashlib.sha256(b'ID3audio').hexdigest())
+  for final,data in [('https://untrusted.example/file',b'audio'),(url,b'')]:
+   response=Response(data);response.url=final
+   with patch('scotus_cloud.maintenance.urlopen',return_value=response):
+    with self.assertRaises(ValueError):audio_digest(url)
+ def test_normal_maintenance_does_not_download_audio_for_healthy_cases(self):
+  with patch('scotus_cloud.maintenance.audio_digest') as digest:
+   maintain(Mock(),Mock(),{}, {'jobs':{'case':{'id':'case','status':'ready','stages':{}}}})
+  digest.assert_not_called()
  def test_transcript_index_replacement_wins_over_stale_audio_detail_link(self):
   job={'docket':'25-352','argument_date':'2026-11-02'}
   pages={

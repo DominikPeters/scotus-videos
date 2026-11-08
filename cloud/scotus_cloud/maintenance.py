@@ -1,5 +1,5 @@
 """Routine source refreshes, before spending a code-repair turn."""
-import hashlib,re
+import hashlib,re,time
 from urllib.parse import urljoin,urlsplit
 from urllib.request import Request,urlopen
 from .discovery import recordings,official,Rows
@@ -31,6 +31,23 @@ def pdf_digest(url):
  if len(data)>4194304 or not data.startswith(b'%PDF'):raise ValueError('Unexpected transcript PDF')
  return hashlib.sha256(data).hexdigest()
 
+def audio_digest(url):
+ # Only called for a claimed source refresh, never normal recording-index polling.
+ parsed=urlsplit(url)
+ if parsed.scheme!='https' or parsed.hostname not in ('supremecourt.gov','www.supremecourt.gov'):raise ValueError('Official Court source required')
+ digest=hashlib.sha256();size=0;started=time.monotonic()
+ with urlopen(Request(url,headers={'User-Agent':'Scotus source refresh'}),timeout=20) as response:
+  final=urlsplit(response.url)
+  if final.scheme!='https' or final.hostname not in ('supremecourt.gov','www.supremecourt.gov'):raise ValueError('Unexpected source redirect')
+  while True:
+   data=response.read(1048576)
+   if not data:break
+   size+=len(data)
+   if size>268435456 or time.monotonic()-started>90:raise ValueError('Official audio check exceeded its download limit')
+   digest.update(data)
+ if not size:raise ValueError('Empty official audio')
+ return digest.hexdigest()
+
 def refresh(dashboard,google,settings,job_id,manual=False,keep_recovery=None,lease=None):
  job=dashboard.call('source_refresh_claim',job=job_id,manual=manual)
  if not job:return {'status':'checked_recently'}
@@ -39,7 +56,9 @@ def refresh(dashboard,google,settings,job_id,manual=False,keep_recovery=None,lea
   record=current_sources(job);sha=pdf_digest(record['pdf_url'])
   prepared=job['stages']['prepare'].get('result',{});old=google.storage_json(prepared['transcript_uri'],max_bytes=2097152) if prepared.get('transcript_uri') else None
   expected=(old or {}).get('inputs',{}).get('pdf_sha256')
-  changed=(expected!=sha if expected else record['pdf_url']!=job['pdf_url']) or record['audio_url']!=job['audio_url']
+  expected_audio=(old or {}).get('audio',{}).get('sha256')
+  audio_changed=audio_digest(record['audio_url'])!=expected_audio if expected_audio else record['audio_url']!=job['audio_url']
+  changed=(expected!=sha if expected else record['pdf_url']!=job['pdf_url']) or audio_changed
   return dashboard.call('source_refresh_apply',job=job_id,expected_pdf=job['pdf_url'],expected_audio=job['audio_url'],expected_prepared_uri=prepared.get('transcript_uri'),pdf_url=record['pdf_url'],audio_url=record['audio_url'],pdf_sha256=sha,changed=changed,keep_recovery=keep_recovery,lease=lease)
  except Exception:
   dashboard.call('source_refresh_wait',job=job_id);return {'status':'waiting_for_source','message':'The official source check will retry automatically.'}
