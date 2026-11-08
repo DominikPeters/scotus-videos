@@ -1,3 +1,4 @@
+import {adaptRecording, sharedRecording, defaultCourt} from './player-data.js';
 import { VidstackPlayer, VidstackPlayerLayout } from 'https://cdn.vidstack.io/player';
 
 let justices = [];
@@ -7,7 +8,6 @@ let interactions_data;
 let sectionsObject;
 let announcements;
 let announcementMode = false;
-let mp3length;
 
 let audio = document.querySelector("#player");
 window.audio = audio;
@@ -30,7 +30,7 @@ let lastManualScroll = 0;
 const SCROLL_BUFFER_MS = 3000;
 
 // Add scroll event listener
-document.addEventListener('wheel', function(event) {
+document.addEventListener('wheel', function (event) {
     lastManualScroll = Date.now();
 }, true);
 
@@ -65,174 +65,382 @@ function binarySearch(times, target) {
     return Math.max(0, left - 1);
 }
 
-function setUpCase(caseNumber) {
-    Promise.all([
-        fetch(`http://localhost:8002/json/${caseNumber}.json`).then(response => response.json()),
-        fetch(`http://localhost:8002/json/${caseNumber}-audio.json`).then(response => response.json()),
-        fetch(`http://localhost:8002/json/${caseNumber}-interactions.json`).then(response => response.json())
-    ]).then(async (jsons) => {
-        case_data = jsons[0];
-        audio_data = jsons[1];
-        interactions_data = jsons[2];
-        sectionsObject = audio_data.transcript.sections;
-        let hasAnnouncements = interactions_data.announcements.length > 0;
-        if (hasAnnouncements) {
-            // for each announcement, load its json (filename: announcement["json"])
-            Promise.all(interactions_data.announcements.map(announcement => 
-                fetch(`http://localhost:8002/${announcement.json}`).then(response => response.json()))).then(
-                    (announcementsJsons) => { announcements = announcementsJsons; }
-                );
-        }
-        mp3length = parseInt(interactions_data["mp3_length"]);
-        // number all text blocks
-        let textBlockNumber = 0;
-        for (let section of sectionsObject) {
-            for (let turn of section.turns) {
-                for (let block of turn.text_blocks) {
-                    block.number = textBlockNumber;
-                    textBlockNumber++;
-                    textBlockStartTimes.push(block.start);
-                }
-            }
-        }
-        // number all interactions
-        let interactionNumber = 0;
-        for (let sectionNum in interactions_data.sections) {
-            let section = interactions_data.sections[sectionNum];
-            interactionNumber++; // virtual interaction for start of section
-            interactionStartTimes.push(section.sectionStartTime);
-            for (let interaction of section.interactions) {
-                interaction.number = interactionNumber;
-                interactionNumber++;
-                interactionStartTimes.push(interaction.startTime);
+async function fetchJSON(url) {
+    const response = await fetch(url);
+    if (!response.ok) {
+        throw new Error(`Failed to fetch ${url}: ${response.statusText}`);
+    }
+    return response.json();
+}
+
+async function getCaseData(case_metadata, alignedTranscript = null) {
+    // Extract advocate information
+    const advocates = {};
+    for (const adv of case_metadata.advocates) {
+        advocates[adv.advocate.name] = {
+            name: adv.advocate.name,
+            identifier: adv.advocate.identifier,
+            description: adv.advocate_description.replace('For ', 'for ').trim(),
+            last_name: adv.advocate.last_name
+        };
+    }
+    const all_advocates = new Set(Object.keys(advocates));
+
+    // Extract list of presiding justices
+    const justices = {};
+    for (const member of case_metadata.heard_by[0].members) {
+        justices[member.name] = member;
+    }
+
+    // Initialize processed object
+    const processed = { sections: {} };
+
+    // A shared Court alignment bypasses Oyez audio/transcript fetching.
+    let oral_argument_transcript = alignedTranscript;
+    if (!oral_argument_transcript) {
+        const oral_argument_url = case_metadata.oral_argument_audio[0].href;
+        oral_argument_transcript = await fetchJSON(oral_argument_url);
+    }
+
+    // Get MP3 URL
+    const mp3_url = oral_argument_transcript.media_file[0].href;
+
+    // Extract transcript sections
+    const sections = oral_argument_transcript.transcript.sections;
+
+    let prev_justice = null;
+    sections.forEach((section, section_counter) => {
+        const turns = section.turns;
+        const section_obj = {};
+        processed.sections[section_counter] = section_obj;
+        section_obj.sectionStartTime = section.start;
+
+        // Determine the headline (name of the first advocate or speaker if no advocate took a turn)
+        for (const turn of turns) {
+            const speaker_name = turn.speaker.name;
+            if (all_advocates.has(speaker_name)) {
+                const adv = advocates[speaker_name];
+                section_obj.advocateName = adv.name;
+                section_obj.advocateIdentifier = adv.identifier;
+                section_obj.advocateDescription = adv.description;
+                section_obj.advocateLastName = adv.last_name;
+                break;
             }
         }
 
-        // show title
-        document.getElementById('case-name').innerHTML = case_data.name;
-        document.getElementById('docket-number').innerHTML = "[" + case_data.docket_number + "]";
-        document.getElementById('subtitle').innerHTML = interactions_data.dates;
-        buildBench(case_data);
-        for (let i = 0; i < sectionsObject.length; i++) {
-            await setUpSection(i);
-        }
-        document.body.style.visibility = "visible";
+        const interactions = [];
+        section_obj.interactions = interactions;
 
-        // make chapter markers
-        const chapters = [];
-        for (let [sectionIndex, section] of sectionsObject.entries()) {
-            // figure out who is speaking
-            let speaker;
-            
-            // find first non-justice speaker
-            for (const turn of section.turns) {
-                console.log(justices, turn.speaker.identifier);
-                if (!justices.includes(turn.speaker.identifier)) {
-                    speaker = turn.speaker;
-                    break;
-                }
+        // List of justices who took turns
+        turns.forEach((turn, i) => {
+            const current_speaker = turn.speaker.name;
+
+            // Skip certain conditions based on Python logic
+            if (current_speaker === "John G. Roberts, Jr." && i === 0) return;
+
+            const text_blocks = turn.text_blocks;
+            if (text_blocks.length === 1) {
+                const wordCount = text_blocks[0].text.split(/\s+/).length;
+                if (wordCount <= 8) return;
+                if (current_speaker === "John G. Roberts, Jr." && wordCount <= 15 && i === turns.length - 1) return;
             }
 
-            if (!speaker) {
-                throw new Error(`No advocate found in section ${sectionIndex}`);
+            if (i === turns.length - 1) {
+                if (current_speaker === "John G. Roberts, Jr.") return;
             }
 
-            // Create chapter marker
-            if (sectionIndex === sectionsObject.length - 1 && speaker.name === chapters[0].title) {
-                chapters.push({
-                    text: `Rebuttal: ${speaker.name}`,
-                    startTime: section.turns[0].start
+            // Check if the current turn is Chief Justice and the next turn is also a justice
+            let is_moderation = current_speaker === "John G. Roberts, Jr.";
+            if (is_moderation && i < turns.length - 1 && justices.hasOwnProperty(turns[i + 1].speaker.name)) {
+                return;
+            }
+
+            if (justices.hasOwnProperty(current_speaker) && current_speaker !== prev_justice) {
+                interactions.push({
+                    justice: justices[current_speaker].identifier,
+                    justiceLastName: justices[current_speaker].last_name,
+                    start: i,
+                    startTime: turn.start
                 });
-            } else if (sectionIndex > 0) {
-                chapters.push({
-                    text: speaker.name,
-                    startTime: section.turns[0].start
-                });
-            } else {
-                chapters.push({
-                    text: speaker.name,
-                    startTime: 0  // YouTube requires first chapter to start at 0
-                });
+                prev_justice = current_speaker;
             }
-        }
-        // add end times for each chapter
-        for (let i = 0; i < chapters.length - 1; i++) {
-            chapters[i].endTime = chapters[i + 1].startTime;
-        }
-        chapters[chapters.length - 1].endTime = mp3length;
-        console.log(chapters);
+        });
+    });
 
-        const mp3Url = `http://localhost:8002/mp3/${caseNumber}.mp3`;
-        // fetch the mp3
-        fetch(mp3Url).then(response => response.blob()).then(async blob => {
-            let objectURL = URL.createObjectURL(blob);
-            let timeUpdateEventName = 'timeupdate';
-            try {
-                const player = await VidstackPlayer.create({
-                    target: '#player',
-                    title: case_data.name,
-                    src: { src: objectURL, type: 'audio/mp3' },
-                    layout: new VidstackPlayerLayout({
-                        download: mp3Url,
-                    }),
-                });
-                audio = player;
-                player.textTracks.add({
-                    type: 'json',
-                    label: 'Chapters',
-                    kind: 'chapters',
-                    language: 'en-US',
-                    default: true,
-                    content: { cues: chapters }
-                  });
-                timeUpdateEventName = 'time-update';
-            } catch (error) {
-                console.error(error);
-                audio.src = objectURL;
-            }
+    // Format metadata dates
+    let argued_time;
+    for (const date of case_metadata.timeline) {
+        if (date.event === "Argued") {
+            argued_time = date.dates[0];
+            break;
+        }
+    }
+    const argued_date = new Date(argued_time * 1000).toLocaleDateString('en-US', {
+        month: 'short', day: 'numeric', year: 'numeric'
+    });
 
-            player.addEventListener('mouseover', function () {
-                resetScrollBuffer();
+    let decided_date = null;
+    let is_decided = false;
+    for (const date of case_metadata.timeline) {
+        if (date.event === "Decided") {
+            decided_date = new Date(date.dates[0] * 1000).toLocaleDateString('en-US', {
+                month: 'short', day: 'numeric', year: 'numeric'
             });
-    
-            player.addEventListener(timeUpdateEventName, function () {
-                let index = binarySearch(textBlockStartTimes, audio.currentTime + 0.0001);
-                for (let textBlock of document.querySelectorAll('.current-text')) {
-                    textBlock.classList.remove('current-text');
-                }
-                let textBlock = document.getElementById('text-block-' + index);
-                textBlock.classList.add('current-text');
-                if (index != currentTextBlock) {
-                    // Only scroll if we're outside the scroll buffer period
-                    if (Date.now() - lastManualScroll > SCROLL_BUFFER_MS) {
-                        textBlock.scrollIntoView({ block: "nearest" });
-                    }
-                }
-                currentTextBlock = index;
-                for (let element of document.querySelectorAll('.active-speaker')) {
-                    element.classList.remove('active-speaker');
-                }
-                let interactionIndex = binarySearch(interactionStartTimes, audio.currentTime);
-                try {
-                    let interactionImg = document.getElementById('interaction-' + interactionIndex);
-                    interactionImg.classList.add('active-speaker');
-                } catch (error) {
-                    // no interaction at this time, because it's a virtual interaction
-                    // i.e. the start of a section
-                }
-                if (textBlock.parentElement.classList.contains('text-blocks-advocate')) {
-                    textBlock.parentElement.parentElement.parentElement.parentElement.querySelector('.advocate').classList.add('active-speaker');
-                }
+            is_decided = true;
+            break;
+        }
+    }
+
+    processed.dates = `Argued on ${argued_date}.` + (is_decided ? `\nDecided on ${decided_date}.` : '');
+
+    const docket_number = case_metadata.docket_number;
+    const wikipedia_url = `https://en.wikipedia.org/wiki/${case_metadata.name.replace(/ /g, '_')}`;
+
+    let docket_text = "";
+    try {
+        if (parseInt(case_metadata.term) >= 2001) {
+            docket_text = `Docket: https://www.supremecourt.gov/docket/docketfiles/html/public/${docket_number}.html\n`;
+        }
+    } catch (e) {
+        // ignore parse errors
+    }
+
+    let parties_text = `*${case_metadata.first_party_label}:* ${case_metadata.first_party}\n`;
+    if (case_metadata.second_party) {
+        parties_text += `*${case_metadata.second_party_label}:* ${case_metadata.second_party}`;
+    }
+
+    const advocates_list = Object.values(advocates)
+        .map(adv => `- ${adv.name} (${adv.description})`)
+        .join('\n');
+
+    let conclusion_text = "";
+    if (is_decided) {
+        conclusion_text = `\n*Conclusion*\n${case_metadata.conclusion}`;
+    }
+
+    let facts = "";
+    if (case_metadata.facts_of_the_case) {
+        facts = `\n*Facts of the case (from oyez.org)*\n${case_metadata.facts_of_the_case}\n`;
+    }
+
+    const description = `Oral argument audio (including transcript) of case 
+  [${docket_number}] *${case_metadata.name}*
+  argued at the Supreme Court of the United States on ${argued_date}.
+  
+  *More information about the case:*
+  ${wikipedia_url}
+  Justia: ${case_metadata.justia_url}
+  ${docket_text}Oyez.org: ${case_metadata.href.replace('api.', 'www.')}
+  
+  This website produced based on information and transcripts on oyez.org, licensed under a CC-BY-NC License (https://creativecommons.org/licenses/by-nc/4.0/).
+  Not affiliated with oyez.org or the Supreme Court.
+  
+  ${processed.dates}
+  ${parties_text}
+  *Advocates:* 
+  ${advocates_list}
+  ${facts}*Question*
+  ${case_metadata.question || ''}
+  ${conclusion_text}`;
+
+    processed.description = description;
+    processed.term = case_metadata.term;
+
+    // Return the desired objects
+    return {
+        case_metadata,
+        mp3_url,
+        oral_argument_transcript,
+        processed
+    };
+}
+
+// do things we can do before audio is loaded
+function earlySetUpCase(case_metadata) {
+    document.getElementById('case-name').innerHTML = case_metadata.name;
+    document.getElementById('docket-number').innerHTML = "[" + case_metadata.docket_number + "]";
+    buildBench(case_metadata);
+
+    let argued_time;
+    for (const date of case_metadata.timeline) {
+        if (date.event === "Argued") {
+            argued_time = date.dates[0];
+            break;
+        }
+    }
+    const argued_date = new Date(argued_time * 1000).toLocaleDateString('en-US', {
+        month: 'short', day: 'numeric', year: 'numeric'
+    });
+    let decided_date = null;
+    let is_decided = false;
+    for (const date of case_metadata.timeline) {
+        if (date.event === "Decided") {
+            decided_date = new Date(date.dates[0] * 1000).toLocaleDateString('en-US', {
+                month: 'short', day: 'numeric', year: 'numeric'
             });
+            is_decided = true;
+            break;
+        }
+    }
+
+    document.getElementById('subtitle').innerHTML = `Argued on ${argued_date}.` + (is_decided ? `\nDecided on ${decided_date}.` : '');
+
+    document.body.style.visibility = "visible";
+}
+
+async function setUpCase(data) {
+    case_data = data.case_metadata;
+    const caseNumber = case_data.ID;
+    audio_data = data.oral_argument_transcript;
+    interactions_data = data.processed;
+    sectionsObject = audio_data.transcript.sections;
+    // let hasAnnouncements = interactions_data.announcements.length > 0;
+    // if (hasAnnouncements) {
+    //     // for each announcement, load its json (filename: announcement["json"])
+    //     Promise.all(interactions_data.announcements.map(announcement =>
+    //         fetch(`./json/${announcement.json}`).then(response => response.json()))).then(
+    //             (announcementsJsons) => { announcements = announcementsJsons; }
+    //         );
+    // }
+    // number all text blocks
+    let textBlockNumber = 0;
+    for (let section of sectionsObject) {
+        for (let turn of section.turns) {
+            for (let block of turn.text_blocks) {
+                block.number = textBlockNumber;
+                textBlockNumber++;
+                textBlockStartTimes.push(block.start);
+            }
+        }
+    }
+    // number all interactions
+    let interactionNumber = 0;
+    for (let sectionNum in interactions_data.sections) {
+        let section = interactions_data.sections[sectionNum];
+        interactionNumber++; // virtual interaction for start of section
+        interactionStartTimes.push(section.sectionStartTime);
+        for (let interaction of section.interactions) {
+            interaction.number = interactionNumber;
+            interactionNumber++;
+            interactionStartTimes.push(interaction.startTime);
+        }
+    }
+
+    for (let i = 0; i < sectionsObject.length; i++) {
+        await setUpSection(i);
+    }
+
+    // make chapter markers
+    const chapters = [];
+    for (let [sectionIndex, section] of sectionsObject.entries()) {
+        // figure out who is speaking
+        let speaker;
+
+        // find first non-justice speaker
+        for (const turn of section.turns) {
+            if (!justices.includes(turn.speaker.identifier)) {
+                speaker = turn.speaker;
+                break;
+            }
+        }
+
+        if (!speaker) {
+            throw new Error(`No advocate found in section ${sectionIndex}`);
+        }
+
+        // Create chapter marker
+        if (sectionIndex === sectionsObject.length - 1 && speaker.name === chapters[0].title) {
+            chapters.push({
+                text: `Rebuttal: ${speaker.name}`,
+                startTime: section.turns[0].start
+            });
+        } else if (sectionIndex > 0) {
+            chapters.push({
+                text: speaker.name,
+                startTime: section.turns[0].start
+            });
+        } else {
+            chapters.push({
+                text: speaker.name,
+                startTime: 0  // YouTube requires first chapter to start at 0
+            });
+        }
+    }
+    // add end times for each chapter
+    for (let i = 0; i < chapters.length - 1; i++) {
+        chapters[i].endTime = chapters[i + 1].startTime;
+    }
+    chapters[chapters.length - 1].endTime = sectionsObject[sectionsObject.length - 1].stop + 10;
+
+    // fetch the mp3
+    // fetch(data.mp3_url).then(response => response.blob()).then(async blob => {
+    //     let objectURL = URL.createObjectURL(blob);
+        let timeUpdateEventName = 'timeupdate';
+        try {
+            const player = await VidstackPlayer.create({
+                target: '#player',
+                title: case_data.name,
+                // src: { src: objectURL, type: 'audio/mp3' },
+                src: { src: data.mp3_url, type: 'audio/mp3' },
+                layout: new VidstackPlayerLayout({
+                }),
+            });
+            audio = player;
+            player.textTracks.add({
+                type: 'json',
+                label: 'Chapters',
+                kind: 'chapters',
+                language: 'en-US',
+                default: true,
+                content: { cues: chapters }
+            });
+            timeUpdateEventName = 'time-update';
+        } catch (error) {
+            console.error(error);
+            // audio.src = objectURL;
+        }
+
+        player.addEventListener('mouseover', function () {
+            resetScrollBuffer();
         });
 
-        document.querySelectorAll('*[data-start]').forEach(element => {
-            element.addEventListener('click', function () {
-                console.log(element.id, parseFloat(element.dataset.start));
-                resetScrollBuffer();
-                audio.currentTime = parseFloat(element.dataset.start);
-                audio.play();
-            });
+        player.addEventListener(timeUpdateEventName, function () {
+            let index = binarySearch(textBlockStartTimes, audio.currentTime + 0.0001);
+            for (let textBlock of document.querySelectorAll('.current-text')) {
+                textBlock.classList.remove('current-text');
+            }
+            let textBlock = document.getElementById('text-block-' + index);
+            textBlock.classList.add('current-text');
+            if (index != currentTextBlock) {
+                // Only scroll if we're outside the scroll buffer period
+                if (Date.now() - lastManualScroll > SCROLL_BUFFER_MS) {
+                    textBlock.scrollIntoView({ block: "nearest" });
+                }
+            }
+            currentTextBlock = index;
+            for (let element of document.querySelectorAll('.active-speaker')) {
+                element.classList.remove('active-speaker');
+            }
+            let interactionIndex = binarySearch(interactionStartTimes, audio.currentTime);
+            try {
+                let interactionImg = document.getElementById('interaction-' + interactionIndex);
+                interactionImg.classList.add('active-speaker');
+            } catch (error) {
+                // no interaction at this time, because it's a virtual interaction
+                // i.e. the start of a section
+            }
+            if (textBlock.parentElement.classList.contains('text-blocks-advocate')) {
+                textBlock.parentElement.parentElement.parentElement.parentElement.querySelector('.advocate').classList.add('active-speaker');
+            }
+        // });
+    });
+
+    document.querySelectorAll('*[data-start]').forEach(element => {
+        element.addEventListener('click', function () {
+            resetScrollBuffer();
+            audio.currentTime = parseFloat(element.dataset.start);
+            audio.play();
         });
     });
 }
@@ -281,11 +489,40 @@ function buildBench(data) {
     }
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    // get case number from GET parameter (e.g. ?case=19-46)
-    let urlParams = new URLSearchParams(window.location.search);
-    let caseNumber = urlParams.get('case');
-    setUpCase(caseNumber);
+document.addEventListener('DOMContentLoaded', async function () {
+    try {
+        const params = new URLSearchParams(window.location.search);
+        const match = window.location.pathname.match(/\/web\/([^/]+)\/([^/]+)/);
+        const caseNumber = match ? match[1] + '/' + match[2] : params.get('case');
+        if (!caseNumber) throw new Error('No case specified');
+        const [term, docket] = caseNumber.split('/').map(decodeURIComponent);
+        const recordingId = params.get('recording') || '';
+        let recording;
+        try { recording = await sharedRecording(term, docket, recordingId); }
+        catch (error) { if (recordingId) throw error; console.warn('Shared transcript unavailable; trying Oyez', error); }
+        if (recordingId && !recording) throw new Error('Requested recording not found');
+        let case_metadata, alignedTranscript = null;
+        if (recording) {
+            const original = await fetch('https://api.oyez.org/cases/' + term + '/' + docket, {signal: AbortSignal.timeout(3000)})
+                .then(r => r.ok ? r.json() : null).catch(() => null);
+            const adapted = adaptRecording(recording, original, defaultCourt);
+            case_metadata = adapted.metadata; alignedTranscript = adapted.transcript;
+        } else {
+            case_metadata = await fetchJSON('https://api.oyez.org/cases/' + caseNumber);
+        }
+        case_metadata.docket_number = case_metadata.docket_number.trim();
+        earlySetUpCase(case_metadata);
+        await setUpCase(await getCaseData(case_metadata, alignedTranscript));
+        document.body.dataset.transcriptSource = recording ? 'scotus_ctc' : 'oyez';
+        const acknowledgement = document.querySelector('.acknowledgement');
+        if (recording && acknowledgement) acknowledgement.textContent =
+            (case_metadata.oyez_metadata ? 'Case information: Oyez.org. ' : '') + 'Audio and transcript: Supreme Court of the United States.';
+    } catch (error) {
+        console.error(error);
+        document.body.style.visibility = 'visible';
+        document.getElementById('case-name').textContent = 'Unable to load this recording';
+        document.getElementById('subtitle').textContent = 'Please reload to try again.';
+    }
 });
 
 
@@ -316,13 +553,14 @@ function showSplash() {
         facts.innerHTML = case_data.facts_of_the_case;
         caseInfo.appendChild(facts);
     }
-    h2 = document.createElement('h2');
+    let h2 = document.createElement('h2');
     h2.innerHTML = "Question";
     caseInfo.appendChild(h2);
     let question = document.createElement('div');
     question.id = "question";
     question.className = "oyez-text";
     question.innerHTML = case_data.question;
+    if (!case_data.question) h2.style.display = question.style.display = "none";
     caseInfo.appendChild(question);
     let ack = document.querySelector(".acknowledgement");
     ack.style.visibility = "visible";
@@ -454,7 +692,7 @@ async function buildAdvocateProfile(sectionNumber, conversationDiv) {
     let sectionInfo = interactions_data.sections[sectionNumber];
     advocateName.innerHTML = "<span>" + sectionInfo.advocateName + "</span>";
     advocateDescription.innerHTML = sectionInfo.advocateDescription;
-    
+
     const imgURL = "advocates/" + sectionInfo.advocateIdentifier + ".jpg";
     try {
         const response = await fetch(imgURL);
@@ -497,7 +735,6 @@ function loadOpinionAnnouncement(opinionNumber) {
     document.querySelector("div.transcript").style.paddingLeft = "80px";
     document.querySelector("div.transcript").style.paddingRight = "160px";
     announcementMode = true;
-    mp3length = parseInt(interactions_data.announcements[opinionNumber]["mp3_length"]);
     setUpSection(0);
 }
 
