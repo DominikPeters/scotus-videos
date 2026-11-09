@@ -1,0 +1,28 @@
+{
+  "identity_verified": true,
+  "name": "Joshua M. Wesneski",
+  "docket": "25-417",
+  "source_url": "https://www.weil.com/people/joshua-wesneski",
+  "identity_source_url": "https://www.weil.com/people/joshua-wesneski",
+  "kind": "photo",
+  "approval": "owner dashboard approval",
+  "recording": "2026-11-09-25-417-argument-1",
+  "source_sha256": "51f422cbb9ecf911a054fea1fbfd4325b5eb4330e424823a8382675b9f1a9a93",
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "size": 255,
+    "source_width": 255,
+    "source_height": 255,
+    "method": "codex-vision",
+    "model": "gpt-6.1-sol",
+    "preview_box": {
+      "x": 0,
+      "y": 0,
+      "size": 255
+    },
+    "preview_width": 255,
+    "preview_height": 255
+  },
+  "sha256": "e835f0a8418798d1ae5c3760c40c5e6d8dedbf93826e16f857fd70fda89aea27"
+}
